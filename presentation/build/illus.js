@@ -94,154 +94,244 @@ const txt = (x, y, s, t, col = "navy", anchor = "middle", weight = "normal", ext
   `<text x="${x}" y="${y}" font-size="${s}" fill="${c(col)}" text-anchor="${anchor}" font-weight="${weight}" ${extra}>${String(t).replace(/&(?!amp;)/g, "&amp;")}</text>`;
 function rng(seed) { let s = seed; return () => (s = (s * 16807) % 2147483647) / 2147483647; }
 
-// ---------- TALK (clean scientific) ----------
-function hookCrowd() {
-  const W = 800, H = 700, r = rng(7);
-  let bg = "";
-  for (let i = 0; i < 70; i++) bg += bacterium(40 + r() * 720, 40 + r() * 620, 30 + r() * 30, r() * 180, "mist", "line");
-  for (let i = 0; i < 90; i++) bg += `<circle cx="${r() * W}" cy="${r() * H}" r="${3 + r() * 9}" fill="${c("brownL")}" opacity="${0.35 + r() * 0.4}"/>`;
-  let lens = "";
-  const r2 = rng(3);
-  for (let i = 0; i < 24; i++) lens += bacterium(250 + r2() * 300, 200 + r2() * 300, 40 + r2() * 25, r2() * 180, "tealXL", "tealL");
-  for (let i = 0; i < 40; i++) lens += `<circle cx="${230 + r2() * 340}" cy="${180 + r2() * 340}" r="${4 + r2() * 9}" fill="${c("brownL")}"/>`;
-  lens += virus(345, 300, 22) + virus(470, 400, 18) + virus(380, 450, 15);
-  return wrap(W, H, `<defs><clipPath id="cl"><circle cx="400" cy="350" r="190"/></clipPath></defs>${bg}
-  <circle cx="400" cy="350" r="190" fill="#fff"/><g clip-path="url(#cl)">${lens}</g>
-  <circle cx="400" cy="350" r="190" fill="none" stroke="${c("navy")}" stroke-width="18"/>
-  <line x1="535" y1="485" x2="660" y2="610" stroke="${c("navy")}" stroke-width="34" stroke-linecap="round"/>`);
-}
 
-function recapTimeline() {
-  const W = 1220, H = 420;
-  const row = (y, label, steps, total, col, sub) => {
-    let s = txt(20, y - 50, 30, label, col, "start", "bold");
-    s += `<rect x="20" y="${y - 12}" width="1000" height="24" rx="12" fill="${c("mist")}"/>`;
-    let x = 20;
-    steps.forEach(([w, name, fill]) => {
-      s += `<rect x="${x}" y="${y - 12}" width="${w}" height="24" rx="12" fill="${c(fill)}"/>`;
-      s += txt(x + w / 2, y + 48, 22, name, "slate");
-      x += w;
-    });
-    s += txt(1040, y + 12, 36, total, col, "start", "bold");
-    if (sub) s += txt(20, y + 85, 20, sub, "slate", "start", "normal", `font-style="italic"`);
-    return s;
-  };
-  return wrap(W, H, row(110, "Today: central-lab PCR panel", [[160, "sample", "slate"], [520, "transport + lab + report", "coralL"], [180, "release", "slate"]], "days", "coral", "a snapshot: the result describes the sample, not the next donation") +
-    row(310, "Goal: rapid test at donation", [[160, "sample", "teal"], [70, "", "tealL"]], "~15 min", "teal", ""));
+// ---------- shared small parts ----------
+// Diffuse counterion atmosphere: a cloud of small "+" marks, denser near the strand.
+function ionCloud(cx, cy, rx, ry, n, seed, col = "coral", size = 9) {
+  const r = rng(seed); let s = "";
+  for (let i = 0; i < n; i++) {
+    const a = r() * Math.PI * 2, u = Math.sqrt(r());
+    const x = cx + Math.cos(a) * rx * u, y = cy + Math.sin(a) * ry * u;
+    const o = 0.85 - u * 0.5;
+    s += `<g opacity="${o.toFixed(2)}"><line x1="${x - size / 2}" y1="${y}" x2="${x + size / 2}" y2="${y}" stroke="${c(col)}" stroke-width="${size * 0.3}" stroke-linecap="round"/><line x1="${x}" y1="${y - size / 2}" x2="${x}" y2="${y + size / 2}" stroke="${c(col)}" stroke-width="${size * 0.3}" stroke-linecap="round"/></g>`;
+  }
+  return s;
 }
-
-function antibodyVsAptamer() {
-  const W = 900, H = 420;
-  const card = (x, title, fig, lines, col) => {
-    let s = `<rect x="${x}" y="10" width="420" height="400" rx="24" fill="${c(col === "violet" ? "mist" : "tealXL")}"/>`;
-    s += txt(x + 210, 62, 34, title, col, "middle", "bold") + fig;
-    lines.forEach((l, i) => (s += txt(x + 40, 290 + i * 34, 23, l, "navy", "start")));
-    return s;
-  };
-  return wrap(W, H, card(10, "Antibody", antibody(220, 175, 120), ["• protein, made in animals/cells", "• batch-to-batch variation", "• heat-sensitive"], "violet") +
-    card(470, "Aptamer", aptamer(680, 185, 110, "teal", 0), ["• short DNA/RNA, made chemically", "• identical every batch, cheap", "• stable, easy to label & tune"], "teal"));
+const minus = (x, y, size = 9, col = "teal") =>
+  `<line x1="${x - size / 2}" y1="${y}" x2="${x + size / 2}" y2="${y}" stroke="${c(col)}" stroke-width="${size * 0.32}" stroke-linecap="round"/>`;
+// Norovirus-like particle with a positively charged patch.
+function noro(x, y, r, opts = {}) {
+  let s = virus(x, y, r, opts.fill || "coralL", "navy", opts.face);
+  if (opts.patch) {
+    s += `<path d="M${x + r * 0.15} ${y - r * 0.95} a ${r} ${r} 0 0 1 ${r * 0.82} ${r * 0.62} z" fill="${c("violet")}" opacity="0.85"/>`;
+    for (let i = 0; i < 3; i++) s += `<g><line x1="${x + r * 0.3 + i * r * 0.22}" y1="${y - r * 0.6 + i * r * 0.1}" x2="${x + r * 0.46 + i * r * 0.22}" y2="${y - r * 0.6 + i * r * 0.1}" stroke="#fff" stroke-width="${r * 0.07}"/><line x1="${x + r * 0.38 + i * r * 0.22}" y1="${y - r * 0.68 + i * r * 0.1}" x2="${x + r * 0.38 + i * r * 0.22}" y2="${y - r * 0.52 + i * r * 0.1}" stroke="#fff" stroke-width="${r * 0.07}"/></g>`;
+  }
+  return s;
 }
+const person = (x, y, s, col = "teal") => {
+  const k = s / 100;
+  return `<g transform="translate(${x} ${y})"><circle cx="0" cy="${-28 * k}" r="${18 * k}" fill="${c(col)}"/><path d="M${-26 * k} ${22 * k} q 0 ${-32 * k} ${26 * k} ${-32 * k} q ${26 * k} 0 ${26 * k} ${32 * k} z" fill="${c(col)}"/></g>`;
+};
 
-function wp1Calendar() {
-  const W = 1000, H = 520, donors = ["Donor A", "Donor B", "Donor C", "Donor D"], tp = 6;
-  let s = "";
-  for (let j = 0; j < tp; j++) s += txt(240 + j * 125, 40, 24, `t${j + 1}`, "slate", "middle", "bold");
-  s += arrow(180, 490, 960, 490, "slate", 4) + txt(960, 480, 22, "time (weeks / months)", "slate", "end");
-  donors.forEach((d, i) => {
-    const y = 110 + i * 95;
-    s += `<circle cx="40" cy="${y}" r="24" fill="${c("teal")}"/><circle cx="40" cy="${y - 8}" r="8" fill="#fff"/><path d="M26 ${y + 14} q 14 -18 28 0" fill="#fff"/>`;
-    s += txt(75, y + 8, 24, d, "navy", "start");
-    for (let j = 0; j < tp; j++) s += tube(240 + j * 125, y - 5, 70, "brownL");
-  });
-  return wrap(W, H, s);
-}
-
-function wp1Hypothesis() {
-  const W = 1000, H = 420;
-  const states = [0, 1, 1, 0, 0, 1, 0, 0];
-  let s = txt(20, 40, 26, "Hypothetical example — one donor, repeated sampling", "slate", "start", "normal", `font-style="italic"`);
-  s += `<line x1="60" y1="250" x2="960" y2="250" stroke="${c("line")}" stroke-width="6" stroke-dasharray="14 10"/>`;
-  states.forEach((v, i) => {
-    const x = 90 + i * 118;
-    s += `<circle cx="${x}" cy="250" r="44" fill="${v ? c("coralL") : c("tealXL")}" stroke="${v ? c("coral") : c("teal")}" stroke-width="4"/>`;
-    s += v ? virus(x, 250, 18) : `<path d="M${x - 16} 252 l 11 12 l 22 -26" stroke="${c("teal")}" stroke-width="7" fill="none" stroke-linecap="round"/>`;
-    s += txt(x, 330, 22, `wk ${i * 2}`, "slate");
-    s += txt(x, 180, 20, v ? "virus +" : "negative", v ? "coral" : "teal", "middle", "bold");
-  });
-  s += `<rect x="60" y="370" width="22" height="22" rx="4" fill="${c("tealXL")}" stroke="${c("teal")}" stroke-width="3"/>` + txt(95, 389, 20, "screening negative", "slate", "start");
-  s += `<rect x="330" y="370" width="22" height="22" rx="4" fill="${c("coralL")}" stroke="${c("coral")}" stroke-width="3"/>` + txt(365, 389, 20, "enteric virus detected", "slate", "start");
-  return wrap(W, H, s);
-}
-
-function aptamerLineup() {
-  const W = 1000, H = 440;
-  let s = "";
-  ["A", "B", "C", "D"].forEach((n, i) => {
-    const x = 90 + i * 150;
-    s += `<rect x="${x - 65}" y="20" width="130" height="300" rx="20" fill="${c("mist")}"/>`;
-    s += aptamer(x, 175, 115, ["teal", "navy", "violet", "coral"][i], i);
-    s += txt(x, 300, 26, `Apt-${n}`, "navy", "middle", "bold");
-  });
-  s += txt(330, 390, 24, "same target · different sequences, folds and origins", "slate", "middle", "normal", `font-style="italic"`);
-  // buffer vs stool
-  s += tube(760, 170, 150, "tealXL") + txt(760, 300, 26, "buffer", "teal", "middle", "bold");
-  s += tube(910, 170, 150, "brown") + txt(910, 300, 26, "stool", "brown", "middle", "bold");
-  s += txt(835, 160, 34, "vs", "slate", "middle", "bold");
-  return wrap(W, H, s);
-}
-
-// Microplate well cross-section with an aptamer-based sandwich.
-function elisaWell(problems = false) {
-  const W = 900, H = 560;
-  let s = `<path d="M80 60 L80 430 Q80 500 150 500 L750 500 Q820 500 820 430 L820 60" fill="${c("mist")}" stroke="${c("slate")}" stroke-width="10"/>`;
-  s += `<rect x="90" y="420" width="720" height="70" fill="${c("tealXL")}" opacity="0.5"/>`;
-  s += `<line x1="90" y1="490" x2="810" y2="490" stroke="${c("navy")}" stroke-width="8"/>`;
-  // coated target protein blobs
-  for (let i = 0; i < 6; i++) {
-    const x = 160 + i * 115;
-    s += `<ellipse cx="${x}" cy="462" rx="42" ry="26" fill="${c("coral")}" stroke="${c("navy")}" stroke-width="3"/>`;
-    if (i % 2 === 0 || !problems) {
-      s += aptamer(x, 362, 70, "teal", 0, { rot: 180 });
-      s += `<circle cx="${x}" cy="300" r="10" fill="${c("navy")}"/>`; // biotin
-      s += `<rect x="${x - 24}" y="248" width="48" height="40" rx="10" fill="${c("sun")}" stroke="${c("navy")}" stroke-width="3"/>`;
-      s += txt(x, 275, 18, "HRP", "navy", "middle", "bold");
-      s += `<path d="M${x} 240 q -10 -30 0 -60 q 10 -30 0 -60" stroke="${c("teal")}" stroke-width="4" fill="none" stroke-dasharray="6 6"/>`;
+// ---------- TALK ----------
+// Slide 1 + 14: donor -> donations -> patient, with today's donation unlabelled.
+function donationChain() {
+  const W = 1150, H = 460;
+  let s = person(90, 230, 150, "teal") + txt(90, 340, 26, "donor", "slate");
+  for (let i = 0; i < 4; i++) {
+    const x = 330 + i * 150, today = i === 2;
+    s += tube(x, 215, 110, today ? "brownL" : "brownL");
+    if (today) {
+      s += `<circle cx="${x}" cy="215" r="88" fill="none" stroke="${c("coral")}" stroke-width="7" stroke-dasharray="16 12"/>`;
+      s += txt(x, 355, 26, "today", "coral", "middle", "bold");
+      s += txt(x, 100, 60, "?", "coral", "middle", "bold");
     }
   }
-  s += `<rect x="90" y="60" width="720" height="70" fill="${c("teal")}" opacity="${problems ? 0.15 : 0.35}"/>`;
-  s += txt(450, 108, 26, problems ? "weak / patchy colour" : "TMB → blue colour", "navy", "middle", "bold");
+  s += arrow(200, 215, 270, 215, "slate", 5) + arrow(950, 215, 1020, 215, "slate", 5);
+  s += person(1085, 230, 150, "violet") + txt(1085, 340, 26, "patient", "slate");
   return wrap(W, H, s);
 }
 
+// Slide 2: the donation cannot be sterilised.
+function activeIngredient() {
+  const W = 900, H = 420, r = rng(11);
+  let s = `<rect x="40" y="60" width="380" height="300" rx="30" fill="${c("tealXL")}" stroke="${c("teal")}" stroke-width="6"/>`;
+  for (let i = 0; i < 26; i++) s += bacterium(80 + r() * 300, 100 + r() * 220, 40 + r() * 26, r() * 180, "white", "teal");
+  s += txt(230, 395, 26, "living microbial community", "teal", "middle", "bold");
+  s += arrow(450, 210, 530, 210, "slate", 6);
+  s += `<rect x="560" y="60" width="300" height="300" rx="30" fill="${c("mist")}" stroke="${c("line")}" stroke-width="6"/>`;
+  s += `<g opacity="0.3">`;
+  for (let i = 0; i < 18; i++) s += bacterium(590 + r() * 240, 100 + r() * 220, 40, r() * 180, "line", "slate");
+  s += `</g>`;
+  s += `<line x1="600" y1="100" x2="820" y2="320" stroke="${c("coral")}" stroke-width="14" stroke-linecap="round"/><line x1="820" y1="100" x2="600" y2="320" stroke="${c("coral")}" stroke-width="14" stroke-linecap="round"/>`;
+  s += txt(710, 395, 26, "cannot be sterilised", "coral", "middle", "bold");
+  return wrap(W, H, s);
+}
+
+// Slide 3: the screening interval, with a shedding episode inside it.
+function screeningGap() {
+  const W = 1250, H = 600;
+  const y0 = 300, x0 = 110, x1 = 1140;
+  let s = "";
+  // shedding curve rising and falling inside the interval
+  s += `<path d="M${x0} ${y0} L 430 ${y0} C 520 ${y0}, 540 120, 650 120 C 760 120, 790 ${y0}, 880 ${y0} L ${x1} ${y0}" fill="${c("coralL")}" fill-opacity="0.55" stroke="${c("coral")}" stroke-width="6"/>`;
+  s += `<line x1="${x0}" y1="${y0}" x2="${x1}" y2="${y0}" stroke="${c("navy")}" stroke-width="6"/>`;
+  // screening bookends
+  [[x0, "screened"], [x1, "re-assessed"]].forEach(([x, l]) => {
+    s += `<line x1="${x}" y1="100" x2="${x}" y2="${y0 + 40}" stroke="${c("teal")}" stroke-width="7"/>`;
+    s += `<circle cx="${x}" cy="90" r="26" fill="${c("teal")}"/><path d="M${x - 12} 90 l 8 10 l 17 -20" stroke="#fff" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>`;
+    s += txt(x, 58, 26, l, "teal", "middle", "bold");
+  });
+  // donations
+  for (let i = 0; i < 7; i++) {
+    const x = 190 + i * 140, hot = x > 470 && x < 850;
+    s += tube(x, y0 + 105, 82, "brownL");
+    if (hot) s += `<circle cx="${x}" cy="${y0 + 105}" r="62" fill="none" stroke="${c("coral")}" stroke-width="6" stroke-dasharray="12 9"/>`;
+  }
+  s += txt(625, 500, 26, "donations made between the two tests", "slate");
+  s += txt(650, 95, 28, "acquires virus → sheds → recovers", "coral", "middle", "bold");
+  s += txt(625, 556, 28, "possibly without symptoms", "coral", "middle", "bold", `font-style="italic"`);
+  return wrap(W, H, s);
+}
+
+// Slide 5: triage funnel - flags for confirmation, never clears a donation.
+function triageFunnel() {
+  const W = 1000, H = 620;
+  let s = "";
+  for (let i = 0; i < 8; i++) s += tube(95 + (i % 4) * 70, 90 + Math.floor(i / 4) * 115, 72, "brownL");
+  s += txt(200, 290, 26, "every donation", "slate", "middle", "bold");
+  s += arrow(330, 140, 420, 140, "slate", 5);
+  s += `<rect x="440" y="60" width="300" height="160" rx="24" fill="${c("teal")}"/>`;
+  s += txt(590, 125, 32, "rapid test", "white", "middle", "bold");
+  s += txt(590, 170, 24, "minutes, at the bank", "tealXL");
+  s += arrow(760, 110, 840, 85, "coral", 5) + arrow(760, 175, 840, 215, "teal", 5);
+  s += `<rect x="845" y="38" width="150" height="96" rx="18" fill="${c("coralL")}" stroke="${c("coral")}" stroke-width="5"/>`;
+  s += txt(920, 78, 24, "flagged", "coral", "middle", "bold") + txt(920, 110, 22, "→ RT-qPCR", "navy");
+  s += `<rect x="845" y="170" width="150" height="96" rx="18" fill="${c("mist")}" stroke="${c("line")}" stroke-width="5"/>`;
+  s += txt(920, 208, 24, "not flagged", "slate", "middle", "bold") + txt(920, 240, 22, "→ usual route", "slate");
+  // the honest caveat
+  s += `<rect x="60" y="400" width="880" height="170" rx="26" fill="${c("navy")}"/>`;
+  s += txt(500, 462, 34, "Triage, not a verdict", "sun", "middle", "bold");
+  s += txt(500, 512, 27, "it narrows the window where an infected donation goes unnoticed —", "white");
+  s += txt(500, 548, 27, "it never declares a donation safe on its own", "white");
+  return wrap(W, H, s);
+}
+
+// Slide 6: why norovirus.
+function norovirusFacts() {
+  const W = 1180, H = 470;
+  const items = [
+    ["very low", "infectious dose", "coral"],
+    ["huge", "shedding titres", "violet"],
+    ["silent", "shedding without symptoms", "sun"],
+    ["prolonged", "in immuno- compromised hosts", "teal"],
+  ];
+  let s = noro(145, 215, 95, { patch: false, fill: "coralL" });
+  s += txt(145, 390, 30, "norovirus", "navy", "middle", "bold");
+  items.forEach(([big, small, col], i) => {
+    const x = 310 + i * 218;
+    s += `<rect x="${x}" y="70" width="196" height="320" rx="24" fill="${c("mist")}"/>`;
+    s += txt(x + 98, 185, 42, big, col, "middle", "bold");
+    const words = small.split(" "); let line = "", lines = [];
+    words.forEach((w) => { if ((line + w).length > 14) { lines.push(line); line = w + " "; } else line += w + " "; });
+    lines.push(line);
+    lines.forEach((l, j) => (s += txt(x + 98, 245 + j * 34, 24, l.trim(), "navy")));
+  });
+  return wrap(W, H, s);
+}
+
+// Slide 8: WP1 sampling across one interval.
+function wp1Sampling() {
+  const W = 1050, H = 470;
+  let s = person(80, 180, 140, "teal") + txt(80, 285, 24, "same donor", "slate");
+  s += `<line x1="200" y1="180" x2="1010" y2="180" stroke="${c("navy")}" stroke-width="6"/>`;
+  for (let i = 0; i < 6; i++) {
+    const x = 270 + i * 145;
+    s += tube(x, 180, 92, "brownL");
+    s += `<line x1="${x}" y1="245" x2="${x}" y2="300" stroke="${c("line")}" stroke-width="4"/>`;
+    s += `<rect x="${x - 46}" y="305" width="92" height="${30 + (i % 3) * 22}" rx="6" fill="${c(["teal", "coral", "violet"][i % 3])}" opacity="0.8"/>`;
+  }
+  s += txt(605, 420, 26, "viral diversity measured at each point", "slate");
+  s += txt(605, 100, 28, "one screening interval", "teal", "middle", "bold");
+  s += `<path d="M270 138 L 270 118 L 995 118 L 995 138" fill="none" stroke="${c("teal")}" stroke-width="5"/>`;
+  return wrap(W, H, s);
+}
+
+// Slide 9: six candidate aptamers.
+function sixAptamers() {
+  const W = 1250, H = 330;
+  let s = "";
+  const cols = ["teal", "navy", "violet", "coral", "teal", "violet"];
+  for (let i = 0; i < 6; i++) {
+    const x = 105 + i * 208;
+    s += `<rect x="${x - 88}" y="20" width="176" height="230" rx="22" fill="${c("mist")}"/>`;
+    s += aptamer(x, 150, 100, cols[i], i % 4);
+    s += txt(x, 290, 28, `Apt-${i + 1}`, "navy", "middle", "bold");
+  }
+  return wrap(W, H, s);
+}
+
+// Slide 10: three target models.
+function targetModels() {
+  const W = 1150, H = 420;
+  const panels = [
+    ["Virus-like particle", "capsid, no genome", (x) => noro(x, 175, 92, { fill: "coralL" })],
+    ["Recombinant capsid protein", "the binding domain alone", (x) => `<path d="M${x - 70} 175 q 0 -80 70 -72 q 78 -12 72 66 q 12 78 -72 72 q -78 6 -70 -66z" fill="${c("violet")}" opacity="0.35" stroke="${c("violet")}" stroke-width="6"/>`],
+    ["Murine norovirus", "a real, infectious virus", (x) => noro(x, 175, 92, { fill: "tealXL" }) + `<g transform="translate(${x + 70} 248)"><ellipse cx="0" cy="0" rx="34" ry="20" fill="${c("slate")}"/><circle cx="-22" cy="-12" r="13" fill="${c("slate")}"/><path d="M26 -6 q 22 -14 30 2" stroke="${c("slate")}" stroke-width="6" fill="none"/></g>`],
+  ];
+  let s = "";
+  panels.forEach(([t, sub, f], i) => {
+    const x = 200 + i * 375;
+    s += `<rect x="${x - 175}" y="20" width="350" height="300" rx="26" fill="${c("mist")}"/>`;
+    s += f(x);
+    s += txt(x, 362, 27, t, "navy", "middle", "bold") + txt(x, 396, 23, sub, "slate");
+  });
+  return wrap(W, H, s);
+}
+
+// Slide 11: signal drops in stool - degraded or interfered with?
+function degradeVsInterfere() {
+  const W = 1150, H = 560;
+  let s = `<rect x="330" y="20" width="490" height="120" rx="26" fill="${c("navy")}"/>`;
+  s += txt(575, 78, 32, "signal drops in stool", "white", "middle", "bold");
+  s += txt(575, 118, 26, "why?", "sun", "middle", "bold");
+  s += arrow(470, 150, 300, 215, "slate", 5) + arrow(680, 150, 850, 215, "slate", 5);
+  // left: degradation
+  s += `<rect x="40" y="225" width="500" height="315" rx="26" fill="${c("coralL")}" fill-opacity="0.35" stroke="${c("coral")}" stroke-width="5"/>`;
+  s += txt(290, 275, 30, "Degraded", "coral", "middle", "bold");
+  s += `<path d="M110 370 q 30 -40 60 0 q 30 40 60 0" stroke="${c("teal")}" stroke-width="10" fill="none" stroke-linecap="round"/>`;
+  s += `<g stroke="${c("navy")}" stroke-width="5"><circle cx="300" cy="400" r="18" fill="${c("coralL")}"/><circle cx="350" cy="400" r="18" fill="${c("coralL")}"/><path d="M312 385 L 355 330 M338 385 L 295 330" stroke-width="11" stroke="${c("slate")}" stroke-linecap="round"/></g>`;
+  s += `<path d="M390 370 q 20 -30 45 0" stroke="${c("teal")}" stroke-width="10" fill="none" stroke-linecap="round" stroke-dasharray="14 12"/>`;
+  s += txt(290, 475, 25, "nucleases cut the aptamer", "navy") + txt(290, 510, 24, "test: integrity over time", "slate", "middle", "normal", `font-style="italic"`);
+  // right: interference
+  s += `<rect x="610" y="225" width="500" height="315" rx="26" fill="${c("tealXL")}" fill-opacity="0.5" stroke="${c("teal")}" stroke-width="5"/>`;
+  s += txt(860, 275, 30, "Interfered with", "teal", "middle", "bold");
+  s += aptamer(790, 395, 95, "teal", 0);
+  s += `<ellipse cx="880" cy="380" rx="50" ry="38" fill="${c("brownL")}" stroke="${c("brown")}" stroke-width="5"/>`;
+  s += `<ellipse cx="930" cy="425" rx="34" ry="26" fill="${c("sunL")}" stroke="${c("sun")}" stroke-width="5"/>`;
+  s += txt(860, 475, 25, "matrix blocks or competes", "navy") + txt(860, 510, 24, "test: spike-in & dilution", "slate", "middle", "normal", `font-style="italic"`);
+  return wrap(W, H, s);
+}
+
+// Slide 12 / poster: fluorescence polarization principle.
 function fpPrinciple() {
   const W = 1150, H = 540;
   const panel = (x, bound) => {
     let s = `<rect x="${x}" y="20" width="540" height="500" rx="26" fill="${c(bound ? "tealXL" : "mist")}"/>`;
-    s += txt(x + 270, 70, 30, bound ? "Bound to virus → slow tumbling" : "Free aptamer → fast tumbling", "navy", "middle", "bold");
-    // polarized light in
+    s += txt(x + 270, 70, 30, bound ? "Bound → slow tumbling" : "Free aptamer → fast tumbling", "navy", "middle", "bold");
     s += `<path d="M${x + 30} 270 ${[...Array(8)].map((_, i) => `q 9 ${i % 2 ? 26 : -26} 18 0`).join(" ")}" stroke="${c("sun")}" stroke-width="6" fill="none"/>`;
     s += arrow(x + 175, 270, x + 200, 270, "sun", 6);
     s += txt(x + 100, 220, 20, "polarized light", "slate");
     const cx = x + 300;
     if (bound) {
-      s += virus(cx, 270, 62, "coralL", "navy");
-      s += aptamer(cx + 32, 172, 55, "teal", 0, { dye: true, rot: 200 });
-      s += `<path d="M${cx - 95} 330 a 110 110 0 0 0 30 40" stroke="${c("slate")}" stroke-width="4" fill="none"/>` + arrow(cx - 70, 362, cx - 58, 372, "slate", 4);
+      s += noro(cx, 280, 62, { fill: "coralL" });
+      s += aptamer(cx + 32, 182, 55, "teal", 0, { dye: true, rot: 200 });
+      s += `<path d="M${cx - 95} 340 a 110 110 0 0 0 30 40" stroke="${c("slate")}" stroke-width="4" fill="none"/>` + arrow(cx - 70, 372, cx - 58, 382, "slate", 4);
     } else {
       s += aptamer(cx, 270, 80, "teal", 0, { dye: true });
       [0, 1, 2].forEach((i) => (s += `<path d="M${cx - 70 - i * 18} ${300 - i * 8} a ${80 + i * 18} ${80 + i * 18} 0 0 1 ${60} ${-140}" stroke="${c("slate")}" stroke-width="4" fill="none" opacity="${1 - i * 0.3}"/>`));
       s += arrow(cx + 40, 172, cx + 70, 182, "slate", 4);
     }
-    // emitted light
     const ex = x + 420;
     if (bound) s += `<path d="M${ex} 270 ${[...Array(5)].map((_, i) => `q 9 ${i % 2 ? 22 : -22} 18 0`).join(" ")}" stroke="${c("coral")}" stroke-width="6" fill="none"/>`;
     else ["-25", "0", "25"].forEach((d, i) => (s += `<g transform="rotate(${d} ${ex} 270)"><path d="M${ex} 270 ${[...Array(5)].map((_, j) => `q 9 ${(j + i) % 2 ? 14 : -14} 18 0`).join(" ")}" stroke="${c("coral")}" stroke-width="4" fill="none" opacity="0.8"/></g>`));
-    s += txt(x + 270, 460, 28, bound ? "light stays polarized → HIGH mP" : "light scrambled → LOW mP", bound ? "teal" : "coral", "middle", "bold");
+    s += txt(x + 270, 465, 28, bound ? "polarization HIGH" : "polarization LOW", bound ? "teal" : "coral", "middle", "bold");
     return s;
   };
   return wrap(W, H, panel(10, false) + panel(600, true));
 }
 
+// Slide 13: lateral flow strip.
 function lfaStrip() {
   const W = 1200, H = 420;
   let s = "";
@@ -253,122 +343,201 @@ function lfaStrip() {
   s += `<rect x="600" y="${y + 10}" width="22" height="${h - 20}" fill="#B03A2E"/>` + txt(611, y + h + 45, 22, "test line", "coral", "middle", "bold");
   s += `<rect x="780" y="${y + 10}" width="22" height="${h - 20}" fill="#B03A2E"/>` + txt(791, y + h + 45, 22, "control line", "slate", "middle", "bold");
   s += `<rect x="930" y="${y}" width="230" height="${h}" rx="10" fill="${c("slate")}" opacity="0.8"/>` + txt(1045, y - 25, 24, "absorbent pad", "navy", "middle", "bold");
-  s += arrow(80, 360, 1120, 360, "teal", 6) + txt(600, 405, 22, "capillary flow · ~15 min · read by eye", "teal", "middle", "bold");
+  s += arrow(80, 360, 1120, 360, "teal", 6) + txt(600, 405, 22, "capillary flow · read by eye", "teal", "middle", "bold");
   s += txt(305, y + h + 45, 20, "gold–aptamer", "slate") + txt(305, y + h + 70, 20, "conjugate", "slate");
   return wrap(W, H, s);
 }
 
 // ---------- POSTER (cartoon) ----------
+// Banner: six aptamers from six labs, each holding an incomparable number.
 function posterBanner() {
-  const W = 1600, H = 520;
+  const W = 1800, H = 420;
+  const cols = ["teal", "navy", "violet", "coral", "teal", "violet"];
+  const labs = ["lab A", "lab B", "lab C", "lab D", "lab E", "lab F"];
+  const moods = ["grin", "smile", "worried", "sleep", "smile", "grin"];
   let s = "";
-  // podium
-  const pod = [[620, 230, "1", "sun"], [330, 320, "2", "tealL"], [910, 370, "3", "coralL"]];
-  pod.forEach(([x, top, n, col]) => {
-    s += `<rect x="${x}" y="${top}" width="260" height="${520 - top}" rx="12" fill="${c(col)}" stroke="${c("navy")}" stroke-width="6"/>`;
-    s += txt(x + 130, top + 95, 90, n, "navy", "middle", "bold");
-  });
-  s += aptamer(750, 140, 150, "teal", 0, { face: "grin" });
-  s += aptamer(460, 235, 140, "navy", 1, { face: "worried" });
-  s += aptamer(1040, 280, 140, "violet", 2, { face: "smile" });
-  s += aptamer(1330, 400, 140, "coral", 3, { face: "sleep" }) + txt(1330, 500, 34, "zzz… wrong buffer", "slate", "middle", "bold", `font-style="italic"`);
-  // question marks
-  s += txt(750, 40, 70, "?", "coral", "middle", "bold") + txt(160, 200, 120, "?", "sun", "middle", "bold");
-  // salt shaker
-  s += `<g transform="translate(160 330)"><rect x="-55" y="-40" width="110" height="160" rx="30" fill="#fff" stroke="${c("navy")}" stroke-width="6"/><path d="M-45 -40 q 45 -70 90 0 z" fill="${c("slate")}"/>${txt(0, 60, 40, "NaCl", "navy", "middle", "bold")}<circle cx="-20" cy="-80" r="5" fill="${c("slate")}"/><circle cx="5" cy="-110" r="5" fill="${c("slate")}"/><circle cx="25" cy="-90" r="5" fill="${c("slate")}"/></g>`;
+  for (let i = 0; i < 6; i++) {
+    const x = 160 + i * 296, y = 175;
+    s += aptamer(x, y, 118, cols[i], i % 4, { face: moods[i] });
+    s += `<rect x="${x - 72}" y="${y + 66}" width="144" height="52" rx="15" fill="#fff" stroke="${c(cols[i])}" stroke-width="5"/>`;
+    s += txt(x, y + 101, 28, "Kd = ?", cols[i], "middle", "bold");
+    s += txt(x, y + 150, 25, labs[i], "slate");
+    s += txt(x, y - 108, 40, "?", "sun", "middle", "bold");
+  }
   return wrap(W, H, s);
 }
 
-function shapeShifter() {
-  const W = 1000, H = 560;
+// Panel 2: folding pulls like charges together; the ion atmosphere screens them.
+function ionAtmosphere() {
+  const W = 1150, H = 620;
   let s = "";
-  s += `<rect x="20" y="20" width="440" height="480" rx="30" fill="${c("tealXL")}"/><rect x="540" y="20" width="440" height="480" rx="30" fill="${c("mist")}"/>`;
-  s += aptamer(240, 290, 210, "teal", 0, { face: "grin" });
-  const ions = [[90, 120, "Mg²⁺", "violet"], [380, 140, "K⁺", "coral"], [100, 400, "Na⁺", "sun"], [390, 420, "Mg²⁺", "violet"]];
-  ions.forEach(([x, y, l, col]) => (s += `<circle cx="${x}" cy="${y}" r="38" fill="${c(col)}" stroke="${c("navy")}" stroke-width="4"/>${faceAt(x, y + 8, 22, "smile")}${txt(x, y - 46, 26, l, "navy", "middle", "bold")}`));
-  s += txt(240, 540, 30, "right ions → folded & ready", "teal", "middle", "bold");
-  // unfolded floppy strand
-  s += `<path d="M640 430 C 600 330, 760 360, 700 260 S 860 200, 780 120 S 900 90, 900 70" stroke="${c("teal")}" stroke-width="16" fill="none" stroke-linecap="round"/>`;
-  s += `<circle cx="900" cy="70" r="32" fill="${c("teal")}"/>` + faceAt(900, 74, 26, "sleep");
-  s += txt(840, 260, 40, "z", "slate", "middle", "bold") + txt(870, 220, 52, "z", "slate", "middle", "bold");
-  s += txt(760, 540, 30, "no Mg²⁺ / wrong pH → floppy", "coral", "middle", "bold");
+  // unfolded
+  s += `<rect x="20" y="20" width="520" height="580" rx="30" fill="${c("mist")}"/>`;
+  s += txt(280, 78, 34, "Unfolded: charges far apart", "navy", "middle", "bold");
+  s += ionCloud(280, 330, 215, 190, 42, 5, "coral", 20);
+  const path = "M90 520 C 150 420, 230 470, 250 370 S 360 300, 340 200 S 430 150, 470 120";
+  s += `<path d="${path}" stroke="${c("teal")}" stroke-width="18" fill="none" stroke-linecap="round"/>`;
+  [[110, 495], [205, 420], [262, 320], [333, 240], [410, 160]].forEach(([x, y]) => (s += minus(x, y, 30, "teal")));
+  s += txt(280, 580, 28, "thin ion atmosphere", "slate");
+  // folded
+  s += `<rect x="610" y="20" width="520" height="580" rx="30" fill="${c("tealXL")}"/>`;
+  s += txt(870, 78, 34, "Folded: charges crowded", "navy", "middle", "bold");
+  s += ionCloud(870, 330, 190, 175, 95, 9, "coral", 20);
+  s += aptamer(870, 350, 185, "teal", 0);
+  [[812, 430], [928, 430], [870, 220], [820, 300], [920, 300]].forEach(([x, y]) => (s += minus(x, y, 30, "teal")));
+  s += txt(870, 580, 28, "denser ion atmosphere", "teal", "middle", "bold");
+  // the key caption between
+  s += txt(575, 330, 46, "→", "navy", "middle", "bold");
   return wrap(W, H, s);
 }
 
-function applesOranges() {
-  const W = 1000, H = 520;
-  let s = `<polygon points="500,470 450,510 550,510" fill="${c("navy")}"/><rect x="490" y="160" width="20" height="320" fill="${c("navy")}"/>`;
-  s += `<g transform="rotate(-8 500 170)"><rect x="110" y="160" width="780" height="16" rx="8" fill="${c("navy")}"/>`;
-  s += `<path d="M130 176 L 200 300 L 360 300 L 430 176" fill="none" stroke="${c("slate")}" stroke-width="5"/><path d="M570 176 L 640 300 L 800 300 L 870 176" fill="none" stroke="${c("slate")}" stroke-width="5"/>`;
-  s += `<ellipse cx="280" cy="300" rx="110" ry="18" fill="${c("slate")}"/><ellipse cx="720" cy="300" rx="110" ry="18" fill="${c("slate")}"/>`;
-  s += aptamer(280, 210, 110, "navy", 1, { face: "smile" }) + aptamer(720, 210, 110, "violet", 2, { face: "worried" }) + `</g>`;
-  const tag = (x, y, lines, col) => `<rect x="${x}" y="${y}" width="330" height="${lines.length * 38 + 20}" rx="16" fill="#fff" stroke="${c(col)}" stroke-width="4"/>` + lines.map((l, i) => txt(x + 20, y + 44 + i * 38, 26, l, "navy", "start")).join("");
-  s += tag(40, 340, ["SELEX buffer: K⁺ / 37 °C", "label: 5′-FAM", "Kd by SPR"], "navy");
-  s += tag(630, 300, ["SELEX buffer: PBS, Mg²⁺", "label: 3′-biotin", "Kd by ELISA"], "violet");
+// Panel 3 centrepiece: non-monotonic affinity vs salt, with the two effects beneath.
+function saltCurve() {
+  const W = 1250, H = 760;
+  const x0 = 150, x1 = 1180, yTop = 90, yBot = 430;
+  const X = (t) => x0 + t * (x1 - x0);
+  const pt = (t, v) => `${X(t)},${yBot - v * (yBot - yTop)}`;
+  let s = "";
+  // axes
+  s += `<line x1="${x0}" y1="${yBot}" x2="${x1}" y2="${yBot}" stroke="${c("navy")}" stroke-width="6"/>`;
+  s += `<line x1="${x0}" y1="${yBot}" x2="${x0}" y2="${yTop - 20}" stroke="${c("navy")}" stroke-width="6"/>`;
+  s += txt(665, 495, 30, "ionic strength  →", "navy", "middle", "bold");
+  s += `<g transform="rotate(-90 58 ${(yTop + yBot) / 2})">${txt(58, (yTop + yBot) / 2, 30, "affinity (1/Kd)", "navy", "middle", "bold")}</g>`;
+  // the non-monotonic curve
+  const pts = [[0, 0.18], [0.1, 0.4], [0.2, 0.63], [0.3, 0.8], [0.4, 0.9], [0.5, 0.93], [0.6, 0.88], [0.7, 0.74], [0.8, 0.55], [0.9, 0.36], [1, 0.2]];
+  s += `<polyline points="${pts.map(([t, v]) => pt(t, v)).join(" ")}" fill="none" stroke="${c("coral")}" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>`;
+  // the window
+  s += `<rect x="${X(0.38)}" y="${yTop - 20}" width="${X(0.62) - X(0.38)}" height="${yBot - yTop + 20}" fill="${c("sunL")}" opacity="0.55"/>`;
+  s += txt(X(0.5), yTop + 10, 30, "usable window", "navy", "middle", "bold");
+  s += txt(X(0.5), yTop - 42, 26, "folded enough, interface still strong", "slate");
+  // end annotations
+  s += txt(X(0.06), yBot - 60, 25, "too little", "slate", "start") + txt(X(0.06), yBot - 30, 25, "folding", "slate", "start");
+  s += txt(X(0.94), yBot - 60, 25, "interface", "slate", "end") + txt(X(0.94), yBot - 30, 25, "screened out", "slate", "end");
+  // two opposing effects as bars beneath
+  const bar = (y, label, col, dir, sub) => {
+    let g = `<rect x="${x0}" y="${y}" width="${x1 - x0}" height="54" rx="27" fill="${c("mist")}"/>`;
+    const grad = dir > 0
+      ? `<linearGradient id="g${y}" x1="0" x2="1"><stop offset="0" stop-color="${c(col)}" stop-opacity="0.15"/><stop offset="1" stop-color="${c(col)}" stop-opacity="1"/></linearGradient>`
+      : `<linearGradient id="g${y}" x1="0" x2="1"><stop offset="0" stop-color="${c(col)}" stop-opacity="1"/><stop offset="1" stop-color="${c(col)}" stop-opacity="0.15"/></linearGradient>`;
+    g = `<defs>${grad}</defs>` + g + `<rect x="${x0}" y="${y}" width="${x1 - x0}" height="54" rx="27" fill="url(#g${y})"/>`;
+    g += txt(x0 + 24, y + 36, 28, label, "navy", "start", "bold");
+    g += txt(x1 - 24, y + 36, 26, sub, "navy", "end");
+    return g;
+  };
+  s += bar(560, "Folding: ions screen the repulsion", "teal", 1, "better with more salt →");
+  s += bar(650, "Interface: ions screen the attraction", "violet", -1, "← worse with more salt");
   return wrap(W, H, s);
 }
 
-function villains() {
-  const W = 1500, H = 560;
+// Panel 4: counterion release on binding.
+function counterionRelease() {
+  const W = 1150, H = 520;
+  let s = "";
+  // before
+  s += `<rect x="20" y="20" width="480" height="480" rx="30" fill="${c("mist")}"/>`;
+  s += txt(260, 72, 32, "Before binding", "navy", "middle", "bold");
+  s += ionCloud(170, 300, 90, 120, 34, 3, "coral", 18);
+  s += aptamer(170, 310, 120, "teal", 0);
+  s += noro(380, 300, 78, { fill: "coralL", patch: true });
+  s += ionCloud(392, 268, 56, 48, 16, 17, "teal", 18);
+  s += txt(260, 470, 25, "ions crowd each partner", "slate");
+  // arrow
+  s += arrow(520, 260, 620, 260, "navy", 7);
+  // after
+  s += `<rect x="650" y="20" width="480" height="480" rx="30" fill="${c("tealXL")}"/>`;
+  s += txt(890, 72, 32, "After binding", "navy", "middle", "bold");
+  s += noro(900, 300, 82, { fill: "coralL", patch: true });
+  s += aptamer(905, 180, 95, "teal", 0, { rot: 190 });
+  // released ions flying outward
+  const r = rng(23);
+  for (let i = 0; i < 16; i++) {
+    const a = r() * Math.PI * 2, d = 150 + r() * 90;
+    const x = 900 + Math.cos(a) * d, y = 300 + Math.sin(a) * d * 0.72;
+    s += `<g opacity="0.9"><line x1="${x - 11}" y1="${y}" x2="${x + 11}" y2="${y}" stroke="${c("coral")}" stroke-width="6" stroke-linecap="round"/><line x1="${x}" y1="${y - 11}" x2="${x}" y2="${y + 11}" stroke="${c("coral")}" stroke-width="6" stroke-linecap="round"/></g>`;
+    s += arrow(900 + Math.cos(a) * (d - 60), 300 + Math.sin(a) * (d - 60) * 0.72, x - Math.cos(a) * 20, y - Math.sin(a) * 0.72 * 20, "coralL", 3);
+  }
+  s += txt(890, 470, 25, "released ions gain freedom → entropy", "teal", "middle", "bold");
+  return wrap(W, H, s);
+}
+
+// Panel 5: ion identity matters, not just concentration.
+function ionIdentity() {
+  const W = 1250, H = 450;
   const cards = [
-    ["Salt Swing", "sun", (x, y) => `<rect x="${x - 50}" y="${y - 50}" width="100" height="100" rx="14" fill="${c("sunL")}" stroke="${c("navy")}" stroke-width="5" transform="rotate(12 ${x} ${y})"/>${faceAt(x, y + 5, 40, "angry")}`],
-    ["Bile Bubbles", "green", (x, y) => `<circle cx="${x - 25}" cy="${y + 15}" r="45" fill="#BFE0A8" stroke="${c("navy")}" stroke-width="5"/><circle cx="${x + 35}" cy="${y - 25}" r="30" fill="#BFE0A8" stroke="${c("navy")}" stroke-width="5"/>${faceAt(x - 25, y + 20, 32, "angry")}`],
-    ["Nuclease Scissors", "coral", (x, y) => `<g stroke="${c("navy")}" stroke-width="5"><circle cx="${x - 30}" cy="${y + 40}" r="22" fill="${c("coralL")}"/><circle cx="${x + 30}" cy="${y + 40}" r="22" fill="${c("coralL")}"/><path d="M${x - 15} ${y + 22} L ${x + 35} ${y - 60} M${x + 15} ${y + 22} L ${x - 35} ${y - 60}" stroke-width="12" stroke-linecap="round" stroke="${c("slate")}"/></g>${faceAt(x, y - 5, 22, "angry")}`],
-    ["Sticky Proteins", "violet", (x, y) => `<path d="M${x - 55} ${y} q 0 -60 55 -55 q 60 -10 55 50 q 10 60 -55 55 q -60 5 -55 -50z" fill="#D7CBEA" stroke="${c("navy")}" stroke-width="5"/><path d="M${x - 40} ${y + 50} q -5 25 5 35 M${x + 20} ${y + 55} q 0 25 -8 35" stroke="#D7CBEA" stroke-width="10" stroke-linecap="round"/>${faceAt(x, y, 38, "grin")}`],
-    ["Brown Quenchers", "brown", (x, y) => `<path d="M${x - 60} ${y + 45} q -10 -60 30 -70 q 10 -40 50 -20 q 50 0 40 50 q 15 40 -20 40 z" fill="${c("brown")}" stroke="${c("navy")}" stroke-width="5"/>${faceAt(x, y + 5, 36, "angry")}`],
-    ["Bacteria Crowd", "teal", (x, y) => bacterium(x - 30, y - 30, 70, 30, "tealXL", "teal") + bacterium(x + 30, y + 10, 80, -20, "tealXL", "teal") + faceAt(x + 30, y + 12, 18, "grin")],
-  ];
-  const desc = [
-    ["shifts ionic strength", "& Mg²⁺ → changes fold"],
-    ["detergent-like bile", "salts disturb binding"],
-    ["DNases chew up", "DNA aptamers"],
-    ["non-specific binding,", "raise background"],
-    ["humic / pigment", "colour quench & scatter"],
-    ["particles, turbidity", "& competing surfaces"],
+    ["K⁺", "violet", "sits in the G-quadruplex channel — a structural role, not just screening", (x, y) => {
+      let g = "";
+      for (let i = 0; i < 3; i++) g += `<rect x="${x - 60}" y="${y - 60 + i * 44}" width="120" height="30" rx="6" fill="none" stroke="${c("violet")}" stroke-width="7" transform="skewX(-14)"/>`;
+      g += `<circle cx="${x}" cy="${y - 22}" r="17" fill="${c("sun")}" stroke="${c("navy")}" stroke-width="4"/><circle cx="${x}" cy="${y + 22}" r="17" fill="${c("sun")}" stroke="${c("navy")}" stroke-width="4"/>`;
+      return g;
+    }],
+    ["Mg²⁺", "coral", "strongly shapes nucleic-acid structure and competes with monovalent ions", (x, y) => {
+      let g = `<circle cx="${x}" cy="${y}" r="42" fill="${c("coral")}" stroke="${c("navy")}" stroke-width="5"/>${txt(x, y + 12, 30, "2+", "white", "middle", "bold")}`;
+      g += `<circle cx="${x - 78}" cy="${y + 18}" r="25" fill="${c("sunL")}" stroke="${c("navy")}" stroke-width="4"/>${txt(x - 78, y + 27, 22, "+", "navy", "middle", "bold")}`;
+      g += `<circle cx="${x + 78}" cy="${y + 18}" r="25" fill="${c("sunL")}" stroke="${c("navy")}" stroke-width="4"/>${txt(x + 78, y + 27, 22, "+", "navy", "middle", "bold")}`;
+      g += arrow(x - 50, y + 10, x - 78 + 30, y + 14, "slate", 4) + arrow(x + 50, y + 10, x + 78 - 30, y + 14, "slate", 4);
+      return g;
+    }],
+    ["Cl⁻ vs glutamate⁻", "teal", "anions are not interchangeable either — swapping them shifts affinity", (x, y) => {
+      let g = `<circle cx="${x - 55}" cy="${y}" r="34" fill="${c("tealXL")}" stroke="${c("teal")}" stroke-width="5"/>${minus(x - 55, y, 30, "teal")}`;
+      g += txt(x, y + 10, 30, "vs", "slate", "middle", "bold");
+      g += `<path d="M${x + 30} ${y - 26} l 22 16 l -10 22 l 26 10" stroke="${c("teal")}" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>${minus(x + 95, y - 20, 26, "teal")}`;
+      return g;
+    }],
   ];
   let s = "";
-  cards.forEach(([n, col, f], i) => {
-    const x = 125 + i * 250;
-    s += `<rect x="${x - 115}" y="20" width="230" height="520" rx="26" fill="#fff" stroke="${c(col)}" stroke-width="6"/>`;
-    s += f(x, 170);
-    s += txt(x, 330, 27, n, col === "sun" ? "navy" : col, "middle", "bold");
-    s += txt(x, 395, 23, desc[i][0], "navy") + txt(x, 428, 23, desc[i][1], "navy");
+  cards.forEach(([t, col, d, f], i) => {
+    const x = 210 + i * 415;
+    s += `<rect x="${x - 190}" y="20" width="380" height="410" rx="28" fill="#fff" stroke="${c(col)}" stroke-width="6"/>`;
+    s += txt(x, 78, 38, t, col, "middle", "bold");
+    s += f(x, 195);
+    const words = d.split(" "); let line = "", lines = [];
+    words.forEach((w) => { if ((line + w).length > 30) { lines.push(line); line = w + " "; } else line += w + " "; });
+    lines.push(line);
+    lines.forEach((l, j) => (s += txt(x, 320 + j * 33, 24, l.trim(), "navy")));
   });
   return wrap(W, H, s);
 }
 
-function fpCartoon() {
-  const W = 1300, H = 600;
-  let s = "";
-  // dizzy free aptamer
-  s += `<rect x="20" y="20" width="600" height="560" rx="30" fill="${c("mist")}"/>`;
-  s += aptamer(320, 300, 170, "teal", 0, { face: "worried", dye: true, rot: 25 });
-  [0, 1].forEach((i) => (s += `<ellipse cx="320" cy="290" rx="${190 + i * 40}" ry="${150 + i * 30}" fill="none" stroke="${c("slate")}" stroke-width="5" stroke-dasharray="20 18" opacity="${0.8 - i * 0.3}"/>`));
-  s += txt(320, 70, 40, "Wheee! (fast spin)", "coral", "middle", "bold");
-  s += txt(320, 545, 30, "light scrambled → LOW polarization", "navy", "middle", "bold");
-  // bound, calm
-  s += `<rect x="680" y="20" width="600" height="560" rx="30" fill="${c("tealXL")}"/>`;
-  s += virus(980, 330, 110, "coralL", "navy", true);
-  s += aptamer(1010, 160, 110, "teal", 0, { face: "grin", dye: true, rot: 195 });
-  s += txt(980, 70, 40, "Got it! (slow spin)", "teal", "middle", "bold");
-  s += txt(980, 545, 30, "light stays aligned → HIGH polarization", "navy", "middle", "bold");
+// Panel 6: specificity - background at low salt, lost recognition at high salt.
+function specificityWindow() {
+  const W = 1150, H = 520;
+  const col = (x, w, title, body, fill, stroke, fig) => {
+    let g = `<rect x="${x}" y="20" width="${w}" height="480" rx="26" fill="${c(fill)}" fill-opacity="0.4" stroke="${c(stroke)}" stroke-width="6"/>`;
+    g += txt(x + w / 2, 76, 32, title, stroke === "sun" ? "navy" : stroke, "middle", "bold");
+    g += fig(x + w / 2);
+    body.forEach((l, i) => (g += txt(x + w / 2, 390 + i * 34, 24, l, "navy")));
+    return g;
+  };
+  let s = col(20, 350, "Low salt", ["random DNA sticks to", "positive patches —", "background mimics binding"], "coralL", "coral",
+    (cx) => noro(cx, 230, 62, { fill: "coralL", patch: true }) + aptamer(cx - 108, 220, 70, "slate", 2) + aptamer(cx + 108, 220, 70, "slate", 3));
+  s += col(400, 350, "Right window", ["real recognition stands", "out above background"], "sunL", "sun",
+    (cx) => noro(cx, 255, 66, { fill: "coralL", patch: true }) + aptamer(cx + 28, 155, 64, "teal", 0, { rot: 190 }));
+  s += col(780, 350, "High salt", ["background is suppressed —", "but real binding may be", "weakened too"], "tealXL", "teal",
+    (cx) => noro(cx, 240, 64, { fill: "coralL", patch: true }) + aptamer(cx - 92, 170, 60, "teal", 0, { rot: -28 }) + arrow(cx - 60, 210, cx - 100, 240, "slate", 4));
   return wrap(W, H, s);
 }
 
-function lfaCartoon() {
-  const W = 900, H = 360;
-  let s = `<rect x="40" y="110" width="820" height="130" rx="40" fill="#fff" stroke="${c("navy")}" stroke-width="7"/>`;
-  s += `<ellipse cx="170" cy="175" rx="55" ry="35" fill="${c("mist")}" stroke="${c("navy")}" stroke-width="5"/>${txt(170, 185, 26, "S", "navy", "middle", "bold")}`;
-  s += `<rect x="380" y="140" width="300" height="70" rx="10" fill="${c("mist")}" stroke="${c("navy")}" stroke-width="5"/>`;
-  s += `<rect x="470" y="140" width="16" height="70" fill="#B03A2E"/><rect x="580" y="140" width="16" height="70" fill="#B03A2E"/>`;
-  s += txt(478, 270, 28, "T", "navy", "middle", "bold") + txt(588, 270, 28, "C", "navy", "middle", "bold");
-  s += faceAt(770, 180, 40, "grin");
-  s += txt(450, 60, 34, "Next (WP3): the winner goes onto a strip", "tealL", "middle", "bold");
+// Poster closing: FP + CD together.
+function fpPlusCd() {
+  const W = 1000, H = 420;
+  let s = `<rect x="20" y="20" width="460" height="380" rx="28" fill="${c("tealXL")}"/>`;
+  s += txt(250, 80, 34, "Fluorescence polarization", "teal", "middle", "bold");
+  s += aptamer(160, 240, 110, "teal", 0, { dye: true });
+  s += arrow(255, 230, 310, 230, "slate", 5);
+  s += noro(395, 240, 68, { fill: "coralL" });
+  s += txt(250, 370, 26, "did binding change?", "navy", "middle", "bold");
+  s += `<rect x="520" y="20" width="460" height="380" rx="28" fill="${c("mist")}"/>`;
+  s += txt(750, 80, 34, "Circular dichroism", "violet", "middle", "bold");
+  s += `<path d="M600 300 C 640 180, 700 180, 730 240 C 760 300, 820 300, 880 200" stroke="${c("violet")}" stroke-width="9" fill="none"/>`;
+  s += `<line x1="590" y1="250" x2="900" y2="250" stroke="${c("line")}" stroke-width="4"/>`;
+  s += txt(750, 370, 26, "did the fold change?", "navy", "middle", "bold");
   return wrap(W, H, s);
 }
 
 module.exports = {
-  P, toPng, hookCrowd, recapTimeline, antibodyVsAptamer, wp1Calendar, wp1Hypothesis, aptamerLineup,
-  elisaWell, fpPrinciple, lfaStrip, posterBanner, shapeShifter, applesOranges, villains, fpCartoon, lfaCartoon,
-  _prim: { virus, aptamer, tube, bacterium, faceAt },
+  P, toPng,
+  donationChain, activeIngredient, screeningGap, triageFunnel, norovirusFacts,
+  wp1Sampling, sixAptamers, targetModels, degradeVsInterfere, fpPrinciple, lfaStrip,
+  posterBanner, ionAtmosphere, saltCurve, counterionRelease, ionIdentity, specificityWindow, fpPlusCd,
+  _prim: { virus, noro, aptamer, tube, bacterium, faceAt, person, ionCloud },
 };

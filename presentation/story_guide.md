@@ -1,63 +1,92 @@
 # Retreat talk and poster: story guide
 
+Built from your source document (`poster_and_presentation.docx`). Everything still to fill in is marked `[in brackets]`.
+
 ## Files
 | File | What it is |
 |---|---|
-| `retreat_talk.pptx` | The 11-minute talk: 13 slides plus 2 backup slides. The script and timing for each slide are in the speaker notes. |
-| `aptamer_poster.pdf` / `.pptx` | A0 portrait poster, "Which aptamer wins? It depends on the salt." The PDF is ready to print; the pptx can be edited. |
-| `build/` | Scripts that regenerate everything: `node build_talk.js`, `node build_poster.js`. Run them from `build/` with `NODE_PATH` set to a folder that contains `pptxgenjs` and `sharp`, and `PPTX_SKILL` set. |
-| `input/` | Put your figures and data here so I can replace the placeholders. |
+| `retreat_talk.pptx` | 15 slides + 3 backup slides. Script and timing per slide in the speaker notes. |
+| `aptamer_poster.pdf` / `.pptx` | A0 portrait, print-ready PDF plus editable source. |
+| `build/` | `node build_talk.js`, `node build_poster.js` regenerate both. Needs `NODE_PATH` pointing at a folder with `pptxgenjs` + `sharp`, and `PPTX_SKILL` set. |
 
-## The story arc (11 min)
-The hook is **"Finding a few viruses in a very crowded sample, fast."** Use it at the start and come back to it at the end.
+---
+
+## The talk
+
+**Spine:** *"The donor has been screened — but what about the donation made today?"* It opens slide 1 and returns word-for-word on the take-home slide.
+
+**Timing** — speaker notes total about 1,240 words, roughly 9.5 minutes spoken. That leaves ~1.5 minutes of slack inside the 11, which you will use on pauses and pointing at figures. Rehearse twice with a timer.
 
 | Time | Beat | Slides |
 |---|---|---|
-| 0:00–1:00 | Hook, then a one-slide FMT recap (the audience already knows it) | 1–2 |
-| 1:00–2:00 | Bigger picture: messy samples, antibodies vs aptamers, the buffer-only gap in the field | 3 |
-| 2:00–4:10 | Roadmap, then WP1: design and hypothesis ("negative today ≠ negative next week") | 4–6 |
-| 4:10–8:40 | **WP2, the heart of the talk**: question → ELISA → *plot twist* → FP solution | 7–10 |
-| 8:40–9:40 | WP3: the strip test | 11 |
-| 9:40–11:00 | Take-home, loop back to the hook, poster teaser, thanks | 12–13 |
+| 0:00–2:25 | The question → FMT can't be sterilised → the screening gap | 1–3 |
+| 2:25–4:00 | Why RT-qPCR can't close it → triage, not a verdict | 4–5 |
+| 4:00–5:20 | Why norovirus → roadmap | 6–7 |
+| 5:20–6:20 | WP1: how much changes inside the interval | 8 |
+| 6:20–9:40 | **WP2**: recognition in buffer → which target? → into stool → why FP | 9–12 |
+| 9:40–11:00 | WP3 → take-home → thanks | 13–15 |
 
-The speaker notes are about 950 words, which takes about 7.5 minutes at a calm pace. That leaves about 3 minutes for pauses, pointing at figures, and your own data once you add it. Rehearse with a timer at least twice.
+**Why it's built this way.** The organisers asked for the broader context and for a story non-specialists can follow. So the first six slides are the *problem*, told in plain language, and the work packages only arrive once the audience wants them. The broader relevance is the screening gap itself — a structural problem in any screen-and-quarantine workflow — rather than a generic "rapid tests are useful" claim.
 
-## Delivery tips
-- **Slide 1:** pause after the hook sentence. Don't read the title.
-- **Slide 9 ("Plot twist"):** this is your most engaging moment. Tell it as a story: "I thought ELISA was perfect… then the data didn't make sense." Audiences love an honest plan B.
-- **Slide 10:** explain FP with your hands. A fast-spinning small thing scrambles the light; a big slow thing keeps it aligned.
-- Say each slide's headline out loud: the headline *is* the message.
-- End on the poster teaser so people come to your poster.
+**Delivery notes**
+- **Slide 1:** ask the question, then pause. Don't explain it yet.
+- **Slide 2:** "you cannot sterilise it — the living community *is* the medicine" is the line that makes the rest inevitable.
+- **Slide 5:** say "triage, not a verdict" out loud. It's the claim most likely to be misheard as overselling, and stating the limit makes the rest more credible.
+- **Slide 11 (degraded or interfered with?):** your strongest slide. Two explanations, same readout, different fixes. Land the point that you investigate the mechanism rather than tune until the signal looks better.
+- **Slide 12:** explain FP with your hands — small and fast scrambles the light, big and slow keeps it aligned.
+- **Slide 14:** repeat the opening question, then point at the poster.
 
-## Likely questions (prepare answers)
-1. *Why not just use PCR on site?* Cost, equipment, trained staff and time. Rapid isothermal PCR exists; compare it honestly with your strip test.
-2. *Is FP sensitive enough for stool?* FP is for **choosing** the aptamer (measuring Kd), not for the final test. The final test is the LFA.
-3. *Does the dye change binding?* Check this with an unlabelled competitor and by comparing labelling at the 5′ and 3′ ends.
-4. *Stool autofluorescence and scatter?* Use red-shifted dyes, a stool-only blank, and a dilution series.
-5. *Which buffer is "fair"?* Test each aptamer in its own SELEX buffer **and** in a shared buffer. The difference between the two is itself a result.
-6. *How many donors and time points in WP1?* Have the numbers ready.
+**Backup slides:** FP equations and controls; the six-aptamer table; the salt curve (in case someone asks before your poster session).
 
-## Poster vs talk (they complement each other, as the organisers asked)
-- The poster has **no** FMT background, no roadmap and no WP1. It zooms in on the WP2 challenge: why salt, method and matrix make aptamer comparison hard.
-- All poster figures are new cartoon illustrations; none of the talk figures are reused.
-- The poster's "Let's discuss!" questions are there to start conversations at your poster.
+---
 
-## Placeholders still to fill (`[…]` in the files)
+## The poster
+
+**Title:** *Salt prepares the hand and weakens the handshake* — your sentence, and the best one in the document.
+
+Seven panels, numbered in reading order, with the mechanism numbers from your text as subtitles:
+1. **Six aptamers, six histories** — why published affinities aren't comparable; an aptamer isn't rigid.
+2. **Folding costs charge** (1 · electrostatics of folding) — the ion atmosphere, drawn as a diffuse cloud rather than fixed dots, denser around the folded strand.
+3. **…and the same ions weaken the handshake** (2 · the interface) — **the centrepiece**: the non-monotonic affinity-vs-salt curve with the usable window marked, and the two opposing effects as gradient bars beneath. Next to it, the caveat that salt dependence does not count released ions.
+4. **Counterion release** (3 · entropy).
+5. **Identity, not only amount** (4) — K⁺ in the quadruplex channel, Mg²⁺ competing with monovalents, Cl⁻ vs glutamate.
+6. **Specificity** (5) — background at low salt, recognition in the window, weakened binding at high salt, plus your four controls.
+7. **Why fluorescence polarisation** (6) — the four reasons, the CD pairing, and your one-line plan.
+
+Then the takeaway sentence and three discussion questions.
+
+**It complements the talk, as required:** no FMT background, no WP1, no shared figures. The talk gives FP four bullet points; the poster gives the physics that makes FP the right choice.
+
+**Standing at the poster:** lead visitors to panel 3 first. The curve is the argument — everything else explains one half of it.
+
+---
+
+## Questions to expect
+
+1. *How many ions are released?* — You deliberately don't claim this. Salt dependence is a clue, not a count: structure, hydration and other contacts contribute. (This is on the poster; it's a good answer to have ready.)
+2. *Isn't a salt-sensitive interaction just non-specific?* — No, and that's panel 6. Charge-driven background and real recognition both respond to salt, which is why controls under matched conditions do the work.
+3. *Why not surface methods (SPR, ELISA, BLI)?* — Immobilisation adds a surface and, for most formats, a wash. You need the solution to be the only variable.
+4. *Why not ITC?* — Sample consumption and throughput; you need to scan many conditions × six aptamers.
+5. *Does the fluorophore change binding?* — Label position and an unlabelled competitor control. Worth being upfront that it's a real caveat.
+6. *Doesn't stool wreck fluorescence?* — Scatter and autofluorescence are real; dilution series, blanks and red-shifted dyes. Also the reason WP2 asks the degradation-vs-interference question.
+7. *Is a rapid test for FMT actually safe?* — Triage, not a verdict. It narrows the window; it never clears a donation.
+8. *Why six aptamers and not the best one from the literature?* — Because "best" is not defined across labs, buffers and methods. That's the whole poster.
+
+---
+
+## Still to fill in
+
 **Talk**
-- Slide 1: your name, lab, supervisors.
-- Slide 3: a reference for "most aptamer sensors are characterised in buffer".
-- Slide 5: WP1 time frame, detection method, number of donors × time points, status.
-- Slide 7: aptamer names and sources, target virus or protein.
-- Slide 9: your actual ELISA observation.
-- Slide 10: the binding curves are **illustrative**. Replace them with your first FP data if you have it.
-- Slide 12: poster number.
-- Slide 13: acknowledgements, email.
-- Backup slide 15: aptamer table.
+- Slide 1 and 15: your name, lab, supervisors, acknowledgements, email.
+- Slide 3: your stool bank's screening schedule, if you want to be concrete.
+- Slide 8: number of donors × time points, and the detection method for WP1.
+- Slide 13: nothing required, but add your LOD target if you have one.
+- Slide 14: poster number.
+- Backup slide 17: the six-aptamer table (names, targets, selection method, SELEX buffer, published Kd and method, source).
 
 **Poster**
 - Name, lab, email, QR code (top right).
-- Target virus name.
-- The "What we saw" column of the ELISA table (panel 4). The current entries are examples; replace them with your real observations.
-- Stool dilution ratio.
-- Which aptamers are G-quadruplexes (the K⁺ column; currently only Apt-B is marked).
-- Example buffer and label details on the "apples vs oranges" scale, which are invented examples. Replace them with your aptamers' real details.
+- Panel 1 labels say "lab A–F". Swap in the real aptamer names when you send them.
+- Optional: if you have preliminary FP or CD data by the retreat, panel 7 is where it goes — tell me and I'll restructure that panel to hold a figure.
+
+Send me the aptamer details and I'll put the real table on the backup slide and the real names on the poster.

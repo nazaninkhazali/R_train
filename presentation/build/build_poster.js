@@ -1,5 +1,5 @@
 // Builds ../aptamer_poster.pptx (DIN A0 portrait, cartoon style). Export to PDF with LibreOffice.
-// Placeholders the presenter must fill are written in [square brackets].
+// Content follows the user's source document; [square brackets] = still to fill in.
 const pptxgen = require("pptxgenjs");
 const path = require("path");
 const I = require("./illus");
@@ -16,13 +16,13 @@ const THEME = {
   },
 };
 const OUT = path.join(__dirname, "..", "aptamer_poster.pptx");
-const W = 33.11, H = 46.81, M = 1.0; // A0 portrait, inches
+const W = 33.11, H = 46.81, M = 1.0, G = 0.5; // A0 portrait, inches
 
 (async () => {
   const pres = new pptxgen();
   pres.defineLayout({ name: "A0", width: W, height: H });
   pres.layout = "A0";
-  pres.title = "Which aptamer wins? It depends on the salt.";
+  pres.title = "Salt prepares the hand and weakens the handshake";
   pres.theme = { headFontFace: THEME.headFontFace, bodyFontFace: THEME.bodyFontFace };
   const C = pres.SchemeColor;
   const K = { navy: C.text1, slate: C.text2, white: C.background1, bg: C.background2, teal: C.accent1, coral: C.accent2, sun: C.accent3, violet: C.accent4, tealL: C.accent5, brown: C.accent6 };
@@ -32,119 +32,136 @@ const W = 33.11, H = 46.81, M = 1.0; // A0 portrait, inches
   const T = (text, o) => s.addText(text, { isTextBox: true, fontSize: 28, color: K.navy, margin: 0, valign: "top", ...o });
   const img = async (ill, x, y, w, name) => {
     const h = (w * ill.h) / ill.w;
-    s.addImage({ data: "image/png;base64," + (await I.toPng(ill, 3000)).toString("base64"), x, y, w, h, altText: name, objectName: name });
+    s.addImage({ data: "image/png;base64," + (await I.toPng(ill, 3200)).toString("base64"), x, y, w, h, altText: name, objectName: name });
     return h;
   };
   // Cartoon panel: white card, thick coloured outline, numbered badge + heading.
-  const panel = (n, title, x, y, w, h, col) => {
+  const panel = (n, title, x, y, w, h, col, sub) => {
     s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x, y, w, h, rectRadius: 0.5, fill: { color: K.white }, line: { color: col, width: 6 }, objectName: `panel-${n}` });
-    s.addShape(pres.shapes.OVAL, { x: x + 0.45, y: y + 0.35, w: 1.15, h: 1.15, fill: { color: col }, line: { color: K.navy, width: 3 } });
-    T(String(n), { x: x + 0.45, y: y + 0.35, w: 1.15, h: 1.15, fontSize: 48, bold: true, color: K.white, align: "center", valign: "middle" });
-    T(title, { x: x + 1.85, y: y + 0.35, w: w - 2.3, h: 1.15, fontSize: 50, bold: true, color: col, valign: "middle" });
+    s.addShape(pres.shapes.OVAL, { x: x + 0.45, y: y + 0.4, w: 1.15, h: 1.15, fill: { color: col }, line: { color: K.navy, width: 3 } });
+    T(String(n), { x: x + 0.45, y: y + 0.4, w: 1.15, h: 1.15, fontSize: 46, bold: true, color: K.white, align: "center", valign: "middle" });
+    T(title, { x: x + 1.85, y: y + 0.35, w: w - 2.3, h: 1.25, fontSize: 46, bold: true, color: col, valign: "middle" });
+    if (sub) T(sub, { x: x + 1.85, y: y + 1.6, w: w - 2.3, h: 0.75, fontSize: 28, color: K.slate, italic: true });
   };
-  const bullets = (items, o) => T(items.map((t, i) => ({ text: t, options: { bullet: { indent: 30 }, breakLine: i < items.length - 1 } })), { paraSpaceAfter: 10, ...o });
+  const bullets = (items, o) => T(items.map((t, i) => ({ text: t, options: { bullet: { indent: 28 }, breakLine: i < items.length - 1 } })), { paraSpaceAfter: 9, ...o });
+  const note = (x, y, w, h, head, body, col) => {
+    s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x, y, w, h, rectRadius: 0.35, fill: { color: K.bg }, line: { color: K.bg } });
+    T([{ text: head, options: { bold: true, color: col, fontSize: 30, breakLine: true } }, { text: body, options: { fontSize: 26 } }], { x: x + 0.45, y: y + 0.4, w: w - 0.9, h: h - 0.7, paraSpaceAfter: 6 });
+  };
 
   // ---------- Title ----------
-  T([{ text: "Which aptamer wins?", options: { color: K.navy, breakLine: true } }, { text: "It depends on the salt.", options: { color: K.coral } }], { x: M, y: 0.7, w: W - 2 * M - 4.5, h: 2.7, fontSize: 92, bold: true, lineSpacingMultiple: 0.9 });
-  T("Why comparing aptamers for rapid virus detection in stool is hard — and how fluorescence polarization helps", { x: M, y: 3.5, w: W - 2 * M - 4.5, h: 0.7, fontSize: 36, color: K.teal, bold: true });
-  T("[Your name]  ·  [Lab, Institute]  ·  [email]  ·  PhD Retreat 2026", { x: M, y: 4.25, w: W - 2 * M - 4.5, h: 0.5, fontSize: 28, color: K.slate });
-  s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x: W - M - 3.8, y: 0.9, w: 3.8, h: 3.8, rectRadius: 0.3, fill: { color: K.white }, line: { color: K.navy, width: 4, dashType: "dash" } });
-  T("[QR code: talk slides / contact]", { x: W - M - 3.6, y: 0.9, w: 3.4, h: 3.8, fontSize: 24, color: K.slate, align: "center", valign: "middle" });
-
-  // ---------- Banner row ----------
-  const bannerH = await img(I.posterBanner(), M + 0.6, 5.0, 16, "Aptamer characters on a podium with a salt shaker");
-  s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x: 18.4, y: 5.0, w: W - M - 18.4, h: bannerH, rectRadius: 0.5, fill: { color: K.navy }, line: { color: K.navy } });
   T([
-    { text: "The question", options: { bold: true, color: K.sun, fontSize: 36, breakLine: true } },
-    { text: "Several published aptamers bind my target virus [name]. Which one should go on the rapid strip test?", options: { color: K.white, fontSize: 28, breakLine: true } },
-    { text: " ", options: { fontSize: 14, breakLine: true } },
-    { text: "The catch", options: { bold: true, color: K.sun, fontSize: 36, breakLine: true } },
-    { text: "Their ranking changes with salt, method and matrix — so a fair comparison needs a fair method.", options: { color: K.white, fontSize: 28 } },
-  ], { x: 18.9, y: 5.35, w: W - M - 19.4, h: bannerH - 0.6, paraSpaceAfter: 6 });
+    { text: "Salt prepares the hand", options: { color: K.navy, breakLine: true } },
+    { text: "and weakens the handshake", options: { color: K.coral } },
+  ], { x: M, y: 0.55, w: W - 2 * M - 4.3, h: 2.6, fontSize: 80, bold: true, lineSpacingMultiple: 0.92 });
+  T("Why six published norovirus aptamers cannot simply be ranked — and how we plan to compare them fairly", { x: M, y: 3.25, w: W - 2 * M - 4.3, h: 0.7, fontSize: 32, color: K.teal, bold: true });
+  T("[Your name]  ·  [Lab, Institute]  ·  [email]  ·  PhD Retreat 2026", { x: M, y: 4.0, w: W - 2 * M - 4.3, h: 0.5, fontSize: 26, color: K.slate });
+  s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x: W - M - 3.5, y: 0.6, w: 3.5, h: 3.5, rectRadius: 0.3, fill: { color: K.white }, line: { color: K.navy, width: 4, dashType: "dash" } });
+  T("[QR code]", { x: W - M - 3.4, y: 0.6, w: 3.3, h: 3.5, fontSize: 25, color: K.slate, align: "center", valign: "middle" });
 
-  // ---------- Row B: panels 1 & 2 ----------
-  const G = 0.45, rB = 5.0 + bannerH + G, colW = (W - 2 * M - 0.6) / 2, x2 = M + colW + 0.6, hB = 10.0, iw = 10.4;
-  panel(1, "Aptamers are shape-shifters", M, rB, colW, hB, K.teal);
-  await img(I.shapeShifter(), M + (colW - iw) / 2, rB + 1.7, iw, "Folded aptamer with ions versus floppy unfolded aptamer");
-  bullets([
-    "Mg²⁺ & Na⁺ shield the negative backbone so the strand can fold",
-    "K⁺ specifically stabilises G-quadruplexes; pH & temperature matter too",
-    "No fold → no binding pocket → no binding",
-  ], { x: M + 0.9, y: rB + 7.6, w: colW - 1.8, h: 2.3, fontSize: 26 });
+  const FULL = W - 2 * M, C3 = (FULL - 2 * G) / 3, C2 = (FULL - G) / 2;
 
-  panel(2, "Apples vs oranges", x2, rB, colW, hB, K.violet);
-  await img(I.applesOranges(), x2 + (colW - iw) / 2, rB + 1.8, iw, "Scale comparing two aptamers with different buffers, labels and Kd methods");
-  bullets([
-    "Each aptamer was selected (SELEX) in its own buffer",
-    "Labels & linkers differ (FAM, biotin, spacers) and can change binding",
-    "Published Kd values come from different methods → not directly comparable",
-  ], { x: x2 + 0.9, y: rB + 7.6, w: colW - 1.8, h: 2.3, fontSize: 26 });
-
-  // ---------- Row C: panel 3 (matrix villains) ----------
-  const rC = rB + hB + G, hC = 9.5;
-  panel(3, "Meet the stool matrix gang", M, rC, W - 2 * M, hC, K.coral);
-  const vh = await img(I.villains(), M + 0.6, rC + 1.65, 20.5, "Six cartoon villains: salt, bile, nucleases, proteins, quenchers, bacteria");
-  s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x: M + 21.6, y: rC + 1.65, w: W - 2 * M - 22.2, h: vh, rectRadius: 0.4, fill: { color: K.bg }, line: { color: K.bg } });
+  // ---------- Row A — panel 1: the comparison problem ----------
+  let y = 4.75;
+  const hA = 5.8;
+  panel(1, "Six aptamers, six histories", M, y, FULL, hA, K.navy);
+  await img(I.posterBanner(), M + 0.5, y + 1.6, 17.0, "Six aptamer characters from six labs, each with an unknown Kd");
   T([
-    { text: "Why it hits every assay", options: { bold: true, color: K.coral, fontSize: 32, breakLine: true } },
-    { text: "Stool composition varies between donors and days, so salt and Mg²⁺ — and with them the aptamer fold — are never fixed.", options: { fontSize: 26, breakLine: true } },
-    { text: " ", options: { fontSize: 10, breakLine: true } },
-    { text: "Watch-out for optics", options: { bold: true, color: K.coral, fontSize: 32, breakLine: true } },
-    { text: "Pigments & particles absorb and scatter light — they can fake a signal in colour and fluorescence assays alike.", options: { fontSize: 26 } },
-  ], { x: M + 22.0, y: rC + 2.0, w: W - 2 * M - 23.0, h: vh - 0.6, paraSpaceAfter: 6 });
+    { text: "Different labs, techniques, targets and buffers — so the published affinities are not comparable.", options: { fontSize: 27, bold: true, breakLine: true } },
+    { text: "An aptamer is not a rigid object with a fixed binding strength: it explores different shapes, and the solution decides how many molecules are in a binding-competent shape. Each one must be optimised in its own conditions.", options: { fontSize: 25, breakLine: true } },
+    { text: "A salt-dependent change can therefore look like a difference between aptamers when it is really a difference between conditions.", options: { fontSize: 25, color: "E85D4A", bold: true } },
+  ], { x: M + 18.2, y: y + 1.55, w: FULL - 18.8, h: hA - 1.9, paraSpaceAfter: 8 });
 
-  // ---------- Row D: panels 4 & 5 ----------
-  const rD = rC + hC + G, hD = 11.3, w4 = 11.2, x5 = M + w4 + 0.6, w5 = W - M - x5;
-  panel(4, "ELISA: lessons learned", M, rD, w4, hD, K.brown);
-  const hdr = (t) => ({ text: t, options: { bold: true, color: "FFFFFF", fill: { color: "8A6A4F" } } });
-  s.addTable([
-    [hdr("What we saw"), hdr("Why it happens")],
-    ["[Weak / patchy signal]", "Washes strip aptamers that unbind fast"],
-    ["[Ranking ≠ literature]", "Surface tethering changes folding & access"],
-    ["[Result shifts with wash buffer]", "One buffer is unfair to aptamers selected in other salts"],
-    ["[High background in stool]", "Matrix & blockers stick to plate and DNA"],
-  ], { x: M + 0.6, y: rD + 1.9, w: w4 - 1.2, colW: [4.4, w4 - 1.2 - 4.4], fontSize: 25, color: "1B2A41", fontFace: "Calibri", border: { type: "solid", pt: 2, color: "D9C3A5" }, rowH: 1.35, valign: "middle", margin: 0.12 });
-  T("Bottom line: ELISA scored the assay, not the aptamer.", { x: M + 0.6, y: rD + hD - 1.75, w: w4 - 1.2, h: 1.2, fontSize: 30, bold: true, color: K.brown });
-
-  panel(5, "Fluorescence polarization to the rescue", x5, rD, w5, hD, K.teal);
-  const fh = await img(I.fpCartoon(), x5 + 0.6, rD + 1.8, 9.8, "Cartoon: free aptamer spins fast, bound aptamer spins slowly");
+  // ---------- Row B — panels 2, 4, 5 ----------
+  y += hA + G;
+  const hB = 10.4;
+  panel(2, "Folding costs charge", M, y, C3, hB, K.teal, "1 · Electrostatics of folding");
+  await img(I.ionAtmosphere(), M + 0.8, y + 2.6, C3 - 1.6, "Unfolded strand with a thin ion atmosphere versus a folded one with a dense atmosphere");
   bullets([
-    "Homogeneous: no surface, no washes",
-    "True equilibrium Kd, minutes per plate",
-    "Same plate, many buffers → fair comparison",
-    "Ratiometric → less sensitive to intensity loss",
-  ], { x: x5 + 0.7, y: rD + 2.0 + fh, w: 10.0, h: hD - fh - 2.3, fontSize: 26, paraSpaceAfter: 6 });
-  // planned experiment matrix
-  const mx = x5 + 11.2, mw = w5 - 11.8;
-  T("Planned experiment matrix", { x: mx, y: rD + 1.85, w: mw, h: 0.7, fontSize: 32, bold: true, color: K.teal });
-  const conds = ["Own SELEX buffer", "Shared\nbuffer", "NaCl series", "Mg²⁺ series", "K⁺ (G4)", "Stool 1:[x]"];
-  const dot = (on) => ({ text: on ? "●" : "○", options: { align: "center", color: on ? "138A8A" : "C9D3DC", fontSize: 28 } });
-  s.addTable([
-    [{ text: "", options: { fill: { color: "FFFFFF" } } }, ...conds.map((c) => ({ text: c, options: { bold: true, fontSize: 18, align: "center", color: "FFFFFF", fill: { color: "138A8A" } } }))],
-    ...["A", "B", "C", "D"].map((n) => [{ text: `Apt-${n}`, options: { bold: true } }, ...conds.map((c) => dot(!(c === "K⁺ (G4)" && n !== "B")))]),
-  ], { x: mx, y: rD + 2.65, w: mw, colW: [1.6, ...Array(6).fill((mw - 1.6) / 6)], fontSize: 24, color: "1B2A41", fontFace: "Calibri", border: { type: "solid", pt: 1.5, color: "C9D3DC" }, rowH: [1.0, 0.68, 0.68, 0.68, 0.68], valign: "middle", margin: 0.05 });
-  T([
-    { text: "Readout → Kd", options: { bold: true, color: K.teal, fontSize: 28, breakLine: true } },
-    { text: "titrate target, fit mP to a 1:1 binding model", options: { fontSize: 24, breakLine: true } },
-    { text: "Controls", options: { bold: true, color: K.teal, fontSize: 28, breakLine: true } },
-    { text: "scrambled sequence · dye only · stool-only blank · unlabelled competitor", options: { fontSize: 24, breakLine: true } },
-    { text: "Watch-outs", options: { bold: true, color: K.coral, fontSize: 28, breakLine: true } },
-    { text: "stool scatter/autofluorescence → red dye + blanks · dye/linker can alter binding", options: { fontSize: 24 } },
-  ], { x: mx, y: rD + 6.5, w: mw, h: hD - 6.8, paraSpaceAfter: 3 });
+    "Folding pulls negative phosphates together — an electrostatic penalty",
+    "Positive ions screen it: an ion atmosphere — diffuse and mobile, not fixed ions",
+    "Folding and ion uptake are coupled: more salt can stabilise a compact fold",
+  ], { x: M + 0.6, y: y + 7.3, w: C3 - 1.2, h: hB - 7.5, fontSize: 23 });
 
-  // ---------- Row E: discussion + next step ----------
-  const rE = rD + hD + G, hE = H - rE - 0.6;
-  s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x: M, y: rE, w: W - 2 * M, h: hE, rectRadius: 0.5, fill: { color: K.navy }, line: { color: K.navy } });
-  T("Let's discuss!", { x: M + 0.7, y: rE + 0.35, w: 8, h: 0.9, fontSize: 44, bold: true, color: K.sun });
-  const qs = ["Which buffer is ‘fair’ — each aptamer's own, or one common buffer?", "How much stool dilution is acceptable for a rapid test?", "Your experience with FP in complex matrices?"];
+  const xB2 = M + C3 + G;
+  panel(4, "Counterion release", xB2, y, C3, hB, K.violet, "3 · Entropy");
+  await img(I.counterionRelease(), xB2 + 0.5, y + 2.7, C3 - 1.0, "Ions crowding each partner before binding and released into solution after");
+  bullets([
+    "Ions are enriched near the DNA and near positive patches on the target",
+    "On association some are released into bulk solution and gain freedom → entropy",
+    "As bulk salt rises there is less to gain from release, so the advantage shrinks",
+    "One reason binding weakens at high salt",
+  ], { x: xB2 + 0.6, y: y + 7.0, w: C3 - 1.2, h: hB - 7.3, fontSize: 24 });
+
+  const xB3 = M + 2 * (C3 + G);
+  panel(5, "Identity, not only amount", xB3, y, C3, hB, K.sun, "4 · Which ion, not just how much");
+  await img(I.ionIdentity(), xB3 + 0.4, y + 2.9, C3 - 0.8, "Potassium in a G-quadruplex, magnesium competing with monovalent ions, chloride versus glutamate");
+  s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x: xB3 + 0.6, y: y + 6.6, w: C3 - 1.2, h: 3.3, rectRadius: 0.35, fill: { color: K.navy }, line: { color: K.navy } });
+  T([
+    { text: "Two buffers are not equivalent just because both contain “salt”.", options: { fontSize: 28, bold: true, color: "FFFFFF", breakLine: true } },
+    { text: "Ion identity, concentration and pH are separate variables — and we treat them that way.", options: { fontSize: 26, color: "FFFFFF" } },
+  ], { x: xB3 + 1.0, y: y + 6.9, w: C3 - 2.0, h: 2.7, paraSpaceAfter: 8 });
+
+  // ---------- Row C — panel 3: the salt curve (centrepiece) ----------
+  y += hB + G;
+  const hC = 9.9;
+  panel(3, "…and the same ions weaken the handshake", M, y, FULL, hC, K.coral, "2 · Electrostatics at the interface");
+  await img(I.saltCurve(), M + 0.5, y + 2.3, 13.4, "Non-monotonic affinity versus ionic strength with folding and interface effects");
+  bullets([
+    "Binding to a positively charged patch is helped by attraction to the negative backbone",
+    "Salt screens that attraction too — so the ions that help the fold weaken part of the contact",
+    "Affinity against salt is therefore often not monotonic: there can be a window where folding is good and the interface is still strong",
+  ], { x: M + 14.3, y: y + 2.4, w: FULL - 14.9, h: 4.2, fontSize: 27 });
+  note(M + 14.3, y + 6.8, FULL - 14.9, hC - 7.3, "What salt dependence does not tell us",
+    "A steep fall in affinity with rising salt suggests a charge-driven interaction. It does not tell us how many ions were released: structural change, hydration and other contacts also contribute. We treat the salt response as a clue, not a full explanation.", K.coral);
+
+  // ---------- Row D — panels 6 and 7 ----------
+  y += hC + G;
+  const hD = 8.2, xD2 = M + C2 + G;
+  panel(6, "Specificity", M, y, C2, hD, K.brown, "5 · A strong signal is not proof of recognition");
+  await img(I.specificityWindow(), M + 2.6, y + 2.45, 10.0, "Background at low salt, recognition in the window, weakened binding at high salt");
+  T([
+    { text: "Controls, under matched conditions:  ", options: { bold: true, color: "8A6A4F", fontSize: 26 } },
+    { text: "scrambled sequences · motif mutants · unrelated viral particles · norovirus-negative stool", options: { fontSize: 25 } },
+  ], { x: M + 0.6, y: y + hD - 1.05, w: C2 - 1.2, h: 0.9 });
+
+  panel(7, "Why fluorescence polarisation", xD2, y, C2, hD, K.teal, "6 · One method, one variable: the solution");
+  await img(I.fpPlusCd(), xD2 + 0.5, y + 2.5, 8.0, "Fluorescence polarization and circular dichroism side by side");
+  bullets([
+    "Everything in solution — nothing immobilised, no surface",
+    "No wash: one buffer start to finish, at equilibrium",
+    "One plate scans ion identity, concentration and pH for all six",
+    "With CD: tells a change in fold from a change at the interface",
+  ], { x: xD2 + 8.8, y: y + 2.55, w: C2 - 9.4, h: 3.4, fontSize: 23 });
+  s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x: xD2 + 0.6, y: y + hD - 2.1, w: C2 - 1.2, h: 1.8, rectRadius: 0.35, fill: { color: K.teal }, line: { color: K.teal } });
+  T([
+    { text: "The plan in one line:  ", options: { bold: true, color: "FFFFFF", fontSize: 27 } },
+    { text: "test all six head-to-head by FP, vary ions and pH deliberately, and compare both how well each aptamer binds and how much its binding changes between conditions.", options: { color: "FFFFFF", fontSize: 25 } },
+  ], { x: xD2 + 1.0, y: y + hD - 1.9, w: C2 - 2.0, h: 1.5 });
+
+  // ---------- Takeaway + discussion ----------
+  y += hD + G;
+  const hE = H - y - 0.55;
+  s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x: M, y, w: FULL, h: hE, rectRadius: 0.5, fill: { color: K.navy }, line: { color: K.navy } });
+  T([
+    { text: "Takeaway:  ", options: { bold: true, color: "F2C14E", fontSize: 34 } },
+    { text: "salt helps the fold, weakens the handshake, and changes the entropy of binding — so the binding we measure belongs to the sequence ", options: { color: "FFFFFF", fontSize: 32 } },
+    { text: "and its solution together", options: { color: "F2C14E", fontSize: 32, bold: true, italic: true } },
+    { text: ".", options: { color: "FFFFFF", fontSize: 32 } },
+  ], { x: M + 0.8, y: y + 0.45, w: FULL - 1.6, h: 1.9, lineSpacingMultiple: 1.05 });
+  const qs = [
+    "Fair buffer: each aptamer's own, or one shared condition for all six?",
+    "How far can stool be diluted before the question stops being realistic?",
+    "Your experience with FP or CD in complex matrices — what caught you out?",
+  ];
+  const qw = (FULL - 1.6 - 2 * 0.5) / 3;
   qs.forEach((q, i) => {
-    const qx = M + 0.7 + i * 7.0;
-    s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x: qx, y: rE + 1.3, w: 6.7, h: hE - 1.6, rectRadius: 0.35, fill: { color: K.white }, line: { color: K.sun, width: 4 } });
-    T(q, { x: qx + 0.3, y: rE + 1.3, w: 6.1, h: hE - 1.6, fontSize: 25, valign: "middle", bold: true });
+    const qx = M + 0.8 + i * (qw + 0.5);
+    s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x: qx, y: y + 2.6, w: qw, h: hE - 3.2, rectRadius: 0.35, fill: { color: K.white }, line: { color: K.sun, width: 5 } });
+    T(q, { x: qx + 0.4, y: y + 2.6, w: qw - 0.8, h: hE - 3.2, fontSize: 26, valign: "middle", bold: true });
   });
-  await img(I.lfaCartoon(), M + 22.0, rE + 0.25, Math.min(W - 2 * M - 22.4, (hE - 0.5) * 900 / 360), "Lateral flow strip with a smiling face: the next step");
 
   await pres.writeFile({ fileName: OUT });
   await applyTheme(OUT, THEME);
-  console.log("wrote", OUT, "rowE", rE.toFixed(2), "hE", hE.toFixed(2));
+  console.log("wrote", OUT, "| bottom", (y + hE).toFixed(2), "of", H);
 })();

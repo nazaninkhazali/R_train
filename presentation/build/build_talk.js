@@ -1,5 +1,5 @@
 // Builds ../retreat_talk.pptx (clean scientific style, 16:9).
-// Placeholders the presenter must fill are written in [square brackets].
+// Content follows the user's source document; [square brackets] = still to fill in.
 const pptxgen = require("pptxgenjs");
 const path = require("path");
 const I = require("./illus");
@@ -20,15 +20,15 @@ const OUT = path.join(__dirname, "..", "retreat_talk.pptx");
 (async () => {
   const pres = new pptxgen();
   pres.layout = "LAYOUT_WIDE"; // 13.333 x 7.5
-  pres.title = "Rapid aptamer-based viral screening — PhD retreat";
+  pres.title = "From molecular recognition to a rapid test — PhD retreat";
   pres.theme = { headFontFace: THEME.headFontFace, bodyFontFace: THEME.bodyFontFace };
   const C = pres.SchemeColor;
-  const K = { navy: C.text1, slate: C.text2, white: C.background1, mist: C.background2, teal: C.accent1, coral: C.accent2, sun: C.accent3, violet: C.accent4, tealL: C.accent5 };
+  const K = { navy: C.text1, slate: C.text2, white: C.background1, mist: C.background2, teal: C.accent1, coral: C.accent2, sun: C.accent3, violet: C.accent4, tealL: C.accent5, brown: C.accent6 };
 
   pres.defineSlideMaster({
     title: "Dark",
     background: { color: K.navy },
-    objects: [{ placeholder: { options: { name: "title", type: "title", x: 0.7, y: 1.6, w: 6.6, h: 2.6, fontSize: 44, bold: true, color: K.white, valign: "top", align: "left" }, text: "" } }],
+    objects: [{ placeholder: { options: { name: "title", type: "title", x: 0.7, y: 1.5, w: 6.6, h: 2.6, fontSize: 42, bold: true, color: K.white, valign: "top", align: "left" }, text: "" } }],
   });
   pres.defineSlideMaster({
     title: "Content",
@@ -39,7 +39,7 @@ const OUT = path.join(__dirname, "..", "retreat_talk.pptx");
 
   const img = async (slide, ill, x, y, w, name) => {
     const h = (w * ill.h) / ill.w;
-    slide.addImage({ data: "image/png;base64," + (await I.toPng(ill, 2000)).toString("base64"), x, y, w, h, altText: name, objectName: name });
+    slide.addImage({ data: "image/png;base64," + (await I.toPng(ill, 2200)).toString("base64"), x, y, w, h, altText: name, objectName: name });
     return h;
   };
   const T = (slide, text, o) => slide.addText(text, { isTextBox: true, fontSize: 16, color: K.navy, margin: 0, valign: "top", ...o });
@@ -56,176 +56,174 @@ const OUT = path.join(__dirname, "..", "retreat_talk.pptx");
     T(slide, [{ text: head, options: { bold: true, color: headCol, fontSize: 17, breakLine: true } }, { text: body, options: { fontSize: 15, color: K.navy } }], { x: x + 0.2, y: y + 0.15, w: w - 0.4, h: h - 0.3, paraSpaceAfter: 4 });
   };
   const add = (master, section) => pres.addSlide({ masterName: master, sectionTitle: section });
+  const QUESTION = "The donor has been screened — but what about the donation made today?";
 
-  // ---------- 1. Title / hook ----------
-  pres.addSection({ title: "Opening" });
-  let s = add("Dark", "Opening");
-  s.addText("Finding a few viruses in a very crowded sample — fast", { placeholder: "title" });
-  T(s, "Aptamer-based rapid viral screening of donor stool", { x: 0.7, y: 4.3, w: 6.4, h: 0.5, fontSize: 22, color: K.tealL });
+  // ---------- 1. Title ----------
+  pres.addSection({ title: "The problem" });
+  let s = add("Dark", "The problem");
+  s.addText(QUESTION, { placeholder: "title" });
+  T(s, "A rapid aptamer-based test for enteric viruses in FMT donor stool", { x: 0.7, y: 4.4, w: 6.4, h: 0.8, fontSize: 21, color: K.tealL });
   T(s, "[Your name]  ·  [Lab / supervisors]  ·  PhD Retreat 2026", { x: 0.7, y: 6.4, w: 6.4, h: 0.4, fontSize: 15, color: K.mist });
-  s.addShape(pres.shapes.OVAL, { x: 7.65, y: 0.75, w: 5.6, h: 5.6, fill: { color: K.white }, line: { color: K.white }, objectName: "hook-backdrop" });
-  await img(s, I.hookCrowd(), 7.9, 1.0, 5.1, "Magnifier finding three viruses among bacteria and debris");
-  s.addNotes(`[0:20] Imagine looking for three specific viruses in a sample that contains a trillion bacteria per gram, food remains, bile, salts and pigments — and you need the answer in minutes, not days. That is my PhD in one sentence. Today I'll show you how I'm trying to build such a test, and the surprise that changed my plan along the way.`);
+  s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x: 7.5, y: 2.3, w: 5.3, h: 2.6, rectRadius: 0.2, fill: { color: K.white }, line: { color: K.white } });
+  await img(s, I.donationChain(), 7.7, 2.5, 4.9, "Donor, donations over time with today's unmarked, and patient");
+  s.addNotes(`[0:25] I want to start with the question that drives my whole project: the donor has been screened — but what about the donation made today? To explain why that question matters, let me set the scene.`);
 
-  // ---------- 2. Recap ----------
-  s = add("Content", "Opening");
-  s.addText("Recap: safe donors need a faster virus check", { placeholder: "title" });
-  await img(s, I.recapTimeline(), 0.7, 1.75, 9.3, "Timeline: central-lab PCR takes days versus a 15-minute rapid test");
-  chip(s, 10.3, 1.75, 2.45, 2.0, "The gap", "A test that can run at every donation, on site, in minutes", K.mist, K.coral);
-  T(s, "FMT works — but every donation must be pathogen-free, and today's screening is slow and periodic.", { x: 0.7, y: 5.6, w: 11.9, h: 0.8, fontSize: 18, color: K.slate, italic: true });
-  s.addNotes(`[0:40] Quick reminder from last time: in faecal microbiota transplantation, stool from a healthy donor becomes a medicine, so every donation must be free of pathogens. Today donors are screened with PCR panels in a central lab. That takes days, and it only tells you about the sample you tested — not the next donation. What's missing is a test that can run at every donation, on site, in minutes.`);
+  // ---------- 2. FMT / active ingredient ----------
+  s = add("Content", "The problem");
+  s.addText("The donation cannot be sterilised — the microbes are the medicine", { placeholder: "title" });
+  await img(s, I.activeIngredient(), 0.7, 1.75, 7.2, "Living microbial community that cannot be sterilised");
+  chip(s, 8.3, 1.75, 4.4, 1.6, "FMT in one line", "A healthy donor's gut microbiota is transferred to a patient");
+  chip(s, 8.3, 3.55, 4.4, 1.6, "Who receives it", "Often elderly, on antibiotics or immunocompromised — an infection passed on can be serious", K.mist, K.coral);
+  s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x: 8.3, y: 5.35, w: 4.4, h: 1.25, rectRadius: 0.12, fill: { color: K.navy }, line: { color: K.navy } });
+  T(s, "So the donor screen is the main safety barrier", { x: 8.5, y: 5.35, w: 4.0, h: 1.25, fontSize: 18, bold: true, color: K.white, valign: "middle" });
+  s.addNotes(`[0:50] Faecal microbiota transplantation transfers a healthy donor's gut microbiota to a patient. The recipients are often elderly, on antibiotics or immunocompromised, so an infection passed on through the donation can be serious. And here is the thing that makes this different from most other transplanted material: you cannot sterilise it. The living microbial community is the active ingredient — if you kill it, you have no medicine. That means the donor screen is the main safety barrier.`);
 
-  // ---------- 3. Bigger picture ----------
-  s = add("Content", "Opening");
-  s.addText("The bigger problem: detection in messy samples", { placeholder: "title" });
-  const apps = [["Clinical", "stool, blood, saliva"], ["Food", "e.g. norovirus in shellfish"], ["Environment", "wastewater surveillance"]];
-  apps.forEach(([h, b], i) => chip(s, 0.6, 1.7 + i * 1.25, 3.6, 1.05, h, b));
-  T(s, "Same challenge everywhere: a rare target in a crowded, variable matrix", { x: 0.6, y: 5.55, w: 3.6, h: 1.0, fontSize: 15, color: K.slate, italic: true });
-  await img(s, I.antibodyVsAptamer(), 4.6, 1.7, 8.1, "Antibody versus aptamer comparison");
-  s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x: 4.6, y: 5.75, w: 8.1, h: 0.85, rectRadius: 0.1, fill: { color: K.navy }, line: { color: K.navy } });
-  T(s, "Most aptamer sensors are characterised in clean buffer; few are tested in stool  [add ref]", { x: 4.8, y: 5.75, w: 7.7, h: 0.85, fontSize: 16, color: K.white, valign: "middle", bold: true });
-  s.addNotes(`[1:00] This is not just an FMT problem. Clinical diagnostics, food safety and wastewater surveillance all face the same challenge: find a rare target in a crowded, variable matrix. Rapid tests usually rely on antibodies. I use aptamers — short DNA strands that fold into a 3D shape and bind a target. They are made chemically, so every batch is identical; they're cheap, stable and easy to label. But here's the catch relevant to the field: most published aptamer sensors are characterised in clean buffer. Far fewer are tested in real samples like stool. That gap is where my project sits.`);
+  // ---------- 3. How donors are screened + the gap ----------
+  s = add("Content", "The problem");
+  s.addText("Screening brackets a donation period — the donations in between are untested", { placeholder: "title" });
+  await img(s, I.screeningGap(), 0.5, 1.5, 9.2, "Screening at both ends of an interval with a shedding episode in between");
+  chip(s, 9.9, 1.5, 2.85, 1.9, "Before donating", "Questionnaire on health, medication, symptoms, travel, exposure + blood and stool tests");
+  chip(s, 9.9, 3.6, 2.85, 1.6, "Then", "Screened at the start of the period, re-assessed at the end [schedule varies by stool bank]");
+  chip(s, 9.9, 5.4, 2.85, 1.5, "The gap", "A donor can acquire a virus, shed it, and recover between the two tests", K.mist, K.coral);
+  s.addNotes(`[1:10] So how are donors screened? Before someone becomes a donor they fill in a questionnaire about health, medication, symptoms, travel and possible exposure to infection, and then blood and stool samples are tested for relevant pathogens. But passing those tests does not guarantee that every later donation is free from infection. In the workflow I'm discussing, testing brackets a donation period: donors are screened at the beginning and re-assessed at the end, and the exact schedule varies between stool banks. Between those two points a donor could acquire an enteric virus, shed it in a donation, and recover before the next assessment. They might even shed without any symptoms. The donor has been screened — but the donation made today has not been tested.`);
 
-  // ---------- 4. Roadmap ----------
+  // ---------- 4. Why RT-qPCR doesn't close it ----------
+  s = add("Content", "The problem");
+  s.addText("RT-qPCR is excellent — but not for every single donation", { placeholder: "title" });
+  const pcr = [["Sensitive", "detects very low viral loads"], ["Specific", "identifies the virus precisely"]];
+  pcr.forEach(([h, b], i) => chip(s, 0.7, 1.8 + i * 1.4, 5.5, 1.2, h, b, K.mist, K.teal));
+  const cost = [["Sample preparation", "extraction, reagents, hands-on time"], ["Equipment & trained staff", "a laboratory, not a donation room"], ["Time", "the donation waits for the result"]];
+  cost.forEach(([h, b], i) => chip(s, 6.8, 1.8 + i * 1.4, 5.9, 1.2, h, b, K.mist, K.coral));
+  T(s, "That is exactly why screening happens at intervals rather than per donation", { x: 0.7, y: 6.1, w: 12, h: 0.6, fontSize: 19, bold: true, color: K.navy });
+  s.addNotes(`[0:45] Why don't we simply test every donation with the confirmatory method? RT-qPCR is sensitive and specific — it is the right tool for a definitive answer. But it needs sample preparation, equipment, trained staff and time. It is not practical to run on every single donation, and that is precisely why screening happens at intervals instead.`);
+
+  // ---------- 5. Triage, not a verdict ----------
+  s = add("Content", "The problem");
+  s.addText("What a rapid test adds: triage, not a verdict", { placeholder: "title" });
+  await img(s, I.triageFunnel(), 1.9, 1.5, 9.5, "Every donation screened rapidly; flagged ones go to RT-qPCR");
+  s.addNotes(`[0:50] So what would a rapid test actually add? A fast, simple test applied donation by donation could flag suspicious donations for further testing before they are used. I want to be precise about this, because it is easy to oversell: it would not replace laboratory confirmation, and it would not declare a donation safe by itself. Its job is triage — narrowing the window in which an infected donation can go unnoticed.`);
+
+  // ---------- 6. Why norovirus ----------
+  s = add("Content", "The problem");
+  s.addText("Why norovirus", { placeholder: "title" });
+  await img(s, I.norovirusFacts(), 0.6, 1.5, 9.5, "Norovirus: low infectious dose, high shedding, silent shedding, prolonged in immunocompromised");
+  chip(s, 10.4, 1.5, 2.35, 1.9, "Major cause", "of acute gastroenteritis");
+  chip(s, 10.4, 3.6, 2.35, 1.9, "Rapid antigen tests", "perform poorly for it compared with other enteric viruses", K.mist, K.coral);
+  chip(s, 10.4, 5.7, 2.35, 1.3, "Aptamers exist", "several published candidates", K.mist, K.violet);
+  s.addNotes(`[1:00] Why norovirus? It is a major cause of acute gastroenteritis and a good example of exactly this problem. It can be shed in very large quantities, it needs a very low infectious dose, and it can be shed without symptoms or after someone has recovered. In immunocompromised recipients, infection may become prolonged. On top of that, existing rapid antigen tests perform poorly for norovirus compared with other enteric viruses — so there is a real gap to fill. And conveniently, several aptamers already exist that could serve as recognition elements.`);
+
+  // ---------- 7. Roadmap ----------
   pres.addSection({ title: "Roadmap" });
   s = add("Content", "Roadmap");
-  s.addText("Three work packages, one question each", { placeholder: "title" });
+  s.addText("Three work packages", { placeholder: "title" });
   s.addShape(pres.shapes.LINE, { x: 1.9, y: 3.15, w: 9.5, h: 0, line: { color: K.tealL, width: 4, dashType: "dash" } });
   const wps = [
-    ["WP1", "Does a donor's virome change over time?", "→ why we need a rapid test", K.teal],
-    ["WP2", "Which aptamer binds best — in buffer and in stool?", "→ choosing the binder", K.coral],
-    ["WP3", "Can it work on a paper strip?", "→ the rapid test itself", K.violet],
+    ["WP1", "How much does the viral picture change across the interval?", "how large is the gap", K.teal],
+    ["WP2", "How do our aptamers recognise the virus — in buffer and in stool?", "the recognition", K.coral],
+    ["WP3", "Can that recognition become a visible line on a strip?", "the test", K.violet],
   ];
   wps.forEach(([n, q, why, col], i) => {
     const x = 1.0 + i * 4.1;
     s.addShape(pres.shapes.OVAL, { x: x + 0.9, y: 2.35, w: 1.6, h: 1.6, fill: { color: col }, line: { color: K.white, width: 4 }, objectName: `roadmap-${n}` });
     T(s, n, { x: x + 0.9, y: 2.35, w: 1.6, h: 1.6, fontSize: 26, bold: true, color: K.white, align: "center", valign: "middle" });
-    T(s, q, { x, y: 4.3, w: 3.4, h: 1.0, fontSize: 19, bold: true, align: "center" });
-    T(s, why, { x, y: 5.35, w: 3.4, h: 0.5, fontSize: 15, color: K.slate, align: "center", italic: true });
+    T(s, q, { x, y: 4.3, w: 3.4, h: 1.1, fontSize: 18, bold: true, align: "center" });
+    T(s, why, { x, y: 5.5, w: 3.4, h: 0.5, fontSize: 15, color: K.slate, align: "center", italic: true });
   });
-  s.addNotes(`[0:20] My project has three work packages. WP1 asks whether a donor's viruses change over time — which tells us how often we need to test. WP2 asks which aptamer is the best binder, in buffer and in stool. And WP3 turns the winner into a paper-strip test.`);
+  s.addNotes(`[0:20] My project has three work packages. First, measure how much the viral picture actually changes across a screening interval. Second, understand how aptamers recognise the virus, in buffer and then in stool. Third, turn that recognition into a test.`);
 
-  // ---------- 5. WP1 design ----------
+  // ---------- 8. WP1 ----------
   pres.addSection({ title: "WP1" });
   s = add("Content", "WP1");
-  s.addText("WP1: Is a donor's virome stable over time?", { placeholder: "title" });
+  s.addText("WP1: how much changes inside the interval?", { placeholder: "title" });
   progress(s, 1);
-  await img(s, I.wp1Calendar(), 0.5, 1.6, 7.4, "Donors sampled repeatedly over time");
-  chip(s, 8.3, 1.6, 4.4, 1.25, "Design", "Same donors, stool sampled repeatedly over [weeks / months]");
-  chip(s, 8.3, 3.0, 4.4, 1.25, "Measure", "Enteric viruses: presence, load, diversity  [method: qPCR / sequencing]");
-  chip(s, 8.3, 4.4, 4.4, 1.25, "Status", "[n donors × n time points] — sampling & analysis ongoing", K.mist, K.coral);
-  T(s, "Results not yet available — next slide shows the hypothesis, not data", { x: 0.6, y: 6.2, w: 11, h: 0.4, fontSize: 14, color: K.slate, italic: true });
-  s.addNotes(`[1:10] WP1 is a longitudinal study. We follow the same donors and collect stool repeatedly over [time frame]. In each sample we look for enteric viruses — whether they're present, how much, and how diverse — using [method]. We're currently at [status]. I don't have results yet, so on the next slide I'll show you what we expect and why it matters.`);
+  await img(s, I.wp1Sampling(), 0.5, 1.6, 8.0, "Same donor sampled repeatedly across one screening interval");
+  chip(s, 8.8, 1.6, 3.95, 1.5, "Design", "Stool samples from the same person across a screening interval");
+  chip(s, 8.8, 3.25, 3.95, 1.5, "Question", "How does the diversity of viruses present change over time?");
+  chip(s, 8.8, 4.9, 3.95, 1.8, "Why it matters", "Does the picture at the start still describe the donations made later?", K.mist, K.coral);
+  T(s, "Planned — [n donors × n time points, method]. This tells us how large the gap really is.", { x: 0.5, y: 6.3, w: 8.0, h: 0.5, fontSize: 15, color: K.slate, italic: true });
+  s.addNotes(`[1:00] We do not yet know how much changes inside that interval — and that is Work Package 1. We plan to study stool samples collected from the same person across a screening interval, and look at how the diversity of the viruses present changes over time. The point is to find out whether the viral picture at the start of the interval still describes the donations made later. In other words, WP1 measures how large the gap really is. This is planned work, so I have no results to show you yet.`);
 
-  // ---------- 6. WP1 hypothesis ----------
-  s = add("Content", "WP1");
-  s.addText("Hypothesis: negative today ≠ negative next week", { placeholder: "title" });
-  progress(s, 1);
-  await img(s, I.wp1Hypothesis(), 0.6, 1.55, 8.0, "Hypothetical timeline of one donor with virus appearing and disappearing");
-  const steps = ["Viral shedding is intermittent", "→ one screen is not enough", "→ test every donation", "→ the test must be rapid & cheap"];
-  steps.forEach((t, i) => {
-    s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x: 9.0, y: 1.7 + i * 1.1, w: 3.75, h: 0.85, rectRadius: 0.1, fill: { color: i === 3 ? K.teal : K.mist }, line: { color: i === 3 ? K.teal : K.mist } });
-    T(s, t, { x: 9.15, y: 1.7 + i * 1.1, w: 3.5, h: 0.85, fontSize: 16, bold: i === 3, color: i === 3 ? K.white : K.navy, valign: "middle" });
-  });
-  T(s, "Illustration only — WP1 will test this hypothesis", { x: 0.6, y: 6.2, w: 8, h: 0.4, fontSize: 14, color: K.slate, italic: true });
-  s.addNotes(`[0:40] Our hypothesis: a donor who tests negative today might shed a virus next week — shedding can be intermittent, often without symptoms. If WP1 confirms this, one screen per donor is not enough. You'd want to test every donation, and that is only realistic if the test is rapid and cheap. That's what WP2 and WP3 are about.`);
-
-  // ---------- 7. WP2 question ----------
+  // ---------- 9. WP2a: recognition in buffer ----------
   pres.addSection({ title: "WP2" });
   s = add("Content", "WP2");
-  s.addText("WP2: Which aptamer binds best — even in stool?", { placeholder: "title" });
+  s.addText("WP2: can our aptamers recognise their targets reliably?", { placeholder: "title" });
   progress(s, 2);
-  await img(s, I.aptamerLineup(), 0.6, 1.6, 8.3, "Four candidate aptamers and buffer versus stool");
-  chip(s, 9.3, 1.6, 3.45, 1.25, "Affinity", "How tightly? (Kd)");
-  chip(s, 9.3, 3.0, 3.45, 1.25, "Specificity", "Only the target virus?");
-  chip(s, 9.3, 4.4, 3.45, 1.25, "Robustness", "Same answer in stool?", K.mist, K.coral);
-  T(s, "Candidates: [Apt-A … Apt-D: names / sources]  ·  Target: [virus / protein]", { x: 0.6, y: 6.2, w: 11, h: 0.4, fontSize: 14, color: K.slate, italic: true });
-  s.addNotes(`[1:00] For [target], several aptamers have been published — I'm comparing [number] of them. They differ in sequence, in shape and in where they came from. To pick a winner I need three things: affinity — how tightly they bind; specificity — they shouldn't grab other viruses; and robustness — does the ranking hold when we move from clean buffer into stool? That last question is the one nobody has really answered.`);
+  await img(s, I.sixAptamers(), 0.5, 1.75, 8.4, "Six candidate aptamers");
+  chip(s, 9.3, 1.6, 3.45, 1.4, "Binding strength", "how tightly each one holds");
+  chip(s, 9.3, 3.15, 3.45, 1.4, "Specificity", "the target and not its neighbours");
+  chip(s, 9.3, 4.7, 3.45, 1.6, "Genotypes", "for norovirus: can it recognise different genotypes?", K.mist, K.violet);
+  T(s, "Start in buffer, where conditions are controlled  ·  Norovirus is the priority; astrovirus, rotavirus and adenovirus aptamers are also investigated", { x: 0.5, y: 5.9, w: 8.4, h: 0.9, fontSize: 16, color: K.slate, italic: true });
+  s.addNotes(`[1:00] In WP2 we first ask whether our aptamers can recognise their viral targets reliably. We begin in buffer, where conditions are controlled, and compare the candidates to understand their binding strength, their specificity, and — for norovirus — their ability to recognise different genotypes. Norovirus is our priority, while aptamers for astrovirus, rotavirus and adenovirus are also investigated.`);
 
-  // ---------- 8. Why ELISA ----------
+  // ---------- 10. WP2b: target models ----------
   s = add("Content", "WP2");
-  s.addText("First approach: an ELISA-style plate assay", { placeholder: "title" });
+  s.addText("Recognising what, exactly? The target itself is a choice", { placeholder: "title" });
   progress(s, 2);
-  await img(s, I.elisaWell(false), 0.6, 1.6, 6.6, "ELISA well: coated target, biotinylated aptamer, HRP colour readout");
-  chip(s, 7.7, 1.6, 5.0, 1.15, "Familiar & available", "Standard lab method, plates and readers in-house");
-  chip(s, 7.7, 2.95, 5.0, 1.15, "Many conditions at once", "96 wells → aptamers × buffers in one run");
-  chip(s, 7.7, 4.3, 5.0, 1.15, "Colour readout", "Like the final strip test");
-  T(s, "target coated → labelled aptamer binds → wash → enzyme makes colour", { x: 0.6, y: 6.2, w: 6.6, h: 0.4, fontSize: 14, color: K.slate, italic: true, align: "center" });
-  s.addNotes(`[0:50] My first choice was an ELISA-style assay: coat the target in a plate, add the labelled aptamer, wash, and let an enzyme make colour. It's familiar, everything is in the lab, I can test many aptamers and buffers in one plate, and the colour readout resembles what the final strip will do. It seemed perfect.`);
+  await img(s, I.targetModels(), 1.0, 1.75, 11.3, "Virus-like particle, recombinant capsid protein and murine norovirus");
+  T(s, "The form of the target influences recognition — so we compare the models rather than assume they agree", { x: 1.0, y: 5.95, w: 11.3, h: 0.7, fontSize: 19, bold: true, color: K.navy, align: "center" });
+  s.addNotes(`[0:50] But recognising a target in buffer is only the beginning — and "the target" is not one single thing. We compare different target models: virus-like particles, recombinant capsid protein, and murine norovirus. Each is a different compromise between how easy it is to work with and how close it is to the real virus, and the form of the target influences recognition. So rather than assume they agree, we compare them.`);
 
-  // ---------- 9. Plot twist ----------
+  // ---------- 11. WP2c: into stool ----------
   s = add("Content", "WP2");
-  s.addText("Plot twist: ELISA measured the assay, not the aptamer", { placeholder: "title" });
+  s.addText("Then into stool — and the signal drops. Degraded, or interfered with?", { placeholder: "title" });
   progress(s, 2);
-  await img(s, I.elisaWell(true), 0.6, 1.6, 5.6, "ELISA well with weak patchy signal");
-  const probs = [
-    ["Surface changes the players", "Coated target / tethered aptamer may not fold or bind as in solution"],
-    ["Washing removes fast binders", "Aptamers with fast off-rates are lost — affinity underestimated"],
-    ["Each aptamer wants its own buffer", "Salt & Mg²⁺ change folding; one wash buffer is unfair to some"],
-    ["Stool raises background", "Blocking agents and matrix stick to the plate and the DNA"],
+  await img(s, I.degradeVsInterfere(), 1.5, 1.5, 9.3, "Signal loss in stool: degradation versus interference, each with its diagnostic");
+  s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x: 1.5, y: 6.1, w: 9.3, h: 0.85, rectRadius: 0.12, fill: { color: K.navy }, line: { color: K.navy } });
+  T(s, "Rather than adjusting conditions until the signal improves, we investigate the mechanism behind the loss", { x: 1.8, y: 6.1, w: 8.7, h: 0.85, fontSize: 18, bold: true, color: K.white, valign: "middle" });
+  s.addNotes(`[1:10] Then we move into stool, where the challenge becomes more complex. The signal decreases — but why? Is the aptamer being degraded, or are stool components interfering with its binding? These two explanations look the same on a plate reader, but they call for completely different solutions. So rather than simply adjusting conditions until the signal improves, we investigate the mechanisms behind that loss. Degradation we can test by following the integrity of the aptamer over time; interference we can probe with spike-in and dilution experiments. Understanding which one we are facing should help us identify suitable strategies to preserve aptamer function.`);
+
+  // ---------- 12. Method: FP ----------
+  s = add("Content", "WP2");
+  s.addText("To compare them fairly, the solution must be the only variable", { placeholder: "title" });
+  progress(s, 2);
+  await img(s, I.fpPrinciple(), 0.5, 1.5, 7.6, "Fluorescence polarization: free aptamer tumbles fast, bound aptamer slowly");
+  const fp = [
+    ["Nothing is immobilised", "everything happens in solution"],
+    ["No wash step", "one defined buffer from start to finish"],
+    ["Equilibrium measurement", "the number we fit means something"],
+    ["One plate, many conditions", "ion identity, concentration and pH for every aptamer"],
   ];
-  probs.forEach(([h, b], i) => {
-    const y = 1.6 + i * 1.18;
-    s.addShape(pres.shapes.OVAL, { x: 6.6, y: y + 0.12, w: 0.6, h: 0.6, fill: { color: K.coral }, line: { color: K.coral } });
-    T(s, String(i + 1), { x: 6.6, y: y + 0.12, w: 0.6, h: 0.6, fontSize: 18, bold: true, color: K.white, align: "center", valign: "middle" });
-    T(s, [{ text: h, options: { bold: true, fontSize: 17, breakLine: true } }, { text: b, options: { fontSize: 15, color: K.slate } }], { x: 7.4, y, w: 5.4, h: 1.05 });
-  });
-  T(s, "[Optional: add your ELISA result — e.g. low signal / no ranking / high stool background]", { x: 0.6, y: 6.3, w: 11.5, h: 0.4, fontSize: 14, color: K.slate, italic: true });
-  s.addNotes(`[1:20] And then the plot twist. The signals were [weak / inconsistent], and the ranking of the aptamers didn't make sense. Looking closer, ELISA has four problems for this question. One: the surface. Immobilising the target or the aptamer can change how they fold and bind. Two: washing. Aptamers often bind and release quickly, so the washes remove exactly the binders I want to measure. Three: buffer. Each aptamer was selected in its own salt conditions — magnesium, potassium — and one shared wash buffer is unfair to some of them. Four: stool adds background. So ELISA was telling me more about the assay than about the aptamers.`);
+  fp.forEach(([h, b], i) => chip(s, 8.35, 1.5 + i * 1.3, 4.4, 1.15, h, b));
+  T(s, "Paired with circular dichroism, it helps separate a change in fold from a change at the interface", { x: 0.5, y: 5.95, w: 7.6, h: 0.9, fontSize: 17, color: K.navy, bold: true });
+  s.addNotes(`[1:10] All of this needs a method where the solution is the only thing that changes. Fluorescence polarization gives us that. We put a fluorescent tag on the aptamer and excite it with polarized light. The polarization reflects how fast the molecule tumbles: a free aptamer is small and tumbles fast, so polarization is low; bound to the large norovirus particle it tumbles slowly, so polarization rises. That rise is the binding signal. Why it suits this question: everything happens in solution, with nothing immobilised and no surface to stick to. There is no wash step, so the aptamer stays in one defined buffer from start to finish and the measurement is an equilibrium. And the same plate can scan ion identity, concentration and pH for every aptamer under one method. Paired with circular dichroism, it helps us separate a change in fold from a change at the interface. That last point is the subject of my poster.`);
 
-  // ---------- 10. FP ----------
-  s = add("Content", "WP2");
-  s.addText("The fix: fluorescence polarization, binding in solution", { placeholder: "title" });
-  progress(s, 2);
-  await img(s, I.fpPrinciple(), 0.5, 1.55, 7.6, "Fluorescence polarization principle: free aptamer tumbles fast, bound aptamer slowly");
-  const conc = [0.1, 0.3, 1, 3, 10, 30, 100, 300, 1000];
-  const fit = (kd) => conc.map((x) => Math.round(40 + (160 * x) / (kd + x)));
-  s.addChart(pres.charts.LINE, [
-    { name: "Apt-A (Kd 5 nM)", labels: conc.map(String), values: fit(5) },
-    { name: "Apt-B (Kd 80 nM)", labels: conc.map(String), values: fit(80) },
-  ], {
-    x: 8.35, y: 1.5, w: 4.5, h: 3.5, chartColors: ["138A8A", "E85D4A"], lineSize: 3, lineDataSymbolSize: 6,
-    showTitle: true, title: "Illustrative binding curves", titleFontSize: 14, titleColor: "1B2A41", titleFontFace: "+mn-lt",
-    showLegend: true, legendPos: "b", legendFontSize: 11, legendFontFace: "+mn-lt",
-    showCatAxisTitle: true, catAxisTitle: "[target] (nM, log steps)", catAxisTitleFontSize: 11, catAxisLabelFontSize: 10, catAxisLabelColor: "5C6B7D", catAxisLabelFontFace: "+mn-lt", catAxisTitleColor: "5C6B7D",
-    showValAxisTitle: true, valAxisTitle: "polarization (mP)", valAxisTitleFontSize: 11, valAxisLabelFontSize: 10, valAxisLabelColor: "5C6B7D", valAxisLabelFontFace: "+mn-lt", valAxisTitleColor: "5C6B7D",
-    valAxisMinVal: 0, valAxisMaxVal: 220, valGridLine: { color: "E1E7EC", size: 0.5 }, catGridLine: { style: "none" },
-  });
-  const pros = [["No surface", "aptamer folds freely"], ["No washes", "equilibrium Kd"], ["Mix & read", "minutes, any buffer"], ["Ratiometric", "tolerant to dilute stool"]];
-  pros.forEach(([h, b], i) => chip(s, 0.5 + i * 3.1, 5.35, 2.85, 1.15, h, b));
-  s.addNotes(`[1:20] So I switched to fluorescence polarization. The idea is simple: attach a small dye to the aptamer and excite it with polarized light. A free aptamer is small and tumbles fast, so the emitted light is scrambled — low polarization. When it binds the much bigger virus, it tumbles slowly and the light stays polarized — high polarization. Everything happens in solution: no surface, no washes, just mix and read. I can titrate the target, get a real equilibrium Kd for each aptamer, and do it in each aptamer's preferred buffer, in a common buffer, and in diluted stool. These curves are illustrative — [first FP data: …].`);
-
-  // ---------- 11. WP3 ----------
+  // ---------- 13. WP3 ----------
   pres.addSection({ title: "WP3" });
   s = add("Content", "WP3");
-  s.addText("WP3: The winning aptamer goes onto a paper strip", { placeholder: "title" });
+  s.addText("WP3: turning recognition into a visible line", { placeholder: "title" });
   progress(s, 3);
-  await img(s, I.lfaStrip(), 1.15, 1.55, 11.0, "Lateral flow strip: sample pad, conjugate pad, membrane with test and control lines, absorbent pad");
-  const w3 = [["1  Pick", "best aptamer from FP, in stool"], ["2  Build", "aptamer–gold conjugate + test line"], ["3  Validate", "spiked & real donor stool vs PCR"]];
-  w3.forEach(([h, b], i) => chip(s, 0.7 + i * 4.05, 5.75, 3.75, 0.95, h, b, K.mist, K.violet));
-  s.addNotes(`[1:00] In WP3 the winning aptamer goes onto a lateral flow strip — the same format as a pregnancy or COVID test. The stool extract flows along the strip, picks up aptamer-coated gold nanoparticles, and if the virus is there, a red test line appears. The plan: pick the best aptamer from the FP comparison, build the strip, and validate it with spiked and real donor samples against PCR. The goal is a result in about fifteen minutes, read by eye.`);
+  await img(s, I.lfaStrip(), 1.15, 1.5, 11.0, "Lateral flow strip anatomy");
+  const w3 = [
+    ["Immobilise", "aptamers on the membrane"],
+    ["Survive drying", "keep binding after the strip dries"],
+    ["Gold readout", "nanoparticles make the line visible"],
+    ["Benchmark", "LOD vs RT-qPCR and WP1 viral loads"],
+  ];
+  w3.forEach(([h, b], i) => chip(s, 0.7 + i * 3.15, 5.45, 2.95, 1.1, h, b, K.mist, K.violet));
+  T(s, "Minimum objective: a validated norovirus assay.  Next goal: a second test line.  Ambitious extension: naturally positive samples.", { x: 0.7, y: 6.75, w: 12, h: 0.5, fontSize: 15, color: K.slate, italic: true });
+  s.addNotes(`[1:00] WP3 takes that knowledge and turns it into a practical detection platform: a lateral flow assay, aiming to translate aptamer–virus binding into a visible coloured signal on a test strip, starting with norovirus. We investigate how to immobilise the aptamers on the membrane, how to preserve their binding after drying, and how to use gold nanoparticles to generate the readout. Then we optimise the assay for stool and assess whether its detection limit is compatible with the viral loads observed in WP1, benchmarking against RT-qPCR. If the results from WP2 support it, we add a test line for a second virus. A validated norovirus assay is the minimum technological objective; multiplex detection is the next goal, and testing on naturally positive samples is the ambitious extension.`);
 
-  // ---------- 12. Take-home ----------
+  // ---------- 14. Take-home ----------
   pres.addSection({ title: "Close" });
   s = add("Dark", "Close");
   s.addText("Take-home", { placeholder: "title" });
   const th = [
-    ["WP1", "If virus shedding fluctuates, donors need testing at every donation"],
-    ["WP2", "Compare aptamers in solution and in the real matrix — the method shapes the answer"],
-    ["WP3", "Turn the winner into a 15-minute strip test"],
+    ["WP1", "First measure how the viral picture changes across the interval"],
+    ["WP2", "Understand the recognition — in buffer, in stool, and in between"],
+    ["WP3", "Then build a test that says something about each donation"],
   ];
   th.forEach(([n, t], i) => {
-    s.addShape(pres.shapes.OVAL, { x: 0.7, y: 2.75 + i * 1.05, w: 0.75, h: 0.75, fill: { color: [K.teal, K.coral, K.violet][i] }, line: { color: K.navy } });
-    T(s, n, { x: 0.7, y: 2.75 + i * 1.05, w: 0.75, h: 0.75, fontSize: 13, bold: true, color: K.white, align: "center", valign: "middle" });
-    T(s, t, { x: 1.7, y: 2.75 + i * 1.05, w: 5.6, h: 0.75, fontSize: 18, color: K.white, valign: "middle" });
+    s.addShape(pres.shapes.OVAL, { x: 0.7, y: 2.7 + i * 1.05, w: 0.75, h: 0.75, fill: { color: [K.teal, K.coral, K.violet][i] }, line: { color: K.navy } });
+    T(s, n, { x: 0.7, y: 2.7 + i * 1.05, w: 0.75, h: 0.75, fontSize: 13, bold: true, color: K.white, align: "center", valign: "middle" });
+    T(s, t, { x: 1.7, y: 2.7 + i * 1.05, w: 5.6, h: 0.75, fontSize: 18, color: K.white, valign: "middle" });
   });
-  T(s, "Beyond FMT: any rapid test in a messy sample needs binders validated in that sample.", { x: 0.7, y: 6.0, w: 6.6, h: 0.7, fontSize: 16, color: K.tealL, italic: true });
-  s.addShape(pres.shapes.OVAL, { x: 7.95, y: 1.0, w: 4.9, h: 4.9, fill: { color: K.white }, line: { color: K.white } });
-  await img(s, I.hookCrowd(), 8.15, 1.2, 4.5, "Magnifier finding viruses in a crowded sample");
-  T(s, "The salt saga in detail → my poster [#__]", { x: 7.95, y: 6.15, w: 4.9, h: 0.5, fontSize: 16, color: K.sun, bold: true, align: "center" });
-  s.addNotes(`[0:50] To wrap up: WP1 will tell us whether donors need testing at every donation. WP2 taught me that how you measure aptamer binding shapes the answer — so I compare them in solution and in the real matrix. WP3 turns the winner into a fifteen-minute strip. And beyond FMT: any rapid test that has to work in a messy sample needs binders that were validated in that sample. Back to the magnifying glass — finding a few viruses in a crowded sample, fast. If you want the full story of why salt makes this so tricky, come to my poster.`);
+  T(s, QUESTION, { x: 0.7, y: 5.95, w: 6.6, h: 1.0, fontSize: 19, color: K.sun, bold: true, italic: true });
+  s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x: 7.7, y: 2.0, w: 5.1, h: 2.7, rectRadius: 0.2, fill: { color: K.white }, line: { color: K.white } });
+  await img(s, I.donationChain(), 7.85, 2.2, 4.8, "Donor, donations over time, patient");
+  T(s, "Why salt makes the comparison hard → my poster [#__]", { x: 7.7, y: 5.3, w: 5.1, h: 0.5, fontSize: 16, color: K.tealL, bold: true, align: "center" });
+  s.addNotes(`[0:40] To bring it together: we will first measure how the viral picture changes across the screening interval; then understand how our aptamers recognise the virus, in buffer and in stool; and then build a test that can say something about each individual donation — as triage, not as a verdict. Which brings me back to where I started: the donor has been screened — but what about the donation made today? If you want to hear why comparing six aptamers fairly is harder than it sounds, and what salt has to do with it, come to my poster.`);
 
-  // ---------- 13. Thanks ----------
+  // ---------- 15. Thanks ----------
   s = add("Dark", "Close");
   s.addText("Thank you — questions?", { placeholder: "title" });
   T(s, "[Supervisors]  ·  [Lab members]  ·  [Collaborators / stool bank]  ·  [Funding]", { x: 0.7, y: 4.4, w: 11.5, h: 0.6, fontSize: 18, color: K.mist });
@@ -235,25 +233,31 @@ const OUT = path.join(__dirname, "..", "retreat_talk.pptx");
   // ---------- Backups ----------
   pres.addSection({ title: "Backup" });
   s = add("Content", "Backup");
-  s.addText("Backup: how FP becomes a Kd", { placeholder: "title" });
+  s.addText("Backup: how fluorescence polarization becomes a Kd", { placeholder: "title" });
   T(s, [
     { text: "Polarization", options: { bold: true, color: K.teal, breakLine: true } },
-    { text: "P = (I∥ − G·I⊥) / (I∥ + G·I⊥)      (reported as mP = 1000·P)", options: { breakLine: true } },
+    { text: "P = (I∥ − G·I⊥) / (I∥ + G·I⊥)      reported as mP = 1000·P", options: { breakLine: true } },
     { text: "Anisotropy  r = (I∥ − G·I⊥) / (I∥ + 2G·I⊥)", options: { breakLine: true } },
-    { text: " ", options: { breakLine: true } },
-    { text: "Fraction bound (ligand depletion, aptamer L, target T)", options: { bold: true, color: K.teal, breakLine: true } },
+    { text: " ", options: { fontSize: 10, breakLine: true } },
+    { text: "Fraction bound (ligand depletion; labelled aptamer L, target T)", options: { bold: true, color: K.teal, breakLine: true } },
     { text: "f = [(L+T+Kd) − √((L+T+Kd)² − 4·L·T)] / (2·L)", options: { breakLine: true } },
-    { text: "r_obs = r_free + f·(r_bound − r_free)      (correct for brightness change on binding if needed)", options: { breakLine: true } },
-    { text: " ", options: { breakLine: true } },
-    { text: "Controls", options: { bold: true, color: K.teal, breakLine: true } },
-    { text: "scrambled aptamer · dye-only · stool-only blank (scatter/autofluorescence) · unlabelled competition" },
+    { text: "r_obs = r_free + f·(r_bound − r_free)   — correct for a brightness change on binding if present", options: { breakLine: true } },
+    { text: " ", options: { fontSize: 10, breakLine: true } },
+    { text: "Controls under matched conditions", options: { bold: true, color: K.teal, breakLine: true } },
+    { text: "scrambled sequence · motif mutant · unrelated viral particles · norovirus-negative stool · dye-only blank" },
   ], { x: 0.7, y: 1.6, w: 12, h: 4.8, fontSize: 18, paraSpaceAfter: 6 });
 
   s = add("Content", "Backup");
-  s.addText("Backup: aptamer candidates", { placeholder: "title" });
-  const hdr = ["Aptamer", "Target", "Length", "SELEX buffer", "Reported Kd (method)", "Reference"].map((t) => ({ text: t, options: { bold: true, color: "FFFFFF", fill: { color: "1B2A41" } } }));
-  const rows = ["A", "B", "C", "D"].map((n) => [`Apt-${n}`, "[ ]", "[ ] nt", "[ ]", "[ ] nM ([ ])", "[ ]"]);
-  s.addTable([hdr, ...rows], { x: 0.7, y: 1.6, w: 11.9, colW: [1.5, 2.0, 1.2, 2.6, 2.6, 2.0], fontSize: 15, color: "1B2A41", border: { type: "solid", pt: 0.75, color: "C9D3DC" }, rowH: 0.6, fontFace: "Calibri" });
+  s.addText("Backup: the six aptamer candidates", { placeholder: "title" });
+  const hdr = ["Aptamer", "Target", "Selection method", "SELEX buffer", "Published Kd (method)", "Source"].map((t) => ({ text: t, options: { bold: true, color: "FFFFFF", fill: { color: "1B2A41" } } }));
+  const rows = [1, 2, 3, 4, 5, 6].map((n) => [`Apt-${n}`, "[ ]", "[ ]", "[ ]", "[ ] ([ ])", "[ ]"]);
+  s.addTable([hdr, ...rows], { x: 0.7, y: 1.6, w: 11.9, colW: [1.4, 1.9, 2.2, 2.3, 2.3, 1.8], fontSize: 14, color: "1B2A41", border: { type: "solid", pt: 0.75, color: "C9D3DC" }, rowH: 0.52, fontFace: "Calibri" });
+  T(s, "Published affinities come from different labs, techniques, targets and buffers — they are not directly comparable, which is why we re-measure all six by one method.", { x: 0.7, y: 6.2, w: 11.9, h: 0.6, fontSize: 15, color: K.slate, italic: true });
+
+  s = add("Content", "Backup");
+  s.addText("Backup: what salt does, in one slide", { placeholder: "title" });
+  await img(s, I.saltCurve(), 1.6, 1.5, 8.6, "Non-monotonic affinity versus ionic strength");
+  T(s, "Folding needs ions; the interface is weakened by them; counterion release adds entropy. The binding we measure belongs to the sequence and its solution together.", { x: 1.6, y: 6.5, w: 8.6, h: 0.7, fontSize: 16, color: K.navy, bold: true });
 
   await pres.writeFile({ fileName: OUT });
   await applyTheme(OUT, THEME);
