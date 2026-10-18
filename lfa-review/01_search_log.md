@@ -69,7 +69,86 @@ Result:
 Interpretation (mine): abstracts often do not name the label or use a colour term, so a colorimetric
 block in the search loses many eligible studies. Colorimetric status is better judged at screening.
 
-## D. Access notes
+## D. Author decisions on strategy (2026-10-18)
+- No colorimetric block: search = (LFA terms) AND (virus terms). Colorimetric status is judged at screening.
+- Commercial SARS-CoV-2 rapid-test accuracy studies: screened, tagged "commercial test evaluation" and
+  charted with basic fields only. Their accuracy is summarised from existing systematic reviews.
+- Final run: the author runs the string on pubmed.gov and uploads the export (PubMed format).
+- Full text: Claude requests the PDF from the author whenever details beyond the abstract are needed.
+
+Extra checks (2026-10-18):
+- `"Lateral Flow Immunoassay"[MeSH]` → 0 hits (no such MeSH heading).
+- `"Reagent Strips"[MeSH] AND ("Viruses"[MeSH] OR "Virus Diseases"[MeSH]) NOT (main LFA text terms)` →
+  77 hits. "Reagent Strips"[MeSH] is therefore added to the LFA block.
+
+## E. FINAL PubMed search string v1.0 (for pubmed.gov; to be run by the author)
+
+Notes on design:
+- Truncation (`*`) works on pubmed.gov but cannot be tested through my connector. **I have not run this
+  exact string.** The expected size is at least ~5,300 records (section B).
+- The bare abbreviation `LFA` is left out on purpose: it also means LFA-1 (an integrin common in HIV
+  papers). "lateral flow" already covers lateral flow assays.
+- Ambiguous virus abbreviations (e.g. PPV = positive predictive value; PRV, CTV, CPV, IBV) are left out;
+  full virus names are used instead.
+- Plant virus genus names (potyvirus, begomovirus…) are needed because `virus*` does not match words
+  like "potyvirus".
+- No language, date or publication-type filters: language and type are applied at screening, so PRISMA
+  counts stay complete.
+
+```
+("lateral flow"[tiab] OR "lateral-flow"[tiab] OR immunochromatograph*[tiab]
+ OR immuno-chromatograph*[tiab] OR LFIA[tiab] OR LFIAs[tiab] OR "test strip*"[tiab]
+ OR "strip test*"[tiab] OR dipstick*[tiab] OR immunostrip*[tiab]
+ OR "rapid antigen test*"[tiab] OR "antigen rapid diagnostic test*"[tiab] OR "Ag-RDT*"[tiab]
+ OR "rapid diagnostic test*"[tiab] OR "Reagent Strips"[MeSH])
+AND
+(virus*[tiab] OR viral[tiab] OR "Viruses"[MeSH] OR "Virus Diseases"[MeSH]
+ OR coronavirus*[tiab] OR SARS-CoV*[tiab] OR COVID*[tiab] OR MERS[tiab]
+ OR HIV[tiab] OR HBV[tiab] OR HBsAg[tiab] OR HCV[tiab] OR hepatitis[tiab]
+ OR influenza[tiab] OR H5N1[tiab] OR H7N9[tiab] OR H1N1[tiab] OR H9N2[tiab]
+ OR dengue[tiab] OR Zika[tiab] OR chikungunya[tiab] OR "yellow fever"[tiab]
+ OR "West Nile"[tiab] OR "Japanese encephalitis"[tiab] OR Ebola*[tiab] OR Lassa[tiab]
+ OR Nipah[tiab] OR hantavirus*[tiab] OR SFTS[tiab] OR "Crimean-Congo"[tiab]
+ OR norovirus*[tiab] OR rotavirus*[tiab] OR adenovirus*[tiab] OR enterovirus*[tiab]
+ OR EV71[tiab] OR "hand, foot and mouth"[tiab] OR poliovirus*[tiab]
+ OR RSV[tiab] OR "respiratory syncytial"[tiab] OR HPV[tiab] OR papillomavirus*[tiab]
+ OR mpox[tiab] OR monkeypox[tiab] OR measles[tiab] OR rubella[tiab] OR rabies[tiab]
+ OR "Epstein-Barr"[tiab] OR EBV[tiab] OR cytomegalovirus*[tiab] OR CMV[tiab]
+ OR herpes*[tiab] OR HSV[tiab]
+ OR "African swine fever"[tiab] OR ASFV[tiab] OR PRRS*[tiab] OR "porcine epidemic diarrhea"[tiab]
+ OR PEDV[tiab] OR "classical swine fever"[tiab] OR CSFV[tiab] OR pseudorabies[tiab]
+ OR circovirus*[tiab] OR PCV2[tiab] OR "foot-and-mouth"[tiab] OR "foot and mouth"[tiab] OR FMDV[tiab]
+ OR "Newcastle disease"[tiab] OR NDV[tiab] OR "avian influenza"[tiab]
+ OR "infectious bronchitis"[tiab] OR "infectious bursal"[tiab] OR IBDV[tiab] OR "Marek's disease"[tiab]
+ OR parvovirus*[tiab] OR "canine distemper"[tiab] OR "feline leukemia"[tiab] OR FeLV[tiab]
+ OR "feline immunodeficiency"[tiab] OR "feline calicivirus"[tiab]
+ OR "bovine viral diarrhea"[tiab] OR "bovine viral diarrhoea"[tiab] OR BVDV[tiab]
+ OR bluetongue[tiab] OR "lumpy skin"[tiab] OR "peste des petits ruminants"[tiab] OR PPRV[tiab]
+ OR "sheep pox"[tiab] OR "goat pox"[tiab] OR capripox*[tiab] OR Schmallenberg[tiab]
+ OR "white spot syndrome"[tiab] OR WSSV[tiab] OR IHHNV[tiab] OR "Taura syndrome"[tiab]
+ OR "yellow head"[tiab] OR nodavirus*[tiab] OR betanodavirus*[tiab] OR "nervous necrosis"[tiab]
+ OR "infectious salmon anemia"[tiab] OR "infectious salmon anaemia"[tiab] OR "koi herpes*"[tiab]
+ OR "spring viraemia"[tiab] OR "spring viremia"[tiab] OR "infectious pancreatic necrosis"[tiab]
+ OR "tilapia lake"[tiab]
+ OR potyvirus*[tiab] OR begomovirus*[tiab] OR geminivirus*[tiab] OR tospovirus*[tiab]
+ OR tobamovirus*[tiab] OR luteovirus*[tiab] OR closterovirus*[tiab] OR "mosaic virus*"[tiab]
+ OR TMV[tiab] OR TSWV[tiab] OR PVY[tiab] OR ToBRFV[tiab] OR BBTV[tiab]
+ OR "tristeza"[tiab] OR "plum pox"[tiab] OR "maize lethal necrosis"[tiab] OR "leafroll"[tiab])
+```
+
+Validation step for the author on pubmed.gov (after running the string as search #N):
+`#N AND (32300245[uid] OR 29449508[uid] OR 29215864[uid] OR 32605363[uid] OR 32104917[uid] OR 26134291[uid] OR 28954927[uid] OR 22596243[uid])`
+→ expected: 8 records. Fewer than 8 means a syntax problem; report it before exporting.
+
+Run record to be completed by the author:
+| Field | Value |
+|---|---|
+| Date run | |
+| Total hits | |
+| Seed check result (/8) | |
+| Export file name | |
+
+## F. Access notes
 - Direct HTTPS to NCBI E-utilities, Crossref (api.crossref.org) and doi.org: blocked by this environment's
   network policy (tested 2026-10-17). PubMed connector works.
 - The PubMed website (pubmed.gov) has no 20-operator limit and can export up to 10,000 records with
