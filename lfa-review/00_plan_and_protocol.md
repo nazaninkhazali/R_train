@@ -1,7 +1,11 @@
 # Protocol (DRAFT v0.1) — Colorimetric lateral flow assays for virus detection in human, animal and plant hosts: a scoping review
 
-Status: **draft for author review — not final, not registered**
-Date of draft: 2026-10-17
+Status: **draft v0.2 — not final, not registered**
+Date of draft: 2026-10-17; updated 2026-10-18 (see decision log, §12)
+
+Note on v0.2: on 2026-10-18 the author approved the plan in general terms ("I agree with the plan"). I have
+therefore recorded each [PROPOSED] item and each [DECISION NEEDED] item that had a stated default as
+**accepted provisionally** (§12). Any of them can still be changed. Items with no default remain open.
 Items marked **[DECISION NEEDED]** must be settled before the protocol is frozen.
 Items marked **[PROPOSED]** are my suggestions and need your approval.
 
@@ -140,6 +144,9 @@ part of the formal search, which will be built, tested and logged in Stage 2.
 - Validation: a seed set of 10–20 known relevant papers must all be retrieved. Missed papers lead to
   strategy revision.
 - Every executed string, database, platform, date and hit count is recorded in `01_search_log.md`.
+- Finding from strategy testing (2026-10-18): adding a colorimetric term block lowered seed-set recall from
+  8/9 to 5/9, because abstracts often do not name the label. **[DECISION NEEDED]** whether to keep the
+  block (see `01_search_log.md` §C).
 
 ## 7. Selection of sources
 - Stage A: title/abstract screening. Stage B: full-text screening, with the exclusion reason recorded for
@@ -202,6 +209,8 @@ Formal appraisal is optional in scoping reviews (DOI: 10.11124/JBIES-20-00167). 
 | 2026-10-17 | Dates: all years, focus 2015–2026 | Author |
 | 2026-10-17 | Hosts: human, animal, aquaculture, plant | Author |
 | 2026-10-17 | Include NAAT/CRISPR + strip, instrument colour reading, multiplex, dual-mode | Author |
+| 2026-10-18 | Provisionally accepted defaults (general approval): sub-questions RQ1–RQ7; borderline-case rules table; include food/environmental samples; exclude viroids, phages, satellites; pre-2015 studies charted at basic level only; include analytical-only and commercial-test studies; no real-sample requirement (charted as variable); exclude preprints, conference abstracts, theses, patents; English only (bias to be reported); pilot screening of 50 records; light appraisal (reporting indicators + QUADAS-2 for accuracy studies); OSF registration recommended | Author (general approval), recorded by Claude |
+| 2026-10-18 | Still open: target journal/audience; human/animal/plant weighting; vertical-flow devices; databases available to the author; second screener; colorimetric block in search (see 01_search_log.md §C) | — |
 
 ## 13. Methodology references used in this protocol (verified via PubMed metadata, 2026-10-17)
 - Tricco AC, et al. PRISMA Extension for Scoping Reviews (PRISMA-ScR): Checklist and Explanation.
