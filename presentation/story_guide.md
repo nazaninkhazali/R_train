@@ -77,16 +77,18 @@ Then the takeaway sentence and three discussion questions.
 ## Still to fill in
 
 **Talk**
+You're filling these in yourself — this is just the checklist so none gets missed.
+
+**Talk**
 - Slide 1 and 15: your name, lab, supervisors, acknowledgements, email.
 - Slide 3: your stool bank's screening schedule, if you want to be concrete.
 - Slide 8: number of donors × time points, and the detection method for WP1.
-- Slide 13: nothing required, but add your LOD target if you have one.
+- Slide 13: your LOD target, if you have one.
 - Slide 14: poster number.
-- Backup slide 17: the six-aptamer table (names, targets, selection method, SELEX buffer, published Kd and method, source).
+- Backup slide 17: the six-aptamer table — the columns are laid out, the cells are empty.
 
 **Poster**
 - Name, lab, email, QR code (top right).
-- Panel 1 labels say "lab A–F". Swap in the real aptamer names when you send them.
-- Optional: if you have preliminary FP or CD data by the retreat, panel 7 is where it goes — tell me and I'll restructure that panel to hold a figure.
+- Panel 1 labels read "lab A–F". Swap in the real aptamer names if you want them shown; the panel works as it is, since the point is that the six histories differ.
 
-Send me the aptamer details and I'll put the real table on the backup slide and the real names on the poster.
+No FP data yet, so nothing on either file claims any: slide 12 explains the method only, and poster panel 7 states the plan. When the first results arrive, poster panel 7 is the place for a figure — say the word and I'll restructure it.
