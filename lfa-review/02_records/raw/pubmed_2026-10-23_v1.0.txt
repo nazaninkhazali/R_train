@@ -1,0 +1,648 @@
+PMID- 1289719
+OWN - NLM
+STAT- MEDLINE
+DCOM- 19930322
+LR  - 20041117
+IS  - 0258-1647 (Print)
+IS  - 0258-1647 (Linking)
+VI  - 7
+IP  - 8
+DP  - 1992 Aug
+TI  - Clinical update: AIDS.
+PG  - 11
+LA  - eng
+PT  - News
+PL  - South Africa
+TA  - Nurs RSA
+JT  - Nursing RSA = Verpleging RSA
+JID - 8703817
+RN  - 0 (Reagent Strips)
+MH  - AIDS Serodiagnosis/methods
+MH  - Acquired Immunodeficiency Syndrome/*epidemiology/prevention & control
+MH  - Adult
+MH  - Female
+MH  - Health Education
+MH  - Humans
+MH  - Male
+MH  - Pregnancy
+MH  - Reagent Strips
+MH  - Sex Factors
+MH  - South Africa/epidemiology
+EDAT- 1992/08/01 00:00
+MHDA- 1992/08/01 00:01
+CRDT- 1992/08/01 00:00
+PHST- 1992/08/01 00:00 [pubmed]
+PHST- 1992/08/01 00:01 [medline]
+PHST- 1992/08/01 00:00 [entrez]
+PST - ppublish
+SO  - Nurs RSA. 1992 Aug;7(8):11.
+
+PMID- 10350375
+OWN - NLM
+STAT- MEDLINE
+DCOM- 19991012
+LR  - 20190513
+IS  - 0305-7453 (Print)
+IS  - 0305-7453 (Linking)
+VI  - 43
+IP  - 4
+DP  - 1999 Apr
+TI  - A comparative evaluation of Etest and broth microdilution methods for fluconazole 
+      and itraconazole susceptibility testing of Candida spp.
+PG  - 477-81
+AB  - The Etest strip is a promising tool of broad application in clinical 
+      microbiology. The method provides MIC readings and is easier to perform than 
+      broth microdilution. We carried out a study to compare the MICs of fluconazole 
+      and itraconazole obtained by the Etest with those obtained by broth 
+      microdilution, performed according to the guidelines of the NCCLS document M27-A, 
+      with 402 clinical isolates (360 Candida albicans, 17 Candida tropicalis, nine 
+      Candida krusei, nine Candida glabrata and seven Candida parapsilosis) and seven 
+      control isolates. The agreement between MICs by the two methods (at +/- 2 
+      dilutions) was 74.5% for fluconazole and 61.4% for itraconazole. These results 
+      suggest that further development is necessary to standardize the medium and 
+      incubation conditions before introduction of the Etest as a routine method in the 
+      clinical microbiology laboratory for fluconazole and itraconazole susceptibility 
+      testing.
+FAU - Martín-Mazuelos, E
+AU  - Martín-Mazuelos E
+AD  - Servicio de Microbiología Clínica, Hospital Universitario de Valme, Sevilla, 
+      Spain.
+FAU - Gutiérrez, M J
+AU  - Gutiérrez MJ
+FAU - Aller, A I
+AU  - Aller AI
+FAU - Bernal, S
+AU  - Bernal S
+FAU - Martínez, M A
+AU  - Martínez MA
+FAU - Montero, O
+AU  - Montero O
+FAU - Quindós, G
+AU  - Quindós G
+LA  - eng
+PT  - Comparative Study
+PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
+PL  - England
+TA  - J Antimicrob Chemother
+JT  - The Journal of antimicrobial chemotherapy
+JID - 7513617
+RN  - 0 (Antifungal Agents)
+RN  - 0 (Reagent Strips)
+RN  - 304NUG5GF4 (Itraconazole)
+RN  - 8VZV102JFY (Fluconazole)
+SB  - IM
+MH  - AIDS-Related Opportunistic Infections/microbiology
+MH  - Antifungal Agents/*pharmacology
+MH  - Candida/*drug effects/isolation & purification
+MH  - Candidiasis, Oral/microbiology
+MH  - Evaluation Studies as Topic
+MH  - Fluconazole/*pharmacology
+MH  - Humans
+MH  - Itraconazole/*pharmacology
+MH  - Microbial Sensitivity Tests/*methods/standards
+MH  - Oropharynx/microbiology
+MH  - Reagent Strips
+EDAT- 1999/06/01 00:00
+MHDA- 1999/06/01 00:01
+CRDT- 1999/06/01 00:00
+PHST- 1999/06/01 00:00 [pubmed]
+PHST- 1999/06/01 00:01 [medline]
+PHST- 1999/06/01 00:00 [entrez]
+AID - 10.1093/jac/43.4.477 [doi]
+PST - ppublish
+SO  - J Antimicrob Chemother. 1999 Apr;43(4):477-81. doi: 10.1093/jac/43.4.477.
+
+PMID- 15071012
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20040719
+LR  - 20210526
+IS  - 0095-1137 (Print)
+IS  - 1098-660X (Electronic)
+IS  - 0095-1137 (Linking)
+VI  - 42
+IP  - 4
+DP  - 2004 Apr
+TI  - Chromatography paper strip method for collection, transportation, and storage of 
+      rotavirus RNA in stool samples.
+PG  - 1605-8
+AB  - We developed a novel method that uses sodium dodecyl sulfate-EDTA-treated 
+      chromatography paper strips to collect unconcentrated fresh stool samples. After 
+      the paper strips were stored for 4 months at room temperature, rotavirus RNA 
+      could be successfully amplified by using reverse transcriptase PCR. The use of 
+      filter paper strips as a specimen support allows (self-)collection of stool 
+      samples by untrained persons. Diarrheal stool samples from remote areas can be 
+      stored and transported to a central diagnostic laboratory without the need for 
+      freezers or special shipping conditions. This convenient and inexpensive 
+      rotavirus sample collection system can be of use in epidemiological surveillance 
+      studies and vaccine trials.
+FAU - Rahman, Mustafizur
+AU  - Rahman M
+AD  - Laboratory of Clinical and Epidemiological Virology, Rega Institute for Medical 
+      Research, University of Leuven, Belgium.
+FAU - Goegebuer, Truus
+AU  - Goegebuer T
+FAU - De Leener, Karolien
+AU  - De Leener K
+FAU - Maes, Piet
+AU  - Maes P
+FAU - Matthijnssens, Jelle
+AU  - Matthijnssens J
+FAU - Podder, Goutam
+AU  - Podder G
+FAU - Azim, Tasnim
+AU  - Azim T
+FAU - Van Ranst, Marc
+AU  - Van Ranst M
+LA  - eng
+PT  - Evaluation Study
+PT  - Journal Article
+PL  - United States
+TA  - J Clin Microbiol
+JT  - Journal of clinical microbiology
+JID - 7505564
+RN  - 0 (RNA, Viral)
+RN  - 0 (Reagent Strips)
+RN  - 368GB5141J (Sodium Dodecyl Sulfate)
+RN  - 9G34HU7RV0 (Edetic Acid)
+SB  - IM
+MH  - *Chromatography, Paper
+MH  - Diarrhea/virology
+MH  - Edetic Acid
+MH  - Feces/*virology
+MH  - Humans
+MH  - RNA, Viral/analysis/isolation & purification
+MH  - *Reagent Strips
+MH  - Reverse Transcriptase Polymerase Chain Reaction
+MH  - Rotavirus/genetics/*isolation & purification
+MH  - Rotavirus Infections/virology
+MH  - Sodium Dodecyl Sulfate
+MH  - Specimen Handling/*methods
+PMC - PMC387597
+EDAT- 2004/04/09 05:00
+MHDA- 2004/07/20 05:00
+PMCR- 2004/04/01
+CRDT- 2004/04/09 05:00
+PHST- 2004/04/09 05:00 [pubmed]
+PHST- 2004/07/20 05:00 [medline]
+PHST- 2004/04/09 05:00 [entrez]
+PHST- 2004/04/01 00:00 [pmc-release]
+AID - 1704 [pii]
+AID - 10.1128/JCM.42.4.1605-1608.2004 [doi]
+PST - ppublish
+SO  - J Clin Microbiol. 2004 Apr;42(4):1605-8. doi: 10.1128/JCM.42.4.1605-1608.2004.
+
+PMID- 39904225
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20250506
+LR  - 20250525
+IS  - 1873-3557 (Electronic)
+IS  - 1386-1425 (Linking)
+VI  - 332
+DP  - 2025 May 5
+TI  - Cellulose test strips modified with virus-like particles: Advancing viral 
+      immunity screening technologies.
+PG  - 125819
+LID - S1386-1425(25)00125-8 [pii]
+LID - 10.1016/j.saa.2025.125819 [doi]
+AB  - The COVID-19 pandemic has driven immunity acquisition through infection or 
+      vaccination, leading to SARS-CoV-2 antibodies. This study introduces a 
+      colorimetric biosensor for COVID-19 immunity screening using Virus-Like Particles 
+      (VLPs) with SARS-CoV-2 spike protein motifs on a cellulose carrier. The cellulose 
+      was chemically modified with DSS to secure the VLPs, verified via FTIR. Detection 
+      utilized the Bradford reagent, with RGB color analysis via ImageJ and smartphone 
+      images. The test strips demonstrated high sensitivity (R > 0.998) across a 
+      10-40 µg/mL range in buffer and serum, with 30-minute incubation. They also 
+      exhibited selectivity against interferents like albumin, glucose, and urea. 
+      Success with undiluted samples highlights clinical potential. This 
+      broad-spectrum, REASSURED-compliant method is promising for global testing 
+      applications.
+CI  - Copyright © 2025 The Author(s). Published by Elsevier B.V. All rights reserved.
+FAU - Pereira, Claudia
+AU  - Pereira C
+AD  - CIETI - LabRISE-School of Engineering, Polytechnic of Porto, R. Dr. António 
+      Bernardino de Almeida, 431 4249-015 Porto, Portugal; HE-FP-Hospital Fernando 
+      Pessoa, CECLIN-Center of Clinical Studies 4420-096 Gondomar, Portugal; 
+      FP-I3ID-Instituto de Investigação, Inovação e Desenvolvimento, FP-BHS-Biomedical 
+      and Health Sciences, Portugal; FCS-Faculty of Health Sciences, Fernando Pessoa 
+      University 4249-004 Porto, Portugal; I3S-Instituto de Investigação e Inovação em 
+      Saúde 4200-135 Porto, Portugal.
+FAU - Sousa, Cristina E A
+AU  - Sousa CEA
+AD  - CIETI - LabRISE-School of Engineering, Polytechnic of Porto, R. Dr. António 
+      Bernardino de Almeida, 431 4249-015 Porto, Portugal.
+FAU - Mateus, Daniela
+AU  - Mateus D
+AD  - Faculty of Farmacy, University of Coimbra 3000-548 Coimbra, Portugal; Center for 
+      Innovative Biomedicine and Biotechnology (CIBB) and Center for Neuroscience and 
+      Cell Biology (CNC-UC), University of Coimbra 3000-548 Coimbra, Portugal.
+FAU - Sebastião, Ana Isabel
+AU  - Sebastião AI
+AD  - I3S-Instituto de Investigação e Inovação em Saúde 4200-135 Porto, Portugal; 
+      Faculty of Farmacy, University of Coimbra 3000-548 Coimbra, Portugal; Center for 
+      Innovative Biomedicine and Biotechnology (CIBB) and Center for Neuroscience and 
+      Cell Biology (CNC-UC), University of Coimbra 3000-548 Coimbra, Portugal.
+FAU - Cruz, Maria Teresa
+AU  - Cruz MT
+AD  - Faculty of Farmacy, University of Coimbra 3000-548 Coimbra, Portugal; Center for 
+      Innovative Biomedicine and Biotechnology (CIBB) and Center for Neuroscience and 
+      Cell Biology (CNC-UC), University of Coimbra 3000-548 Coimbra, Portugal.
+FAU - Mato, Ana Miguel
+AU  - Mato AM
+AD  - Faculty of Farmacy, University of Coimbra 3000-548 Coimbra, Portugal; CERES - 
+      Chemical Engineering and Renewable Resources for Sustainability, Faculty of 
+      Sciences and Technology, 3030-790 University of Coimbra, Coimbra, Portugal.
+FAU - Moreira, Felismina T C
+AU  - Moreira FTC
+AD  - CIETI - LabRISE-School of Engineering, Polytechnic of Porto, R. Dr. António 
+      Bernardino de Almeida, 431 4249-015 Porto, Portugal; CEB/LABBELS/BioMark - Centre 
+      of Biological Engineering, University of Minho 4710-057 Braga, Portugal. 
+      Electronic address: ftm@isep.ipp.pt.
+LA  - eng
+PT  - Journal Article
+DEP - 20250128
+PL  - England
+TA  - Spectrochim Acta A Mol Biomol Spectrosc
+JT  - Spectrochimica acta. Part A, Molecular and biomolecular spectroscopy
+JID - 9602533
+RN  - 9004-34-6 (Cellulose)
+RN  - 0 (Reagent Strips)
+RN  - 0 (Spike Glycoprotein, Coronavirus)
+RN  - 0 (spike protein, SARS-CoV-2)
+RN  - 0 (Antibodies, Viral)
+SB  - IM
+MH  - *Cellulose/chemistry
+MH  - Humans
+MH  - *SARS-CoV-2/immunology
+MH  - *COVID-19/immunology/diagnosis
+MH  - Colorimetry/methods
+MH  - *Reagent Strips/chemistry
+MH  - Spike Glycoprotein, Coronavirus/immunology/chemistry
+MH  - *Biosensing Techniques/methods
+MH  - Antibodies, Viral/blood/immunology
+MH  - *COVID-19 Serological Testing/methods
+MH  - Spectroscopy, Fourier Transform Infrared
+OTO - NOTNLM
+OT  - Colorimetric
+OT  - Covid-19 immunity
+OT  - Paper-based sensor
+OT  - Virus-like particles
+COIS- Declaration of competing interest The authors declare that they have no known 
+      competing financial interests or personal relationships that could have appeared 
+      to influence the work reported in this paper.
+EDAT- 2025/02/05 00:19
+MHDA- 2025/02/25 00:22
+CRDT- 2025/02/04 18:10
+PHST- 2024/11/25 00:00 [received]
+PHST- 2025/01/21 00:00 [revised]
+PHST- 2025/01/27 00:00 [accepted]
+PHST- 2025/02/25 00:22 [medline]
+PHST- 2025/02/05 00:19 [pubmed]
+PHST- 2025/02/04 18:10 [entrez]
+AID - S1386-1425(25)00125-8 [pii]
+AID - 10.1016/j.saa.2025.125819 [doi]
+PST - ppublish
+SO  - Spectrochim Acta A Mol Biomol Spectrosc. 2025 May 5;332:125819. doi: 
+      10.1016/j.saa.2025.125819. Epub 2025 Jan 28.
+
+PMID- 2881168
+OWN - NLM
+STAT- MEDLINE
+DCOM- 19870410
+LR  - 20190611
+IS  - 0140-6736 (Print)
+IS  - 0140-6736 (Linking)
+VI  - 1
+IP  - 8533
+DP  - 1987 Mar 14
+TI  - Interpretation of isolated HIV anti-p24 reactivity in Western blot analysis.
+PG  - 632
+FAU - Lelie, P N
+AU  - Lelie PN
+FAU - van der Poel, C L
+AU  - van der Poel CL
+FAU - Reesink, H W
+AU  - Reesink HW
+LA  - eng
+PT  - Letter
+PL  - England
+TA  - Lancet
+JT  - Lancet (London, England)
+JID - 2985213R
+RN  - 0 (Antibodies, Viral)
+RN  - 0 (Antigens, Viral)
+RN  - 0 (Gene Products, gag)
+RN  - 0 (HIV Antibodies)
+RN  - 0 (HIV Antigens)
+RN  - 0 (Reagent Strips)
+RN  - 0 (Retroviridae Proteins)
+SB  - IM
+MH  - Acquired Immunodeficiency Syndrome/diagnosis
+MH  - Antibodies, Viral/*analysis
+MH  - Antigens, Viral/*immunology
+MH  - Gene Products, gag
+MH  - HIV Antibodies
+MH  - HIV Antigens
+MH  - Humans
+MH  - Male
+MH  - Reagent Strips/standards
+MH  - Retroviridae Proteins/*immunology
+EDAT- 1987/03/14 00:00
+MHDA- 1987/03/14 00:01
+CRDT- 1987/03/14 00:00
+PHST- 1987/03/14 00:00 [pubmed]
+PHST- 1987/03/14 00:01 [medline]
+PHST- 1987/03/14 00:00 [entrez]
+AID - S0140-6736(87)90274-1 [pii]
+AID - 10.1016/s0140-6736(87)90274-1 [doi]
+PST - ppublish
+SO  - Lancet. 1987 Mar 14;1(8533):632. doi: 10.1016/s0140-6736(87)90274-1.
+
+PMID- 6668013
+OWN - NLM
+STAT- MEDLINE
+DCOM- 19840406
+LR  - 20131121
+IS  - 0971-5916 (Print)
+IS  - 0971-5916 (Linking)
+VI  - 78
+DP  - 1983 Oct
+TI  - A simple strip method for detecting bilirubin in urine.
+PG  - 567-9
+FAU - Gopinathan, C
+AU  - Gopinathan C
+FAU - Balan, T P
+AU  - Balan TP
+FAU - Antani, D U
+AU  - Antani DU
+LA  - eng
+PT  - Journal Article
+PL  - United States
+TA  - Indian J Med Res
+JT  - The Indian journal of medical research
+JID - 0374701
+RN  - 0 (Indicators and Reagents)
+RN  - 0 (Reagent Strips)
+RN  - RFM9X3LJ49 (Bilirubin)
+SB  - IM
+MH  - Bilirubin/*urine
+MH  - Hepatitis A/diagnosis
+MH  - Humans
+MH  - *Indicators and Reagents
+MH  - *Reagent Strips
+EDAT- 1983/10/01 00:00
+MHDA- 1983/10/01 00:01
+CRDT- 1983/10/01 00:00
+PHST- 1983/10/01 00:00 [pubmed]
+PHST- 1983/10/01 00:01 [medline]
+PHST- 1983/10/01 00:00 [entrez]
+PST - ppublish
+SO  - Indian J Med Res. 1983 Oct;78:567-9.
+
+PMID- 3439215
+OWN - NLM
+STAT- MEDLINE
+DCOM- 19880331
+LR  - 20041117
+IS  - 0044-2178 (Print)
+IS  - 0044-2178 (Linking)
+VI  - 81
+IP  - 19
+DP  - 1987
+TI  - [Comments on the hepatitis B risk in insulin-dependent diabetic patients (type I) 
+      with reference to self-control of blood glucose (Glucosignal)].
+PG  - 1013
+FAU - Anders, M
+AU  - Anders M
+AD  - Stadtbezirksstelle für Diabetes, Berlin-Prenzlauer Berg.
+FAU - Baumgarten, R
+AU  - Baumgarten R
+FAU - Fengler, J D
+AU  - Fengler JD
+LA  - ger
+PT  - Journal Article
+TT  - Anmerkungen zum Hepatitis-B-Risiko bei insulinpflichtigen Diabetikern (Typ I) 
+      unter dem Aspekt der Blutzuckerselbstkontrolle (Glucosignal).
+PL  - Germany
+TA  - Z Arztl Fortbild (Jena)
+JT  - Zeitschrift fur arztliche Fortbildung
+JID - 0414004
+RN  - 0 (Blood Glucose)
+RN  - 0 (Reagent Strips)
+SB  - IM
+MH  - Blood Glucose/*analysis
+MH  - Diabetes Mellitus, Type 1/*complications
+MH  - Hepatitis B/*transmission
+MH  - Humans
+MH  - *Reagent Strips
+MH  - Risk Factors
+EDAT- 1987/01/01 00:00
+MHDA- 1987/01/01 00:01
+CRDT- 1987/01/01 00:00
+PHST- 1987/01/01 00:00 [pubmed]
+PHST- 1987/01/01 00:01 [medline]
+PHST- 1987/01/01 00:00 [entrez]
+PST - ppublish
+SO  - Z Arztl Fortbild (Jena). 1987;81(19):1013.
+
+PMID- 2915159
+OWN - NLM
+STAT- MEDLINE
+DCOM- 19890313
+LR  - 20190510
+IS  - 0022-1899 (Print)
+IS  - 0022-1899 (Linking)
+VI  - 159
+IP  - 2
+DP  - 1989 Feb
+TI  - HLA antigen contamination of commercial Western blot strips for detecting human 
+      immunodeficiency virus.
+PG  - 357-8
+FAU - Drabick, J J
+AU  - Drabick JJ
+AD  - Department of Clinical Investigation, Walter Reed Army Medical Center, 
+      Washington, D.C.
+FAU - Baker, J R Jr
+AU  - Baker JR Jr
+LA  - eng
+PT  - Journal Article
+PL  - United States
+TA  - J Infect Dis
+JT  - The Journal of infectious diseases
+JID - 0413675
+RN  - 0 (HIV Antibodies)
+RN  - 0 (HLA Antigens)
+RN  - 0 (Reagent Strips)
+SB  - IM
+CIN - J Infect Dis. 1990 Jul;162(1):278-9. doi: 10.1093/infdis/162.1.278. PMID: 2355203
+MH  - *Blotting, Western
+MH  - Enzyme-Linked Immunosorbent Assay
+MH  - HIV Antibodies/*analysis
+MH  - *HIV Seropositivity
+MH  - HLA Antigens/*isolation & purification
+MH  - Humans
+MH  - *Reagent Strips
+EDAT- 1989/02/01 00:00
+MHDA- 2001/03/28 10:01
+CRDT- 1989/02/01 00:00
+PHST- 1989/02/01 00:00 [pubmed]
+PHST- 2001/03/28 10:01 [medline]
+PHST- 1989/02/01 00:00 [entrez]
+AID - 10.1093/infdis/159.2.357 [doi]
+PST - ppublish
+SO  - J Infect Dis. 1989 Feb;159(2):357-8. doi: 10.1093/infdis/159.2.357.
+
+PMID- 31216365
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20200528
+LR  - 20200528
+IS  - 1365-2230 (Electronic)
+IS  - 0307-6938 (Linking)
+VI  - 45
+IP  - 1
+DP  - 2020 Jan
+TI  - Potential of reagent strips to aid detection of bacterial infection from exudates 
+      of skin lesions: a pilot study.
+PG  - 128-130
+LID - 10.1111/ced.14025 [doi]
+FAU - Tso, S
+AU  - Tso S
+AUID- ORCID: 0000-0001-9221-7618
+AD  - Department of Dermatology, University Hospitals Coventry and Warwickshire NHS 
+      Trust, CV2 2DX, Coventry, UK.
+FAU - Shim, T N
+AU  - Shim TN
+AUID- ORCID: 0000-0001-8967-9811
+AD  - Department of Dermatology, University Hospitals Coventry and Warwickshire NHS 
+      Trust, CV2 2DX, Coventry, UK.
+LA  - eng
+PT  - Letter
+DEP - 20190715
+PL  - England
+TA  - Clin Exp Dermatol
+JT  - Clinical and experimental dermatology
+JID - 7606847
+RN  - 0 (Reagent Strips)
+SB  - IM
+MH  - Diagnosis, Differential
+MH  - Exudates and Transudates/*microbiology
+MH  - Herpes Zoster/diagnosis
+MH  - Humans
+MH  - Pilot Projects
+MH  - Point-of-Care Systems
+MH  - *Reagent Strips
+MH  - Skin/*microbiology
+MH  - Skin Diseases, Bacterial/*diagnosis
+MH  - Skin Diseases, Viral/diagnosis
+EDAT- 2019/06/20 06:00
+MHDA- 2020/05/29 06:00
+CRDT- 2019/06/20 06:00
+PHST- 2019/06/14 00:00 [accepted]
+PHST- 2019/06/20 06:00 [pubmed]
+PHST- 2020/05/29 06:00 [medline]
+PHST- 2019/06/20 06:00 [entrez]
+AID - 10.1111/ced.14025 [doi]
+PST - ppublish
+SO  - Clin Exp Dermatol. 2020 Jan;45(1):128-130. doi: 10.1111/ced.14025. Epub 2019 Jul 
+      15.
+
+PMID- 22151025
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20130102
+LR  - 20211021
+IS  - 1750-2659 (Electronic)
+IS  - 1750-2640 (Print)
+IS  - 1750-2640 (Linking)
+VI  - 6
+IP  - 5
+DP  - 2012 Sep
+TI  - Evaluation of lateral flow devices for identification of infected poultry by 
+      testing swab and feather specimens during H5N1 highly pathogenic avian influenza 
+      outbreaks in Vietnam.
+PG  - 318-27
+LID - 10.1111/j.1750-2659.2011.00317.x [doi]
+AB  - BACKGROUND: Evaluation of two commercial lateral flow devices (LFDs) for avian 
+      influenza (AI) detection in H5N1 highly pathogenic AI infected poultry in 
+      Vietnam. OBJECTIVES: Determine sensitivity and specificity of the LFDs relative 
+      to a validated highly sensitive H5 RRT PCR. METHODS: Swabs (cloacal and tracheal) 
+      and feathers were collected from 46 chickens and 48 ducks (282 clinical 
+      specimens) and tested by both LFDs and H5 RRT PCR. A subset of 59 chicken and 34 
+      duck specimens was also tested by virus isolation (VI), the 'gold standard'. 
+      RESULTS: Twenty-six chickens and 15 ducks were shown to be infected by at least 
+      one RRT PCR positive clinical specimen per bird. Bird-level sensitivity for the 
+      Anigen LFD was 84·6% for chickens and 53·3% for ducks, and for the Quickvue LFD 
+      65·4% for chickens and 33·3% for ducks. Comparison of the three clinical 
+      specimens revealed that chicken feathers were the most sensitive with 84% and 56% 
+      sensitivities for Anigen and Quickvue respectively. All 21 RRT PCR positive swabs 
+      from ducks were negative by both LFDs. However, duck feather testing gave 
+      sensitivities of 53·3% and 33·3% for Anigen and Quickvue respectively. 
+      Specificity was 100% for both LFDs in all investigations. CONCLUSIONS: Although 
+      LFDs were less sensitive than AI RRT PCR and VI, high titre viral shedding in 
+      H5N1 highly pathogenic avian influenza (HPAI) infected and diseased chickens is 
+      sufficient for a proportion of birds to be identified as AI infected by LFDs. 
+      Feathers were the optimal specimen for LFD testing in such diseased HPAI 
+      scenarios, particularly for ducks where swab testing by LFDs failed to identify 
+      any infected birds. However, specimens should be forwarded to the laboratory for 
+      confirmation by more sensitive diagnostic techniques.
+CI  - © 2011 Blackwell Publishing Ltd.
+FAU - Slomka, Marek J
+AU  - Slomka MJ
+AD  - Avian Virology Workgroup, OIE, FAO and EU Reference Laboratory for Avian 
+      Influenza, Animal Health and Veterinary Laboratories Agency (AHVLA Weybridge), 
+      Addlestone, Surrey, UK. marek.slomka@ahvla.gsi.gov.uk
+FAU - To, Thanh L
+AU  - To TL
+FAU - Tong, Hien H
+AU  - Tong HH
+FAU - Coward, Vivien J
+AU  - Coward VJ
+FAU - Mawhinney, Ian C
+AU  - Mawhinney IC
+FAU - Banks, Jill
+AU  - Banks J
+FAU - Brown, Ian H
+AU  - Brown IH
+LA  - eng
+PT  - Comparative Study
+PT  - Evaluation Study
+PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
+DEP - 20111212
+PL  - England
+TA  - Influenza Other Respir Viruses
+JT  - Influenza and other respiratory viruses
+JID - 101304007
+SB  - IM
+MH  - Animals
+MH  - Birds
+MH  - Chickens
+MH  - Clinical Laboratory Techniques/*methods
+MH  - Cloaca/virology
+MH  - *Disease Outbreaks
+MH  - Ducks
+MH  - Feathers/virology
+MH  - Influenza A Virus, H5N1 Subtype/*isolation & purification
+MH  - Influenza in Birds/*diagnosis/*epidemiology/virology
+MH  - Sensitivity and Specificity
+MH  - Trachea/virology
+MH  - Veterinary Medicine/*methods
+MH  - Vietnam/epidemiology
+MH  - Virology/*methods
+PMC - PMC5779812
+EDAT- 2011/12/14 06:00
+MHDA- 2013/01/03 06:00
+PMCR- 2012/09/01
+CRDT- 2011/12/14 06:00
+PHST- 2011/12/14 06:00 [entrez]
+PHST- 2011/12/14 06:00 [pubmed]
+PHST- 2013/01/03 06:00 [medline]
+PHST- 2012/09/01 00:00 [pmc-release]
+AID - IRV317 [pii]
+AID - 10.1111/j.1750-2659.2011.00317.x [doi]
+PST - ppublish
+SO  - Influenza Other Respir Viruses. 2012 Sep;6(5):318-27. doi: 
+      10.1111/j.1750-2659.2011.00317.x. Epub 2011 Dec 12.

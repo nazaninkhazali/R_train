@@ -140,13 +140,20 @@ Validation step for the author on pubmed.gov (after running the string as search
 `#N AND (32300245[uid] OR 29449508[uid] OR 29215864[uid] OR 32605363[uid] OR 32104917[uid] OR 26134291[uid] OR 28954927[uid] OR 22596243[uid])`
 → expected: 8 records. Fewer than 8 means a syntax problem; report it before exporting.
 
-Run record to be completed by the author:
+Run record (reported by the author):
 | Field | Value |
 |---|---|
-| Date run | |
-| Total hits | |
-| Seed check result (/8) | |
-| Export file name | |
+| Date run | 2026-10-23 |
+| Total hits | 8,820 |
+| Seed check result (/8) | 8/8 |
+| Export file name | `02_records/raw/pubmed_2026-10-23_v1.0.txt`: **INCOMPLETE, 10 records only** (sha256 9adf9eee…98c8d6); re-export needed |
+
+Checks of the 8,820 total (2026-10-23, PubMed connector; simplified, untruncated versions of the blocks):
+- `"Reagent Strips"[MeSH]` records with no LFA text term → 65. Low cost; kept. Most of them are probably
+  off-topic (e.g. urine/Etest/Western blot strips) and will be excluded at screening.
+- Rapid diagnostic/antigen test terms with no LFA text term → 2,750. These are mainly commercial-test
+  evaluations, which are in scope and tagged for light charting. Kept.
+- Decision: string v1.0 unchanged. Only the export is to be repeated.
 
 ## F. Access notes
 - Direct HTTPS to NCBI E-utilities, Crossref (api.crossref.org) and doi.org: blocked by this environment's
