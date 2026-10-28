@@ -1,0 +1,251 @@
+# batch 002 (title/abstract), Claude, 2026-10-28
+R00331	EXCLUDE	E2	DFA vs culture
+R00332	EXCLUDE	E1	malaria
+R00333	INCLUDE		immunochromatographic norovirus test (no abstract)
+R00334	EXCLUDE	E6	cost-effectiveness model
+R00336	EXCLUDE	E9	HCV seroprevalence with dot ICT
+R00338	EXCLUDE	E1	urethral infections
+R00339	EXCLUDE	E2	immunofluorescence smears
+R00340	EXCLUDE	E2	line probe assay
+R00341	INCLUDE		VecTest immunochromatographic dipstick, WNV in dead crows
+R00344	UNSURE		AuNP dry-reagent strip for PCR products; target organism not stated in abstract
+R00345	EXCLUDE	E2	glucose strips, mouse model
+R00347	EXCLUDE	E2	NASBA (non-strip detection)
+R00348	EXCLUDE	E1	malaria
+R00349	EXCLUDE	E9	surveillance report
+R00350	EXCLUDE	E2	SARS PCR/serology interpretation
+R00351	INCLUDE		VecTest EEE/WEE antigen dipstick, mosquito pools
+R00353	EXCLUDE	E6	case report
+R00354	INCLUDE		VecTest WNV antigen assay, dead corvids
+R00355	EXCLUDE	E9	HBsAg seroprevalence with ICT
+R00357	EXCLUDE	E6	cohort
+R00358	INCLUDE		recombinant-protein ICT for SARS-CoV IgG
+R00359	EXCLUDE	E6	public health measures
+R00360	INCLUDE		dengue rapid ICT vs ELISA
+R00361	INCLUDE		SARS-CoV serology incl. ICT vs neutralisation
+R00362	EXCLUDE	E6	clinical recognition
+R00363	EXCLUDE	E6	review-type article
+R00364	EXCLUDE	E6	clinical prediction
+R00365	EXCLUDE	E2	paper strip for sample storage
+R00366	EXCLUDE	E2	RT-PCR
+R00367	EXCLUDE	E1	malaria
+R00370	INCLUDE		QuickVue influenza in surveillance vs culture/RT-PCR
+R00371	EXCLUDE	E2	ELISA
+R00372	INCLUDE		PUUV immunochromatographic field test, rodents
+R00373	EXCLUDE	E1	tuberculosis
+R00374	INCLUDE		SARS ICT vs ELISA vs IF
+R00375	EXCLUDE	E2	receptor biochemistry
+R00377	EXCLUDE	E1	bacterial pneumonia
+R00378	INCLUDE		lateral flow influenza A/B test vs culture
+R00379	INCLUDE		QuickLab RSV lateral flow vs Directigen/DFA
+R00380	INCLUDE		Binax NOW RSV ICT vs DFA/culture
+R00381	EXCLUDE	E1	Salmonella
+R00382	EXCLUDE	E9	influenza surveillance
+R00384	INCLUDE		dye-liposome multi-analyte membrane biosensor, dengue NASBA
+R00385	INCLUDE		ICT vs real-time PCR, enteric viruses, Nepal (small)
+R00386	EXCLUDE	E6	case report
+R00387	INCLUDE		SAS RSV vs Directigen EZ RSV ICT vs RT-PCR
+R00390	EXCLUDE	E9	case series
+R00392	EXCLUDE	E1	Candida
+R00393	EXCLUDE	E6	modelling
+R00394	INCLUDE		VecTest WNV in birds vs PCR
+R00395	EXCLUDE	E2	PCR
+R00396	EXCLUDE	E6	review-type article
+R00397	INCLUDE		lateral flow FIV antibody test in vaccinated cats
+R00398	UNSURE		letter, single-case discrepant ICA/EIA results
+R00399	EXCLUDE	E6	outbreak management
+R00400	INCLUDE		bedside adenovirus IC kit vs isolation/PCR
+R00405	EXCLUDE	E2	real-time PCR
+R00406	EXCLUDE	E3	CdTe luminescent label
+R00409	EXCLUDE	E2	dot-blot multi-test strip
+R00411	EXCLUDE	E1	tuberculosis
+R00412	INCLUDE		Binax NOW RSV, emergency unit
+R00413	UNSURE		recombinant multiepitope dengue antigen; assay format not stated
+R00414	EXCLUDE	E9	rotavirus epidemiology with ICT
+R00417	EXCLUDE	E9	eco-epidemiology with rapid strip
+R00418	INCLUDE		FDA-approved 10-min lateral flow HIV test, 9,000 samples
+R00419	EXCLUDE	E6	clinical comparison
+R00420	EXCLUDE	E9	HBsAg prevalence with ICT
+R00421	INCLUDE		rapid HIV testing strategies with several ICTs, CAR
+R00422	INCLUDE		CPV: immunochromatography vs HA/VI/PCR
+R00423	EXCLUDE	E9	CMV transmission study
+R00424	EXCLUDE	E6	diabetes care
+R00425	EXCLUDE	E2	immunoblot strips
+R00426	INCLUDE		Efoora lateral-flow HIV-1 test, multicentre
+R00427	INCLUDE		HEV IgM immunochromatographic (reverse-flow) test vs ELISA
+R00428	EXCLUDE	E6	survey
+R00429	EXCLUDE	E2	ELISA
+R00430	EXCLUDE	E2	dipstick ELISA
+R00431	EXCLUDE	E9	laboratory audit
+R00432	EXCLUDE	E2	immunoaffinity chromatography for vaccine NA content
+R00434	EXCLUDE	E2	multiplex RT-PCR; rapid strip only as comparator
+R00437	INCLUDE		enzyme-based rapid ICT (blue line) for SARS-CoV N antigen
+R00438	EXCLUDE	E9	STI prevalence
+R00439	EXCLUDE	E3	acoustic sensor
+R00440	INCLUDE		visual nucleic-acid dipstick with signal amplification, HBV/HCV/HIV multiplex
+R00441	INCLUDE		SD Bioline HIV-1/2 ICT, 23,754 sera
+R00442	INCLUDE		one-step strip for IBDV, chickens
+R00443	EXCLUDE	E9	hospital surveillance
+R00445	EXCLUDE	E9	rotavirus genotyping; ICA for detection only
+R00446	EXCLUDE	E1	amoebiasis
+R00448	EXCLUDE	E6	no abstract, overview
+R00449	EXCLUDE	E1	toxoplasmosis
+R00450	EXCLUDE	E1	STD aetiology
+R00451	EXCLUDE	E2	real-time PCR trial
+R00452	INCLUDE		RSV Respi-Strip vs DFA
+R00453	INCLUDE		ASSURE HEV IgM rapid ICT
+R00454	INCLUDE		ICG vs ELISA vs real-time PCR, enteric viruses
+R00456	INCLUDE		BioSign PRRSV lateral flow antibody strip
+R00458	INCLUDE		Binax NOW Flu A vs shell vial
+R00459	EXCLUDE	E4	comment on R00440
+R00460	EXCLUDE	E1	procalcitonin, bacterial infection
+R00461	EXCLUDE	E9	HBsAg seroprevalence
+R00462	UNSURE		Directigen A/B on site in nursing home; check device format
+R00463	UNSURE		recombinant multiepitope IgM antigen; assay format not stated
+R00464	EXCLUDE	E2	PCR
+R00466	INCLUDE		Binax NOW influenza A, 4,383 specimens
+R00467	INCLUDE		colloidal gold lateral flow strip, pseudorabies antibodies
+R00468	EXCLUDE	E1	syphilis
+R00469	EXCLUDE	E2	protein expression
+R00470	UNSURE		Calypte AWARE oral fluid dipstick; may be product overview
+R00471	EXCLUDE	E2	immunoblot screening
+R00473	INCLUDE		8 commercial dengue ICTs
+R00474	INCLUDE		ICA kit for CPV antibodies vs HI
+R00476	INCLUDE		RT-LAMP vs commercial immunochromatography vs isolation
+R00477	EXCLUDE	E2	real-time PCR
+R00478	EXCLUDE	E9	co-infection prevalence
+R00479	INCLUDE		VecTest vs TaqMan RT-PCR, mosquito pools
+R00480	EXCLUDE	E2	paper strips for blood collection
+R00482	INCLUDE		Binax NOW RSV vs culture/DIF
+R00483	EXCLUDE	E2	urine dipstick in mouse model
+R00484	EXCLUDE	E2	isoniazid urine strips
+R00485	EXCLUDE	E2	dipstick ELISA/RT-PCR
+R00486	EXCLUDE	E1	malaria case
+R00487	EXCLUDE	E9	febrile seizures
+R00488	INCLUDE		RSV rapid antigen tests vs PCR, 1,600 children
+R00489	EXCLUDE	E2	extraction methods, PCR
+R00490	EXCLUDE	E6	proteinuria study
+R00491	EXCLUDE	E9	outbreak report
+R00492	EXCLUDE	E3	SPR waveguide sensor
+R00493	EXCLUDE	E1	antibiotic prescribing, StrepA/CRP
+R00494	EXCLUDE	E9	HCV seroprevalence with test strips
+R00495	EXCLUDE	E2	antigen production
+R00496	INCLUDE		RPS Adeno Detector lateral flow vs culture/PCR
+R00500	INCLUDE		BVDV NS3 antigen immunochromatographic kit
+R00503	EXCLUDE	E6	rhabdomyolysis
+R00505	EXCLUDE	E2	mAb ELISA
+R00506	INCLUDE		POC-PUU ICT for Andes hantavirus IgM vs ELISA
+R00507	EXCLUDE	E9	febrile seizures
+R00508	INCLUDE		colloidal gold ICT strip for WSSV in shrimp
+R00509	EXCLUDE	E1	Strongyloides
+R00510	EXCLUDE	E9	adenovirus serotyping; IC used for detection
+R00511	EXCLUDE	E6	overview
+R00512	INCLUDE		Binax NOW Influenza A&B, Flu A, Flu B vs Directigen vs culture
+R00513	INCLUDE		colloidal gold ICT strip for yellow head virus, shrimp
+R00514	EXCLUDE	E1	bacterial PCR dipstick
+R00515	EXCLUDE	E2	dipstick dot-ELISA vs ELISAs
+R00516	INCLUDE		rapid antibody tests for dengue, sensitivity at presentation
+R00517	EXCLUDE	E9	clinical management
+R00518	EXCLUDE	E2	antigen production
+R00520	EXCLUDE	E2	CD4 microfluidic device
+R00521	INCLUDE		two dengue rapid kits vs ELISA, cord blood
+R00522	INCLUDE		gold lateral flow assay for hMPV N protein
+R00525	INCLUDE		gold ICT strip for AIV antibodies vs HI/AGID
+R00530	EXCLUDE	E2	latex agglutination
+R00531	EXCLUDE	E6	modelling
+R00532	INCLUDE		Aware HIV-1/2 BSP and urine ICTs, Rakai
+R00533	EXCLUDE	E3	UPT microfluidic
+R00534	EXCLUDE	E3	UPT lateral flow
+R00535	EXCLUDE	E3	UPT lateral flow (instrument)
+R00536	EXCLUDE	E6	microalbuminuria
+R00538	EXCLUDE	E2	real-time PCR
+R00539	INCLUDE		PanBio Duo vs SD Bioline dengue ICTs
+R00540	EXCLUDE	E9	prevalence survey
+R00542	EXCLUDE	E6	risk assessment
+R00543	INCLUDE		rotavirus and norovirus ICG tests vs PCR, Vietnam
+R00544	EXCLUDE	E9	clinical comparison
+R00546	EXCLUDE	E9	co-infection study
+R00547	EXCLUDE	E2	HLA PCR
+R00548	INCLUDE		SD Bioline influenza antigen test
+R00549	EXCLUDE	E1	leishmaniasis
+R00551	INCLUDE		Rida Quick rota/adeno ICT vs PCR, Ghana
+R00553	EXCLUDE	E1	ICT for nevirapine drug level (not a virus target)
+R00556	EXCLUDE	E6	outbreak report
+R00557	INCLUDE		microparticle-labelled IC strip for porcine rotavirus
+R00558	EXCLUDE	E6	renal disease
+R00559	INCLUDE		rapid dengue IgG/IgM ICT vs ELISA
+R00560	EXCLUDE	E6	statistical methods paper
+R00563	UNSURE		dipstick immunoassay for insect nucleopolyhedrovirus (moth larvae); host and format to confirm
+R00564	INCLUDE		eight dengue ICT RDTs, Laos
+R00565	UNSURE		RSV 'rapid antigen test (EIA)'; device format unclear
+R00568	EXCLUDE	E1	leptospirosis
+R00569	EXCLUDE	E6	mAb characterisation for a future ICT (component only)
+R00570	INCLUDE		QuickVue influenza vs RT-PCR, Hajj pilgrims
+R00571	EXCLUDE	E1	streptococcus
+R00572	INCLUDE		lateral flow AIV antigen and antibody tests, latex/gold
+R00573	INCLUDE		ICT + enzyme colour kit for H5 avian influenza
+R00574	INCLUDE		RIDA isothermal probe amplification + lateral flow, avian influenza
+R00575	EXCLUDE	E6	modelling
+R00576	INCLUDE		IC assay for canine distemper vs nested PCR
+R00577	INCLUDE		norovirus immunochromatography vs ELISA vs RT-PCR
+R00578	EXCLUDE	E6	proteinuria
+R00579	EXCLUDE	E1	Salmonella
+R00580	EXCLUDE	E1	small-molecule immunoassay
+R00581	EXCLUDE	E6	case series
+R00583	INCLUDE		colloidal gold LFIA for HSV-2 IgG
+R00584	INCLUDE		ICT strip for WNV IgM (no abstract)
+R00585	INCLUDE		norovirus GI/GII ICT vs RT-PCR
+R00586	INCLUDE		ion-channel biosensor vs ICT comparator for influenza A (ICT arm in scope)
+R00587	INCLUDE		Binax NOW Flu A and B vs DFA vs culture/RT-PCR
+R00589	INCLUDE		anti-HCV ICT sensitivity, 421 HCV RNA+ samples
+R00590	INCLUDE		two influenza ICTs, 9,186 patients
+R00591	UNSURE		magnetic immunochromatographic strip for HPV16 E6; readout to confirm (no abstract)
+R00592	EXCLUDE	E9	RSV seasonality
+R00593	EXCLUDE	E9	co-infection prevalence
+R00598	EXCLUDE	E1	malaria
+R00599	INCLUDE		lateral flow IC for hMPV vs real-time RT-PCR
+R00600	INCLUDE		colloidal gold ICT strip for H9 AIV
+R00601	EXCLUDE	E1	pneumococcus
+R00602	EXCLUDE	E2	urine dipstick
+R00603	INCLUDE		MLPA panel vs RSV ICA comparator
+R00604	INCLUDE		real-time PCR vs adenovirus IC kit comparator
+R00606	INCLUDE		rapid influenza antigen test performance in older adults
+R00608	EXCLUDE	E1	malaria
+R00609	INCLUDE		Directigen EZ RSV chromatographic immunoassay vs DFAs
+R00611	EXCLUDE	E1	leishmaniasis
+R00612	EXCLUDE	E9	clinical features
+R00613	EXCLUDE	E6	proteinuria
+R00614	INCLUDE		rabies ICT kits, dog brain samples
+R00617	EXCLUDE	E9	outbreak; ICT for detection only
+R00618	INCLUDE		adenovirus ICT sensitivity (letter)
+R00619	EXCLUDE	E1	CRP lateral flow (host biomarker, not a virus target)
+R00622	EXCLUDE	E1	leptospirosis
+R00625	INCLUDE		four HBsAg rapid ICTs, Madagascar
+R00626	EXCLUDE	E2	affinity membrane strip with immersion EIA, no lateral flow
+R00627	INCLUDE		First Response HIV 1-2.O ICT
+R00628	EXCLUDE	E2	cell culture
+R00629	INCLUDE		RSV rapid antigen test vs culture/PCR for isolation decisions
+R00630	INCLUDE		IC kit vs isolation/PCR, asymptomatic adenovirus
+R00631	EXCLUDE	E9	rotavirus prevalence
+R00632	EXCLUDE	E6	proteinuria
+R00633	EXCLUDE	E6	overview
+R00634	EXCLUDE	E6	mAb production
+R00636	INCLUDE		Directigen EZ RSV vs Binax NOW RSV
+R00637	INCLUDE		disperse-dye ICT for IBDV antibodies
+R00638	EXCLUDE	E9	clinical profile
+R00639	INCLUDE		colloidal gold strip for H5 AIV antibodies
+R00640	INCLUDE		immunogold strip for PRRSV antibodies
+R00641	EXCLUDE	E2	dipstick ELISA
+R00642	INCLUDE		ICT kit for H7 HPAI antigen
+R00643	EXCLUDE	E9	HBsAg seroprevalence
+R00644	INCLUDE		RT-LAMP + lateral flow dipstick, Taura syndrome virus
+R00646	UNSURE		overview of Chinese FMD diagnostics incl. gold strip; check for original data
+R00647	INCLUDE		DRW signal-amplification HBsAg rapid test vs Determine
+R00648	EXCLUDE	E9	case report
+R00649	EXCLUDE	E9	viral aetiology study
+R00650	INCLUDE		Dengue NS1 Ag STRIP vs ELISAs
+R00651	INCLUDE		Determine HIV-1/2 vs 4th-gen ELISA, blood donors
+R00652	INCLUDE		PCR + lateral flow chromatographic strip, WSSV
+R00653	INCLUDE		colloidal gold strip for H5 HPAI
+R00654	INCLUDE		two AIV rapid antigen tests in village chickens
+R00655	INCLUDE		rapid ICTs for BCoV and rotavirus in calves

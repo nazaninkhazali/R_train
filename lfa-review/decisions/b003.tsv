@@ -1,0 +1,251 @@
+# batch 003 (title/abstract), Claude, 2026-10-28
+R00656	INCLUDE		RSV immunochromatography (BD) vs IFA vs RT-PCR
+R00657	EXCLUDE	E9	outbreak report
+R00658	UNSURE		magnetic-bead virus capture confirmed by immunochromatography; check if ICT enhancement is evaluated
+R00659	INCLUDE		3M rapid influenza A+B (reader output) vs other ICTs
+R00660	EXCLUDE	E1	tuberculosis
+R00661	INCLUDE		LAMP + lateral flow dipstick, shrimp hepatopancreatic parvovirus
+R00663	EXCLUDE	E9	rotavirus/adenovirus epidemiology
+R00664	EXCLUDE	E1	dipstick immunoassay for mitochondrial proteins
+R00666	INCLUDE		pan-serotype lateral flow device for FMDV vs antigen ELISA
+R00667	EXCLUDE	E9	outbreak management
+R00668	EXCLUDE	E9	prevalence survey
+R00669	UNSURE		handheld biosensor for hantavirus antibodies in mice; format to confirm
+R00670	EXCLUDE	E3	europium-chelate nanoparticle LFIA
+R00671	EXCLUDE	E9	rapid HIV testing in leprosy patients (no abstract)
+R00672	INCLUDE		immunochromatographic assay for FeLV p27
+R00673	EXCLUDE	E1	malaria
+R00674	INCLUDE		rapid dengue NS1 ICT vs NS1 ELISA
+R00675	INCLUDE		RT-LAMP + lateral flow dipstick, IMNV shrimp
+R00679	EXCLUDE	E1	ICT for nevirapine drug
+R00680	UNSURE		bead capture of influenza confirmed by immunochromatography; as R00658
+R00681	EXCLUDE	E9	prevalence study
+R00684	INCLUDE		adenovirus ICT vs culture, children
+R00685	EXCLUDE	E4	conference proceedings
+R00686	INCLUDE		LAMP + lateral flow dipstick, WSSV
+R00687	INCLUDE		RapidWN lateral flow WNV IgM, multicentre
+R00688	INCLUDE		norovirus IC kit vs RT-PCR
+R00689	EXCLUDE	E3	UPT lateral flow
+R00690	INCLUDE		dengue NS1 lateral flow rapid test vs ELISA
+R00691	UNSURE		methods chapter on preparing lateral flow strips incl. IBDV; check for original data
+R00692	UNSURE		methods/review chapter, HIV antibody LFA case study; check for original data
+R00693	INCLUDE		adenovirus IC test vs PCR before conjunctivitis onset
+R00695	INCLUDE		RSV outbreak: rapid antigen test vs culture/DFA/RT-PCR
+R00696	INCLUDE		Determine/UniGold algorithm vs WB, false positives
+R00697	INCLUDE		cell-culture-based immunochromatography for rotavirus in water
+R00698	INCLUDE		influenza rapid antigen test sensitivity vs culture/PCR in surveillance
+R00699	INCLUDE		five rapid HIV assays, Tanzania
+R00701	INCLUDE		dengue NS1 lateral flow strip vs EIA
+R00703	EXCLUDE	E3	UCP cassette
+R00704	EXCLUDE	E1	leishmaniasis
+R00705	EXCLUDE	E9	adenovirus typing
+R00706	EXCLUDE	E9	antenatal screening yield
+R00707	EXCLUDE	E2	RT-PCR
+R00709	EXCLUDE	E6	modelling
+R00710	INCLUDE		QuickVue influenza A+B vs RT-PCR
+R00712	INCLUDE		commercial norovirus ICT kit (no abstract)
+R00713	EXCLUDE	E6	CD4 enumeration review
+R00715	INCLUDE		influenza IC test sensitivity in early phase vs isolation
+R00716	INCLUDE		rapid ICT detection of CPV-2a/2b/2c
+R00717	INCLUDE		immunogold strip for PRRSV antigen
+R00718	INCLUDE		one-step ICT for HCV core antigen
+R00719	INCLUDE		ImmunoStrips vs RT-PCR/DAS-ELISA, grapevine fanleaf virus (plant)
+R00720	EXCLUDE	E6	treatment cohort
+R00721	INCLUDE		OraQuick Advance in oral fluid/serum, HIV-1 subtypes
+R00722	EXCLUDE	E9	influenza hospitalisation burden
+R00724	EXCLUDE	E6	laboratory survey
+R00725	EXCLUDE	E1	leishmaniasis
+R00726	INCLUDE		RAPINA immunochromatographic rabies neutralising antibody test
+R00727	EXCLUDE	E3	magnetic immunochromatography (instrument)
+R00728	EXCLUDE	E6	urinary screening
+R00729	INCLUDE		RT-LAMP + nucleic acid lateral flow, IMNV
+R00730	INCLUDE		BinaxNOW and 3M rapid tests for 2009 H1N1 among methods
+R00731	UNSURE		bead capture of RSV confirmed by immunochromatography; as R00658
+R00732	EXCLUDE	E9	antibiotic use study
+R00733	EXCLUDE	E9	norovirus prevalence
+R00735	INCLUDE		SAS hMPV immunochromatographic test vs real-time PCR
+R00736	INCLUDE		astrovirus immunochromatography strip (letter)
+R00737	INCLUDE		chromatographic strip for FMDV 3ABC antibodies, pigs
+R00738	EXCLUDE	E1	urinary tract infection
+R00739	INCLUDE		Panbio Dengue Duo cassette vs capture ELISAs
+R00740	EXCLUDE	E9	HCV prevalence with test strip
+R00741	INCLUDE		QuickVue influenza field performance vs RT-PCR
+R00742	EXCLUDE	E6	proteinuria
+R00743	EXCLUDE	E6	health technology access
+R00744	EXCLUDE	E3	luminescence microfluidic cassette
+R00746	EXCLUDE	E9	clinical features; RAT sensitivity mentioned only in passing
+R00747	INCLUDE		lateral flow rapid reagent for measles
+R00749	INCLUDE		rotavirus detection: ICT vs ELISA vs RT-PCR, Norway
+R00750	EXCLUDE	E1	tuberculosis
+R00751	INCLUDE		three rapid antigen tests for pandemic H1N1
+R00752	INCLUDE		lateral flow assay for FMDV (Mab 70-17) vs Ag-ELISA
+R00754	INCLUDE		colloidal gold ICS for bluetongue antibodies
+R00756	INCLUDE		dengue NS1 Ag strip vs ELISAs, Venezuela
+R00757	EXCLUDE	E9	HBV genotype prevalence
+R00758	EXCLUDE	E9	surveillance of rapid test results
+R00759	EXCLUDE	E1	malaria
+R00760	INCLUDE		20 rapid influenza antigen tests incl. H5N1
+R00761	INCLUDE		LAMP + nucleic acid lateral flow, cyprinid herpesvirus 3
+R00762	EXCLUDE	E6	renal tubular injury
+R00763	EXCLUDE	E2	RT-PCR assay validation
+R00764	EXCLUDE	E6	cost-effectiveness review
+R00766	INCLUDE		lateral flow device for FMDV SAT 2
+R00767	EXCLUDE	E9	rotavirus burden
+R00768	INCLUDE		LAMP + lateral flow dipstick, PemoNPV shrimp
+R00769	INCLUDE		lateral flow device for swine vesicular disease virus
+R00770	EXCLUDE	E6	case report
+R00771	EXCLUDE	E9	rotavirus genotypes
+R00773	INCLUDE		rapid antigen test sensitivity for pandemic H1N1
+R00774	EXCLUDE	E9	H1N1 hospitalisation
+R00775	INCLUDE		rapid antigen test vs NAT, pandemic vs seasonal influenza
+R00777	EXCLUDE	E9	influenza myositis
+R00778	INCLUDE		express ICT for tobacco mosaic virus with silver enhancement (plant)
+R00779	EXCLUDE	E6	case report
+R00780	EXCLUDE	E3	fluorescent microparticle LFA
+R00782	EXCLUDE	E3	imaging ellipsometry biosensor
+R00783	EXCLUDE	E6	case report
+R00784	EXCLUDE	E9	gastroenteritis frequency
+R00785	INCLUDE		LAMP for ASFV with lateral flow device readout
+R00787	INCLUDE		eight rapid influenza antigen tests, H1N1
+R00788	INCLUDE		two dengue rapid devices vs ELISA, Lahore
+R00789	EXCLUDE	E9	HBV/HCV seroprevalence
+R00790	EXCLUDE	E6	expert opinion
+R00791	EXCLUDE	E9	blood donor seroprevalence
+R00792	INCLUDE		ESPLINE rapid antigen test vs culture/RT-PCR, H1N1
+R00793	EXCLUDE	E9	gastroenteritis aetiology
+R00794	INCLUDE		Binax influenza rapid antigen test vs PCR, emergency department
+R00795	EXCLUDE	E9	H1N1 in pregnancy; RAT false-negative rate incidental
+R00796	INCLUDE		foam vs flocked swabs for QuickVue influenza
+R00797	EXCLUDE	E1	malaria
+R00798	INCLUDE		ICT specific for pandemic H1N1 NP
+R00799	EXCLUDE	E1	tuberculosis
+R00801	INCLUDE		norovirus GI/GII ICT kit (letter)
+R00802	INCLUDE		mumps IgM ICT in oral fluid
+R00803	EXCLUDE	E9	sentinel surveillance
+R00804	EXCLUDE	E9	rotavirus gastroenteritis study
+R00805	EXCLUDE	E6	kidney pathology
+R00806	INCLUDE		colloidal gold ICS for FMDV type O antibodies, swine
+R00807	INCLUDE		LAMP + lateral flow dipstick, ISKNV fish
+R00809	INCLUDE		oral-fluid lateral flow HIV rapid test
+R00811	INCLUDE		rapid influenza A test incl. H1N1, human and avian specimens
+R00813	EXCLUDE	E9	YHV outbreak impact
+R00814	EXCLUDE	E9	rotavirus genotyping
+R00815	EXCLUDE	E1	leptospirosis cost-benefit
+R00816	INCLUDE		QuickVue vs DFA vs isolation vs RT-PCR, H1N1
+R00817	INCLUDE		gold ICT strip for IBV antibodies
+R00818	INCLUDE		PCR + oligochromatographic dipstick for pandemic H1N1
+R00819	INCLUDE		SAMBA nucleic-acid dipstick for HIV-1
+R00823	EXCLUDE	E9	NICU outbreak detected by Respi-Strip screening
+R00824	EXCLUDE	E1	leptospirosis
+R00825	INCLUDE		RIDA QUICK norovirus ICT vs RT-PCR
+R00826	EXCLUDE	E6	case report
+R00828	INCLUDE		QuickVue influenza in hospitalised children vs RT-PCR
+R00829	INCLUDE		SD Bioline Influenza Ag A/B/A(H1N1) vs RT-PCR
+R00830	INCLUDE		gold ICLF test for EIAV antibodies
+R00831	EXCLUDE	E6	CKD cross-sectional
+R00832	UNSURE		integrated microfluidic cassette; check detection mode (lateral flow? UPT?)
+R00833	EXCLUDE	E4	comment/letter
+R00834	EXCLUDE	E3	magnetic immunochromatography
+R00835	EXCLUDE	E9	influenza in pregnancy
+R00836	EXCLUDE	E6	review-type article
+R00838	INCLUDE		dengue NS1 Ag strip among NS1 assays, Singapore
+R00839	INCLUDE		colloidal gold ICS for JEV in swine
+R00841	EXCLUDE	E9	oseltamivir effectiveness
+R00844	EXCLUDE	E9	vaccine effectiveness
+R00845	INCLUDE		peptide-based gold ICS, FMDV DIVA in pigs
+R00846	INCLUDE		human rotavirus antigen kits for equine rotavirus (Dipstick Eiken)
+R00847	INCLUDE		rapid antigen test vs RT-PCR in hospitalised older adults
+R00848	EXCLUDE	E6	pregnancy checklist
+R00849	EXCLUDE	E9	vaccine effectiveness
+R00850	INCLUDE		dengue serology incl. rapid ICT cassette, travellers
+R00851	INCLUDE		ICT for H1N1 in young children (letter)
+R00852	EXCLUDE	E9	outbreak; rapid test limitation incidental
+R00853	INCLUDE		two dengue NS1 lateral flow rapid tests
+R00855	INCLUDE		PCR-LDR + nucleic acid detection strip, HBV YMDD mutation
+R00856	EXCLUDE	E9	hepatitis frequency by ICT
+R00857	INCLUDE		HAdV-54 epidemiology with IC kit evaluation
+R00858	INCLUDE		four methods incl. rapid antigen test, older adults
+R00860	INCLUDE		20 influenza RDTs vs H5N1 and pandemic H1N1
+R00862	EXCLUDE	E9	household transmission
+R00863	INCLUDE		HIV rapid test specificity in sleeping sickness patients
+R00864	EXCLUDE	E1	malaria surveillance
+R00865	EXCLUDE	E9	influenza burden
+R00866	UNSURE		letter, RDT and severity in H1N1 (no abstract)
+R00867	EXCLUDE	E4	comment on malaria RDTs
+R00869	EXCLUDE	E1	malaria RDT acceptability
+R00870	INCLUDE		ICA for anti-HAV IgM vs MEIA
+R00871	INCLUDE		CTK lateral flow chikungunya IgM among assays
+R00872	INCLUDE		RT-LAMP + lateral flow dipstick, MrNV prawns
+R00873	INCLUDE		haemagglutinin-based rapid antigen test, H1N1
+R00874	INCLUDE		SAMBA nucleic-acid dipstick for pandemic H1N1
+R00878	EXCLUDE	E1	tuberculosis
+R00880	UNSURE		SNAP PARVO device in wildlife; RULE NEEDED for IDEXX SNAP-type devices
+R00881	EXCLUDE	E6	cohort
+R00882	EXCLUDE	E9	treatment trial
+R00883	INCLUDE		QuickVue false positives vs RT-PCR, H1N1
+R00884	INCLUDE		SD pandemic H1N1 ICT sensitivity
+R00885	INCLUDE		rapid influenza antigen test vs RT-PCR, 2,154 patients
+R00887	INCLUDE		visual dipstick p24 antigen test, infant HIV
+R00888	EXCLUDE	E1	urinary tract infection
+R00889	EXCLUDE	E9	rapid test use and prescribing
+R00890	INCLUDE		colloidal gold ICTS for rabies antibodies, dogs
+R00893	INCLUDE		NanoSign Influenza A/B rapid test, H1N1
+R00895	EXCLUDE	E9	PHC intervention trial with RDTs
+R00897	INCLUDE		RIDAQUICK norovirus ICT vs EIAs vs RT-PCR
+R00898	INCLUDE		aqueous two-phase micellar pre-concentration to enhance viral LFA
+R00899	INCLUDE		ASSURE dengue IgA rapid test (reverse flow)
+R00900	INCLUDE		LAMP + lateral flow dipstick, IHHNV shrimp
+R00902	INCLUDE		prototype lateral flow HPV16/18/45 E6 oncoprotein test
+R00903	EXCLUDE	E9	antenatal infection prevalence
+R00904	INCLUDE		anti-HCV ICT vs ELISA, false positives
+R00906	EXCLUDE	E1	TB specimen bank
+R00907	INCLUDE		Influenzatop ICT for pandemic H1N1, children
+R00908	INCLUDE		gold ICS for duck enteritis virus antibodies
+R00909	EXCLUDE	E6	overview
+R00910	INCLUDE		colloidal gold LFI for FMDV O, A, Asia 1
+R00912	INCLUDE		norovirus IC kit vs RT-PCR, Thailand
+R00913	INCLUDE		three rotavirus IC kits vs RT-PCR
+R00914	INCLUDE		two RATs among methods for pandemic H1N1
+R00915	EXCLUDE	E9	HCV seroprevalence with strip
+R00916	EXCLUDE	E9	RSV epidemiology
+R00917	EXCLUDE	E9	HCV seroprevalence
+R00918	EXCLUDE	E9	HBV seroprevalence
+R00919	EXCLUDE	E1	leprosy
+R00921	EXCLUDE	E9	vaccine effectiveness methods
+R00922	EXCLUDE	E2	RT-LAMP (non-strip readout)
+R00923	EXCLUDE	E9	rotavirus epidemiology
+R00925	EXCLUDE	E9	influenza screening prevalence with gold ICT
+R00926	INCLUDE		Quickvue and Anigen LFDs for H5N1 in Egyptian poultry
+R00927	EXCLUDE	E9	adenovirus molecular epidemiology
+R00930	INCLUDE		Binax NOW RSV vs RT-qPCR, Alaska
+R00931	EXCLUDE	E9	rotavirus epidemiology
+R00932	EXCLUDE	E1	malaria RDT feasibility
+R00933	EXCLUDE	E6	POC testing overview
+R00935	UNSURE		rotavirus RNA genotyped from archived rapid test strips; relevance to scope to decide
+R00936	EXCLUDE	E9	vaccine effectiveness
+R00937	EXCLUDE	E9	outbreak report
+R00938	UNSURE		HCV rapid test in survey; check whether test efficiency vs reference was measured
+R00940	INCLUDE		two RDT kits (HA or NP) for pandemic H1N1
+R00942	INCLUDE		gold ICS for human cytomegalovirus
+R00943	INCLUDE		time-dependent sensitivity of rapid antigen test, H1N1 (letter)
+R00944	INCLUDE		rapidSTRIPE nucleic-acid lateral flow, H1N1
+R00945	INCLUDE		NS1 ELISA vs NS1 LFIA vs RT-PCR, dengue
+R00947	INCLUDE		dual gold ICS for WSSV and YHV, shrimp
+R00948	EXCLUDE	E1	nevirapine strip reading
+R00949	EXCLUDE	E1	feline blood typing
+R00950	EXCLUDE	E9	influenza geodemographics
+R00951	INCLUDE		NS1 strip vs WHO clinical criteria, dengue
+R00952	EXCLUDE	E9	rotavirus burden
+R00953	INCLUDE		RIDA QUICK norovirus ICT, Australia
+R00954	EXCLUDE	E2	reverse-hybridisation line strip genotyping
+R00955	INCLUDE		BinaxNOW influenza vs culture/PCR
+R00956	INCLUDE		colloidal gold ICT for plum pox virus (plant)
+R00957	INCLUDE		H1N1-specific rapid diagnosis kit, multicentre
+R00958	EXCLUDE	E2	pocket-warmer RT-LAMP (non-strip readout)
+R00959	INCLUDE		colloidal gold strip for FMDV serotype A
+R00961	INCLUDE		H5-specific rapid ICT
+R00962	EXCLUDE	E9	RCT; antigen test as outcome
+R00963	EXCLUDE	E9	HIV seroprevalence
+R00964	INCLUDE		rotavirus: latex vs ICG vs PAGE vs EM
+R00966	INCLUDE		QuickVue vs rRT-PCR, pandemic and seasonal influenza
+R00967	EXCLUDE	E6	overview of H1N1 diagnostics
