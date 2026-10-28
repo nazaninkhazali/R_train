@@ -155,6 +155,25 @@ Checks of the 8,820 total (2026-10-23, PubMed connector; simplified, untruncated
   evaluations, which are in scope and tagged for light charting. Kept.
 - Decision: string v1.0 unchanged. Only the export is to be repeated.
 
+**Official run (replaces the 2026-10-23 run; the PubMed history had expired):**
+| Field | Value |
+|---|---|
+| Date run | 2026-10-28 |
+| Total hits | 8,836 |
+| Seed check result (/8) | 8/8 |
+| Export attempt 1 | `pubmed_2026-10-28_v1.0.txt`: 5,900 records (sha256 1a84887f…88ee5), UTF-8, CRLF line endings. All 8 seeds present. **Incomplete**: in two 200-PMID samples of a simpler sub-query (sorted by date; newest and ranks 3001–3200), 56/200 and 47/200 PMIDs were missing. The missing records are spread across years, so the export was truncated, not filtered. |
+| Export attempt 2 | Planned: 5 date blocks, each checked against its PubMed count (below) |
+
+Date-block export plan (search #1 = string v1.0):
+| Block | PubMed query | PubMed count | Records in file |
+|---|---|---|---|
+| 1 | `#1 AND 1800:2015[dp]` | | |
+| 2 | `#1 AND 2016:2020[dp]` | | |
+| 3 | `#1 AND 2021:2022[dp]` | | |
+| 4 | `#1 AND 2023:2024[dp]` | | |
+| 5 | `#1 AND 2025:2030[dp]` | | |
+| Total | must equal 8,836 (any difference is explained by records without a usable [dp], which are checked separately) | | |
+
 ## F. Access notes
 - Direct HTTPS to NCBI E-utilities, Crossref (api.crossref.org) and doi.org: blocked by this environment's
   network policy (tested 2026-10-17). PubMed connector works.
