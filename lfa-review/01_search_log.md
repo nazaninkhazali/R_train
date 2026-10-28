@@ -179,3 +179,50 @@ Date-block export plan (search #1 = string v1.0):
   network policy (tested 2026-10-17). PubMed connector works.
 - The PubMed website (pubmed.gov) has no 20-operator limit and can export up to 10,000 records with
   abstracts. This makes it the better tool for the final reproducible run (see protocol §6).
+
+## G. Export attempt 2 and record processing (Stage 3, 2026-10-28)
+
+Date-block exports (author ran them on 2026-10-28; all files in `02_records/raw/`, kept outside git):
+| Block | PubMed query | PubMed count | Records in file | sha256 (first 8) |
+|---|---|---|---|---|
+| 1 | `#1 AND 1800:2015[dp]` | 1,883 | 1,883 ✔ | f7273315 |
+| 2 | `#1 AND 2016:2020[dp]` | 1,683 | 1,683 ✔ | 42e93fcf |
+| 3 | `#1 AND 2021:2022[dp]` | 2,480 | 2,480 ✔ | 0400b81c |
+| 4 | `#1 AND 2023:2024[dp]` | 1,745 | 1,745 ✔ | 3fc89d26 |
+| 5 | `#1 AND 2025:2030[dp]` | 1,369 | 1,369 ✔ | 2cf80ac8 |
+| Sum | | 9,160 | 9,160 | |
+| **Unique PMIDs** | | | **8,836 = PubMed total ✔** | |
+
+- 324 PMIDs appear in two blocks, because `[dp]` matches both the electronic and the print date. These are
+  export overlaps, not duplicate publications.
+- All 8 seed PMIDs are present. All 5,900 PMIDs of export attempt 1 are contained in the union.
+- Processing: `scripts/build_master.py` (run with `python3 -I`); outputs `02_records/work/master_records.xlsx`
+  (all fields + tags; regenerable, kept outside git) and `03_screening.xlsx`.
+
+Record-level tags (aids for screening only; they never decide inclusion):
+| Tag | Records |
+|---|---|
+| Possible duplicate (same DOI or same normalised title) | 103 (to be checked by hand) |
+| Not English | 271 |
+| No abstract | 271 (16 of them also not English) |
+| Review / systematic review / meta-analysis | 834 |
+| Comment / editorial / guideline / news / historical | 116 |
+| Published erratum | 22 |
+| Retracted publication | 4 |
+| Preprint | 70 |
+| Letter (kept; may contain data) | 158 |
+| LFA text term in title/abstract/keywords | 5,507 |
+| Only a rapid diagnostic/antigen test term | 3,211 |
+| Only "Reagent Strips" MeSH | 62 |
+| None of these terms found (matched through other fields) | 56 |
+| Colorimetric clue | 2,124 |
+| Other-signal clue (fluorescent, SERS, etc.) | 1,379 |
+| Nucleic-acid clue | 3,648 |
+| Probable commercial SARS-CoV-2 test evaluation | 1,775 |
+
+PRISMA-ScR identification (so far): records identified from PubMed = 8,836; other databases = not yet
+searched; duplicates removed = 0 confirmed (103 candidates).
+
+Pilot sample: 50 records drawn at random (Python `random.Random(20261028).sample`) from all 8,836
+records; sheet `pilot_author` in `03_screening.xlsx`. Tags are hidden from the author's pilot sheet so the
+two screenings stay independent.
