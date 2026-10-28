@@ -1,0 +1,250 @@
+R05031	EXCLUDE	E9	HCV prevalence study, rapid test strip as tool
+R05033	EXCLUDE	E9	cancer patient cohort, rapid diagnostic test as tool
+R05034	EXCLUDE	E9	vaccine neutralizing antibody profiling, LFIA as tool
+R05035	EXCLUDE	E6	cohort study protocol, no assay data
+R05036	EXCLUDE	E6	qualitative study of screening tool perceptions
+R05037	INCLUDE		COVID-VIRO ALL IN antigen self-test diagnostic performance and usability
+R05038	EXCLUDE	E9	anticoagulation therapy retrospective cohort
+R05043	INCLUDE		Zika virus RT-LAMP with AuNP lateral flow assay
+R05044	INCLUDE		visual colorimetric lateral flow for influenza A/B nucleoprotein, strip reader
+R05045	EXCLUDE	E6	willingness-to-pay survey
+R05046	EXCLUDE	E3	quantum dot fluorescent lateral flow strip
+R05047	EXCLUDE	E9	seroprevalence in parturient women, immunochromatographic assay as tool
+R05048	EXCLUDE	E9	hepatitis screening campaign implementation, RDT as tool
+R05049	EXCLUDE	E6	diatom expression of RBD antigen, component production
+R05052	EXCLUDE	E2	acoustic analysis/AI diagnosis, not an LFA
+R05053	EXCLUDE	E9	etiological study of persistent fever, RDTs as tools
+R05054	INCLUDE		low-cost 3D printed antibody dispenser for LFA strip fabrication
+R05055	EXCLUDE	E3	universal fluorescence reader platform
+R05056	INCLUDE		canine distemper lateral flow assay vs RT-PCR, relative sensitivity/specificity
+R05057	INCLUDE		three LFIAs vs CLIAs and sVNT for SARS-CoV-2 serology, n=988
+R05058	EXCLUDE	E9	HCW seroprevalence survey
+R05059	EXCLUDE	E3	PCR-CRISPR/Cas13a fluorescence-based detection
+R05060	EXCLUDE	E9	dengue outbreak surveillance, NS1 strip and LAMP as tools
+R05061	INCLUDE		influenza LAMP + lateral flow assay, isothermal amplification
+R05062	EXCLUDE	E6	statistical reporting-delay modelling
+R05063	INCLUDE		rapid antigen test vs RT-PCR in ophthalmic screening, n=629
+R05064	EXCLUDE	E4	commentary
+R05065	INCLUDE		ASFV lateral flow devices antigen and antibody in field farm sampling vs qPCR/ELISA
+R05067	EXCLUDE	E9	telemedicine service evaluation, rapid test as tool
+R05068	EXCLUDE	E9	case report
+R05070	INCLUDE		combining dengue NS1/IgM/IgG RDTs to determine immune status, RDT performance modelled
+R05071	EXCLUDE	E4	letter without data
+R05073	INCLUDE		oral swab rapid antigen lateral flow test performance vs RT-PCR
+R05074	INCLUDE		RapidFor antigen rapid test kit vs RT-PCR, n=444
+R05076	EXCLUDE	E4	no abstract, brief report on prolonged positivity
+R05077	INCLUDE		colloidal gold immunochromatographic assay for COVID-19 IgM/IgG
+R05078	INCLUDE		CoV-SCAN lateral flow immunoassay development and POC performance across variants
+R05079	EXCLUDE	E4	company history/narrative article
+R05080	EXCLUDE	E9	outcome cohort study, lateral flow tests as tool
+R05081	INCLUDE		aptamer sandwich lateral flow assay AptaFlow for SARS-CoV-2
+R05082	INCLUDE		immunochromatography rapid test vs ELISAs and qPCR for HCV in hemodialysis
+R05083	EXCLUDE	E9	case-control study of determinants, lateral flow test as tool
+R05084	EXCLUDE	E6	modelling impact of mass RAT on transmission
+R05085	INCLUDE		field evaluation of seven SARS-CoV-2 antigen RDTs in Uganda
+R05086	EXCLUDE	E1	Mycoplasma synoviae, not a virus
+R05087	EXCLUDE	E9	risk-reduction protocol pilot, rapid antigen tests as tool
+R05088	INCLUDE		Au/Fe3O4 core-shell nanoparticle immunochromatography strip for avian influenza H7
+R05089	EXCLUDE	E6	pranayama clinical trial
+R05090	EXCLUDE	E1	bacterial/fungal meningitis etiology, CrAg LFA not viral
+R05091	EXCLUDE	E9	school rapid antigen testing strategy implementation
+R05092	EXCLUDE	E9	hepatitis seroprevalence survey, immunochromatography as tool
+R05093	INCLUDE		NG-Test SARS-CoV-2 Ag field evaluation in emergency department
+R05094	INCLUDE		antigen-based POCT performance assessment for SARS-CoV-2
+R05095	INCLUDE		catalytic hairpin assembly + lateral flow immunoassay for influenza and RSV
+R05096	INCLUDE		ultrastable silver nanoparticle dipstick for anti-SARS-CoV-2 IgG
+R05100	INCLUDE		commercial neutralizing antibody assays incl. qualitative immunochromatographic test vs PRNT50
+R05101	EXCLUDE	E6	bioweapon threat assessment literature analysis
+R05102	EXCLUDE	E3	NIR-II fluorescent nanoparticle lateral flow assay
+R05103	INCLUDE		latex microsphere immunochromatographic strip for North American PRRSV
+R05104	EXCLUDE	E1	Mycoplasma pneumoniae, not a virus
+R05105	EXCLUDE	E9	parainfluenza epidemiology and meteorology
+R05108	EXCLUDE	E2	quantitative ELISA for vaccine IgG, not LFA
+R05110	EXCLUDE	E4	comment/reply
+R05111	EXCLUDE	E4	comment
+R05112	INCLUDE		handheld thermo-photonic reader quantifying commercial antibody LFA gold nanoparticles
+R05113	EXCLUDE	E1	recombinant interferon alpha2b protein, not a virus target
+R05114	EXCLUDE	E2	Xpert Xpress PCR cartridge assay, not LFA
+R05115	EXCLUDE	E9	kinetic analysis of RNAemia/antigenemia, LFIC as tool
+R05116	EXCLUDE	E9	quality assessment of Ag-RDT testing sites
+R05118	EXCLUDE	E4	systematic review/meta-analysis
+R05119	EXCLUDE	E3	RPA + CRISPR-Cas13a fluorescent detection for duck Tembusu virus
+R05121	INCLUDE		RNA recovery from spent SARS-CoV-2 rapid antigen test devices for sequencing - recheck rule
+R05123	INCLUDE		SARS-CoV-2 rapid antigen test performance vs RT-PCR Cq value, n=213
+R05124	INCLUDE		three rapid antigen tests in contact tracing, usability and accuracy vs RT-PCR
+R05125	INCLUDE		porcine EMCV RT-RPA with lateral flow biosensor, LOD and clinical agreement
+R05126	INCLUDE		seven SARS-CoV-2 rapid antigen tests, omicron vs delta LoD
+R05127	EXCLUDE	E1	bacterial STIs prevalence, immunochromatographic tests for Chlamydia
+R05128	EXCLUDE	E9	risk-reduction cohort at golf events, rapid antigen testing as tool
+R05129	EXCLUDE	E2	electrochemical biosensing platform
+R05130	UNSURE		engineered CRISPR/Cas12a ENHANCEv2 clinical validation; lateral flow readout not stated
+R05131	INCLUDE		OnSite Dengue IgG rapid diagnostic test sensitivity/specificity for prevaccination screening
+R05132	EXCLUDE	E1	intestinal and blood parasites, not viruses
+R05133	INCLUDE		Bosch Vivalytic POC PCR and Roche rapid antigen test clinical sensitivity/specificity
+R05134	INCLUDE		Sofia SARS-CoV-2 antigen test performance in pediatric patients
+R05135	EXCLUDE	E6	task analysis of in-home testing usability, no abstract/no assay data
+R05137	EXCLUDE	E1	urine tenofovir drug metabolite, not a virus target
+R05138	INCLUDE		triplex immunostrip for TMV, TVBMV and PVY plant viruses, LODs reported
+R05139	EXCLUDE	E9	case report
+R05140	INCLUDE		five commercial SARS-CoV-2 nucleocapsid antigen LFAs diagnostic accuracy
+R05141	INCLUDE		OraQuick HIV self-test sensitivity/specificity vs 4th generation reference
+R05142	EXCLUDE	E6	cost-benefit analysis of travel testing
+R05143	INCLUDE		four POC antigen assays LOD for Omicron vs Delta
+R05145	EXCLUDE	E6	statistical model combining rapid antigen test and syndromic data
+R05146	INCLUDE		four commercial Ag-RDTs analytical sensitivity across variants of concern
+R05148	EXCLUDE	E6	individual-based modelling of school lateral flow testing
+R05149	EXCLUDE	E3	AIE dye afterglow luminescent lateral flow immunoassay
+R05150	INCLUDE		nanoelectrokinetic preconcentrator-assisted LFA for SARS-CoV-2 IgG
+R05151	INCLUDE		commercial rapid antigen test performance evaluation, Omicron vs Alpha
+R05152	INCLUDE		GeneFinder COVID-19 Ag Plus rapid test validation, n=603
+R05153	EXCLUDE	E6	mathematical visual logistics modelling of test performance
+R05154	INCLUDE		colloidal gold antigen sealing tube test strip diagnostic performance, n=584
+R05155	INCLUDE		rapid antigen test in asymptomatic ED patients vs rRT-PCR, n=899
+R05156	EXCLUDE	E2	automated real-time PCR HPV assay
+R05157	EXCLUDE	E6	agent-based modelling of mass testing
+R05158	EXCLUDE	E9	facial nerve palsy retrospective study
+R05161	INCLUDE		SHINEv.2 Cas13-based assay with lateral-flow readout, sensitivity/specificity
+R05162	INCLUDE		Roche SARS-CoV-2 Rapid Antigen test diagnostic performance in ED
+R05163	INCLUDE		Standard Q COVID-19 Ag serial rapid antigen test field evaluation
+R05166	EXCLUDE	E9	HBV mother-to-child transmission prevention trial
+R05167	EXCLUDE	E1	Mycobacterium tuberculosis, not a virus
+R05168	INCLUDE		saliva-based SARS-CoV-2 antigen qualitative test feasibility, sensitivity/specificity
+R05169	INCLUDE		porcine parvovirus ERA-CRISPR/Cas12a with lateral flow dipstick
+R05170	EXCLUDE	E9	HBV prevalence and blood group association, immunochromatography as tool
+R05171	INCLUDE		SARS-CoV-2 rapid antigen test evaluation vs RT-PCR, Cuba, n=778
+R05172	EXCLUDE	E6	laboratory test-utilization intervention study
+R05173	EXCLUDE	E6	adherence to self-testing protocol, digital study design
+R05174	EXCLUDE	E9	nightlife reopening cohort study, Ag-RDT as tool
+R05175	INCLUDE		rapid antigen testing by community health workers, nasal vs saliva sensitivity
+R05177	INCLUDE		Panbio COVID-19 Ag-RDT in Omicron, nasal vs oral specimens
+R05178	INCLUDE		RPA + CRISPR/Cas13a with lateral flow strip visual readout and fluorescence analyzer
+R05179	EXCLUDE	E9	N-antigenemia rapid test as prognostic marker, mortality outcome
+R05180	EXCLUDE	E9	seroprevalence study, RDT as tool
+R05181	INCLUDE		Panbio rapid antigen test for ED triage, clinical implementation performance
+R05182	INCLUDE		analytical sensitivity of 12 rapid antigen test kits for Omicron BA.2
+R05183	INCLUDE		Ag@Au nanoparticle LFIA, colorimetric and SERS dual-mode, SARS-CoV-2 IgG
+R05184	EXCLUDE	E9	kidney dysfunction and COVID-19 outcomes cohort
+R05186	INCLUDE		rapid antigen detection test vs RT-PCR during outbreak, retrospective screening
+R05187	INCLUDE		OnSite Dengue IgG RDT accuracy for pre-vaccination screening, phase 3 trial samples
+R05188	EXCLUDE	E1	cryptococcal antigen, not a virus
+R05189	INCLUDE		HCR signal amplification + lateral flow immunoassay for dengue virus DNA target
+R05190	EXCLUDE	E9	norovirus outbreak investigation, IC kit as tool
+R05191	EXCLUDE	E9	university screening programme using Panbio, no accuracy vs reference
+R05192	EXCLUDE	E2	centrifugal microfluidic RT-LAMP system, not lateral flow
+R05193	EXCLUDE	E1	zebrafish diabetes study, not a virus
+R05194	INCLUDE		antibody LFIA diagnostic accuracy in vaccinated cohorts, REACT programme
+R05195	INCLUDE		analytical LOD of 32 lateral flow antigen tests for Gamma variant
+R05197	EXCLUDE	E9	vaccine immunological heterogeneity, sVNT as tool
+R05198	EXCLUDE	E4	no abstract, commentary on specificity
+R05199	INCLUDE		two rapid HIV diagnostic tests performance plus rapid test band reader validation
+R05200	EXCLUDE	E3	quantum dot fluorescent immunochromatography assay
+R05201	EXCLUDE	E3	europium fluorescent immunochromatographic strip test for H5 avian influenza
+R05202	INCLUDE		BinaxNOW serial rapid antigen testing accuracy in correctional facilities
+R05203	EXCLUDE	E6	nursing education activity report
+R05204	INCLUDE		Ag-RDT vs RT-PCR on nasopharyngeal and saliva swabs in children, n=1174
+R05205	INCLUDE		AG-Q COVID-19 N-Ag self-test diagnostic accuracy vs RT-PCR
+R05208	EXCLUDE	E1	tuberculosis urine LAM, not a virus
+R05209	INCLUDE		Roche rapid antigen test diagnostic accuracy and feasibility in general practice
+R05210	EXCLUDE	E3	time-resolved fluorescent immunochromatographic assay
+R05211	INCLUDE		BIOSENSOR rapid antigen test vs RT-PCR sensitivity/specificity
+R05212	EXCLUDE	E1	white blood cell cytometer, not a virus
+R05213	INCLUDE		AI-assisted colorimetric polydopamine LFIA for COVID-19 neutralizing antibody
+R05214	INCLUDE		strawberry mottle virus RT-RPA with lateral flow strip
+R05215	EXCLUDE	E2	laboratory-based high-throughput immunoanalyzer antigen assay
+R05217	INCLUDE		rapid antigen vs RT-PCR accuracy in college athletes, Omicron
+R05218	INCLUDE		GenBody COVID-19 rapid antigen kit vs RT-PCR, n=155
+R05219	EXCLUDE	E4	letter without data
+R05221	EXCLUDE	E6	serology reference material harmonization study
+R05222	UNSURE		one-pot RPA + CRISPR/Cas12a for ASFV and CaPV; readout format not stated
+R05223	INCLUDE		eight commercial Ag-RDTs performance in Brazil vs RT-qPCR
+R05224	EXCLUDE	E2	DASH point-of-care PCR test
+R05225	INCLUDE		OraQuick HCV rapid antibody self-test usability and inter-reader concordance
+R05227	INCLUDE		direct PCR + CRISPR/Cas12a with lateral flow assay strip for ASFV, LOD reported
+R05228	EXCLUDE	E9	vaccine effectiveness cohort, rapid antigen test as tool
+R05231	INCLUDE		self-developed rapid IgM-IgG test (ALLtest) sensitivity/specificity, n>1000
+R05232	EXCLUDE	E1	Nocardia farcinica, not a virus
+R05233	EXCLUDE	E1	tuberculosis host protein biomarkers by ELISA
+R05234	INCLUDE		Exacto HIV self-test analytical performance, n=400
+R05235	INCLUDE		osmotic processor to concentrate biomarkers for lateral flow assays - recheck viral target
+R05237	EXCLUDE	E4	letter without abstract
+R05238	EXCLUDE	E6	syringe services policy letter
+R05239	EXCLUDE	E1	malaria programme, not a virus
+R05240	INCLUDE		BD Veritor rapid antigen test vs NAT and culture in contacts, performance limits
+R05241	EXCLUDE	E9	border screening programme report
+R05242	INCLUDE		rapid diagnostic test sensitivity/specificity vs culture on days 4-6, viral dynamics cohort
+R05243	INCLUDE		nationwide analytical and clinical evaluation of 44 rapid antigen tests
+R05244	INCLUDE		handheld thermo-photonic quantification of commercial IgG/IgM rapid test in ICU patients
+R05247	EXCLUDE	E1	pneumolysin/Streptococcus pneumoniae, not a virus
+R05248	INCLUDE		COVISTIX antigen rapid test analytical performance in all-comers
+R05249	EXCLUDE	E6	Bayesian testing/quarantine algorithm modelling
+R05250	INCLUDE		performance evaluation of five Zika rapid diagnostic tests
+R05251	INCLUDE		laboratory-developed immunochromatographic and ELISA SARS-CoV-2 IgG assays validated in South Africa
+R05252	EXCLUDE	E9	national testing database analysis
+R05253	EXCLUDE	E9	coinfection survey in broiler flocks, lateral flow device as tool
+R05254	EXCLUDE	E9	case report
+R05255	INCLUDE		RT-RAA + CRISPR/Cas12a for GII PEDV with flow strip detection option
+R05256	EXCLUDE	E9	case report, immunochromatographic test as tool
+R05258	EXCLUDE	E9	severe dengue epidemiology, SD Bioline RDT as tool
+R05259	EXCLUDE	E4	book chapter/review on biosensor fundamentals
+R05260	INCLUDE		Panbio Ag-RDT sensitivity by nasal vs throat vs combined swab
+R05261	INCLUDE		sweepovirus RPA with lateral flow dipstick, LOD vs PCR
+R05262	EXCLUDE	E9	gastroenteritis virus prevalence, immunochromatography as tool
+R05263	EXCLUDE	E9	retrospective COVID-19 contraction analysis in dental workers
+R05264	INCLUDE		self-taken vs healthcare worker-taken swabs for Covios rapid antigen test accuracy
+R05266	INCLUDE		porous microneedle patch with paper-based immunoassay for anti-SARS-CoV-2 IgM/IgG
+R05267	EXCLUDE	E9	autopsy serological screening, LFIA as tool
+R05268	INCLUDE		Standard Q COVID-19 Ag rapid antigen test performance vs rRT-PCR, n=1034
+R05269	EXCLUDE	E6	microfluidic dipstick colony/plaque counting, not an LFA for virus detection
+R05270	INCLUDE		CRISPR-Cas12/Cas13 detection of TMV, TEV, PVX with lateral flow strip readout
+R05271	EXCLUDE	E6	mortality prediction model
+R05272	INCLUDE		nanobody panel for SARS-CoV-2 spike variants incl. lateral flow assay
+R05274	EXCLUDE	E9	daily lateral flow testing as quarantine alternative, cohort study
+R05275	INCLUDE		external quality assessment of SARS-CoV-2 antigen tests, sensitivity across strains
+R05276	UNSURE		prototype lateral flow assay for orthopoxviruses; letter without abstract, needs full text
+R05277	EXCLUDE	E9	daily contact testing pilot service evaluation
+R05278	INCLUDE		rapid lateral flow immunoassay cross-reactivity between COVID-19 and dengue serology
+R05279	EXCLUDE	E4	rapid review of published evaluations
+R05280	INCLUDE		LAMP coupled with lateral flow device for herpesvirus of turkeys vaccine strains
+R05282	INCLUDE		machine learning visual auditing of home LFIA self-test results, SARS-CoV-2 antibodies
+R05284	EXCLUDE	E6	methodological commentary on study design
+R05285	EXCLUDE	E9	post-vaccination infection cohort, lateral flow as tool
+R05286	EXCLUDE	E6	mathematical modelling of 18 rapid antigen tests, no primary assay data
+R05288	EXCLUDE	E6	stochastic modelling of testing strategies
+R05290	EXCLUDE	E9	malaria/COVID prevalence study, RDTs as tools
+R05291	EXCLUDE	E2	PCR-based Orthopoxvirus laboratory response, not LFA
+R05292	INCLUDE		plant-produced SARS-CoV-2 RBD for lateral-flow immunoassay strip, validated IgM/IgG
+R05293	INCLUDE		Panbio COVID-19 rapid antigen test performance in low prevalence cohort - no abstract, recheck
+R05294	INCLUDE		FELUDA FnCas9 CRISPR detection with lateral flow test for SARS-CoV-2
+R05295	INCLUDE		protocol for NHS lateral flow antigen test kit use - recheck for performance data
+R05296	EXCLUDE	E6	evaluation protocol for serological assays, methods paper
+R05297	EXCLUDE	E9	qualitative study of pharmacy POCT implementation
+R05298	EXCLUDE	E2	SERS-based aptasensor, not lateral flow
+R05299	EXCLUDE	E4	commentary without abstract
+R05300	EXCLUDE	E9	case report
+R05302	EXCLUDE	E9	qualitative process analysis of daily contact testing
+R05303	EXCLUDE	E6	syringe services programme interviews
+R05304	EXCLUDE	E1	Cryptococcus and Histoplasma antigens, not viruses
+R05305	EXCLUDE	E9	hypertension in HIV care, no LFA assessment
+R05306	EXCLUDE	E1	cryptococcal antigen colloidal gold immunochromatography, not a virus
+R05307	EXCLUDE	E9	vaccine effectiveness study, rapid antigen testing as tool
+R05308	INCLUDE		lateral flow immunochromatographic assay for anti-SARS-CoV-2 IgG vs EIA and CLIA
+R05310	EXCLUDE	E2	optical fiber immunosensor, not lateral flow
+R05311	INCLUDE		gold nanoparticle signal amplification lateral flow assay for COVID-19 antibodies
+R05312	EXCLUDE	E4	guidelines document
+R05313	EXCLUDE	E9	HCV prevalence survey using rapid tests
+R05314	INCLUDE		Panbio COVID-19 antigen rapid diagnostic test performance in Ethiopia
+R05315	EXCLUDE	E1	vibriophage as proxy for Vibrio cholerae; bacterial diagnosis target
+R05316	EXCLUDE	E4	comment/letter
+R05317	EXCLUDE	E4	comment/letter reply
+R05318	INCLUDE		plant-derived E2 immunochromatographic test strip for CSFV antibodies
+R05319	INCLUDE		head-to-head performance of 22 rapid lateral flow antigen tests and variants, n=1157
+R05320	INCLUDE		point-of-care molecular testing on residual buffer of positive Ag-RDTs; Ag-RDT false positives
+R05321	INCLUDE		three lateral flow antigen tests vs viral culture and viral load, n=189
+R05322	INCLUDE		three commercial SARS-CoV-2 rapid antigen tests clinical performance in tropical setting
+R05324	INCLUDE		BinaxNOW rapid antigen test in children, sensitivity/NPV, n=1054
+R05325	EXCLUDE	E9	de-isolation policy cohort, RADT as tool
+R05326	EXCLUDE	E4	review of genital ulcer diagnosis
+R05328	EXCLUDE	E9	population seroprevalence survey
+R05329	EXCLUDE	E2	ELISA development on recombinant antigen, not LFA
+R05331	EXCLUDE	E1	imported malaria trends, not a virus
+R05333	INCLUDE		wicking in porous membranes, effective capillary radius model for lateral flow assays
