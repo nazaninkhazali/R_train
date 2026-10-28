@@ -1,0 +1,250 @@
+R02416	INCLUDE		SD Bioeasy Dengue Duo validation Brazil
+R02417	EXCLUDE	E1	GM crop screening, CaMV 35S as marker
+R02418	INCLUDE		WNV DIII mAb LFA differentiation
+R02419	EXCLUDE	E1	
+R02420	EXCLUDE	E9	
+R02421	INCLUDE		dual HIV/syphilis RDT Nigeria
+R02422	INCLUDE		RIDT vs RT-PCR in children under 2
+R02424	EXCLUDE	E2	modelling
+R02425	EXCLUDE	E2	sialidase fluorescent probe
+R02426	INCLUDE		LFS RT-RPA canine distemper virus
+R02427	EXCLUDE	E9	
+R02428	INCLUDE		HBsAg point-of-care strip field sensitivity
+R02429	EXCLUDE	E9	blood transfer device
+R02430	EXCLUDE	E1	
+R02431	EXCLUDE	E3	fluorescent LFIA
+R02432	EXCLUDE	E9	
+R02433	EXCLUDE	E9	
+R02434	EXCLUDE	E2	ELISA
+R02435	EXCLUDE	E9	
+R02436	EXCLUDE	E9	
+R02437	INCLUDE		H9 AIV antibody IC strips
+R02438	EXCLUDE	E1	
+R02439	INCLUDE		RPA-LFD FMDV
+R02440	EXCLUDE	E6	statistical methodology
+R02441	EXCLUDE	E9	
+R02442	EXCLUDE	E1	
+R02443	EXCLUDE	E9	
+R02444	INCLUDE		portable reader for HIV lateral flow, field surveillance
+R02445	EXCLUDE	E1	
+R02446	EXCLUDE	E9	
+R02447	EXCLUDE	E9	
+R02448	INCLUDE		two dengue RDTs Solomon Islands
+R02449	UNSURE		OmpA scaffold AuNP conjugates; virus target unclear
+R02450	EXCLUDE	E1	
+R02451	EXCLUDE	E1	
+R02452	INCLUDE		smartphone e-reader dual HIV/syphilis immunoassays
+R02453	INCLUDE		LFD RT-RPA bovine respirovirus 3
+R02454	EXCLUDE	E9	
+R02455	EXCLUDE	E9	
+R02456	INCLUDE		HBV ICT strip vs ELISA in children
+R02457	EXCLUDE	E4	review
+R02458	INCLUDE		oseltamivir-derivative LFA, Tamiflu-resistant influenza
+R02459	EXCLUDE	E9	
+R02460	EXCLUDE	E4	review
+R02461	EXCLUDE	E6	comment
+R02462	INCLUDE		LFS RT-RPA FMDV body heat
+R02464	EXCLUDE	E9	
+R02465	INCLUDE		Advanced Quality Rapid Anti-HCV test
+R02466	INCLUDE		FluDETECT/VetScan LFIA swab pool size, chickens
+R02467	EXCLUDE	E2	modelling
+R02468	INCLUDE		Au/Pt NP-latex nanocomposite ICT influenza A
+R02469	EXCLUDE	E2	glucose meter
+R02470	EXCLUDE	E3	fluorescent ICT
+R02473	EXCLUDE	E4	review
+R02474	EXCLUDE	E2	cELISA
+R02477	INCLUDE		ICA comparator vs AFIAS rotavirus assay
+R02478	EXCLUDE	E1	melioidosis
+R02479	EXCLUDE	E1	
+R02480	EXCLUDE	E2	protein chip
+R02481	EXCLUDE	E9	forecasting
+R02482	INCLUDE		LFD-RPA H7N9
+R02483	INCLUDE		gold IC strip H7N9
+R02484	INCLUDE		HRP-labelled LFIA influenza A/B (TMB colour)
+R02485	EXCLUDE	E3	fluorescent ICS
+R02487	EXCLUDE	E3	europium fluorescent
+R02488	EXCLUDE	E9	
+R02489	EXCLUDE	E6	epitope validation only
+R02490	INCLUDE		rabies RDT for Australian bat lyssavirus
+R02491	EXCLUDE	E2	nanopore
+R02492	INCLUDE		RPA-LFD feline herpesvirus 1
+R02493	INCLUDE		SD Bioline HIV/Syphilis Duo South Sudan
+R02494	EXCLUDE	E2	urine dipstick
+R02495	EXCLUDE	E9	
+R02496	INCLUDE		post-assay gold growth LFIA PVX (plant)
+R02497	EXCLUDE	E9	
+R02498	INCLUDE		ALSONIC Adeno ICA vs real-time PCR
+R02500	EXCLUDE	E9	
+R02501	EXCLUDE	E9	
+R02503	INCLUDE		SD Bioline HIV/Syphilis Duo Vietnam
+R02504	INCLUDE		ALV p27 gold test strip
+R02505	INCLUDE		streptavidin fusion reporters rapid HCV test
+R02506	EXCLUDE	E9	
+R02507	EXCLUDE	E9	
+R02508	INCLUDE		HCV rapid IC vs ELISA/RIBA
+R02509	INCLUDE		vertical flow paper immunosensor influenza (colorimetric channel)
+R02510	INCLUDE		Combi-Strip IC vs real-time RT-PCR, vaccine-derived rotavirus
+R02511	INCLUDE		HBsAg/HBeAg RDT serial algorithm
+R02512	EXCLUDE	E9	
+R02513	INCLUDE		RT-RPA-LFD influenza A, H1/H3 subtyping
+R02514	EXCLUDE	E1	
+R02515	INCLUDE		RT-RPA LF strip rice black-streaked dwarf virus (plant)
+R02516	INCLUDE		RT-RPA-LFD H9N2
+R02517	INCLUDE		recombinant NP for rapid influenza test
+R02518	INCLUDE		GLRaV-3 ICA (plant)
+R02519	INCLUDE		sandwich LFIA sensitivity, potato virus Y (plant)
+R02521	INCLUDE		serotype-specific RPA-LFD FMDV
+R02522	EXCLUDE	E1	hemoplasmas
+R02523	INCLUDE		FMDV SAT 2 LFI strip
+R02524	EXCLUDE	E9	
+R02525	INCLUDE		two dual HIV/syphilis RDTs Zambia
+R02527	EXCLUDE	E4	book chapter
+R02528	INCLUDE		four RDTs vs 4th-gen ELISA, HIV/HBsAg
+R02529	EXCLUDE	E9	
+R02530	EXCLUDE	E9	EQA programme
+R02532	INCLUDE		smartphone reader for lateral flow nucleic acid assays
+R02534	EXCLUDE	E1	
+R02535	EXCLUDE	E1	
+R02536	EXCLUDE	E9	
+R02537	EXCLUDE	E9	
+R02538	EXCLUDE	E9	
+R02539	EXCLUDE	E9	
+R02540	EXCLUDE	E3	SERS
+R02541	INCLUDE		Chembio DPP Zika IgM ICA vs ELISAs
+R02542	EXCLUDE	E1	
+R02543	EXCLUDE	E1	
+R02544	INCLUDE		SFTSV colloidal gold LFITS
+R02545	INCLUDE		broad-spectrum mAbs for CHIKV IC test (kit performance reported)
+R02546	EXCLUDE	E3	Sofia
+R02547	INCLUDE		two HIV RDTs Mali
+R02548	EXCLUDE	E2	cobas Liat PCR
+R02549	EXCLUDE	E1	Aspergillus
+R02550	EXCLUDE	E1	
+R02552	INCLUDE		CCHF Sero K-SeT IgM rapid kit
+R02554	EXCLUDE	E9	
+R02555	EXCLUDE	E9	
+R02556	INCLUDE		rotavirus RDT vs EIA and RT-qPCR
+R02557	INCLUDE		four HIV/syphilis RDTs lab evaluation
+R02558	EXCLUDE	E1	
+R02559	EXCLUDE	E2	
+R02560	INCLUDE		RPA lateral-flow human mastadenovirus B
+R02561	INCLUDE		alarm LFIA, five potato viruses (plant)
+R02562	EXCLUDE	E9	survey
+R02563	EXCLUDE	E3	up-converting phosphor
+R02564	EXCLUDE	E9	
+R02565	EXCLUDE	E9	
+R02566	INCLUDE		ESPLINE IC comparator vs Alere i, avian influenza
+R02567	INCLUDE		SD Bioline HCV capillary vs venous
+R02568	EXCLUDE	E1	
+R02569	EXCLUDE	E1	drug level
+R02570	INCLUDE		five anti-HCV RDTs India
+R02571	INCLUDE		IC comparator vs automated RT-PCR, norovirus
+R02572	EXCLUDE	E3	fluorescent LFIA
+R02573	INCLUDE		lateral flow chromatography vs molecular panels
+R02574	INCLUDE		PEDV ICA with new mAbs
+R02575	INCLUDE		silver-amplified IC vs four IC kits, adenovirus
+R02576	INCLUDE		rapid IC test for hepatitis A
+R02577	EXCLUDE	E6	study protocol
+R02579	INCLUDE		EuDx-HE triple hepatitis POC kit
+R02580	EXCLUDE	E9	lateral-flow cross-reactivity noted; PCR method paper
+R02581	INCLUDE		STH-PAS dipstick DNA chromatography dengue
+R02583	EXCLUDE	E1	
+R02584	EXCLUDE	E1	
+R02585	EXCLUDE	E2	LAMP without LF
+R02586	EXCLUDE	E1	
+R02587	EXCLUDE	E9	plant first report, immunostrip as tool
+R02588	EXCLUDE	E9	plant first report, immunostrip as tool
+R02589	EXCLUDE	E9	plant first report, immunostrip as tool
+R02590	EXCLUDE	E9	plant first report, immunostrip as tool
+R02591	EXCLUDE	E9	plant first report, immunostrip as tool
+R02592	EXCLUDE	E9	plant first report, immunostrip as tool
+R02593	EXCLUDE	E9	plant first report, immunostrip as tool
+R02594	EXCLUDE	E9	plant first report, immunostrip as tool
+R02595	EXCLUDE	E9	plant first report, lateral flow as tool
+R02596	EXCLUDE	E9	plant first report, immunostrip as tool
+R02597	EXCLUDE	E3	SERS
+R02598	EXCLUDE	E1	bacterium
+R02599	EXCLUDE	E9	plant first report, immunostrip as tool
+R02600	EXCLUDE	E9	plant first report, immunostrip as tool
+R02601	EXCLUDE	E9	plant survey, immunostrip as tool
+R02602	EXCLUDE	E1	bacterium
+R02603	EXCLUDE	E9	plant first report, immunostrip as tool
+R02604	INCLUDE		2DPN paper network influenza HA with enzymatic amplification
+R02605	EXCLUDE	E9	
+R02606	EXCLUDE	E9	plant host report, immunostrip as tool
+R02607	EXCLUDE	E9	plant first report, immunostrip as tool
+R02608	EXCLUDE	E9	plant first report, immunostrip as tool
+R02609	INCLUDE		IRAT vs RT-PCR influenza B
+R02610	EXCLUDE	E9	plant first report, immunostrip as tool
+R02611	EXCLUDE	E9	plant first report, immunostrip as tool
+R02612	EXCLUDE	E9	plant first report, immunostrip as tool
+R02613	EXCLUDE	E9	plant survey, immunostrip as tool
+R02614	EXCLUDE	E4	review
+R02615	EXCLUDE	E9	plant first report, immunostrip as tool
+R02616	INCLUDE		OncoE6 strip distribution study with assay data
+R02617	EXCLUDE	E9	plant first report, immunostrip as tool
+R02618	EXCLUDE	E9	plant host report, immunostrip as tool
+R02619	EXCLUDE	E9	plant first report
+R02620	EXCLUDE	E9	plant host report, immunostrip as tool
+R02621	EXCLUDE	E1	CD4 count, not virus detection
+R02622	EXCLUDE	E9	plant first report, immunostrip as tool
+R02623	UNSURE		new tomato picorna-like virus; LF assay developed and applied (plant)
+R02624	EXCLUDE	E9	plant first report, LF Pocket Diagnostic as tool
+R02625	EXCLUDE	E9	plant detection report, immunostrip as tool
+R02626	EXCLUDE	E3	fluorescent LFIA
+R02627	EXCLUDE	E9	plant first report, immunostrip as tool
+R02629	EXCLUDE	E9	plant first report
+R02630	EXCLUDE	E9	plant report, immunostrip as tool
+R02631	EXCLUDE	E1	
+R02632	EXCLUDE	E9	
+R02633	EXCLUDE	E9	plant first report, immunostrip as tool
+R02634	EXCLUDE	E9	plant report, immunostrip as tool
+R02635	EXCLUDE	E4	review
+R02636	EXCLUDE	E9	thrips vector study
+R02637	INCLUDE		HCV RDT in prison setting
+R02638	INCLUDE		silver amplification IC adenovirus in tears
+R02639	EXCLUDE	E3	QD
+R02640	INCLUDE		four rapid Ebola antigen LFIs
+R02642	INCLUDE		signal amplification LFIA HBeAg
+R02643	UNSURE		BmBDV LAMP-LFD; insect virus (rule question)
+R02644	EXCLUDE	E1	
+R02645	INCLUDE		HCV RDT validation
+R02646	EXCLUDE	E1	
+R02647	EXCLUDE	E1	
+R02648	INCLUDE		three dengue duo RDTs Myanmar
+R02649	EXCLUDE	E9	
+R02650	EXCLUDE	E2	
+R02651	EXCLUDE	E9	
+R02652	INCLUDE		colour-mixing multiplex DENV/CHIKV IgM/IgG platform
+R02653	EXCLUDE	E4	review
+R02654	EXCLUDE	E4	review
+R02655	EXCLUDE	E2	modelling
+R02656	EXCLUDE	E1	transgenic plum
+R02658	INCLUDE		rice stripe virus gold ICS (plant)
+R02659	EXCLUDE	E9	
+R02660	EXCLUDE	E1	
+R02662	EXCLUDE	E1	
+R02663	UNSURE		PCL nanofiber reaction membrane for nucleic acid LFA; target unclear
+R02664	EXCLUDE	E9	
+R02666	EXCLUDE	E9	
+R02667	INCLUDE		four dengue RDT kits compared
+R02668	INCLUDE		sandwich aptamer lateral flow strips H5N2
+R02669	INCLUDE		LFA for JEV antibodies in swine
+R02670	EXCLUDE	E2	RT-PCR
+R02671	EXCLUDE	E9	
+R02672	EXCLUDE	E9	
+R02673	EXCLUDE	E9	
+R02674	EXCLUDE	E2	ELISA/PCR seroprevalence
+R02675	EXCLUDE	E9	
+R02676	EXCLUDE	E9	
+R02677	EXCLUDE	E9	
+R02678	EXCLUDE	E1	
+R02679	EXCLUDE	E2	urine dipstick
+R02680	INCLUDE		SD Bioline RIDT vs digital immunoassays
+R02681	EXCLUDE	E1	
+R02682	EXCLUDE	E2	
+R02683	EXCLUDE	E2	
+R02684	INCLUDE		BD Veritor RSV and influenza bedside
+R02685	INCLUDE		RT-LAMP-LFD Senecavirus A
+R02686	EXCLUDE	E9	
+R02687	EXCLUDE	E1	
