@@ -1,0 +1,250 @@
+R03605	INCLUDE		SARS-CoV-2 antigen lateral flow assay accuracy; letter, no abstract
+R03606	EXCLUDE	E4	news item, no abstract
+R03607	INCLUDE		colloidal gold immunochromatographic assay, EDTA-K2 effect on sensitivity
+R03608	EXCLUDE	E4	review
+R03609	EXCLUDE	E6	modelling study
+R03610	EXCLUDE	E1	protease biomarkers; solution colorimetric assay
+R03612	INCLUDE		lateral flow RPA assay HBV
+R03613	EXCLUDE	E3	fluorescence immunoassays
+R03614	INCLUDE		antigen and IgM/IgG serological RDTs combined, SARS-CoV-2
+R03615	INCLUDE		Roche SARS-CoV-2 Rapid Antigen Test clinical assessment
+R03616	EXCLUDE	E4	review
+R03617	INCLUDE		MP Rapid 2019-nCoV IgM/IgG combo POCT lateral flow kit
+R03618	EXCLUDE	E9	pathogen identification study, RDT as tool
+R03619	INCLUDE		four immunochromatography tests SARS-CoV-2 antibodies
+R03620	EXCLUDE	E9	serological profile survey with rapid lateral flow test
+R03621	INCLUDE		Wondfo lateral flow rapid test among immunoassays, SARS-CoV-2
+R03622	EXCLUDE	E9	donor selection study; ICT as screening tool
+R03623	INCLUDE		lateral flow immunoassay vs laboratory assay in healthcare workers
+R03624	INCLUDE		lateral flow devices evaluated in ASFV animal trials
+R03625	EXCLUDE	E9	HBV seroprevalence survey
+R03626	EXCLUDE	E9	community seroprevalence study
+R03627	INCLUDE		one-pot RT-LAMP lateral flow assay SARS-CoV-2 clinical samples
+R03628	EXCLUDE	E9	prevalence estimation with antigen RDT
+R03629	EXCLUDE	E9	home-based lateral flow testing in hospital workers; letter, no abstract
+R03630	INCLUDE		antigen-detecting rapid test nasal vs nasopharyngeal swab; letter
+R03631	INCLUDE		seven immunochromatography kits diagnostic value COVID-19
+R03632	EXCLUDE	E9	seroepidemiological survey
+R03633	INCLUDE		RT-PCR vs serological rapid test in post-exposure employees
+R03634	INCLUDE		anti-IBDV IgY lateral flow assay Gumboro disease
+R03635	EXCLUDE	E6	methods/protocol paper for CRISPR platform, no viral clinical data
+R03636	INCLUDE		IgM-colloidal gold immunochromatographic assay enterovirus A71
+R03637	INCLUDE		NASBA with lateral flow readout SARS-CoV-2 testing strategy
+R03638	INCLUDE		gold/platinum particle lateral flow assay with SEM readout, influenza A
+R03639	INCLUDE		SARS-CoV-2 antigen-based rapid diagnostic kits evaluation Pakistan
+R03642	EXCLUDE	E9	population seroprevalence survey
+R03643	INCLUDE		CLINITEST Rapid COVID-19 Antigen Test POC evaluation; letter
+R03644	EXCLUDE	E6	cost-effectiveness modelling
+R03645	EXCLUDE	E1	human African trypanosomiasis
+R03646	INCLUDE		Panbio rapid antigen test accuracy in primary care
+R03648	INCLUDE		Au@Pt nanozyme signal enhancement LFIA, potato virus X
+R03649	EXCLUDE	E3	quantum dot fluorescent nanolabel
+R03650	UNSURE		RT-RPA + CRISPR/Cas12a OR-DETECTR; lateral flow readout not stated
+R03651	INCLUDE		three rapid lateral flow immunochromatographic assays SARS-CoV-2
+R03652	EXCLUDE	E2	carbon nanotube field-effect transistor
+R03653	INCLUDE		RT-RAA with lateral flow dipstick SARS-CoV-2
+R03655	INCLUDE		Panbio IgG/IgM rapid lateral flow assay clinical performance
+R03657	INCLUDE		RVR Dengue Combo NS1-IgG/IgM rapid test evaluation
+R03658	INCLUDE		seven rapid antigen detection kits SARS-CoV-2 analytical performance
+R03659	EXCLUDE	E9	HBV prevalence in haemodialysis patients
+R03660	EXCLUDE	E9	case reports of false-positive HIV RDTs
+R03661	EXCLUDE	E1	cryptococcal antigen
+R03663	INCLUDE		lateral flow antigen test kits COVID-19 sensitivity/specificity
+R03664	INCLUDE		Panbio COVID-19 Ag rapid test in paediatric population
+R03665	EXCLUDE	E9	sleep quality study, lateral flow test as tool
+R03666	EXCLUDE	E4	review
+R03667	EXCLUDE	E9	canine coronavirus prevalence; LFIA as screening tool
+R03668	INCLUDE		RT-RPA with lateral flow strips coxsackievirus A6
+R03670	EXCLUDE	E9	community seroprevalence survey
+R03671	EXCLUDE	E2	CRISPR/Cas9 contamination eraser for PCR
+R03672	EXCLUDE	E9	case report
+R03673	EXCLUDE	E6	cost-effectiveness analysis
+R03675	INCLUDE		Abbott BinaxNOW rapid antigen test community site evaluation
+R03676	EXCLUDE	E9	immunological/biochemical parameters, ICT as tool
+R03677	INCLUDE		rapid immunochromatographic tests vs CLIA in mass screening
+R03678	INCLUDE		two POC immunochromatographic antigen assays on saliva and NPS
+R03679	EXCLUDE	E1	cryptococcal antigen
+R03680	INCLUDE		immunochromatographic strip test cyprinid herpesvirus 2
+R03681	INCLUDE		LAMP with molecular beacons on lateral flow immunoassay strips, SARS-CoV-2
+R03682	EXCLUDE	E2	serotyping NS1-ELISA
+R03684	INCLUDE		CerTest and Panbio antigen rapid diagnostic tests performance
+R03685	EXCLUDE	E9	convalescent plasma programme; LFA for donor screening
+R03686	EXCLUDE	E6	theoretical modelling of nanoparticle adhesion in lateral flow
+R03687	UNSURE		MCDA with CRISPR-Cas12a COVID-19; readout format unclear
+R03688	EXCLUDE	E1	drug checking
+R03689	EXCLUDE	E1	transgenic cotton
+R03690	INCLUDE		lateral flow immunoassays for national seroprevalence programme, accuracy
+R03693	EXCLUDE	E9	STI prevalence, immunochromatographic testing as tool
+R03694	EXCLUDE	E9	surveillance network description
+R03695	EXCLUDE	E9	rapid antigen test as pre-endoscopy screening, no accuracy data
+R03696	EXCLUDE	E4	comment, no abstract
+R03698	EXCLUDE	E1	bacterial pneumonia panel
+R03699	INCLUDE		Easy Check COVID-19 IgM/IgG lateral flow assay longitudinal study
+R03700	INCLUDE		lateral flow devices for rapid triage on admission; letter, no abstract
+R03701	INCLUDE		three point-of-care antibody tests validation, SARS-CoV-2
+R03702	EXCLUDE	E4	commentary
+R03704	INCLUDE		CRISPR/Cas9 lateral flow assay SARS-CoV-2
+R03705	INCLUDE		smartphone machine learning reading of COVID-19 serological RDTs
+R03706	INCLUDE		lateral flow chromatographic immunoassay nasopharyngeal antigen SARS-CoV-2
+R03707	INCLUDE		Espline immunochromatography vs chemiluminescent enzyme immunoassay
+R03709	INCLUDE		lateral flow immunochromatographic assay among serological assays
+R03710	EXCLUDE	E1	melioidosis/tuberculosis
+R03711	INCLUDE		RBD lateral flow assay in two-tiered seroconversion screening
+R03712	EXCLUDE	E9	epidemiological comparison of pandemic waves
+R03713	INCLUDE		RT-RPA with lateral flow assay avian orthoavulavirus 1
+R03714	EXCLUDE	E6	modelling analysis
+R03715	INCLUDE		two lateral flow rapid immunochromatographic assays among eight immunoassays
+R03716	INCLUDE		rapid SARS-CoV-2 IgG immunochromatographic test kit with novel diluent
+R03719	INCLUDE		dengue and COVID-19 antibody RDT cross-reactivity
+R03720	EXCLUDE	E2	automated chemiluminescence IgG assay
+R03721	INCLUDE		six HBsAg rapid diagnostic tests performance
+R03722	INCLUDE		four rapid antigen point-of-care tests accuracy and handling
+R03723	INCLUDE		three rapid lateral flow antigen detection tests SARS-CoV-2
+R03724	EXCLUDE	E1	malaria
+R03725	EXCLUDE	E3	giant magnetoresistance LFIA with magnetic nanoparticles
+R03726	EXCLUDE	E1	tetanus
+R03727	EXCLUDE	E9	maternal/neonatal outcomes, rapid antigen test as tool
+R03728	INCLUDE		capillary vs venous blood on point-of-care lateral flow serology tests
+R03729	INCLUDE		Roche SD Biosensor rapid antigen test clinical evaluation
+R03730	INCLUDE		three lateral flow antibody assays point-of-care serology COVID-19
+R03731	INCLUDE		QuickNavi-COVID19 Ag antigen test evaluation
+R03732	EXCLUDE	E9	POC rapid antigen test for operational policy, no accuracy data
+R03733	INCLUDE		sputum processing method for lateral flow immunochromatographic coronavirus assays
+R03734	EXCLUDE	E2	electrochemical biosensor
+R03735	EXCLUDE	E4	letter, no abstract
+R03736	INCLUDE		CerTest SARS-CoV-2 rapid antigen test evaluation; letter
+R03737	INCLUDE		Panbio COVID-19 Ag rapid test large Norwegian cohort
+R03738	EXCLUDE	E3	upconversion nanoparticle fluorescence LFIA
+R03739	EXCLUDE	E6	content analysis of manufacturer information
+R03740	EXCLUDE	E1	urine albumin/creatinine dipstick
+R03741	EXCLUDE	E9	decentralised HCV service model, RDT as tool
+R03742	INCLUDE		SIENNA COVID-19 Antigen Rapid Test analytical performance
+R03743	INCLUDE		lateral flow assay IgM/IgG validation and seroprevalence, Panama
+R03744	INCLUDE		nine lateral flow immunoassay devices vs ELISA, COVID-19
+R03745	EXCLUDE	E4	letter/commentary
+R03746	INCLUDE		IgM/IgG rapid diagnostic test vs CMIA and ELISA, SARS-CoV-2
+R03747	EXCLUDE	E2	HP-LAMP fluorescence, no lateral flow readout stated
+R03748	EXCLUDE	E9	population-wide testing impact analysis
+R03751	EXCLUDE	E9	outbreak exclusion strategies in camps
+R03753	EXCLUDE	E6	simulation study
+R03754	EXCLUDE	E9	epidemiological case definition study
+R03755	EXCLUDE	E4	news item, no abstract
+R03756	EXCLUDE	E2	split luciferase solution biosensor
+R03757	EXCLUDE	E6	monoclonal antibody generation for H7N9; no lateral flow assay reported
+R03758	EXCLUDE	E2	red blood cell agglutination assay
+R03759	INCLUDE		eleven SARS-CoV-2 antigen-detecting rapid tests at varying temperatures
+R03760	EXCLUDE	E9	influenza outbreak report, RDT as tool
+R03761	EXCLUDE	E4	comment, no abstract
+R03762	INCLUDE		four antibody and one antigen rapid diagnostic tests, Cameroon
+R03763	INCLUDE		two rapid lateral flow assays among ten commercial assays
+R03764	EXCLUDE	E9	outbreak management, immunochromatographic assays as tool
+R03766	INCLUDE		colloidal gold immunochromatographic strip SARS-CoV-2 spike protein
+R03767	EXCLUDE	E1	Aspergillus
+R03768	INCLUDE		four commercial SARS-CoV-2 lateral flow antibody tests
+R03769	EXCLUDE	E2	plasmonic gold multiplex serology platform, not lateral flow
+R03771	INCLUDE		colloidal gold immunochromatographic strip channel catfish virus
+R03772	INCLUDE		two rapid antigen immunochromatographic tests vs RT-PCR, field evaluation
+R03773	INCLUDE		rapid antigen tests on saliva evaluation; letter, no abstract
+R03774	EXCLUDE	E9	seroprevalence in health workers, RDT as tool
+R03775	INCLUDE		two SARS-CoV-2 antigen-detecting rapid tests point-of-care accuracy
+R03776	INCLUDE		RT-RPA with lateral flow strips tomato spotted wilt virus
+R03777	INCLUDE		MCDA with nanoparticle lateral flow biosensor HBV
+R03780	INCLUDE		six dengue NS1/IgM rapid diagnostic test kits evaluated
+R03781	EXCLUDE	E4	news item, no abstract
+R03782	INCLUDE		rapid antigen test and antibody titers in elderly vs staff
+R03783	INCLUDE		Cas13a saliva workflow with lateral-flow assay readout, SARS-CoV-2
+R03784	EXCLUDE	E9	school surveillance point-prevalence study
+R03785	EXCLUDE	E1	MRSA
+R03786	EXCLUDE	E6	modelling study
+R03787	EXCLUDE	E9	HCV self-test usability study
+R03788	INCLUDE		thermal contrast amplification of rapid influenza diagnostic tests
+R03789	INCLUDE		GenBody COVI040 immunochromatographic IgM/IgG assay evaluation
+R03790	INCLUDE		colloidal gold immunochromatographic assay duck enteritis virus
+R03791	INCLUDE		spectrochip-coupled lateral flow immunoassay quantification, SARS-CoV-2
+R03792	EXCLUDE	E1	Cryptosporidium
+R03793	EXCLUDE	E3	STANDARD F COVID-19 Antigen fluorescence immunoassay
+R03794	UNSURE		CRISPR-Cas12a DETECTR influenza A/B; readout format unclear
+R03795	INCLUDE		false-positive results of rapid antigen detection tests in inpatients
+R03796	INCLUDE		RAA with lateral flow assay ASFV, extraction-free blood
+R03797	EXCLUDE	E4	review/commentary
+R03798	INCLUDE		rapid chromatographic immunoassay antigen RDT accuracy, India
+R03799	INCLUDE		Abbott BinaxNOW rapid antigen test in children
+R03800	EXCLUDE	E4	ethics commentary
+R03802	INCLUDE		vertical flow cellulose-based colorimetric assay SARS-CoV-2 antibodies
+R03803	INCLUDE		immunochromatographic IgM/IgG rapid test vs CMIA
+R03805	EXCLUDE	E6	immunodiffusion precipitin methods study
+R03806	EXCLUDE	E1	Trichinella spiralis
+R03807	INCLUDE		SureScreen lateral flow immunoassay validation and clinical service
+R03809	EXCLUDE	E2	D4 microarray point-of-care immunoassay, not lateral flow
+R03810	INCLUDE		five rapid diagnostic tests among 11 SARS-CoV-2 antibody tests
+R03811	EXCLUDE	E9	respiratory virus epidemiology, rapid antigen tests as tool
+R03812	EXCLUDE	E3	AFIAS and ichroma fluorescence immunoassay antigen tests
+R03814	EXCLUDE	E6	survey of testing availability
+R03815	EXCLUDE	E2	capillary blood self-sampling with ELISA
+R03816	EXCLUDE	E9	self-testing feasibility/acceptability study
+R03817	EXCLUDE	E2	RT-LAMP real-time assay
+R03818	EXCLUDE	E9	occupational health programme, tests as tools
+R03819	EXCLUDE	E4	trial protocol
+R03823	INCLUDE		catalytic hairpin assembly with lateral flow immunoassay strip, SARS-CoV-2
+R03824	EXCLUDE	E3	time-resolved fluorescence immunochromatography
+R03825	EXCLUDE	E9	case report
+R03826	EXCLUDE	E6	structural characterization of mAbs; ELISA readout
+R03827	INCLUDE		VirD2-dCas9 lateral flow assay SARS-CoV-2
+R03828	EXCLUDE	E2	mask sampling with rRT-PCR
+R03829	INCLUDE		carbohydrate binding module antibodies on cellulose lateral flow immunoassays
+R03830	INCLUDE		seven commercial SARS-CoV-2 rapid point-of-care antigen tests
+R03831	INCLUDE		rapid antigen test for postmortem SARS-CoV-2 carriage vs RT-PCR
+R03832	EXCLUDE	E1	rhabdomyolysis
+R03833	EXCLUDE	E4	systematic review protocol
+R03834	EXCLUDE	E9	HIV testing algorithm with NAT; immunochromatographic assay as comparator step
+R03836	EXCLUDE	E2	laboratory high-throughput antigen assay
+R03837	EXCLUDE	E9	plum pox virus survey; IC strip tests used for detection only
+R03838	EXCLUDE	E3	fluorescence-based lateral flow test influenza B
+R03839	EXCLUDE	E9	haematological ratios, rapid antigen test as tool
+R03840	INCLUDE		FnCas9 FELUDA lateral flow readout COVID-19 diagnosis
+R03842	EXCLUDE	E9	HIV testing services implementation
+R03843	EXCLUDE	E2	nucleocapsid protein ELISA
+R03844	INCLUDE		three point-of-care lateral flow immunoassays anti-SARS-CoV-2
+R03845	INCLUDE		BIOCREDIT COVID-19 Ag immunochromatographic test vs PCR assays
+R03846	INCLUDE		immunochromatographic IgM/IgG test system diagnostic characteristics
+R03847	EXCLUDE	E4	news item, no abstract
+R03850	EXCLUDE	E9	HIV RDT misclassification in programme records
+R03851	INCLUDE		five antigen-detecting rapid diagnostic tests head-to-head
+R03852	INCLUDE		four commercial lateral flow immunochromatographic assays SARS-CoV-2
+R03853	EXCLUDE	E4	letter of concern, no abstract
+R03855	INCLUDE		four antigen rapid tests in diagnostic algorithm, field evaluation
+R03856	INCLUDE		five SARS-CoV-2 rapid antigen tests detecting variants of concern
+R03857	EXCLUDE	E9	vaccine effect study, lateral flow tests as tool
+R03858	EXCLUDE	E1	Mycobacterium tuberculosis
+R03859	EXCLUDE	E4	review
+R03860	EXCLUDE	E6	modelling study
+R03861	INCLUDE		rapid immunochromatographic test with engineered Zika NS1
+R03862	INCLUDE		BinaxNOW serial rapid antigen testing in nursing home outbreak
+R03864	EXCLUDE	E9	feasibility of self-administered RDTs, no accuracy data
+R03865	INCLUDE		false-positive rapid antigen test case with acute HIV; case report with repeat testing
+R03866	INCLUDE		CoronaCHEK lateral flow antibody assay performance by geography
+R03867	EXCLUDE	E2	blood enterovirus PCR
+R03868	EXCLUDE	E4	guidelines
+R03869	EXCLUDE	E1	cryptococcal antigen
+R03870	EXCLUDE	E9	RSV prevalence study, immunochromatographic assay as tool
+R03871	EXCLUDE	E1	anthrax
+R03872	EXCLUDE	E4	news item, no abstract
+R03873	INCLUDE		lateral flow device sensitivity validation for asymptomatic screening
+R03875	EXCLUDE	E9	seroprevalence in dental staff
+R03876	INCLUDE		four rapid antigen tests implemented in emergency ward
+R03877	EXCLUDE	E2	immuno-magnetic agglutination biosensor, not lateral flow
+R03880	INCLUDE		antigen-based immunochromatographic rapid diagnostic test in hospital
+R03881	EXCLUDE	E3	aggregation-induced near-infrared emission nanoparticle LFIA
+R03882	EXCLUDE	E9	CHIKV epidemic cohort study
+R03883	EXCLUDE	E9	vaccine side-effect study, lateral flow tests as tool
+R03884	EXCLUDE	E1	procalcitonin
+R03885	INCLUDE		seven antigen-detecting rapid diagnostic tests in hospital setting
+R03886	EXCLUDE	E9	epidemiological wave description
+R03887	EXCLUDE	E3	lateral flow nanoparticle fluorescence immunoassay
+R03888	EXCLUDE	E9	vaccination programme observations; letter, no abstract
+R03889	EXCLUDE	E9	cornea donor RT-PCR screening; rapid antigen test as tool
+R03890	EXCLUDE	E2	microfluidic nanoimmunoassay
+R03891	INCLUDE		SARS-CoV-2 rapid antigen test vs RT-PCR in asymptomatic individuals
+R03892	EXCLUDE	E3	LumiraDx microfluidic immunofluorescence antigen test
+R03893	EXCLUDE	E4	review
+R03894	INCLUDE		GenBody COVAG025 immunochromatographic rapid antigen test
