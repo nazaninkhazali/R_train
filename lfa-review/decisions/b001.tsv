@@ -1,0 +1,251 @@
+# batch 001 (title/abstract), Claude, 2026-10-28
+R00001	EXCLUDE	E2	IF/Tzanck/culture
+R00002	EXCLUDE	E2	strip immunoblot (RIBA)
+R00004	EXCLUDE	E2	dot-ELISA dipstick, no lateral flow
+R00005	EXCLUDE	E2	immunoblot/EIA
+R00007	EXCLUDE	E2	ELISA
+R00008	EXCLUDE	E2	1992 CMV rapid tests, no abstract; pre-LFA era
+R00009	EXCLUDE	E2	antigen detection/RT-PCR
+R00010	EXCLUDE	E2	strip immunoblot; same paper as R00002
+R00012	EXCLUDE	E6	outbreak report
+R00013	EXCLUDE	E6	case series
+R00014	EXCLUDE	E1	bacterium
+R00015	EXCLUDE	E2	dipstick immunobinding ELISA, no lateral flow
+R00016	EXCLUDE	E6	wart treatment
+R00017	EXCLUDE	E6	decision analysis
+R00018	EXCLUDE	E6	letter, cryoglobulinaemia
+R00020	EXCLUDE	E2	IF/ELISA/culture
+R00021	EXCLUDE	E6	case report
+R00023	EXCLUDE	E6	treatment study
+R00024	EXCLUDE	E2	dot immunoperoxidase dipstick, no lateral flow
+R00025	EXCLUDE	E2	line immunoassay
+R00026	EXCLUDE	E2	EIA kits incl. dipstick EIA
+R00027	EXCLUDE	E2	Western blot
+R00028	EXCLUDE	E2	agglutination
+R00030	EXCLUDE	E2	ImmunoComb dipstick EIA, no lateral flow
+R00031	EXCLUDE	E2	immunoperoxidase cytology
+R00032	EXCLUDE	E2	ELISA
+R00033	EXCLUDE	E9	tests used as a tool
+R00034	EXCLUDE	E6	narrative overview
+R00035	EXCLUDE	E6	outbreak report
+R00036	EXCLUDE	E2	ELISA
+R00042	EXCLUDE	E1	bacterial antigens
+R00043	EXCLUDE	E1	fungus
+R00044	EXCLUDE	E2	imaging/IF
+R00045	EXCLUDE	E2	ELISA/SN
+R00046	EXCLUDE	E2	EIA
+R00047	EXCLUDE	E2	hybridisation
+R00048	EXCLUDE	E2	1987 CMV rapid test, no abstract; pre-LFA era
+R00049	EXCLUDE	E2	Western blot
+R00050	EXCLUDE	E2	Western blot
+R00051	EXCLUDE	E6	outbreak report
+R00052	EXCLUDE	E2	immunoaffinity chromatography (purification)
+R00054	EXCLUDE	E2	HPLC/immunoaffinity
+R00055	EXCLUDE	E2	in situ hybridisation
+R00057	EXCLUDE	E2	RIA
+R00059	EXCLUDE	E2	tear strips for sampling, ELISA
+R00060	EXCLUDE	E2	Western blot
+R00061	EXCLUDE	E2	EIA/FA
+R00065	EXCLUDE	E1	bacterial antigen
+R00066	EXCLUDE	E2	IFA
+R00067	EXCLUDE	E6	overview
+R00069	EXCLUDE	E2	FA
+R00072	EXCLUDE	E2	counterelectrophoresis
+R00074	EXCLUDE	E2	1973 reagent card (agglutination era)
+R00077	EXCLUDE	E2	PAGE/IEM/EIA
+R00078	EXCLUDE	E2	HI test
+R00081	EXCLUDE	E2	immunochromatography = purification
+R00082	EXCLUDE	E2	urine bilirubin strip
+R00083	EXCLUDE	E2	ELISA
+R00084	EXCLUDE	E6	epidemiology
+R00085	EXCLUDE	E2	protein purification
+R00086	EXCLUDE	E2	protein purification
+R00087	EXCLUDE	E2	IF/EM
+R00088	EXCLUDE	E2	immunoaffinity purification
+R00089	EXCLUDE	E2	electron microscopy
+R00090	EXCLUDE	E2	immunoblot staining method
+R00091	EXCLUDE	E2	immune dot-blot; outbreak
+R00092	EXCLUDE	E6	overview
+R00093	EXCLUDE	E9	trial baseline survey
+R00094	EXCLUDE	E6	viraemia cohort; urine dipstick
+R00095	EXCLUDE	E2	ELISA/RIBA
+R00096	EXCLUDE	E2	rapid culture assay
+R00098	EXCLUDE	E2	urine reagent strips in CSF
+R00099	EXCLUDE	E2	dipstick hybridisation by immersion, no lateral flow
+R00100	EXCLUDE	E2	protein expression
+R00101	EXCLUDE	E2	PCR/RFLP
+R00102	EXCLUDE	E1	TB antigen EIA
+R00103	INCLUDE		rotavirus colloidal-gold nitrocellulose dipstick, naked-eye; check lateral flow format
+R00106	EXCLUDE	E2	dipstick dot-ELISA
+R00107	UNSURE		Abbott TestPack RSV (membrane immunoassay); check whether lateral flow
+R00108	UNSURE		prototype saliva HBsAg dipstick (1993), no abstract; format unknown
+R00109	EXCLUDE	E2	immune dot-blot
+R00110	EXCLUDE	E2	dipstick ELISA
+R00111	EXCLUDE	E6	treatment audit
+R00112	INCLUDE		immunochromatographic heterophile antibody (EBV-IM) test vs latex; commercial evaluation
+R00113	EXCLUDE	E2	immunohistochemistry
+R00114	EXCLUDE	E6	overview
+R00115	EXCLUDE	E6	urine protein study
+R00116	EXCLUDE	E6	nosocomial influenza
+R00117	EXCLUDE	E9	sampling-device study; TestPack secondary
+R00118	UNSURE		Directigen RSV membrane EIA among methods; check format (as R00545)
+R00120	EXCLUDE	E2	RT-PCR/sequencing
+R00121	EXCLUDE	E2	comb dipstick dot-immunoassay (gold), no lateral flow
+R00122	UNSURE		Dipstick-HBsAg (PATH) and others; check format
+R00124	EXCLUDE	E2	EIA
+R00126	INCLUDE		immunochromatographic rotavirus test, farm animal faeces
+R00127	INCLUDE		Dainascreen immunochromatographic HBsAg/anti-HBs
+R00128	EXCLUDE	E2	immunoaffinity purification
+R00129	INCLUDE		strip-style (pregnancy-test format) HIV-1/2 antibody test
+R00130	UNSURE		HIV antibody 'test strips' (1996); format to confirm
+R00131	EXCLUDE	E6	surveillance summary
+R00132	UNSURE		OraScreen saliva dipstick HIV; format to confirm
+R00133	EXCLUDE	E2	immunoblot
+R00135	EXCLUDE	E2	dipstick dot ELISA
+R00136	EXCLUDE	E2	line probe assay
+R00137	EXCLUDE	E2	immunostaining/serology
+R00139	UNSURE		dipstick anti-HCV core (1996), no abstract; format unknown
+R00140	EXCLUDE	E2	RT-PCR
+R00141	EXCLUDE	E2	dipstick ELISA
+R00142	EXCLUDE	E2	ELISA/HI
+R00143	EXCLUDE	E2	line immunoassay
+R00144	INCLUDE		10-min immunochromatography for adenovirus conjunctivitis vs EIA/PCR
+R00145	EXCLUDE	E2	strip immunoblot
+R00146	UNSURE		rapid HIV testing algorithm evaluated in VCT; tests not named
+R00147	EXCLUDE	E2	protein purification
+R00148	INCLUDE		dengue IgM/IgG immunochromatographic test
+R00149	INCLUDE		immunochromatographic whole-blood HIV-1/2 test
+R00151	EXCLUDE	E1	gonococci
+R00152	EXCLUDE	E6	review of risk assessment
+R00153	EXCLUDE	E9	cohorting study
+R00154	EXCLUDE	E2	HIV Dipstick (dot-EIA) + Capillus (agglutination)
+R00155	INCLUDE		chromatographic test strip CPV/FPV in kittens
+R00156	INCLUDE		dengue immunochromatographic test vs HAI
+R00157	INCLUDE		HBsAg immunochromatography test card, pregnant women
+R00158	INCLUDE		PanBio dengue rapid immunochromatographic test
+R00159	EXCLUDE	E2	dot EIA
+R00160	EXCLUDE	E9	letter; outbreak investigated with an ICT
+R00165	EXCLUDE	E1	malaria RDT
+R00166	EXCLUDE	E6	crystalluria
+R00168	EXCLUDE	E1	tuberculosis
+R00169	INCLUDE		Determine HIV-1/2 immunochromatographic, red line visual
+R00170	EXCLUDE	E6	survey
+R00172	EXCLUDE	E6	overview
+R00173	INCLUDE		PanBio dengue rapid ICT vs ELISA
+R00174	INCLUDE		adenovirus immunochromatography vs culture
+R00175	EXCLUDE	E1	Etest Candida
+R00177	UNSURE		four dengue IgM assays; check whether one is lateral flow
+R00178	INCLUDE		saliva HIV kit with immunochromatography strips
+R00179	INCLUDE		Hema-Strip HIV-1/2 rapid test
+R00181	INCLUDE		PanBio rapid immunochromatographic dengue test among comparators
+R00182	INCLUDE		Clearview chromatographic strip, rinderpest, cattle
+R00183	EXCLUDE	E1	gonorrhoea/chlamydia
+R00184	EXCLUDE	E1	leptospirosis
+R00185	INCLUDE		PanBio colloidal gold ICT card for dengue IgM (plus dipstick ELISA)
+R00186	EXCLUDE	E9	case report
+R00188	EXCLUDE	E6	crystalluria
+R00191	EXCLUDE	E1	leptospirosis
+R00192	INCLUDE		one-step ICT for canine/feline/mink parvovirus
+R00193	INCLUDE		rapid ICT among dengue kits
+R00194	EXCLUDE	E9	surveillance
+R00195	EXCLUDE	E6	blood dipstick
+R00196	EXCLUDE	E2	strip immunoblot
+R00197	EXCLUDE	E2	DFA
+R00198	INCLUDE		Determine HIV-1/2 and HBsAg rapid tests, Vietnam
+R00199	EXCLUDE	E1	schistosomiasis
+R00201	INCLUDE		Clearview strip, rinderpest field use, Tanzania
+R00203	INCLUDE		dengue ICT, rheumatoid factor interference
+R00204	INCLUDE		immunochromatographic IM heterophile test vs agglutination
+R00207	UNSURE		'Rapid diagnostic tests for influenza' (1999), no abstract
+R00208	EXCLUDE	E6	survey
+R00209	INCLUDE		PanBio rapid immunochromatographic test among six dengue assays
+R00210	INCLUDE		Hema-/Sero-/Saliva-Strip HIV capillary-flow tests
+R00211	EXCLUDE	E6	STD intervention
+R00213	INCLUDE		HBsAg ICA, whole-blood pretreatment
+R00216	EXCLUDE	E6	proteinuria
+R00217	INCLUDE		immuno-gold lateral flow, adenovirus/rotavirus (letter)
+R00218	EXCLUDE	E1	leptospirosis
+R00220	EXCLUDE	E9	IC used for diagnosis only
+R00221	EXCLUDE	E2	RIBA immunoblot
+R00222	INCLUDE		POC PUUMALA gold immunochromatographic IgM test
+R00223	EXCLUDE	E2	RT-PCR
+R00224	EXCLUDE	E2	Western blot
+R00225	EXCLUDE	E2	optical (thin-film) immunoassay
+R00226	INCLUDE		two rotavirus ICT devices vs latex (no abstract)
+R00227	EXCLUDE	E6	descriptive clinical study
+R00228	INCLUDE		lateral flow HIV-1/2/O assay, 2,000 samples
+R00229	INCLUDE		Determine HIV-1/2, Ghana
+R00230	INCLUDE		Clearview strip for FMDV antigen
+R00231	EXCLUDE	E3	up-converting phosphor LF
+R00232	INCLUDE		POC PUUMALA vs EIA
+R00233	EXCLUDE	E9	FIV status in cats with lymphoma
+R00235	EXCLUDE	E1	tuberculosis
+R00236	EXCLUDE	E9	HCV seroprevalence
+R00237	INCLUDE		PanBio Dengue Duo rapid strip, recombinant antigens
+R00238	EXCLUDE	E1	leishmaniasis
+R00239	EXCLUDE	E2	ZstatFlu enzymatic test
+R00240	EXCLUDE	E9	surveillance
+R00241	INCLUDE		rotavirus ICT vs EIA/latex
+R00242	EXCLUDE	E6	cohort, urine dipstick
+R00245	INCLUDE		adenovirus immunochromatographic test vs EIA/culture
+R00246	EXCLUDE	E1	filariasis
+R00247	EXCLUDE	E1	tuberculosis
+R00249	EXCLUDE	E2	multiplex PCR, tear strips for sampling
+R00250	INCLUDE		OraQuick HIV-1/2 immunochromatographic, DRC
+R00251	EXCLUDE	E1	typhoid
+R00252	INCLUDE		dengue IgM ICT false positives in autoimmune sera
+R00255	UNSURE		NASBA + RNA 'biosensor' for dengue; check if strip/liposome lateral flow
+R00256	INCLUDE		SAS Adeno immunochromatographic test, interference
+R00257	EXCLUDE	E9	RSV antigen tests used clinically
+R00258	INCLUDE		PanBio rapid immunochromatographic dengue test among assays
+R00260	INCLUDE		dengue immunochromatographic test vs HI
+R00263	EXCLUDE	E6	letter on surveillance
+R00264	EXCLUDE	E2	urine dipstick uristatin
+R00265	INCLUDE		lateral flow immunoassay for bovine rotavirus
+R00267	INCLUDE		four rapid influenza tests incl. QuickVue (lateral flow)
+R00268	INCLUDE		six HIV rapid screening tests vs EIA/WB, HIV variants
+R00269	INCLUDE		HEPACARD immunochromatographic HBsAg
+R00270	EXCLUDE	E9	diagnostic protocol
+R00271	EXCLUDE	E1	tuberculosis
+R00274	INCLUDE		PanBio IC test vs dipstick ELISA, dengue
+R00275	EXCLUDE	E2	chemiluminescent ZstatFlu-II, not lateral flow
+R00276	INCLUDE		QuickVue influenza lateral flow, children
+R00277	INCLUDE		QuickVue bedside, hospitalised children
+R00279	INCLUDE		PanBio rapid immunochromatographic card, dengue
+R00280	EXCLUDE	E6	no abstract, overview
+R00281	EXCLUDE	E9	clinical spectrum; ICT used for diagnosis
+R00282	EXCLUDE	E6	commentary
+R00283	EXCLUDE	E6	1993 news item, no abstract
+R00284	EXCLUDE	E1	Haemophilus ducreyi
+R00285	UNSURE		HBsAg dipstick among screening assays vs HBV DNA; check format
+R00286	UNSURE		letter on rapid influenza test, no abstract
+R00287	INCLUDE		letter: low specificity of dengue ICT in travellers with malaria
+R00289	EXCLUDE	E2	DFA
+R00292	EXCLUDE	E1	tuberculosis
+R00296	INCLUDE		immunochromatographic IgM tests for hantaviruses
+R00297	EXCLUDE	E6	cohort
+R00298	EXCLUDE	E1	leptospirosis
+R00300	INCLUDE		VecTest immunochromatographic dipstick for WNV/SLE in mosquito pools
+R00301	EXCLUDE	E1	pneumococcus
+R00302	INCLUDE		Rapid Check HIV ICT vs Determine
+R00304	EXCLUDE	E9	near-patient test used for surveillance
+R00305	INCLUDE		QuickVue vs shell vial, influenza clearance
+R00306	EXCLUDE	E9	outbreak investigation
+R00308	INCLUDE		two lateral flow HIV tests on pooled sera
+R00309	INCLUDE		lateral flow vs EIA vs culture, influenza
+R00310	EXCLUDE	E1	Legionella
+R00311	INCLUDE		rotavirus immunochromatography vs EIA vs RT-PCR
+R00312	EXCLUDE	E6	case report
+R00313	INCLUDE		Hema-Strip HIV performance and acceptability
+R00314	INCLUDE		NASBA + liposome-strip detection, astrovirus (dye liposomes)
+R00315	INCLUDE		immunochromatographic HBsAg/HBeAg test, 2,463 samples
+R00316	EXCLUDE	E6	palivizumab trial
+R00317	EXCLUDE	E2	agglutination
+R00318	EXCLUDE	E1	pneumococcus (UPT)
+R00319	EXCLUDE	E9	epidemiology
+R00321	INCLUDE		Determine HIV as confirmatory test in algorithm, performance
+R00322	INCLUDE		QuickVue (lateral flow) and Directigen vs culture/RT-PCR
+R00324	EXCLUDE	E1	tuberculosis
+R00326	UNSURE		Directigen RSV membrane EIA (pre-2004), DFA, VIDAS; check format
+R00327	EXCLUDE	E6	cost-effectiveness model
+R00328	EXCLUDE	E6	news feature

@@ -1,0 +1,51 @@
+# pilot, 50 records, Claude title/abstract decisions 2026-10-28
+R00745	EXCLUDE	E2	Tear-flow (Sno) strips used to collect samples for HPLC drug assay; not an LFA, no virus target.
+R03476	INCLUDE		EQA data on commercial EBV (infectious mononucleosis) POC tests, mostly immunochromatographic; commercial-evaluation group. Note: heterophile antibody target.
+R00616	EXCLUDE	E6	Physician survey on influenza management; no assay data.
+R08180	INCLUDE		RAA + lateral flow dipstick, triplex bovine viruses (BCoV, IBRV, BVDV), field swabs. Label not stated: check full text.
+R02326	EXCLUDE	E9	Outbreak investigation; RDT mentioned as trigger, testing by ELISA/PCR; no LFA evaluated.
+R04307	EXCLUDE	E6	Public survey on LFT vs PCR use; no assay data.
+R00119	EXCLUDE	E2	RIBA strip immunoblot for HCV serotyping; immunoblot, not lateral flow.
+R07527	EXCLUDE	E4	Narrative review of TB diagnostics (also not a virus target).
+R03821	INCLUDE		Accuracy of two SARS-CoV-2 IgG/IgM LFIAs vs CLIA, 259 samples; commercial-evaluation group.
+R03547	INCLUDE		Two SARS-CoV-2 antigen tests; one is fluorescent (FIA, out of scope), one visual RAT (in scope); commercial-evaluation group.
+R00545	UNSURE		Directigen Flu A+B 'enzyme immunoassay' (rapid membrane test) vs DFA; unclear if lateral flow; check full text.
+R00022	EXCLUDE	E5	Portuguese; review on adenosine deaminase (also E4).
+R03488	UNSURE		Letter, no abstract; reports clinical use of a SARS-CoV-2 rapid antigen test. May contain original data; full text needed.
+R07524	EXCLUDE	E4	Narrative review (pharmacist POCT).
+R06673	EXCLUDE	E2	Electrochemical paper-based biosensor for mpox; not a lateral flow assay.
+R05781	EXCLUDE	E9	Healthcare-worker infection epidemiology; RATs used as a tool, not evaluated.
+R03344	INCLUDE		Dual-mode LFIA for SARS-CoV-2 IgA: colorimetric (nanogold, smartphone) + chemiluminescence; colorimetric channel in scope.
+R03517	INCLUDE		RT-RPA for SARS-CoV-2 with lateral flow strip readout, 113 clinical samples.
+R07599	UNSURE		Feasibility/acceptability of Ag-RDT testing in markets; no accuracy data. RULE NEEDED for implementation studies.
+R01414	EXCLUDE	E1	Colloidal gold strip for Mycoplasma suis (bacterium).
+R03441	EXCLUDE	E3	Lateral flow with fluorescent-nanoparticle label only.
+R00620	EXCLUDE	E5	Turkish; Leishmania serology (also E1).
+R01368	EXCLUDE	E4	Comment/letter on another paper; no abstract.
+R03214	EXCLUDE	E1	Cryptococcal antigen LFA (fungus).
+R07991	INCLUDE		SARS-CoV-2 in wastewater: visually read carbon black dipsticks (in scope) + fluorescent nanodiamond (out of scope).
+R00928	EXCLUDE	E5	German case report; urine test strip, IFA/ELISA (also E2).
+R08802	UNSURE		Epitope mapping of antibodies from 43 commercial SARS-CoV-2 RATs; no strip testing. RULE NEEDED for component-only studies.
+R05681	EXCLUDE	E4	Review.
+R02553	EXCLUDE	E5	Chinese full text (English abstract): carbon nanoparticle LFA for Ebola. Relevant topic; excluded only by language rule.
+R02551	EXCLUDE	E2	Multiplex PCR (FilmArray) for meningitis; no LFA.
+R02319	EXCLUDE	E2	Multiplex PCR (FilmArray) panel; no LFA.
+R06459	EXCLUDE	E3	SERS-LFIA (Raman readout) only.
+R02883	EXCLUDE	E9	HIV prevalence study using oral rapid tests as a tool; test not evaluated.
+R04046	INCLUDE		Evaluation of 20 serological SARS-CoV-2 LFAs; commercial-evaluation group.
+R08078	EXCLUDE	E9	Vaccination cohort; RAT used only to define infection.
+R02815	EXCLUDE	E9	STI prevalence using rapid immunochromatographic tests as a tool; not evaluated.
+R03878	EXCLUDE	E1	Urine LAM lateral flow for tuberculosis (bacterium).
+R04777	EXCLUDE	E1	Malaria RDT in HIV-infected children (parasite target).
+R06320	EXCLUDE	E9	Saliva RAT used to measure viral shedding vs blood counts; test not evaluated.
+R06842	EXCLUDE	E5	French; pulmonary embolism prognosis (also E9).
+R05022	EXCLUDE	E6	Cost-effectiveness modelling of HCV programmes.
+R06029	EXCLUDE	E9	Sewage surveillance programme; RAT kits distributed, not evaluated.
+R02665	INCLUDE		Colloidal gold immunochromatographic strip for Newcastle disease virus; Se/Sp vs RT-PCR.
+R03808	INCLUDE		Colloidal gold immunochromatographic strip for H7 avian influenza; LOD in chicken swabs.
+R05444	EXCLUDE	E1	Survey on urine LAM (TB) test uptake (also E6).
+R01636	UNSURE		BD Veritor (reader-based 'digital immunoassay') vs Sofia (fluorescent, out of scope). Veritor label/readout to be checked.
+R05501	INCLUDE		CRISPR-Cas13a for norovirus GII.4 with fluorescence and lateral flow strip readout; strip arm in scope.
+R07959	EXCLUDE	E9	Canine distemper treatment study; RDT used only for diagnosis.
+R06799	EXCLUDE	E9	Trial protocol; dengue RDT used as outcome measure.
+R01904	INCLUDE		MERS-CoV nucleocapsid mAbs used to develop ELISA and a rapid immunochromatographic test; label to check in full text.

@@ -1,0 +1,1206 @@
+# deterministic rules, protocol decision log 2026-10-28
+R00003	EXCLUDE	E4	auto: News
+R00006	EXCLUDE	E5	auto: language fre
+R00011	EXCLUDE	E4	auto: Review
+R00019	EXCLUDE	E5	auto: language ger
+R00022	EXCLUDE	E5	auto: language por
+R00029	EXCLUDE	E4	auto: Review
+R00037	EXCLUDE	E4	auto: Review
+R00038	EXCLUDE	E4	auto: Review
+R00039	EXCLUDE	E4	auto: Review
+R00040	EXCLUDE	E4	auto: Review
+R00041	EXCLUDE	E4	auto: Review
+R00053	EXCLUDE	E5	auto: language jpn
+R00056	EXCLUDE	E4	auto: Review
+R00058	EXCLUDE	E4	auto: Review
+R00062	EXCLUDE	E4	auto: Review
+R00063	EXCLUDE	E4	auto: Review
+R00064	EXCLUDE	E5	auto: language ger
+R00068	EXCLUDE	E5	auto: language dut
+R00070	EXCLUDE	E5	auto: language ger
+R00071	EXCLUDE	E5	auto: language ita
+R00073	EXCLUDE	E5	auto: language srp
+R00075	EXCLUDE	E5	auto: language rus
+R00076	EXCLUDE	E5	auto: language rus
+R00079	EXCLUDE	E4	auto: Review
+R00080	EXCLUDE	E4	auto: Review
+R00097	EXCLUDE	E5	auto: language jpn
+R00104	EXCLUDE	E5	auto: language jpn
+R00105	EXCLUDE	E4	auto: Review
+R00123	EXCLUDE	E4	auto: Review
+R00125	EXCLUDE	E4	auto: Historical Article;Review
+R00134	EXCLUDE	E4	auto: Review
+R00138	EXCLUDE	E4	auto: Historical Article;Review
+R00150	EXCLUDE	E4	auto: Review
+R00161	EXCLUDE	E4	auto: Review
+R00162	EXCLUDE	E5	auto: language fre
+R00163	EXCLUDE	E5	auto: language fre
+R00164	EXCLUDE	E5	auto: language jpn
+R00167	EXCLUDE	E5	auto: language rus
+R00171	EXCLUDE	E4	auto: Review
+R00176	EXCLUDE	E4	auto: Guideline;Practice Guideline
+R00180	EXCLUDE	E4	auto: Review
+R00187	EXCLUDE	E4	auto: Review
+R00189	EXCLUDE	E4	auto: Review
+R00190	EXCLUDE	E4	auto: Review
+R00200	EXCLUDE	E5	auto: language fre
+R00202	EXCLUDE	E5	auto: language ger
+R00205	EXCLUDE	E4	auto: Review
+R00206	EXCLUDE	E5	auto: language jpn
+R00212	EXCLUDE	E4	auto: Review
+R00214	EXCLUDE	E5	auto: language jpn
+R00215	EXCLUDE	E4	auto: Review
+R00219	EXCLUDE	E4	auto: Review
+R00234	EXCLUDE	E5	auto: language jpn
+R00243	EXCLUDE	E5	auto: language jpn
+R00244	EXCLUDE	E5	auto: language jpn
+R00248	EXCLUDE	E4	auto: Review
+R00253	EXCLUDE	E5	auto: language jpn
+R00254	EXCLUDE	E5	auto: language spa
+R00259	EXCLUDE	E4	auto: Review
+R00261	EXCLUDE	E4	auto: Review
+R00262	EXCLUDE	E4	auto: Review
+R00266	EXCLUDE	E4	auto: Review
+R00272	EXCLUDE	E5	auto: language jpn
+R00273	EXCLUDE	E5	auto: language jpn
+R00278	EXCLUDE	E4	auto: Review
+R00288	EXCLUDE	E4	auto: Review
+R00290	EXCLUDE	E5	auto: language fre
+R00291	EXCLUDE	E5	auto: language chi
+R00293	EXCLUDE	E5	auto: language jpn
+R00294	EXCLUDE	E5	auto: language jpn
+R00295	EXCLUDE	E4	auto: Review
+R00299	EXCLUDE	E4	auto: Review
+R00303	EXCLUDE	E5	auto: language chi
+R00307	EXCLUDE	E4	auto: Review
+R00320	EXCLUDE	E5	auto: language jpn
+R00323	EXCLUDE	E5	auto: language pol
+R00325	EXCLUDE	E4	auto: Review
+R00329	EXCLUDE	E5	auto: language spa
+R00330	EXCLUDE	E5	auto: language rus
+R00335	EXCLUDE	E4	auto: Review
+R00337	EXCLUDE	E4	auto: Review
+R00342	EXCLUDE	E5	auto: language jpn
+R00343	EXCLUDE	E5	auto: language spa
+R00346	EXCLUDE	E4	auto: Review
+R00352	EXCLUDE	E4	auto: Review
+R00356	EXCLUDE	E5	auto: language jpn
+R00368	EXCLUDE	E5	auto: language jpn
+R00369	EXCLUDE	E4	auto: Review
+R00376	EXCLUDE	E4	auto: Review
+R00383	EXCLUDE	E5	auto: language jpn
+R00388	EXCLUDE	E4	auto: Review
+R00389	EXCLUDE	E5	auto: language jpn
+R00391	EXCLUDE	E4	auto: Review
+R00401	EXCLUDE	E5	auto: language chi
+R00402	EXCLUDE	E5	auto: language jpn
+R00403	EXCLUDE	E4	auto: Review
+R00404	EXCLUDE	E5	auto: language jpn
+R00407	EXCLUDE	E5	auto: language jpn
+R00408	EXCLUDE	E4	auto: Review
+R00410	EXCLUDE	E4	auto: Review
+R00415	EXCLUDE	E4	auto: Review
+R00416	EXCLUDE	E5	auto: language ger
+R00433	EXCLUDE	E5	auto: language jpn
+R00435	EXCLUDE	E5	auto: language ger
+R00436	EXCLUDE	E5	auto: language por
+R00444	EXCLUDE	E4	auto: Review
+R00447	EXCLUDE	E5	auto: language spa
+R00455	EXCLUDE	E5	auto: language jpn
+R00457	EXCLUDE	E5	auto: language fre
+R00465	EXCLUDE	E5	auto: language fre
+R00472	EXCLUDE	E4	auto: Meta-Analysis;Systematic Review
+R00475	EXCLUDE	E4	auto: Review
+R00481	EXCLUDE	E5	auto: language spa
+R00497	EXCLUDE	E5	auto: language jpn
+R00498	EXCLUDE	E5	auto: language jpn
+R00499	EXCLUDE	E5	auto: language jpn
+R00501	EXCLUDE	E5	auto: language fre
+R00502	EXCLUDE	E5	auto: language jpn
+R00504	EXCLUDE	E5	auto: language jpn
+R00519	EXCLUDE	E4	auto: Systematic Review
+R00523	EXCLUDE	E5	auto: language spa
+R00524	EXCLUDE	E4	auto: Review
+R00526	EXCLUDE	E5	auto: language jpn
+R00527	EXCLUDE	E5	auto: language fre
+R00528	EXCLUDE	E5	auto: language fre
+R00529	EXCLUDE	E4	auto: Editorial
+R00537	EXCLUDE	E4	auto: Review
+R00541	EXCLUDE	E5	auto: language fre
+R00550	EXCLUDE	E4	auto: Review
+R00552	EXCLUDE	E5	auto: language cze
+R00554	EXCLUDE	E4	auto: Review
+R00555	EXCLUDE	E4	auto: Review
+R00561	EXCLUDE	E4	auto: Systematic Review
+R00562	EXCLUDE	E5	auto: language jpn
+R00566	EXCLUDE	E5	auto: language por
+R00567	EXCLUDE	E5	auto: language fre
+R00582	EXCLUDE	E5	auto: language chi
+R00588	EXCLUDE	E5	auto: language fre
+R00594	EXCLUDE	E5	auto: language fre
+R00595	EXCLUDE	E5	auto: language kor
+R00596	EXCLUDE	E5	auto: language kor
+R00597	EXCLUDE	E5	auto: language kor
+R00605	EXCLUDE	E5	auto: language ger
+R00607	EXCLUDE	E5	auto: language jpn
+R00610	EXCLUDE	E5	auto: language fre
+R00615	EXCLUDE	E4	auto: Review
+R00620	EXCLUDE	E5	auto: language tur
+R00621	EXCLUDE	E4	auto: Review
+R00623	EXCLUDE	E5	auto: language fre
+R00624	EXCLUDE	E5	auto: language kor
+R00635	EXCLUDE	E4	auto: Review
+R00645	EXCLUDE	E4	auto: Review
+R00662	EXCLUDE	E5	auto: language fre
+R00665	EXCLUDE	E5	auto: language spa
+R00676	EXCLUDE	E5	auto: language spa
+R00677	EXCLUDE	E5	auto: language fre
+R00678	EXCLUDE	E5	auto: language fre
+R00682	EXCLUDE	E5	auto: language fre
+R00683	EXCLUDE	E5	auto: language spa
+R00694	EXCLUDE	E5	auto: language fre
+R00700	EXCLUDE	E5	auto: language jpn
+R00702	EXCLUDE	E5	auto: language spa
+R00708	EXCLUDE	E4	auto: Review
+R00711	EXCLUDE	E4	auto: Review
+R00714	EXCLUDE	E5	auto: language rus
+R00723	EXCLUDE	E4	auto: Systematic Review
+R00734	EXCLUDE	E4	auto: Review
+R00748	EXCLUDE	E5	auto: language chi
+R00753	EXCLUDE	E5	auto: language kor
+R00755	EXCLUDE	E5	auto: language chi
+R00765	EXCLUDE	E5	auto: language spa
+R00772	EXCLUDE	E5	auto: language jpn
+R00776	EXCLUDE	E4	auto: Review
+R00781	EXCLUDE	E5	auto: language jpn
+R00786	EXCLUDE	E5	auto: language jpn
+R00800	EXCLUDE	E5	auto: language dan
+R00808	EXCLUDE	E4	auto: Review
+R00810	EXCLUDE	E5	auto: language chi
+R00812	EXCLUDE	E5	auto: language spa
+R00820	EXCLUDE	E4	auto: Review
+R00821	EXCLUDE	E4	auto: Meta-Analysis;Systematic Review
+R00822	EXCLUDE	E4	auto: Meta-Analysis
+R00827	EXCLUDE	E5	auto: language spa
+R00837	EXCLUDE	E4	auto: Review
+R00840	EXCLUDE	E5	auto: language spa
+R00842	EXCLUDE	E5	auto: language kor
+R00843	EXCLUDE	E5	auto: language kor
+R00854	EXCLUDE	E4	auto: Systematic Review
+R00859	EXCLUDE	E4	auto: Review
+R00861	EXCLUDE	E5	auto: language spa
+R00868	EXCLUDE	E5	auto: language rus
+R00875	EXCLUDE	E4	auto: Review
+R00876	EXCLUDE	E4	auto: Review
+R00877	EXCLUDE	E4	auto: Review
+R00879	EXCLUDE	E4	auto: Review
+R00886	EXCLUDE	E4	auto: Review
+R00891	EXCLUDE	E5	auto: language jpn
+R00892	EXCLUDE	E5	auto: language chi
+R00894	EXCLUDE	E5	auto: language fre
+R00896	EXCLUDE	E5	auto: language ita
+R00901	EXCLUDE	E4	auto: Review
+R00905	EXCLUDE	E5	auto: language chi
+R00911	EXCLUDE	E5	auto: language jpn
+R00920	EXCLUDE	E4	auto: Review
+R00924	EXCLUDE	E5	auto: language jpn
+R00928	EXCLUDE	E5	auto: language ger
+R00929	EXCLUDE	E4	auto: Review
+R00934	EXCLUDE	E5	auto: language chi
+R00939	EXCLUDE	E5	auto: language jpn
+R00941	EXCLUDE	E4	auto: Review
+R00946	EXCLUDE	E4	auto: Review
+R00960	EXCLUDE	E5	auto: language spa
+R00965	EXCLUDE	E5	auto: language spa
+R00970	EXCLUDE	E4	auto: Review
+R00973	EXCLUDE	E5	auto: language jpn
+R00987	EXCLUDE	E5	auto: language spa
+R00988	EXCLUDE	E5	auto: language jpn
+R00992	EXCLUDE	E5	auto: language fre
+R01008	EXCLUDE	E5	auto: language tur
+R01010	EXCLUDE	E4	auto: Review
+R01024	EXCLUDE	E4	auto: Systematic Review
+R01039	EXCLUDE	E5	auto: language chi
+R01042	EXCLUDE	E4	auto: Review
+R01043	EXCLUDE	E4	auto: Review
+R01045	EXCLUDE	E4	auto: Review
+R01068	EXCLUDE	E5	auto: language fre
+R01069	EXCLUDE	E4	auto: Review
+R01078	EXCLUDE	E4	auto: Meta-Analysis
+R01088	EXCLUDE	E5	auto: language spa
+R01103	EXCLUDE	E5	auto: language chi
+R01106	EXCLUDE	E5	auto: language jpn
+R01107	EXCLUDE	E5	auto: language jpn
+R01116	EXCLUDE	E4	auto: Review
+R01117	EXCLUDE	E4	auto: Review
+R01119	EXCLUDE	E4	auto: Meta-Analysis;Systematic Review
+R01120	EXCLUDE	E4	auto: Review
+R01125	EXCLUDE	E5	auto: language fre
+R01128	EXCLUDE	E4	auto: Review
+R01133	EXCLUDE	E4	auto: Review
+R01141	EXCLUDE	E4	auto: Review
+R01145	EXCLUDE	E4	auto: Review
+R01148	EXCLUDE	E4	auto: Review
+R01151	EXCLUDE	E4	auto: Review
+R01156	EXCLUDE	E5	auto: language jpn
+R01171	EXCLUDE	E5	auto: language chi
+R01178	EXCLUDE	E5	auto: language jpn
+R01179	EXCLUDE	E5	auto: language chi
+R01185	EXCLUDE	E5	auto: language fre
+R01190	EXCLUDE	E4	auto: Review
+R01200	EXCLUDE	E5	auto: language jpn
+R01205	EXCLUDE	E4	auto: Review
+R01212	EXCLUDE	E4	auto: Meta-Analysis;Systematic Review
+R01236	EXCLUDE	E4	auto: Review
+R01239	EXCLUDE	E5	auto: language spa
+R01240	EXCLUDE	E4	auto: Review
+R01252	EXCLUDE	E5	auto: language fre
+R01257	EXCLUDE	E4	auto: Review
+R01259	EXCLUDE	E4	auto: Review
+R01267	EXCLUDE	E4	auto: Review
+R01268	EXCLUDE	E4	auto: Review
+R01269	EXCLUDE	E4	auto: Review
+R01271	EXCLUDE	E5	auto: language spa
+R01277	EXCLUDE	E5	auto: language jpn
+R01280	EXCLUDE	E4	auto: Review
+R01281	EXCLUDE	E5	auto: language jpn
+R01282	EXCLUDE	E5	auto: language jpn
+R01284	EXCLUDE	E4	auto: Review
+R01294	EXCLUDE	E4	auto: Review
+R01299	EXCLUDE	E4	auto: Review
+R01305	EXCLUDE	E4	auto: Review
+R01307	EXCLUDE	E5	auto: language chi
+R01312	EXCLUDE	E4	auto: Review
+R01315	EXCLUDE	E4	auto: Review
+R01326	EXCLUDE	E4	auto: Review
+R01345	EXCLUDE	E5	auto: language chi
+R01361	EXCLUDE	E5	auto: language jpn
+R01364	EXCLUDE	E4	auto: Review
+R01373	EXCLUDE	E5	auto: language spa
+R01375	EXCLUDE	E4	auto: Review
+R01377	EXCLUDE	E4	auto: Editorial
+R01409	EXCLUDE	E4	auto: Review
+R01411	EXCLUDE	E4	auto: Review
+R01412	EXCLUDE	E4	auto: Review
+R01419	EXCLUDE	E4	auto: Review
+R01426	EXCLUDE	E4	auto: Review
+R01451	EXCLUDE	E5	auto: language jpn
+R01452	EXCLUDE	E5	auto: language ger
+R01474	EXCLUDE	E4	auto: Review
+R01484	EXCLUDE	E5	auto: language spa
+R01497	EXCLUDE	E4	auto: Meta-Analysis
+R01498	EXCLUDE	E4	auto: Editorial;Review
+R01509	EXCLUDE	E4	auto: Systematic Review
+R01520	EXCLUDE	E4	auto: Review
+R01526	EXCLUDE	E4	auto: Review
+R01544	EXCLUDE	E4	auto: Review
+R01546	EXCLUDE	E5	auto: language spa
+R01554	EXCLUDE	E5	auto: language chi
+R01556	EXCLUDE	E4	auto: Review
+R01559	EXCLUDE	E4	auto: Review
+R01560	EXCLUDE	E5	auto: language fre
+R01566	EXCLUDE	E4	auto: Practice Guideline
+R01575	EXCLUDE	E4	auto: Review
+R01580	EXCLUDE	E4	auto: Practice Guideline
+R01588	EXCLUDE	E5	auto: language tur
+R01593	EXCLUDE	E4	auto: Review
+R01595	EXCLUDE	E5	auto: language chi
+R01599	EXCLUDE	E4	auto: Review
+R01605	EXCLUDE	E4	auto: Review
+R01612	EXCLUDE	E5	auto: language spa
+R01615	EXCLUDE	E4	auto: Meta-Analysis;Systematic Review
+R01619	EXCLUDE	E4	auto: Review
+R01631	EXCLUDE	E4	auto: Review
+R01637	EXCLUDE	E4	auto: Review
+R01639	EXCLUDE	E4	auto: Published Erratum
+R01673	EXCLUDE	E4	auto: Review
+R01697	EXCLUDE	E4	auto: Review
+R01703	EXCLUDE	E4	auto: Systematic Review
+R01715	EXCLUDE	E4	auto: Historical Article
+R01722	EXCLUDE	E4	auto: News
+R01748	EXCLUDE	E4	auto: Review
+R01755	EXCLUDE	E4	auto: Review
+R01756	EXCLUDE	E4	auto: Review
+R01773	EXCLUDE	E4	auto: Review
+R01774	EXCLUDE	E5	auto: language rus
+R01783	EXCLUDE	E5	auto: language jpn
+R01784	EXCLUDE	E5	auto: language jpn
+R01785	EXCLUDE	E4	auto: Systematic Review
+R01788	EXCLUDE	E4	auto: Review
+R01801	EXCLUDE	E5	auto: language jpn
+R01805	EXCLUDE	E5	auto: language tur
+R01809	EXCLUDE	E4	auto: Review
+R01810	EXCLUDE	E4	auto: Review
+R01826	EXCLUDE	E4	auto: Review
+R01838	EXCLUDE	E5	auto: language jpn
+R01847	EXCLUDE	E4	auto: Published Erratum
+R01866	EXCLUDE	E4	auto: Review
+R01870	EXCLUDE	E4	auto: Review
+R01876	EXCLUDE	E4	auto: Published Erratum
+R01886	EXCLUDE	E4	auto: Review
+R01890	EXCLUDE	E4	auto: Review
+R01892	EXCLUDE	E5	auto: language jpn
+R01908	EXCLUDE	E4	auto: Meta-Analysis;Systematic Review
+R01919	EXCLUDE	E4	auto: Review
+R01922	EXCLUDE	E4	auto: Review
+R01957	EXCLUDE	E4	auto: Review
+R01963	EXCLUDE	E4	auto: Review
+R01964	EXCLUDE	E5	auto: language jpn
+R01978	EXCLUDE	E4	auto: Review
+R01981	EXCLUDE	E4	auto: Practice Guideline;Review
+R02013	EXCLUDE	E4	auto: Systematic Review
+R02031	EXCLUDE	E5	auto: language chi
+R02032	EXCLUDE	E4	auto: Review
+R02036	EXCLUDE	E5	auto: language ger
+R02037	EXCLUDE	E4	auto: Review
+R02040	EXCLUDE	E4	auto: Review
+R02042	EXCLUDE	E5	auto: language fre
+R02047	EXCLUDE	E5	auto: language fre
+R02050	EXCLUDE	E4	auto: Review
+R02052	EXCLUDE	E5	auto: language spa
+R02056	EXCLUDE	E4	auto: Review
+R02061	EXCLUDE	E4	auto: Review
+R02069	EXCLUDE	E4	auto: Review
+R02073	EXCLUDE	E4	auto: Published Erratum
+R02083	EXCLUDE	E5	auto: language jpn
+R02084	EXCLUDE	E5	auto: language tur
+R02098	EXCLUDE	E4	auto: Review
+R02116	EXCLUDE	E4	auto: Systematic Review
+R02126	EXCLUDE	E5	auto: language jpn
+R02140	EXCLUDE	E5	auto: language fre
+R02154	EXCLUDE	E4	auto: Review
+R02166	EXCLUDE	E4	auto: Review
+R02182	EXCLUDE	E4	auto: Meta-Analysis;Systematic Review
+R02183	EXCLUDE	E4	auto: Review
+R02186	EXCLUDE	E5	auto: language spa
+R02198	EXCLUDE	E8	auto: retracted publication
+R02200	EXCLUDE	E4	auto: Review
+R02204	EXCLUDE	E4	auto: Review
+R02206	EXCLUDE	E5	auto: language jpn
+R02209	EXCLUDE	E4	auto: Editorial
+R02210	EXCLUDE	E4	auto: Systematic Review
+R02219	EXCLUDE	E4	auto: Review
+R02221	EXCLUDE	E4	auto: Review
+R02228	EXCLUDE	E5	auto: language spa
+R02236	EXCLUDE	E4	auto: Review
+R02237	EXCLUDE	E4	auto: Scoping Review
+R02239	EXCLUDE	E4	auto: Meta-Analysis;Systematic Review
+R02260	EXCLUDE	E4	auto: Meta-Analysis;Systematic Review
+R02261	EXCLUDE	E4	auto: Meta-Analysis;Systematic Review
+R02262	EXCLUDE	E4	auto: Review
+R02273	EXCLUDE	E4	auto: Review
+R02278	EXCLUDE	E4	auto: Review
+R02286	EXCLUDE	E4	auto: Review
+R02292	EXCLUDE	E4	auto: Systematic Review
+R02294	EXCLUDE	E4	auto: Review
+R02297	EXCLUDE	E5	auto: language fre
+R02317	EXCLUDE	E4	auto: Review
+R02321	EXCLUDE	E4	auto: Review
+R02335	EXCLUDE	E4	auto: Review
+R02349	EXCLUDE	E4	auto: Editorial
+R02359	EXCLUDE	E4	auto: Review
+R02373	EXCLUDE	E4	auto: Review
+R02374	EXCLUDE	E4	auto: Meta-Analysis;Systematic Review
+R02387	EXCLUDE	E4	auto: Review
+R02410	EXCLUDE	E4	auto: Review
+R02414	EXCLUDE	E5	auto: language tur
+R02423	EXCLUDE	E4	auto: Review
+R02463	EXCLUDE	E4	auto: Scoping Review
+R02471	EXCLUDE	E4	auto: Review
+R02472	EXCLUDE	E5	auto: language chi
+R02475	EXCLUDE	E5	auto: language jpn
+R02476	EXCLUDE	E5	auto: language jpn
+R02486	EXCLUDE	E4	auto: Review
+R02499	EXCLUDE	E4	auto: Systematic Review
+R02502	EXCLUDE	E4	auto: Review
+R02520	EXCLUDE	E5	auto: language fre
+R02526	EXCLUDE	E4	auto: Meta-Analysis;Systematic Review
+R02531	EXCLUDE	E5	auto: language chi
+R02533	EXCLUDE	E5	auto: language fre
+R02553	EXCLUDE	E5	auto: language chi
+R02578	EXCLUDE	E4	auto: Systematic Review
+R02582	EXCLUDE	E5	auto: language tur
+R02628	EXCLUDE	E5	auto: language fre
+R02641	EXCLUDE	E4	auto: Review
+R02657	EXCLUDE	E4	auto: Review
+R02661	EXCLUDE	E4	auto: Review
+R02698	EXCLUDE	E4	auto: Meta-Analysis;Systematic Review
+R02703	EXCLUDE	E5	auto: language fre
+R02708	EXCLUDE	E4	auto: Review
+R02715	EXCLUDE	E4	auto: Review
+R02726	EXCLUDE	E4	auto: Review
+R02734	EXCLUDE	E4	auto: Review
+R02739	EXCLUDE	E4	auto: Review
+R02741	EXCLUDE	E4	auto: Meta-Analysis
+R02751	EXCLUDE	E4	auto: Review
+R02755	EXCLUDE	E5	auto: language spa
+R02760	EXCLUDE	E4	auto: Review
+R02774	EXCLUDE	E4	auto: News
+R02789	EXCLUDE	E4	auto: Systematic Review
+R02805	EXCLUDE	E4	auto: Review
+R02808	EXCLUDE	E4	auto: Review
+R02818	EXCLUDE	E4	auto: Review
+R02840	EXCLUDE	E4	auto: Editorial
+R02841	EXCLUDE	E4	auto: Review
+R02849	EXCLUDE	E4	auto: Editorial
+R02853	EXCLUDE	E4	auto: Review
+R02858	EXCLUDE	E4	auto: Review
+R02884	EXCLUDE	E4	auto: Scoping Review
+R02900	EXCLUDE	E4	auto: Review
+R02901	EXCLUDE	E4	auto: Review
+R02905	EXCLUDE	E4	auto: Review
+R02906	EXCLUDE	E4	auto: Review
+R02910	EXCLUDE	E4	auto: Review
+R02918	EXCLUDE	E4	auto: Review
+R02921	EXCLUDE	E5	auto: language rus
+R02932	EXCLUDE	E4	auto: Editorial
+R02943	EXCLUDE	E4	auto: Review
+R02947	EXCLUDE	E4	auto: Editorial
+R02949	EXCLUDE	E4	auto: Review
+R02957	EXCLUDE	E5	auto: language fre
+R02960	EXCLUDE	E5	auto: language fre
+R02966	EXCLUDE	E5	auto: language cze
+R02967	EXCLUDE	E5	auto: language cze
+R02975	EXCLUDE	E4	auto: Review
+R02978	EXCLUDE	E4	auto: Review
+R02980	EXCLUDE	E4	auto: Review
+R02985	EXCLUDE	E4	auto: Meta-Analysis
+R02991	EXCLUDE	E4	auto: Review
+R02996	EXCLUDE	E5	auto: language chi
+R02998	EXCLUDE	E4	auto: Review
+R03007	EXCLUDE	E4	auto: Review
+R03011	EXCLUDE	E4	auto: Published Erratum
+R03013	EXCLUDE	E4	auto: Review
+R03017	EXCLUDE	E4	auto: Review
+R03023	EXCLUDE	E5	auto: language rus
+R03025	EXCLUDE	E4	auto: Review
+R03026	EXCLUDE	E5	auto: language swe
+R03028	EXCLUDE	E4	auto: Review
+R03035	EXCLUDE	E4	auto: Review
+R03040	EXCLUDE	E4	auto: Review
+R03045	EXCLUDE	E4	auto: Review
+R03047	EXCLUDE	E4	auto: Review
+R03055	EXCLUDE	E4	auto: Review
+R03056	EXCLUDE	E4	auto: Preprint
+R03057	EXCLUDE	E4	auto: Preprint
+R03058	EXCLUDE	E4	auto: Preprint
+R03059	EXCLUDE	E4	auto: Preprint
+R03063	EXCLUDE	E4	auto: Review
+R03066	EXCLUDE	E4	auto: Meta-Analysis;Systematic Review
+R03079	EXCLUDE	E4	auto: Review
+R03082	EXCLUDE	E4	auto: Meta-Analysis
+R03088	EXCLUDE	E4	auto: Review
+R03089	EXCLUDE	E4	auto: Review
+R03091	EXCLUDE	E4	auto: Systematic Review
+R03093	EXCLUDE	E4	auto: Preprint
+R03097	EXCLUDE	E4	auto: Review
+R03099	EXCLUDE	E4	auto: Meta-Analysis;Systematic Review
+R03103	EXCLUDE	E4	auto: Review
+R03115	EXCLUDE	E4	auto: Review
+R03117	EXCLUDE	E4	auto: Review
+R03121	EXCLUDE	E4	auto: Review
+R03126	EXCLUDE	E5	auto: language swe
+R03162	EXCLUDE	E4	auto: Preprint
+R03164	EXCLUDE	E4	auto: Review
+R03172	EXCLUDE	E4	auto: Preprint
+R03175	EXCLUDE	E4	auto: Review
+R03181	EXCLUDE	E4	auto: Review
+R03184	EXCLUDE	E4	auto: Preprint
+R03185	EXCLUDE	E4	auto: Preprint
+R03186	EXCLUDE	E4	auto: Review
+R03192	EXCLUDE	E4	auto: Review
+R03193	EXCLUDE	E5	auto: language spa
+R03194	EXCLUDE	E4	auto: Review
+R03203	EXCLUDE	E4	auto: Meta-Analysis;Systematic Review
+R03210	EXCLUDE	E4	auto: Review
+R03211	EXCLUDE	E4	auto: Preprint
+R03212	EXCLUDE	E4	auto: Preprint
+R03220	EXCLUDE	E4	auto: Review
+R03231	EXCLUDE	E4	auto: Review
+R03234	EXCLUDE	E4	auto: Review
+R03246	EXCLUDE	E5	auto: language ger
+R03249	EXCLUDE	E4	auto: Review
+R03251	EXCLUDE	E4	auto: Review
+R03257	EXCLUDE	E5	auto: language fre
+R03259	EXCLUDE	E4	auto: Review
+R03264	EXCLUDE	E4	auto: Meta-Analysis
+R03267	EXCLUDE	E4	auto: Meta-Analysis
+R03274	EXCLUDE	E4	auto: Review
+R03276	EXCLUDE	E4	auto: Review
+R03288	EXCLUDE	E4	auto: Preprint
+R03306	EXCLUDE	E4	auto: Review
+R03320	EXCLUDE	E4	auto: Meta-Analysis;Review
+R03323	EXCLUDE	E4	auto: Review
+R03327	EXCLUDE	E4	auto: Review
+R03330	EXCLUDE	E4	auto: Preprint
+R03331	EXCLUDE	E5	auto: language tur
+R03332	EXCLUDE	E4	auto: Review
+R03334	EXCLUDE	E4	auto: Review
+R03336	EXCLUDE	E4	auto: Review
+R03338	EXCLUDE	E4	auto: Review
+R03345	EXCLUDE	E4	auto: Review
+R03347	EXCLUDE	E4	auto: Review
+R03352	EXCLUDE	E4	auto: Review
+R03361	EXCLUDE	E4	auto: Meta-Analysis;Systematic Review
+R03368	EXCLUDE	E5	auto: language jpn
+R03372	EXCLUDE	E4	auto: Review
+R03373	EXCLUDE	E4	auto: Review
+R03375	EXCLUDE	E4	auto: Preprint
+R03385	EXCLUDE	E4	auto: Systematic Review
+R03387	EXCLUDE	E4	auto: Editorial
+R03390	EXCLUDE	E4	auto: Review
+R03426	EXCLUDE	E4	auto: Review
+R03427	EXCLUDE	E4	auto: Review
+R03428	EXCLUDE	E4	auto: Review
+R03433	EXCLUDE	E4	auto: Review
+R03446	EXCLUDE	E4	auto: Review
+R03450	EXCLUDE	E4	auto: Preprint
+R03457	EXCLUDE	E4	auto: Review
+R03458	EXCLUDE	E4	auto: Review
+R03462	EXCLUDE	E4	auto: Review
+R03463	EXCLUDE	E5	auto: language spa
+R03467	EXCLUDE	E4	auto: Editorial
+R03478	EXCLUDE	E4	auto: Preprint
+R03491	EXCLUDE	E4	auto: Review
+R03498	EXCLUDE	E4	auto: Review
+R03499	EXCLUDE	E4	auto: Review
+R03510	EXCLUDE	E4	auto: Review
+R03514	EXCLUDE	E4	auto: Review
+R03515	EXCLUDE	E4	auto: Meta-Analysis;Systematic Review
+R03530	EXCLUDE	E4	auto: Systematic Review
+R03543	EXCLUDE	E4	auto: Review
+R03545	EXCLUDE	E4	auto: Review
+R03549	EXCLUDE	E4	auto: Review
+R03551	EXCLUDE	E4	auto: Review
+R03554	EXCLUDE	E4	auto: Review
+R03556	EXCLUDE	E4	auto: Review
+R03557	EXCLUDE	E4	auto: Preprint
+R03566	EXCLUDE	E4	auto: Review
+R03574	EXCLUDE	E4	auto: Review
+R03575	EXCLUDE	E5	auto: language ger
+R03583	EXCLUDE	E4	auto: Preprint
+R03589	EXCLUDE	E4	auto: Review
+R03593	EXCLUDE	E4	auto: Review
+R03599	EXCLUDE	E4	auto: Review
+R03611	EXCLUDE	E5	auto: language fre
+R03640	EXCLUDE	E4	auto: Review
+R03641	EXCLUDE	E4	auto: Review
+R03647	EXCLUDE	E4	auto: Review
+R03654	EXCLUDE	E4	auto: Review
+R03656	EXCLUDE	E5	auto: language fre
+R03662	EXCLUDE	E4	auto: Review
+R03669	EXCLUDE	E4	auto: Review
+R03674	EXCLUDE	E4	auto: Review
+R03683	EXCLUDE	E4	auto: Review
+R03691	EXCLUDE	E4	auto: Published Erratum
+R03692	EXCLUDE	E4	auto: Preprint
+R03697	EXCLUDE	E8	auto: retracted publication
+R03703	EXCLUDE	E4	auto: Review
+R03708	EXCLUDE	E5	auto: language jpn
+R03717	EXCLUDE	E4	auto: Review
+R03718	EXCLUDE	E4	auto: Review
+R03749	EXCLUDE	E4	auto: Meta-Analysis;Systematic Review
+R03750	EXCLUDE	E4	auto: Review
+R03752	EXCLUDE	E4	auto: Review
+R03765	EXCLUDE	E4	auto: Review
+R03770	EXCLUDE	E4	auto: Review
+R03778	EXCLUDE	E4	auto: Preprint
+R03779	EXCLUDE	E4	auto: Preprint
+R03801	EXCLUDE	E5	auto: language ger
+R03804	EXCLUDE	E4	auto: Review
+R03813	EXCLUDE	E5	auto: language ger
+R03820	EXCLUDE	E4	auto: Review
+R03822	EXCLUDE	E4	auto: Review
+R03835	EXCLUDE	E5	auto: language fre
+R03841	EXCLUDE	E4	auto: Review
+R03848	EXCLUDE	E4	auto: Preprint
+R03849	EXCLUDE	E5	auto: language fre
+R03854	EXCLUDE	E5	auto: language fre
+R03863	EXCLUDE	E4	auto: Editorial
+R03874	EXCLUDE	E4	auto: Review
+R03879	EXCLUDE	E4	auto: Review
+R03897	EXCLUDE	E5	auto: language fre
+R03902	EXCLUDE	E4	auto: Review
+R03915	EXCLUDE	E4	auto: Preprint
+R03917	EXCLUDE	E4	auto: Review
+R03918	EXCLUDE	E4	auto: Review
+R03929	EXCLUDE	E4	auto: Review
+R03945	EXCLUDE	E4	auto: Practice Guideline
+R03952	EXCLUDE	E4	auto: Preprint
+R03954	EXCLUDE	E4	auto: Meta-Analysis;Review
+R03955	EXCLUDE	E4	auto: Meta-Analysis;Systematic Review
+R03968	EXCLUDE	E4	auto: Review
+R03969	EXCLUDE	E4	auto: Meta-Analysis;Systematic Review
+R03996	EXCLUDE	E4	auto: Review
+R04010	EXCLUDE	E4	auto: Review
+R04011	EXCLUDE	E4	auto: Review
+R04041	EXCLUDE	E4	auto: Practice Guideline;Review
+R04049	EXCLUDE	E4	auto: Review
+R04065	EXCLUDE	E4	auto: Published Erratum
+R04066	EXCLUDE	E4	auto: Published Erratum
+R04100	EXCLUDE	E4	auto: Published Erratum
+R04103	EXCLUDE	E4	auto: Review
+R04118	EXCLUDE	E4	auto: Preprint
+R04121	EXCLUDE	E4	auto: Meta-Analysis;Systematic Review
+R04153	EXCLUDE	E4	auto: Systematic Review
+R04155	EXCLUDE	E4	auto: Review
+R04167	EXCLUDE	E4	auto: Review
+R04173	EXCLUDE	E4	auto: Systematic Review
+R04175	EXCLUDE	E4	auto: Meta-Analysis;Review
+R04195	EXCLUDE	E4	auto: Practice Guideline
+R04215	EXCLUDE	E4	auto: Review
+R04217	EXCLUDE	E4	auto: Review
+R04226	EXCLUDE	E4	auto: Review
+R04238	EXCLUDE	E4	auto: Meta-Analysis;Systematic Review
+R04239	EXCLUDE	E4	auto: Meta-Analysis;Systematic Review
+R04245	EXCLUDE	E4	auto: Review
+R04247	EXCLUDE	E4	auto: Review
+R04253	EXCLUDE	E4	auto: Meta-Analysis;Systematic Review
+R04255	EXCLUDE	E4	auto: Systematic Review
+R04262	EXCLUDE	E4	auto: Systematic Review
+R04264	EXCLUDE	E5	auto: language tur
+R04271	EXCLUDE	E4	auto: Preprint
+R04281	EXCLUDE	E4	auto: Review
+R04283	EXCLUDE	E4	auto: Review
+R04286	EXCLUDE	E4	auto: Review
+R04289	EXCLUDE	E5	auto: language ger
+R04297	EXCLUDE	E4	auto: Review
+R04300	EXCLUDE	E4	auto: Review
+R04316	EXCLUDE	E4	auto: Review
+R04325	EXCLUDE	E4	auto: Review
+R04336	EXCLUDE	E5	auto: language spa
+R04356	EXCLUDE	E4	auto: Review
+R04369	EXCLUDE	E4	auto: Review
+R04379	EXCLUDE	E5	auto: language fre
+R04385	EXCLUDE	E4	auto: Review
+R04388	EXCLUDE	E4	auto: Review
+R04389	EXCLUDE	E4	auto: Meta-Analysis;Systematic Review
+R04391	EXCLUDE	E4	auto: Review
+R04394	EXCLUDE	E4	auto: Systematic Review
+R04395	EXCLUDE	E4	auto: Review
+R04398	EXCLUDE	E4	auto: Review
+R04403	EXCLUDE	E4	auto: Review
+R04405	EXCLUDE	E4	auto: Review
+R04407	EXCLUDE	E4	auto: Review
+R04409	EXCLUDE	E5	auto: language fre
+R04414	EXCLUDE	E4	auto: Review
+R04415	EXCLUDE	E4	auto: Review
+R04422	EXCLUDE	E4	auto: Editorial
+R04430	EXCLUDE	E5	auto: language tur
+R04435	EXCLUDE	E4	auto: Review
+R04441	EXCLUDE	E4	auto: Review
+R04460	EXCLUDE	E4	auto: Review
+R04465	EXCLUDE	E4	auto: Preprint
+R04466	EXCLUDE	E5	auto: language ger
+R04467	EXCLUDE	E4	auto: Review
+R04484	EXCLUDE	E5	auto: language fre
+R04496	EXCLUDE	E4	auto: Review
+R04501	EXCLUDE	E4	auto: Review
+R04502	EXCLUDE	E4	auto: Preprint
+R04513	EXCLUDE	E4	auto: Review
+R04526	EXCLUDE	E4	auto: Review
+R04531	EXCLUDE	E4	auto: Meta-Analysis;Systematic Review
+R04541	EXCLUDE	E4	auto: Review
+R04545	EXCLUDE	E4	auto: Review
+R04555	EXCLUDE	E5	auto: language chi
+R04580	EXCLUDE	E4	auto: Review
+R04584	EXCLUDE	E4	auto: Review
+R04587	EXCLUDE	E4	auto: Meta-Analysis;Systematic Review
+R04597	EXCLUDE	E5	auto: language ita
+R04601	EXCLUDE	E4	auto: Review
+R04609	EXCLUDE	E4	auto: Review
+R04623	EXCLUDE	E4	auto: Review
+R04637	EXCLUDE	E4	auto: Review
+R04638	EXCLUDE	E4	auto: Review
+R04642	EXCLUDE	E4	auto: Published Erratum
+R04657	EXCLUDE	E4	auto: Review
+R04668	EXCLUDE	E4	auto: Review
+R04669	EXCLUDE	E4	auto: Review
+R04678	EXCLUDE	E4	auto: Review
+R04681	EXCLUDE	E5	auto: language spa
+R04685	EXCLUDE	E4	auto: Review
+R04701	EXCLUDE	E4	auto: Review
+R04718	EXCLUDE	E4	auto: Review
+R04726	EXCLUDE	E5	auto: language tur
+R04728	EXCLUDE	E5	auto: language spa
+R04741	EXCLUDE	E4	auto: Review
+R04748	EXCLUDE	E4	auto: Preprint
+R04749	EXCLUDE	E4	auto: Preprint
+R04752	EXCLUDE	E4	auto: Review
+R04772	EXCLUDE	E4	auto: Review
+R04773	EXCLUDE	E4	auto: Review
+R04780	EXCLUDE	E4	auto: Preprint
+R04781	EXCLUDE	E4	auto: Preprint
+R04797	EXCLUDE	E4	auto: Review
+R04799	EXCLUDE	E4	auto: Review
+R04802	EXCLUDE	E4	auto: Preprint
+R04813	EXCLUDE	E4	auto: Meta-Analysis;Systematic Review
+R04877	EXCLUDE	E4	auto: Preprint
+R04881	EXCLUDE	E4	auto: Review
+R04896	EXCLUDE	E4	auto: Review
+R04901	EXCLUDE	E4	auto: Review
+R04922	EXCLUDE	E5	auto: language spa
+R04937	EXCLUDE	E4	auto: Meta-Analysis;Systematic Review
+R04944	EXCLUDE	E4	auto: Review
+R04964	EXCLUDE	E4	auto: Published Erratum
+R04972	EXCLUDE	E4	auto: Review
+R04986	EXCLUDE	E4	auto: Preprint
+R04987	EXCLUDE	E4	auto: Preprint
+R04988	EXCLUDE	E4	auto: Preprint
+R04990	EXCLUDE	E4	auto: Meta-Analysis;Systematic Review
+R05021	EXCLUDE	E4	auto: Meta-Analysis
+R05024	EXCLUDE	E4	auto: Systematic Review
+R05025	EXCLUDE	E4	auto: Review
+R05032	EXCLUDE	E4	auto: Systematic Review
+R05039	EXCLUDE	E5	auto: language tur
+R05040	EXCLUDE	E5	auto: language tur
+R05041	EXCLUDE	E5	auto: language tur
+R05042	EXCLUDE	E4	auto: Review
+R05050	EXCLUDE	E4	auto: Review
+R05051	EXCLUDE	E4	auto: Review
+R05066	EXCLUDE	E4	auto: Review
+R05069	EXCLUDE	E4	auto: Review
+R05072	EXCLUDE	E4	auto: Review
+R05075	EXCLUDE	E4	auto: Systematic Review
+R05097	EXCLUDE	E4	auto: Review
+R05098	EXCLUDE	E4	auto: Review
+R05099	EXCLUDE	E4	auto: Systematic Review
+R05106	EXCLUDE	E4	auto: Review
+R05107	EXCLUDE	E4	auto: Review
+R05109	EXCLUDE	E4	auto: Review
+R05117	EXCLUDE	E5	auto: language fre
+R05120	EXCLUDE	E4	auto: Meta-Analysis;Systematic Review
+R05122	EXCLUDE	E4	auto: Review
+R05136	EXCLUDE	E5	auto: language chi
+R05144	EXCLUDE	E4	auto: Meta-Analysis;Systematic Review
+R05147	EXCLUDE	E4	auto: Review
+R05159	EXCLUDE	E4	auto: Review
+R05160	EXCLUDE	E4	auto: Review
+R05164	EXCLUDE	E5	auto: language spa
+R05165	EXCLUDE	E4	auto: Review
+R05176	EXCLUDE	E5	auto: language jpn
+R05185	EXCLUDE	E4	auto: Review
+R05196	EXCLUDE	E5	auto: language ger
+R05206	EXCLUDE	E4	auto: Review
+R05207	EXCLUDE	E4	auto: Review
+R05216	EXCLUDE	E5	auto: language chi
+R05220	EXCLUDE	E4	auto: Review
+R05226	EXCLUDE	E4	auto: Editorial
+R05229	EXCLUDE	E4	auto: Editorial
+R05230	EXCLUDE	E4	auto: Systematic Review
+R05236	EXCLUDE	E4	auto: Published Erratum
+R05245	EXCLUDE	E4	auto: Review
+R05246	EXCLUDE	E4	auto: Review
+R05257	EXCLUDE	E4	auto: Review
+R05265	EXCLUDE	E4	auto: Review
+R05273	EXCLUDE	E4	auto: Review
+R05281	EXCLUDE	E4	auto: Meta-Analysis;Systematic Review
+R05283	EXCLUDE	E4	auto: Review
+R05287	EXCLUDE	E4	auto: Review
+R05289	EXCLUDE	E4	auto: Review
+R05301	EXCLUDE	E4	auto: Review
+R05309	EXCLUDE	E4	auto: Review
+R05323	EXCLUDE	E4	auto: Systematic Review
+R05327	EXCLUDE	E4	auto: Review
+R05330	EXCLUDE	E4	auto: Review
+R05332	EXCLUDE	E4	auto: Review
+R05334	EXCLUDE	E4	auto: Scoping Review
+R05344	EXCLUDE	E4	auto: Review
+R05356	EXCLUDE	E4	auto: Meta-Analysis;Systematic Review
+R05357	EXCLUDE	E4	auto: Meta-Analysis;Systematic Review
+R05359	EXCLUDE	E4	auto: Review
+R05361	EXCLUDE	E4	auto: Review
+R05388	EXCLUDE	E4	auto: Review
+R05391	EXCLUDE	E4	auto: Review
+R05411	EXCLUDE	E5	auto: language tur
+R05414	EXCLUDE	E4	auto: Review
+R05418	EXCLUDE	E4	auto: Review
+R05430	EXCLUDE	E4	auto: Preprint
+R05431	EXCLUDE	E4	auto: Preprint
+R05436	EXCLUDE	E4	auto: Meta-Analysis;Systematic Review
+R05448	EXCLUDE	E5	auto: language chi
+R05449	EXCLUDE	E4	auto: Review
+R05454	EXCLUDE	E4	auto: Review
+R05457	EXCLUDE	E5	auto: language chi
+R05483	EXCLUDE	E4	auto: Systematic Review
+R05485	EXCLUDE	E4	auto: Review
+R05488	EXCLUDE	E4	auto: Systematic Review
+R05491	EXCLUDE	E4	auto: Review
+R05499	EXCLUDE	E5	auto: language ger
+R05505	EXCLUDE	E4	auto: Review
+R05515	EXCLUDE	E4	auto: Review
+R05521	EXCLUDE	E4	auto: Meta-Analysis;Systematic Review
+R05522	EXCLUDE	E4	auto: Published Erratum
+R05529	EXCLUDE	E4	auto: Review
+R05541	EXCLUDE	E4	auto: Review
+R05554	EXCLUDE	E4	auto: Review
+R05555	EXCLUDE	E5	auto: language chi
+R05558	EXCLUDE	E4	auto: Editorial
+R05561	EXCLUDE	E4	auto: Systematic Review
+R05573	EXCLUDE	E4	auto: Review
+R05575	EXCLUDE	E4	auto: Editorial
+R05582	EXCLUDE	E4	auto: Review
+R05584	EXCLUDE	E4	auto: Review
+R05585	EXCLUDE	E4	auto: Review
+R05591	EXCLUDE	E4	auto: Systematic Review
+R05601	EXCLUDE	E4	auto: Review
+R05607	EXCLUDE	E4	auto: Review
+R05608	EXCLUDE	E4	auto: Review
+R05639	EXCLUDE	E4	auto: Scoping Review
+R05653	EXCLUDE	E4	auto: Review
+R05654	EXCLUDE	E4	auto: Review
+R05661	EXCLUDE	E4	auto: Review
+R05670	EXCLUDE	E4	auto: Review
+R05681	EXCLUDE	E4	auto: Review
+R05682	EXCLUDE	E4	auto: Systematic Review
+R05683	EXCLUDE	E5	auto: language chi
+R05686	EXCLUDE	E4	auto: Meta-Analysis;Systematic Review
+R05692	EXCLUDE	E5	auto: language jpn
+R05701	EXCLUDE	E4	auto: Review
+R05722	EXCLUDE	E4	auto: Review
+R05724	EXCLUDE	E4	auto: Review
+R05725	EXCLUDE	E4	auto: Review
+R05742	EXCLUDE	E4	auto: Meta-Analysis;Systematic Review
+R05748	EXCLUDE	E4	auto: Review
+R05766	EXCLUDE	E4	auto: Review
+R05767	EXCLUDE	E4	auto: Review
+R05837	EXCLUDE	E4	auto: Meta-Analysis;Systematic Review
+R05844	EXCLUDE	E4	auto: Meta-Analysis;Systematic Review
+R05855	EXCLUDE	E4	auto: Review
+R05864	EXCLUDE	E4	auto: Review
+R05876	EXCLUDE	E4	auto: Review
+R05879	EXCLUDE	E4	auto: Systematic Review
+R05904	EXCLUDE	E4	auto: Review
+R05906	EXCLUDE	E4	auto: Practice Guideline;Systematic Review
+R05908	EXCLUDE	E4	auto: Review
+R05910	EXCLUDE	E4	auto: Scoping Review
+R05912	EXCLUDE	E4	auto: Preprint
+R05942	EXCLUDE	E4	auto: Review
+R05945	EXCLUDE	E4	auto: Meta-Analysis
+R05947	EXCLUDE	E4	auto: Published Erratum
+R05951	EXCLUDE	E4	auto: Review
+R05956	EXCLUDE	E4	auto: Meta-Analysis;Systematic Review
+R05959	EXCLUDE	E4	auto: Preprint
+R05967	EXCLUDE	E4	auto: Review
+R05972	EXCLUDE	E4	auto: Editorial
+R05973	EXCLUDE	E4	auto: Review
+R05981	EXCLUDE	E4	auto: Review
+R05982	EXCLUDE	E4	auto: Review
+R05985	EXCLUDE	E4	auto: Review
+R05996	EXCLUDE	E4	auto: Review
+R06004	EXCLUDE	E4	auto: Review
+R06010	EXCLUDE	E4	auto: Preprint
+R06011	EXCLUDE	E4	auto: Preprint
+R06019	EXCLUDE	E4	auto: Editorial
+R06025	EXCLUDE	E5	auto: language chi
+R06034	EXCLUDE	E4	auto: Review
+R06043	EXCLUDE	E4	auto: Meta-Analysis;Systematic Review
+R06047	EXCLUDE	E5	auto: language spa
+R06080	EXCLUDE	E4	auto: Review
+R06081	EXCLUDE	E4	auto: Review
+R06093	EXCLUDE	E4	auto: Preprint
+R06113	EXCLUDE	E4	auto: Meta-Analysis;Systematic Review
+R06119	EXCLUDE	E5	auto: language chi
+R06135	EXCLUDE	E4	auto: Review
+R06145	EXCLUDE	E4	auto: Review
+R06155	EXCLUDE	E4	auto: Review
+R06158	EXCLUDE	E4	auto: Review
+R06179	EXCLUDE	E4	auto: Preprint
+R06182	EXCLUDE	E4	auto: Review
+R06185	EXCLUDE	E4	auto: Review
+R06201	EXCLUDE	E4	auto: Review
+R06207	EXCLUDE	E4	auto: Review
+R06211	EXCLUDE	E4	auto: Review
+R06212	EXCLUDE	E4	auto: Preprint
+R06224	EXCLUDE	E4	auto: Review
+R06226	EXCLUDE	E5	auto: language chi
+R06229	EXCLUDE	E4	auto: Review
+R06238	EXCLUDE	E4	auto: Review
+R06239	EXCLUDE	E4	auto: Review
+R06242	EXCLUDE	E4	auto: Review
+R06245	EXCLUDE	E4	auto: Meta-Analysis;Systematic Review
+R06252	EXCLUDE	E4	auto: Review
+R06265	EXCLUDE	E4	auto: Review
+R06274	EXCLUDE	E4	auto: Preprint
+R06281	EXCLUDE	E4	auto: Review
+R06288	EXCLUDE	E4	auto: Review
+R06296	EXCLUDE	E4	auto: Review
+R06297	EXCLUDE	E4	auto: Review
+R06310	EXCLUDE	E4	auto: Review
+R06319	EXCLUDE	E4	auto: Published Erratum
+R06323	EXCLUDE	E4	auto: Preprint
+R06334	EXCLUDE	E4	auto: Meta-Analysis;Systematic Review
+R06339	EXCLUDE	E4	auto: Review
+R06363	EXCLUDE	E4	auto: Review
+R06369	EXCLUDE	E4	auto: Review
+R06373	EXCLUDE	E4	auto: Review
+R06382	EXCLUDE	E4	auto: Review
+R06384	EXCLUDE	E4	auto: Review
+R06417	EXCLUDE	E4	auto: Meta-Analysis;Systematic Review
+R06434	EXCLUDE	E4	auto: Preprint
+R06439	EXCLUDE	E4	auto: Review
+R06441	EXCLUDE	E4	auto: Review
+R06448	EXCLUDE	E4	auto: Preprint
+R06452	EXCLUDE	E4	auto: Review
+R06458	EXCLUDE	E4	auto: Review
+R06460	EXCLUDE	E4	auto: Review
+R06462	EXCLUDE	E4	auto: Review
+R06466	EXCLUDE	E4	auto: Meta-Analysis
+R06469	EXCLUDE	E4	auto: Review
+R06473	EXCLUDE	E4	auto: Meta-Analysis;Systematic Review
+R06497	EXCLUDE	E4	auto: Review
+R06510	EXCLUDE	E8	auto: retracted publication
+R06515	EXCLUDE	E4	auto: Review
+R06546	EXCLUDE	E4	auto: Review
+R06550	EXCLUDE	E4	auto: Review
+R06572	EXCLUDE	E5	auto: language chi
+R06575	EXCLUDE	E4	auto: Preprint
+R06584	EXCLUDE	E4	auto: Preprint
+R06585	EXCLUDE	E4	auto: Preprint
+R06595	EXCLUDE	E4	auto: Systematic Review
+R06624	EXCLUDE	E4	auto: Meta-Analysis;Systematic Review
+R06633	EXCLUDE	E4	auto: Review
+R06652	EXCLUDE	E4	auto: Review
+R06655	EXCLUDE	E4	auto: Systematic Review
+R06658	EXCLUDE	E4	auto: Review
+R06659	EXCLUDE	E4	auto: Review
+R06666	EXCLUDE	E4	auto: Review
+R06669	EXCLUDE	E4	auto: Review
+R06679	EXCLUDE	E4	auto: Meta-Analysis;Systematic Review
+R06686	EXCLUDE	E4	auto: Review
+R06701	EXCLUDE	E5	auto: language spa
+R06713	EXCLUDE	E5	auto: language chi
+R06731	EXCLUDE	E4	auto: Review
+R06732	EXCLUDE	E4	auto: Review
+R06735	EXCLUDE	E4	auto: Meta-Analysis;Systematic Review
+R06738	EXCLUDE	E5	auto: language chi
+R06741	EXCLUDE	E4	auto: Review
+R06743	EXCLUDE	E4	auto: Review
+R06750	EXCLUDE	E4	auto: Review
+R06761	EXCLUDE	E4	auto: Review
+R06777	EXCLUDE	E4	auto: Preprint
+R06779	EXCLUDE	E4	auto: Published Erratum
+R06780	EXCLUDE	E4	auto: Review
+R06783	EXCLUDE	E5	auto: language fre
+R06788	EXCLUDE	E4	auto: Review
+R06790	EXCLUDE	E4	auto: Editorial
+R06827	EXCLUDE	E4	auto: Review
+R06842	EXCLUDE	E5	auto: language fre
+R06867	EXCLUDE	E4	auto: Review
+R06875	EXCLUDE	E4	auto: Review
+R06890	EXCLUDE	E4	auto: Review
+R06893	EXCLUDE	E4	auto: Review
+R06898	EXCLUDE	E4	auto: Published Erratum
+R06905	EXCLUDE	E4	auto: Meta-Analysis;Systematic Review
+R06913	EXCLUDE	E4	auto: Systematic Review
+R06918	EXCLUDE	E4	auto: Review
+R06922	EXCLUDE	E4	auto: Review
+R06936	EXCLUDE	E4	auto: Review
+R06937	EXCLUDE	E4	auto: Review
+R06963	EXCLUDE	E4	auto: Systematic Review
+R06980	EXCLUDE	E4	auto: Preprint
+R06986	EXCLUDE	E4	auto: Review
+R06997	EXCLUDE	E4	auto: Review
+R07000	EXCLUDE	E4	auto: Review
+R07003	EXCLUDE	E4	auto: Review
+R07012	EXCLUDE	E4	auto: Review
+R07015	EXCLUDE	E5	auto: language ger
+R07021	EXCLUDE	E4	auto: Preprint
+R07022	EXCLUDE	E4	auto: Scoping Review
+R07023	EXCLUDE	E4	auto: Review
+R07034	EXCLUDE	E4	auto: Review
+R07043	EXCLUDE	E4	auto: Review
+R07050	EXCLUDE	E4	auto: Preprint
+R07074	EXCLUDE	E4	auto: Review
+R07077	EXCLUDE	E4	auto: Review
+R07092	EXCLUDE	E5	auto: language chi
+R07095	EXCLUDE	E4	auto: Meta-Analysis;Systematic Review
+R07131	EXCLUDE	E4	auto: Review
+R07134	EXCLUDE	E4	auto: Review
+R07144	EXCLUDE	E4	auto: Review
+R07146	EXCLUDE	E4	auto: Review
+R07165	EXCLUDE	E4	auto: Meta-Analysis;Systematic Review
+R07171	EXCLUDE	E4	auto: Published Erratum
+R07176	EXCLUDE	E4	auto: Review
+R07177	EXCLUDE	E4	auto: Meta-Analysis;Systematic Review
+R07187	EXCLUDE	E4	auto: Published Erratum
+R07191	EXCLUDE	E4	auto: Review
+R07199	EXCLUDE	E4	auto: Review
+R07231	EXCLUDE	E4	auto: Scoping Review
+R07235	EXCLUDE	E4	auto: Review
+R07237	EXCLUDE	E5	auto: language spa
+R07245	EXCLUDE	E4	auto: Review
+R07247	EXCLUDE	E4	auto: Systematic Review
+R07254	EXCLUDE	E4	auto: Meta-Analysis;Systematic Review
+R07260	EXCLUDE	E4	auto: Review
+R07269	EXCLUDE	E4	auto: Review
+R07277	EXCLUDE	E4	auto: Review
+R07280	EXCLUDE	E4	auto: Preprint
+R07287	EXCLUDE	E4	auto: Systematic Review
+R07289	EXCLUDE	E4	auto: Systematic Review
+R07295	EXCLUDE	E4	auto: Review
+R07299	EXCLUDE	E4	auto: Review
+R07302	EXCLUDE	E4	auto: Preprint
+R07318	EXCLUDE	E8	auto: retracted publication
+R07329	EXCLUDE	E4	auto: Review
+R07351	EXCLUDE	E4	auto: Preprint
+R07356	EXCLUDE	E4	auto: Scoping Review
+R07363	EXCLUDE	E4	auto: Review
+R07367	EXCLUDE	E4	auto: Review
+R07378	EXCLUDE	E4	auto: Meta-Analysis;Systematic Review
+R07383	EXCLUDE	E4	auto: Meta-Analysis
+R07387	EXCLUDE	E4	auto: Meta-Analysis;Systematic Review
+R07411	EXCLUDE	E4	auto: Review
+R07417	EXCLUDE	E4	auto: Review
+R07429	EXCLUDE	E5	auto: language chi
+R07442	EXCLUDE	E4	auto: Review
+R07447	EXCLUDE	E4	auto: Review
+R07451	EXCLUDE	E4	auto: Review
+R07463	EXCLUDE	E4	auto: Review
+R07466	EXCLUDE	E4	auto: Review
+R07468	EXCLUDE	E4	auto: Meta-Analysis;Systematic Review
+R07483	EXCLUDE	E4	auto: Review
+R07499	EXCLUDE	E4	auto: Review
+R07506	EXCLUDE	E4	auto: Systematic Review
+R07514	EXCLUDE	E4	auto: Preprint
+R07524	EXCLUDE	E4	auto: Review
+R07525	EXCLUDE	E5	auto: language spa
+R07527	EXCLUDE	E4	auto: Review
+R07534	EXCLUDE	E4	auto: Review
+R07545	EXCLUDE	E4	auto: Review
+R07550	EXCLUDE	E4	auto: Review
+R07566	EXCLUDE	E4	auto: Review
+R07570	EXCLUDE	E4	auto: Review
+R07571	EXCLUDE	E4	auto: Systematic Review
+R07600	EXCLUDE	E4	auto: Review
+R07612	EXCLUDE	E4	auto: Preprint
+R07617	EXCLUDE	E4	auto: Review
+R07624	EXCLUDE	E4	auto: Published Erratum
+R07638	EXCLUDE	E4	auto: Historical Article;Review
+R07641	EXCLUDE	E4	auto: Review
+R07647	EXCLUDE	E4	auto: Review
+R07648	EXCLUDE	E4	auto: Review
+R07656	EXCLUDE	E4	auto: Review
+R07660	EXCLUDE	E4	auto: Editorial
+R07661	EXCLUDE	E4	auto: Review
+R07670	EXCLUDE	E4	auto: Review
+R07675	EXCLUDE	E4	auto: Review
+R07680	EXCLUDE	E4	auto: Review
+R07689	EXCLUDE	E4	auto: Meta-Analysis;Systematic Review
+R07705	EXCLUDE	E4	auto: Review
+R07715	EXCLUDE	E5	auto: language tur
+R07736	EXCLUDE	E4	auto: Review
+R07737	EXCLUDE	E4	auto: Preprint
+R07768	EXCLUDE	E4	auto: Review
+R07787	EXCLUDE	E4	auto: Systematic Review
+R07802	EXCLUDE	E4	auto: Meta-Analysis;Systematic Review
+R07806	EXCLUDE	E4	auto: Review
+R07809	EXCLUDE	E4	auto: Review
+R07812	EXCLUDE	E5	auto: language ger
+R07821	EXCLUDE	E4	auto: Meta-Analysis;Review
+R07822	EXCLUDE	E4	auto: Review
+R07824	EXCLUDE	E4	auto: Meta-Analysis;Systematic Review
+R07832	EXCLUDE	E4	auto: Review
+R07846	EXCLUDE	E4	auto: Review
+R07868	EXCLUDE	E4	auto: Review
+R07894	EXCLUDE	E4	auto: Review
+R07897	EXCLUDE	E4	auto: Meta-Analysis;Systematic Review
+R07918	EXCLUDE	E4	auto: Meta-Analysis;Systematic Review
+R07923	EXCLUDE	E4	auto: Review
+R07926	EXCLUDE	E4	auto: Practice Guideline;Review
+R07946	EXCLUDE	E4	auto: Review
+R07956	EXCLUDE	E5	auto: language ger
+R07957	EXCLUDE	E4	auto: Review
+R07963	EXCLUDE	E4	auto: Review
+R07965	EXCLUDE	E4	auto: Review
+R07978	EXCLUDE	E4	auto: Review
+R07982	EXCLUDE	E4	auto: Review
+R07999	EXCLUDE	E4	auto: Review
+R08003	EXCLUDE	E4	auto: Preprint
+R08009	EXCLUDE	E4	auto: Review
+R08010	EXCLUDE	E4	auto: Review
+R08020	EXCLUDE	E4	auto: Review
+R08023	EXCLUDE	E4	auto: Review
+R08044	EXCLUDE	E4	auto: Review
+R08050	EXCLUDE	E4	auto: Review
+R08064	EXCLUDE	E4	auto: Systematic Review
+R08066	EXCLUDE	E4	auto: Preprint
+R08093	EXCLUDE	E4	auto: Review
+R08102	EXCLUDE	E4	auto: Meta-Analysis;Systematic Review
+R08105	EXCLUDE	E4	auto: Review
+R08115	EXCLUDE	E4	auto: Meta-Analysis;Systematic Review
+R08117	EXCLUDE	E4	auto: Review
+R08132	EXCLUDE	E4	auto: Editorial
+R08136	EXCLUDE	E4	auto: Review
+R08139	EXCLUDE	E4	auto: Review
+R08172	EXCLUDE	E4	auto: Review
+R08192	EXCLUDE	E4	auto: Meta-Analysis;Systematic Review
+R08207	EXCLUDE	E4	auto: Review
+R08214	EXCLUDE	E4	auto: Review
+R08219	EXCLUDE	E4	auto: Review
+R08246	EXCLUDE	E4	auto: Review
+R08269	EXCLUDE	E4	auto: Review
+R08272	EXCLUDE	E4	auto: Published Erratum
+R08274	EXCLUDE	E4	auto: Review
+R08285	EXCLUDE	E4	auto: Review
+R08307	EXCLUDE	E4	auto: Practice Guideline
+R08349	EXCLUDE	E4	auto: Review
+R08357	EXCLUDE	E4	auto: Review
+R08358	EXCLUDE	E4	auto: Preprint
+R08364	EXCLUDE	E4	auto: Review
+R08367	EXCLUDE	E4	auto: Review
+R08370	EXCLUDE	E4	auto: Review
+R08371	EXCLUDE	E4	auto: Review
+R08378	EXCLUDE	E5	auto: language fre
+R08392	EXCLUDE	E4	auto: Review
+R08393	EXCLUDE	E4	auto: Review
+R08408	EXCLUDE	E4	auto: Review
+R08409	EXCLUDE	E4	auto: Review
+R08411	EXCLUDE	E4	auto: Published Erratum
+R08423	EXCLUDE	E4	auto: Review
+R08436	EXCLUDE	E4	auto: Review
+R08440	EXCLUDE	E4	auto: Review
+R08457	EXCLUDE	E4	auto: Systematic Review
+R08459	EXCLUDE	E4	auto: Systematic Review
+R08462	EXCLUDE	E4	auto: Meta-Analysis;Systematic Review
+R08472	EXCLUDE	E5	auto: language chi
+R08473	EXCLUDE	E5	auto: language chi
+R08513	EXCLUDE	E4	auto: Review
+R08518	EXCLUDE	E4	auto: Meta-Analysis
+R08535	EXCLUDE	E4	auto: Review
+R08544	EXCLUDE	E4	auto: Review
+R08563	EXCLUDE	E4	auto: Review
+R08575	EXCLUDE	E4	auto: Scoping Review
+R08577	EXCLUDE	E4	auto: Preprint
+R08582	EXCLUDE	E4	auto: Review
+R08599	EXCLUDE	E4	auto: Review
+R08601	EXCLUDE	E4	auto: Review
+R08602	EXCLUDE	E4	auto: Review
+R08608	EXCLUDE	E4	auto: Preprint
+R08627	EXCLUDE	E4	auto: Meta-Analysis;Systematic Review
+R08628	EXCLUDE	E4	auto: Scoping Review
+R08629	EXCLUDE	E4	auto: Review
+R08645	EXCLUDE	E4	auto: Review
+R08647	EXCLUDE	E4	auto: Review
+R08662	EXCLUDE	E4	auto: Review
+R08669	EXCLUDE	E4	auto: Review
+R08683	EXCLUDE	E4	auto: Review
+R08684	EXCLUDE	E4	auto: Review
+R08696	EXCLUDE	E5	auto: language tur
+R08698	EXCLUDE	E4	auto: Review
+R08707	EXCLUDE	E4	auto: Preprint
+R08720	EXCLUDE	E5	auto: language chi
+R08723	EXCLUDE	E4	auto: Review
+R08726	EXCLUDE	E4	auto: Review
+R08734	EXCLUDE	E4	auto: Review
+R08745	EXCLUDE	E4	auto: Meta-Analysis;Systematic Review
+R08747	EXCLUDE	E5	auto: language jpn
+R08768	EXCLUDE	E4	auto: Review
+R08771	EXCLUDE	E4	auto: Practice Guideline;Review
+R08776	EXCLUDE	E4	auto: Review
+R08777	EXCLUDE	E4	auto: Review
+R08797	EXCLUDE	E4	auto: Preprint
+R08807	EXCLUDE	E4	auto: Review
+R08811	EXCLUDE	E4	auto: Review
+R08833	EXCLUDE	E4	auto: Review
+R08836	EXCLUDE	E4	auto: Review
