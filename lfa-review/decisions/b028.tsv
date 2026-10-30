@@ -1,0 +1,250 @@
+R07892	EXCLUDE	E4	scoping review of nanopore sequencing in Africa
+R07893	EXCLUDE	E9	natural immunity waning analysis using national data
+R07895	EXCLUDE	E6	symptom-based RSV risk assessment tool, rapid antigen test as reference
+R07896	EXCLUDE	E3	quantum dot fluorescent microsphere immunochromatographic strip for H5 avian influenza
+R07898	INCLUDE		peptide-based lateral flow assay for classical swine fever virus E2 antigen
+R07899	EXCLUDE	E6	capture-recapture statistical strategy adjusting for test misclassification
+R07900	EXCLUDE	E6	modelling study of adaptive rapid diagnostic test deployment
+R07901	EXCLUDE	E1	TB rapid diagnostic testing and mortality, not a virus
+R07902	INCLUDE		immunochromatographic lateral flow assay vs RT-PCR for canine distemper, n=50
+R07903	EXCLUDE	E1	cryptococcal lateral flow assay cross-reactivity, not a virus analyte
+R07904	INCLUDE		multiplex colloidal gold immunochromatographic assay with smartphone for FCV, FPV, FHV antibodies
+R07905	INCLUDE		CBT-Cys click ligation RCA with pregnancy test strips for hepatitis A virus nucleic acid
+R07906	INCLUDE		Panbio COVID-19 Ag lateral flow immunochromatographic assay performance verification
+R07907	INCLUDE		colloidal gold immunochromatographic strip targeting canine distemper virus nucleoprotein
+R07908	EXCLUDE	E3	AI-driven SERS-LFIA system with deep learning image recognition
+R07909	EXCLUDE	E6	before-and-after study of dual HIV/syphilis RDT impact on care
+R07910	EXCLUDE	E9	case report of diagnostic challenges in pregnancy, rapid antigen tests as tool
+R07911	EXCLUDE	E3	time-resolved fluorescence lateral flow immunoassay for MERS-CoV
+R07912	EXCLUDE	E1	CD4/CD8 lymphocytes as severity predictors, not an assay study
+R07913	EXCLUDE	E1	endothelial damage biomarkers in feline gingivostomatitis, rapid antigen tests as tool
+R07914	INCLUDE		ConfiSign HIV self-test immunochromatographic assay analytical and clinical validation
+R07915	EXCLUDE	E9	socio-economic disparities in viral gastroenteritis, immunochromatography as diagnosis
+R07916	INCLUDE		rapid antigen test diagnostic performance in prolonged PCR positivity, n=82
+R07917	INCLUDE		RPA-driven duplex lateral flow kit for IPNV and VHSV with PCR comparison
+R07919	EXCLUDE	E3	dual-pathway CRISPR/Cas13a SERS lateral flow assay for SARS-CoV-2 RNA
+R07920	INCLUDE		CRISPR-Cas12a/RPA dual-readout assay with lateral flow dipsticks for porcine rotavirus
+R07921	INCLUDE		point-of-care immunochromatographic lateral flow strip for Nipah and Hendra viruses
+R07922	EXCLUDE	E1	case report of cryptococcal antigen lateral flow assay dilution, not a virus
+R07924	EXCLUDE	E9	dengue molecular virology profiles, NS1 RDT as screening tool
+R07925	INCLUDE		dengue rapid antigen tests enabling outbreak detection, point-of-care performance report
+R07927	INCLUDE		T7-assisted rolling circular amplification with lateral flow readout for HPV screening
+R07928	EXCLUDE	E3	CRISPR/Cas12a assay for HIV-1 clade C with FAM-BQ reporter readout
+R07929	INCLUDE		FUJIFILM SILVAMP dengue NS1 Ag rapid test multicenter evaluation, n=402
+R07930	INCLUDE		multiplex RT-MCDA with lateral flow biosensor for H1N1, H3N2 and H7N9
+R07931	EXCLUDE	E4	adaptive platform trial protocol
+R07932	EXCLUDE	E4	Lassa fever cohort study protocol
+R07933	EXCLUDE	E2	CRISPR microfluidic droplet chip for BK and JC virus, not lateral flow
+R07934	INCLUDE		multi-platform LAMP with immunochromatography for HAdV-3 and HAdV-7, 188 clinical samples
+R07935	EXCLUDE	E1	cost-effectiveness of TB nucleic acid tests and LF-LAM, not a virus
+R07936	EXCLUDE	E6	cross-sectional study of antimicrobial use for influenza-like illness
+R07937	INCLUDE		evaluation of dengue NS1/IgM/IgG rapid diagnostic tests and RT-PCR in an outbreak
+R07938	INCLUDE		spatially layered dual-porous nanohybrid with colorimetric-fluorometric-catalytic LFIA for SARS-CoV-2 N
+R07939	INCLUDE		Roche SARS-CoV-2 & Flu A/B rapid antigen test diagnostic accuracy in UK primary care, n=500
+R07940	EXCLUDE	E9	false hepatitis C antibody positivity in blood donors, CMIA based
+R07941	EXCLUDE	E9	epidemiology of respiratory pathogens, lateral flow assay as detection tool, no accuracy data
+R07942	INCLUDE		Fe3O4-Au(shell) heterodimer LFIA with naked-eye and photothermal readout for mpox virus
+R07943	INCLUDE		gold nanoparticle lateral flow immunoassay for piper yellow mottle and cucumber mosaic viruses
+R07944	INCLUDE		multi-country analysis of false reactivity across HIV rapid diagnostic tests
+R07945	INCLUDE		whole genome sequencing from positive COVID-19 antigen tests at public test sites
+R07947	INCLUDE		analytical and clinical sensitivity of 34 rapid antigen tests across five variants of concern
+R07948	EXCLUDE	E9	dengue prevalence cross-sectional study, rapid diagnostic tests as tool
+R07949	INCLUDE		two dengue NS1 rapid diagnostic tests vs RT-PCR across infection types and timeframes
+R07950	EXCLUDE	E1	cryptococcal antigen positivity factors, not a virus
+R07951	INCLUDE		Assure hepatitis E virus IgM rapid diagnostic test field performance, n=893
+R07952	EXCLUDE	E6	optimized advanced HIV disease care package cluster study
+R07953	EXCLUDE	E6	open-source RPA system and single-stranded DNA-binding protein concentration, no viral assay evaluation
+R07954	EXCLUDE	E1	bitter taste receptor phenotype in chronic rhinosinusitis, not a virus assay
+R07955	INCLUDE		12 rapid antigen lateral flow assays and 5 point-of-care molecular tests for H5N1 in contrived swabs
+R07958	EXCLUDE	E3	AIE europium complex nanospheres for fluorescent immune test strips
+R07960	EXCLUDE	E9	case report of dengue serotype 4 missed by rapid antigen test
+R07961	EXCLUDE	E9	repeated vaccination and symptom resolution, rapid antigen testing as case definition
+R07962	EXCLUDE	E1	cerebrospinal fluid immune phenotype in cryptococcal meningitis, not a virus
+R07964	INCLUDE		RPA-CRISPR/Cas12a lateral flow strip for duck adenovirus 3, 3 gene copies
+R07966	EXCLUDE	E9	paediatric hepatitis B serostatus survey, rapid immunochromatographic tests as tool
+R07967	EXCLUDE	E9	nationwide hepatitis B/C screening programme, rapid immunochromatographic tests as tool
+R07968	EXCLUDE	E3	time-resolved fluorescence immunochromatographic strip for avian infectious bronchitis virus
+R07969	INCLUDE		rapid immunochromatographic antigen test vs PCR for feline panleukopenia virus, Bangladesh
+R07970	EXCLUDE	E3	WGA-modified magnetic SERS nanotag lateral flow assay for influenza A and pneumococcus
+R07971	EXCLUDE	E3	quantum dot fluorescent microsphere triple-channel immunochromatographic system
+R07972	INCLUDE		microfluidic one-pot LAMP-CRISPR/Cas12b with lateral flow for plant viruses in the field
+R07973	EXCLUDE	E6	documentation of laboratory capacity scale-up strategies
+R07974	INCLUDE		multiplex RT-PCR with lateral flow dipstick and microfluidic chip for four bee paralysis viruses
+R07975	INCLUDE		evaluation of five commercial lateral flow tests for H5 high-pathogenicity avian influenza in poultry
+R07976	EXCLUDE	E9	transfusion-transmitted infection seroprevalence, rapid diagnostic tests as tool
+R07977	EXCLUDE	E9	case report of scrub typhus and H1N1 co-infection, rapid antigen test as tool
+R07979	INCLUDE		three point-of-care antibody titer tests for canine core vaccine antigens vs virus neutralization
+R07980	INCLUDE		rapid antigen test visual grading vs viral load in preschool children, n=107
+R07981	EXCLUDE	E9	interferon-alpha nasal spray prophylaxis trial, rapid antigen testing as endpoint
+R07983	EXCLUDE	E9	national dengue outbreak report, rapid diagnostic tests as tool
+R07984	INCLUDE		AllTest combined rapid antigen test for SARS-CoV-2, influenza and RSV, n=100
+R07985	INCLUDE		RT-RAA with lateral flow dipstick for Getah virus, 553 copies/uL
+R07986	INCLUDE		RPA-lateral flow dipstick assay for duck adenovirus type-3, 65 clinical samples
+R07987	EXCLUDE	E2	luciferase bioconjugate Cas13 diagnostic with luminescent readout
+R07988	EXCLUDE	E9	hepatitis B antigen and genotype survey, lateral flow assay as screening tool
+R07989	EXCLUDE	E9	seroprevalence among healthcare workers in Yemen
+R07990	INCLUDE		RPA with lateral flow strip for decapod iridescent virus 1
+R07992	EXCLUDE	E6	targeting approaches for acute HIV infection diagnosis, risk score modelling
+R07993	EXCLUDE	E9	azelastine nasal spray prophylaxis trial, rapid antigen testing as endpoint
+R07994	INCLUDE		RT-RPA lateral flow assay for pathogenic orthoflaviviruses in mosquito vectors
+R07995	EXCLUDE	E2	impact of BioFire meningitis/encephalitis PCR panel on test utilization
+R07996	EXCLUDE	E2	paper-based electrochemiluminescence test strips combining lateral flow with ECL readout
+R07997	EXCLUDE	E1	syphilis rapid diagnostic test performance, not a virus
+R07998	INCLUDE		OraQuick HCV rapid antibody lateral flow immunoassay early read-time performance, n=175
+R08000	INCLUDE		dendritic mesoporous SiO2 SERS-nanozyme dual-mode immunochromatographic assay with colorimetric enhancement for foodborne viruses
+R08001	EXCLUDE	E1	haemoglobin response to iron-folic acid supplementation, not a virus
+R08002	EXCLUDE	E9	influenza vaccine effectiveness cohort, rapid antigen test results as outcome
+R08004	EXCLUDE	E1	co-infection prevalence in HBV patients, lateral flow assays for non-viral pathogens
+R08005	EXCLUDE	E1	acute kidney disease in COVID-19, urine strip test not a virus assay
+R08006	EXCLUDE	E3	water-insensitive down-shifting nanoparticles for low-power lateral flow assay, luminescence
+R08007	EXCLUDE	E2	DNAzyme-amplified protease-sensing platform, not lateral flow
+R08008	EXCLUDE	E9	SARS-CoV-2 seroprevalence in household dogs
+R08011	EXCLUDE	E1	urine tenofovir lateral flow assay sex-specific cutoffs, not a virus
+R08012	EXCLUDE	E6	symptom-based algorithm for clinical COVID-19 diagnosis
+R08013	INCLUDE		RPA-CRISPR/Cas12a lateral flow strip for new genotype Muscovy duck parvovirus, 1.3 copies
+R08014	INCLUDE		Cas12-driven exponential amplification with lateral flow biosensor for DNA detection
+R08015	EXCLUDE	E1	lateral flow lipoarabinomannan for TB in advanced HIV, not a virus
+R08016	INCLUDE		RT-RAA with lateral flow strip detection for chikungunya virus E1 gene
+R08017	EXCLUDE	E1	BIOSynex CryptoPS semi-quantitative lateral flow assay, not a virus
+R08018	EXCLUDE	E1	post-overdose outreach programme survey, not a virus
+R08019	EXCLUDE	E1	rural provider attitudes to harm reduction and PrEP, not a virus assay
+R08021	EXCLUDE	E1	CRISPR-Cas12 lateral flow colorimetric assay for Pneumocystis jirovecii, fungal not viral
+R08022	EXCLUDE	E6	post-pandemic maternity care planning study
+R08024	INCLUDE		nanobody-gold nanoparticle lateral flow immunoassay for SARS-CoV-2 nucleocapsid
+R08025	EXCLUDE	E1	colloidal gold immunochromatography for Babesia canis, not a virus
+R08026	EXCLUDE	E9	hepatitis B prevalence and risk factors, rapid diagnostic test as tool
+R08027	EXCLUDE	E2	RT-LAMP standardization for SARS-CoV-2, antigen test as comparator only
+R08028	INCLUDE		RT-ERA with CRISPR-Cas13a and lateral flow test strips for bluetongue virus, 20 copies
+R08029	INCLUDE		lateral flow assay vs DFA, dRIT and RT-PCR for rabies in stray dogs, n=25
+R08030	INCLUDE		DNA multiway junction lateral flow assay with gold nanoparticles for multiple target types
+R08031	INCLUDE		rapid NAAT vs rapid antigen test for influenza in the emergency department, n=453
+R08032	INCLUDE		single-plex and multiplex antigen lateral flow immunoassays to distinguish haemorrhagic fever viruses
+R08033	INCLUDE		UDG-based LAMP with lateral flow dipstick for tomato leaf curl New Delhi virus in cucurbits
+R08034	INCLUDE		self-testing with multi-pathogen laminar flow device for five respiratory viruses
+R08035	EXCLUDE	E4	commentary on point-of-care methods
+R08036	INCLUDE		DNA aptamer lateral flow biosensor for SARS-CoV-2 nucleocapsid protein
+R08037	EXCLUDE	E9	long COVID disability survey, rapid antigen test as eligibility
+R08038	EXCLUDE	E6	public perception survey of detection dogs and testing strategies
+R08039	EXCLUDE	E6	simulation-optimization of harm reduction vending machines
+R08040	EXCLUDE	E1	malaria incidence time series forecasting
+R08041	EXCLUDE	E6	mathematical modelling of Ebola test trade-offs
+R08042	EXCLUDE	E6	traditional healer HIV testing programme, RDT as tool
+R08043	INCLUDE		RotEx-LAMP-LFA integrated cartridge with lateral flow detection for HPV16/18, 69 clinical specimens
+R08045	EXCLUDE	E9	vaccine adverse effects and infection pilot study, tests as tool
+R08046	EXCLUDE	E1	carbapenemase-producing Pseudomonas epidemiology, bacterial
+R08047	EXCLUDE	E9	ivermectin prophylaxis trial, RAT as endpoint
+R08048	EXCLUDE	E2	real-time RT-RAA for IBV, fluorescence readout
+R08049	INCLUDE		RT-RPA with lateral flow dipstick for tilapia lake virus
+R08051	EXCLUDE	E6	modelling of school closures in Hong Kong
+R08052	INCLUDE		colloidal gold lateral flow strip for Senecavirus A VP2, LOD 0.5 ng/mL
+R08053	EXCLUDE	E9	hepatitis B/C seroprevalence in chronic liver disease, rapid tests as tool
+R08054	EXCLUDE	E1	predictive risk assessment for STI diagnosis, not a virus assay
+R08055	EXCLUDE	E9	hepatitis B/C seroprevalence among refugees, rapid tests as tool
+R08056	EXCLUDE	E4	systematic review of urine LAM screening uptake, tuberculosis
+R08057	EXCLUDE	E4	letter on OraQuick HCV self-test, no original data
+R08058	EXCLUDE	E9	nirmatrelvir retreatment trial, RAT as entry criterion
+R08059	EXCLUDE	E6	online surveillance report on respiratory illness
+R08060	EXCLUDE	E6	online surveillance report on respiratory illness
+R08061	EXCLUDE	E9	HIV prevalence in pregnant women, RDT algorithm as tool
+R08062	INCLUDE		Bionote MERS-CoV rapid antigen test validation and field use in camels, n=2736 archived swabs
+R08063	EXCLUDE	E2	RAA-CRISPR/Cas12a for PRV gE, readout not stated as lateral flow
+R08065	EXCLUDE	E3	nanodiamond spin-enhanced fluorescence lateral flow test for SARS-CoV-2 antigen
+R08067	EXCLUDE	E1	FIKK kinase antigens for Plasmodium falciparum diagnosis, not a virus
+R08068	EXCLUDE	E1	histoplasmosis antigen assay in children, not a virus
+R08069	EXCLUDE	E9	mask wearing and household transmission, RAT as tool
+R08070	INCLUDE		rapid antigen POCT vs RT-PCR at judo competitions, 839 paired tests
+R08071	INCLUDE		quantitative laboratory framework linking image-based test line intensity and naked-eye LoD to antigen test PPA
+R08072	INCLUDE		aptamer cocktail multiple lateral flow assay with AuNP labels for SARS-CoV-2 in clinical samples
+R08073	INCLUDE		UKHSA laboratory assessment vs manufacturer-reported sensitivity of SARS-CoV-2 lateral flow devices
+R08074	INCLUDE		laboratory evaluation of 185 commercial SARS-CoV-2 antigen lateral flow devices, UK
+R08075	INCLUDE		CRISPR/Cas12a RT-RPA with lateral flow dipstick and fluorescence for Getah virus
+R08076	EXCLUDE	E1	benign acute childhood myositis epidemiology, not an assay study
+R08077	INCLUDE		RT-RPA-LF assay for rice stripe, RBSDV and SRBSDV in plants and planthopper vectors
+R08079	EXCLUDE	E6	provider cost analysis of COVID-19 antigen testing
+R08080	EXCLUDE	E9	neutralizing antibody durability in older adults after vaccine booster
+R08081	EXCLUDE	E2	pH pen for colorimetric LAMP nucleic acid detection, not lateral flow
+R08082	INCLUDE		single-tube RPA-CRISPR/Cas13d with lateral flow strips for PRRSV-1
+R08083	EXCLUDE	E4	review of nucleic acid lateral flow assays
+R08084	INCLUDE		RT-MIRA-LFD for PEDV and porcine rotavirus A
+R08085	EXCLUDE	E1	CRP and albumin in puppies with diarrhoea, rapid diagnostic tests as classification tool
+R08086	INCLUDE		AuNP nucleic acid lateral flow assay for SARS-CoV-2 NIID_2019-nCoV_N region with membrane comparison
+R08087	INCLUDE		HIV screening accuracy of CLIA and rapid test vs NAT in blood donors, n=163 reactive
+R08088	EXCLUDE	E4	study protocol for saliva self-sampling feasibility
+R08089	INCLUDE		universal dPCR-assigned standard for evaluating antigen RDT limits of detection
+R08090	EXCLUDE	E6	survey of healthcare worker perceptions of Ag-RDT integration
+R08091	INCLUDE		aptamer-based lateral flow biosensor with strand displacement amplification for largemouth bass virus
+R08092	EXCLUDE	E6	nanobody generation against IHHNV proteins, component-only
+R08094	EXCLUDE	E2	label-free electrochemical lateral flow immunosensor for SARS-CoV-2
+R08095	EXCLUDE	E9	case report of influenza B with diarrhoea, rapid antigen test as tool
+R08096	EXCLUDE	E9	HCV serological and molecular detection survey, ICT as one tool
+R08097	EXCLUDE	E1	case report of disseminated cryptococcosis, not a virus assay
+R08098	INCLUDE		RapiSafe HIV Ag/Ab combi rapid test analytical and clinical performance
+R08099	INCLUDE		deep learning-based quantitative lateral flow assay reading within first 3 min
+R08100	EXCLUDE	E1	viral aetiology of CKDu, not an assay evaluation
+R08101	EXCLUDE	E6	cluster randomized trial of community-based HCV screening delivery
+R08103	EXCLUDE	E1	CRISPR-Cas12a lateral flow for Mycoplasma pneumoniae, not a virus
+R08104	EXCLUDE	E6	micro-costing of Ag-RDT integration models
+R08106	EXCLUDE	E6	photocaged primer light-start RPA chemistry, no virus assay evaluation
+R08107	INCLUDE		rambutan-like magnetic nanozyme WGA-modified colorimetric LFA for respiratory viruses and bacteria
+R08108	INCLUDE		colloidal gold dual-line immunochromatography strip for ASFV antibodies, wild-type vs deltaCD2v
+R08109	EXCLUDE	E4	clinical trial protocol for Chinese medicine
+R08110	EXCLUDE	E4	Delphi expert consensus on RSV in older adults
+R08111	INCLUDE		MoS2 nanoflower colorimetric and photothermal dual-mode LFIA for SARS-CoV-2 NP
+R08112	EXCLUDE	E9	HBV seroprevalence in pregnant women, rapid test as tool
+R08113	EXCLUDE	E1	tobacco use among people living with HIV, cotinine dipstick
+R08114	INCLUDE		RT-RAA-CRISPR/Cas12a with lateral flow reporter for avian reovirus, 1 copy/uL
+R08116	INCLUDE		MIRA, MIRA-qPCR and MIRA-LFD for duck enteritis virus
+R08118	EXCLUDE	E9	retrospective analysis of BVDV outbreaks, immunochromatography as one tool
+R08119	EXCLUDE	E9	dengue RDT use at airport quarantine, programme description
+R08120	INCLUDE		platinum nanoparticle-catalyzed TMB single-step LFIA with smartphone quantification for influenza A
+R08121	EXCLUDE	E3	photo-controllable CRISPR/Cas12a for HPV16, fluorescence readout
+R08122	INCLUDE		rapid antigen test vs RT-PCR in asymptomatic hospital admissions, transplant recipients
+R08123	EXCLUDE	E4	analysis of mpox diagnostics and therapeutics pipeline, perspective
+R08124	EXCLUDE	E9	HBV seroprevalence trends, rapid tests as tool
+R08125	INCLUDE		RPA-DETECTR with lateral flow gold nanoparticle readout for chili leaf curl virus
+R08126	EXCLUDE	E6	qualitative study of Ag-RDT rollout barriers in six African nations
+R08127	EXCLUDE	E9	HBV seroprevalence in students, rapid tests as tool
+R08128	EXCLUDE	E9	case report of simultaneous p24 antigen and antibody bands
+R08129	INCLUDE		RAA-SHERLOCK CRISPR-Cas13a with lateral flow detection for cyprinid herpesvirus-3
+R08130	EXCLUDE	E9	transfusion-transmitted infection prevalence, RDT vs ELISA yield, mixed non-viral analytes
+R08131	EXCLUDE	E1	LF-LAM for tuberculosis, not a virus
+R08133	EXCLUDE	E9	SARS-CoV-2 and Plasmodium seroprevalence survey, RDTs as tool
+R08134	INCLUDE		PDA-integrated Au@Ag colorimetric/SERS multiplex LFIA for respiratory viruses
+R08135	EXCLUDE	E3	quantum dot immunochromatographic strip for porcine deltacoronavirus
+R08137	EXCLUDE	E6	ligation-based SNP discrimination with LFA readout, no viral target evaluation
+R08138	INCLUDE		CRISPR/Cas13a SHERLOCK with RAA and lateral flow strip for canine adenovirus-2
+R08140	EXCLUDE	E6	cluster randomised trial of Ag-RDT testing models, case detection
+R08141	INCLUDE		CRISPR-assisted MoS2@TQD colorimetric and fluorescent dual-mode LFA for SARS-CoV-2
+R08142	INCLUDE		participatory surveillance framework evaluating RDT sensitivity to SARS-CoV-2 variants
+R08143	EXCLUDE	E9	case report of rabies in goats
+R08144	EXCLUDE	E9	RNA-binding proteins in CPV-infected dogs, immunochromatographic kits for confirmation
+R08145	INCLUDE		PDA@Au SERS and photothermal dual-mode LFA with visual mode for influenza A, n=90
+R08146	EXCLUDE	E6	outcomes of integrating Ag-RDT into clinic services
+R08147	EXCLUDE	E3	CRISPR cascade lateral flow for Mycoplasma and H1N1, fluorescent reporter chemistry unclear
+R08148	INCLUDE		dual-target Sero-NP/RBD lateral flow IgG assay clinical performance, Ghana
+R08149	EXCLUDE	E9	dengue serotype circulation in outbreak, rapid tests as screening
+R08150	INCLUDE		RPA-lateral flow assay with alternative endonuclease for cucurbit leaf crumple virus
+R08151	INCLUDE		colloidal gold immunochromatographic strip with anti-S mAbs for porcine deltacoronavirus
+R08152	EXCLUDE	E6	walking blood bank feasibility study with RDT safety component
+R08153	EXCLUDE	E9	SARS-CoV-2 seroprevalence among HCWs and patients, rapid tests as tool
+R08154	INCLUDE		NG-Test Monkeypox antigen RDT field diagnostic accuracy in DRC and Uganda
+R08155	EXCLUDE	E6	regulatory analysis of authorized IVDs
+R08156	INCLUDE		analytical performance of six HIV rapid diagnostic tests in Lubumbashi
+R08157	EXCLUDE	E6	feasibility and acceptability of COVID-19 self-testing in Ethiopia
+R08158	EXCLUDE	E1	protein G-based antibody-free LFA for IgG, no viral target
+R08159	EXCLUDE	E3	time-resolved fluorescence immunochromatographic strip for H10 avian influenza
+R08160	INCLUDE		closed integrated RPA and lateral flow POCT device for monkeypox virus
+R08161	EXCLUDE	E1	case report of Legionella pneumonia
+R08162	INCLUDE		lateral flow immunochromatography neutralizing antibody persistence after boosters, university cohort
+R08163	INCLUDE		3D paper nucleic acid lateral flow assay with Au/Ag staining dual-signal amplification for SARS-CoV-2
+R08164	EXCLUDE	E9	population serosurveys in Massachusetts
+R08165	EXCLUDE	E9	case report of strawberry tongue with EBV
+R08166	EXCLUDE	E9	PPR outbreak spatial analysis, pen-side tests as confirmation tool
+R08167	EXCLUDE	E1	LAMP-LFB for Talaromyces marneffei, fungal
+R08168	INCLUDE		autocatalytic rolling circle amplification with lateral flow strips for respiratory virus RNA
+R08169	EXCLUDE	E1	fentanyl test strip uptake survey
+R08170	EXCLUDE	E9	HIV-1 group O epidemiology with RDT algorithm evaluation on few samples
+R08171	INCLUDE		affinity-based selection of anti-FeLV p27 mAbs for lateral flow assay prototype
+R08173	INCLUDE		electrokinetic lateral flow assay for anti-HBsAg IgG with Joule heating analysis
+R08174	INCLUDE		3D-printed handwarmer-powered CRISPR detection chip with lateral flow readout for HPV-16
+R08175	INCLUDE		novel FeLV antigen rapid test vs five commercial rapid tests
