@@ -223,3 +223,15 @@ Formal appraisal is optional in scoping reviews (DOI: 10.11124/JBIES-20-00167). 
   in Systematic Reviews. Syst Rev. 2021;10(1):39. DOI: 10.1186/s13643-020-01542-z
 - Whiting PF, et al. QUADAS-2: a revised tool for the quality assessment of diagnostic accuracy studies.
   Ann Intern Med. 2011;155(8):529–536. DOI: 10.7326/0003-4819-155-8-201110180-00009
+
+## Screening rule decisions (author, 2026-10-30)
+Applied to all title/abstract decisions; UNSURE category removed (0 remaining).
+- Insect viruses (BmNPV, DWV, BmBDV): out of scope (E1). Aquaculture nodaviruses (fish, shrimp) retained.
+- Viroids: out of scope (E1).
+- Used/spent strips as sample source for PCR, sequencing or shipment: excluded (E9).
+- Reader or label-engineering papers with no stated viral target: excluded (E6).
+- Dual-mode assays reporting only a fluorescent channel: excluded (E3).
+- Plant-virus "First Report" immunostrip papers: excluded (E9).
+- CRISPR/isothermal papers whose abstract does not state a lateral-flow readout: excluded (E2).
+- LFA used only to validate another new platform; method papers using a commercial LFA with no new accuracy data: excluded.
+- LFAs for non-viral targets and host-biomarker assays (CRP, IL-6, CD4, CXCL10): excluded (E1).
