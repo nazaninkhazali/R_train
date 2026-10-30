@@ -1,0 +1,89 @@
+R08736	UNSURE		SERS LFA nanoparticles, no viral target stated; colorimetric channel unclear
+R08737	INCLUDE		colorimetric-catalytic-SERS trimodal ICA bacteria and virus stool
+R08738	INCLUDE		RPA-CRISPR Cas12a fluorescence and lateral flow MDV/REV
+R08739	EXCLUDE	E1	BALF LAM TB
+R08740	EXCLUDE	E3	fluorescent nanodiamond LFA
+R08741	EXCLUDE	E6	dengue transmission modelling
+R08742	INCLUDE		AuNP LFIA ISKNV antigen
+R08743	INCLUDE		JETest influenza A/B rapid kit vs RT-PCR
+R08744	INCLUDE		RPA-CRISPR Cas12a LFA capripoxviruses
+R08746	EXCLUDE	E9	geriatric cohort COVID
+R08748	INCLUDE		RT-LAMP colorimetric plus LFA SARS-CoV-2/influenza A
+R08749	EXCLUDE	E6	target product profile JE
+R08750	EXCLUDE	E6	diagnostic algorithm cost-effectiveness
+R08751	INCLUDE		PoC FIV antibody lateral flow tests in lions
+R08752	EXCLUDE	E2	CRISPR Cas12 one-pot method
+R08753	UNSURE		RT-ERA-CRISPR Cas12a EV-G dual-readout; LFA not stated
+R08754	EXCLUDE	E4	policy overview
+R08755	EXCLUDE	E3	electrochemiluminescence strip dengue
+R08756	EXCLUDE	E9	rotavirus CSF case
+R08757	EXCLUDE	E9	COVID epidemiology Morocco
+R08758	EXCLUDE	E4	author response letter
+R08759	EXCLUDE	E9	vitamin D rinse effect on saliva RAT; interference study
+R08760	EXCLUDE	E9	ILI children cancer
+R08761	INCLUDE		CRISPR-Cas12a RT-RPA-LFA cardamom mosaic virus
+R08762	EXCLUDE	E1	case report
+R08763	INCLUDE		SMART-C colloidal gold LFA HCV antigen vs RNA PCR
+R08764	INCLUDE		Fe-Co nanozyme LFIA porcine rotavirus
+R08765	INCLUDE		letter on quadruple respiratory viral LFT service evaluation; no abstract (check)
+R08766	INCLUDE		RT-RPA CRISPR Cas13a LFD NDV genotype VII
+R08767	EXCLUDE	E9	influenza myositis cohort
+R08769	INCLUDE		magnetic QD dual-modal (colorimetric+fluorescent) smartphone AI LFIA RVFV
+R08770	EXCLUDE	E9	TORCH seroprevalence, rapid ICT as tool
+R08772	EXCLUDE	E9	zoster case report
+R08773	INCLUDE		RT-RPA lateral flow nucleic acid SFTSV
+R08774	UNSURE		CRISPR SHINE Lassa; readout not stated in abstract
+R08775	INCLUDE		duplex RPA-CRISPR Cas12a ASFV fluorescence and LFS
+R08778	INCLUDE		RNase HII RT-LAMP NALF RSV A/B
+R08779	EXCLUDE	E6	prevalence threshold theory
+R08780	INCLUDE		DeepBand deep learning quantification of COVID LFA images
+R08781	INCLUDE		colloidal gold strip IBV antibodies
+R08782	UNSURE		epitope mapping for N179 mAb of existing strip; component-only
+R08783	EXCLUDE	E9	booster antibody kinetics
+R08784	EXCLUDE	E6	diagnostic allocation modelling
+R08785	UNSURE		passive preconcentration cassette for LFA; viral target unclear
+R08786	INCLUDE		RPA-CRISPR Cas13a fluorescence and LFS goose parvovirus
+R08787	EXCLUDE	E1	TB stool processing
+R08788	EXCLUDE	E9	rotavirus epidemiology, ICT screening only
+R08789	INCLUDE		RPA-CRISPR Cas13a integrated lateral flow device EBV DNA
+R08790	INCLUDE		dengue NS1 RDT vs ELISA retrospective accuracy
+R08791	EXCLUDE	E6	scFv antibody generation FCV, component-only
+R08792	EXCLUDE	E1	TBM LAM
+R08793	INCLUDE		dengue NS1/IgM/IgG RDT evaluation Burkina Faso
+R08794	EXCLUDE	E1	malaria-dengue co-infection prevalence
+R08795	EXCLUDE	E4	systematic review molecular testing
+R08796	INCLUDE		Geenius HCV supplemental assay vs INNO-LIA
+R08798	EXCLUDE	E3	europium nanoparticle LFA HSV-2
+R08799	EXCLUDE	E3	photothermal reader for PT-LFIA, no viral target
+R08800	EXCLUDE	E4	commentary
+R08801	INCLUDE		measles IgM RDT Uganda
+R08803	EXCLUDE	E1	CrAg LFA letter
+R08804	INCLUDE		duplex RPA-LFD ToLCNDV/TYLCV
+R08805	EXCLUDE	E9	LFD testing programme cost-effectiveness
+R08806	EXCLUDE	E9	Zika serology cohort, DPP only tool
+R08808	EXCLUDE	E6	testing modelling
+R08809	EXCLUDE	E1	case report
+R08810	EXCLUDE	E9	respiratory viral infections cohort
+R08812	EXCLUDE	E9	norovirus shedding
+R08813	EXCLUDE	E9	dengue in transplant recipients
+R08814	EXCLUDE	E1	HIV case report
+R08815	EXCLUDE	E2	TIMBER non-CRISPR cleavage platform
+R08816	EXCLUDE	E9	mobile POC testing homeless
+R08817	EXCLUDE	E9	chikungunya case series
+R08818	EXCLUDE	E1	VISITECT CD4 host biomarker
+R08819	EXCLUDE	E9	HIV testing provision ecological
+R08820	EXCLUDE	E6	RDT bias simulation
+R08821	EXCLUDE	E9	reflex PCR diagnostic yield
+R08822	EXCLUDE	E9	COVID test usage distribution
+R08823	EXCLUDE	E9	dengue upsurge refugee camps
+R08824	INCLUDE		CRISPR AsCas12a SARS-CoV-2 with lateral flow strip method
+R08825	INCLUDE		duplex colorimetric LFIA Ebola/Lassa with PROVIDS reader
+R08826	INCLUDE		corona-structured magnetic nanozyme dual-mode colorimetric ICA viruses
+R08827	EXCLUDE	E3	quantum dot assembly fluorescent immunoassay
+R08828	UNSURE		RPA-CRISPR Cas12a ALV-J; readout not stated
+R08829	EXCLUDE	E1	glycoassay no viral target
+R08830	EXCLUDE	E9	Kawasaki case report
+R08831	INCLUDE		RSV F mAb pairs with Au@Pt-LFIA among platforms
+R08832	EXCLUDE	E1	antiretroviral drug LFA
+R08834	EXCLUDE	E9	Toxoplasma in HCV patients
+R08835	EXCLUDE	E1	TB LF-LAM EQA
