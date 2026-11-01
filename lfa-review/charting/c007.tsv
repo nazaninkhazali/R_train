@@ -1,0 +1,49 @@
+R02521	FMDV serotypes A, O, Asia1	livestock	NA	serotype-specific RT-RPA-LFD	NR	visual	126 clinical samples	NR (stated in abstract, value truncated)	98.41% concordance with real-time PCR; 2 additional positives confirmed	e	veterinary;multiplex
+R02523	FMDV SAT2	livestock	Ag	LFI strip with new mAbs	NR	visual	NR	NR	sens and spec greater than DAS-ELISA (values NR)	i	veterinary;mAb
+R02525	HIV, syphilis	human	Ab	Chembio DPP HIV-Syphilis, SD Bioline Duo	NR	visual	3212 pregnant women, Zambia	NR	Chembio HIV sens 90.6% (87.4-93.0), spec 97.2%; syphilis sens 68.6%; SD Bioline HIV sens 89.4%, spec 96.3%	h	commercial;multiplex
+R02528	HIV, HBsAg	human	Ab/Ag	4 RDTs vs 4th-gen ELISA	NR	visual	Gabonese blood donors	NR	Determine HIV sens 65.6%; IMMUNOQUICK HBsAg sens 78.0%	h	commercial
+R02532	nucleic acids (lateral flow)	NR	NA	smartphone add-on and app for LF nucleic acid assays	NR	smartphone with colour calibration	NR	NR	predicted vs true concentration R2 0.96	f	smartphone;quantification
+R02541	Zika virus IgM	human	Ab	Chembio DPP Zika IgM ICA vs 2 MAC-ELISAs	NR	reader/visual	PRNT-confirmed samples	NR	DPP nonreactive in 3/15 (20%); spec >95%	h	commercial
+R02544	SFTSV	human	Ag	colloidal gold LFITS	colloidal gold	visual	patient serum	1 ng/mL	satisfactory in patient sera (values NR)	a	new assay
+R02545	chikungunya virus	human	Ag	broad-spectrum mAbs for IC test development	NR	NR	NR	NR	NR	h	antibody development;scope-check
+R02547	HIV-1, HIV-2	human	Ab	HIV TRI-DOT and a second RDT	NR	visual	172 samples, Mali	NR	HIV-1 sens 100% (87.13-100), spec 100%; HIV-2 sens 95.24%	h	commercial
+R02552	CCHFV IgM	human	Ab	CCHF Sero K-SeT	NR	visual	87 clinical sera, Iran	NR	sens 39.7% (29/73), spec 92.9% (13/14)	h	commercial
+R02556	rotavirus A	human	Ag	IMMUNOQUICK No-Rot-Adeno vs RIDASCREEN EIA	NR	visual	749 stools	NR	compared with RT-qPCR (values NR)	h	commercial
+R02557	HIV, syphilis	human	Ab	4 dual HIV/syphilis RDTs	NR	visual	NR	NR	T. pallidum sens 73.5% (Multiplo) to 87% (SD Bioline)	h	commercial;multiplex
+R02560	human mastadenovirus B	human	NA	RPA (real-time and LFD)	NR	visual	clinical samples	50 copies/reaction	real-time RPA correlates with real-time PCR	e	
+R02561	potato viruses X, M, S, Y, leafroll	plant	Ag	alarm LFIA with multi-specific conjugate	gold nanoparticles (mixed antibodies)	visual	potato leaf extracts	10-30 ng/mL	NR	g	multiplex;plant
+R02566	avian influenza (H1-H16)	livestock (poultry)	NA	Alere i Influenza A&B (isothermal NAAT, not LFA)	NR	NR	avian virus strains	NR	detected H1-H16 subtypes	z	scope-check;not LFA
+R02567	HCV	human	Ab	SD Bioline HCV on capillary vs venous blood	NR	visual (2 blinded readers)	clinic patients	NR	Cohen's kappa agreement (value NR)	h	commercial
+R02570	HCV	human	Ab	5 RDTs (Truline, Flaviscreen, Advanced Quality, SD Bioline, OraQuick)	NR	visual	360 Indian + 100 CDC samples	NR	sens/spec/inter-observer evaluated (values NR)	h	commercial
+R02571	norovirus	human	Ag	IC vs automated real-time RT-PCR kit	NR	visual	stool and rectal swabs	NR	IC sens 33% (rectal swab), 62% (bulk stool)	h	commercial;scope-check
+R02573	respiratory viruses	human	Ag	lateral flow chromatography among diagnostic tools	NR	visual	299 respiratory samples	NR	NR	h	scope-check;mixed methods
+R02574	PEDV	livestock (pig)	Ag	mAb-based ICA	NR	visual	swine stool	0.47 ug/mL (5.9 x 10^3 TCID50/mL); linear range 0.625-10 ug/mL	no cross-reaction with other porcine viruses	i	veterinary
+R02575	adenovirus (conjunctivitis)	human	Ag	silver-amplified IC kit vs 4 IC kits	silver amplification	visual/reader	15 adenovirus types	1.0 x 10^3 - 5.0 x 10^4 copies/test (10-250-fold below conventional kits)	NR	c	silver enhancement
+R02576	hepatitis A	human	Ab	commercial HAV IgM RT	NR	visual	lab and field	NR	sens 66-86%, spec 21-100%	h	commercial
+R02579	HAV IgM, HBsAg, anti-HCV	human	Ab/Ag	EuDx-HE (A,B,C) triplex POC	NR	visual	1581 sera	NR	higher sens than SD BIOLINE; spec slightly lower (HAV, HBsAg)	h	multiplex;commercial
+R02581	dengue virus	human	NA	STH-PAS dipstick DNA chromatography after PCR	NR	visual	clinical samples	NR	sens 100%, spec 88.9% (vs TaqMan), 86.6% (vs SD NS1)	e	PCR + strip
+R02604	influenza haemagglutinin	human	Ag	2D paper network device	NR	visual	spiked pediatric nasal swab	4.45 x 10^2 TCID50/mL	NR	d	paper network;flow engineering
+R02609	influenza B	human	Ag	IRAT in ILI cases	NR	visual	3257 ILI patients, Beijing	NR	NR	z	scope-check;epidemiology
+R02616	HPV16/18 (E6)	human	Ag	OncoE6 strip test	NR	visual	cervical swabs	NR	NR	z	scope-check;prevalence
+R02637	HCV	human	Ab	HCV RDT in prison	NR	visual	prison admissions	NR	sens 75% with errors; 100% after excluding testing error	h	commercial
+R02638	adenovirus	human	Ag	silver amplification IC with automated reader	silver amplification	automated reader	tears, adenoviral keratoconjunctivitis	32-64-fold more sensitive than control kit	sens 98.3% vs 89.8% (control); spec 100%	c	silver enhancement;reader
+R02640	Ebola virus	human	Ag	4 Ebola antigen LFIs	NR	visual	328 plasma, 100 whole blood	NR	plasma sens 79.53% (DEDIATEST) to 98.43% (One step Ebola test) vs RT-PCR	h	commercial
+R02642	HBeAg	human	Ag	LFIA with signal amplification system	gold nanoparticles + amplification	visual	420 blood samples	9 ng/mL (27-fold more sensitive than conventional LFIA)	fully in accordance with ELISA	c	signal amplification
+R02645	HCV	human	Ab	low-cost HCV RDT	NR	visual	141 individuals, 3 continents	NR	sens 100%, spec 100%	h	commercial
+R02648	dengue	human	Ag/Ab	Humasis, SD Bioline, CareUS dengue combos	NR	visual	109 positive, 63 negative children, Myanmar	NR	NS1 sens CareUS 79.82%, Humasis 63.30%, SD 48.62%; spec 100%	h	commercial
+R02652	dengue, chikungunya IgM/IgG	human	Ab	colour-mixing multiplex strip	multi-colour particles	visual colour mixing	clinical samples	NR	accurate multiplexed detection within 30 min	g	multiplex;colour encoding
+R02658	rice stripe virus	plant	Ag	colloidal gold ICS, mAbs 16E6/11C1	colloidal gold	visual	rice plants, planthoppers	1:20,480 (w/v) plant extract; 1:2,560 per planthopper homogenate	validated with field samples	i	plant
+R02665	Newcastle disease virus	livestock (poultry)	Ag	ICS with anti-HN mAb-gold	colloidal gold	visual	NR	NR	sens 83.3%, spec 100% vs RT-PCR	i	veterinary
+R02667	dengue	human	Ag/Ab	commercial RDTs (Panbio etc.)	NR	visual	Kanpur	NR	NS1 low sens, good spec; IgM sens 27.8-77.7%	h	commercial
+R02668	avian influenza H5N2	livestock (poultry)	Ag	aptamer pair on lateral flow strip	NR	visual	whole virus particles	NR	enhanced specificity over other H5Nx	a	aptamer
+R02669	Japanese encephalitis virus antibodies	livestock (pig)	Ab	LFA (3 formats)	NR	visual	500 field swine sera	NR	format II sens 100%, spec 100% (monsoon/post-monsoon); seropositivity 15.6%	i	veterinary
+R02680	influenza A/B	human	Ag	RIDTs incl. STANDARD F, Sofia, SD Bioline	NR	visual/digital	552 specimens, Malaysia	NR	digital immunoassays sens 71.7% and 70.6%; SD Bioline 55.8%; spec 98-100%	h	commercial
+R02684	RSV, influenza A/B	human	Ag	BD Veritor at bedside	NR	reader	pediatric ED NPAs	NR	sens 97.6% (160/164), spec 97.6% (40/41)	h	commercial;reader
+R02685	Senecavirus A	livestock (pig)	NA	RT-LAMP-LFD	NR	visual	clinical samples	11 copies/uL RNA (10x more sensitive than RT-PCR)	positive rate comparable to RT-PCR	e	veterinary
+R02688	fowl adenovirus 4	livestock (poultry)	NA	LAMP-LFD	NR	visual	150 field samples	10 copies/uL (nested PCR 10; real-time 10^2; PCR 10^4)	NR	e	veterinary
+R02692	avian infectious bronchitis virus	livestock (poultry)	Ag	ICS	NR	visual	NR	10^4.4 EID50	several genotypes detected, no cross-reaction	i	veterinary
+R02695	influenza A and B	human	NA	duplex RPA-LFD	NR	visual	clinical samples	50 copies (flu B), 500 copies (flu A) per reaction; 5.80 fmol FITC, 8.39 fmol DIG amplicons	sens 78.57% (A), 87.50% (B); spec 100% vs real-time PCR	e	multiplex
+R02709	African swine fever virus	livestock (pig)	NA	RPA-LFD	NR	visual	145 field samples	150 copies/reaction	10/145 positives, 100% agreement with real-time PCR	e	veterinary
+R02711	avian influenza H9N2	livestock (poultry)	Ag	chromatographic strip as tool	NR	visual	50 flocks	NR	7/18 positive by strip	z	scope-check;epidemiology
+R02714	influenza H3N2	human	Ag	aptamers selected by Viro-SELEX for diagnostic system	NR	NR	NR	NR	NR	a	aptamer;scope-check
+R02717	dengue virus	human	NA	RT-RPA-LFD	NR	visual	120 clinical samples	10 RNA copies	100% coincidence with qRT-PCR	e	
