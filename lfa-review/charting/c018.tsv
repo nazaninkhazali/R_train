@@ -1,0 +1,50 @@
+R04961	human adenoviruses 3, 7, 11, 14, 55 (IgM)	human	Ab	multivalent IgM ICS with multi-epitope tandem antigen	NR	visual	NR	NR	spec 97.8%	g	multiplex;antigen design
+R04965	barley yellow dwarf virus	plant	NA	RT-RPA-LFS	NR	visual	oat samples from 6 regions; individual aphids	similar to RT-PCR	no cross-reactivity with cereal viruses	e	plant
+R04976	SARS-CoV-2	human	Ag	32 commercial AgPOCTs, reference-sample method	NR	visual	reference samples 1.8 x 10^5 - 9.8 x 10^8 copies/mL	broad range of sensitivities	NR	h	commercial
+R04980	NR (AuNP-ICA enhancement)	NR	NR	pH-regulated gold in situ growth (GISG)	gold nanoparticles + gold growth	visual	NR	improved sensitivity (value NR)	NR	a	signal enhancement;scope-check
+R04997	HIV	human	Ab	indigenous HIV oral self-test (HIVOST)	NR	visual	clinic attendees, India	NR	sens 83.3% (69.8-92.5), spec 98% (89.4-99.5); kappa 0.88	h	self-test
+R04999	DNA targets (plasmid)	NR	NA	paper dot-blot with bioconjugated gold nanorods, automated readout	gold nanorods	photograph + regression tools	NR	1-10 ppm (higher than digoxigenin); automated readout improves visual LOD ~2x	NR	f	gold nanorods;scope-check
+R05003	NR (LFD test-line ligands)	NR	NR	poly(vinylpyrrolidone) end-functionalised ligand display	NR	NR	NR	NR	NR	d	materials;scope-check
+R05005	influenza A/B	human	Ag	QuickChaser (conventional and Auto silver-amplified) vs NAATs	silver amplification (Auto)	visual and reader	177 NP samples	NR	NAAT kappa 1.00 highest	h	commercial
+R05008	PEDV	livestock (pig)	NA	RT-RPA-LFD	NR	visual	clinical samples	10^2 copies/uL	no cross-reactivity	e	veterinary
+R05019	marker genes (model)	NR	NA	hapten-labelled fusion PCR with immunochromatographic test	NR	visual	NR	NR	NR	e	scope-check;viral target NR
+R05023	SARS-CoV-2	human	NA	isothermal amplification-coupled dipstick	NR	visual	clinical specimens	6 copies/uL	NR	e	
+R05030	FMDV (all 7 serotypes)	livestock	Ag	pan-serotype LFST with universal capture ligand	NR	visual	NR	NR	sens comparable to AgELISA; spec 100%	i	veterinary
+R05043	Zika virus	human	NA	RT-LAMP + lateral flow	NR	visual	PBS, urine, plasma	NR	NR	e	
+R05044	influenza A and B	human	Ag	visual colorimetric LFD with new mAbs	NR	visual	101 NP swabs	4-8x more sensitive than commercial tests	sens 89% (A), 83% (B); spec 100%	d	new assay
+R05054	NR (LFA fabrication)	NR	NR	3D printed antibody dispenser	NR	NR	NR	NR	NR	d	fabrication;scope-check
+R05056	canine distemper virus	companion animal	Ag	LFA vs RT-PCR	NR	visual	50 swabs, India	NR	LFA vs N-gene RT-PCR: sens 55.55%, spec 95.12%	h	veterinary;commercial
+R05057	SARS-CoV-2 antibodies	human	Ab	3 CLIAs and 3 LFIAs	NR	visual	988 sera (389 positive)	NR	overall agreement 91.0-97.8%	h	commercial
+R05061	influenza virus	human	NA	isothermal amplification + LFA	NR	visual	NR	NR	NR	e	
+R05065	ASFV	livestock (pig)	Ag	antigen LFD in farm sampling strategy	NR	visual	pig farms	NR	limited sensitivity; useful in clinical animals	h	veterinary;scope-check
+R05070	dengue immune status	human	Ag/Ab	combined RDTs	NR	visual	cross-sectional surveys	NR	agreement 79.5% (159/200)	h	commercial
+R05074	SARS-CoV-2	human	Ag	RapidFor Antigen Rapid Test Kit	NR	visual	444 NP samples, Turkey	NR	vs RT-PCR (values NR)	h	commercial
+R05077	SARS-CoV-2 IgM/IgG	human	Ab	rapid detection kit	NR	visual	375 samples	NR	sens 95.85%, spec 97.47%	h	new assay
+R05078	SARS-CoV-2 variants	human	Ag	CoV-SCAN LFA	NR	visual	symptomatic and asymptomatic individuals	0.2-3.2 ng/mL (14 recombinant N proteins); 1.6-12.5 TCID50/swab (10 variants)	PPA/NPA vs RT-PCR	a	new assay
+R05081	SARS-CoV-2	human	Ag	aptamer sandwich LFA (AptaFlow)	NR	visual	UV-inactivated virus	10^6 copies/mL	NR	a	aptamer
+R05082	HCV	human	Ab/Ag	serological kits in haemodialysis patients	NR	visual	270 sera	NR	4th-gen assay kappa 0.947 vs ELISA 0.747 and RDT 0.619	h	commercial
+R05088	avian influenza H7	livestock (poultry)	Ag	Au/Fe3O4 core-shell nanoparticle ICT strip	Au/Fe3O4 core-shell nanoparticles	visual	200 clinical samples	10^3.5 EID50	7 positives in 200 clinical samples	a	core-shell label
+R05095	influenza A/B, RSV	human	NA	catalytic hairpin assembly + LFIA	NR	visual	NR	1 pM (flu A, B), 5 pM (RSV)	NR	e	enzyme-free amplification
+R05096	SARS-CoV-2 IgG	human	Ab	calixarene-coated silver nanoparticle dipstick	silver nanoparticles (calixarene-stabilised)	visual	clinical samples	1 order of magnitude lower than AuNP LFIA	sens 73%, spec 100%	b	silver nanoparticles
+R05103	North American PRRSV	livestock (pig)	Ag	latex microsphere ICS	latex microspheres	visual	clinical samples	5 x 10^2.0 TCID50/mL; 15 ng/mL N protein	sens 90.32%, spec (value truncated)	b	latex;veterinary
+R05112	SARS-CoV-2 antibodies	human	Ab	handheld thermo-photonic reader for commercial LFA	gold nanoparticles (commercial)	thermo-photonic reader	RBD IgG standards	clinically relevant range (value NR)	NR	f	reader
+R05125	porcine encephalomyocarditis virus	livestock (pig)	NA	qRT-RPA and LFB RT-RPA	NR	visual (LFB)	92 samples	10^2 copies (qRT-RPA); 10^1 copies (LFB)	LFB 97.83% agreement with qRT-PCR	e	veterinary
+R05126	SARS-CoV-2 Omicron vs Delta	human	Ag	7 RATs	NR	visual	culture supernatants and clinical specimens	3.0-5.6 x 10^6 (tests I-V) and 3.7-4.9 x 10^7 RNA copies/mL (tests VI-VII)	no obvious differences between VOCs	h	commercial
+R05131	dengue IgG (serostatus)	human	Ab	OnSite Dengue IgG RDT	NR	visual	579 participants, CYD-TDV trials	NR	sens/spec vs reference algorithm (values NR in abstract)	h	commercial
+R05133	SARS-CoV-2	human	NA	Bosch Vivalytic PCR POC (not LFA)	NR	NR	NR	NR	sens 88%, spec 96%	z	scope-check;not LFA
+R05138	TMV, TVBMV, PVY	plant	Ag	triplex immunostrip	NR	visual	field tobacco, tomato, potato	TMV 200 ppb, PVY 1 ppm, TVBMV 2 ppm	identified single and mixed infections	g	multiplex;plant
+R05141	HIV	human	Ab	OraQuick HIV self-test	NR	visual	Zambia	NR	user-conducted sens 87.5% (82.70-91.3), spec 99.7% (99.4-99.9)	h	commercial;self-test
+R05143	SARS-CoV-2 Omicron	human	Ag	BD Veritor, BinaxNOW, InteliSwab, QuickVue	NR	visual/reader	Omicron and Delta stocks	detected all replicates at 10^4 (Omicron) and 10^5 (Delta) TCID50/mL	Omicron stock same N copies at 1-log lower infectivity	h	commercial
+R05150	SARS-CoV-2 IgG	human	Ab	nanoelectrokinetic preconcentrator + LFA	NR	visual	serum	LOD enhanced 32-fold	analytical sensitivity +16.4%	d	preconcentration
+R05154	SARS-CoV-2	human	Ag	AMAZING Antigen Sealing Tube Test Strip (colloidal gold)	colloidal gold	visual	584 participants	NR	NR (abstract truncated); Omicron 72.5% of 120 positives	h	commercial
+R05161	SARS-CoV-2 variants	human	NA	SHINEv.2 Cas13, lateral flow	NR	visual (LF)	nasopharyngeal samples	NR	sens 90.5%, spec 100% vs RT-qPCR	e	CRISPR
+R05169	porcine parvovirus	livestock (pig)	NA	ERA-CRISPR/Cas12a + LFD	NR	visual	NR	3.75 x 10^2 copies/uL	no cross-reactions	e	CRISPR;veterinary
+R05178	SARS-CoV-2	human	NA	CRISPR/Cas13a + RPA, fluorescence analyzer and lateral flow strip	NR	visual (LFS) and fluorescence	NR	0.68 fM (S gene), 4.16 fM (Orf1ab)	NR	e	CRISPR
+R05182	SARS-CoV-2 Omicron BA.2	human	Ag	12 RAT kits	NR	visual	NR	comparable LODs across kits	NR	h	commercial
+R05183	SARS-CoV-2 IgG	human	Ab	Ag@Au (MBA) LFIA, colorimetric and SERS dual mode	Ag nanoparticles with ultrathin Au shell (colorimetric) + SERS tag	visual (colorimetric); SERS reader	107 clinical sera	0.22 pg/mL (SERS channel); colorimetric visual only	CV 7.7% (intra), 10.3% (inter)	g	dual-mode;SERS channel LOD
+R05186	SARS-CoV-2	human	Ag	rapid antigen test	NR	visual	branches of one network	NR	sens 60.5-78.6% (mean 66.0%), spec 98.2-99.9%	h	commercial
+R05187	dengue IgG (prior infection)	human	Ab	OnSite Dengue IgG RDT	NR	visual	CYD-TDV trial samples	NR	sens/spec vs reference (values NR in abstract)	h	commercial
+R05189	dengue virus (DENV) DNA	human	NA	helper-assisted HCR + LFIA	NR	visual	synthetic 105-nt DENV target	nanomolar range	NR	e	signal amplification
+R05195	SARS-CoV-2 Gamma	human	Ag	32 lateral flow antigen tests	NR	visual	clinical isolate	NR	sensitivity retained for Gamma	h	commercial
+R05199	HIV	human	Ab	TRUSTline HIV-1/2 Ab, OnSite HIV 1/2 Ab Plus Combo, ALTA reader	NR	visual and reader	NR	NR	TRUSTline sens 100%, spec 99.6%; OnSite 100%/100%	f	commercial;reader
+R05211	SARS-CoV-2	human	Ag	BIOSENSOR antigen test, Casablanca	NR	visual	NR	NR	sens 47.17%, spec 100%	h	commercial
