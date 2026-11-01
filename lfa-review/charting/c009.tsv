@@ -1,0 +1,49 @@
+R02875	HBsAg, anti-HCV	human	Ag/Ab	10 commercial ICT devices vs CLIA and PCR	NR	visual	blood-bank samples, Pakistan	NR	variable sens/spec of ICTs (values NR); CLIA 100%/100%	h	commercial
+R02876	rabies virus	companion/livestock	Ag	RIDT	NR	visual	174 samples, Argentina	NR	evaluated vs FAT and RT-PCR (values NR)	h	commercial;veterinary
+R02877	HIV	human	Ab	3 HIV RDTs	NR	visual	blood donors, Bukavu	NR	sens 57.1% (18.4-90.1)	h	commercial
+R02878	HBsAg	human	Ag	ICA with ultramarine blue particles	ultramarine blue (sodalite) particles	reader (quantitative)	NR	0.37 ng/mL (S/N=3)	better than AuNP-based ICA	b	novel label
+R02879	Ebola virus (sGP)	human	Ag	sGP-targeted RDT	NR	visual	monkey plasma; patient plasma, Macenta	2.2 x 10^4 genome copies/mL	sens 85.7%, spec 100%	h	new assay
+R02880	dengue NS1 (DENV-4)	human	Ag	4 NS1 RITs (Bioeasy, Bio-Rad, Orangelife, Bioclin)	NR	visual	DENV-4 samples	NR	sens, spec, LR and kappa evaluated (values NR)	h	commercial
+R02881	rabies virus	companion/livestock	Ag	5 commercial LFDs	NR	visual	multi-centre panel	NR	Anigen/Bionote best; sensitivity depends on antigen load	h	commercial;veterinary
+R02882	potato virus X	plant	NA	RT-RPA + nucleic acid LFA	NR	visual	NR	260-fold more sensitive than antibody-based LFA (same as PCR)	NR	e	plant
+R02893	H7N9 avian influenza	livestock (poultry)	Ag	colloidal gold ICS, 2 mAbs	colloidal gold	visual	NR	2 HAU or 10^2.55 TCID50	NR	i	veterinary
+R02894	HIV-1/2 Ag/Ab	human	Ag/Ab	Determine HIV-1/2 Ag/Ab Combo (old vs new)	NR	visual	acute and chronic plasma	NR	new RDT detected 77% of Fiebig II-III vs 25% for old	h	commercial
+R02895	ASFV	livestock (pig)	NA	CRISPR/Cas9-mediated lateral flow nucleic acid assay (CASLFA)	NR	visual	110 swine sera, 27 ASFV-positive	hundreds of copies	100% accuracy vs RT-PCR	e	CRISPR;veterinary
+R02896	ASFV	livestock (pig)	NA	CRISPR/Cas12a + immunochromatographic strip	NR	visual	149 clinical samples	20 copies/reaction	100% agreement with real-time PCR	e	CRISPR;veterinary
+R02902	infectious bursal disease virus antibodies	livestock (poultry)	Ab	AuNP LFA with VP2 protrusion domain	gold nanoparticles	visual	chicken serum	NR	high specificity lab and on-site	a	antigen design;veterinary
+R02907	SARS-CoV-2 IgM/IgG	human	Ab	rapid IgM-IgG combined test	NR	visual	397 PCR+ and 128 negative, 8 sites	NR	sens 88.66%, spec 90.63%	h	new assay
+R02914	dengue	human	Ag/Ab	ELISA and RDTs in India	NR	visual	809 sera	NR	combined sens 55.7-76.6%	h	commercial
+R02922	dengue NS1	human	Ag/Ab	ViroTrack Dengue Acute, SD Bioline Duo	NR	visual	NR	NR	ViroTrack sens 62.3% (55.6-68.7), spec 95.0%; SD Duo combined sens 82.4%, spec 87.4%	h	commercial
+R02925	PEDV (SIgA in colostrum)	livestock (pig)	Ab	ICS	NR	visual	colostrum	NR	kappa vs ELISA (value NR)	i	veterinary
+R02926	HIV	human	Ab	Abon and Advanced Quality RDTs, ART effect	NR	visual	6802 individuals, South Africa	NR	sens Abon 91.6% never-on-ART vs 96.6% on ART; AQ 95.4% vs 99.3%	h	commercial
+R02930	HBV	human	NA	duplex RAA + LFD	NR	visual	clinical serum	NR	sens 97.18% and 95.77%, spec 100% vs qPCR	e	
+R02933	HIV-1 drug resistance	human	NA	OLA-Simple	NR	visual	Mexican cohort	NR	high sens/accuracy vs MiSeq	e	genotyping
+R02940	H6 avian influenza	livestock (poultry)	Ag	AC-ELISA and ICS with mAbs	NR	visual	NR	ELISA 3.9 ng/mL H6 HA, 0.5 HAU/100 uL; strip stable 60 days	NR	i	veterinary
+R02944	visceral leishmaniasis	human	Ab	rK39 ICT	NR	visual	whole blood, serum, oral fluid	NR	not viral	z	scope-check;non-viral
+R02948	HIV p24	human	Ag	plasmonic gold dendrimer nanochains	gold dendrimer nanochains (red-to-blue shift)	visual	pseudo-serum	5 ng/mL (pseudo-serum)	NR	a	plasmonic nanochain
+R02950	HBsAg	human	Ag	Determine HBsAg 2	NR	visual	fingerstick, venous blood	0.1 IU/mL WHO standard	fingerstick sens 97.2%, spec 98.5%	h	commercial
+R02951	dengue virus	human	NA	RT-RAA-LFD	NR	visual	247 patients	10 copies/uL	kappa 0.957 vs RT-qPCR	e	
+R02952	SARS-CoV-2 IgM	human	Ab	GICA interference by RF-IgM	colloidal gold	visual	86 sera	NR	RF-IgM causes false positives; urea dissociation helps	h	false positives;commercial
+R02954	SARS-CoV-2 IgM/IgG	human	Ab	colloidal gold ICG assay	colloidal gold	visual	COVID-19 patients	NR	sens 11.1% (days 1-7), 92.9% (8-14), 96.8% (>14); plasma/whole blood kappa 0.93	h	new assay
+R02955	BK polyomavirus, CMV, CXCL9	human	NA	CRISPR-Cas13 post-transplant assay	NR	NR	blood, urine	NR	NR	z	scope-check;readout NR
+R02956	FMDV (camels)	livestock (camel)	Ab	serological study	NR	NR	151 camel sera	NR	NR	z	scope-check;epidemiology
+R02961	dengue NS1 / Zika NS1	human	Ag	6 NS1 immunochromatographic tests	NR	visual	recombinant proteins, patient sera	NR	2 of 6 tests cross-reacted with ZIKV NS1	h	commercial;cross-reactivity
+R02962	rubella	human	Ab	rapid ICT vs ELISA	NR	visual	women	NR	both low sensitivity, similar specificity	h	scope-check;seroprevalence
+R02964	nervous necrosis virus (virions)	aquatic (fish)	Ag	nanoparticle LFB for whole virions	gold nanoparticles	visual	fish brain/retina homogenates	NR	NR	a	aquaculture
+R02965	SARS-CoV-2	human	NA	CRISPR-Cas12 DETECTR lateral flow	NR	visual	36 COVID-19 + 42 other-virus patients	NR	PPA 95%, NPA 100% vs CDC RT-PCR	e	CRISPR
+R02970	HPV16/18 E6	human	Ag	E6 ICA on urine, vaginal, cervical samples	NR	visual	cervical, self-collected vaginal, urine	NR	invasive cancer sens 70% (cervical), 55% (vaginal), 52% (urine)	h	commercial
+R02974	HBV markers	human	Ag/Ab	prevalence study	NR	NR	pregnant women, Sokoto	NR	NR	z	scope-check;prevalence
+R02976	HIV-1/2	human	Ab	Geenius supplemental assay for blood donations	NR	reader	500 donation samples	NR	evaluated (values NR)	h	commercial
+R02981	adenovirus, rotavirus	human	NA	triplex rRT-PCR (ICT comparator)	NR	NR	stool	NR	NR	z	scope-check;PCR
+R02984	influenza H3	human	Ag	AuNP-coated polystyrene latex strip	AuNP-coated PS latex microspheres	visual and quantitative	NR	1/16 HAU visual; 0.016 HAU quantitative	NR	b	composite label
+R02986	infectious laryngotracheitis virus	livestock (poultry)	Ag	colloidal gold strip, gJ mAbs	colloidal gold	visual	clinical samples	60 ELD50/mL	no cross-reaction with other avian pathogens	i	veterinary
+R02987	NDV antibodies	livestock (poultry)	Ab	quantitative gold ICA with immunosensor	colloidal gold	reader (T/C ratio)	506 chicken sera	2^2 titres	NR	i	veterinary;quantitative
+R02989	HIV	human	Ab	Fio Deki Reader for HIV RDTs	NR	portable reader	lab and field, South Africa	NR	V100 sens 99.5%, spec 99.4%; V200 sens 100%, spec 93.1%; field sens 99.8%, spec 97.7%	f	reader
+R02990	HIV-1/2	human	Ab	HIV Ab ICA as additive test	NR	visual	158,431 sera screened	NR	96.9% (63/65) ICA-positive confirmed by WB; 98.5% ICA-negative stayed negative	h	commercial
+R02997	porcine deltacoronavirus	livestock (pig)	NA	RPA-LFD	NR	visual	68 clinical samples	1 x 10^2 copies/uL (10x lower than PCR)	positive rate 26.47% vs 23.53% by RT-PCR	e	veterinary
+R03001	SARS-CoV-2 IgM/IgG	human	Ab	IC antibody assay + chest CT	NR	visual	139 sera from 112 COVID-19 patients	NR	CT + IC sens 68.4% (asymptomatic), 82.4% (symptomatic)	h	commercial
+R03002	HBV DNA	human	NA	betaine-assisted RPA + lateral flow	NR	visual	serum	1,000 copies/50 uL	sens 90%, spec 100%	e	
+R03009	infectious bronchitis virus	livestock (poultry)	NA	RT-RAA-LFD	NR	visual	NR	10^2 copies/uL (100x below PCR)	no cross-reaction	e	veterinary
+R03014	dengue NS1	human	Ag	capture-layer LFIA with enzyme label	enzyme label (no nanobeads)	visual/quantitative	spiked buffer and serum	5-fold more sensitive than gold-standard ELISA	NR	c	enzymatic;quantitative
+R03015	HIV (urine)	human	Ab	microfluidic cassette with handheld reader	NR	handheld optical reader	NR	NR	NR	f	reader
+R03018	rotavirus, adenovirus, norovirus	human	Ag	two Materlab ICG tests	NR	visual	100 faecal samples	NR	specificity >97% vs PCR	h	commercial
