@@ -1,0 +1,53 @@
+R02046	WSSV	aquatic (shrimp)	Ag	LFIA	NR	visual	75 field samples, India	10^3 copies WSSV (by real-time PCR)	sens 100%, spec 96.77%	i	aquaculture
+R02049	PRRSV (antibody)	livestock (pig)	Ab	ICS with Nsp7-gold probe, protein A	colloidal gold	visual	swine sera	NR	"high" sens/spec (values NR)	i	veterinary
+R02055	Zika virus NS1	human	Ag	dipstick sandwich assay, AuNP-antibody	gold nanoparticles	visual	NR	NR	protein corona improves specificity/sensitivity	a	conjugation;protein corona
+R02057	potato virus X	plant	Ag	barcode LFIA with magnetic nanoparticles	magnetic nanoparticles	visual/reader	leaf extracts	cut-offs 3, 30, 150 ng/mL; first cut-off 0.5 ng/mL (6-fold lower with magnetic concentration)	NR	d	magnetic;barcode;plant
+R02060	dengue	human	Ag/Ab	SD Dengue Duo temperature stability follow-up	NR	visual	119 febrile patients, Laos	NR	NS1 100% agreement at 35 C; IgM PPA 60% (14.7-94.7)	h	commercial;stability
+R02063	HPV16/18 L1 antibodies	human	Ab	IC method	NR	NR	serum	NR	correlated with MB-ELISA	h	new assay
+R02064	caprine arthritis-encephalitis virus	livestock (goat)	NA	RPA-LFD	NR	visual	200 field samples, Taiwan	80 pg DNA; 10 plasmid copies	82% positive in field samples, higher sensitivity than ELISA	e	veterinary
+R02065	rotavirus A	human	Ag	CerTest and Vikia ICTs	NR	visual	2096 stools	NR	sens Vikia 94% vs CerTest 85%; kappa 0.79 vs real-time PCR	h	commercial
+R02067	PPRV	livestock	NA	RT-RPA real-time and LFS	NR	visual	NR	150 copies/reaction (LFS); 100 copies (real-time)	NR	e	veterinary
+R02068	SFTSV	human	Ag	rapid test (letter, no abstract)	NR	NR	NR	NR	NR	h	letter;scope-check
+R02070	Zika virus	human	NA	RT-LAMP (Bst 3.0) + LFA	NR	visual	NR	NR	NR	e	
+R02074	HIV	human	Ab	12 RDTs	NR	visual	240 HIV+, 240 HIV- plasma, Cameroon	NR	sens/spec 93.7-100%	h	commercial
+R02076	influenza A	human/avian	Ag	label-free multisite SA receptor binding	NR	NR	NR	higher than conventional ICT	NR	z	scope-check;not clearly LFA
+R02078	norovirus	human	Ag	RIDA QUICK N1402	NR	visual	771 stools	NR	sens 72.8% (91/125), spec 99.5% (640/643) vs RT-PCR	h	commercial
+R02090	norovirus	human	Ag	RIDA QUICK IC	NR	visual	children, hospital	NR	high sens/spec comparable to PCR (values NR)	h	commercial
+R02092	norovirus GII.2	human	Ag	molecular characterisation	NR	NR	NR	NR	NR	z	scope-check;epidemiology
+R02093	HPV16/18	human	NA	LAMP + LFD	NR	visual	44 HPV16+, 18 HPV18+, 80 negatives	NR	NR	e	
+R02095	pseudorabies virus	livestock (pig)	NA	RPA-LFD and real-time RPA	NR	visual	NR	160 copies/reaction (LFD); 100 (real-time)	NR	e	veterinary
+R02097	WSSV	aquatic (shrimp)	Ag	LFA with phage-displayed peptide probe	NR	visual	infected shrimp	NR	NR	i	aquaculture;peptide probe
+R02100	HIV	human	Ab	multiple HIV RDTs, sub-Saharan Africa	NR	visual	2785 samples	NR	sens 98.8-100% (First Response lowest)	h	commercial
+R02114	porcine circovirus 2	livestock (pig)	NA	RPA-LFD and real-time RPA	NR	visual	NR	10^2 copies/reaction (both)	NR	e	veterinary
+R02120	equine influenza virus	livestock (horse)	Ag	silver amplification IC (QuickChaser-type)	silver amplification (gold)	visual	nasal swabs	5-fold lower than conventional RAD tests	NR	c	silver enhancement;veterinary
+R02122	HBV nucleic acid	human	NA	LFA with sponge shunt (flow slowing)	NR	visual	NR	improved analytical sensitivity (value NR)	NR	d	flow engineering
+R02124	dengue NS1	human	Ag	NS1 RDT in returning travellers	NR	visual	febrile travellers, Antwerp	NR	sens 82.7% (74.4-93.0), spec 99.6% (98.8-100)	h	commercial
+R02129	feline leukemia virus p27	companion animal	Ag	3 in-clinic tests incl. IDEXX Feline Triple	NR	visual	100 positive, 105 negative sera	NR	IDEXX Feline Triple positive agreement 98.0%, negative 100% vs ViraCHEK	h	veterinary;commercial
+R02133	influenza virus (intact)	human	Ag	LFA with high-affinity HA binding proteins	NR	visual	NR	3.54 x 10^7 and 1.34 x 10^7 CEID50/mL	NR	d	binder engineering
+R02134	HPV	human	NA	IR-mediated PCR platform + LFS	NR	visual	NR	NR	NR	e	device
+R02144	influenza virus strains	human	Ag	dual recognition element LFA	NR	visual	NR	NR	>90% localisation to test line (qRT-PCR)	g	multiplex;binder
+R02149	hepatitis B surface antigen	human	Ag	polydiacetylene vesicles on NC membrane	polydiacetylene (red; also fluorescent)	visual	NR	NR	NR	b	dual-mode;PDA
+R02150	chikungunya virus	human	Ag	E1-antigen ICT	NR	visual	sera, travellers and Aruba patients	NR	sens 88.9% (8/9, ECSA); 33.3% (10/30, Asian genotype)	h	commercial
+R02152	FMDV	livestock	Ab/Ag	proficiency test incl. LFD	NR	visual	20 laboratories	NR	spec >99% for ELISA kits	z	scope-check;proficiency test
+R02153	adenovirus	human	Ag	prototype ICT	NR	visual	nasopharyngeal lavage	NR	sens 100%, spec 85% vs DFA	h	new assay
+R02156	Scylla serrata reovirus	aquatic (crab)	Ag	IC strip (letter)	NR	visual	NR	NR	NR	i	aquaculture;letter
+R02164	classical swine fever virus	livestock (pig)	Ag	LFA	NR	visual	NR	36.8 TCID50/mL	sens 80.36%, spec 87.10% vs PCR	i	veterinary
+R02169	HIV	human	Ab	serial rapid HIV testing in MSM	NR	visual	2503 MSM, South Africa	NR	sens 92.6% (89.6-94.8), spec 99.4% (98.9-99.7)	h	commercial
+R02170	dengue NS1	human	Ag	NS1 rapid vs ELISA	NR	visual	200 sera	NR	sens 81.5%, spec 66.7%	h	commercial
+R02171	HIV	human	Ag/Ab	Alere HIV Combo rapid test	NR	visual	57 pre-seroconversion samples	NR	16/57 (28%) reactive vs 47% for EIA	h	commercial
+R02172	goatpox, sheeppox virus	livestock	NA	RPA-LFD and real-time RPA	NR	visual	107 clinical samples	3 x 10^2 copies/reaction	specific for SPPV/GTPV in tissues	e	veterinary
+R02174	rotavirus	human	Ag	ImmunoCard STAT! Rotavirus	NR	visual	Dadaab refugee camp	NR	sens 83.1% (72.3-91.0), spec 99.3% (96.1-100)	h	commercial
+R02181	HIV	human	Ab	WHO testing algorithms	NR	visual	2780 samples, 6 sites	NR	algorithm design (values NR)	h	algorithm
+R02191	HBV, HCV	human	Ag/Ab	RDTs in HIV-infected patients	NR	visual	362 HIV+ individuals	NR	vs EIA (values NR)	h	commercial
+R02193	avian influenza H5	livestock (poultry)	Ag	IC kit with new mAb (clade 2.3.4.4)	NR	visual	NR	NR	higher sens/spec than Linjudge Flu A/H5	i	veterinary
+R02202	canine parvovirus	companion animal	NA	immunocapture LAMP with LFD	NR	visual	NR	10^-1 TCID50/mL	NR	e	veterinary
+R02205	dengue NS1	human	Ag	NS1 Bioeasy ICT at POC (Portuguese text)	NR	visual	whole blood POC vs serum	NR	POC sens 76.7% (68.0-84.1), spec 87.0% (66.4-97.2)	h	commercial
+R02208	duck Tembusu virus	livestock (duck)	Ab	double-antigen sandwich ICS	colloidal gold	visual	217 duck sera	16-fold more sensitive than agar gel double diffusion	vs iELISA (values NR)	i	veterinary
+R02212	HIV	human	Ab	serial rapid testing, community survey	NR	visual	KwaZulu-Natal household survey	NR	sens 91.1% (87.5-93.7), spec 99.9%, PPV 99.3%	h	commercial
+R02213	HIV	human	Ab	oral fluid RDT in children on ART	NR	visual	children, Harare	NR	false negatives (value NR)	h	commercial
+R02214	HIV	human	Ab	RDT diagnosis in pregnant women	NR	visual	952 women	NR	4.5% (43/952) with VL <50 copies/mL	h	commercial
+R02217	HIV, syphilis	human	Ab	Chembio DPP HIV-Syphilis	NR	visual	990 sera	NR	HIV sens 99.8%, spec 98.4%	h	commercial;multiplex
+R02218	Ebola virus	human	Ag	OraQuick Ebola screening pilot	NR	visual	Forecariah, Guinea	NR	NR	h	commercial
+R02222	Aujeszky's disease virus gB	livestock (pig)	Ab	direct double antibody LFA	colloidal gold	reader or visual	236 field swine sera	NR	reader: spec 98.0%, sens 98.6%; visual: spec 98.0%, sens 93.5%	i	veterinary
+R02227	dengue serotypes 1-4, Zika	human	Ag	rapid antigen tests (serotype-specific, pan-DENV, ZIKV)	NR	visual	30-150 uL serum	NR	sens/spec 0.76-1.00 (DENV); ZIKV 0.81/0.86	g	multiplex
+R02230	multiple fever agents incl. dengue, chikungunya	human	Ag/Ab	diagnostics in acute fever study	NR	NR	1564 patients, India	NR	NR	h	scope-check
