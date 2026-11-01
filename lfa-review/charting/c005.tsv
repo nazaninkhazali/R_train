@@ -1,0 +1,51 @@
+R02231	HBV (anti-HBs)	human	Ab	TOYO HBsAb, QuickProfile HBsAb, QuickProfile HBV-3 Panel RDTs	NR	visual	347 sera (198 anti-HBs+)	NR	spec 98.0/96.0/97.3%; sens 60.4-69.5%, >=90% above 150 IU/L	h	commercial
+R02232	norovirus, rotavirus	human	Ag	ICTs in institutional outbreaks	NR	visual	360 investigations, 14 sites	NR	NoV sens 55.1%; ICT identified NoV in 76.5%, RV in 75.0% of episodes	h	commercial;scope-check
+R02234	PEDV	livestock (pig)	Ag	ICA strip	NR	visual	faecal swabs	10^4.0 TCID50/mL	sens 95.0%, spec 98.6% vs real-time RT-PCR	i	veterinary
+R02242	rotavirus	human	Ag	VIKIA Rota-Adeno RDT (vs Rotaclone EIA)	NR	visual	Niger surveillance	NR	sens 80.7%, spec 95.5% (VIKIA); kappa 1 inter-reader	h	commercial
+R02247	citrus yellow vein clearing virus	plant	Ag	ICS, 30 nm gold, mAb 1E1	colloidal gold (30 nm)	visual	field samples	NR	specificity and sensitivity evaluated (values NR)	i	plant
+R02250	influenza A (H1N1pdm, H5, H7)	human	Ag	25 commercial IRDTs in Japan	NR	visual	virus preparations	NR	several IRDTs detected H5 and H7 with high sensitivity	h	commercial
+R02251	Ebola virus	human	Ag	EBOLA Ag K-SeT	NR	visual	210 residual plasma samples, Freetown	NR	sens 88.6% (82.5-94.7), spec 98.1%; sens 98.7% at >=6.2 log copies/mL	h	commercial
+R02254	West Nile virus	other (mosquito pools)	Ag	VectorTest (lateral flow) in mosquito pools	NR	visual	40,312 female Culex	NR	NR	z	scope-check;surveillance
+R02256	HIV	human	Ab	RDT algorithm in hospitalised children	NR	visual	Malawian children	NR	PPV of algorithm (value NR)	h	commercial;scope-check
+R02263	Ebola virus GP	human	Ag	LFA with RNs@Au (quantum dots + Au NPs) nanospheres	dual-signal nanosphere (Au colorimetric + QD fluorescent)	naked eye + fluorescence reader	spiked urine, plasma, tap water	2 ng/mL (naked eye); 0.18 ng/mL (quantitative)	NR	g	dual-mode
+R02265	prunus necrotic ringspot virus	plant	NA	RT-CPA + nucleic acid test strip cassette	NR	visual	plant samples	72 copies/reaction	no cross-reaction with Prunus viruses/viroids	e	plant
+R02267	Ebola virus	human	Ag	EVD RDT pilot in Guinea	NR	visual	suspect cases	NR	concordance with PCR (values NR)	h	commercial
+R02269	HIV-1/2, HCV, HBsAg	human	Ab/Ag	HIV/HCV/HBsAg Triplex LFA	NR	visual	250 positive sera per marker	NR	very high sens/spec vs CMIA (table NR in abstract)	h	multiplex;commercial
+R02270	HPV E6	human	Ag	OncoE6 strip test	NR	visual	cervical swabs, 	NR	positivity among VIA positive cases (value NR)	h	scope-check;commercial
+R02272	HIV p24	human	Ag	platinum nanocatalyst LFIA with nanobodies	porous Pt core-shell nanocatalysts (catalytic colour)	visual	serum, clinical plasma	0.8 pg/mL	detected acute-phase HIV in clinical plasma in <20 min	c	nanozyme;nanobody
+R02275	HIV-1 drug resistance mutations	human	NA	isothermal amplification + OLA on paper, LFA readout	NR	visual	synthetic DNA mixtures	200 mutant copies in 800 wild type	sens 100%, spec 100%	e	paper-based
+R02276	infectious bovine rhinotracheitis virus	livestock (cattle)	NA	RPA-LFD	NR	visual	NR	5 copies/reaction	no cross-reaction with other bovine viruses	e	veterinary
+R02280	Japanese encephalitis virus IgM	human	Ab	2 RDTs	NR	visual	CSF and serum, 388 patients, Laos	NR	sens 2.1-51.4% vs IgM ELISA	h	commercial
+R02283	influenza A/B	human	Ag	OSOM Ultra Flu A&B vs Xpert Flu	NR	visual	500 ED adults	NR	NR in abstract	h	commercial
+R02284	influenza A/B	human	Ag	influenza RDT in ED	NR	visual	251 adults	NR	RDT detected 22% of flu B and 40% of flu A RT-PCR positives	h	commercial;scope-check
+R02285	norovirus GII.2	human	Ag	IC reactivity of GII.P16-GII.2 strains	NR	visual	NR	NR	similar reactivity	z	scope-check;epidemiology
+R02293	bovine ephemeral fever virus	livestock (cattle)	NA	RPA-LFD	NR	visual	NR	8 copies/reaction	no cross-reactivity with BVDV, IBRV, BRSV	e	veterinary
+R02299	Ebola virus IgG	human	Ab	immunochromatographic strip + smartphone reader	NR	smartphone reader (semiquantitative)	15 survivors, 5 controls, Uganda	NR	GP monoplex sens 100%, spec 98% vs ELISA	f	smartphone;serology
+R02302	carp oedema virus, cyprinid herpesvirus 3	aquatic (carp, koi)	NA	RPA single and multiplex (readout NR)	NR	NR	koi, common carp	similar to PCR	NR	z	scope-check;LFA not stated
+R02305	tomato zonate spot virus	plant	Ag	colloidal gold ICS, mAb	colloidal gold	visual	infected leaf samples	800-fold dilution of leaf sample	NR	i	plant
+R02306	HCV	human	Ab	ICT screening of blood donors	NR	visual	1400 donors	NR	NR	z	scope-check;prevalence study
+R02307	chikungunya virus (E1 position 350)	human	Ag	E1-antigen IC test genotype sensitivity	NR	visual	virus preparations	NR	position 350 variation determines sensitivity	h	commercial;mechanism
+R02311	HIV (gp41, p24, gp120)	human	Ab	LFA with ferritin 3D probes vs label-free one-step immunoassay	NR	visual	NR	NR	LFA sens 63% (gp41 only), 90% (3 antigens); one-step assay 100%/100%	g	probe engineering
+R02314	dengue NS1	human	Ag	RTK ProDetect and SD Bioline NS1 RDTs	NR	visual	86 sera	NR	sens 94% and 89% vs ELISA	h	commercial
+R02318	MERS-CoV	livestock (camel)	Ag	BioNote rapid IC assay	NR	visual	camel swabs	NR	sens 49.49%, spec 100% vs rtRT-PCR (195 vs 394 positives)	h	veterinary;commercial
+R02324	potato virus X	plant	Ag	double-enhanced LFIA, MNP + GNP	magnetic NPs + gold NPs	visual	buffer, leaf extract	0.25 ng/mL (32-fold below non-enhanced LFIA at 8 ng/mL)	NR	d	magnetic enrichment;aggregation
+R02332	dengue, Zika RNA	human	NA	SHERLOCKv2 with lateral flow	NR	visual	patient samples	3.5-fold signal gain with Csm6	NR	e	CRISPR;multiplex
+R02342	PRRSV	livestock (pig)	Ab	ICST with dual-type N proteins on gold	colloidal gold	visual	991 field, 66 experimental sera	NR	spec 97.5%, sens 91.1%	i	veterinary
+R02344	Zika virus IgG/IgM	human	Ab	RDT with E and NS1 mAbs, gold	colloidal gold	visual	Brazil and Korea samples	NR	IgG sens 99.0%, spec 99.3%; IgM sens 96.7%, spec 98.7%	h	new assay
+R02345	rotavirus, adenovirus	human	Ag	strips with fluorescent vs coloured microspheres	coloured microspheres (CMT) vs fluorescent (FMT)	visual	cultures	FMT more sensitive than CMT	no cross-reaction	b	label comparison
+R02352	cryptococcal antigen	human	Ag	Biosynex CryptoPS	NR	visual	NR	NR	not viral	z	scope-check;non-viral
+R02353	potato virus X	plant	Ag	LFIA with alkaline phosphatase amplification	gold NPs + ALP enzyme	visual	buffer, leaf extracts	0.3 ng/mL (27-fold below conventional LFIA)	NR	c	enzymatic amplification;plant
+R02356	PEDV antibodies	livestock (pig)	Ab	ICS with N protein-gold	colloidal gold	visual	porcine serum	NR	sens 96.0%, spec 90.8% vs commercial ELISA	i	veterinary
+R02358	Zika, dengue serotypes	human	Ag	ICAs (comment, no abstract)	NR	visual	serum	NR	NR	g	comment;scope-check
+R02363	Lassa virus	human	Ag	ReLASV RDT	NR	visual	West Africa	NR	RDT sens 90%, spec 100%; ReLASV ELISA sens 95%, spec 97%; qPCR sens 82%, spec 95%	h	commercial
+R02368	nodavirus genotypes	aquatic (fish)	NA	dual LF nanobiosensor for PCR products	gold nanoparticles	visual	healthy and RGNNV-infected fish	NR	NR	e	multiplex;aquaculture
+R02369	RSV	human	Ag	ICT on NPA	NR	visual	85 children	NR	NR	h	scope-check;clinical study
+R02371	Ebolavirus	human	NA	rapid molecular test	NR	NR	NR	134 copies/uL	NR	z	scope-check;LFA not stated
+R02375	canine parvovirus 2	companion animal	NA	body-heat RPA + LFS	NR	visual	60 faecal samples	1.0 x 10^2 copies/reaction (same as real-time PCR)	46/60 positive, equals real-time PCR	e	veterinary;equipment-free
+R02381	HIV, HCV, HBV	human	Ab/Ag	capillary multiplex RDT	NR	visual	STI clinic patients, Bangui	NR	NR	h	multiplex;scope-check
+R02384	canine parvovirus	companion animal	Ag	AuNP ICS with single pAb	gold nanoparticles	visual	faecal samples	6.6 x 10^5 TCID50/mL	sens/spec 71%/92% vs HA; 71%/100% vs commercial IC	a	veterinary
+R02385	norovirus, rotavirus A	human	Ag	dual IC test	NR	visual	stools	NR	sens 89.5% (NoV), 100% (RVA); spec 100%	h	multiplex;commercial
+R02389	chikungunya virus	human	Ag	IC kit	NR	visual	India sera	NR	sens 93.7%, spec 95.5%, agreement 94.3% vs qRT-PCR	h	commercial
+R02392	HIV, HCV, HBsAg	human	Ab/Ag	capillary multiplex IC test	NR	visual	266 women, Chad	NR	HIV 3.7%, HCV 3.0%, HBsAg 7.5% positive	h	multiplex;scope-check
+R02393	dengue virus	human	Ag	flow cytometry vs NS1 IC and RT-PCR	NR	NR	PBMC	NR	NR	z	scope-check;not LFA
+R02395	HPV16/18 E6	human	Ag	OncoE6 test with self-sampling	NR	visual	cervical lavage, swab, cytobrush	NR	concordance 18/20 samples	h	commercial
