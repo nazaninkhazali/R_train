@@ -1,0 +1,51 @@
+R01883	rabies virus	companion/livestock (multi-species)	Ag	Anigen Rapid Rabies Ag kit	NR	visual	34 brain samples	NR	sens 91.66%, spec 100%, accuracy 94.11% vs hemi-nested RT-PCR	h	veterinary;commercial
+R01884	canine parvovirus	companion animal	Ag	commercial IC strip	NR	visual	50 faecal samples	NR	sens 72.22%, spec 92.86% vs PCR	h	veterinary;commercial
+R01889	HIV-1 p24	human	Ag	colloidal gold ICA with in-house mAbs	colloidal gold	visual	reference p24 panel (10 positive, 153 negative)	25 pg/mL	detected 10/10 positives; spec 98.03% (3 false positives/153)	a	new assay
+R01893	PEDV	livestock (pig)	NA	RT-CPA + nucleic acid test strip	NR	visual	NR	10^-6 dilution of plasmid (same as PCR)	NR	e	veterinary
+R01895	HIV	human	Ab	supervised oral HIV self-test	NR	visual	oral fluid, KwaZulu-Natal	NR	sens 98.7% (96.8-99.6), spec 100% (99.8-100); inter-rater kappa 0.9925	h	commercial;self-test
+R01897	measles virus	human	NA	RT-LAMP + disposable LFD	NR	visual	NR	8.8 copies/uL synthetic RNA (equal to real-time RT-PCR)	NR	e	
+R01904	MERS-CoV	human	Ag	diagnostic test using cell-free synthesised NP antigen mAbs	NR	NR	NR	NR	NR	h	antibody development;scope-check
+R01913	dengue	human	Ag/Ab	6 SD commercial RDTs on urine and saliva	NR	visual	291 saliva, 440 urine (NS1); 530 saliva, 528 urine (Ab)	NR	urine sens NS1 15.5%, IgG 27.9%, IgA 10.7%; saliva NS1 20.4%, IgG 34.8%, IgM 11%, IgA 6.2%; vs in-house ELISA	h	commercial
+R01918	dengue	human	Ag/Ab	NS1/IgM RDT	NR	visual	AFI outbreaks, 4 countries	NR	IgM sens 55.3-91.7%, spec 85.3-98.5%; NS1 sens 49.7-92.9%, spec 22.2-89.0%; vs RT-PCR	h	commercial
+R01920	soybean mosaic virus	plant	Ag	DAS LFA strip with anti-CP mAbs	NR	visual	infected leaf samples	800-fold dilution of leaf extract	specific vs other viruses	i	plant
+R01925	feline immunodeficiency virus	companion animal	Ab	Anigen Rapid FIV/FeLV, Witness FeLV/FIV (SNAP is ELISA)	NR	visual	saliva, vaccinated and unvaccinated cats	NR	spec 100%; sens 96% (Anigen), 92% (Witness)	h	veterinary;commercial
+R01929	dengue NS1	human	Ag	NS1 Ag Strip vs qRT-PCR and IgM ELISA	NR	visual	375 single serum specimens	NR	NS1 strip positivity 97.8% (acute), 94.8% (post-acute) vs qRT-PCR 84.8%, 71.8%	h	commercial
+R01933	HIV, syphilis	human	Ab	SD BIOLINE HIV/Syphilis Duo	NR	visual	fingerstick whole blood, Haiti	NR	HIV sens 99.2% (95.8-100), spec 97.0% (93.2-99.0)	h	commercial;multiplex
+R01936	influenza A/B	human	Ag	2 digital reader-based RDTs vs conventional RDT	NR	digital reader	314 NP swabs	NR	digital RDTs higher sens/spec for H3 (values NR)	h	commercial;reader
+R01937	HIV	human	Ab	OraQuick, Determine, Uni-Gold stored at 37 C	NR	visual; delayed reading	Blantyre clinic adults	NR	OraQuick sens 97.2% (93.6-99.6); kappa 1.00 after storage	h	commercial;stability
+R01938	rabies virus	companion/livestock	Ag	6 commercial LFDs	NR	visual	field and experimental brain samples	NR	sens 0-100% (field); max 32% (experimental)	h	veterinary;commercial
+R01939	West Nile virus	wildlife (birds)	NA	nucleic acid preservation cards + RT-PCR	NR	NR	dead birds	NR	NR	z	scope-check;not LFA
+R01943	Orf virus	livestock	Ag	LFIA with mAbs 5A5/6F2	colloidal gold	visual	NR	2.03 x 10^3.0 TCID50/mL	sens 92.1%, spec 100% vs LAMP	i	veterinary
+R01944	ASFV, CSFV (antibodies)	livestock (pig)	Ab	duplex LFA (VP72, E2)	NR	visual	experimental, reference and field sera	NR	good sens/spec (values NR in abstract)	g	multiplex;veterinary
+R01946	dengue	human	Ag/Ab	Dengue Duo NS1/IgM/IgG	NR	visual	ED patients 2015	NR	sens 80-100%, spec 60-84% vs RT-PCR	h	commercial
+R01948	Ebola virus	human	Ag	LFI developed by NMRC for environmental testing	NR	visual	blood, plasma, post-mortem oral swabs, Liberia	NR	compared with RT-PCR (values NR)	h	
+R01949	rotavirus	human	Ag	RIDA QUICK and Genx ICs	NR	visual	254 children	NR	Genx sens 97.1%, spec 100%; RIDA QUICK sens 80.4%, spec 72% vs RT-PCR	h	commercial
+R01950	Ebolaviruses	human	Ag	QuickNavi-Ebola IC	NR	visual	culture supernatants, experimental sera	10^3-10^4 FFU/mL	NR	h	new assay
+R01952	norovirus GII.17	human	Ag	2 IC kits	NR	visual	4 GII.17 specimens	NR	sensitivity depends on kit and viral amount	z	scope-check;molecular epidemiology
+R01955	BVDV	livestock (cattle)	Ag	IgY-based ELISA and ICA	NR	visual	NR	NR	NR	i	veterinary;antibody generation
+R01956	cyprinid herpesvirus 3	aquatic (koi)	NA	RPA (fluorescence)	NR	NR	koi	10 genome copies	NR	z	scope-check;LFA not stated
+R01958	dengue, chikungunya	human	Ab	two-colour multiplex LFA	two-colour particles	visual	NR	NR	NR	g	multiplex;letter
+R01960	HIV	human	Ab	Geenius HIV-1/2 for recency	NR	reader	NR	NR	NR	h	commercial
+R01962	Ebola virus	human	Ag	ReEBOV RDT	NR	visual	banked clinical samples, Sierra Leone	NR	PPA 91.1% (86.5-94.6; 195/214); NPA 90.2% (175/194) vs qRT-PCR	h	commercial
+R01968	Ebola virus	human	Ag	ReEBOV RDT analytical validation	NR	visual	serum, whole blood, NHP samples	range 3.0 x 10^5-9.0 x 10^8 genomes/mL	spec 95% (serum panels), 97% (whole blood)	h	commercial
+R01969	porcine parvovirus	livestock (pig)	NA	RPA-LFD and real-time RPA	NR	visual	128 clinical samples	400 copies/reaction (LFD)	sens 94.4%, spec 100% vs qPCR	e	veterinary
+R01970	influenza A/B	human	Ag	BD Veritor system	NR	reader	primary care	NR	sens 80%, spec 94%	h	commercial;reader
+R01971	AHSV, EIAV	livestock (horse)	Ab	duplex LFA	NR	visual	experimental and field sera	NR	good agreement with OIE tests	g	multiplex;veterinary
+R01976	African swine fever virus	livestock (pig)	Ag	LFA with VP72 antibodies	NR	visual	blood, experimental and field	similar to antigen-ELISA (value NR)	LFA 27% vs PCR 38% positive (experimental); field LFA > Ag-ELISA	i	veterinary
+R01986	HPV16 vaccination status	human	Ab	paper LFA with HPV16 VLP capture	NR	visual	whole blood/plasma	NR	NR	d	vaccine response;paper-based
+R01993	influenza A/B	human	Ag	GOLD SIGN FLU and Quick Navi-Flu	NR	visual	123 adults	NR	vs viral isolation (values NR)	h	commercial
+R01994	human norovirus	human	Ag	nanobody-based LFIA (Nano-IC)	NR	visual	outbreak specimens	NR	sens 80%, spec 86%	a	nanobody
+R01999	HPV16/18 E6	human	Ag	E6 immunochromatographic test	NR	visual	448 women	NR	lower sens than HPV-DNA test for CIN2+, higher specificity	h	new assay
+R02004	rotavirus	human	Ag	ICG in vaccinated children	NR	visual	Valencia region	NR	false positives estimated (values NR)	h	scope-check;commercial
+R02008	canine parvovirus	companion animal	Ag	IC test	NR	visual	NR	NR	insufficient sensitivity (value NR)	h	veterinary;commercial
+R02011	FIV, FeLV	companion animal	Ab/Ag	IC test vs nested PCR	NR	visual	255 cats, Buenos Aires	NR	NR	h	veterinary;scope-check
+R02012	influenza A/B, RSV	human	NA	ARIES molecular assay (ICT only comparator)	NR	NR	447 clinical samples	NR	NR	z	scope-check;not LFA
+R02018	dengue virus RNA	human	NA	paper-hydrogel hybrid LFA	NR	visual (semi-quantitative)	clinical samples	NR	NR	d	flow engineering;hydrogel
+R02019	rabies (neutralizing Ab)	companion animal (dog)	Ab	RAPINA	NR	visual	dog sera, 3 countries	NR	PPV 96.2-99.3%, NPV 84.5-94.8%, kappa 0.946-0.97 vs RFFIT	h	functional assay
+R02025	Aujeszky's disease virus gB	livestock (pig)	Ab	competitive DAS LFA (3 formats) with reader	NR	reader and visual	swine sera	NR	pCDAS-gB-LFA spec 97.6%, sens 94.9% vs gB-ELISA	i	veterinary
+R02030	dengue (pan-serotype)	human	Ag/Ab	NS1/IgM RDT (dengue day 1)	NR	visual	211 samples (179 RT-PCR+), India	NR	sens 89.4%, spec 93.8%	h	commercial
+R02034	dengue NS1	human	Ag	dipstick AuNP-antibody conjugation strategies	gold nanoparticles	visual	NR	NR	NR	a	conjugation chemistry
+R02035	Ebola virus	human	NA	LAMP with hCG-SNAP reporter on pregnancy test strips	commercial pregnancy test (gold)	visual	serum, saliva	20 copies	NR	e	repurposed strips
+R02038	HBsAg	human	Ag	LFA with size-controlled AuNPs (seeded growth)	AuNP, sizes 34.2-137.8 nm	visual	NR	NR	NR	a	nanoparticle size
+R02039	norovirus GII.17	human	Ag	7 IC kits vs BLEIA	NR	visual	GII.17-positive stools	RIDA QUICK 10^7 copies/mL; others 10^8-10^9; BLEIA 10^4-10^5	NR	h	commercial
+R02044	dengue NS1	human	Ag	NS1 RDT in tribal areas	NR	visual	outbreak samples, India	NR	vs NS1 ELISA sens 99.2%, spec 96.0%; vs qRT-PCR sens 91.1%, spec 93.6%	h	commercial

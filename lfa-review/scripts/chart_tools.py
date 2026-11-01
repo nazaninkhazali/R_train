@@ -26,6 +26,7 @@ SCREEN = os.path.join(ROOT, "03_screening.xlsx")
 OUT = os.path.join(ROOT, "04_evidence_table.xlsx")
 MASTER = os.path.join(ROOT, "02_records", "work", "master_records.xlsx")
 SNIP = re.compile(r"limit of detection|detection limit|\\bLOD\\b|sensitivity|specificity|copies|TCID|PFU|ng/mL|pg/mL|ng/ml|agreement|kappa|samples", re.I)
+EVAL = {}
 FIELDS = ["rec_id", "virus", "host", "analyte", "format", "label", "readout", "sample", "lod", "clinical", "section", "tags"]
 
 
@@ -46,7 +47,12 @@ def included():
     it = ws.iter_rows(values_only=True)
     h = next(it)
     ci = {k: i for i, k in enumerate(h)}
-    return [r[ci["rec_id"]] for r in it if r[ci["decision_claude"]] == "INCLUDE"]
+    out = []
+    for r in it:
+        if r[ci["decision_claude"]] == "INCLUDE":
+            out.append(r[ci["rec_id"]])
+            EVAL[r[ci["rec_id"]]] = r[ci["tag_covid_commercial_eval"]] == "probable"
+    return out
 
 
 def master():
@@ -56,18 +62,20 @@ def master():
     return {r[0]: dict(zip(h, r)) for r in it}
 
 
-def batch(size, out, mode="full"):
+def batch(size, out, mode="dev"):
     size = int(size)
     done = load_chart()
     m = master()
     ids = [i for i in included() if i not in done]
     ids = [i for i in ids if (int(m[i]["year"] or 0) >= 2015) == (mode != "brief")]
+    if mode in ("dev", "eval"):
+        ids = [i for i in ids if EVAL.get(i) == (mode == "eval")]
     chunk = ids[:size]
     with open(out, "w", encoding="utf-8") as f:
         for i in chunk:
             r = m[i]
             ab = (r["abstract"] or "(no abstract)").replace("\n", " ")
-            lim = 550 if mode != "brief" else 350
+            lim = {"dev": 420, "eval": 200}.get(mode, 350)
             head, tail = ab[:lim], ab[lim:]
             sn = [t.strip()[:240] for t in re.split(r"(?<=[.;])\s+", tail) if SNIP.search(t)][:3]
             f.write(f"{i} | {r['year']} | {r['pub_types'][:60] if r['pub_types'] else ''}\nT: {r['title']}\nA: {head}{' …' if tail else ''}\n")
