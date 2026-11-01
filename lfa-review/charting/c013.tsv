@@ -1,0 +1,50 @@
+R03733	PEDV, MERS-CoV	livestock/human	Ag	sputum pretreatment (TCEP + BSA) for ICA	NR	visual	spiked sputum	NR	pretreatment suitable for sputum	d	sample preparation
+R03743	SARS-CoV-2 IgM/IgG	human	Ab	POC lateral flow test	NR	visual	COVID patients, pre-pandemic sera, blood donors/HCWs, Panama	NR	PPA/NPA and kappa computed (values NR)	h	commercial
+R03766	SARS-CoV-2 spike	human	Ag	colloidal gold ICS, RBD mAbs	colloidal gold	visual	subunit vaccine	62.5 ng/mL spike protein	NR	a	new assay
+R03771	channel catfish virus	aquatic (catfish)	Ag	colloidal gold ICS	colloidal gold	visual	virus suspensions	10^4 TCID50/mL	analytical specificity shown	i	aquaculture
+R03776	tomato spotted wilt virus	plant	NA	RT-RPA-LFS	NR	visual	pepper samples	similar to RT-PCR	no cross-reactivity with CMV, PepMoV, PMMoV, BBWV2	e	plant
+R03777	HBV	human	NA	MCDA + polymer nanoparticle LFB	polymer nanoparticles	visual	donor sera	NR	NR	e	
+R03780	dengue NS1 and IgM	human	Ag/Ab	6 RDT kits	NR	visual	pre-characterised dengue and febrile samples	NR	Standard Q NS1 sens 87.0%, IgM 84.3%; Bioline NS1 68.5%; Multisure IgM 58.3%	h	commercial
+R03783	SARS-CoV-2	human	NA	CASSPIT: Cas13 saliva workflow, LFA readout	NR	visual and smartphone	saliva COVID-19 samples	~200 copies (visual)	97% positive agreement with RNA extraction	e	CRISPR;smartphone
+R03788	influenza A/B	human	Ag	QuickVue + thermal contrast amplification	gold (photothermal readout)	thermal reader	clinical samples	improved sensitivity (value NR)	vs PCR	f	thermal readout
+R03790	duck enteritis virus	livestock (duck)	Ag	colloidal gold ICA, mAbs	colloidal gold	visual	infected cell cultures, experimentally infected ducks	2.52 x 10^3 TCID50/mL	80% concordance with PCR (cloacal swabs); 100% in tissues	i	veterinary
+R03791	SARS-CoV-2 IgG	human	Ab	spectrochip-coupled quantitative LFIA	NR	spectrochip reader	spiked recombinant IgG	186 pg/mL	NR	f	reader;quantification
+R03795	SARS-CoV-2	human	Ag	false positives of rapid antigen tests (case report)	NR	visual	inpatients	NR	NR	h	commercial;case report;scope-check
+R03796	ASFV	livestock (pig)	NA	RAA-LFA without extraction	NR	visual	blood	10 copies/uL (10x below PCR/qPCR)	NR	e	veterinary
+R03802	SARS-CoV-2 antibodies	human	Ab	vertical flow cellulose-based assay	NR	visual	clinical sera	NR	consistent with bead-based chemiluminescence immunoassay	d	vertical flow
+R03803	SARS-CoV-2 IgG/IgM	human	Ab	seroprevalence in Japanese patients (CMIA, rapid test)	NR	NR	114 samples from 34 patients	NR	IgG by CMIA 100% beyond 2 weeks	z	scope-check;immunology
+R03808	H7 avian influenza	livestock (poultry)	Ag	ICS	NR	visual	chicken swab samples	2.4 log10 EID50/0.1 mL	NR	i	veterinary
+R03823	SARS-CoV-2 nucleic acid	human	NA	catalytic hairpin assembly + LFIA	NR	visual	15 patients, 15 healthy	2000 copies/mL	100% PPA and NPA	e	enzyme-free amplification
+R03827	SARS-CoV-2	human	NA	RT-RPA + VirD2-dCas9 LFA (Vigilant)	NR	visual	clinical samples	2.5 copies/uL	no cross-reactivity with SARS-CoV-1 or MERS	e	CRISPR-like
+R03829	NR (model)	NR	Ag	CBM-fused antibodies on cellulose-based LFIA	NR	visual	NR	enhanced sensitivity (value NR)	NR	d	antibody engineering;scope-check
+R03830	SARS-CoV-2	human	Ag	7 commercial AgPOCTs	NR	visual	138 clinical samples with quantified viral load	95% LOD 2.07 x 10^6 - 2.86 x 10^7 copies/mL (six of seven)	NR	h	commercial
+R03840	SARS-CoV-2	human	NA	FnCas9 (FELUDA) with lateral flow readout	NR	visual	clinical samples	NR	sens 100%, spec 97%	e	CRISPR
+R03855	SARS-CoV-2	human	Ag	four rapid antigen tests, algorithm	NR	visual	routine samples	NR	overall sens 83.3%	h	commercial;algorithm
+R03861	Zika virus	human	Ab/Ag	ELISA and rapid ICT using engineered NS1	NR	visual	characterised patient plasma	NR	sens 71-88% depending on test	h	new assay;antigen engineering
+R03873	SARS-CoV-2	human	Ag	lateral flow devices in asymptomatic screening	NR	visual	~800 samples, Liverpool/care homes	NR	validated vs PCR (values NR)	h	commercial
+R03894	SARS-CoV-2	human	Ag	GenBody COVAG025	NR	visual	130 retrospective + 200 prospective NP swabs	NR	sens 90.00% (27/30 subset) retrospective; higher at Ct<=30	h	commercial
+R03900	H7 avian influenza (H7N2, H7N9)	livestock (poultry)	Ag	ICA with red silica nanoparticles	highly chromatic red silica nanoparticles (Direct Red 224)	reader (T-line gray)	NR	0.08 ng/mL (range 0.1-10 ng/mL)	NR	b	dye-doped silica
+R03904	SARS-CoV-2 antibodies	human	Ab	3 immunoassays, 3 rapid LFTs, bead-based surrogate	NR	visual	63 survivors, 50 pre-pandemic sera	NR	sens 7.0-98.3%, spec 86.0-100% across seven assays	h	commercial
+R03906	HIV-1 drug resistance mutations	human	NA	near-POC assay with visual readout	NR	visual	16 plasma samples	100 plasmid copies	more sensitive than Sanger	e	genotyping
+R03909	SARS-CoV-2 antibodies	human	Ab	national serosurveys with lateral flow	NR	visual	365,000 adults, England	NR	prevalence	z	scope-check;seroprevalence
+R03922	SARS-CoV-2 N protein	human	Ag	ICA kit	NR	visual	samples 1-9 days after onset	>0.2 ng/mL recombinant N	no cross-reaction with MERS-CoV and others	a	new assay
+R03923	SARS-CoV-2	human	Ag	single lateral flow antigen test	NR	visual	494 patients	NR	sens 76.2%, spec 97.3%; adjusted sens 97.7%, NPV 99.2%	h	commercial
+R03925	SARS-CoV-2 antibodies	human	Ab	colloidal gold ICS false positives in autoimmune disease	colloidal gold	visual	disease controls (n=95), healthy (n=120)	NR	Wondfo spec 94.74% (disease), 97.5% (healthy)	h	commercial;specificity
+R03930	dengue NS1	human	Ag	microfluidic paper-based DEN-NS1-PAD	NR	visual	219 sera	0.78 (unit NR in abstract)	sens 88.89%, spec 86.67%, kappa 0.7522 vs nested PCR	d	paper device
+R03931	HPV	human	NA	G-triplex CRISPR-Cas12a reporter, fluorescence and LFA	NR	fluorescence and LFA	27 PCR-amplified patient samples	0.1 amol (one copy/reaction)	sens 94.7%, spec 100%	e	CRISPR
+R03933	SARS-CoV-2 antibodies	human	Ab	4 CLIAs and 1 LFIA (Technogenetics) for seroprevalence	NR	visual	NR	NR	kappa 0.67-0.69 (Abbott, Siemens, Roche)	h	commercial
+R03942	SARS-CoV-2	human	Ag	rapid antigen tests in asymptomatic ED patients	NR	visual	emergency department	NR	NR	h	commercial;scope-check
+R03943	SARS-CoV-2	human	NA	microfluidic-integrated lateral flow RPA (MI-IF-RPA)	NR	visual	armored RNA; clinical COVID cases	1 copy/uL (30 copies/sample)	sens 97%, spec 100%	e	microfluidic
+R03948	SARS-CoV-2	human	Ag	2 antigen devices with modified extraction protocol	NR	visual	401 NP swabs	NR	NR	h	commercial;assay modification
+R03953	dengue	human	Ag/Ab	rapid test in passive surveillance	NR	visual	southern Malaysia	NR	NR	z	scope-check;surveillance
+R03956	ASFV	livestock (pig)	NA	RPA + lateral flow gene assay (LFGA), AuNP	gold nanoparticles	visual	blood samples	10^2 copies/uL	specific vs CSFV	e	veterinary
+R03958	SARS-CoV-2	human	Ag	rapid antigen screening of HCWs	NR	visual	HCWs	NR	no antigen positives; 2 RT-PCR positives	h	commercial;scope-check
+R03971	SARS-CoV-2	human	Ab	serological RDT in household contact tracing	NR	visual	child index cases	NR	NR	z	scope-check
+R03973	scale drop disease virus	aquatic (Asian sea bass)	NA	UCPA with colorimetric (HNB) and LFD detection	NR	visual	25 infected fish	100 viral copies/uL; 10 pg total DNA (10x below PCR)	all 25 positives detected	e	aquaculture
+R03976	HBeAg	human	Ag	3 HBeAg RDTs	NR	visual	Malawi patients	NR	sens 28%, 53%, 72%; spec 96-100%; kappa 0.9-1.0	h	commercial
+R03977	SARS-CoV-2	human	Ag	retrospective rapid antigen vs RT-PCR	NR	visual	412 antigen-negative cases	NR	NR	z	scope-check
+R03985	HBsAg	human	Ag	hydrazide-assisted oriented antibody-AuNP conjugation	gold nanoparticles	visual	NR	less labelled antibody (0.2 mg/pmol AuNPs); LOD NR	NR	a	conjugation chemistry
+R03994	feline panleukopenia virus	companion animal	Ag	IC test as tool	NR	visual	98 diarrheic cats, Bangladesh	NR	IC sens 44.44%, spec 100% vs PCR	z	scope-check;molecular epidemiology
+R03997	SARS-CoV-2 B.1.1.7	human	Ag	lateral flow antigen tests (letter, no abstract)	NR	visual	live cultured virus	NR	NR	h	letter;scope-check
+R03999	hepatitis B virus	human	NA	CRISPR/Cas12 with fluorescence and lateral flow	NR	visual (LF)	73 clinical samples	1 copy/uL	sens 100%, spec 100% vs qPCR	e	CRISPR
+R04004	SARS-CoV-2	human	Ag	Ag-RDT with self-collected anterior nasal swabs	NR	visual	symptomatic patients, 70 RT-PCR positives	NR	sens 88.6% (78.7-94.9); 96.7% (59/61) at >=10^6 copies	h	commercial
