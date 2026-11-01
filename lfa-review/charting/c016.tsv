@@ -1,0 +1,53 @@
+R04503	SARS-CoV-2 nucleocapsid	human	Ag	antigen-detecting LFA	NR	visual	gamma-irradiated virus on swabs	4 TCID50/swab	meets WHO target product profile	d	new assay
+R04512	RNA virus (model)	NR	NA	RPA-LFT with primer-labelling vs nuclease-dependent probe	NR	visual	NR	10^3 RNA copies in reaction; 22x lower half-max binding concentration than probe-dependent	NR	e	assay design;scope-check
+R04514	SARS-CoV-2, influenza	human	NA	duplex RT-RPA integrated lateral flow strip	NR	visual	15 SARS-CoV-2+, 10 flu+, 5 negative samples	10 viral RNA copies	100% accuracy	e	multiplex
+R04515	HBsAg	human	Ag	ICT vs ELISA vs PCR	NR	visual	PCR-confirmed HBV infection	NR	ICT sens 97%, spec 91%; ELISA sens 78%, spec 76%	h	commercial
+R04517	PEDV	livestock (pig)	Ag	latex bead LFIA with filter pad	latex beads (colour-rich)	visual	swine faecal samples	10^3.60 TCID50/mL	92.59% agreement with RT-PCR	b	latex;veterinary
+R04519	SARS-CoV-2 neutralizing antibodies	human	Ab	competitive LFA of RBD-ACE2 blocking	NR	visual	finger-prick blood	NR	NR	d	functional assay
+R04521	SARS-CoV-2 antibodies	human	Ab	2 LFAs vs ELISA and Abbott CLIA	NR	visual	60 individuals	NR	NR	h	commercial
+R04525	SARS-CoV-2 antibodies	human	Ab	self-test LFIAs (REACT-2)	NR	visual (self-read)	key workers	NR	self-test sens 82.1% (77.7-86.0), nurse-performed 76.4%; spec 97.8%, 98.5%	h	commercial;self-test
+R04535	SARS-CoV-2 antibodies	human	Ab	3D-printed LFA fabrication	NR	visual	NR	NR	NR	d	fabrication;scope-check
+R04540	SARS-CoV-2	human	Ag	14 RATs	NR	visual	400 clinical samples, 50 controls	LOD Ct 26.8-34.7	best RATs sens 99.1% (Ct<=30), 90.9% (Ct<=33)	h	commercial
+R04542	SARS-CoV-2 nucleocapsid	human	Ag	LFIA in 3D-printed casing with on-demand nanozyme enhancement	nanozyme (catalytic colour)	visual	undiluted serum	0.1 ng/mL	NR	c	nanozyme
+R04547	SARS-CoV-2 nucleocapsid	human	Ag	LFIA with NP-mAb-7 and -40	NR	visual	60 clinical samples	8 pg NP; 625 TCID50/mL virus	spec 100%, sens 90% at Ct<29.5	a	antibody pairs
+R04550	SARS-CoV-2	human	Ag	antigen RDT for resource-limited settings	NR	visual	40 positive, 40 negative	2.0 x 10^2 TCID50/mL	sens 87.5%, spec 100%	h	new assay
+R04560	HCV	human	NA	paper microfluidic LAMP	NR	NR (readout not stated)	NR	NR	NR	z	scope-check;LFA not stated
+R04562	SARS-CoV-2	human	Ag	pooling with rapid antigen test	NR	visual	NR	NR	NR	h	commercial;pooling;scope-check
+R04575	RSV	human	Ag	ImmuView RSV, BinaxNOW	NR	visual	333 adults, Sweden	NR	sens 27% both; spec 98% and 100%	h	commercial
+R04576	rabies virus	companion animal (dog)	Ag	LFD with straw sampling	NR	visual	97 dog brain samples	NR	sens 94.3% (84.3-98.8), spec 100% (92.0-100) vs dFAT	h	veterinary;commercial
+R04577	dengue serotypes 1-4	human	Ag	serotype-specific NS1 capture ICA	NR	visual	DENV isolates and patient sera	10^4 copies/mL	serotype specificity ~100%	g	multiplex
+R04578	nucleic acids (model)	NR	NA	MagR-MazE fusion protein-conjugated magnetic nanoparticles	magnetic nanoparticles	NR	NR	0.013 ng/uL dsDNA	NR	d	magnetic;scope-check
+R04593	SARS-CoV-2 antibodies	human	Ab	12 LFAs	NR	visual	100 RT-PCR+ sera, 105 pre-pandemic	NR	sens 37.4-79% (IgM/IgG), improved >=21 days	h	commercial
+R04594	SARS-CoV-2	human	NA	self-contained microfluidic CRISPR system	NR	visual (likely LF; not stated)	24 NP swabs	100 copies	sens 94.1%, spec 100%, accuracy 95.8%	e	CRISPR;scope-check
+R04600	HIV-1 DNA viral load	human	NA	isothermal amplification with internal control, quantitative LF readout	NR	scanner and densitometry	NR	distinguishes <=600 or >=1400 copies at 1000-copy threshold	NR	e	quantitative
+R04602	potato virus Y	plant	NA	one-step RT-RPA-LF	NR	visual	NR	NR	NR	e	plant
+R04603	HBV	human	NA	MIRA + LFD	NR	visual	45 clinical samples	10 pg	NR	e	
+R04607	dengue NS1	human	Ag	AsiaGen Dengue NS1 RDT vs SD Bioline	NR	visual	acute-phase sera, Taiwan 2015	NR	AsiaGen sens 96.9%, spec 100%; SD sens 100%, spec 100%	h	commercial
+R04612	ASFV antibodies	livestock (pig)	Ab	colloidal gold dual ICS	colloidal gold	visual	NR	1:256 (equal to ELISA)	NR	i	veterinary
+R04613	SARS-CoV-2	human	NA	Bio-SCAN CRISPR/dCas9 lateral flow	NR	visual	86 NP swabs	4 copies/uL	PPA 96%, NPA 100%	e	CRISPR
+R04614	SARS-CoV-2	human	Ag	magnetic-focus-enhanced LFA	magnetic particles (blue dots)	visual	PBS, saliva, nasal swabs	400 PFU/mL (PBS); 1200 PFU/mL (saliva)	sens 66.7%, spec 100% (nasal swabs)	d	magnetic
+R04615	SARS-CoV-2 antigen	human	Ag	LFIA with SERS registration	SERS nanotags	SERS reader	NR	0.1 ng/mL (SERS) vs 1 ng/mL qualitative LFIA	NR	f	SERS;scope-check
+R04617	FMDV	livestock	Ag	multiplex LFIA with pan-reactive and serotype-specific mAbs	NR	visual	reference strains, epithelium homogenates	NR	hook effect mitigated by mAb alignment	g	multiplex;veterinary
+R04622	SARS-CoV-2	human	Ag	30 RATs (VALIDATE)	NR	visual	4 laboratories	NR	sens 43.5-98.6% (10^5), 62.3-100% (10^6), 66.7-100% (10^7 copies/mL); 50% failure rate	h	commercial
+R04626	HIV, syphilis	human	Ab	dried tube specimen panel for dual RDT proficiency	NR	visual	2 clinical sites	NR	100% correlation with lab; kappa 1.0	h	quality assurance
+R04629	SARS-CoV-2	human	NA	RNA extraction-free LFA with chemical probes and Cyst-AuNPs	cysteamine-capped AuNPs	visual	60 clinical samples	NR	accuracy and spec ~99.99% vs TaqPath	e	extraction-free
+R04630	hepatitis delta virus	human	Ab	rapid HDV antibody POC test	NR	visual	474 patient samples	NR	sens 94.6% (314/332), spec 100% (142/142) vs ELISA	h	new assay
+R04631	badnavirus (chinaberry)	plant	NA	LAMP-LFD	NR	visual	NR	NR	NR	e	plant
+R04632	sacbrood virus (honeybee)	other (honeybee)	Ag	IC kit, polyclonal/monoclonal antibodies	NR	visual	50 positive, 50 negative samples	1.38 x 10^3 copies (VP1 pair); 1.38 x 10^4 (VP2 pair)	vs real-time PCR	i	insect virus;scope-check
+R04645	SARS-CoV-2	human	NA	RT-LAMP PaGeR with lateral dipstick	NR	visual	17 patient, 55 normal RNA samples	NR	15/17 positive; 55/55 negative	e	device
+R04649	Micropterus salmoides rhabdovirus	aquatic (largemouth bass)	NA	RPA-LFD	NR	visual	NR	170 copies/uL (100x below PCR)	NR	e	aquaculture
+R04658	yellow fever virus IgM	human	Ab	SD Biosensor Standard Q Yellow Fever IgM	NR	visual	Ghana	NR	sens 96.3%, spec 97.9%, accuracy 97.5% vs IgM-capture ELISA	h	commercial
+R04661	PRRSV	livestock (pig)	NA	RT-RPA-LFD	NR	visual	179 samples	0.56 TCID50/reaction (more sensitive than RT-PCR)	vs RT-qPCR	e	veterinary
+R04664	rotavirus	human	Ag	ICT vs ELISA	NR	visual	184 stools, Bangladesh	NR	ICT sens 90.70%, spec 93.88%	h	commercial
+R04673	SARS-CoV-2	human	NA	RPA + DNA-templated reaction, fluorescence and LF	NR	visual (LF)	NR	NR	NR	e	dual-mode
+R04675	bean pod mottle virus	plant	NA	RT-CPA-LFD	NR	visual	soybean seeds	NR (less sensitive than TaqMan RT-PCR)	better in field samples	e	plant
+R04680	SARS-CoV-2	human	Ag	LFAs vs RT-qPCR (letter, no abstract)	NR	visual	NR	NR	NR	h	letter;scope-check
+R04683	HBV DNA	human	NA	LFB with Au@Pt nanorods (oxidase-like, no H2O2)	Au@Pt nanorods (nanozyme)	visual (catalytic)	NR	8.5 pM (range 0.1-50 nM)	NR	c	nanozyme
+R04694	ASFV antibodies	livestock (pig)	Ab	double-antigen sandwich LFA, AuNP-labelled acid-treated p72	gold nanoparticles	visual	serum	1:10,000 serum dilution	NR	a	antigen treatment;veterinary
+R04696	SARS-CoV-2	human	NA	CRICOLAP: RT-LAMP + Cas12a, LFS and fluorescence	NR	visual (LFS)	60 NP samples	1 copy/uL	sens 97.5% (S), 100% (N); spec 100%	e	CRISPR
+R04707	nucleic acids (general)	NR	NA	CLIPON: CRISPR + hCG on pregnancy test strips	commercial pregnancy strip	visual	NR	NR	NR	e	repurposed strips;scope-check
+R04715	HBsAg	human	Ag	3 rapid card tests vs CLIA	NR	visual	NR	NR	NR	h	commercial
+R04717	dengue	human	Ag/Ab	4 RDTs (Multisure, Dengucheck, SD Bioline Duo, Dengue Day 1)	NR	visual	241 positive, 247 negative sera	NR	NS1/IgM sens and spec vs ELISA (values NR in abstract)	h	commercial
+R04719	Ebola virus	human	Ag	OraQuick Ebola RDT postmortem	NR	visual	443 cadavers, DRC	NR	no false negatives, 2% false positives	h	commercial
+R04720	SARS-CoV-2, influenza A/B	human	Ag	dual-position ICA kit	NR	visual	NR	NR	SARS-CoV-2 sens 97.4%, spec 100%; influenza 100% each	g	multiplex
+R04727	feline calicivirus	companion animal	NA	ERA-LFD	NR	visual	23 samples	3.2 TCID50/reaction	14/23 positive, equal to RT-qPCR	e	veterinary
