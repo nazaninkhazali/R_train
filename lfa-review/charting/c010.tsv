@@ -1,0 +1,51 @@
+R03020	Lassa virus	human	Ag	Pan-Lassa RDT (ReLASV)	NR	visual	Nigerian outbreak patients	NR	sens 83.3%, spec 92.8% vs composite qPCR; 100% positive when Ct <22	h	commercial
+R03032	SARS-CoV-2 IgM	human	Ab	COVID-19 antibody responses	NR	NR	COVID-19 patients	NR	NR	z	scope-check;immunology
+R03033	HBsAg	human	Ag	whole-blood RDT strip	NR	visual	55 HBV+ and 20 HBV- individuals, Netherlands	NR	sens 100%, spec 100%	h	letter
+R03034	HIV	human	Ab	5 confirmatory assays (WB, immunoblot)	NR	NR	43 recent infections	NR	indeterminate WB 30% and 42% vs 2-7% for other assays	z	scope-check;not LFA
+R03039	HPV16	human	NA	LAMP-LFS amplicon elucidation	NR	visual	plasmid and clinical samples	NR	NR	e	assay development
+R03041	CCHFV nucleoprotein	human	Ag	Affimer-based colorimetric diagnostic tests	NR	visual	NR	NR	NR	d	binder;scope-check
+R03042	African swine fever virus	livestock (pig)	NA	RPA-LFD	NR	visual	NR	1 x 10^2 copies/reaction (equal to real-time PCR)	no cross-reaction	e	veterinary
+R03043	SARS-CoV-2	human	Ab	Autobio rapid test	NR	visual	COVID-19 patients	NR	pattern vs severity	h	commercial
+R03046	SARS-CoV-2	human	Ab	two ICG cards, one fluorescent card, one CLIA	NR	visual/fluorescent	43 positive samples	NR	NR	h	commercial
+R03048	PPRV	livestock	Ag	rapid antigen detection methods	NR	visual	animal trial; nasal/ocular/faecal	NR	spec 100% for all rapid antigen methods; faecal least suitable	h	veterinary;commercial
+R03052	SARS-CoV-2 IgM/IgG	human	Ab	colloidal gold ICA, S1 fragments	colloidal gold	visual	75 cases, 139 controls	NR	IgM sens 90.67%, spec 97.84%, accuracy 95.33%	a	new assay
+R03053	grouper nervous necrosis virus	aquatic (fish)	Ag	LFB with aptamer-based isolation	gold nanoparticles	visual	grouper brain cells	5 ng/mL RGNNV-CP; 5 x 10^3 infected GB cells	NR	a	aptamer;aquaculture
+R03061	rabies virus	companion/livestock	Ag	BioNote rapid kit	NR	visual	179 brain samples, Bhutan	NR	115 positive and 54 negative concordant with FAT	h	commercial;veterinary
+R03065	SARS-CoV-2 IgG/IgM	human	Ab	Orient Gene COVID-19 IgG/IgM cassette	NR	visual	patient and negative panels	NR	sens 95.8% (89.6-98.8) at >=10 days; spec 100% (93.4-100)	h	commercial
+R03073	SARS-CoV-2 IgM	human	Ab	AuNP lateral flow	colloidal gold nanoparticles	visual	COVID-19 patients and normal sera	NR	sens 100%, spec 93.3%, kappa 0.872	a	new assay
+R03074	BK polyomavirus	human	NA	nucleic acid LFIA	NR	visual	E. coli BKV plasmid cultures	5 nM synthetic ssDNA; 10^7 copies/mL	no cross-reactivity with JC virus, SV40	e	
+R03078	SARS-CoV-2	human	Ab	6 commercial immunoassays vs microneutralisation	NR	NR	70 patient, 81 negative sera	NR	e.g. Architect spec 95.1%, sens 80.5%	h	commercial;scope-check
+R03081	SARS-CoV-2 IgG	human	Ab	LFIA strip	NR	visual	COVID-19 sera	NR	NR	a	new assay
+R03092	SARS-CoV-2	human	Ag	BIOCREDIT COVID-19 Ag	NR	visual	respiratory samples	LOD varied vs culture and RT-PCR	NR	h	commercial
+R03096	SARS-CoV-2 nucleocapsid	human	Ag	half-strip LFA from commercial reagents	NR	optical reader (equivalent to visual)	buffer, recombinant antigen	0.65 ng/mL (0.53-0.77)	NR	d	open reagents
+R03101	HCV	human	Ab	13 RDTs	NR	visual	1710 archived plasma, 4 countries	NR	most RDTs sens >=98% and spec >=99% in HIV-uninfected	h	commercial
+R03104	chikungunya virus E1	human	Ag	IC RDT with new mAbs	NR	visual	isolates; Aruba 2015, Bangladesh 2017 samples	NR	improved sensitivity for Asian genotype (values NR)	h	new assay;mAb
+R03105	Newcastle disease virus	livestock (poultry)	NA	RT-RAA-LFD and real-time RT-RAA	NR	visual	chickens	10^2 copies/uL (LFD; 10x below PCR); 10 copies/uL (real-time)	NR	e	veterinary
+R03110	dengue (model)	human	Ag	dipstick immunoprobe aggregation	gold nanoparticles	visual	NR	NR	NR	a	mechanism
+R03114	SARS-CoV-2 IgM/IgG	human	Ab	Wondfo lateral flow test in population surveys	NR	visual	household surveys, Rio Grande do Sul	NR	pooled sens 84.8% (81.4-87.8), spec 99.0%	h	commercial
+R03119	oseltamivir-resistant influenza (NA mutant)	human	Ag	A4 antibody on sensing platforms incl. naked eye	NR	naked eye, SERS, etc.	NR	NR	NR	d	antibody;multi-platform;scope-check
+R03122	COVID-19	human	NA	clinical predictors	NR	NR	110 patients	NR	NR	z	scope-check
+R03124	milk vetch dwarf virus	plant	NA	RPA-LFS	NR	visual	NR	10^1 copies/reaction (RPA-LFS); PCR gel 10^3	NR	e	plant
+R03125	rabies virus	companion/livestock	Ag	rabies RIDT, modified protocol	NR	visual	brain samples	NR	sens 98% vs DFA	h	commercial;veterinary
+R03127	dengue	human	Ag/Ab	colorimetric and fluorimetric RDTs	colorimetric and fluorimetric	visual/reader	imported cases, Lazio	NR	colorimetric sens 87.2%, spec 97.9%; fluorimetric 96.2%/96.2%	h	commercial
+R03130	banana bract mosaic virus	plant	Ag	LFIA	NR	visual	114 banana leaves	10 ng rBBrMV CP; 1:20 crude extract	sens 99.04%, spec 100%; kappa 0.861 vs ELISA	i	plant
+R03132	HBsAg, anti-HCV	human	Ag/Ab	19 commercial RDTs	NR	visual	270 Mongolian sera	NR	HCV Ab RDT mean sens 98.9%, spec 96.7%; false positives 10.2x in HBsAg+	h	commercial
+R03137	HBsAg	human	Ag	4 RDTs	NR	visual	405 whole blood + 699 plasma, Ivory Coast	NR	Determine and Vikia sens 100%, spec 100%	h	commercial
+R03138	dengue NS1	human	Ag	5 NS1 RDT brands	NR	visual	100 confirmed, 49 non-dengue, Indonesia	NR	sens 73-80%, spec 100%	h	commercial
+R03141	SARS-CoV-2	human	NA	multiplex RT-LAMP + nanoparticle LFB	nanoparticle (gold)	visual	33 positive, 96 negative swabs	12 copies/reaction/target	sens 100% (33/33), spec 100% (96/96)	e	multiplex
+R03142	HBsAg	human	Ag	8 HBsAg RDTs, Burkina Faso	NR	visual	109 positive, 216 negative	NR	spec >=99% (except Accucare); sens 90.8-92.8%	h	commercial
+R03146	SARS-CoV-2 IgG/IgM avidity	human	Ab	LFIA with urea dissociation	NR	visual	76 patients	NR	NR	h	assay modification;commercial
+R03150	SARS-CoV-2 IgG/IgM	human	Ab	Onsite CTK and Encode lateral flow assays	NR	visual	health-care workers, UK	NR	Encode IgG sens 93.4% (87.8-96.9), spec 99%	h	commercial
+R03165	SARS-CoV-2 nucleocapsid	human	Ag	DNA aptamer pair discovery	NR	NR	NR	Kd < 5 nM	NR	a	aptamer;scope-check
+R03167	SARS-CoV-2	human	Ab	5 PoCT LFDs vs ELISA and sVNT	NR	visual	Australia	NR	ELISA sens 67.9% (93.8% at >14 d); sVNT sens 60.9%	h	commercial
+R03168	SARS-CoV-2 IgG/IgM	human	Ab	LFA in convalescent plasma donors	NR	visual	63 donors	NR	diverse antibody results	h	commercial;scope-check
+R03178	SFTSV nucleoprotein antibody	human	Ab	double-antigen ELISA and ICA	NR	visual	time-sequential samples, 4 patients	NR	antibody detectable days 4-7	h	new assay
+R03188	SARS-CoV-2/dengue cross-reactivity	human	Ab	serology cross-reactivity	NR	NR	55 SARS-CoV-2 sera	NR	22% (21/95) dengue sera SARS-CoV-2 S positive/equivocal vs 4% controls	z	scope-check;serology
+R03190	Ebola virus, Lassa virus	human	NA	SHERLOCK Cas13a with fluorescent and lateral flow readouts	NR	visual (LF)	clinical samples	NR	NR	e	CRISPR
+R03200	SARS-CoV-2	human	Ab	colloidal gold ICA (no abstract)	colloidal gold	visual	NR	NR	NR	a	no abstract
+R03215	SARS-CoV-2	human	NA	SHERLOCK Cas13a, fluorescence and lateral flow	NR	visual (LF)	154 NP/throat swabs, Thailand	42 RNA copies/reaction	LF readout sens 97%, spec 100%; fluorescence sens 100%, spec 100%	e	CRISPR
+R03219	HBsAg, anti-HCV	human	Ag/Ab	6 RDTs	NR	visual	300 sera, Lubumbashi	NR	sens 100%, NPV 100%; spec 46-98.1%	h	commercial
+R03222	norovirus, rotavirus	human	Ag	QuickNavi-Norovirus and rotavirus RDTs	NR	visual	358 stools, Bangkok	NR	sens 27.5% (NoV), 44.8% (RV); spec 97.7%, 91.6%	h	commercial
+R03224	chikungunya virus E1/E2	human	Ag	lateral flow test and ELISA	NR	visual	100 PCR-tested samples, Honduras (ELISA)	NR	ELISA sens 51%, spec 96.67% (95.45%/92.03% at Ct<=22)	h	new assay
+R03232	FMDV SAT1, SAT3	livestock	Ag	2 lateral flow test strips	NR	visual	NR	NR	SAT3 strip similar to DAS-ELISA, SAT1 lower	i	veterinary
+R03236	RSIV, VHSV	aquatic (fish)	NA	PCR + lateral flow assay	NR	visual	fish samples	NR	NR	e	aquaculture;multiplex
