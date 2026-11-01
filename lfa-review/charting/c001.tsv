@@ -1,0 +1,40 @@
+R01352	BRSV	livestock	Ag	commercial human RSV immunomigration assays (TruRSV, Clearview RSV)	NR	visual	nasal/tracheal swabs, 26 farms	NR	vs RT-PCR; kappa 0.824 (TruRSV), 0.420 (Clearview); herd positivity 73.1%	h	veterinary;off-label use
+R01478	HCV	human	Ab	OraQuick HCV rapid antibody test	NR	visual	oral fluid; 60 HCV+, 100 controls	NR	vs PCR; sens 88.33%, spec 100%	h	commercial
+R01494	feline coronavirus	companion animal	Ab	3 commercial rapid immunochromatographic tests vs IFAT/ELISA	NR	visual	serum/plasma/effusion	NR	Speed F-Corona sens 92.4%; FASTest FIP 84.6%; Anigen 64.1%; spec 100% (RIM); vs consensus panel	h	veterinary;commercial
+R01551	rotavirus	human	Ag	7 commercial antigen assays incl. one ICT vs in-house PCR	NR	visual	stool	NR	sens 80-100%; spec 54.3% (one ICT), 99.4-100% others; vs in-house PCR	h	commercial;scope-check
+R01563	chikungunya virus	human	Ag	sandwich ICT with mouse mAbs	NR	visual	serum, 112 suspected cases (Thailand, Laos, Indonesia, Senegal)	NR	sens 89.4%, spec 94.4%, RT-PCR agreement 91.1%	h	new assay
+R01570	influenza A (H1N1)	human	NA	RT-LAMP + immunochromatographic strip on centrifugal microdevice	NR	visual	viral RNA	10 copies viral RNA	NR	e	multiplex;microfluidic
+R01571	RSV	human	Ag	Sofia FIA vs BinaxNOW and SD Bioline	fluorescent (Sofia); colorimetric (BinaxNOW, SD Bioline)	NR	348 respiratory samples	NR	sens RSV-A 66/65/64%; RSV-B 71/63/65% (Sofia/Binax/SD)	h	commercial
+R01574	HPV16/18	human	NA	multiplex nested PCR + ICT	NR	visual	DNA	100 copies HPV DNA	NR	e	multiplex
+R01579	influenza A group 1 (receptor specificity)	other (avian/human)	Ag	strip with sialylglycopolymer-latex (blue/red)	latex	visual	virus preparations	>128 HA units	correlation >0.95 vs ELISA	b	receptor-binding;latex
+R01581	influenza A (H1N1,H3N2,H5N1)	human	NA	multiplex RT-LAMP + ICS	NR	visual	clinical samples (n NR)	10 copies RNA	NR	e	multiplex
+R01589	Japanese encephalitis virus	human/animal	NA	RT-LAMP + LFD	NR	visual	14 serum samples	5 pg RNA (10x more sensitive than RT-LAMP-calcein)	no false positives in 14 sera	e	
+R01590	influenza A H7N9	human	Ag	seasonal influenza RDTs vs PCR	NR	NR	clinical samples	NR	low sensitivity in upper respiratory samples (value NR)	h	commercial
+R01600	dengue	human	Ag/Ab	SD Bioline Dengue Duo; Panbio Dengue Duo Cassette (+2 ELISAs)	NR	NR	1021 febrile individuals + 135 archived	NR	SD Bioline sens 87.3% (84.1-90.2), spec 86.8% (83.9-89.3); Panbio cassette sens 92.1%, spec 62.2%; vs virus isolation/ELISA/PRNT algorithm	h	commercial
+R01601	HIV-1	human	Ab	Geenius HIV 1/2 confirmatory ICT on dried blood spots	NR	visual	DBS, 70 HIV+ and 25 negatives	NR	spec 100% (86.2-100); confirmed all positives; vs western blot	h	commercial
+R01604	dengue (IgG/IgM)	human	Ab	stacking-flow paper immunoassay	NR	visual/quantitative	saliva	~20 ng/mL AFP in serum (model analyte)	NR	d	flow engineering;scope-check
+R01608	MERS-CoV	livestock (camel)	Ag	ICA with mAbs	NR	visual	nasal swabs, camels	NR	sens 93.90%, spec 100% vs RT-PCR	i	veterinary
+R01611	HIV	human	Ab	3 RDT tiebreaker algorithm + Immunocomb confirmation	NR	visual	2620 subjects, Ethiopia	NR	serial algorithm PPV 99.5% (97.3-100); tiebreaker PPV 92.7%; vs WB/PCR	h	algorithm;commercial
+R01617	dengue, yellow fever, Ebola	human	Ag	multiplexed LFA	multicolored silver nanoplates	visual	NR	NR	NR	g	multiplex;silver
+R01620	African horse sickness	livestock (horse)	Ab	commercial LFA as comparator to a new Luminex assay	NR	NR	horse sera (92 negative, 114 experimental, 85 field)	NR	comparator only	i	scope-check;LFA comparator only
+R01621	canine parvovirus	companion animal	Ag	Quicking rapid kit	NR	visual	78 faecal samples	NR	sens 22.22% (13.27-33.57) overall; 76.47% when tested directly; spec 100%; vs PCR	h	veterinary;commercial
+R01623	dengue	human	Ag/Ab	SD Bioline Dengue Duo	NR	visual	337 febrile children, Cambodia	NR	sens 58%, spec 85% (NS1+IgM); reference NS1/IgM assays	h	commercial
+R01626	feline coronavirus	companion animal	Ab	ICA with colloidal gold-rNP conjugate	colloidal gold	visual	plasma, serum, whole blood, ascitic fluid	NR	NR	a	veterinary
+R01627	influenza A/B	human	NA	Alere i isothermal NAAT vs Sofia FIA and BinaxNOW ICT	NR (BinaxNOW colorimetric ICT comparator)	NR	202 NP swabs	NR	BinaxNOW detected 44.4% of flu A and 25.0% of flu B vs RT-PCR	h	commercial;scope-check
+R01632	HIV, HCV, HAV	human	Ab	multiplex LFA with ferritin-based proteinticle probes	NR	visual	20 patient sera per disease	NR	100% sens and spec (proteinticle); peptide probes 65-90% sens	g	multiplex;probe engineering
+R01633	WSSV	aquatic (shrimp, crab)	Ag	Shrimple immunoassay strip	NR	visual	1808 shrimp, 300 blue crabs	NR	87 shrimp and 11 crabs strip-positive; 1 crab PCR/bioassay confirmed	i	aquaculture;commercial;survey;scope-check
+R01642	fish nervous necrosis virus (nodavirus)	aquatic (fish)	NA	RT-PCR + AuNP lateral flow biosensor	AuNP	visual	fish total RNA	270 pg initial total RNA	NR	e	aquaculture
+R01646	dengue NS1	human	Ag	NS1 RDT with in-house mAbs	NR	visual	clinical NS1+ samples from endemic countries	NR	sens 92.9% vs 83.3% for SD Bioline NS1; spec 100%	h	new assay
+R01652	lily symptomless virus	plant	Ag	DAS ICS	colloidal gold	visual	field leaf samples	6.0 x 10^-8 mg/mL (same as quadruplex RT-PCR)	sens 100%, spec 98.6%; kappa 0.983 vs quadruplex RT-PCR	i	plant
+R01655	measles	human	Ab	IgM POCT on oral fluid	NR	visual	oral fluid, 103 suspected cases	NR	sens 75.0% (63.4-84.5), spec 96.2% (80.4-99.9); vs EIA/PCR	h	used strips for RNA (secondary)
+R01657	influenza A/B	human	NA	multiplex DPO PCR (ICT as comparator)	NR	NR	233 clinical samples	NR	DPO-PCR more sensitive than ICT	z	scope-check;PCR not LFA
+R01662	lily mottle virus	plant	Ag	DAS ICS	colloidal gold	visual	NR	8.0 x 10^-9 mg/mL (agrees with quadruplex RT-PCR)	sens 100%, spec 98.7%; kappa 0.982	i	plant
+R01666	HIV, syphilis	human	Ab	SD Bioline HIV/syphilis Duo	NR	visual	400 sera for HIV (200+/200-)	NR	HIV sens 100%, spec 99.5%; vs national RDT algorithm/ELISA	h	commercial;multiplex
+R01667	soft-shelled turtle systemic septicemia spherical virus	aquatic (turtle)	Ag	competitive ICS with IgY probe	colloidal gold	visual	turtle and faecal samples	50.0 ug/mL (visual)	good agreement with ELISA (values NR)	i	aquaculture
+R01674	dengue	human	Ag/Ab	SD Bioline Dengue Duo stability under temperature	NR	visual	control sera	NR	100% consistency over 2 years	h	stability;commercial
+R01677	HIV	human	Ab	dilution testing with Determine RDT	NR	visual	2895 samples, Ethiopia	NR	dilution 1/160 identified all 18 false positives, 1 false negative; vs WB/PCR	h	algorithm;commercial
+R01679	HIV, syphilis	human	Ab	3 dual RDTs (SD Bioline, Chembio, MedMira)	NR	visual	1514 serum specimens	NR	HIV sens 99.0-99.6%, spec 97.9-99.0%; kappa >=0.98 inter-reader	h	commercial;multiplex
+R01680	foot-and-mouth disease virus (O, A, Asia 1)	livestock	Ag	multiplex LFI with mAbs	colloidal gold (with fluorescein/rhodamine/biotin capture tags)	visual	field isolates, tissue suspensions, swabs	NR	serotyped O (n=46), A (n=45), Asia 1 (n=17); sens comparable to DAS-ELISA for O and A	g	multiplex;veterinary
+R01681	avian leukosis virus p27	livestock (poultry)	Ag	ICS with two mAbs	NR	visual	1100 samples (cloacal swabs, meconium, isolates)	600 pg p27; 70 TCID50 virus	agreement with ELISA 93.91%, 93.42%, 100% by sample type	i	veterinary
+R01685	equine rotavirus	livestock (horse)	Ag	FASTest Rota strip and Pathfinder vs in-house ELISA	NR	visual	172 foal stool samples	NR	FASTest sens 92%, spec 97%; Pathfinder sens 32%, spec 97%	h	veterinary;commercial
+R01689	Japanese encephalitis virus	livestock (pig)	Ab	ICT with domain III antigen	NR	visual	pig serum; 1926 slaughtered pigs	NR	sens 84.8%, spec 97.7% vs IFA; 11.8% positive in survey	i	veterinary;surveillance
