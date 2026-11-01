@@ -1,0 +1,49 @@
+R04729	NR (LFA development)	NR	NR	automated liquid handling robot for LFA development	NR	NR	NR	NR	NR	d	fabrication;scope-check
+R04739	SARS-CoV-2 and betacoronaviruses	human	Ag	GlycoGrip: glycopolymer capture + gold-labelled anti-spike antibody	gold nanoparticles	visual	NR	NR	NR	d	glycan capture
+R04761	SFTSV	human	NA	RAA + CRISPR-Cas13a (fluorescent; LF not stated)	NR	fluorescence	NR	NR	NR	z	scope-check;LFA not stated
+R04764	SARS-CoV-2 neutralizing antibodies	human	Ab	NeutraXpress LFIA, longitudinal vaccine response	NR	visual	fingertip blood of vaccinees	NR	NR	h	commercial
+R04766	HIV recent infection	human	Ab	rapid test for recent infection (RTRI)	NR	visual	380 specimens, pregnant adolescents, Malawi	NR	RITA agreement >90%, kappa >0.65 vs LAg EIA RITA	h	commercial
+R04768	ASFV	livestock (pig)	NA	dipstick purification + CRISPR/Cas12a isothermal amplification (fluorescence)	NR	fluorescence visible by eye	NR	1 copy/uL	NR	z	scope-check;fluorescent readout
+R04769	SARS-CoV-2 antibodies	human	Ab	LFIA with SpA/SpG-gold conjugates	gold nanoparticles (bacterial ligands)	visual	105 sera (69 positive, 36 negative)	NR	NR	a	conjugate chemistry
+R04779	Epstein-Barr virus	human	NA	paper LFNA with asymmetric PCR and Au@SiO2 particles	gold + silicon particles	visual	NR	50 nM target DNA	lower LOD than LFNAB without PCR and Au@SiO2	e	nanoparticle
+R04785	SARS-CoV-2	human	Ag	Beanguard gargle with Ag-RDT	NR	visual	102 COVID-19 patients	NR	sens 97.8%, spec 100% (45 patients within 6 days)	d	sample collection
+R04789	ASFV, CSFV	livestock (pig)	NA	RAA nucleic acid test strip	NR	visual	NR	10^3 copies/uL; 10 pg and 12 pg viral DNA/cDNA	no cross-reaction	e	veterinary;multiplex
+R04791	HBV	human	NA	LAMP-LFD	NR	visual	150 positive plasma	NR	sens 92% (138/150), spec 100%	e	
+R04796	SARS-CoV-2 Omicron	human	Ag	9 RATs	NR	visual	115 negative, 166 positive (101 Omicron, 65 Delta)	LoD50 1.77 x 10^6 - 7.03 x 10^7 copies (Omicron) vs 1.32 x 10^5 - 2.05 x 10^6 (Delta)	up to 10-fold (LoD50) or 101-fold (LoD95) higher viral load needed for Omicron	h	commercial
+R04800	influenza	human	Ag	at-home rapid self-test	NR	visual	home users	NR	sens 61% (50-71), spec 95% (93-97)	h	commercial;self-test
+R04801	cyprinid herpesvirus 2	aquatic (goldfish)	NA	RPA-LFD	NR	visual	goldfish	satisfactory LOD (value NR)	NR	e	aquaculture
+R04805	ASFV	livestock (pig)	NA	RAA-LFD	NR	visual	30 clinical samples	200 copies/reaction	NR	e	veterinary
+R04808	HBV	human	NA	semiquantitative duplex ligation and amplification with LFIA	NR	visual	NR	NR	NR	e	semiquantitative
+R04809	SARS-CoV-2 neutralizing antibodies	human	Ab	latex microsphere bicolor LFIA	latex microspheres (bicolor)	visual	13 serum samples	~48 ng/mL	3 positives >=736 ng/mL	b	latex;multiplex colour
+R04810	feline coronavirus	companion animal	Ag	3 RIM tests vs real-time PCR	NR	visual	70 shelter cat faecal samples	NR	sens <35%	h	veterinary;commercial
+R04815	SARS-CoV-2 nucleocapsid	human	Ag	plasmon color-preserved AuNP clusters (PLASCOP)	AuNP clusters of 40 nm particles	visual	NR	0.038 ng/mL (23.8x and 5.9x lower than comparators)	specific vs influenza and other coronaviruses	a	nanoparticle clusters
+R04816	SARS-CoV-2	human	Ag	Au/Pt particle LFA read by desktop SEM (LFA-NanoSuit)	gold/platinum particles	electron microscopy	clinical samples	NR	LNSM sens 86.7% (26/30), spec 93.3% (14/15) vs qRT-PCR	f	microscopy readout
+R04818	SARS-CoV-2 variants	human	Ag	Kestrel COVID-19 Ag RDT	NR	visual	2 independent laboratories	0.156 ng/mL N protein	sens 96.49% and 98.33%, spec 100%, accuracy 99.01% and 99.44%	h	new assay
+R04823	dengue NS1	human	Ag	Biosynex Dengue NS1 RDT	NR	visual	472 samples, New Caledonia	NR	sens 79.9%, spec 96.2% vs RT-PCR	h	commercial
+R04829	SARS-CoV-2 neutralizing antibodies	human	Ab	commercial LFIA + spectrum-based reader	NR	spectrum-based reader	30 patients; 16 vaccinees	NR	AUC 0.989; sens 100%, PPV 95.7%, spec 87.5%, NPV 100%	f	reader
+R04830	ASFV	livestock (pig)	Ag	PenCheck LFA in multiple sample types	NR	visual	experimental and field samples	10^7.80 TCID50/mL (Ct <23)	less sensitive than real-time PCR	h	commercial;veterinary
+R04831	ASFV genotype II	livestock (pig)	NA	CRISPR-Cas13a lateral flow strip	NR	visual	83 clinical samples	10^1 copies/uL	100% coincidence with real-time PCR	e	CRISPR;veterinary
+R04838	SARS-CoV-2 variants	human	Ag	Abbott BinaxNOW self-test vs VOCs	NR	visual	remnant clinical samples	LOD for variants (values NR)	detected Omicron in individual samples	h	commercial
+R04839	SARS-CoV-2 N protein	human	Ag	paper-based top-readout vertical flow assay	NR	visual	NR	NR	NR	d	vertical flow
+R04841	HCV	human	Ab	Abon RDT then NAT confirmation	NR	visual	NR	NR	sens 80-83%, spec 99-100%, accuracy 90-91.5%	h	commercial
+R04848	SARS-CoV-2	human	Ag	two saliva Ag-RDTs (Rapid Response, DIAGNOS)	NR	visual	39 hospitalised, 20 HCW saliva	LOD comparable to Panbio (DIAGNOS)	DIAGNOS more sensitive than Rapid Response	h	commercial
+R04857	Senecavirus A	livestock (pig)	NA	RPA-LF	NR	visual	clinical samples	15 copies/uL	no significant difference vs qRT-PCR	e	veterinary
+R04863	HCV	human	NA	RT-RAA-LFD	NR	visual	46 anti-HCV positive RNA extracts	10 copies/uL	100% concordance with qPCR	e	
+R04865	SARS-CoV-2 IgG and neutralizing antibodies	human	Ab	rapid test kit	NR	visual	recovered and vaccinated	IgG 3.125 IU/mL; nAbs 25.00 IU/mL	IgG sens 94.37%, spec 92.50%; nAb sens 94.37%, spec 92.68%	h	commercial
+R04879	sugarcane mosaic viruses	plant	Ag	duplex LFIA with nanogold signal enhancement	nanogold	visual	NR	higher than conventional immunoassays (value NR)	NR	g	multiplex;plant
+R04887	SARS-CoV-2	human	Ag	thermometric LFIA with coloured latex beads	coloured latex beads (photothermal)	thermometer/laser	NR	1 x 10^5 particles/mm2 (10x better than colour reading)	NR	f	photothermal;latex
+R04902	ASFV antibodies	livestock (pig)	Ab	p72 trimer-based colloidal gold strip	colloidal gold	visual	positive standard and clinical sera	more sensitive than commercial ELISA (value NR)	NR	i	veterinary
+R04906	Ebola virus	human	Ag	3 Ebola RDTs in DRC	NR	visual	9157 samples, 719 GeneXpert positive	NR	sens/spec by GLMM vs GeneXpert (values NR in abstract)	h	commercial
+R04914	dengue NS1 serotypes	human	Ag	dengue serotype NS1 multiplex LFIA	NR	visual	187 patient samples; mosquitoes	NR	sens D1-D4: 90.0%, 88.24%, 82.61%, 83.33%; spec 96.13-99.39%	g	multiplex
+R04920	HIV capsid protein	human	Ag	two-wavelength imaging of composite nanoparticles	composite plasmonic nanoparticles	optical two-wavelength imaging	NR	170 fM (58-fold improvement over 50 nm AuNP single wavelength)	NR	a	optical readout
+R04924	POC diagnostics (LFA)	NR	NR	open-source smartphone system for quantitative LFA analysis	NR	smartphone	NR	NR	NR	f	smartphone;no viral target;scope-check
+R04925	HBV viral load	human	NA	RPA-LFA triage at 2 x 10^5 IU/mL	NR	visual	HBV DNA-positive plasma	threshold 2 x 10^5 IU/mL	sens 98.6% (92.7-99.9), spec 88.2% (73.4-95.3)	e	threshold test
+R04933	RHDV GI.1 and GI.2	livestock (rabbit)	Ag	duplex LFA	NR	visual	136 rabbit liver samples/exudates	NR	sens 94.4%, spec 100%	g	multiplex;veterinary
+R04934	SARS-CoV-2	human	NA/Ag	isothermal amplification + LF vs antigen LF	NR	visual	stored nasal swabs	10 RNA copies/reaction (amplification) vs 30,000 copies (antigen)	antigen PPA/NPA 82.86%/98.68% (asymptomatic), 91.67/100% (symptomatic)	h	commercial;comparison
+R04935	SARS-CoV-2 variants	human	Ag	OraSure InteliSwab vs VOCs	NR	visual	cultured variants	3.77 x 10^5 - 9.13 x 10^5 RNA copies/mL	comparable across variants	h	commercial
+R04938	SARS-CoV-2 neutralizing antibodies	human	Ab	LFIA kit + spectrometer readout, quantitative	NR	spectrometer	69 sera incl. AZ vaccinees	NR	NR	f	reader
+R04941	SARS-CoV-2 IgM	human	Ab	immunochromatographic assay in rheumatoid arthritis	NR	visual	RA patients (2014 and 2020 cohorts)	NR	false-positive IgM in 7.9% (2014) and 16.1% (2020)	h	commercial;specificity
+R04947	HBV DNA	human	NA	enzymatic (HRP) nucleic acid vertical flow assay	HRP enzymatic tracer	visual	45 HBV plasma samples	1.7 nM (8.5 fmol in 12 uL)	100% consistent with real-time PCR	c	enzymatic;vertical flow
+R04948	mink enteritis virus	livestock (mink)	Ag	competitive ICS, colloidal gold	colloidal gold	visual	289 samples	512 HAU/100 uL	agreement 94.1%, sens 93.2%, spec 97.1% vs Anigen CPV kit	i	veterinary
+R04950	SARS-CoV-2	human	Ag	mAb pairs for rapid antigen test	NR	NR	NR	NR	NR	d	antibody pairs;scope-check
+R04954	canine distemper virus	companion animal	Ag	RT-PCR and immunochromatographic assays	NR	visual	CSF, whole blood, mucosal swabs	NR	NR	h	veterinary;scope-check
