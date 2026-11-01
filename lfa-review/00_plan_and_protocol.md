@@ -235,3 +235,10 @@ Applied to all title/abstract decisions; UNSURE category removed (0 remaining).
 - CRISPR/isothermal papers whose abstract does not state a lateral-flow readout: excluded (E2).
 - LFA used only to validate another new platform; method papers using a commercial LFA with no new accuracy data: excluded.
 - LFAs for non-viral targets and host-biomarker assays (CRP, IL-6, CD4, CXCL10): excluded (E1).
+
+## Review structure decisions (author, 2026-11-01)
+- PubMed only; no seed-set recall check (state as limitation).
+- Organised by technology section (AuNP engineering; other coloured labels; catalytic amplification; assay/flow engineering; nucleic-acid amplification + strip; smartphone/reader/AI; multiplex/dual-mode; clinical/commercial evaluation; veterinary/aquaculture/plant).
+- Studies discussed individually (innovation, approach, analytical LOD with units/matrix); repeated approaches grouped at section end.
+- Ordering within sections by contribution type, then fold-improvement over each paper's own comparator; no cross-study LOD ranking.
+- Main-text table must contain every test discussed in the text (script-checked); full abstract-level charting in supplement.
