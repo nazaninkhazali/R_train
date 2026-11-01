@@ -1,0 +1,52 @@
+R02721	feline parvovirus	companion animal	NA	RPA-LFD	NR	visual	NR	10^2 copies/reaction (10-fold below PCR)	NR	e	veterinary
+R02727	dengue NS1, IgM/IgG	human	Ag/Ab	6 commercial tests (ELISAs and RDTs)	NR	visual	138 blood samples	NR	InBios 95.6% and Boditech Med 88.2% combined sens; NS1 agreement 92.8-98.6%	h	commercial
+R02728	Ebola virus	human	Ag	QuickNavi-Ebola	NR	visual	928 blood samples, DRC	NR	sens 85% (68/80), spec 99.8% (846/848) vs GeneXpert	h	commercial
+R02729	IBV, NDV	livestock (poultry)	NA	multiplex RT-LAMP-LFD	NR	visual	NR	10^0.8 IBV, 10^0.7 NDV copies/reaction	same LOD in duplex and single	e	veterinary;multiplex
+R02731	disease biomarkers	NR	Ag	LFIA with replication protein A-conjugated AuNPs	gold nanoparticles with RPA protein	visual	NR	higher sensitivity than antibody-AuNP LFIA (value NR)	NR	a	nanoparticle conjugation;scope-check
+R02735	HBV (HBsAg, anti-HBe)	human	Ag/Ab	HBV RDTs	NR	visual	3 continents	NR	HBsAg RDT optimal; anti-HBe acceptable	h	commercial;letter
+R02736	yellow fever NS1	human	Ag	colloidal gold RDT	colloidal gold	visual	monkey samples (Brazil), human negatives	NR	sensitivity 0.0% (NS1); specificity 100%	h	new assay
+R02744	influenza A and B	human	Ag	strips with fluorescent (FMT) vs coloured (CMT) microspheres	coloured microspheres (CMT) vs fluorescent (FMT)	visual	cultures	FMT more sensitive than CMT	no cross-reactivity	b	label comparison
+R02747	dengue-1 RNA	human	NA	LFB, dextrin-capped AuNP	dextrin-capped AuNP	visual	pooled human sera	cut-off 1.2 x 10^4 PFU/mL	NR	a	nucleic-acid LFB
+R02749	rabies virus	companion/livestock	Ag	Anigen and CDIA rabies LFAs	NR	visual	inter-laboratory panel	NR	FAT agreement 99.1%; CDIA only for RABV	h	commercial;veterinary
+R02756	influenza VE	human	Ag	RIDT used in VE study	NR	visual	NR	NR	NR	z	scope-check;epidemiology
+R02757	HPV E6	human	Ag	OncoE6 strip test	NR	visual	cervical swabs	NR	NR	z	scope-check;prevalence
+R02758	HIV	human	Ab	rapid test vs HIV DNA screening	NR	visual	1301 MSM, Beijing	NR	NR	z	scope-check
+R02763	anti-HIV-1 antibodies	human	Ab	immunochromatography LOD vs lipemia/hemolysis	NR	visual	spiked samples	LOD unaffected at 870 mg/dL lipids	NR	h	interference study;commercial
+R02764	HIV	human	Ab	OraQuick oral mucosal transudate vs blood-based rapid tests	NR	visual	1776 children, Kenya and Zimbabwe	NR	sens 100% (94.9-100), spec 99.9% (99.6-100)	h	commercial
+R02766	human adenovirus (water)	human (water)	NA	RPA + lateral flow	NR	visual	wastewater	10-50 plasmid copies	sens 100%, spec 100% vs qPCR; LOD 50 gene copies	e	environmental
+R02767	dengue	human	Ag/Ab	3 RDT kits (CareUs Dengue Combo etc.)	NR	visual	202 patients, Mandalay	NR	CareUs NS1+IgM sens 92.1% (86.4-96.0), spec 75.8% (63.3-85.8)	h	commercial
+R02768	rotavirus	human	Ag	IC vs RT-PCR for vaccine effectiveness	NR	visual	NR	NR	IC spec 100%, sens 67% vs RT-PCR 88%	h	commercial
+R02771	HBsAg	human	Ag	sequential testing strategy with ICA	NR	visual	patients and blood donors	NR	NR	h	scope-check;algorithm
+R02775	syphilis	human	Ab	dual syphilis rapid test	NR	visual	Cameroonian and French sera	NR	not a viral target	z	scope-check;non-viral
+R02777	Rift Valley fever virus	livestock/human	Ag	LFT pen-side test	NR	visual	reference isolates, negative sera	NR	NR	i	veterinary
+R02779	mouse hepatitis virus, Sendai virus (and C. piliforme)	other (laboratory mouse)	Ab	multiplex ICA	NR	visual	mouse sera, 10 uninfected	NR	high specificity (no bands in 10 negatives)	g	multiplex;veterinary
+R02782	HIV-1	human	NA	microRAAD: RT-LAMP + LFIA from whole blood	NR	visual	whole blood	100 copies (tube); 3 x 10^5 viral particles on device	NR	e	integrated device
+R02783	HBV, HCV	human	Ag/Ab	predonation RDTs vs ELISA	NR	visual	264 donors, Kaduna	NR	sens/spec calculated (values NR)	h	commercial
+R02785	NDV, IBV	livestock (poultry)	NA	RPA-nucleic acid lateral flow immunoassay	NR	visual	farm samples	10 genomic copies/reaction	good performance vs qRT-PCR	e	veterinary
+R02790	HIV-1 p24 and antibody	human	Ag/Ab	Daina Screen HIV Combo 4th-generation LFIA	NR	visual	17,373 preoperative samples	NR	24 p24-positive, 49 antibody-positive	h	commercial
+R02791	bovine leukemia, brucellosis, tuberculosis	livestock (cattle)	Ab	triple ICA with Cysteine-A/G gold conjugate	gold nanoparticles	visual	98 sera	NR	sens 96% (leukemia), 92% (brucellosis), 92% (TB)	g	multiplex;veterinary
+R02792	dengue NS1 (DENV1-4)	human	Ag	magneto-enzyme LFIA	magnetic enzyme label (catalytic)	visual	clinical samples	0.25 ng/mL (DENV-1/3), 0.1 (DENV-2), 1.0 (DENV-4)	sens 100%, spec 100% clinical	c	magnetic;enzymatic
+R02795	HPV genotypes	human	NA	RPA + LFD and reverse dot blot	NR	visual	NR	100 fg viral DNA	NR	e	genotyping
+R02799	bovine rotavirus	livestock (cattle)	Ag	colloidal gold ICS, mAbs	colloidal gold	visual	220 clinical samples	1 x 10^3 TCID50/0.1 mL	compared with RT-PCR (values NR)	i	veterinary
+R02803	dengue (prior infection)	human	Ab	RDTs and ELISAs for prevaccination screening	NR	visual	534 negative, 270 prior-infection sera	NR	performance evaluated (values NR)	h	commercial
+R02810	HPV16/18 DNA	human	NA	CRISPR-Cas12a + lateral flow strips	NR	visual	plasma, 14 cervical cancer patients	0.24 fM (same as PCR)	HPV16 detected in 13/14; HPV18 in 3/10	e	CRISPR
+R02811	HIV, HBV, HCV	human	Ab/Ag	proficiency testing in African blood centres	NR	visual	7 countries, 25-sample panel	NR	mean sens 97% HIV, 76% HBV, 80% HCV	h	quality assurance
+R02812	RSV A and B	human	NA	RT-RPA-LFD	NR	visual	136 clinical samples	10 copies RNA	100% agreement with qRT-PCR (34 pos, 102 neg)	e	
+R02817	FMDV (7 serotypes)	livestock	Ag	silver-amplification IC kit (FMDV-Ag SAI)	silver amplification	visual	132 clinical samples	10-100x more sensitive than Svanodip (serotypes O, A, Asia1, C, SAT1)	less saliva inhibition than Svanodip	c	silver enhancement;veterinary
+R02819	influenza A/B, H5, H7	human	Ag	23 commercial IRDTs	NR	visual	virus preparations	NR	several IRDTs detected H5 and H7	h	commercial
+R02824	influenza A/B	human	Ag	BD Veritor Plus, STANDARD F, ichroma TRIAS vs ID NOW	mixed (Veritor colorimetric; others fluorescent)	digital readers	199 NP swabs	NR	ID NOW sens significantly higher than LFIAs	h	commercial;reader
+R02827	RSV, Mycoplasma	human	Ag	serology/PCR	NR	NR	75 children	NR	NR	z	scope-check
+R02828	hepatitis E virus	human	Ab	rapid ICT in outbreak	NR	visual	Sikkim outbreak	NR	NR	z	scope-check;outbreak report
+R02830	influenza A (NP)	human	Ag	pipetting-based immunoassay with LF antigen capture	enzyme/colorimetric	visual	NR	100-fold better LOD when used for capture	NR	d	assay format
+R02836	HIV drug resistance	human	NA	OLA-Simple with lateral flow readout	NR	visual	clinical specimens	NR	spec 99.6%, sens 98.2% vs Sanger	e	genotyping
+R02845	HCV	human	Ab	3 Indian RDTs vs CLIA	NR	visual	86 samples	NR	sens 65.30%, 77.33%, 68%; spec 100%	h	commercial
+R02854	dengue (prior infection)	human	Ab	dengue IgG RDT and ELISA	NR	visual	Puerto Rico	NR	spec >=99%; no Zika cross-reactivity (RDT)	h	commercial
+R02856	rotavirus A, adenovirus	human	Ag	IC kits	NR	visual	stool, many genotypes	10^5 copies/mL (comparable to real-time PCR)	NR	h	commercial
+R02859	duck plague virus antibodies	livestock (duck)	Ab	colloidal gold strip, gI protein	colloidal gold	visual	123 sera	1:256 dilution	good agreement with ELISA	i	veterinary
+R02860	HBsAg, anti-HBs, anti-HBc	human	Ag/Ab	multiplex strip + electrochemical immunosensor	NR	visual	NR	0.5, 0.3, 0.1 ug/mL (strip)	NR	g	multiplex
+R02863	WSSV	aquatic (shrimp)	NA	SHERLOCK CRISPR with lateral flow colorimetric reporting	NR	visual	shrimp	single copy	NR	e	CRISPR;aquaculture
+R02867	enterovirus 71, coxsackievirus A16	human	NA	duplex real-time RT-RAA and LFS RT-RAA	NR	visual	clinical samples	91 copies/reaction (LFS)	compared with real-time (values NR)	e	multiplex
+R02868	cyprinid herpesvirus 2	aquatic (goldfish)	NA	LAMP-LFD	NR	visual	diseased goldfish	0.18 pg/uL (same as PCR)	NR	e	aquaculture
+R02869	HIV	human	Ab	seroreactivity of early-treated infants to 4 immunoassays	NR	NR	58 infants	NR	NR	z	scope-check
+R02870	West Nile virus	human	NA	RT-RAA with LFD	NR	visual	NR	1,000 plasmid copies (LFD); 10 copies and 1.6 PFU (real-time)	sens 100%, spec 100% vs RT-qPCR	e	
+R02872	canine adenovirus	companion animal	Ag	colloidal gold ICS	colloidal gold	visual	NR	~2.0 x 10^2 TCID50/mL	positive only for CAdV-1 and CAdV-2	i	veterinary
