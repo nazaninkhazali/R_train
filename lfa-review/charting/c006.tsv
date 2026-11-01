@@ -1,0 +1,50 @@
+R02396	Macrobrachium rosenbergii nodavirus and extra small virus	aquatic (prawn)	NA	duplex RT-LAMP-LFD	NR	visual	NR	~100-fold more sensitive than conventional PCR	specific vs other shrimp viruses	e	aquaculture;multiplex
+R02398	dengue NS1	human	Ag	tapered LFIA device	NR	visual	NR	4.9 ng/mL (~11-fold better than previously reported)	NR	d	flow engineering;tapered
+R02399	cyprinid herpesvirus 2	aquatic (crucian carp)	NA	RPA-LFD	NR	visual	NR	NR	NR	e	aquaculture
+R02401	goose parvovirus	livestock (goose)	Ag	colloidal gold ICA	colloidal gold	visual	92 samples (allantoic fluid, tissue)	NR	no cross-reaction; compared with agar diffusion and PCR (values NR)	i	veterinary
+R02402	duck Tembusu virus	livestock (duck)	Ag	colloidal gold ICS	colloidal gold	visual	50 clinical samples	allantoic fluid LD50 10^4.33/0.2 mL diluted up to 200-fold	93.9% coincidence with RT-PCR	i	veterinary
+R02403	respiratory viruses	human	Ag	bronchiolitis aetiology	NR	NR	203 infants	NR	NR	z	scope-check;epidemiology
+R02405	HBeAg	human	Ag	3 HBeAg RDTs (SD Bioline, Insight, OneStep)	NR	visual	Senegal and Asian samples	NR	sens 29.8%, 31.1%, 42.5%; spec 100%, 100%, 98.4%	h	commercial
+R02406	HCV	human	Ab	Multisure, First Response, Toyo	NR	visual	200 plasma, Cameroon	NR	sens 71-99% (Multisure 99%), spec 78-100%	h	commercial
+R02407	human coronavirus OC43	human	Ag	newly developed rapid antigen assay	NR	NR	6 patients	NR	antigen positivity 3-6 days in secondary infection	z	scope-check;format NR
+R02411	dengue IgM/IgG	human	Ab	rapid ICT vs ELISA	NR	visual	765 blood samples, Sri Lanka	NR	IgM sens 64%, spec 75%, NPV 68%, PPV 72%	h	commercial
+R02416	dengue	human	Ag/Ab	SD Bioeasy Dengue Duo	NR	visual	1353 samples (206 cases, 246 controls), Brazil	NR	sens and spec estimated (values NR in abstract)	h	commercial
+R02418	West Nile virus	human/animal	Ag	LFA with anti-DIII E mAb	NR	visual	NR	NR	differentiates WNV from other flaviviruses	i	mAb;flavivirus differentiation
+R02421	HIV, syphilis	human	Ab	dual RDT in pregnant women	NR	visual	12 antenatal clinics, Nigeria	NR	HIV PPA 100.0% (99.7-100.0), NPA 99.9%; syphilis sensitivity not calculable	h	commercial;multiplex
+R02422	influenza	human	Ag	RIDT in children <2 y	NR	visual	89 children	NR	low sensitivity; useful in first 24 h	h	commercial
+R02426	canine distemper virus	companion animal	NA	instrument-free RT-RPA + LFS	NR	visual	32 swabs	9.4 x 10^1 copies/reaction (same as real-time RT-PCR)	62.0% (20/32) positive, same as real-time RT-PCR	e	veterinary;equipment-free
+R02428	HBsAg	human	Ag	HBsAg POC strip	NR	visual	Bangladeshi children	NR	sens 91.2% (76.6-98.1), spec 100% (99.9-100) vs ELISA	h	commercial;seroprevalence
+R02437	H9 avian influenza antibodies	livestock (poultry)	Ab	quantitative ICTS, double-line sandwich	colloidal gold	reader (quantitative)	504 chicken sera	NR	coincidence 80.56% with HI; correlation 0.9656	i	veterinary;quantitative
+R02439	FMDV	livestock	NA	RT-RPA-LFD	NR	visual	143 clinical samples	10 copies plasmid DNA	98.6% concordance with real-time PCR	e	veterinary
+R02444	HIV (RDT result geotagging)	human	Ab	smartphone-based reading of HIV RDT	NR	smartphone	NR	NR	NR	f	scope-check;surveillance app
+R02448	dengue	human	Ag/Ab	SD and CTK RDTs	NR	visual	Solomon Islands DENV-3 outbreak	NR	NS1 sens 90.9% (SD), 92.6% (CTK); spec 100% vs 78.8%	h	commercial
+R02452	HIV, syphilis	human	Ab	dual RDTs with smartphone e-reader	NR	smartphone e-reader	MSM and transgender women, Lima	NR	HIV sens 98% (93-100)	f	smartphone;commercial
+R02453	bovine respirovirus 3	livestock (cattle)	NA	RT-RPA-LFD	NR	visual	95 clinical samples	100 copies/reaction	NR	e	veterinary
+R02456	HBV	human	Ag	HBsAg ICT strips	NR	visual	children, Enugu	NR	sens 51.6%, spec 100%, accuracy 94.4%	h	scope-check;seroprevalence
+R02458	oseltamivir-resistant influenza	human	Ag	LF biosensor with oseltamivir-derivative-modified AuNPs	gold nanoparticles (OHT-GNP)	visual	virus preparations	5 x 10^2-10^3 PFU/test (1 x 10^4 PFU/mL)	distinguishes resistant from WT virus	a	ligand;drug resistance
+R02462	FMDV	livestock	NA	equipment-free RT-RPA + LFS	NR	visual	55 samples	1.0 x 10^2 copies/reaction (same as real-time RT-PCR)	45.5% (25/55) vs 52.7% (29/55) by real-time RT-PCR	e	veterinary;equipment-free
+R02465	HCV	human	Ab	Advanced Quality Rapid Anti-HCV Test	NR	visual	396 individuals	NR	sens 99%, spec 99%	h	commercial
+R02466	influenza A virus (poultry)	livestock (poultry)	Ag	FluDETECT and VetScan LFIAs on pooled swabs	NR	visual	oropharyngeal swabs, broilers	NR	detection higher in 5-6 swab pools than in 11-swab pools	h	veterinary;commercial
+R02468	influenza	human	Ag	Au/Pt NP-latex nanocomposite probes for ICT	Au or Pt nanoparticle-latex nanocomposite	visual	NR	enhanced sensitivity (value NR)	NR	b	nanocomposite;latex
+R02477	rotavirus	human	Ag	AFIAS (fluorescent immunoassay)	fluorescent	reader	206 stool samples	NR	sens and spec both 99.0%	h	scope-check;fluorescent
+R02482	influenza A H7N9	human/poultry	NA	LFD-RPA	NR	visual	50 positive samples	NR	100% specificity; agrees with real-time RT-PCR	e	
+R02483	H7N9 influenza A	livestock (poultry)	Ag	colloidal gold ICS, mAbs	colloidal gold	visual	swab and tissue samples	2.5 log10 EID50/0.1 mL	NR	i	veterinary
+R02484	influenza A and B	human	Ag	HRP-labelled LFIA	HRP enzyme (TMB colour)	visual	nasopharyngeal samples	>10-fold more sensitive than gold-colloidal strips (13 isolates)	sens 90.2% (55/61) and 82.6% (71/86)	c	enzymatic amplification;multiplex
+R02490	Australian bat lyssavirus	wildlife (bat)	Ag	rabies virus RDT	NR	visual	43 clinical samples	NR	100% agreement with FAT; weighted kappa 0.95	h	veterinary;commercial
+R02492	feline herpesvirus 1	companion animal	NA	body-heat RPA-LFD	NR	visual	cat swabs	10^3 copies (PCR 10^4)	compared with PCR (values NR)	e	veterinary;equipment-free
+R02493	HIV, syphilis	human	Ab	SD BIOLINE HIV/Syphilis Duo	NR	visual	pregnant women, Juba	NR	sens/spec vs references (values NR)	h	commercial;multiplex
+R02496	potato virus X	plant	Ag	LFIA with post-assay gold enlargement	gold NPs (20 nm enlarged to 350 nm)	visual	potato leaf samples	240-fold lower than conventional LFIA	NR	a	enhancement;plant
+R02498	adenovirus	human	Ag	ALSONIC Adeno ICA	NR	visual	151 throat swabs	NR	sens 92.2% (83/90), spec 95.1% (58/61) vs real-time PCR	h	commercial
+R02503	HIV, syphilis	human	Ab	SD BIOLINE HIV/Syphilis Duo	NR	visual	fingerprick, MSM and pregnant women, Hanoi	NR	HIV sens 100.0% (80.5-100), spec 100.0%; syphilis sens 83.1% (71.0-91.6)	h	commercial;multiplex
+R02504	avian leukosis virus p27	livestock (poultry)	Ag	colloidal gold strip	colloidal gold	visual	NR	6.25 ng/mL p27; 80 TCID50/mL	no cross-reaction with other avian pathogens	i	veterinary
+R02505	anti-HCV antibodies	human	Ab	LFA with gold-labelled streptavidin fusion protein reporter	colloidal gold-streptavidin fusion	visual	patient sera	NR	NR	a	reporter engineering
+R02508	HCV	human	Ab	ICT vs ELISA	NR	visual	426 patients, Baghdad	NR	78% (39/50) of ICT positives confirmed by ELISA	h	scope-check
+R02509	influenza H1N1	human	Ag	vertical flow paper immunosensor, different pore sample pad	HRP (colorimetric) + electrochemical	electrochemical and colorimetric	PBS, saliva	1.34 PFU/mL (PBS), 2.27 PFU/mL (saliva) colorimetric	NR	d	vertical flow;dual-mode
+R02510	rotavirus	human	Ag	Combi-Strip IC vs real-time RT-PCR	NR	visual	100 samples (wild-type vs Rotarix)	Ct at LOD determined	NR	h	scope-check
+R02511	HBV	human	Ag	serial HBsAg and HBeAg RDTs	NR	visual	250 pregnant women, Phnom Penh	NR	HBsAg RDT sens 99.2% (97.7-99.9), spec 100% (97.0-100)	h	commercial
+R02513	influenza A (H1, H3)	human	NA	RT-RPA-LFD	NR	visual	111 samples	123.6 copies (M), 677.1 (H1), 112.2 (H3) per reaction	sens 75%, 93.33%, 71.43%; spec 100%	e	multiplex
+R02515	rice black-streaked dwarf virus	plant	NA	RT-RPA-LFS	NR	visual	rice plants	similar to RT-PCR	similar sens/spec to RT-PCR	e	plant
+R02516	avian influenza H9N2	livestock (poultry)	NA	RT-RPA-LFD	NR	visual	120 cloacal samples	NR	NR	e	veterinary
+R02517	influenza nucleoproteins	human	Ag	recombinant NP for rapid detection	NR	visual	NR	NR	NP detection more sensitive than HA	h	antigen expression;scope-check
+R02518	grapevine leafroll-associated virus 3	plant	Ag	ICA	NR	visual	grape samples	NR	vs ELISA: sens 100%, spec 92%; vs PCR: sens 93%, spec 92%	i	plant
+R02519	potato virus Y	plant	Ag	sandwich LFIA with pre-incubation	gold nanoparticles	visual	NR	5.4 ng/mL (60-fold lower than 330 ng/mL conventional)	NR	d	assay engineering;plant
