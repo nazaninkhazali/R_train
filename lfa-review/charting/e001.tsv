@@ -1,0 +1,70 @@
+R02983	SARS-CoV-2 IgM/IgG	human	Ab	colloidal gold IC assay	AuNP	visual	patients vs RT-PCR	not reported	sens 71.1% (69/97), spec 96.2% (51/53)	h	evaluation
+R03003	SARS-CoV-2 Ab	human	Ab	four ICAs, dynamic profile	not reported	visual	not reported	not reported	sens 60-80% day 10, 100% day 15	h	evaluation
+R03005	SARS-CoV-2 Ab	human	Ab	two automated and three rapid LFIAs	not reported	visual	128 cases, 72 controls	not reported	Maglumi 64.3% vs Euroimmun 84.4% (rapid LFIA values truncated)	h	evaluation
+R03006	SARS-CoV-2 antigen	human	Ag	rapid diagnostic assay on NP swabs	not reported	visual	NP swabs	not reported	not reported (no abstract)	h	scope-check: no abstract
+R03021	SARS-CoV-2 IgM/IgG	human	Ab	ICA rapid test	not reported	visual	sera	not reported	sens 92.9% (84.1-97.6), spec 96.2% (89.3-99.2)	h	evaluation
+R03022	SARS-CoV-2 IgG/IgM	human	Ab	LFIA in ED	not reported	visual	ED patients	not reported	not reported (no abstract)	h	scope-check: no abstract
+R03029	SARS-CoV-2 IgG/IgM	human	Ab	seven rapid tests + Euroimmun ELISA	not reported	visual	103 pre-2020 sera; 167 samples (94 patients)	not reported	LFA spec >=91.3% IgM, >=90.3% IgG	h	evaluation
+R03036	SARS-CoV-2 antigen	human	Ag	COVID-19 Ag Respi-Strip	not reported	visual	NP samples	not reported	sens 30.2% (32/106)	h	evaluation; negative
+R03049	SARS-CoV-2 Ab	human	Ab	six LFAs vs ELISA and NATs	not reported	visual	plasma	not reported	Orient Gene IgG/IgM sens 43% (43/99); range from 10%	h	evaluation
+R03050	SARS-CoV-2 antigen	human	Ag	Ag Respi-Strip in lab without molecular	not reported	visual	NP swabs	not reported	field sensitivity lower than manufacturer (values not reported)	h	comment
+R03051	SARS-CoV-2 IgM/IgG	human	Ab	Alltest rapid LFIA	not reported	visual	100 negatives, 90 COVID-19	not reported	sens 64.4%, 88.0% at >=14 days; spec 100%	h	evaluation
+R03054	SARS-CoV-2 IgG	human	Ab	different IgG tests	not reported	visual	follow-up sera	not reported	not reported in abstract	h	scope-check: mixed platforms
+R03077	SARS-CoV-2 Ab	human	Ab	four POC LFIAs (ALLTEST, Dynamiker, ASK etc.)	not reported	visual	16 RT-PCR patients serial sera	not reported	sens/spec 100%/100% after 3 weeks	h	evaluation
+R03084	SARS-CoV-2 antigen	human	Ag	COVID-19 Ag Respi-Strip	not reported	visual	328 NP samples	not reported	sens 57.6%, spec 99.5%	h	evaluation
+R03087	SARS-CoV-2 antigen	human	Ag	rapid salivary test	not reported	visual	saliva	not reported	not reported (no abstract)	h	scope-check: no abstract
+R03094	SARS-CoV-2 Ab	human	Ab	Euroimmun, Abbott, NG Biotech LFIA	not reported	visual	not reported	not reported	IgG sens ~80% overall, 100% >14 d (LFIA, CLIA, ELISA)	h	evaluation
+R03112	SARS-CoV-2	human	RNA/Ag	six molecular tests and rapid antigen test in saliva	not reported	visual	103 saliva samples	not reported	antigen detected 11.7%; molecular 50.5-81.6%	h	evaluation
+R03123	SARS-CoV-2 Ab	human	Ab	eight commercial immunoassays	not reported	not reported	not reported	not reported	not reported	h	scope-check: LFA not stated
+R03128	SARS-CoV-2 Ab	human	Ab	commercial LFIAs vs ELISA	not reported	visual	62 pre-2019 sera for specificity	not reported	not reported in abstract	h	evaluation
+R03131	SARS-CoV-2 Ab	human	Ab	6 high-volume + 6 POC LFAs	not reported	visual	clinical	not reported	EIA sens 50-100%, spec 92-100% (LFA values truncated)	h	evaluation
+R03134	SARS-CoV-2 Ab	human	Ab	rapid serologic tests on prenatal sera	not reported	visual	120 stored 2018 sera, Honduras	not reported	specificity assessment	h	evaluation
+R03136	SARS-CoV-2 Ab	human	Ab	two RDTs	not reported	visual	random sample	not reported	kappa 0.644	h	evaluation
+R03139	SARS-CoV-2 Ab	human	Ab	rapid diagnostic test kit	not reported	visual	patients	IgG bands up to 1:1000	detected antibodies day 9-56	h	evaluation
+R03147	SARS-CoV-2	human	Ab	LFIA and MCLIA, B/T-cell responses	not reported	visual	patients	not reported	sens/spec >90%	h	scope-check: immune-response study
+R03148	SARS-CoV-2 Ab	human	Ab	Abbott CLIA vs two LFAs (SQ, Wondfo)	not reported	visual	113 samples from 71 patients	not reported	SQ IgM sens 87.5%; agreement 88.5%, 94.6%	h	evaluation
+R03151	SARS-CoV-2 IgM/IgG	human	Ab	IC assay, Japanese cohort	not reported	visual	87 patient samples; 100 negatives	not reported	sens higher after day 8	h	evaluation
+R03152	SARS-CoV-2 IgM/IgG	human	Ab	three commercial RDTs	not reported	visual	41 cases, 50 controls	not reported	RDT-A 92%/100%; RDT-B 87%/98%; RDT-C 100%/98%	h	evaluation
+R03171	SARS-CoV-2 IgG	human	Ab	false positives with common cold coronavirus	not reported	visual	case report plus stored sera	not reported	false positives observed	h	case report
+R03187	SARS-CoV-2 Ab	human	Ab	LFIAs for seroprevalence survey	not reported	visual	276 non-hospitalised; 500 prepandemic sera	not reported	sensitivity inferior to ELISA in 8 of 11 LFIAs	h	evaluation
+R03191	SARS-CoV-2 Ab	human	Ab	Sienna, Wondfo, Prometheus ICTs	not reported	visual	145 sera	not reported	Sienna sens 64.4%, spec 75%, PPV 85.5%, NPV 47.8%	h	evaluation
+R03217	SARS-CoV-2 Ab	human	Ab	ten LFAs and two ELISAs	not reported	visual	5-day intervals from onset	not reported	spec 84.3-100%	h	evaluation
+R03226	SARS-CoV-2 Ab	human	Ab	ICA IgM/IgG vs ELISA	not reported	visual	patients, Croatia	not reported	ICA sens 56.7% IgM, 45.0% IgG	h	evaluation
+R03230	SARS-CoV-2 Ab	human	Ab	DR-LFA and DR-ELISA	not reported	visual	1,065 sera	not reported	sens 91.2-100%; spec 100% (LFA), 98.2% (ELISA)	h	evaluation; in-house
+R03233	SARS-CoV-2	human	RNA/Ab	molecular and serological tests in ED	not reported	visual	ED patients	not reported	RQ-SARS-nCoV-2 sens 91.8% (molecular)	h	scope-check: mostly molecular
+R03252	SARS-CoV-2 Ab	human	Ab	two CLIA and three LFIAs	not reported	visual	346 sera, 74 patients; 194 controls	not reported	LFIA spec 100%	h	evaluation
+R03255	SARS-CoV-2 IgG	human	Ab	four LFIAs (BTNX 1, 2, ACON, SD)	not reported	visual	hospitalised cohort	not reported	BTNX kit 1 sens 95% at >=14 d; spec 98-100%	h	evaluation
+R03262	SARS-CoV-2 Ab	human	Ab	two LFAs and two ELISAs	not reported	visual	325 samples	not reported	clinical sensitivities varied greatly	h	evaluation
+R03272	SARS-CoV-2 Ab	human	Ab	bedside POC serological test	not reported	visual	patients	not reported	sens 29.1%, 78.2%, 86.5% by time; 97.0% at 15 days; spec 100%	h	evaluation
+R03273	SARS-CoV-2 Ab	human	Ab	ten commercial serological assays incl. LFAs	not reported	visual	clinical	not reported	spec 82-100%, sens 60.9-87.3%	h	evaluation
+R03278	SARS-CoV-2 Ab	human	Ab	POC LFA and lab tests on pre-COVID samples	not reported	visual	Japanese pre-COVID samples	not reported	false positives; one sample positive in both LFA and ELISA	h	evaluation
+R03280	SARS-CoV-2 IgM/IgG	human	Ab	Xiamen AmonMed colloidal gold kit	AuNP	visual	PCR-confirmed sera, blood donors, EBV	not reported	sens 15.2% vs Euroimmun 67.4%; spec 99.0%	h	evaluation; negative
+R03284	SARS-CoV-2 Ab	human	Ab	three ICT kits	not reported	visual	99 patient sera; 100 healthy	not reported	IgM spec 98.0%, 98.0%, 97.0%; IgG 99.0%	h	evaluation
+R03297	SARS-CoV-2 N protein	human	Ag	serum N protein assay	not reported	not reported	serum	cutoff 1.850 pg/mL	AUC 0.9756; sens 92%	h	scope-check: format not LFA
+R03303	SARS-CoV-2 Ab	human	Ab	four POC lateral flow tests	not reported	visual	132 sera	not reported	analytic sens 27.3-58.2%; clinical sens 45-65%	h	evaluation
+R03304	SARS-CoV-2 Ab	human	Ab	LFIAs and ELISAs in Brazil	not reported	visual	clinical	not reported	LFIA sens 59.5-83.1% (>=7 days)	h	evaluation
+R03315	SARS-CoV-2 Ab	human	Ab	three ICTs vs two automated	not reported	visual	159 patients, 67 controls	not reported	sens 41-45%; spec 91-98%; weak positives 13-22%	h	evaluation
+R03318	SARS-CoV-2 Ab	human	Ab	IgM/IgG combined test + RT-PCR	not reported	visual	clinical	not reported	spec 98.5%, sens 95.8%, accuracy 97.1%	h	evaluation
+R03348	SARS-CoV-2 antigen	human	Ag	antigen RDT, Uganda	not reported	visual	262 NP samples (90 positive)	not reported	sens 70.0% (60-79), spec 92% (87-96)	h	evaluation
+R03350	SARS-CoV-2 Ab	human	Ab	Vazyme LFA vs PRNT	not reported	visual	100 plasma/sera	not reported	sens 95.9%, spec 96.1% vs PRNT	h	evaluation
+R03353	SARS-CoV-2 IgM/IgG	human	Ab	Truvian Easy Check LFD	not reported	visual	PCR-confirmed, 2015 prepandemic	not reported	sens 96.6%, spec 98.2%, accuracy 98.1%	h	evaluation
+R03357	SARS-CoV-2 Ab	human	Ab	POC FIA vs CLIA	not reported	visual	clinical	not reported	IgM sens 0.526; IgG 0.937	h	evaluation
+R03366	SARS-CoV-2 antigen	human	Ag	Panbio Ag rapid test	not reported	visual	NP, Madrid	not reported	sens 73.3% (44/60)	h	commercial
+R03367	SARS-CoV-2 IgG	human	Ab	MEDsan rapid IgG in children	not reported	visual	208 children	not reported	seropositivity 8.7%	h	evaluation
+R03371	SARS-CoV-2 IgM/IgG	human	Ab	Biolidics LFI venous vs capillary	not reported	visual	venous and finger stick	not reported	sens 92% venous at 7 days post PCR	h	evaluation
+R03379	SARS-CoV-2 Ab	human	Ab	UK-RTC AbC-19 rapid test	not reported	visual	key workers	not reported	sens 92.5% (88.8-95.1), spec 97.9% (97.2-98.4)	h	commercial
+R03384	SARS-CoV-2 Ab	human	Ab	GICA with recombinant spike proteins	AuNP	visual	455 positive, 710 negative	not reported	sens 92.09%, spec 99.44%	h	evaluation
+R03386	SARS-CoV-2 antigen	human	Ag	Panbio Ag, primary care	not reported	visual	primary healthcare centres	not reported	sens 79.6% (67.0-88.8), spec 100%	h	commercial
+R03395	SARS-CoV-2 Ab	human	Ab	NG-Test finger-prick in HCW	not reported	visual	healthcare workers	not reported	sens 85% (71.9-92.3), spec 98.3% (95.0-100)	h	evaluation
+R03397	SARS-CoV-2 Ab	human	Ab	15 POC LFAs head-to-head	not reported	visual	40 convalescent, 60 prepandemic	not reported	not reported in abstract	h	evaluation
+R03404	SARS-CoV-2 IgM/IgG	human	Ab	COVID19SEROSpeed rapid test	not reported	visual	215 prepandemic, 710 sera from 564 patients	not reported	spec 98.1% (96.2-99.4)	h	commercial
+R03409	SARS-CoV-2 antigen	human	Ag	Roche rapid antigen test	not reported	visual	75 positive, 75 negative swabs	not reported	spec 96%; sens 100%, 95%, 44.8%, 22.2% by Ct band	h	commercial
+R03416	SARS-CoV-2 Ab	human	Ab	ten serological assays	not reported	visual	not reported	not reported	sens 40-77%; spec 83-100%	h	evaluation
+R03419	SARS-CoV-2 Ab	human	Ab	Wondfo, INNOVITA LFIC vs neutralization	not reported	visual	sera	not reported	sens 91.1% Wondfo; 72.2% IgG, 85.6% IgM INNOVITA	h	evaluation
+R03421	SARS-CoV-2 Ab	human	Ab	ten rapid serological tests, STARD	not reported	visual	250 sera from 159 patients; 254 controls	not reported	not reported in abstract	h	evaluation
+R03443	SARS-CoV-2 antigen	human	Ag	four antigen tests in UTM	not reported	visual	UTM	not reported	not reported (no abstract)	h	scope-check: no abstract
+R03445	SARS-CoV-2 antigen	human	Ag	BIOCREDIT COVID-19 Ag test, Egypt	not reported	visual	symptomatic and contacts	not reported	sens 43.1%	h	evaluation; negative
+R03448	SARS-CoV-2	human	RNA	CRISPR/Cas9 dual-gene LFA (E, Orf1ab)	not reported	visual	64 NP swabs	100 RNA copies/reaction	NPA 100%, PPA 97.14%	e	CRISPR; dual-gene
+R03451	SARS-CoV-2 IgM/IgG	human	Ab	ICA differentiating IgM and IgG	not reported	visual	small panel	not reported	not reported	h	scope-check: very small validation
+R03454	SARS-CoV-2 antigen	human	Ag	self-collected nasal vs professional NP swab	not reported	visual	paired swabs	not reported	not reported in abstract	h	evaluation
+R03455	SARS-CoV-2 Ab	human	Ab	ten high-throughput serological assays	not reported	not reported	multicentre	not reported	spec 98-100% (seven assays)	h	scope-check: high-throughput assays, not LFA
