@@ -1,0 +1,48 @@
+R06404	SARS-CoV-2 spike	human	Ag	peptide-based LFIA with PDA@MnO2 oxidase mimic	PDA@MnO2 oxidase mimic (catalytic colour)	visual (catalytic)	pseudovirus in saliva (150 TU/mL)	8.01 pg/mL (18.7x lower than gold nanoparticle pLFIA)	NR	c	nanozyme;peptide binder
+R06406	SARS-CoV-2 Omicron BA.4 and BA.5	human	Ag	10 RATs	NR	visual	PCR-negative and clinical specimens	LoD50 7.6 x 10^4 - 3.3 x 10^6 RNA copies (BA.4); 6.8 x 10^4 - 3.0 x 10^6 (BA.5)	true-positive 94.3-34.3% (Ct<25), 25.6-0% (Ct 25-30)	h	commercial
+R06408	SARS-CoV-2 Omicron	human	Ag	SARS-CoV-2 Rapid Antigen Test 2.0 (NP and nasal)	NR	visual	56 symptomatic individuals	NR	sens up to 92.86% (vs RT-PCR), 94.23% (Omicron RT-PCR), 97.95% (WGS)	h	commercial
+R06420	HBV	human	NA	LAMP-lateral flow biosensor with direct amplification from lysate	NR	visual	HBV-positive serum	10^3 IU/mL (heat-treated serum)	NR	e	direct amplification
+R06432	SARS-CoV-2 antigen (model)	human	Ag	agglutination system for large sample volumes with LFA	NR	visual	saliva spiked with gamma-irradiated virus	10 pg/mL (~250 fM); 250 genome copies/uL; 10x enhancement at 2 mL vs 50 uL	NR	d	sample volume
+R06443	HPV16/18	human	NA	ERA assays (readout not stated)	NR	visual (not stated)	114 cervical tissue samples	1 and 10 copies/uL (HPV16, 18)	consistent with real-time PCR	e	scope-check
+R06463	SFTSV	human	NA	catalytic hairpin assembly + LFIA	NR	visual	clinical serum	NR	compatible with RT-PCR	e	enzyme-free
+R06470	duck Tembusu virus	livestock (duck)	NA	RT-RAA-LFD	NR	visual	NR	10 copies/uL (1000x RT-PCR)	no cross-reaction	e	veterinary
+R06472	SARS-CoV-2 ORF1ab and N	human	NA	CRISPR dual-enzyme multiplex platform	NR	visual	105 NP swabs	200 copies/mL	PPV agreement 100%, NPV agreement 95.7%	e	CRISPR;multiplex
+R06474	SARS-CoV-2 (and SNPs)	human	NA	PNA-Pdx peptide nucleic acid probes on lateral flow	NR	visual	clinical samples	2 copies/uL	NR	e	PNA
+R06476	SARS-CoV-2 antibodies	human	Ab	dual-labelled nanoparticle colorimetric/fluorescent serological LFIA with MEF	dual-labelled nanoparticles (colorimetric + metal-enhanced fluorescence)	visual and fluorescence	73 clinical samples	1000x improvement via MEF (fluorescent mode) over colorimetric	sens 95%, spec 100%, accuracy 97%	g	dual-mode;fluorescent channel LOD
+R06484	SARS-CoV-2 nucleocapsid	human	Ag	MagAu(shell) enrichment + photothermal/colorimetric LFIA	Au nanoshells on Fe3O4 nanoclusters	visual and photothermal	complex samples	2 orders of magnitude gain with enrichment	NR	g	magnetic enrichment;dual-mode
+R06505	respiratory viruses	human	NA	target-independent nucleic acid lateral flow device	NR	visual	NR	NR	NR	e	universal NALFIA
+R06507	fowl adenovirus 4	livestock (poultry)	NA	RAA + CRISPR/Cas13a lateral flow	NR	visual	clinical samples	10^1 copies/uL	NR	e	CRISPR;veterinary
+R06508	ASFV p30	livestock (pig)	Ag	VDRG ASFV Ag rapid kit (LFA)	NR	visual	clinical samples	11.5 ng antigen; 0.16 HAD50	spec 99.88%, sens 84.52% (93.8% at Ct<30)	i	veterinary
+R06509	HIV-1	human	NA	RT-RAA CRISPR-Cas13a (LF strip arm)	NR	visual (LF) and fluorescence	clinical samples	1 copy/uL; 112 copies/mL lowest viral load	sens 91.81% (85.03-96.19)	e	CRISPR
+R06514	SARS-CoV-2 IgG	human	Ab	vertical flow immunoassay with carbon black nanoparticles	carbon black nanoparticles	visual (black spots)	human serum	lower LOD than colloidal gold (value NR)	NR	b	carbon label;vertical flow
+R06519	SARS-CoV-2	human	NA	RT-LAMP-LFA kit	NR	visual	NR	100 PFU/mL (Chelex extraction); 10^-1 PFU/mL (commercial extraction)	sens 97.8%, spec 100%	e	
+R06526	SARS-CoV-2 RBD-IgG	human	Ab	POCT with traceable RBD-IgG calibrator	NR	reader (sigmoidal curve)	37 post-vaccination fingertip blood samples	0.39 ug/mL	levels 0.45-2.46 ug/mL in 33/37	f	standardisation
+R06528	human cytomegalovirus IE1	human	NA	RPA-LFS	NR	visual	maternal urine	NR	NR	e	
+R06535	dengue (severe)	human	Ag/glycan	lectin-based AuNP LFIA	gold nanoparticles (lectin)	visual	patient samples	5 ug/uL	NR	a	lectin
+R06544	PEDV	livestock (pig)	Ag	AuNP dimer-based LFIA	gold nanoparticle dimers (Ag-ion soldering)	visual	109 clinical samples	2.0 x 10^2 TCID50/mL (50x commercial colloidal gold)	good agreement with RT-PCR	a	nanoparticle engineering;veterinary
+R06552	cowpea mild mottle virus	plant	NA	RT-RPA-LFS	NR	visual	NR	10 copies/uL (~100x RT-PCR gel)	NR	e	plant
+R06554	HIV-1/2	human	Ab	Determine HIV-1/2 with locally produced PBS chase buffer	NR	visual	consecutive clients, The Gambia	NR	sens 100% (90.5-100), spec 98% (92.9-99.8)	h	commercial;buffer
+R06556	SARS-CoV-2	human	Ag	probe-gated silica nanoparticle (NSP12-gated SNPs) LFA	silica nanoparticles	visual	unprocessed swabs (1:10^3 dilution)	0.73 pg/mL	sens 100%, spec 83%, accuracy 92% vs RT-qPCR	d	nanoparticle probe
+R06559	HBeAg	human	Ag	SD-Bioline HBeAg RDT	NR	visual	340 HBsAg+ sera, Burkina Faso	NR	sens 33.3%, spec 97.9% vs VIDAS ELFA	h	commercial
+R06560	chicken chaphamaparvovirus	livestock (poultry)	NA	MIRA-LFD	NR	visual	clinical samples	21.3 copies (100x nested PCR)	NR	e	veterinary
+R06567	HIV	human	Ab	pharmacy provider-delivered HIVST	NR	visual	Kenyan pharmacies	NR	sens 98.5% (provider-read), 98.8% (client-read)	h	commercial;self-test
+R06571	lumpy skin disease virus	livestock (cattle)	NA	extraction-free CRISPR/Cas12a (visual; LFS not stated)	NR	visual	NR	2 x 10^1 copies/uL	NR	z	scope-check;LFA not stated
+R06576	SARS-CoV-2 Omicron variants	human	Ag	IC kit with recombinant N antibodies	NR	visual	variant virus panel	NR	detected Omicron sublineages, Wuhan, Delta	d	new assay
+R06579	influenza A, SARS-CoV-2	human	Ag	computer-vision-assisted LFA	NR	smartphone CV/ML	patient samples	3-fold gain in analytical sensitivity	NR	f	AI
+R06580	hepatitis D virus RNA	human	NA	RT-RAA CRISPR-Cas13a, fluorescence and lateral flow	NR	visual (LF)	144 HDV-IgG+ patients	10 copies/uL	as sensitive as RT-qPCR and RT-ddPCR	e	CRISPR
+R06582	avian influenza virus (H1-H16)	livestock (poultry)	NA	CRISPR-Cas13a with fluorescence or lateral flow	NR	visual (LF)	clinical samples	69 copies/uL (fluorescence); 690 copies/uL (lateral flow)	100% consistency with qPCR	e	CRISPR
+R06583	Epstein-Barr virus	human	NA	modified MCDA + AuNP-LFB	gold nanoparticles	visual	whole blood	10 copies/reaction	NR	e	
+R06590	SARS-CoV-2 nucleocapsid antigen	human	Ag	engineered N antigens for LFIA stability	NR	visual	NR	NR	NR	d	antigen engineering;scope-check
+R06592	SARS-CoV-2 sequence	human	NA	protein-based anchoring for nucleic acid LFA	NR	visual	NR	~0.2 nM	NR	d	immobilisation
+R06596	PMMoV, ToBRFV, ToMV, ToMMV	plant	NA	one-step RT-RAA CRISPR/Cas12a lateral flow	NR	visual	NR	NR	NR	e	CRISPR;plant;multiplex
+R06604	porcine circovirus-like virus	livestock (pig)	NA	LAMP + CRISPR/Cas12a (fluorescence and LFS)	NR	visual (LFS)	field samples	10 copies	NR	e	CRISPR;veterinary
+R06606	tomato brown rugose fruit virus	plant	Ag	dot-ELISA and colloidal gold ICS	colloidal gold	visual	field tomato foliar and fruit samples	1:6400 (dot-ELISA), 1:10,000 (CGICS) w/v	consistent with RT-PCR	i	plant
+R06618	HTLV-I/II	human	Ab	Espline HTLV-I/II	NR	visual	different diagnostic situations	NR	NR	h	commercial
+R06622	SARS-CoV-2 nasal neutralising antibodies	human	Ab	lateral-flow surrogate neutralisation tests on nasal samples	NR	visual	vaccinees, breakthrough infections	NR	breakthrough 92.9% (80.3-98.2) mucosal anti-S detection vs 72.4% in vaccinated without infection	h	commercial;scope-check
+R06625	HPV16, 18, 45	human	NA	tailed primer nucleic acid test in cartridge	NR	visual (LF)	HPV-positive cell DNA	50-500 copies/reaction	NR	e	cartridge
+R06626	rabies virus	companion/livestock	Ag	ADTEC LFD, multicentre	NR	visual	post-mortem animal samples, Philippines	NR	sens 96.3% (94.1-97.9), spec 99.7% (98.4-100) vs DFAT	h	veterinary;commercial
+R06631	monkeypox virus	human	NA	HDA-LFT and RPA-LFT	NR	visual	pseudoviruses	HDA-LFT 9.86 copies/uL	spec >90%	e	
+R06632	SARS-CoV-2	human	NA	RT-LAMP + biotinylated probe LFA, crude swabs	NR	visual and digital semi-quantification	crude throat swabs in VTM	3 RNA copies/uL (Ct 33)	T-line intensity correlates with qRT-PCR Ct	e	crude samples
+R06634	monkeypox virus A29L	human	Ag	SiO2-Au/DQD dual-signal LFIA	SiO2-Au/DQD (colorimetric + fluorescent)	visual and fluorescence	NR	colorimetric 0.5 ng/mL (same as traditional AuNP-LFIA); fluorescence 0.0021 ng/mL	NR	g	dual-mode;colorimetric channel unchanged
+R06637	dengue virus (sequencing from used NS1 RDT)	human	Ag	sequencing from used Standard Q Dengue Duo	NR	NR	7 RDTs	NR	reads for 5/7 samples	z	spent strip;exclude;scope-check
+R06649	H7 avian influenza	livestock (poultry)	NA	RT-RAA-LFD	NR	visual	132 clinical samples	1 x 10^1 copies/uL (RT-qPCR same; RT-PCR 10^2)	kappa 0.9169 vs RT-PCR	e	veterinary
