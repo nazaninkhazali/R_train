@@ -1,0 +1,11 @@
+R08786	goose parvovirus, novel GPV	veterinary (goose)	DNA	RPA + Cas13a dual-mode, fluorescence and LF	not reported	visual	clinical samples	10 copies/uL (strip); 1 copy/uL (fluorescence)	high concordance with qPCR	i	CRISPR
+R08789	EBV cfDNA	human	DNA	dμCRISPR and idCRISPR	not reported	visual (idCRISPR)	24 and 30 clinical plasma	1 copy/uL (dμCRISPR); 10 copies/uL (idCRISPR)	consistent with qPCR	e	CRISPR; scope-check: cancer biomarker, strip not stated
+R08790	DENV NS1	human	Ag	NS1 RDT vs NS1 ELISA	not reported	visual	3,488 patient samples, India	not reported	sens 95.36%, spec 92.74%	h	evaluation
+R08793	DENV NS1, IgM, IgG	human	Ag/Ab	commercial NS1/IgM/IgG RDT, Burkina Faso	not reported	visual	suspected dengue	not reported	primary 93.3%, post-primary 94.7% (first 5 days)	h	evaluation
+R08796	HCV antibodies	human	Ab	Geenius HCV supplemental assay vs INNO-LIA	not reported	reader	60 blood donors	not reported	ICH 32% reactive vs WB 35% positive	h	confirmatory
+R08801	measles IgM	human	Ab	prototype IgM RDT	not reported	visual	capillary blood, oral fluid, Uganda	not reported	vs ELISA sens 97.9%; vs true cases CAP 90.4%/89.2%, OF 88.5%/86.1%	h	evaluation
+R08804	TYLCV, ToLCNDV	plant	DNA	duplex RPA-LFD	not reported	visual	field samples	100 and 10 copies/uL	consistent with PCR	g	RPA; plant; multiplex
+R08824	SARS-CoV-2	human	RNA	CRISPR AsCas12a at high temperature	not reported	fluorescence	not reported	LoD reduced 33-fold	not reported	e	scope-check: strip not stated
+R08825	Ebola, Lassa viruses	human	Ag	duplex colorimetric LFIA	not reported	visual/reader	not reported	44 ng/mL (EBOV); 69 ng/mL (LASV)	not reported	g	multiplex; stability 8 weeks
+R08826	emerging viruses (two targets)	human	Ag	corona-structured magnetic nanozyme ICA	magnetic nanozyme	visual	not reported	19.4 and 22.5 pg/mL direct; >=92.65x sensitivity after 2 min catalysis	not reported	c	nanozyme; scope-check: viruses not named
+R08831	RSV F protein	human	Ag	mAb pairs, Au@Pt-LFIA, DAS-ELISA, CLIA	Au@Pt	visual	preliminary clinical	0.25, 0.04, 0.78 ng/mL (ELISA, CLIA, Au@Pt-LFIA); Au@Pt ~4x vs colloidal gold	PPA 90.0%, 93.3%, 83.3%; NPA 100%	c	nanozyme
