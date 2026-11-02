@@ -1,0 +1,53 @@
+R05213	SARS-CoV-2 neutralizing antibodies	human	Ab	AI-assisted colorimetric LFIA with polydopamine nanoparticles	polydopamine nanoparticles	smartphone/AI	50 clinical sera	160 ng/mL (range 625-10,000 ng/mL)	consistent with commercial ELISA	f	AI;novel label
+R05214	strawberry mottle virus	plant	NA	RT-RPA-LF	NR	visual	100 suspected samples (3 positive)	500 fg RNA	concordant with RT-PCR	e	plant
+R05225	HCV	human	Ab	OraQuick HCV self-test usability	NR	visual	MSM, Guangzhou	NR	inter-reader concordance computed (values NR)	h	commercial;self-test
+R05227	ASFV	livestock (pig)	NA	direct PCR + CRISPR/Cas12a, fluorescence and LFA	NR	visual (LFA)	NR	4 copies/uL (7.6 x 10^-4 ng/uL)	NR	e	CRISPR;veterinary
+R05231	SARS-CoV-2 IgM/IgG	human	Ab	ALLtest rapid IgM-IgG	NR	visual	>1000 sera, Hubei and Zhejiang	NR	sens 92.58-97.55%, spec 92.14-96.28%	h	new assay
+R05234	HIV	human	Ab	Exacto HIV self-test	NR	visual	200 positive, 200 negative sera, CAR	NR	sens 99.5% (98.2-99.9), spec 100% (99.0-100)	h	commercial;self-test
+R05235	SARS-CoV-2 nucleocapsid (and hCG)	human	Ag	osmotic processor concentrating urine for LFA	NR	visual	model analytes	improved LOD (value NR)	NR	d	preconcentration
+R05250	Zika, dengue, chikungunya, yellow fever	human	Ab/Ag	ChemBio and SD Biosensor Zika rapid tests	NR	visual	APC evaluation panel	NR	ChemBio Zika IgM sens 86.4%, spec 86.7%; SD Zika IgM 96.8%/90.8%	h	commercial;multiplex
+R05255	PEDV GII	livestock (pig)	NA	RT-RAA + Cas12a, multiplexable portable platform	NR	visual (LF not stated)	NR	100 copies/reaction	NR	e	CRISPR;scope-check
+R05260	SARS-CoV-2	human	Ag	Ag-RDT with nasal, throat and combined swabs	NR	visual	asymptomatic individuals	NR	PPA nasal or throat alone 64.5%; combined 88.7%	h	commercial;sampling
+R05261	sweepoviruses (begomoviruses)	plant	NA	RPA-LFD	NR	visual	NR	1.0 x 10^4 copies/reaction (10x PCR)	NR	e	plant
+R05264	SARS-CoV-2	human	Ag	RDTs with self-taken vs HCW-taken swabs	NR	visual	prospective, 74 positives	NR	self-taken sens 90.5% (83.9-97.2) vs HCW 78.4% (69.0-87.8); spec 99.4% vs 98.9%	h	commercial;sampling
+R05266	SARS-CoV-2 IgM/IgG	human	Ab	microneedle patch sensor + paper immunoassay	NR	visual	NR	IgM 3 ng/mL, IgG 7 ng/mL	NR	d	microneedle sampling
+R05270	TMV, TEV, PVX	plant	NA	CRISPR-Cas12a/Cas13 detection with lateral flow strip readout	NR	visual	NR	NR	NR	e	CRISPR;plant
+R05272	SARS-CoV-2 spike variants	human	Ag	nanobody panel	NR	NR	NR	NR	NR	d	binder discovery;scope-check
+R05278	SARS-CoV-2 and dengue	human	Ab	rapid LFIAs, cross-reactivity	NR	visual	52 COVID-19 sera	NR	93% of SARS-CoV-2 Ab+ sera cross-reacted with dengue in rapid or ELISA tests	z	scope-check;cross-reactivity
+R05280	herpesvirus of turkeys (HVT) vaccines	livestock (poultry)	NA	LAMP-LFD	NR	visual	field organ, feather, dust samples	LOD on plasmid (value NR)	detected all HVT vaccines	e	veterinary
+R05282	SARS-CoV-2 antibodies	human	Ab	ALFA machine learning for home LFIA interpretation	NR	smartphone image ML	home self-tests	NR	kappa 0.90-0.97 vs experts; spec 98.7-99.4%, sens 90.1-97.1%	f	AI
+R05292	SARS-CoV-2 RBD	human	Ab	LFIA with plant-produced RBD	NR	visual	51 COVID-19 sera	NR	sens 94.1%, spec 98%	a	antigen source
+R05295	SARS-CoV-2	human	Ag	NHS lateral flow test protocol	NR	visual	NR	NR	protocol, no data	h	protocol;scope-check
+R05311	SARS-CoV-2 antibodies	human	Ab	signal amplification with antibody-AuNP-N protein complex	gold nanoparticles	visual	seropositive and pre-pandemic sera (2 uL)	enhanced LOD (value NR)	excellent sens/spec vs ELISA (values NR)	a	signal amplification
+R05318	classical swine fever virus antibodies	livestock (pig)	Ab	ICTS with plant-derived E2	NR	visual	piglet sera	1:128,000	no cross-reactivity	i	veterinary
+R05322	SARS-CoV-2	human	Ag	Rapigen, SD Biosensor, third RDAgT	NR	visual	community, tropical setting	NR	multicentre, manufacturer-independent (values NR)	h	commercial
+R05333	NR (membrane wicking)	NR	NR	effective capillary radius for flow prediction	NR	NR	NR	NR	NR	d	flow engineering;scope-check
+R05337	SARS-CoV-2 antibodies	human	Ab	antibody responses in HCWs	NR	visual	Mexican HCWs	NR	NR	z	scope-check;cohort
+R05339	SARS-CoV-2	human	NA	improved CRISPR-Cas12a assay	NR	visual (LF likely; not clear)	contrived and patient samples	NR	NR	e	CRISPR;scope-check
+R05341	IHNV genogroups U and M	aquatic (salmonids)	NA	rapid diagnostic test (U/M assay)	NR	visual (LFA likely; not stated)	free-ranging Pacific salmon	NR	DSe >94%, DSp >97% vs cell culture	i	aquaculture;scope-check
+R05342	NR (serodiagnosis model)	NR	Ab	LFIA with two-stage label incorporation into immune complexes	gold nanoparticles	visual	NR	NR	sens 62.5% (common) vs 100% (enhanced); spec 100%	d	assay engineering
+R05345	dengue virus	human	Ag	AuNP-4G2 competitive LFA	gold nanoparticles (3 ug/mL 4G2)	visual	DENV-2 isolate (4.58 x 10^3 TCID50/mL)	5.12 x 10^2 PFU	NR	a	new assay
+R05346	SARS-CoV-2	human	Ag	ND COVID-19 LFT	NR	visual	400 NP swabs	NR	sens 85% (76.7-90.7), spec 100% (98.7-100); sens 100% (Ct<25), 50% (Ct>=30)	h	commercial
+R05347	HCV	human	NA	RT-LAMP + CRISPR-Cas12	NR	visual (readout not clear)	clinical samples	NR	sens 96%, spec 100%, agreement 97%	e	CRISPR;scope-check
+R05354	SARS-CoV-2 nucleocapsid	human	Ag	nanogold LFI antigen test	nanogold	visual	clinical specimens	NR	sens 95%, spec 98%, accuracy 97%	a	new assay
+R05355	HIV	human	Ab	HIV RDT algorithm after vaccination	NR	visual	vaccine trial participants	NR	vaccine-induced seroreactivity	z	scope-check
+R05365	feline calicivirus	companion animal	NA	RPA + CRISPR-Cas13a visual assays	NR	visual (LF likely; not clear)	clinical samples	5.5 copies/uL	no cross-reaction	e	CRISPR;scope-check
+R05367	SARS-CoV-2 nucleoprotein	human	Ag	bioreceptor selection for nanoparticle LFIA	NR	visual	NR	NR	NR	d	antibody selection;scope-check
+R05369	SARS-CoV-2 mutants	human	NA/Ag	nanogold and aptamer at-home test (proof of concept)	nanogold	visual	NR	NR	NR	a	aptamer
+R05371	human metapneumovirus	human	Ag	immunochromatography on sputum vs NP swab	NR	visual	adults	NR	NR	h	commercial;scope-check
+R05372	citrus tatter leaf virus	plant	NA	RT-RPA-LFD	NR	visual	45 field tangor samples	3 x 10^3 copies/uL (same as RT-qPCR)	consistent with RT-PCR and RT-qPCR	e	plant
+R05374	WSSV	aquatic (shrimp)	NA	RPA-LFD	NR	visual	100 field samples	20 copies/reaction	vs real-time PCR	e	aquaculture
+R05375	SARS-CoV-2 mutations	human	NA	allele-specific lateral flow	NR	visual	113 positive RNA extracts (Ct<30)	NR	performance comparable to RT-qPCR	e	genotyping
+R05376	NR (LFA physics)	NR	NR	relative humidity and paper geometry effects	NR	NR	NR	NR	NR	d	flow engineering;scope-check
+R05395	SARS-CoV-2 Omicron BA.1	human	Ag	8 Ag-RDTs	NR	visual	cultured virus; 59 Omicron, 54 Delta samples	lower endpoint sensitivity trend for Omicron	NR	h	commercial
+R05400	SARS-CoV-2 neutralizing antibodies	human	Ab	LFA capturing neutralized RBD	NR	visual	NR	NR	NR	d	functional assay
+R05403	porcine circovirus 2	livestock (pig)	Ag	red latex microsphere ICS	red latex microspheres	visual	183 clinical samples	10^2.5 (PCV2a), 10^0.7 (PCV2b), 10^1.5 (PCV2d) TCID50/0.1 mL	sens 81.13%, spec 100%, coincidence 90.00% vs PCR	b	latex;veterinary
+R05407	HBV, HCV, HIV	human	Ag/Ab	RDT residual risk in blood donors	NR	visual	417 RDT-negative donor sera, Burkina Faso	NR	residual risk	z	scope-check
+R05422	SARS-CoV-2 Omicron RBD	human	Ag	SCORe DNA aptamer for multiplexed detection	NR	NR	NR	NR	NR	a	aptamer;scope-check
+R05440	rotavirus	human	Ag	AlphaLISA vs ICA	NR	visual (ICA comparator)	235 stool samples	AlphaLISA 5^-8 vs ICA 5^-4 dilution	NR	z	scope-check;luminescent assay
+R05443	dengue (and malaria, melioidosis)	human	Ag/Ab	DPP Fever Panel II Asia	NR	reader	patients, Southeast Asia	NR	cutoffs set at spec >=95%	h	commercial;multiplex
+R05447	SARS-CoV-2 variants	human	Ag	SCoV-2 Ag Detect and BinaxNOW across 3 variant phases	NR	visual	symptomatic adults	LOD vs Omicron, Delta, wild type	no significant differences across variants	h	commercial
+R05450	SARS-CoV-2 antibodies	human	Ab	24 antibody assays	NR	mixed	384 COVID-19 patients, 142 controls	NR	NR	h	commercial;scope-check
+R05453	porcine deltacoronavirus	livestock (pig)	NA	RT-RAA-LFD	NR	visual	149 samples	3.97 TCID50/reaction (95% LOD)	coincidence 97.32% (145/149), kappa 0.946 vs trRT-PCR	e	veterinary
+R05456	West Nile virus	human	NA	colorimetric RT-LAMP and RT-LAMP-LFD	NR	visual	110 human sera	10 copies	kappa 0.970 vs qRT-PCR	e	
+R05458	HPV16/18	human	NA	PCR integrated lateral flow strip	NR	visual	clinical samples	700 copies	NR	e	multiplex
