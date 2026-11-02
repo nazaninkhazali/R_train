@@ -1,0 +1,70 @@
+R08327	dengue	human	RNA/Ag	ZYDC-PCR vs RDT and ELISA, Peru	not reported	visual	131 samples	not reported	ZYDC-PCR sens 86.0%, kappa 0.893	h	scope-check: PCR is main focus; RDT result not in abstract
+R08332	coxsackievirus A6	human	RNA	RT-MCDA + nanoparticle biosensor	AuNP	visual	70 anal, 42 throat swabs	33 copies/reaction	100% concordance with qRT-PCR	e	MCDA
+R08335	ASFV antibodies	veterinary (pig)	Ab	dual-colour latex microsphere LFIA	coloured latex	visual	159 clinical samples	1:1024	kappa 0.955	b	latex; multiplex
+R08336	broad bean wilt virus 2	plant	RNA	RT-RPA + Cas12a LFD	not reported	visual	20 field samples	7.5 copies/uL (1e5x vs RT-PCR)	100% accuracy	i	CRISPR; plant
+R08340	DENV NS1	human	Ag	K-Dengue NS1 rapid test with 80 nm gold nanospheres	80 nm AuNP	visual	185 archived plasma	2.9 (DENV-1), 0.5 (DENV-2), 25.2 (DENV-3), 4.5 ng/mL (DENV-4)	vs NS1 ELISA (values not in abstract)	a	AuNP size
+R08342	not reported	not reported	protein	bicyclic peptides as recognition scaffolds	not reported	not reported	not reported	not reported	not reported	d	scope-check: virus and LFA not stated
+R08347	HIV	human	Ab	POC proficiency testing scheme, South Africa	not reported	visual	blinded sera	not reported	not reported	h	scope-check: PT scheme analysis
+R08350	SARS-CoV-2 IgG	human	Ab	CsPbBr3@SiO2-Au shell trimodal LFIA	perovskite-Au shell	visual + fluorescence + photothermal	not reported	photothermal 0.4 ng/mL (not colorimetric)	not reported	g	dual-mode; colorimetric LOD not reported
+R08351	SARS-CoV-2	human	Ag	Fe3O4@PMAA@IgG natural-colour LFIA	Fe3O4	visual	not reported	0.5 ng/mL	not reported	b	magnetic label
+R08352	CSFV E2	veterinary (pig)	Ag	E2-based LFA	not reported	visual	clinical	not reported	sens 100%, spec 96.42% vs ELISA	i	antigen
+R08353	HIV + Treponema pallidum	human	RNA/DNA	duplex CRISPR LFA (DIAL)	not reported	visual	46 samples	100 copies/uL	HIV sens 100%, spec 97.5%; TP 90%/100% vs qPCR	g	CRISPR; scope-check: bacterial co-target
+R08356	CHIKV, DENV	human	RNA	Cas12a/Cas13a dual enzyme	not reported	not reported	simulated samples	1e2 copies/mL	100% agreement with qPCR	g	CRISPR; scope-check: strip not stated
+R08360	SARS-CoV-2 neutralizing Ab	human	Ab	sqLFA flow-based platform	not reported	reader	not reported	not reported	spec 80%, sens 90% at MN cutoff 1:40	f	serology
+R08365	cowpea chlorotic mottle virus	plant	Ag	dipstick LFA, mAb	not reported	visual	plant	not reported	not reported	i	plant; sample prep
+R08366	SARS-CoV-2 N protein	human	Ag	nanobody-coated AuNP LFA	AuNP	visual	not reported	40 ng/mL	not reported	a	nanobody
+R08368	HIV	human	Ab	internal quality control materials for RDTs	not reported	visual	lyophilised plasma	n/a	n/a	h	scope-check: IQC material
+R08369	PVX, PVY	plant	Ag	Fe3O4 nanozyme strips	Fe3O4 nanozyme	visual	12 plantlet samples	1e3-fold (PVX), 1e4-fold (PVY)	fully consistent with RT-PCR	c	nanozyme; plant; multiplex
+R08372	mpox clades	human	DNA	amplification-free clade-specific LFA, ssDNA probes	AuNP	visual	not reported	1e2 copies/uL	not reported	e	amplification-free
+R08379	HBsAg	human	Ag	rapid screening test vs ELISA	not reported	visual	220 sera	not reported	42 positive by both methods	h	evaluation
+R08385	RVFV nucleoprotein	human/veterinary	Ag	magnetic-gold nanostar LFIA	magnetic-gold nanostars	visual	PBS buffer	2.24 pg/mL; 1000x vs GNP assays	not reported	a	nanostar
+R08390	SARS-CoV-2	human	Ag	preemptive RAT in outbreak	not reported	visual	outbreak	not reported	sens 0.82, spec 1.00	h	evaluation
+R08397	rabies	veterinary (animals)	Ag	saliva LFA vs brain DFA	not reported	visual	paired brain, saliva	not reported	not reported in abstract	h	evaluation
+R08399	BRSV, BVDV	veterinary (cattle)	RNA	RT-ERA-LFD	not reported	visual	46 archived respiratory samples	10 copies	matched real-time PCR	i	ERA
+R08407	DENV, Zika, CHIKV	human	RNA	discarded malaria RDT cassettes as sample source	not reported	not reported	68 DENV-3 positives	not reported	not reported	z	scope-check: spent cassettes as sample source (excluded by rule)
+R08414	influenza A/B, Mycoplasma	human	RNA	RNA isothermal amplification-gold probe LFA vs tNGS	AuNP	visual	pediatric	not reported	agreement moderate for influenza	e	scope-check: bacterial co-target
+R08415	FAdV-4	veterinary (chicken)	Ag	colloidal gold ICS, penton mAbs	AuNP	visual	not reported	7.81e4 TCID50/0.1 mL	not reported	i	AuNP
+R08416	FeLV	veterinary (cat)	Ag	POC lateral flow vs iiPCR in shelter cats	not reported	visual	383 cats	not reported	low PPV in healthy cats (values not in abstract)	h	evaluation
+R08418	HTLV-1/2	human	Ab	ICA in Gabon	not reported	visual	Gabon samples	not reported	sens 66.7% (58.5-74.3), spec 99.1%	h	evaluation; negative result
+R08419	SARS-CoV-2	human	RNA	sequence recovery from four LFDs	not reported	visual	cultured virus, nasal swabs	n/a	n/a	z	scope-check: spent strips as sample source (excluded by rule)
+R08420	HBV pgRNA	human	RNA	NP biosensor + CRISPR/Cas12b	AuNP	visual	chronic HBV patients	10 copies/reaction	not reported	e	CRISPR
+R08422	HBV, HCV	human	Ag/Ab	prevalence study	not reported	not reported	pregnant women	not reported	not reported	z	scope-check: epidemiology, LFA not stated
+R08428	pepper mild mottle virus	plant	Ag	immunochromatographic strip	not reported	visual	field samples	1 ng/mL	not reported	i	plant
+R08430	HIV-1/2	human	Ab	Multisure vs Geenius confirmatory tests	not reported	visual	224 archived sera	not reported	sens 100%, spec 100% vs INNO-LIA	h	commercial
+R08431	RVFV antibodies	human/veterinary	Ab	species-independent double-antigen LFT	not reported	visual	not reported	not reported	high sens and spec (no values)	d	serology
+R08432	Lassa virus NP	human	Ag	broad-lineage LASV RDT	not reported	visual	60 human samples	lineage-dependent	spec 100%	d	mAb pairs
+R08441	norovirus GII, HAdV F41	human	RNA	duplex RT-LAMP red/blue bicolour LFIA	red and blue labels	visual	not reported	5.8 copies/uL NoV; 63 copies/uL HAdV	not reported	b	multi-colour; multiplex
+R08445	monkeypox virus	human	DNA	single-tube RAA-Cas12a, LFA	not reported	visual	simulated clinical samples	5 copies/uL (LFA); 0.5 (fluorescence)	100% accuracy	i	CRISPR
+R08446	HIV, HBV, HCV	human	DNA/RNA	vertical-flow paper-tape device	not reported	visual	203 plasma samples	200 copies/mL (HIV, HBV); 600 (HCV)	sens and spec >90.9%	g	vertical flow; scope-check: vertical flow not LFA
+R08448	HBsAg	human	Ag	five HBsAg RDTs, Uganda	not reported	visual	200 donor blood	not reported	sens 93%	h	evaluation
+R08450	SARS-CoV-2	human	RNA	LAMP-LFD	not reported	visual	not reported	18.92 copies/uL	comparable to RT-qPCR	e	LAMP
+R08451	hMPV	human	RNA	RAA + Cas13a dual-mode	not reported	visual	106 clinical samples	1 copy/uL	vs RT-qPCR (not in abstract)	e	CRISPR
+R08456	norovirus	human	RNA	catalytic hairpin assembly gold strip (CHA-GICA) + fluorescent strip	AuNP	visual	55 faecal specimens	10 pM (gold); 100 fM (fluorescence)	CHA-GICA sens 73.3%, spec 100%; CHA-FICA 86.7%, 100%	e	enzyme-free; dual format
+R08460	FIV antibodies	veterinary (cat)	Ab	two commercial PoC kits	not reported	visual	116 sera	not reported	not reported in abstract	h	evaluation
+R08461	HIV antibodies	human	Ab	nanotrap + AI smartphone reader on commercial LFAs	not reported	smartphone AI	oral-fluid equivalent	~20x enrichment; 8 days earlier detection	not reported	f	AI; enrichment
+R08465	HPV16/18	human	DNA	CRISPR-dCas9 LFA, negative finding	not reported	visual	n/a	n/a	assay failed from excess biotin	e	negative result
+R08468	Lassa virus	veterinary (rodents)	Ag	LASV NP antigen RDT	not reported	visual	rodents	not reported	spec 61.9%, sens 100% (n tiny)	h	evaluation
+R08474	influenza A, B	human	RNA	CRISPR dual-mode magnetic SERS LFA	magnetic SERS tags	visual + SERS	74 clinical samples	7-9 copies/uL	sens 100%, spec 100% vs qRT-PCR	g	CRISPR; dual-mode
+R08477	MSRV	aquaculture	RNA	two MIRA methods	not reported	visual	disease farm samples	9 copies/uL	not reported	i	MIRA
+R08478	PEDV	veterinary (pig)	Ag	colloidal gold strip, anti-S mAbs	AuNP	visual	not reported	1.2 TCID50/uL	not reported	i	AuNP
+R08490	FMDV SAT2	veterinary	RNA	RT-RAA-CRISPR/Cas13a	not reported	not reported	simulated clinical samples	not reported	100% concordance	i	CRISPR; scope-check: strip not stated
+R08491	IHHNV	aquaculture (shrimp)	DNA	RAA-Cas12a, fluorescence and LFD	not reported	visual	not reported	1 copy/reaction (LFD); 10 (fluorescence)	not reported	i	CRISPR
+R08493	SARS-CoV-2, flu A/B, RSV	human	Ag	QuickFinder multiplex Ag test	not reported	visual	389 NP swabs	not reported	sens 90.0% (SARS-CoV-2), 94.0% (flu A), 83.3% (flu B), 80.0% (RSV); spec 100%	h	commercial; multiplex
+R08495	pigeon rotavirus A	veterinary (pigeon)	RNA	RT-RAA-Cas12a	not reported	visual	56 tissue samples	16.8 copies/uL	positivity 23.5% vs PCR 17.6% (racing pigeons)	i	CRISPR
+R08500	HPV DNA	human	DNA	ML smartphone CRISPR-Cas12a LFA	not reported	smartphone ML	60 validation plasma	not reported	sens 96.7%, spec 100%	f	AI; CRISPR
+R08502	yellow fever virus	human	RNA	RT-RAA-CRISPR-ERASE LFS	not reported	visual	spiked serum	1 copy/uL; 100 PFU/mL (serum)	not reported	e	CRISPR
+R08504	CHIKV, DENV 1-4	human	RNA	RT-MIRA multiplex LFD + nested serotyping	not reported	visual	236 patients	LOD95 by probit (values not in abstract)	vs RT-qPCR, serology (not in abstract)	g	MIRA; multiplex
+R08507	FMDV antibodies	veterinary (cattle)	Ab	NSP antibody LFA	not reported	visual	218 sera, Indonesia	not reported	assay spec 96.46%	h	serology
+R08510	HBcrAg	human	Ag	HBcrAg-RDT, The Gambia	not reported	visual	pregnant women plasma, capillary blood	not reported	plasma sens 89.5%, spec 98.5%; capillary 88.2%, 98.7%	h	evaluation
+R08516	MPXV	human	DNA	RPA fluorescence and LFB	not reported	visual	matrices	14 copies	consistent detection at 45 copies	e	RPA
+R08520	HCMV IgG	human	Ab	recombinant antigen ELISA and GICA	AuNP	visual	573 sera	not reported	not reported in abstract	h	serology
+R08521	dengue NS1, IgM, IgG	human	Ag/Ab	ASSURE Dengue Ab/Ag multicentre	not reported	visual	430 Singapore, 300 India, 85 Bangladesh	not reported	not reported in abstract	h	commercial
+R08523	RNA (virus not stated)	human	RNA	trigger-gated CHA for isothermal detection	not reported	visual	70 positive, 30 negative serum	not reported	AUC 0.994, sens 1.000, spec 0.967	e	scope-check: virus and strip not stated
+R08524	duck adenovirus 3	veterinary (duck)	DNA	RAA-Cas12a LFD	not reported	visual	not reported	2.87e2 copies/uL	not reported	i	CRISPR
+R08525	rotavirus A, norovirus, adenovirus	human	DNA/RNA	finger-actuated microfluidic RPA-LFA	not reported	visual	90 clinical samples	1, 1, 5 copies/uL	high concordance with qPCR	g	microfluidic; multiplex
+R08527	rabies	veterinary (animals)	Ag	Bionote Anigen rapid rabies Ag test	not reported	visual	1,399 samples	not reported	sens 97.11% (95.21-98.27), spec 99.89% (99.36-99.98)	h	commercial
+R08528	HCV core	human	Ag	mAb pair LFA	not reported	visual	clinical	0.3125 ng/mL	sens 92.0%, spec 100%, accuracy 95.6%	d	antibody pair
+R08533	mpox	human	Ag	five antigen RDTs, Kinshasa	not reported	visual	lesion swabs	not reported	best test sens 77.3%	h	evaluation
+R08534	norovirus	human	Ag	genotype-specific recombinant antibodies, dual-mode	not reported	visual	oysters, 60 clinical	DAS-ELISA 3.23, 2.16 ng/g	good concordance with PCR	d	antibody; scope-check: LOD is ELISA
+R08540	HBV	human	Ag	HBsAg RDT vs ECLIA, NAT	not reported	visual	2,721 community participants	not reported	RDT sens 80.7% (73.9-86.4)	h	screening
+R08547	HCV Ab/Ag	human	Ag/Ab	ASSURE HCV Ab/Ag rapid test	not reported	visual	2,501 specimens	not reported	sens 100% (778/778), spec 99.83%, kappa 0.998	h	commercial
