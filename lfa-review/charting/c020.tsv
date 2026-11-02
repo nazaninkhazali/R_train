@@ -1,0 +1,50 @@
+R05459	soybean mosaic virus	plant	Ag	colloidal gold ICS (SMV-GICS) and DAS-qELISA	colloidal gold	visual	NR	same sensitivity as RT-PCR	NR	i	plant
+R05461	Nipah virus, Hendra virus	human/animal	Ag	ephrin B2 capture immunoassays (ELISA; LF not stated)	NR	NR	NR	NR	NR	z	scope-check;ELISA
+R05464	SARS-CoV-2	human	NA	CRISPR-Cas13a-based lateral flow assay	NR	visual	52 positive, 101 negative samples	NR	vs RT-PCR (values NR in abstract)	e	CRISPR
+R05467	SARS-CoV-2	human	NA	orthogonal CRISPR-Cas multiplexed LFA (OC-MLFA)	NR	visual	76 NP swab samples	10 copies/test (30 uL)	76/76 accuracy	e	CRISPR;multiplex
+R05472	SARS-CoV-2	human	NA	paper device with CRISPR/Cas12a and RT-LAMP, wastewater	NR	visual (lateral flow)	wastewater	25 (N), 310 (E), 10 (S) copies/mL	sens 97.7%, semiquantitative accuracy 82%	e	CRISPR;environmental
+R05493	plant genotyping and pathogens	plant	NA	Bio-SCAN CRISPR/dCas9 LFA	NR	visual	wheat, rice	NR	NR	e	CRISPR;scope-check
+R05495	bovine rotavirus A	livestock (cattle)	NA	real-time RT-RPA and LFS RT-RPA	NR	visual (LFS)	134 faecal samples	14 copies/reaction (LFS)	positive rate 46.27% (LFS) vs 45.52% (real-time)	e	veterinary
+R05497	SARS-CoV-2 anti-spike antibodies	human	Ab	anti-spike antibody LFA to identify high-risk patients	NR	visual	community patients	NR	NR	h	commercial;scope-check
+R05501	norovirus GII.4	human	NA	CRISPR/Cas13 detection (fluorescence and strip)	NR	visual (strip arm)	NR	5 copies/reaction	no cross-reaction	e	CRISPR
+R05504	SARS-CoV-2	human	NA	pen-like sensor with nucleic acid amplification LFA	NR	visual	blinded experiment	0.5 copies/uL	accuracy comparable to qPCR	e	device
+R05509	PEDV	livestock (pig)	NA	RT-RPA-NALF	NR	visual	5 simulated faecal samples	10^2 TCID50/mL	specific to M gene	e	veterinary
+R05523	norovirus GII.4, GII.17	human	NA	RT-RAA-Cas12a, fluorescence and LFS	NR	visual (LFS)	clinical samples	0.1 copies/uL	PPA 95.7% and 94.3%, NPA 100%	e	CRISPR
+R05527	SARS-CoV-2	human	Ag	rapid antigen test on non-respiratory specimens	NR	visual	150 samples (ascitic, pleural, BAL, CSF, urine, etc.)	NR	detected antigen in non-nasopharyngeal samples (values NR)	h	commercial
+R05530	SARS-CoV-2	human	Ag	novel Ag-RDT with anterior nasal specimens	NR	visual	226 paired samples, 16 patients	NR	100% sens to day 6 (Ct<30); from day 7: 70.4-90.6% (nasal), 83.9-84.6% (NP)	h	commercial
+R05533	SARS-CoV-2 spike RBD	human	Ag	delayed LFIA with TMSC hydrophobic barrier	NR	visual	NR	9.1-fold lower LOD, 2.6-fold higher sensitivity than conventional LFIA	NR	d	flow engineering
+R05535	hepatitis E virus	human/swine	NA	qRT-RPA and LFB RT-RPA	NR	visual (LFB)	raw pork livers	24 copies/uL (LFB); 154 copies/uL (qRT-RPA)	no cross-reactions	e	food
+R05536	Japanese encephalitis virus NS1	human	Ag	AuNP LFA with smartphone colorimeter	gold nanoparticles	smartphone	spiked serum	10 pg/mL (visual)	minimal cross-reactivity; stable 1 month at 4 C	a	smartphone
+R05542	lumpy skin disease virus	livestock (cattle)	Ag	AuNP LFIA, hook-effect investigation	gold nanoparticles	visual	NR	10^3.4 TCID50/mL	CV <5.3%; no cross-reaction with 12 viruses	a	hook effect;veterinary
+R05544	SARS-CoV-2	human	NA	RT-HDA and RT-LAMP with LFA	NR	visual	NR	3 genome copies/reaction (RT-HDA); 30-300 (RT-LAMP)	NR	e	
+R05548	SARS-CoV-2 neutralizing antibodies	human	Ab	LFA for nAb longitudinal monitoring after vaccination	NR	visual	finger-stick blood	NR	NR	h	commercial;scope-check
+R05552	SARS-CoV-2	human	Ag	two antigen tests (incl. Fluorecare) vs variants	NR	visual	NR	NR	low sensitivity vs declared 90% and 92%	h	commercial
+R05559	SARS-CoV-2 anti-S antibodies	human	Ab	colorimetric cellulose-based test strip	NR	digital image green coordinate	500-fold diluted serum	10 ng/mL to 1 ug/mL range	NR	d	cellulose;quantification
+R05563	Carassius auratus herpesvirus	aquatic (crucian carp)	NA	RAA-LFD	NR	visual	NR	100 gene copies/reaction (100x below PCR)	NR	e	aquaculture
+R05565	PEDV wild-type vs vaccine strains	livestock (pig)	NA	CRISPR/Cas13a lateral flow strip	NR	visual	clinical samples	10^1 copies/uL	no cross-reactivity	e	CRISPR;veterinary
+R05571	NR (commercial LFIA)	NR	NR	macromolecular crowding agents	NR	visual	NR	enhanced sensitivity (value NR)	NR	d	buffer additive;scope-check
+R05579	SARS-CoV-2 nucleocapsid	human	Ag	SiO2@Au core-satellite nanoparticles	SiO2@Au core-satellite nanoparticles	visual/reader	NR	0.24 pg/mL (2 orders of magnitude below colloidal gold)	NR	a	nanoparticle engineering
+R05580	elephant endotheliotropic herpesvirus	wildlife (elephants)	Ag	immunochromatographic strip	NR	visual	blood samples	1.25 x 10^5 viral genome copies/mL	NR	i	veterinary
+R05594	HIV-1	human	Ab/Ag	Vikia, Alere Combo, Determine RDTs	NR	visual	116 samples (60 HIV-1+), Gabon	NR	vs RT-PCR; kappa (values NR)	h	commercial
+R05613	HBsAg	human	Ag	HBsAg RDT vs DBS ECLIA in serosurvey	NR	visual	Vietnam serosurvey	NR	99% agreement, kappa 0.9	h	commercial
+R05615	dengue NS1	human	Ag	FIA vs immunochromatography	immunochromatographic (colorimetric) vs fluorescent	visual/reader	acute febrile illnesses	NR	FIA sens 79.11%, spec 92.28%	h	commercial;scope-check
+R05616	infectious myonecrosis virus	aquatic (shrimp)	Ag	LFA with r-IMNV31 antibody	NR	visual	60 shrimp tissue samples	10^3 viral particles	sens 100%, spec 86%, kappa 0.86 vs qRT-PCR	i	aquaculture
+R05624	strawberry mild yellow edge virus	plant	NA	RT-RPA-LF	NR	visual	field samples	10 pg/uL (100x below RT-PCR)	consistent with RT-PCR	e	plant
+R05625	porcine circovirus 2	livestock (pig)	Ag	GICA strip with polyclonal antibodies	colloidal gold	visual	36 porcine sera	5 ng/mL (visual)	9 vs 11 positives by ELISA	i	veterinary
+R05634	SARS-CoV-2 variants	human	Ag	6 lateral flow antigen kits	NR	visual	TCID50 dilutions	2.5 x 10^4 TCID50/mL low dose	ImmunoArrow best	h	commercial
+R05647	pseudorabies virus	livestock (pig)	NA	RAA-LFA from crude samples	NR	visual	clinical crude samples	21 copies/reaction; 6.0 TCID50/reaction extraction-free	NR	e	veterinary
+R05650	SARS-CoV-2	human	Ag/NA	single sampling, pooled, nucleic acid POCT, rapid antigen tests	NR	visual	inactivated virus WT, Delta, Omicron	1.28 x 10^2 - 4.10 x 10^3 (single); 1.42 x 10^3 copies/mL (NA POCT)	NR	h	commercial
+R05652	dengue / COVID-19	human	Ab	rapid serological tests cross-reaction	NR	visual	case series	NR	NR	z	scope-check;cross-reactivity
+R05658	SARS-CoV-2 neutralizing antibodies	human	Ab	LFI with spectrum reader	NR	spectrum reader	maternal and cord blood, 20 mothers	NR	sRBD IgG thresholds 60.15-230.20 ng/mL	f	reader
+R05667	dengue NS1	human	Ag	TKK dengue NS1 rapid tests	NR	visual	Bangkok clinical specimens	NR	NR	h	commercial
+R05684	SARS-CoV-2 IgM/IgG	human	Ab	AuNP LFA with baculovirus-expressed N and RBD	gold nanoparticles	visual	103 convalescent, 28 controls	NR	NR	a	antigen source
+R05685	CRP (model)	human	NR	pressed LFA strips	NR	visual	CRP in PBS and serum	lower LOD (value NR)	NR	d	flow engineering;non-viral;scope-check
+R05688	SARS-CoV-2	human	Ag	PoC Ag-RDT in symptomatic vs asymptomatic	NR	visual	108 symptomatic, 476 asymptomatic	NR	concordance 97.2% (symptomatic), 98.1% (asymptomatic)	h	commercial
+R05700	dengue IgG (serostatus)	human	Ab	Bioline and Standard Q RDTs	NR	visual	field, Timor-Leste	NR	field sens 21.1% (Bioline), 4.6% (Standard Q); spec 100%	h	commercial
+R05711	multiple viruses (Zika, Ebola, SARS-CoV-2)	human	Ag	multicolor gold NP multiplex with cross-reactive mAb pairs	multicolored gold nanoparticles	visual	NR	NR	NR	g	multiplex;multicolor
+R05713	hepatopancreatic parvovirus	aquatic (shrimp)	NA	RPA-LF	NR	visual	33 hepatopancreas tissues	35 genome-equivalent copies/reaction	sens 100% (86-100), spec 100% (66-100)	e	aquaculture
+R05714	SARS-CoV-2	human	NA	molecular LFA (quantitative)	NR	visual and quantitative	NP swabs	NR	high specificity, detectability, repeatability	e	quantitative
+R05717	PEDV, PCV2	livestock (pig)	NA	duplex LAMP-LFD	NR	visual	50 swine clinical samples	0.1 ng/uL (PEDV), 0.246 ng/uL (PCV2)	sens, spec, accuracy 100% vs PCR	e	multiplex;veterinary
+R05719	HBV	human	Ag	electrophoresis-assisted multilayer AuNP assembly	gold nanoparticles (biotin-streptavidin assembly)	visual	118 clinical samples	NR	sens 73% to 98%, spec 95% unchanged	a	signal enhancement
+R05721	Rift Valley fever virus antibodies	livestock/human	Ab	half-strip LFA	NR	visual	NR	NR	NR	d	half-strip
+R05723	SARS-CoV-2	human	NA	RT-LAMP lateral flow devices and electrochemical sensor	NR	visual (LFD)	2020-2021 outbreak clinical samples	E-sensor LOD log 1.79 pg/uL	NR	e	multi-gene
