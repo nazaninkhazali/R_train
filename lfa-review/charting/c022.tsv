@@ -1,0 +1,50 @@
+R05938	canine distemper virus	companion animal	Ag	optimised LFA; strip also used as sample substitute	NR	visual	fresh and stored clinical samples	10^6.5 TCID50/mL	fresh samples detected; stored samples inconsistent	i	veterinary
+R05948	varicella-zoster virus	human	Ag	DermaQuick VZV immunochromatography (and direct LAMP)	NR	visual	46 suspected patients, skin swabs	NR	DermaQuick sens 80.7%, spec 100% vs real-time PCR; direct LAMP sens 93.6%	h	commercial
+R05960	SARS-CoV-2 S and N proteins	human	Ag	colorimetric-fluorescent coenhanced ICA with SADQD nanotags	AuNP/QD composite (colorimetric + fluorescent)	visual and fluorescence	NR	colorimetric 50 pg/mL (5x better than AuNP-ICA); fluorescence 2.2 pg/mL	NR	g	dual-mode;multiplex
+R05962	SARS-CoV-2	human	NA	fully enclosed 'pen' RT-RPA with dipstick	NR	visual	NR	NR	NR	e	device
+R05963	human bocavirus 1 and 2	human	Ag	genotype-specific antibodies for rapid antigen testing	NR	NR	paediatric respiratory samples	NR	NR	d	antibody development;scope-check
+R05969	monkeypox virus Congo Basin and West African clades	human	NA	CRISPR/Cas12b platform	NR	visual (LF not stated)	NR	10 copies/test	no cross-reaction	e	CRISPR;scope-check
+R05970	piper yellow mottle virus	plant	NA	RPA-LFA	NR	visual	black pepper and mealybug vectors	NR	NR	e	plant
+R05971	SARS-CoV-2 antibodies	human	Ab	8 antibody LFT brands	NR	visual	95 vaccinated individuals	NR	3 tests 100% sens at dose two; vs CMIA	h	commercial
+R05977	dengue NS1 and antibodies	human	Ag/Ab	NS1/IgM RDT with serum concentration	NR	visual	86 acute febrile sera	NR	NS1 RDT sens 76.5%; IgM RDT 17.9%; NS1+IgM RDT sens 78.4%, spec 97.1%	h	commercial
+R05980	cucumber green mottle mosaic virus	plant	Ag	mAb immunochromatographic strip	NR	visual	infected plant samples	1:5000 (w/v)	no cross-reaction with TMV or CMV	i	plant
+R05983	HIV, syphilis	human	Ab	SD BIOLINE HIV/Syphilis Duo	NR	visual	Amazon, Brazil (pregnant women, FSW, MSM)	NR	HIV sens 100% (82.35-100), spec 100%; TP sens 95.00%, spec 100%	h	commercial;multiplex
+R05987	porcine circovirus 4	livestock (pig)	NA	CRISPR-Cas13a RPA lateral flow strip	NR	visual	15 clinical samples	NR	high accuracy	e	CRISPR;veterinary
+R05992	Nipah virus	human/animal	NA	3 recombinase-based rapid molecular tests (readout formats not stated)	NR	NR	synthetic RNA, NiV strains	1,000 copies/uL (synthetic RNA); 100-200 RNA copies/reaction	NR	z	scope-check;LFA not stated
+R05994	SARS-CoV-2 Omicron	human	Ag	antigen detection kit with N mAbs	NR	visual	simulated positive samples	62.5 TCID50/mL	no cross-reaction	d	new assay
+R05995	Newcastle disease virus antibodies	livestock (poultry)	Ab	blocking LFA strip	NR	visual	510 clinical samples	NR	NR	i	veterinary
+R05997	Ebola virus	human	Ag	OraQuick Ebola Rapid Antigen Test	NR	visual	archived EVD blood, monkey fingerstick, cadaver buccal swabs	NR	clinical sens 84.0% (WB), 90.9% (monkey), 97.1% (cadaver swabs)	h	commercial
+R06008	rotavirus	human	Ag	SD BIOLINE Rota/Adeno Ag RDT	NR	visual	218 stools	NR	sens 46.46% (36.38-56.77), spec 96.64% vs RT-qPCR	h	commercial
+R06013	SARS-CoV-2	human	Ag	GENEDIA W and ActiveXpress+ Ag-RDTs	NR	visual	Peru and UK	5.0 x 10^2 pfu/mL (~1.0 x 10^4 copies/mL)	GENEDIA sens 60.4%, spec 99.2%; ActiveXpress+ sens 66.2%, spec 99.6%	h	commercial
+R06020	SARS-CoV-2	human	NA	OPERATOR: RCA + FnCas12a one-pot, lateral flow strip	NR	visual	reference materials and clinical samples	1.625 copies/reaction	spec 100%	e	CRISPR
+R06036	SARS-CoV-2 RNA	human	NA	RNA:DNA hybrid immunocapture AuNP LFA with TMIRA	gold nanoparticles	visual	clinical samples	10 copies/uL	sens 96.6%, spec 100% vs RT-qPCR	e	hybrid antibody
+R06038	SARS-CoV-2 spike	human	Ag	LFIA	NR	visual	heat-inactivated virus, respiratory panel	25 ng/test	spec 98%	d	new assay
+R06049	ASFV	livestock (pig)	Ag/NA	LFIA (antigen) and RPA	NR	visual	different tissues	5 copies/uL (RPA plasmid)	spec 100%; sens 93% (LFIA), 87% (RPA) for high viral load	i	veterinary
+R06050	SARS-CoV-2	human	Ag	BEETLES2 permselective nanotrap enrichment for LFA	NR	visual	62 individuals (42 positive, 20 healthy)	NR	sens 88.1%, spec 100%, accuracy 91.9% vs commercial LFA alone 14.29%, 100%, 41.94%	d	preconcentration
+R06053	SARS-CoV-2 RDT images	human	Ag	LightR-YOLOv5 detector for RDT result classification	NR	image AI	RDT images	NR	NR	f	AI
+R06054	maize chlorotic mottle virus	plant	NA	one-tube RT-RAA/CRISPR-Cas12a lateral flow	NR	visual	maize leaves	2.5 copies CP gene; 0.96 pg total RNA	NR	e	CRISPR;plant
+R06060	SARS-CoV-2 nucleocapsid	human	Ag	LFA with cotton intermembrane and higher test-line antibody	NR	visual	NR	2.0 ng/mL (4-fold improvement)	NR	d	flow engineering
+R06067	HIV recent infection	human	Ab	Asante Rapid Recency Assay	NR	visual and reader	1500 plasma panel	NR	sens 99.1% (98.0-99.6), spec 98.9% (98.1-99.4); agreement with LAg 91.7%	h	commercial
+R06073	SARS-CoV-2 nucleocapsid	human	Ag	quantitative CGNP-LFIA; LOD of 9 approved kits	colloidal gold	visual/reader	Delta strain	NAT at least 1835x more sensitive than antigen tests	NR	a	commercial comparison
+R06076	coxsackievirus A16	human	NA	RT-MCDA + nanoparticle LFB	nanoparticles	visual	220 clinical samples	<40 copies	46/220 positives all identified	e	
+R06078	Zaire Ebola virus-like particles	human	Ag	centrifugal microfluidic orthogonal flow immunocapture with AuNP detection	gold nanoparticles	digital image analysis	NR	NR	NR	d	microfluidic
+R06083	SARS-CoV-2 IgM/IgG	human	Ab	polydopamine nanoparticle three-line LFIA	polydopamine nanoparticles	visual/quantitative	NR	1.51 ng/mL (IgM), 2.34 ng/mL (IgG)	worse quantification with commercial AuNP LFIA at low concentrations	b	novel label
+R06089	serological target (model)	NR	Ab	electrophoretic assembly of antibody-antigen complexes (eLFIA)	NR	visual	NR	1000x lower LOD than conventional LFIA	NR	d	electrophoresis
+R06091	feline parvovirus	companion animal	Ag	rapid antigen tests as tool	NR	visual	100 cats, Egypt	NR	35% by RAT vs 43% by PCR	z	scope-check;epidemiology
+R06096	dengue	human	Ag/Ab	SD BIOLINE Dengue Duo	NR	visual	retrospective, Reunion Island	NR	overall sens 42%, spec 15%; NS1 sens 12%, spec 82%; IgM sens 28%, spec 33%	h	commercial
+R06103	HBsAg, anti-HCV, anti-HIV	human	Ag/Ab	RDT vs CLIA in apheresis donors	NR	visual	6883 samples	NR	102 reactive	h	commercial
+R06111	Macrobrachium rosenbergii nodavirus	aquatic (prawn)	NA	NASBA + immunochromatographic LFD	NR	visual	NR	1.0 fg	NR	e	aquaculture
+R06115	SARS-CoV-2	human	Ag	BinaxNOW swabs as RNA source for PCR and sequencing	NR	NR	103 used swabs	NR	RNA detected in 81/103 (78.6%); genome in 46/57 (80.7%)	z	spent strip;exclude;scope-check
+R06117	hepatitis E virus	human/animal	NA	RT-RPA-LFS	NR	visual	28 human, 360 rabbit samples	1.0 x 10^2 copies/mL	compared with RT-qPCR	e	
+R06118	SARS-CoV-2 neutralizing antibody	human	Ab	Au-Ag hollow nanoshell tri-mode LFIA (colorimetric, photothermal, SERS)	Au-Ag hollow nanoshells	visual + photothermal + SERS	98 vaccinated volunteers (79 positive)	quantitative 20 ng/mL (mode NR)	NR	g	dual-mode;photothermal
+R06121	monkeypox virus	human	NA	LAMP + nanoparticle LFB (MPX-LAMP-LFB)	nanoparticles	visual	pseudovirus in human blood	5 copies/uL plasmid; 12.5 copies/uL pseudovirus	NR	e	
+R06123	HIV	human	Ab/Ag	lot-consistency monitoring panel for HIV RDTs	NR	visual	qualified panels	NR	NR	h	quality assurance
+R06133	rotavirus, adenovirus	human	Ag	ICT vs ELISA	NR	visual	314 faecal samples	NR	high sens and spec (values NR)	h	commercial
+R06134	monkeypox virus	human	NA	RAA-CRISPR/Cas12a with lateral flow strips	NR	visual	NR	10^1 copies/uL (fluorescence); 10^4 copies/uL (lateral flow)	NR	e	CRISPR
+R06142	Ebola virus	human	Ag	QuickNavi-Ebola, OraQuick, Coris K-SeT, Standard Q Ebola RDTs	NR	visual	450 positive + 450 negative archived blood, DRC	NR	vs GeneXpert (values NR in abstract)	h	commercial
+R06147	SARS-CoV-2	human	Ag	deep learning smartphone LFA (SMART-AI-LFA)	NR	smartphone AI	clinical samples	NR	NR	f	AI
+R06153	hepatitis A virus	human	NA	RT-MIRA-LFD	NR	visual	35 human blood samples	1 copy/uL	vs conventional RT-PCR	e	
+R06157	dengue	human	Ag/Ab	Dengue NS1 and IgM/IgG RDTs	NR	visual	Senegal lab and field	NR	lab sens 88% (75-95), spec 100% (97-100); field NS1 sens 82% (60-95), spec 75% (53-90)	h	commercial
+R06161	genetically modified papaya	plant	NA	LAMP with Genie II fluorometer	NR	fluorescence	papaya seeds	<=0.05%	not a viral target (35S promoter)	z	scope-check;non-viral
+R06165	SARS-CoV-2 antigen stability	human	Ag	colloidal gold ICA used to measure antigen	colloidal gold	visual	respiratory secretions	NR	antigen half-life 5.0 days (sealed) and 2.92 days (saline)	z	scope-check;stability study
+R06172	SARS-CoV-2 nucleocapsid	human	Ag	self-enhanced LFIA (gold enhancement)	gold nanoparticles + gold enhancement	visual	saliva	0.50 ng/mL (naked eye), 0.10 ng/mL (calibration); 10x conventional	NR	a	signal enhancement
