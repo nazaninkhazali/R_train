@@ -1,0 +1,50 @@
+R05730	SARS-CoV-2 Omicron BA.1 and BA.2	human	Ag	5 RATs	NR	visual	140 PCR+ (70 BA.1, 70 BA.2), 52 PCR-	LoD50 4.2 x 10^4 - 9.2 x 10^5 RNA copies (BA.1) vs 1.3 x 10^5 - 1.5 x 10^6 (BA.2)	one test failed minimal specificity	h	commercial
+R05731	SARS-CoV-2	human	Ag	portable SERS-LFA reader on commercial colorimetric strips	commercial gold strip + SERS reading	SERS reader	54 clinical samples	NR	49 positive, 5 negative	f	reader;SERS
+R05732	human rhinovirus A and C	human	NA	RT-RPA-Cas12a, fluorescence or LFS	NR	visual (LFS)	80 clinical samples	0.1 copy/uL (real-time or LFS)	PPA/NPA 96.7%, 100%	e	CRISPR
+R05737	SARS-CoV-2 peptides	human	Ab	synthetic spike peptides for rapid test	NR	NR	NR	NR	NR	d	peptide design;scope-check
+R05739	Lychnis mottle virus	plant	Ag/NA	colloidal gold ICA and RT-LAMP	colloidal gold	visual	NR	GICA up to 10,000-fold; RT-LAMP 1.42 fg/uL (291 copies/uL)	NR	i	plant
+R05741	SARS-CoV-2 neutralizing antibodies	human	Ab	NeutraXpress LFIA validation	NR	visual	pre-COVID negatives, PCR+ patients	NR	NR	h	commercial;scope-check
+R05751	SFTSV	human	NA	single-tube dual-gene Cas12a/Cas13a	NR	visual (readout not clear)	52 clinical samples	NR	100% sens and spec	e	CRISPR;scope-check
+R05756	SARS-CoV-2 N antibodies	human	Ab	Ag(MBA)@Au on Fe3O4 colorimetric and SERS dual-mode LFIA	Ag@Au assembled on Fe3O4 (colorimetric + SERS)	visual and SERS	107 clinical sera	visual 10^-8 mg/mL; SERS 0.08 pg/mL (not colorimetric)	discriminated positive, negative and weak positive	g	dual-mode;magnetic
+R05761	dengue, Zika, chikungunya IgG	human	Ab	Chembio DPP ZCD IgG multiplex RDT vs ELISA	NR	reader	healthy residents, Ratchaburi	NR	seroprevalence	z	scope-check;seroprevalence
+R05768	dengue NS1	human	Ag	preformed protein coronas on nanoparticle-antibody conjugates	gold nanoparticles	visual	NR	preformed coronas altered LOD and KD	NR	a	protein corona
+R05769	infectious bursal disease virus	livestock (poultry)	NA	RT-RAA-LFD	NR	visual	NR	10 copies/uL	no cross-reaction	e	veterinary
+R05773	SARS-CoV-2	human	Ag	Hotgen Novel Coronavirus Antigen Test (Colloidal Gold)	colloidal gold	visual	446 nasal swabs (Brazil), 246 NP (UK)	1.0 x 10^3 PFU/mL (Alpha), 2.5 x 10^2 (Delta), 2.5 x 10^3 (Gamma), 1.0 x 10^3 (Omicron)	sens 88.2% (81.3-93.3), spec 100% (99.1-100)	h	commercial
+R05775	HIV, HCV, HBsAg	human	Ab/Ag	Exacto Triplex RDT	NR	visual	CAR field study	NR	HIV/HBsAg sens >=99.0%; HCV sens 96.0%; spec 100%	h	commercial;multiplex
+R05776	SARS-CoV-2	human	Ag	Standard Q Ag with direct nasal and VTM swabs	NR	visual	428 patients	NR	sens 65.55% (NOP VTM) to 85.25% (direct nasal)	h	commercial;sampling
+R05783	SARS-CoV-2 nucleocapsid	human	Ag	Au@Pd@Pt trimetallic nanozyme LFIA	Au@Pd@Pt core-shell nanozyme	visual (catalytic)	spiked samples	0.037 ng/mL (17-fold lower than unenhanced LFIA); range 0.05-100 ng/mL	recoveries 92.5-107.9%	c	nanozyme
+R05785	SARS-CoV-2	human	Ag	non-powered preconcentrator with LFA	NR	visual	clinical samples	enhanced LOD (value NR)	NR	d	preconcentration
+R05786	SARS-CoV-2 N3 gene	human	NA	nucleic acid sandwich LFA with AuNP	gold nanoparticles	visual	NR	5 pM	NR	a	nucleic-acid LFA
+R05788	SARS-CoV-2	human	NA	TENADA triplex enhanced nucleic acid detection	NR	visual	NR	0.01 nM without amplification	NR	d	multiplex
+R05790	cymbidium mosaic virus	plant	NA	RT-RPA + lateral flow immunostrip	NR	visual	orchid plants	100x more sensitive than RT-PCR	NR	e	plant
+R05797	DNA/RNA (virus in infected cells)	human	NA	FELICX flap endonuclease + CRISPR-Cas12 with lateral flow strip	NR	visual	simulated samples	0.6 copies/uL (DNA, 60 min; RNA, 90 min)	NR	e	CRISPR
+R05806	SARS-CoV-2	human	NA	RPA + TeaPNA with LFA (RPA-TeaPNA-LFA)	NR	visual	clinical samples	6.7 copies/uL RNA; 90 copies/uL virus	spec 100%, sens 100% (Ct<31)	e	false-positive suppression
+R05807	SARS-CoV-2 RBD	human	Ag	AuNP LFIA with smartphone app	gold nanoparticles	smartphone	100 clinical samples	1 ng/mL	sens 94.3%, spec 90.9% vs RT-PCR	a	smartphone
+R05815	SARS-CoV-2 Omicron nucleocapsid	human	Ag	7 commercial RATs with known NP amounts	NR	visual	NP protein dilutions	detection limits compared (values NR)	NR	h	commercial
+R05817	varicella-zoster virus	human	NA	RAA-lateral flow	NR	visual	NR	NR	NR	e	
+R05825	HIV, HBV, HCV	human	Ab/Ag	3-in-1 rapid self-test	NR	visual	5 facilities, northern Thailand	NR	uptake, acceptability, interpretability	h	commercial;self-test;scope-check
+R05828	SARS-CoV-2 neutralizing antibodies	human	Ab	RBD double-antigen sandwich LFIA, fluorescent (FBs) and latex (LBs) beads	latex beads (LBs-LFIA, colorimetric)	visual	clinical sera	LBs-LFIA 7.11 ng/mL (FBs 1.13 ng/mL)	LBs: sens 98.29% (95.84-99.37), spec 97.70% vs virus neutralization test	b	latex;dual-label comparison
+R05830	HBV, HCV, HIV	human	Ag/Ab	INTEC, SD, ABON, CLUN rapid kits vs ELISA	NR	visual	400 blood donors	NR	ELISA detected 8, 10, 2	h	commercial
+R05832	nucleic acids	NR	NA	salt-mediated nucleic acid immobilisation for LFA	NR	visual	NR	NR	NR	d	immobilisation;scope-check
+R05833	POCT images	NR	NR	pyPOCQuant image-quantification tool	NR	image analysis	NR	NR	NR	f	software;no viral target;scope-check
+R05835	SARS-CoV-2	human	NA	self-directed one-pot molecular diagnostic	NR	visual (likely LF; not stated)	cultures and clinical samples	0.05 PFU	sens 94.4%, spec 100%	e	scope-check
+R05836	SARS-CoV-2 antibodies	human	Ab	Euvirus antibody detection in 10,776 contacts	NR	NR	10,776 sera, Fujian	NR	NR	z	scope-check
+R05843	SARS-CoV-2	human	Ag	oriented-antibody colorimetric LFIA	colloidal gold	visual	19 clinical samples	5 x 10^4 copies/mL	100% accuracy	d	antibody orientation
+R05846	AAV genome	NR	NA	LF-RAA	NR	visual	47 recombinant AAV samples	10 copies/uL	100% accuracy	e	gene-therapy vector;scope-check
+R05853	oseltamivir-resistant influenza	human	NA	RPA-CRISPR/Cas12a-LFD	NR	visual	NR	~20 copies/reaction (LFD)	NR	e	CRISPR;drug resistance
+R05858	monkeypox virus	human	NA	MCDA + nanoparticle LFB	nanoparticles	visual	pseudotyped virus in blood	5 copies/reaction (plasmid); 12.5 copies (pseudovirus in blood)	no cross-reaction	e	
+R05872	dengue viruses 1-4	other (mosquitoes)	NA	rapid molecular assays	NR	visual (LF likely; not stated)	infected mosquitoes	1,000 copies/uL RNA	100% diagnostic sens for DENV-1,-2,-3	e	vector surveillance;scope-check
+R05874	SARS-CoV-2 anti-spike antibodies	human	Ab	COVIBLOCK LFA vs ELISA	NR	semiquantitative visual	vaccinated adults incl. immunosuppressed	NR	scores correlate with ELISA levels	h	commercial
+R05888	HTLV-I IgG	human	Ab	AuNP rapid test with p24 antigen	gold nanoparticles	visual	NR	NR	sens 96.7%, spec 100%	a	new assay
+R05890	plum pox virus	plant	Ag	dot-ELISA and colloidal gold ICS	colloidal gold	visual	apricot leaves	CGICS up to 1:6400 (w/v) (as sensitive as RT-PCR)	NR	i	plant
+R05894	SARS-CoV-2	human	NA/Ag	7 direct detection assays incl. one lateral flow antigen assay	NR	mixed	183 respiratory samples	Toyobo direct RT-PCR 1,000 copies/mL	Toyobo PPA 96.3%	h	scope-check;mainly molecular
+R05896	bovine coronavirus	livestock (cattle)	NA	MIRA-LFD	NR	visual	192 cattle samples	NR	kappa 0.982 vs RT-qPCR	e	veterinary
+R05898	porcine deltacoronavirus	livestock (pig)	Ag	colloidal gold ICA, mAbs	colloidal gold	visual	325 faecal samples	10^3 TCID50/mL; 0.125 ug/mL rPDCoV-N	no cross-reactivity	i	veterinary
+R05901	varicella-zoster virus IgG	human	Ab	LFA in fingerstick blood	NR	visual	fingerstick blood	more sensitive than ELISA on WHO standard dilutions	NR	h	new assay
+R05919	SARS-CoV-2	human	Ag	reference standard (NP-GFP) for RAT analytical sensitivity	NR	visual	commercial RATs	NP-GFP sensitivity did not correlate with manufacturers' TCID50 data	NR	h	commercial;standardisation
+R05922	FMDV, lumpy skin disease virus	livestock	Ag	AuNP lateral flow test	gold nanoparticles	visual	469 milk, 1165 serum, 117 blood/biopsy samples	NR	vs Ag-ELISA, WB, PCR (values NR)	i	veterinary;multiplex
+R05924	monkeypox virus A29	human	Ag	gold-based strips with mAb pairs	colloidal gold	visual	NR	50 pg/mL purified A29	no cross-reaction with vaccinia or cowpox	a	new assay
+R05931	HBV DNA	human	NA	RAA-CRISPR-Cas13a strip	NR	visual	180 HBV patients	10^1 copies/uL	spec 100%	e	CRISPR
+R05932	SARS-CoV-2	human	Ag	HCR lateral flow assay (enzyme-free amplification)	NR	visual	gamma-irradiated virions in saliva	200 copies/uL (commercial unamplified LFAs: 500, 1000, 2000, 2000, 20,000)	NR	d	signal amplification
+R05933	HPV16 and 18	human	NA	RPA + CRISPR/Cas12a on microfluidic platform, fluorescence or LFD	NR	fluorescence and LFD	clinical samples	1 x 10^-18 M amplified plasmids (LFD)	NR	e	CRISPR;microfluidic
+R05934	ASFV	livestock (pig)	Ab	multiepitope array for serodiagnosis	NR	NR	NR	NR	NR	z	scope-check;format not stated
