@@ -1,0 +1,50 @@
+R07024	anti-beta-galactosidase antibody (model)	NR	Ab	LFIA with Bacillus subtilis endospore signal amplifiers + AuNPs	AuNPs on B. subtilis endospores	visual	NR	10^-8 M vs 10^-6 M conventional (100-fold)	NR	a	spore amplifier;non-viral model;scope-check
+R07026	SARS-CoV-2 gene segment	human	NA	LFA with HCR amplification, dual readout	NR	visual (and second mode)	NR	10 fM (6.02 x 10^3 copies/mL) and 1 fM (6.02 x 10^2 copies/mL)	NR	e	enzyme-free amplification;dual-mode
+R07027	SARS-CoV-2	human	NA	tailed amplicons NALFA	NR	visual	20 clinical samples	25 RNA copies/reaction (1 copy/uL)	sens 100%, spec 100% (n=20)	e	
+R07028	influenza A/B	human	NA	multiplex LAMP-LFA	NR	visual	243 NP swabs (85 IAV+, 58 IBV+, 100 negative)	NR	sens 94.1% (IAV), 96.6% (IBV); spec 98% vs Allplex	e	multiplex
+R07029	Lassa virus	human	Ag	Pan-Lassa RDT, bedside vs lab	NR	visual	capillary blood and plasma, Abakaliki	NR	bedside sens 4% (1-14) at 15 min, 10% (3-22) at 25 min; lab plasma 46% (32-61); spec >90%	h	commercial
+R07033	NR (LFA labels)	NR	NR	TiN and Cu-covered plasmonic nanoparticles replacing gold	titanium nitride and copper-covered NPs	visual	NR	high signal, specificity (values NR)	NR	b	alternative label;scope-check
+R07041	avian influenza H5, H7, H9	livestock (poultry)	NA	RT-RAA-LFD and real-time RT-RAA	NR	visual	clinical samples	10^2 copies/uL (LFD; 10-100x RT-PCR gel); 10^1 copies/uL (real-time)	coincidence >95%	e	multiplex;veterinary
+R07049	pseudorabies virus	livestock (pig)	Ag	high-sensitivity colloidal gold ICTS	colloidal gold	visual	NR	1.336 x 10^3 copies/uL	NR	a	veterinary
+R07066	duck hepatitis B virus	livestock (duck, goose)	NA	MIRA-LFD	NR	visual	clinical sera	45.6 copies/reaction (~10x PCR)	NR	e	veterinary
+R07067	chikungunya virus	human	NA	integrated RT-LAMP lateral flow device	NR	visual	NR	598.46 copies/mL	distinguishes from DENV, JEV, ZIKV, YFV	e	integrated device
+R07069	H5 avian influenza	livestock (poultry)	NA	RT-RPA/CRISPR-Cas12a (blue light and LFS)	NR	visual (LFS)	81 clinical samples	1.9 copies/uL (blue light); 1.9 x 10^3 copies/uL (LFS)	80.70% positive detection rate	e	CRISPR;veterinary
+R07071	hantavirus nucleocapsid	human	Ag	VHH-AuNP bioconjugates (dot-blot-like test)	gold nanoparticles (nanobody)	visual	recombinant N protein	NR	NR	a	nanobody;scope-check
+R07072	Japanese encephalitis virus IgM	livestock (pig)	Ab	ICS (two formats)	NR	visual	318 field swine sera	NR	format I sens 81.25%, spec 93.0%; format II sens 87.50%, spec 62.93%	i	veterinary
+R07075	SARS-CoV-2	human	Ag	rapid antigen test, Tunisia	NR	visual	4539 NP samples	NR	sens 70.2%, NPV 65.8%	h	commercial
+R07076	infectious myonecrosis virus	aquatic (shrimp)	NA	real-time RT-ERA and RT-ERA-LFD	NR	visual	NR	10^1 copies/uL (nested RT-PCR 10^0; real-time RT-PCR 10^2)	NR	e	aquaculture
+R07079	Israeli acute paralysis virus, chronic bee paralysis virus	other (honeybee)	NA	RT-RPA-LFD	NR	visual	field samples	10^1 copies/uL	NR	e	insect virus;scope-check
+R07082	Getah virus antibodies	livestock (pig, horse)	Ab	colloidal gold ICTS with p62-E1 antigen	colloidal gold	visual	NR	high sensitivity (value NR)	no cross-reactivity	i	veterinary
+R07096	SARS-CoV-2 antibodies	human	Ab	LFA antibody tests after boosting	NR	visual	healthcare provider cohort	NR	NR	z	scope-check;cohort
+R07104	SARS-CoV-2 nasal sIgA	human	Ab	colloidal gold ICT	colloidal gold	visual	purified nasal sIgA from BA.5 recoverees	NR	detects spike-specific sIgA	a	mucosal antibody
+R07109	HIV, syphilis	human	Ab	SD Bioline and Chembio dual RDTs	NR	visual	antenatal clinics, South Africa and Zambia	NR	HIV sens 92.1% (SD Bioline); syphilis sens 66.0% (SD), 67.9% (Chembio); syphilis spec >98%	h	commercial;multiplex
+R07110	HBV, HCV	human	NA	single-tube single-strip LAMP LFA	NR	visual	clinical samples, various genotypes	10 (HBV) and 10^3 (HCV) genomic copies/reaction	NR	e	multiplex
+R07117	norovirus GII.2	human	NA	RT-RPA-Cas12a-LFS	NR	visual	60 food-contaminated samples	10 copies/uL	compared with qRT-PCR	e	CRISPR;food
+R07118	PEDV, rotavirus	livestock (pig)	Ag	Tris-stabilised AuNP LFIA	Tris-stabilised gold nanoparticles	visual	clinical samples	1.25 x 10^3 TCID50/mL (PEDV); 3.13 x 10^2 pg/mL (rotavirus)	95% (PEDV) and 100% (rotavirus) concordance with RT-PCR	g	multiplex;veterinary
+R07119	HPV16, HPV18	human	NA	dual LFA with PdRu nanocages	PdRu nanocages (catalytic colour)	visual	NR	0.93 nM and 0.19 nM	NR	c	nanozyme;multiplex
+R07120	duck hepatitis A virus 3, novel duck reovirus	livestock (duck)	NA	RPA-CRISPR Cas12a/Cas13a (fluorescence and LFA)	NR	visual (LFA)	clinical samples	10^0 copy/uL (fluorescence); 10^1 copies/uL (LFA)	consistent with qPCR	e	CRISPR;multiplex
+R07127	co-existing viral RNA fragments	human	NA	visualised LFA with logic determination	NR	visual	NR	NR	NR	e	logic;scope-check
+R07133	SARS-CoV-2	human	Ag	water-soluble polymer wall LFIA (WSPW-LFIA)	NR	visual	NR	50 pg/mL (5-20x better than market kits)	high specificity	d	flow engineering
+R07141	dengue NS1	human	Ag	AG-Q Dengue NS1 kit	NR	visual	NR	positives down to RT-PCR Cq 43; NS1 ELISA 14 Panbio units	NR	h	commercial
+R07142	SARS-CoV-2 N protein	human	Ag	gold nanoflower LFA with gold staining	gold nanoflowers (135 nm) + gold enhancement	visual	NR	25 pg/mL; nanoflowers 5x more sensitive than same-size AuNPs	NR	a	nanoflowers;signal enhancement
+R07152	PEDV, TGEV	livestock (pig)	Ag	colloidal gold ICS	colloidal gold	visual	121 clinical samples	10^4 TCID50/mL for both	NR	g	multiplex;veterinary
+R07161	HIV-1	human	NA	RT-PCR with dig-labelled primers and lateral flow	NR	visual	5 plasma samples	NR	LFA consistent with gel	e	PCR + strip
+R07163	SARS-CoV-2 neutralizing antibodies	human	Ab	paper-based microfluidic surrogate neutralization test	NR	visual	standards and human serum	NR	NR	d	microfluidic paper;scope-check
+R07164	influenza A virus (swine)	livestock (pig)	NA	RT-LAMP + lateral flow	NR	visual	swine samples	comparable to RT-qPCR Cq <35	sens 83.5%, spec 89.6%	e	veterinary
+R07166	tick-borne encephalitis virus	human	NA	RT-RAA + CRISPR/Cas13a lateral flow dipstick	NR	visual	15 patients, 10 healthy volunteers	50 CFU/mL (as stated)	sens 100%, spec 100% vs RT-qPCR	e	CRISPR
+R07168	influenza A	human	Ag	rapid antigen test on NP and OP swabs	NR	visual	suspected influenza patients, Xiamen	LoD 28.71 TCID50/mL	sens 58.9% (NP), 10.3% (OP)	h	commercial
+R07173	bovine coronavirus	livestock (cattle)	NA	CRISPR/Cas13 assay (readout not stated)	NR	NR	NR	10 copies	spec 100%	z	scope-check;LFA not stated
+R07182	HBsAg	human	Ag	Determine HBsAg 2 card	NR	visual	120 patient samples	NR	sens 84.7% (39/46), spec 100% (74/74)	h	commercial
+R07189	respiratory viruses	human	Ag	RNA recovery from RATs for WGS	NR	NR	used RAT devices	NR	NR	z	spent strip;exclude;scope-check
+R07196	Japanese encephalitis virus (swine)	livestock (pig)	NA	one-pot RPA-CRISPR/EsCas13d dual readout	NR	visual (LF) and fluorescence	clinical and vector samples	2 copies	100% concordance with real-time PCR	e	CRISPR;veterinary
+R07200	rabies virus	companion animal (dog)	Ag	LFD screening in Zanzibar rabies surveillance	NR	visual	83 samples in-field screening	NR	one false negative among 83; 4-fold rise in samples tested/month	h	veterinary;scope-check;surveillance programme
+R07201	avian leukosis virus A/B/J	livestock (poultry)	NA	RPA + T7 + Cas13a (SHERLOCK), visual	NR	visual	proviral DNA	50 copies	no cross-reactivity with ALV-C/D/E, REV, MDV	e	CRISPR;veterinary
+R07202	pseudorabies virus	livestock (pig)	NA	RPA-CRISPR/EsCas13d dual readout	NR	visual (LF) and fluorescence	50 pig samples	1 copy/uL	34% (17/50) positive	e	CRISPR;veterinary
+R07206	ASFV	livestock (pig)	Ag	pen-side LFIA vs portable qPCR in experimental infection	NR	visual	whole blood and oral swabs	NR	reference qPCR positive in blood from 2 dpi	h	veterinary;commercial
+R07210	SARS-CoV-2	human	Ag	Panbio rapid antigen test in immunocompromised patients	NR	visual	immunocompromised patients	NR	sens 69.9%, spec 100%	h	commercial
+R07213	human cytomegalovirus	human	NA	MIRA-LFD	NR	visual	breast milk	50 copies/uL	compared with qPCR	e	
+R07217	HPV L1 high-risk antibodies	human	Ab	CER818 serological lateral flow test	NR	visual	138 patients, 21 vaccinees, 246 controls	NR	NR	h	new assay
+R07219	soybean mosaic virus	plant	NA	RT-RPA-LFS	NR	visual	NR	NR	NR	e	plant
+R07226	chikungunya virus	human	NA	one-tube semi-nested RT-MIRA-LFD	NR	visual	21 patient plasma samples	1 copy/uL (100x RT-MIRA; 10x RT-qPCR)	detection 85.7% (18/21) vs RT-qPCR 80.9% (17/21)	e	
+R07227	influenza virus subtypes	human	NA	Fe3O4-Au heterodimer nanoparticle multi-channel LFA	Fe3O4-Au heterodimer nanoparticles	visual	NR	comparable to singleplex	no cross-reaction among 3 subtypes	g	magnetic;multiplex
+R07233	infectious hematopoietic necrosis virus	aquatic (salmonids)	NA	RT-CPA lateral flow assay	NR	visual	fish samples	NR	validated (values NR)	e	aquaculture
