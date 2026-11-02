@@ -1,0 +1,49 @@
+R06656	NR (commercial LFA enhancement)	NR	NR	hydrogel line as universal control line	NR	visual	NR	2-5-fold sensitivity gain on commercial strips	NR	d	flow engineering;scope-check
+R06661	SARS-CoV-2	human	Ag	BLUE COVID-19 antigen rapid test (colloidal gold)	colloidal gold	visual	nasal and NP swabs	NR	nasal sens 91.7% (83.6-96.6), spec 100% (98.1-100)	h	commercial
+R06667	FMDV SAT1 and SAT2	livestock	Ag	multiplex LFIA with experimental design	NR	visual	NR	10^3.7 (SAT1), 10^4.0 (SAT2) TCID/mL; 2x improvement	NR	g	multiplex;veterinary
+R06668	Zika virus	human	NA	isothermal ZIKV diagnostic (Iso-ZIKV-Dx; readout not stated)	NR	NR	simulated urine	500 copies/uL synthetic RNA; 34.28 copies/reaction	no cross-reaction with flaviviruses or CHIKV	e	scope-check;LFA not stated
+R06675	ASFV D117L	livestock (pig)	NA	CRISPR/Cas12a lateral flow strip	NR	visual	68 clinical samples	2 gene copies	coincidence 100% vs qPCR	e	CRISPR;veterinary
+R06676	monkeypox virus	human	NA	LAMP + nanoparticle LFB	nanoparticles	visual	simulated blood	5 copies (plasmid); 12.5 copies (pseudovirus)	all positive controls identified	e	
+R06688	H5 avian influenza	livestock (poultry)	NA	RT-RAA-Cas13a-LFD	NR	visual	380 clinical samples	0.1 copy/uL	kappa 0.89 vs RT-qPCR	e	CRISPR;veterinary
+R06695	SARS-CoV-2	human	Ag	Ag-RDT on stool and NP swabs	NR	visual	stool and NP swabs	NR	sens 76.3% (59.8-88.6), spec 96.3% (87.3-99.5); kappa 0.75	h	commercial
+R06697	pathogen detection (general)	NR	NA	S9.6 hybrid capture immunoassay	NR	NR	NR	NR	NR	z	scope-check;format not stated
+R06699	SARS-CoV-2 variants of concern	human	Ag	miniprotein binder TRI2-2 AuNP LFIA	gold nanoparticles	visual	NR	NR	NR	a	binder engineering
+R06700	anguillid herpesvirus 1	aquatic (eel)	NA	RAA-LFD	NR	visual	diseased samples	10^2 copies	higher accuracy than conventional PCR	e	aquaculture
+R06710	Marburg virus, Ravn virus	human	Ag	immunochromatography with mAbs	NR	visual	culture supernatants; NHP sera	10^2-4 TCID50/test	NR	h	new assay
+R06712	NR (membrane microstructure)	NR	NR	microstructured membrane for LFA	NR	visual	NR	3.98 pg/mL and 53.3 fg/mL	sens 96.5%, spec 90%	d	membrane engineering;scope-check
+R06715	NR (3D printer-based LFD fabrication)	NR	NR	3D printer dispensing of reagents	NR	NR	NR	similar to commercial dispenser	NR	d	fabrication;scope-check
+R06717	porcine circovirus 2	livestock (pig)	NA	RAA-LFD	NR	visual	100 field samples	NR	vs PCR and qPCR	e	veterinary
+R06728	SARS-CoV-2 N	human	Ag	enzyme-linked aptamer-antibody sandwich assay and hybrid lateral flow strip	NR	visual	10 spiked NP samples	0.1 ng/mL (ELAAA); 0.1-0.5 ng/mL range (hybrid-LFS)	ELAAA recovery 92%	a	aptamer
+R06736	SARS-CoV-2	human	NA	duplex RT-LAMP with internal amplification control, saliva (readout not stated)	NR	NR	saliva	100 copies/uL	NR	z	scope-check;LFA not stated
+R06739	canine parvovirus 2 antibodies	companion animal	Ab	LFA with recombinant VP2	NR	visual	vaccinated puppy serum	375 ng/mL antibody	cut-off 1:40 HAI titre	i	veterinary
+R06742	equine infectious anemia virus antibodies	livestock (horse)	Ab	test strip	NR	visual	NR	8-16x better than 2 ELISAs, 128-256x better than AGID, 8-16x lower than WB	NR	i	veterinary
+R06752	Epstein-Barr virus	human	NA	LAMP + AuNP LFB (LAMAD)	gold nanoparticles	visual	whole blood	45 copies/reaction	NR	e	
+R06757	SARS-CoV-2	human	NA	multiplex RT-LAMP-LFA with human control	NR	visual	clinical specimens	500 copies/mL	kappa 0.876 vs RT-qPCR	e	
+R06759	chicken anemia virus	livestock (poultry)	Ag	LFA with Delta60 VP1	NR	visual	305 chicken serum samples	625 ng/mL antigen	kappa 0.66 vs qPCR	i	veterinary
+R06762	3 respiratory viruses	human	Ag	aptamer-AuNP multiplex LFIA with signal amplification	gold nanoparticles (aptamer-conjugated)	visual	diluted NP samples	2.89 pg/mL (with amplification)	NR	g	aptamer;multiplex
+R06771	SARS-CoV-2 variants	human	Ag	InteliSwab COVID-19 Rapid Test	NR	visual	165 symptomatic subjects; recombinant NPs	LOD for VOCs (values NR)	sens 85.2% (74.3-92.0), spec 98.1% (93.3-99.7)	h	commercial
+R06772	Epstein-Barr virus	human	NA	RPA-LFA	NR	visual	NR	1 x 10^3 copies (RPA-LFA); 10^4 (PCR)	NR	e	cell-line quality control
+R06773	adenovirus	human	Ag	magnetic-optical triple-mode LFIA with magnetic quantum dots	magnetic quantum dots (magnetic, fluorescent, visual)	visual, fluorescence, magnetic	spiked samples	visual 1.95 x 10^4; fluorescent 1.2 x 10^3; magnetic 5.6 x 10^3 copies/mL	recovery 95-106.8%	g	dual-mode
+R06775	Epstein-Barr virus	human	NA	MCDA + nanoparticle LFB	nanoparticles	visual	49 clinical plasma samples	7 copies/reaction	spec 100%	e	
+R06776	avian influenza virus	livestock (poultry)	NA	RAA-CRISPR-Cas13a-LFD	NR	visual	clinical samples	1 copy/uL (1000x PCR-gel)	NR	e	CRISPR;veterinary
+R06778	West Nile virus, Usutu virus antibodies	wildlife (birds)	Ab	species-independent lateral flow microarray immunoassay	NR	visual	FRNT90-confirmed sera	NR	WNV NS1 LMIA sens 96%, spec 86%	g	multiplex;wildlife
+R06781	SARS-CoV-2	human	Ag	STANDARD i-Q COVID-19 Ag Test with nasal and oral swabs	NR	reader	60 positive, 100 negative	NR	oral sens 75.0%, spec 100%; nasal sens 85.0%, spec 98.0%	h	commercial
+R06793	respiratory viruses	human	NA	NASBA characterisation in children with ILI	NR	NR	paediatric ILI	NR	NR	z	scope-check;epidemiology
+R06796	koi herpesvirus	aquatic (koi)	NA	CPA-LFA vs real-time PCR	NR	visual	179 fish samples	675.69 copies/uL (LFA); 8.384 (real-time PCR)	NR	e	aquaculture
+R06797	SARS-CoV-2 N antibodies	human	Ab	Au@Pt nanostar colorimetric/photothermal dual-mode LFIA	Au@Pt nanostars	visual and photothermal	NR	colorimetric 1 ng/mL (2 orders below commercial colloidal gold strips); photothermal 24.91 pg/mL	NR	g	dual-mode;nanozyme
+R06800	SARS-CoV-2 antibodies	human	Ab	semi-quantitative visual LFIA (multi-line)	NR	visual	NR	NR	classifies high and low titres	d	semi-quantitative
+R06802	SARS-CoV-2	human	Ag	Ag@Au nanoplates colorimetric/photothermal dual-mode LFIA	Ag@Au nanoplates	visual and photothermal	35 clinical samples	photothermal 40 pg/mL, 25-fold lower than colorimetric (colorimetric LOD NR)	NR	g	dual-mode
+R06803	ASFV p30 antibodies	livestock (pig)	Ab	high-concentration gold-labelled strip	colloidal gold	visual	NR	1:512 dilution of positive serum	sens 90.9%, spec 96.2% vs ELISA	i	veterinary
+R06808	HPV16, 18, 45	human	NA	single-tube four-target LAMP lateral flow	NR	visual (LF)	NR	LF: 100, 10, 100 copies/reaction (HPV16, 18, 45); 1 ng gDNA	NR	e	multiplex
+R06809	SARS-CoV-2 neutralizing antibodies	human	Ab	biomimetic AuNP mock-virus competitive LFA	gold nanoparticles with trimeric S	visual	blood samples	59 IU/mL	benchmarked to WHO standard 21/338	a	functional assay
+R06816	FMDV serotype O	livestock	Ag	Pt-Pd bimetallic nanoparticle ICA (peroxidase-like)	Pt-Pd bimetallic nanoparticles (TMB catalytic colour)	visual and quantitative	NR	1:2^8/test (range 1:2^6-1:2^9)	96.7% sensitivity on positive serum	c	nanozyme;veterinary
+R06817	dengue NS1	human	Ag	DEN-NS1-PAD paper analytical device with smartphone app	NR	smartphone colorimetric	clinical samples	NR	NR	f	smartphone
+R06819	rotavirus, adenovirus	human	Ag	rapid tests in prevalence study	NR	visual	DRC children	NR	NR	z	scope-check;epidemiology
+R06823	large yellow croaker iridovirus	aquatic (fish)	NA	RPA-LFD	NR	visual	NR	10^1 copies/uL (LFD); 10^2 (RPA)	no cross-reaction with aquatic pathogens	e	aquaculture
+R06830	pathogens (general)	NR	NR	NFC potentiostat and electrodes on nitrocellulose, electrochemical LFA	NR	electrochemical	NR	NR	not colorimetric	z	scope-check;electrochemical
+R06832	RSV	human	Ag	RSV lateral flow antigen assay in PICU	NR	visual	South African paediatric hospital	NR	sens 36.8% vs multiplex PCR	h	commercial
+R06834	mpox virus	human	NA	RAA-LF	NR	visual	clinical samples	10 copies/reaction	on par with qPCR	e	
+R06846	respiratory RNA viruses	human	NA	one-step RT + strand displacement amplification, LF biosensor	NR	visual	NR	20 copies/uL	NR	e	multiplex
+R06851	Japanese encephalitis virus antibodies	companion animal (dog)	Ab	colloidal gold ICS	colloidal gold	visual	586 dog sera, Shanghai	1:640 serum dilution	179 (29.98%) positive	i	veterinary;surveillance
+R06856	coronavirus RNA (SNP)	human	NA	rolling circle amplification with false-amplification regulation (readout not stated)	NR	NR	NR	400 aM	NR	z	scope-check;LFA not stated
+R06857	hepatitis C virus	human	NA	RT-LAMP-AuNP-LFB	gold nanoparticles	visual	clinical sera	20 copies/test	NR	e	
