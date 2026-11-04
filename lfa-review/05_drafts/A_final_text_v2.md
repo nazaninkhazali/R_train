@@ -66,7 +66,7 @@ Many included records describe new colloidal-gold strips that apply none of the 
 
 The studies reviewed here form a coherent picture. Most of the sensitivity gains come from making the captured gold more visible, either after capture or through a better particle, and the best-supported comparisons are those against the authors' own conventional strip (Table A2). Binder replacement addresses a different problem, namely the quality and supply of the binding molecule, and has fewer clinical data. In one study, scattering shows that a change of optics can give a much larger gain, at the price of an extra step and a departure from pure absorbance.
 
-Three limitations apply across the section. First, many reported LODs come from scanners, imagers or readers rather than the naked eye, so they describe instrument-assisted rather than equipment-free performance. Second, clinical evaluation is the exception among engineering papers, several papers tested only spiked buffer, saliva or recombinant protein, and the reference method varies (ELISA, RT-PCR, gel-read RT-PCR). Third, comparators differ between papers (own conventional strip, same-size particles, commercial strip), so fold-improvements cannot be ranked against each other. Two animal-virus strips (DOI: 10.1039/d4an00180j; DOI: 10.1039/d2an02043b) are still known from abstracts only.
+Three limitations apply across the section. First, many reported LODs come from scanners, imagers or readers rather than the naked eye, so they describe instrument-assisted rather than equipment-free performance. Second, clinical evaluation is the exception among engineering papers, several papers tested only spiked buffer, saliva or recombinant protein, and the reference method varies (ELISA, RT-PCR, gel-read RT-PCR). Third, comparators differ between papers (own conventional strip, same-size particles, commercial strip), so fold-improvements cannot be ranked against each other. Reporting quality for the papers read in full is summarised in Table A3. Two animal-virus strips (DOI: 10.1039/d4an00180j; DOI: 10.1039/d2an02043b) are still known from abstracts only.
 
 
 
@@ -148,6 +148,21 @@ Three limitations apply across the section. First, many reported LODs come from 
 | Binder replacement | binder quality, supply, variants | nanobodies, aptamers, glycans, lectins, miniproteins | nanobody: lower LOD than mAb in the same strip | aptamer strips less sensitive; mostly spiked or inactivated-virus samples | A1d |
 | Optical readout change | background of the white membrane | plasmonic scattering on a black backing | one study: 361-fold against its own strip, sensitivity 90% on 30 positive swabs | extra reagent step, light source, boundary to colorimetric | A1c |
 
+
+### Table A3. Reporting checklist for papers read in full (descriptive, not scored)
+
+Items: (a) real samples; (b) n stated; (c) reference method; (d) LOD definition; (e) cross-reactivity tested by the authors; (f) replicates or reproducibility; (g) comparator run in the same study; (h) stability tested. Y = yes, N = no, P = partly, NR = not reported. The other 35 papers in Tables A1a-e have not been assessed (abstract only); they will be added as summaries arrive.
+
+| Rec | DOI | (a) | (b) | (c) | (d) | (e) | (f) | (g) | (h) |
+|---|---|---|---|---|---|---|---|---|---|
+| R04212 | 10.3390/bios11070229 | N (spiked saliva, inactivated virus) | NR | not applicable | Y (blank mean + 3 SD) | N (supplier claim only) | P (blank n = 5; assay replicates unclear) | Y (same strip, same antibodies) | N |
+| R04815 | 10.1016/j.bios.2022.114094 | N (spiked saliva) | NR | not applicable | Y (S/N = 5 formula) | Y (influenza A/B, MERS-CoV, HCoV-229E N proteins) | NR | Y (single AuNPs; two commercial kits compared) | N |
+| R07685 | 10.1038/s41467-025-58663-z | Y (30 flu A, 12 healthy) | Y | Y (qRT-PCR) | Y (blank mean + 3 SD) | Y (SARS-CoV-2, RSV, flu B) | P (six repeats in stability test) | Y (own strip and three commercial strips) | Y (one year) |
+| R07002 | 10.3390/molecules29081776 | N (spiked package ice, recombinant protein) | NR | not applicable | Y (3 sigma/slope) | Y (HCoV-229E, OC43, RSV-F, IgG, BSA) | Y (intra- and inter-batch, CV < 15%) | N | Y (16 days) |
+| R05311 | 10.1002/gch2.202200008 | Y (112 RT-PCR+, 52 pre-pandemic sera) | Y | P (in-house ELISA, not PCR) | Y (visual OD cut-off; regression formula) | P (reagent specificity by ELISA only) | P (triplicate strips) | Y (N-protein-gold alone) | N |
+| R06317 | 10.1038/s41598-023-37347-y | Y (320 saliva) | Y | Y (RT-PCR) | P (serial dilution; statistical definition NR) | Y (SARS-CoV, MERS-CoV S1) | P (small stability set; batch testing NR) | Y (mAb version) | Y (2 months) |
+| R08618 | 10.1007/s00604-026-08241-x | Y (215 serum and ear tissue) | Y | P (commercial ELISA; RT-PCR only for sequencing) | Y (visual cut-off: no purple band) | Y (CSFV, IBRV, BPIV-3, M. bovis, BVDV subtypes) | NR | Y (own AuNP strip) | Y (accelerated, 37 C, 21 d) |
+| R06544 | 10.1007/s00604-023-06013-5 | Y (109 pig faeces) | Y | Y (gel-read RT-PCR) | Y (lowest dilution with visible T line) | Y (TGEV, RV, PRV, PCV2, 4 bacteria) | Y (intra- and inter-batch, 3 batches) | P (commercial strip, different antibodies) | N (stated limitation) |
 
 ## Items still to verify before this section is final
 1. R06317 (DOI: 10.1038/s41598-023-37347-y): exponent of the LOD, and the mAb comparator sensitivity (90.04% in the abstract, 83.33% in the results text).
