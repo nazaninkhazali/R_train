@@ -242,3 +242,10 @@ Applied to all title/abstract decisions; UNSURE category removed (0 remaining).
 - Studies discussed individually (innovation, approach, analytical LOD with units/matrix); repeated approaches grouped at section end.
 - Ordering within sections by contribution type, then fold-improvement over each paper's own comparator; no cross-study LOD ranking.
 - Main-text table must contain every test discussed in the text (script-checked); full abstract-level charting in supplement.
+
+## Scope-check review decisions (2026-11-04)
+- Flags raised during charting (640 records) were converted to recorded exclusions by explicit rules (`scripts/apply_scope_rules.py`); 439 excluded, 201 retained and flagged.
+- Author agreed: Sofia, LumiraDx and fluorescence FIA formats are not colorimetric (E3). BD Veritor and other reflectance-reader strips kept only when the label is a coloured particle.
+- Epidemiology, seroprevalence and surveillance papers using an LFA only as a tool (E9); strip not stated or not an LFA (E2); modelling, EQA/QA, protocol, case report (E6).
+- Retained and flagged: arthropod-vector pools, viral assays with a non-viral co-target, records without or with incomplete abstracts, small-n and interference studies.
+- Included total: 2,637 (2,227 from 2015-2026; 410 pre-2015).

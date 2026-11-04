@@ -226,3 +226,5 @@ searched; duplicates removed = 0 confirmed (103 candidates).
 Pilot sample: 50 records drawn at random (Python `random.Random(20261028).sample`) from all 8,836
 records; sheet `pilot_author` in `03_screening.xlsx`. Tags are hidden from the author's pilot sheet so the
 two screenings stay independent.
+
+Screening update 2026-11-04: after chart-based scope-check review, 439 further records excluded; 2,637 records included (2,227 from 2015-2026). See 09_prisma_counts.md.
