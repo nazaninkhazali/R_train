@@ -259,3 +259,5 @@ Section-z review (2026-11-05): 21 unclassified records excluded (19 E10, 2 E9). 
 R07685 (plasmonic scattering LFIA, DOI: 10.1038/s41467-025-58663-z) is kept in section a as a flagged boundary case; its LOD is reported separately from absorption-based strips. LOD and clinical values are to be reported with the readout (naked eye, scanner/imager, smartphone, reader) beside each.
 
 Section-b review (2026-11-05): R07568 excluded (E2) by default decision; R02149 kept as dual-mode note. Final included: 1,293.
+
+Section-c review (2026-11-05): 7 kit evaluations excluded (E10; R00647, R01362, R02575, R02638, R04171, R05720, R08189), by default, reversible. Final included: 1,286.
