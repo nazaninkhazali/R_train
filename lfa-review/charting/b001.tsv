@@ -1,0 +1,70 @@
+R00103	human rotavirus	human	Ag	dipstick, mAb + colloidal gold	AuNP	visual	faeces	not reported	spec 100%/sens 100% vs latex; 99%/98% vs RNA-PAGE; 100%/98% vs ELISA	d	early AuNP strip
+R00112	EBV (heterophile Ab, infectious mononucleosis)	human	Ab	CARDS O.S. MONO ICA and latex agglutination	not reported	visual	957 sera	not reported	sens 91.0% (ICA), 96.2% (latex); spec 100%	h	pre-2015; scope-check: heterophile antibody, not virus-specific
+R00126	group A rotavirus	veterinary (bovine, porcine, equine)	Ag	one-step ICA	not reported	visual	161 faecal samples	not reported	sens 89%, spec 99% vs ELISA	i	pre-2015
+R00127	HBsAg, anti-HBs	human	Ag/Ab	Dainascreen HBsAg and Ausab ICAs	not reported	visual	serum	HBsAg 3.1 ng/mL; anti-HBs 42 mIU/mL	HBsAg sens 100% (158), spec 100% (304); Ausab sens 92.5%, spec 97.9%	h	pre-2015
+R00129	HIV-1/2 antibodies	human	Ab	strip field test	not reported	visual	2,928 sera	not reported	sens 99.68%, spec 99.71%	h	pre-2015
+R00144	adenovirus (conjunctivitis)	human	Ag	10-min ICA vs EIA	not reported	visual	130 conjunctival swabs	not reported	ICA sens 54.7%, spec 97.1%; EIA 50.5%, 100%	h	pre-2015
+R00148	dengue IgM/IgG	human	Ab	rapid ICT	not reported	visual	124 patients	not reported	sens 100%; spec 88% non-flavivirus, 50% JE	h	pre-2015
+R00149	HIV-1/2 antibodies	human	Ab	whole-blood ICA	not reported	visual	1,018 positive, 941 uninfected	not reported	sens 99.41%, spec 99.89%	h	pre-2015
+R00155	feline parvovirus	veterinary (cat)	Ag	CPV/FPV chromatographic strip	not reported	visual	faeces of 13 kittens	not reported	positive in 13 cases (qualitative)	i	pre-2015
+R00156	dengue IgM/IgG	human	Ab	rapid ICT vs HAI	not reported	visual	92 patients paired sera	not reported	sens 99%; spec 96% non-flavivirus	h	pre-2015
+R00157	HBsAg	human	Ag	IC test cards, pregnant women Sierra Leone	not reported	visual	pregnant women	not reported	not reported in abstract	h	pre-2015
+R00158	dengue IgM/IgG	human	Ab	capture ELISA and rapid ICT	not reported	visual	known positives and negatives	not reported	sens 100% both; spec 89%	h	pre-2015
+R00169	HIV-1/2 antibodies	human	Ab	Determine HIV-1/2	not reported	visual	whole blood, serum, plasma (Thailand, Ivory Coast)	not reported	sens 100% HIV-1 and HIV-2	h	pre-2015
+R00173	dengue	human	Ab	PanBio Rapid ICT and MRL IgM ELISA, Jamaica	not reported	visual	epidemic sera	not reported	both 100% specific; ELISA 98% sens	h	pre-2015
+R00174	adenovirus	human	Ag	10-min adenovirus IC test	not reported	visual	169 pharyngeal swabs	not reported	vs culture (values not in abstract)	h	pre-2015
+R00178	HIV-1/2 antibodies	human	Ab	saliva strip test	not reported	visual	saliva	not reported	sens 99.4%, spec 99.4%	h	pre-2015
+R00179	HIV-1/2 antibodies	human	Ab	Hema-Strip HIV-1/2	not reported	visual	72 positives; 780 prisoners	not reported	comparable to microparticle EIA	h	pre-2015
+R00181	dengue IgM	human	Ab	MRL ELISA, PanBio Duo ELISA, PanBio RIT	not reported	visual	80 paired DEN samples; 17 negatives	not reported	PRIT sens 100%	h	pre-2015; scope-check: mostly ELISA
+R00182	rinderpest virus	veterinary (cattle)	Ag	chromatographic strip pen-side test	not reported	visual	not reported	not reported	not reported	i	pre-2015
+R00185	dengue IgM	human	Ab	dipstick ELISA and PanBio ICA	not reported	visual	94 positive, 70 negative	not reported	ICA sens 97.9%, spec 97.1%; dipstick ELISA 92.6%, 94.3%	h	pre-2015
+R00192	canine parvovirus, FPV, mink enteritis	veterinary (dog, cat, mink)	Ag	one-step ICA with mAbs	not reported	visual	443 faecal samples	not reported	relative sens 95.8%, spec 99.7%	i	pre-2015
+R00193	dengue IgM/IgG	human	Ab	immunoblot, rapid ICA, Dengue Duo ELISA	not reported	visual	71 acute sera	not reported	concordance 81.7% (IgM), 76.1% (IgG)	h	pre-2015
+R00198	HIV, HBsAg, syphilis	human	Ab/Ag	three rapid tests, Ho Chi Minh City	not reported	visual	prospective hospital samples	not reported	not reported in abstract	h	pre-2015; scope-check: includes syphilis
+R00201	rinderpest virus	veterinary (cattle)	Ag	Clearview strip, Tanzania outbreak	not reported	visual	eye swabs	not reported	13 (12.15%) positive	i	pre-2015
+R00203	dengue antibodies	human	Ab	ICA, rheumatoid factor interference	not reported	visual	50 RF-positive sera	not reported	specificity reduced by RF (value truncated)	h	pre-2015
+R00204	EBV (infectious mononucleosis)	human	Ab	two slide agglutination tests and ICA	not reported	visual	patients	not reported	sens 15-33% (children), 59-81% (>13 y); spec 86-100%	h	pre-2015; scope-check: heterophile antibody
+R00209	dengue IgM/IgG	human	Ab	six immunoassays incl. PanBio RIT	not reported	visual	132 sera; monkey sera	not reported	IgM overall agreement 97% (128/132)	h	pre-2015; scope-check: mixed assays
+R00210	HIV antibodies	human	Ab	rapid test strip in saliva and blood	not reported	visual	pilot	not reported	not reported	h	pre-2015
+R00213	HBsAg	human	Ag	whole-blood pretreatment for ICA	not reported	visual	whole blood	not reported	not reported	d	pre-2015; sample prep
+R00217	adenovirus, rotavirus	human	Ag	immuno-gold lateral flow vs ultrasound-enhanced latex	AuNP	visual	not reported	not reported	not reported (no abstract)	h	pre-2015; scope-check: no abstract
+R00222	Puumala virus	human	Ab	POC PUUMALA ICA	not reported	visual	200 sera; 30 fingertip blood	not reported	analytical sens 100%, spec 99% (unfrozen sera, n=103)	h	pre-2015
+R00226	rotavirus	human	Ag	latex agglutination vs two ICAs	not reported	visual	human faeces	not reported	not reported (no abstract)	h	pre-2015; scope-check: no abstract
+R00228	HIV-1/2/O antibodies	human	Ab	lateral flow assay	not reported	visual	2,000 sera/plasma	not reported	sens 99.2%, spec 99.9%	h	pre-2015
+R00229	HIV-1/2	human	Ab	Determine vs HIV SPOT, Ghana	not reported	visual	Ghanaian blood	not reported	sens 100% vs 98.0%; spec 100%	h	pre-2015
+R00230	FMDV	veterinary	Ag	pen-side chromatographic strip	not reported	visual	nasal swabs, epithelial suspensions, probangs	not reported	more sensitive than ELISA for all seven serotypes	i	pre-2015
+R00232	Puumala virus IgM	human	Ab	POC PUUMALA vs EIA	not reported	visual	235 sera; 48 panel	not reported	reader agreement 95%; vs ELISA 93-96%	h	pre-2015
+R00237	dengue	human	Ab	Dengue Duo Rapid Strip (recombinant antigens)	not reported	visual	not reported	not reported	sens 90%, spec 86%	h	pre-2015
+R00241	rotavirus group A	human	Ag	ICA vs EIA and latex	not reported	visual	228 faecal specimens	not reported	ICA sens 99%, spec 96%; EIA 96%, 99%; latex 68%, 99%	h	pre-2015
+R00245	adenovirus	human	Ag	IC test	not reported	visual	63 paediatric specimens	not reported	sens 88.5% (23/26), spec 100% (37/37) vs culture	h	pre-2015
+R00250	HIV-1/2	human	Ab	OraQuick HIV-1/2, Kinshasa	not reported	visual	72 positive, 131 negative	not reported	sens 100%, spec 100%	h	pre-2015
+R00252	dengue IgM	human	Ab	dengue IgM kits in autoimmune disease	not reported	visual	49 sera	not reported	5 false positives by ICA	h	pre-2015; cross-reactivity
+R00256	adenovirus	human	Ag	SAS Adeno Test, oxybuprocaine interference	not reported	visual	15 samples per group	not reported	false positive in 6 (33.3%)	h	pre-2015; scope-check: interference study
+R00258	dengue	human	Ab	MRL ELISA, PanBio Duo ELISA, PanBio RIT	not reported	visual	58 patients, New Delhi	not reported	RIT sens 95.45%, spec 85.7%	h	pre-2015; scope-check: mostly ELISA
+R00260	dengue IgM/IgG	human	Ab	rapid IC test vs HI	not reported	visual	92 patients	not reported	sens 79%, spec 95%, kappa 0.72	h	pre-2015
+R00265	bovine rotavirus	veterinary (calf)	Ag	lateral-flow immunoassay	not reported	visual	74 calf faecal samples	not reported	vs EM and latex agglutination (values not in abstract)	i	pre-2015
+R00267	influenza	human	Ag	four rapid influenza tests	not reported	visual/optical	116 specimens	not reported	influenza A in 58 of 116 (50%)	h	pre-2015; scope-check: includes DFA and optical immunoassay
+R00268	HIV-1/2 variants	human	Ab	six rapid screening tests + ELISA	not reported	visual	panels incl. group O, HIV-2	not reported	sens 94.6-100%	h	pre-2015
+R00269	HBsAg	human	Ag	HEPACARD ICA	not reported	visual	1,000 consecutive sera	not reported	sens 79% (57.3-92), spec 98.9%	h	pre-2015; negative
+R00274	dengue IgM/IgG	human	Ab	dipstick ELISA vs PanBio IC test	not reported	visual	156 sera	not reported	IC sens 87%, spec 98% vs capture ELISA	h	pre-2015; scope-check: dipstick ELISA focus
+R00276	influenza A/B	human	Ag	QuickVue lateral flow	not reported	visual	NP aspirates, children	not reported	sens 79.2%, spec 82.6% vs culture	h	pre-2015
+R00277	influenza	human	Ag	QuickVue at bedside	not reported	visual	hospitalised children	not reported	sens 74%, spec 98%, PPV 74%, NPV 98%	h	pre-2015
+R00279	dengue IgM	human	Ab	MAC-ELISA, PanBio Rapid, PanBio IgM ELISA	not reported	visual	154 febrile patients	not reported	PanBio Rapid sens 73% (latent class)	h	pre-2015; scope-check: mostly ELISA
+R00287	dengue	human	Ab	ICA in travellers with malaria	not reported	visual	returning travellers	not reported	low specificity (no abstract)	h	pre-2015; scope-check: no abstract
+R00296	Hantaan, Dobrava, Puumala	human	Ab	virus-specific rapid tests vs combination test	not reported	visual	100 volunteers; 28 negatives; 77 patients	not reported	specific tests 96-100%; combination spec 96%, sens 80-93%	h	pre-2015
+R00300	West Nile, St. Louis encephalitis viruses	mosquito vectors	Ag	wicking assays (VecTest)	not reported	visual	mosquito pools	not reported	comparable to antigen-capture ELISA	i	pre-2015; scope-check: arthropod vector pools
+R00302	HIV-1/2	human	Ab	Rapid Check HIV 1&2 vs Determine	not reported	visual	whole blood, serum, plasma	not reported	plasma sens 100% vs 98.58%; spec 98.94% vs 96.97%	h	pre-2015
+R00305	influenza	human	Ag	QuickVue vs shell vial culture	not reported	visual	99 samples, 33 adults	not reported	not reported in abstract	h	pre-2015
+R00308	HIV-1/2	human	Ab	rapid assays on pooled sera	not reported	visual	pooled specimens	not reported	sens 98.88% (Seroz*Strip), 100% (Determine)	h	pre-2015; pooling
+R00309	influenza	human	Ag	lateral-flow immunoassay and EIA	not reported	visual	356 nasal washes	not reported	sens 70.4%, 72.2%; spec 97.7%, 98.x%	h	pre-2015
+R00311	rotavirus	human	Ag	RT-PCR vs EIA vs ICG	not reported	visual	107 stool samples	not reported	PCR 58 positive; EIA 28; ICG 29	h	pre-2015
+R00313	HIV antibodies	human	Ab	Hema-Strip HIV-1/2 finger-stick, Thailand	not reported	visual	women	not reported	acceptability study	h	pre-2015
+R00314	astrovirus	human	RNA	NASBA with liposome-strip detection	liposome	visual	65 stool specimens	not reported	not reported	e	pre-2015; liposome strip
+R00315	HBsAg, HBeAg	human	Ag	rapid ICA	not reported	visual	2,463 samples	not reported	HBsAg sens 95%, spec 100%; HBeAg 80%, 98%	h	pre-2015
+R00321	HIV	human	Ab	consecutive rapid test strategy, CAR	not reported	visual	876 patient sera	not reported	sens and NPV 100%	h	pre-2015
+R00322	influenza A/B	human	Ag	Directigen Flu A+B and QuickVue vs culture/RT-PCR	not reported	visual	clinical	not reported	false negatives up to 29%; clinical case definition spec 35-58%	h	pre-2015
+R00333	norovirus	human	Ag	immunochromatographic method	not reported	visual	not reported	not reported	not reported (no abstract)	h	pre-2015; scope-check: no abstract
+R00341	West Nile virus	wildlife (American crows)	Ag	VecTest dipstick	not reported	visual	faecal, saliva, tissue of dead crows	not reported	efficient for WNV detection (no values)	i	pre-2015
+R00351	EEEV, WEEV	mosquito vectors	Ag	VecTest antigen assays	not reported	visual	mosquito pools	>=5.3 log10 PFU/mL (EEE); >=4.7 (WEE)	not reported	i	pre-2015; scope-check: arthropod vector pools
+R00354	West Nile virus	wildlife (corvids)	Ag	VecTest antigen-capture	not reported	visual	oropharyngeal swabs of dead corvids	not reported	crows sens 83.9%, spec 93.6% (Manitoba); 83.3%, 95.8% (Ontario)	i	pre-2015
+R00358	SARS-CoV IgG	human	Ab	recombinant protein ELISA and ICA	not reported	visual	74 convalescent sera; 210 controls	not reported	kit sens 100%, spec 99.5%, accuracy 99.6%; ICA agreement 99.6%, kappa 1.00	h	pre-2015
