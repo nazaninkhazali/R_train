@@ -254,3 +254,6 @@ Applied to all title/abstract decisions; UNSURE category removed (0 remaining).
 Commercial/finished-kit evaluations are out of scope (new code E10). Section h retained only for development or prototype papers (65). Post-hoc change, to be stated in the manuscript. Included total: 1,315.
 
 Section-z review (2026-11-05): 21 unclassified records excluded (19 E10, 2 E9). Final included: 1,294.
+
+## Boundary-case decision (author, 2026-11-05)
+R07685 (plasmonic scattering LFIA, DOI: 10.1038/s41467-025-58663-z) is kept in section a as a flagged boundary case; its LOD is reported separately from absorption-based strips. LOD and clinical values are to be reported with the readout (naked eye, scanner/imager, smartphone, reader) beside each.
