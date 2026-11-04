@@ -1,0 +1,70 @@
+R05320	SARS-CoV-2 antigen	human	Ag/RNA	ID NOW molecular test on residual Ag-RDT buffer	not reported	n/a	residual test buffer	not reported	analytical specificity panel	h	scope-check: molecular confirmation method
+R05321	SARS-CoV-2 antigen	human	Ag	three LF + LumiraDx vs culture and viral load	not reported	visual	up to 189 NP swabs	100,000 copies/mL threshold sens 95%, spec 72% for culture	LumiraDx sens 90%	h	culture-based
+R05324	SARS-CoV-2 antigen	human	Ag	BinaxNOW in children, Delta period	not reported	visual	mass testing site	not reported	sens 92.7% (82.4-98.0), spec 98.0% (97.0-98.8)	h	commercial
+R05335	SARS-CoV-2 antigen	human	Ag	Ag-RDT, Curacao	not reported	visual	real practice	not reported	sens 68.8% (57.4-78.7), spec 94.6% (84.9-98.9)	h	evaluation
+R05352	SARS-CoV-2 antigen	human	Ag	RAT in ED	not reported	visual	ED	not reported	sens 67.8%, spec 99.9%, PPV 99.6%, NPV 93.2%; 97.8% at Ct 15	h	evaluation
+R05377	SARS-CoV-2 Ab	human	Ab	home self-testing LFIA	not reported	visual	250 samples	not reported	sens 78.7% (133/169) vs live neutralisation	h	self-test
+R05384	SARS-CoV-2 antigen	human	Ag	Standard Q (nasal, NP) and Panbio, Omicron wave	not reported	visual	South Africa	not reported	sens 77.78-81.42%, spec >99%; >90% at Ct<20	h	evaluation
+R05401	SARS-CoV-2 Omicron	human	Ag	Roche and Acon FlowFlex RATs	not reported	visual	Omicron BA.1/BA.2/BA.5 samples	not reported	Roche detected 87% at Ct<29; BA.2 and BA.5 down by 20%, 10%	h	variants
+R05413	SARS-CoV-2 antigen	human	Ag	Standard Q, Addis Ababa	not reported	visual	200 NP and nasal swabs	not reported	sens 95% (88.7-98.4) (95/100)	h	commercial
+R05415	SARS-CoV-2 antigen	human	Ag	negative Ag-RDT in RT-qPCR positive vs infectious virus	not reported	visual	NP samples	not reported	discordant results lack infectious virus	h	culture-based
+R05419	SARS-CoV-2 antigen	human	Ag	BD Veritor and Standard Q, Bangladesh	not reported	reader/visual	130 symptomatic	not reported	Veritor 70% sympt, 87% asympt; Standard Q 63%, 73%	h	evaluation
+R05427	SARS-CoV-2 antigen	human	Ag	RAT field evaluation in elderly	not reported	visual	953 positive, 1,537 negative RATs	not reported	negative RATs confirmed by RT-PCR	h	evaluation
+R05432	SARS-CoV-2 antigen	human	Ag	Panbio in 4,440 cases	not reported	visual	4,440 paired tests	not reported	sens 41.2% (37.4-45.2), spec 99.7% (99.4-99.8)	h	commercial; large n
+R05433	SARS-CoV-2 antigen	human	Ag	38 AG-RDT types, Czech registry	not reported	visual	registry data	not reported	average sens 72.4%, spec 96.7%; children 65.3-65.5%	h	evaluation
+R05445	SARS-CoV-2 NAbs	human	Ab	ichroma semiquantitative LFA	not reported	reader	post-infection and vaccinated	not reported	inhibition rate vs IgG rho 0.83; anti-Alpha NAbs rho 0.78	f	reader; serology
+R05446	SARS-CoV-2 antigen	human	Ag	Boson rapid Ag test, self-testing	not reported	visual	laymen and professionals	not reported	sens 98.18%, spec 100%, accuracy 99.28%	h	self-test
+R05451	SARS-CoV-2 antigen	human	Ag	anterior nasal AMP RAT	not reported	visual	NP rRT-PCR comparison	not reported	sens 29.2% (18.6-41.8), spec 100%	h	commercial; negative
+R05452	SARS-CoV-2 N protein mutants	human	Ag	assays vs recombinant N mutants	not reported	visual	recombinant antigens	equivalent to wild-type for all mutants	not reported	h	variants
+R05463	SARS-CoV-2 antigen	human	Ag	RDT by variant, Germany	not reported	visual	35,479 tandems from 26,940 individuals	not reported	sens 38.50% (34.00-43.20); wild-type 42.86%, Alpha 43.42%, Delta 37.67%	h	large n; variants
+R05465	SARS-CoV-2 Omicron	human	Ag	RAT vs culturable virus in children	not reported	visual	65 samples, 31 children	not reported	not reported	h	culture-based
+R05469	SARS-CoV-2 antigen	human	Ag	BD Veritor nasal antigen test	not reported	reader	146 symptomatic, 2 asymptomatic	not reported	vs GeneXpert Ct (values not in abstract)	h	scope-check: BD Veritor requires reader
+R05471	SARS-CoV-2	animal model (hamster)	Ag	rapid antigen test in hamsters	not reported	visual	experimentally infected hamsters	not reported	not reported	h	scope-check: animal model of human virus
+R05481	SARS-CoV-2 antigen	human	Ag	RATs in Omicron, China	not reported	visual	NP vs OP positives	not reported	NP better than OP	h	evaluation
+R05482	SARS-CoV-2 antigen	human	Ag	Ag-RDT in Shanghai primary care	not reported	visual	quarantine period	not reported	sens 43.37%; by Ct 84.21, 52.17, 21.74, 16.67%; spec 100%	h	evaluation
+R05486	SARS-CoV-2, influenza A	human	Ag	dual-mode SERS LFA	Au/SERS tags	visual + SERS	39 patient samples	not reported	reduced false-negative rate	g	dual-mode; SERS flagged
+R05489	SARS-CoV-2 antigen	human	Ag	SureStatus rapid antigen test	not reported	visual	multicentre	not reported	sens 82.4% (76.6-87.1), spec 98.5% (97.4-99.1); 90.7% in first 7 d	h	commercial
+R05492	SARS-CoV-2 antigen	human	Ag	at-home LFA with AI read (LFAIR)	not reported	smartphone AI	same-day RT-PCR	not reported	sens 86.2% (73.6-98.8), spec 94.3%; 97.8% day 1	f	AI
+R05498	SARS-CoV-2 N protein escape	human	Ag	deep mutational scanning for RAT antibodies	not reported	visual	11 tests, patient samples	not reported	not reported	h	variants
+R05500	SARS-CoV-2 antigen	human	Ag	three RATs, anterior nasal vs NP	not reported	visual	128 cases (28 positive)	not reported	not reported in abstract	h	sampling
+R05511	SARS-CoV-2 antigen	human	Ag	QuickNavi RATs in forensic cases	not reported	visual	forensic	not reported	sens 76.32% and 77.14%, spec 100%	h	postmortem
+R05513	SARS-CoV-2 antigen	human	Ag	unsupervised self-sampling RATs, Omicron	not reported	visual	symptomatic	not reported	not reported in abstract	h	self-test
+R05524	SARS-CoV-2 Omicron	human	Ag	saliva ICA vs CLEIA	not reported	visual	saliva	not reported	ICA sens 58.8% (44.2-72.4), spec 100%; 100% at Ct<25; CLEIA 98.0%	h	evaluation
+R05526	SARS-CoV-2 antigen	human	Ag	COVID-19 rapid antigen card	not reported	visual	599 samples	not reported	230 positive by RAT vs 310 by rtRT-PCR	h	evaluation
+R05532	SARS-CoV-2 Delta vs Omicron	human	Ag	RDT sensitivity by variant	not reported	visual	205 samples	not reported	Omicron 53.8% vs Delta 74.7%	h	variants
+R05538	SARS-CoV-2 Ab	human	Ab	four LF antibody tests vs subsequent infection	not reported	visual	unvaccinated	not reported	not reported	h	prognostic
+R05543	SARS-CoV-2 antigen	human	Ag	self-collected nasal swabs, resource-poor	not reported	visual	community	not reported	nasal sens 80.6% (75.3-85.2) vs OP	h	sampling
+R05549	SARS-CoV-2	human	RNA/Ag	saliva RT-PCR; V-Chek and Whistling AgRDT	not reported	visual	saliva	not reported	saliva PCR spec 96.5%, NPV 91.3%; AgRDT NPV 66.9%, 67.3%	h	evaluation; negative
+R05562	SARS-CoV-2 antigen	human	Ag	Standard Q and Panbio, Namibia	not reported	visual	lab and field	not reported	lab sens 86% (Panbio), 88% (Standard Q); field Standard Q 56%	h	evaluation
+R05566	SARS-CoV-2 antigen	human	Ag	Innova LFD vs rapid RT-PCR	not reported	visual	stored positives Ct 18.9-36.5	not reported	not reported in abstract	h	commercial
+R05572	SARS-CoV-2 antigen	human	Ag	RAT validation and real-life use	not reported	visual	2,295 validation; 13,852 matched	not reported	sens 77.38%, spec 99.10%	h	evaluation; large n
+R05574	SARS-CoV-2 antigen	human	Ag	Panbio in asymptomatic health personnel	not reported	visual	asymptomatic	not reported	sens 35.2%	h	commercial; negative
+R05577	SARS-CoV-2 antigen	human	Ag	RAgT in paediatric ED	not reported	visual	children	not reported	sens 71.0%, spec 99.9%, kappa 0.813; 82.4% at 13-17 y	h	evaluation
+R05578	SARS-CoV-2 antigen	human	Ag	RAgT in children <12 y	not reported	visual	children	not reported	sens 60.2%, spec 99.8%	h	evaluation
+R05583	SARS-CoV-2 Ab	human	Ab	eleven IC assays, dengue cross-reaction	not reported	visual	145 COVID-19 sera; 100 negative; 20 dengue	not reported	sens 92%, spec 100%, kappa 0.92 (IgG+IgM after 10 d)	h	cross-reactivity
+R05593	SARS-CoV-2 antigen	human	Ag	self-collected anterior nasal RAT in children	not reported	visual	children	not reported	sens 91.3% vs HCW-RAT; 70.4% vs PCR; spec >97%	h	sampling
+R05596	SARS-CoV-2 Delta vs Omicron	human	Ag	Ag-RDT home self-testing, serial	not reported	visual	serial self-testing	not reported	same-day Delta 15.5% (differences not significant)	h	variants
+R05611	SARS-CoV-2 antigen	human	Ag	ML for determining LFD results	not reported	smartphone ML	asymptomatic populations	not reported	ATS sens 92.08% to 97.6%; self-read 16.00% to 100%	f	AI
+R05620	SARS-CoV-2 antigen	human	Ag	VTRUST COVID-19 Antigen Rapid Test	not reported	visual	ED and community	not reported	sens 51.61% overall; ED 62.50%; community 31.82%; spec 99.44%	h	commercial
+R05626	SARS-CoV-2 Omicron	human	Ag	BinaxNOW vs qRT-PCR, anterior nares	not reported	visual	319 samples (102 positive)	not reported	not reported in abstract	h	commercial
+R05631	SARS-CoV-2 antigen	human	Ag	Panbio Bayesian latent-class	not reported	visual	Addis Ababa	not reported	Panbio sens 99.6% (98.4-100), spec 93.4%; RT-PCR sens 89.3%	h	statistical method
+R05633	SARS-CoV-2 Ab	human	Ab	smartphone AI reader for RDTs	not reported	smartphone AI	field studies	not reported	IgG band sens 100%, spec 94.4%; IgM 100%, 95.8% vs visual	f	AI
+R05642	SARS-CoV-2 antigen	human	Ag	RT-PCR vs RAT agreement	not reported	visual	clinical	not reported	kappa 0.646 (0.420-0.871)	h	agreement
+R05643	SARS-CoV-2 NAbs	human	Ab	competitive colloidal gold GICA	AuNP	visual	reference material, positive sera	20.66 IU/L	spec 100%	a	AuNP; competitive
+R05645	SARS-CoV-2 antigen	human	Ag	saliva and nasal SD Biosensor self-test	not reported	visual	self-testing	not reported	at >=5.2 log10: saliva 54.9% (46.4-63.3), nasal 83.9% (76.9-89.5)	h	self-test
+R05656	SARS-CoV-2 antigen	human	Ag	Espline and Standard Q, nonspecific reactions	not reported	visual	NP 100; sputum 10; plasma 100	not reported	sens 60% and 57%, spec 100%	h	evaluation
+R05659	SARS-CoV-2 antigen	human	Ag	COVID-VIRO LFIA and ELISA on NP and serum	not reported	visual	257 NP, 87 serum	not reported	Ct<=33: NP 86% (79-90.5), serum 76% (59.4-88); spec 100%	h	commercial
+R05671	SARS-CoV-2 antigen	human	Ag	weekly RAT in haemodialysis	not reported	visual	haemodialysis patients	not reported	not reported	h	scope-check: screening programme
+R05678	SARS-CoV-2 antigen	human	Ag	RDT positivization time predicts viral load	not reported	visual	routine samples	not reported	0.84 sens, 0.73 spec for Ct<20	f	time-to-signal
+R05680	SARS-CoV-2 Ab	human	Ab	Cellex qSARS-CoV-2 rapid test vs CLIA	not reported	reader	858 patients	not reported	RDT vs NAAT sens 78.5% (75.1-81.7), spec 94.1%	h	evaluation
+R05697	SARS-CoV-2 Omicron	human	Ag	SD Biosensor-Roche, Panbio, Clinitest	not reported	visual	NP samples, Santiago	not reported	at 20<=Cq<25: 95.7%, 100%, 91.3%	h	variants
+R05699	SARS-CoV-2	human	Ag	daily self-test RAT for de-isolation	not reported	visual	138 saliva pairs from 34 patients	not reported	not reported in abstract	h	culture-based
+R05702	SARS-CoV-2 antigen	human	Ag	STANDARD Q real-world, Korea	not reported	visual	5,792 results	not reported	sens 57.6%, spec 99.9%	h	commercial; large n
+R05704	SARS-CoV-2 Omicron	human	Ag	NP and saliva RT-PCR and RAT	not reported	visual	outpatients and inpatients	not reported	NP RAT sens 66% (outpatient), 31% (inpatient); saliva RAT <5%	h	evaluation; negative
+R05720	SARS-CoV-2 antigen	human	Ag	FUJIFILM COVID-19 Ag test with silver amplification	Ag amplification	reader/visual	NP and nasal swabs	not reported	sens 95.7% (NP), 85.7% (nasal)	c	silver amplification; commercial
+R05733	SARS-CoV-2 antigen	human	Ag	DPP SARS-CoV-2 antigen, Brazil	not reported	reader (DPP)	347 all-comers	not reported	sens 80.5% (69.1-89.2), spec 99.2%	h	scope-check: DPP uses a reader
+R05735	SARS-CoV-2 antigen	human	Ag	three self-tests in asymptomatic individuals, Omicron	not reported	visual	asymptomatic	not reported	sens 48.3%, 37.8%, 40.0% at >=5.2 log10	h	self-test
+R05738	SARS-CoV-2 antigen	human	Ag	positivization time of Roche RAT	not reported	visual	NP specimens	not reported	AUC 0.82; 32 s cut-off sens 94.9%, spec 58.2%	f	time-to-signal
+R05747	SARS-CoV-2 antigen	human	Ag	nasal and saliva RAT in children <5	not reported	visual	children	not reported	nasal 0.889 (0.739-0.969); saliva 0.158 (0.034-0.396)	h	sampling
+R05752	SARS-CoV-2	human	RNA	immiscible filtration + CRISPR-Cas12a sample-to-answer	not reported	visual	spiked samples	>=470 copies/mL; 100 copies/mL on-chip	not reported	e	CRISPR; scope-check: strip not stated
+R05755	SARS-CoV-2 antigen	human	Ag	Panbio at ALERT center, Ethiopia	not reported	visual	62 positive of 120	not reported	sens 74.2%, spec 100%; symptomatic 79.4% (68.3-90)	h	commercial
