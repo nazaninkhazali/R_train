@@ -1,0 +1,70 @@
+R00603	15 respiratory viruses	human	RNA	RespiFinder MLPA vs RSV ICA and culture	not reported	n/a	144 clinical samples	not reported	vs RSV ICA: spec 82.4%, sens 80%	e	pre-2015; scope-check: MLPA assay, ICA only a comparator
+R00604	adenovirus, coxsackie B	human	RNA/DNA	PCR vs culture	not reported	n/a	100 NP samples	not reported	86 AdV-only; 5 dual	z	pre-2015; scope-check: PCR/culture study
+R00606	influenza	human	Ag	RAT in older adults	not reported	visual	routine clinical	not reported	not reported in abstract	h	pre-2015
+R00609	RSV, hMPV	human	Ag	four rapid antigen tests (incl. one ICA) vs RT-PCR	not reported	visual/fluorescence	pediatric	not reported	ICA sens 79.8%, spec 89.5%	h	pre-2015; scope-check: includes DFA
+R00614	rabies	human/veterinary	Ag	ICT kit, two types	not reported	visual	brain samples of rabid dogs	not reported	type 1 sens 95.5%, spec 88.9%; type 2 93.2%, 100%	h	pre-2015
+R00618	adenovirus	human	Ag	ICA sensitivity evaluation	not reported	visual	not reported	not reported	not reported (no abstract)	h	pre-2015; scope-check: no abstract; letter
+R00625	HBsAg	human	Ag	Determine, Virucheck, Cypress, Hexagon	not reported	visual	91 positive, 109 negative sera	not reported	Determine sens 97.8%, spec 100%, accuracy 99.0%	h	pre-2015
+R00627	HIV-1/2 antibodies	human	Ab	First Response HIV 1-2.O	not reported	visual	450 characterised specimens	not reported	sens/spec 100% for HIV-1	h	pre-2015
+R00629	RSV	human	Ag	rapid antigen test for isolation duration in infants	not reported	visual	hospitalised infants	not reported	sens 60%, spec 76% vs culture	h	pre-2015; negative
+R00630	adenovirus	human	Ag	IC kit in nosocomial conjunctiva survey	not reported	visual	18 samples	not reported	IC 1/18 positive vs nested PCR 8/18	h	pre-2015; scope-check: infection-control survey
+R00636	RSV	human	Ag	BD Directigen EZ and Binax NOW	not reported	visual	99 NP aspirates	not reported	BD 90%/94%/94%/90%; BN 90%/100%/100%/90%; agreement 93%	h	pre-2015
+R00637	IBDV antibodies	veterinary (chicken)	Ab	disperse dye immunochromatographic test (DICT)	disperse dye	visual	chicken sera	not reported	high sens and spec vs F-ELISA	b	pre-2015; disperse dye label
+R00639	H5 avian influenza antibodies	veterinary (chicken)	Ab	colloid gold strip with HA capture	AuNP	visual	830 sera	not reported	sens 88.8%, spec 97.6% vs HI	i	pre-2015
+R00640	PRRSV antibodies	veterinary (pig)	Ab	immunochromatographic strip	not reported	visual	experimental and clinical sera	not reported	sens 95.7% (experimental), 98.6% (clinical); spec 97.8%, 98.2%	i	pre-2015
+R00642	H7 HPAI	veterinary (poultry)	Ag	pen-side test kit	not reported	visual	not reported	not reported	not reported	i	pre-2015
+R00644	Taura syndrome virus	aquaculture (shrimp)	RNA	RT-LAMP + lateral flow dipstick	not reported	visual	not reported	comparable to nested RT-PCR	not reported	i	pre-2015; LAMP
+R00647	HBsAg	human	Ag	DRW HBsAg signal amplification system rapid test	not reported	visual	panels, Beijing	0.2-0.8 IU/mL	100% detected vs Determine 15.0% and 87.3% on two low-titre panels	c	pre-2015; signal amplification system; within-paper comparison
+R00650	dengue NS1	human	Ag	Dengue NS1 Ag STRIP and Platelia ELISA	not reported	visual	272 sera; 48 negatives	not reported	Platelia sens 87.4% (strip value truncated)	h	pre-2015
+R00651	HIV-1/2	human	Ab	Determine vs 4th-generation ELISA, Ethiopia	not reported	visual	324 blood donor sera	not reported	sens 60.5%, spec 98.9%, PPV 88.5%, NPV 94.9%; concordance 94.4%	h	pre-2015; negative
+R00652	WSSV	aquaculture (shrimp)	DNA	PCR with lateral flow chromatographic strips	not reported	visual	template dilutions	100 copies (strip) vs 1e3 (gel); semi-nested 20 copies	not reported	i	pre-2015; strip 10x gel
+R00653	H5 avian influenza	veterinary (poultry)	Ag	immune colloidal gold strip, mAb 1A6	AuNP	visual	not reported	not reported	not reported	i	pre-2015
+R00654	avian influenza type A	veterinary (chicken)	Ag	Anigen and Flu Detect strip, Indonesia	not reported	visual	174 village chickens	not reported	Anigen sens 0.69, spec 0.98; Flu Detect 0.71, 0.98	i	pre-2015
+R00655	bovine coronavirus, rotavirus A	veterinary (calf)	Ag	rapid ICAs on faeces	not reported	visual	calf faeces	not reported	spec 96.4%, 95.3%; sens 60.0%, 71.9%	i	pre-2015; scope-check: includes parasite assay
+R00656	RSV	human	Ag	ICA-BD vs IFA vs RT-PCR	not reported	visual	306 NPA samples	not reported	ICA vs IFA sens 85.0%, spec 91.2%; vs RT-PCR 79.5%, 95.4%	h	pre-2015
+R00659	influenza A+B	human	Ag	3M rapid detection influenza A+B assay	not reported	reader	clinical and analytical	not reported	better than BinaxNOW and Directigen EZ; equal to QuickVue	h	pre-2015; scope-check: objective reader output
+R00661	shrimp hepatopancreatic parvovirus	aquaculture (shrimp)	DNA	LAMP-LFD	not reported	visual	infected shrimp DNA	1 ng vs PCR 10 ng	not reported	i	pre-2015; LAMP
+R00666	FMDV	veterinary	Ag	pan-serotype lateral flow device (mAb 1F10)	not reported	visual	304 positive, 1,003 negative epithelial suspensions	not reported	sens 84% vs ELISA 85%; spec ~99% vs 99.9%	i	pre-2015
+R00672	feline leukaemia virus	veterinary (cat)	Ag	ICA with p27 mAbs	not reported	visual	feline sera	0.5 ng FeLV-p27 per 0.1 mL	no cross-reaction	i	pre-2015
+R00674	dengue NS1	human	Ag	commercial NS1 ICT vs NS1 capture ELISA	not reported	visual	serum, plasma	not reported	sens 90.4%, spec 99.5%; primary 92.3%, secondary 79.1%	h	pre-2015
+R00675	infectious myonecrosis virus	aquaculture (shrimp)	RNA	RT-LAMP-LFD	not reported	visual	not reported	comparable to nested RT-PCR	not reported	i	pre-2015; LAMP
+R00684	adenovirus	human	Ag	new ICA, paediatric	not reported	visual	200 culture-positive, 200 negative	not reported	sens 55%, spec 98.9%	h	pre-2015
+R00686	WSSV	aquaculture (shrimp)	DNA	LAMP-LFD	not reported	visual	not reported	comparable to nested PCR	not reported	i	pre-2015; LAMP
+R00687	West Nile virus IgM	human	Ab	RapidWN lateral-flow IgM	not reported	visual	retrospective, five labs	not reported	sens 98.8% (96.0-100), spec 95.3% (90.9-100), PPV 96.3%	h	pre-2015; scope-check: named "EIA" in abstract
+R00688	norovirus	human	Ag	IC kit	not reported	visual	75 faecal specimens	not reported	sens 75.4%, spec 100%, agreement 80%	h	pre-2015
+R00690	dengue NS1	human	Ag	NS1 ELISA and lateral flow	not reported	visual	patients	not reported	NS1 positivity associated with viraemia	h	pre-2015
+R00693	adenovirus	human	Ag	IC kit before conjunctivitis onset	not reported	visual	conjunctival samples	not reported	not reported	h	pre-2015; scope-check: incubation-period survey
+R00695	RSV	human	Ag/RNA	outbreak in long-term care	not reported	visual	symptomatic residents	not reported	not reported	h	pre-2015; scope-check: outbreak report
+R00696	HIV	human	Ab	Orgenics Immunocomb confirmation vs WB	not reported	visual	229 double-RDT positive	not reported	two-test algorithm false-positive rate 10.5% (6.6-15.2)	h	pre-2015
+R00697	group A human rotavirus	environmental/aquatic	Ag	cell-culture-based ICA	not reported	visual	aquatic environments	1.99 TCID50/mL	similar to CPE and real-time RT-PCR	h	pre-2015; scope-check: environmental water application
+R00698	influenza	human	Ag	DoD regional surveillance with rapid antigen kits	not reported	visual	surveillance	not reported	compared poorly with culture and PCR	h	pre-2015; scope-check: surveillance program
+R00699	HIV	human	Ab	five simple rapid assays, Tanzania	not reported	visual	whole blood, various groups	not reported	not reported in abstract	h	pre-2015
+R00701	dengue NS1	human	Ag	NS1 antigen strip	not reported	visual	220 samples, 104 patients	not reported	sens 98.9%, spec 90.6%	h	pre-2015
+R00710	influenza	human	Ag	QuickVue Influenza A+B	not reported	visual	nasal swabs in three populations	not reported	median sens 27% (19-32%), spec 97%	h	pre-2015; negative
+R00712	norovirus	human	Ag	commercial ICA	not reported	visual	faeces	not reported	not reported (no abstract)	h	pre-2015; scope-check: no abstract
+R00715	influenza A/B	human	Ag	IC in early disease	not reported	visual	736 NP specimens	not reported	vs virus isolation (values not in abstract)	h	pre-2015
+R00716	canine parvovirus type 2c	veterinary (dog)	Ag	in-house rapid test	not reported	visual	201 PCR-positive faeces	not reported	negative results should be confirmed by PCR	i	pre-2015
+R00717	PRRSV	veterinary (pig)	Ag	immunogold strip, D5 and E9 mAbs	AuNP	visual	100 clinical samples	7.8e3-1.6e4 TCID50/mL	sens 97.0%, spec 93.9%, accuracy 96.0%	i	pre-2015
+R00718	HCV core antigen	human	Ag	one-step ICA	not reported	visual	not reported	not reported	not reported	d	pre-2015
+R00719	grapevine fanleaf virus	plant	Ag	ImmunoStrips, RT-PCR, DAS-ELISA	not reported	visual	infected grapevines	not reported	not reported	i	pre-2015; plant
+R00721	HIV-1/2 antibodies	human	Ab	OraQuick Advance in oral fluid and serum	not reported	visual	HIV-1 subtypes and recombinants	not reported	good sensitivity across subtypes	h	pre-2015
+R00726	rabies neutralising antibody	human	Ab	RAPINA rapid neutralising antibody test	not reported	visual	115 human sera	not reported	sens 88.7%, spec 91.9%, accuracy 90.4%	h	pre-2015; serology
+R00729	infectious myonecrosis virus	aquaculture (shrimp)	RNA	RT-LAMP-NALF	not reported	visual	not reported	100x vs one-step RT-PCR; 10x vs RT-LAMP (2 primer pairs)	not reported	i	pre-2015; LAMP
+R00730	2009 H1N1	human	Ag	rapid antigen, DFA, culture, PCR	not reported	mixed	6,090 samples; 14,114 tests	not reported	highly varied sensitivity	h	pre-2015; scope-check: multiple methods
+R00735	hMPV	human	Ag	SAS hMPV rapid ICA vs real-time PCR	not reported	visual	224 nasal swabs	not reported	sens 82.3%, spec 93.8%	h	pre-2015
+R00736	astrovirus	human	Ag	rapid ICA strip	not reported	visual	stool	not reported	not reported (no abstract)	h	pre-2015; scope-check: no abstract
+R00737	FMDV 3ABC antibodies	veterinary (pig)	Ab	chromatographic strip, E. coli 3ABC	not reported	visual	porcine sera	not reported	spec 100% naive, 98.8% vaccinated	i	pre-2015; DIVA
+R00739	dengue IgM/IgG	human	Ab	Panbio Dengue Duo, South India	not reported	visual	hospital attendees	not reported	IgM sens 81.8%, spec 75.0%; IgG 87.5%, 66.6%	h	pre-2015
+R00741	influenza	human	Ag	QuickVue Influenza A+B, ambulatory field	not reported	visual	267 PCR-positive; 221 negative	not reported	sens 19.5% (14.7-24.2), spec 99.1%	h	pre-2015; negative
+R00747	measles	human	Ag	lateral flow measles reagent	not reported	visual	recombinant proteins	5.1e3 copies/test	spec efficacy (no value)	d	pre-2015
+R00749	rotavirus A	human	Ag	ELISA, ICT and RT-PCR, Norway	not reported	visual	hospitalised children	not reported	ELISA lower sens than RT-PCR	h	pre-2015; scope-check: genotyping focus
+R00751	pandemic H1N1	human	Ag	Directigen EZ, BinaxNOW, QuickVue	not reported	visual	clinical	not reported	sens 46.7%, 38.3%, 53.3%	h	pre-2015
+R00752	FMDV	veterinary	Ag	lateral-flow assay, mAb 70-17	not reported	visual	704 epithelial suspensions	not reported	sens ~87.3% vs Ag-ELISA 87.7%; spec 98.8%	i	pre-2015
+R00754	bluetongue virus antibodies	veterinary (sheep)	Ab	protein G colloidal gold ICS	AuNP	visual	sera	not reported	sens 100%, spec 97.6%, kappa 0.930 vs c-ELISA	i	pre-2015
+R00756	dengue NS1	human	Ag	two ELISAs and NS1 strip, Venezuela	not reported	visual	87 viraemic sera; 36 others	not reported	strip sens 67.8%, spec 94.4%	h	pre-2015
+R00760	H5N1, H3N2, H1N1, B	human	Ag	20 rapid antigen tests	not reported	visual	virus culture supernatants	not reported	two H5-specific assays missed H5N1	h	pre-2015
+R00761	cyprinid herpesvirus 3	aquaculture (carp)	DNA	LAMP + nucleic acid lateral flow	not reported	visual	not reported	10 fg (30 copies)	equal to agarose gel sensitivity	i	pre-2015; LAMP
+R00766	FMDV SAT2	veterinary	Ag	serotype-specific lateral flow device (mAb 2H6)	not reported	visual	305 positive, 1,002 negative	not reported	sens 88% vs ELISA 79%; spec ~99%	i	pre-2015
+R00768	PemoNPV	aquaculture (shrimp)	DNA	LAMP-LFD	not reported	visual	infected shrimp DNA	0.1 pg vs PCR 1 pg	not reported	i	pre-2015; LAMP; scope-check: insect-type baculovirus of shrimp
+R00769	swine vesicular disease virus	veterinary (pig)	Ag	lateral flow device (mAb C70)	not reported	visual	157 positives	not reported	sens 82% vs ELISA 86%; spec 100%	i	pre-2015
+R00773	2009 pandemic H1N1	human	Ag	rapid antigen test vs RT-PCR	not reported	visual	144 clinical samples	not reported	detected 11.1% of RT-PCR positives	h	pre-2015; negative
