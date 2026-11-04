@@ -1,0 +1,156 @@
+# Part B (working text v1): other coloured labels
+
+Working text, 2026-11-05. Text focuses on the labels and how they connect; numerical detail is in the tables. † = read in full; all other rows abstract only (NR = not reported in the abstract). Every DOI cited in the text appears in a table and in the evidence table. Section b covers 37 included records (R07568 excluded as not a conventional LFA).
+
+# 3.2 Other coloured labels: widening the palette beyond gold
+
+## 3.2.0 Why look beyond gold, and how this section is organised
+
+Gold nanoparticles dominate colorimetric lateral flow assays, but several groups have argued for other coloured labels. The reasons given in the papers read for this review fall into three groups. First, optics: polydopamine nanoparticles absorb over a broader and stronger band than gold (DOI: 10.3390/bios13030352). Second, manufacturing: colloidal gold strips are described as limited in analytical sensitivity and affected by batch-to-batch differences in particle size, while dyed latex beads are bright and uniform in size and can be coupled to antibodies in a controlled way (DOI: 10.1186/s44149-021-00029-1; DOI: 10.1007/s00253-022-12074-y). Third, colour as information: particles with different colours let one strip report more than one analyte (DOI: 10.1155/tbed/5512419).
+
+This section follows the labels from the most developed to the least. It starts with coloured latex microspheres (3.2.1), moves to colour coding for multiplexing (3.2.2), and then covers carbon (3.2.3), selenium, silver and other inorganic labels (3.2.4), organic and polymer chromophores (3.2.5) and cellulose nanobeads (3.2.6). Section 3.2.7 collects the studies in which a coloured label was less sensitive than a fluorescent one, and 3.2.8 states what the evidence supports. Numerical details are in Tables B1a-B1f; the text concentrates on how the labels work and where they fit. Papers read in full are marked † in the tables; all other statements rest on abstracts. The section covers 37 included records, 33 of them from 2015-2026.
+
+## 3.2.1 Coloured latex microspheres
+
+Latex microspheres are polymer particles a few hundred nanometres in diameter that are dyed in a chosen colour and carry carboxyl groups for covalent coupling to antibodies (DOI: 10.1186/s44149-021-00029-1; DOI: 10.1155/tbed/5512419). Their size is a design constraint as well as an advantage. Large particles aggregate easily, so the amount of protein coupled to the surface has to be set at the highest level that does not cause sedimentation (DOI: 10.1155/tbed/5512419).
+
+Most of the latex work in this review concerns animal viruses detected directly as antigen, and two studies read in full show what such strips can and cannot do. A red-latex strip for porcine circovirus 2 used monoclonal antibodies raised against the dominant genotypes and detected the three main genotypes, but was clearly less sensitive for the older PCV2a genotype than for PCV2b and PCV2d, which the authors attribute to the immunogens (DOI: 10.1007/s00253-022-12074-y). Against PCR on tissue and swab samples it was fully specific but missed some PCR-positive samples. The authors explain this partly by the fact that PCR detects viral DNA whether or not it is infectious virus (DOI: 10.1007/s00253-022-12074-y). A latex strip for porcine epidemic diarrhea virus in faeces solved a practical problem of the sample itself: solid faecal particles disturbed the strip, and a filter pad placed between the sample pad and the conjugate pad improved agreement with RT-PCR (DOI: 10.1186/s44149-021-00029-1). Both studies therefore illustrate that a coloured carrier alone does not set performance; antibody choice and sample handling matter as much.
+
+Latex strips have also been made for SARS-CoV-2 antigen, for PRRSV and for avian influenza group 1 receptor-binding detection, and a latex double-antigen sandwich was used for neutralizing antibodies (DOI: 10.1002/jcla.24091; DOI: 10.3389/fmicb.2022.882112; DOI: 10.1016/j.bios.2014.10.036; DOI: 10.1016/j.talanta.2022.124200). A latex strip for the SARS-CoV-2 N protein was far less sensitive than a sandwich ELISA in the same study (DOI: 10.1111/1751-7915.70117). Composite carriers combine latex with a second material: gold or platinum nanoparticle-latex nanocomposites and gold-coated polystyrene latex for influenza, dye-doped silica for H7 avian influenza, and dye-loaded polymersomes for SARS-CoV-2 (DOI: 10.1021/acsami.8b11745; DOI: 10.1007/s00604-020-04255-1; DOI: 10.1039/d1ay00204j; DOI: 10.1021/acssensors.1c00854). Their abstracts report mainly analytical data (Table B1a).
+
+## 3.2.2 Colour as a code: multicolour strips for multiplexing
+
+Because coloured carriers come in distinct hues, one strip can report more than one analyte and the result is read by colour. A strip with red, blue and black latex gives a red line for African swine fever virus (ASFV) antibodies, a blue line for classical swine fever virus (CSFV) antibodies, and a black control line (DOI: 10.1155/tbed/5512419). Its visual detection limit was equal to a commercial ELISA for ASFV and better than the commercial ELISA for CSFV, and agreement with the ELISAs on 180 sera was high for both (DOI: 10.1155/tbed/5512419). The authors point out a limit that no label can remove: CSFV E2 antibodies cannot separate vaccinated from infected animals, so the CSFV line mainly serves to evaluate vaccine response (DOI: 10.1155/tbed/5512419).
+
+Other multicolour designs give a two-colour latex strip for ASFV antibodies, a bicolour latex strip for neutralizing antibodies against SARS-CoV-2, and a red/blue strip for norovirus and adenovirus; an early study typed influenza A and B by colour (DOI: 10.1007/s00253-025-13694-w; DOI: 10.3390/bios12020103; DOI: 10.3389/fmicb.2026.1787049; DOI: 10.1016/j.jviromet.2014.08.025). Colour coding keeps the strip equipment-free, but it relies on the user telling hues apart, and none of these abstracts reports blinded or multi-reader reading (Table B1b).
+
+## 3.2.3 Carbon-based labels
+
+Carbon labels give a dark signal from a material very different from the metals. Carbon black was used as the label for a severe fever with thrombocytopenia syndrome virus strip and in a vertical-flow format for SARS-CoV-2 IgG (DOI: 10.1039/d3an00515a; DOI: 10.3390/bios13090857). The only head-to-head comparison in this review, for porcine deltacoronavirus, found the carbon strip less sensitive than the gold strip (DOI: 10.1016/j.isci.2026.116948). Carbon therefore appears as a workable alternative, but not as an improvement in sensitivity (Table B1c).
+
+## 3.2.4 Selenium, silver, ultramarine blue and magnetic labels
+
+Several inorganic particles have been proposed as red or blue labels. Selenium nanoparticles were used for SARS-CoV-2 antibodies and, with structured protein probes, for antigen in several sample types (DOI: 10.1039/d0lc00828a; DOI: 10.1109/tnb.2021.3105662; DOI: 10.1016/j.bios.2024.116878). Calixarene-stabilised silver nanoparticles were developed to overcome the instability of silver and gave a stated tenfold gain over a gold strip for SARS-CoV-2 IgG (DOI: 10.1021/acs.analchem.2c00870). Ultramarine blue particles were used as a visible label for HBsAg with a lower LOD than a gold strip (DOI: 10.1016/j.aca.2019.11.037). Magnetic oxide labels combine colour with a magnetic core, in a recent SARS-CoV-2 strip and in two older strips for hepatitis B surface antigen and influenza (DOI: 10.1016/j.ijbiomac.2026.150960; DOI: 10.1166/jbn.2011.1352; DOI: 10.1166/jnn.2013.7127). All of these are known from abstracts only. A head-to-head gold comparator is reported for the silver and ultramarine-blue strips (Table B1d).
+
+## 3.2.5 Organic and polymer chromophores
+
+Polydopamine (PDA) nanoparticles show how a new label needs surface engineering as much as gold does. PDA sticks strongly to nitrocellulose, and probes coupled directly to it would be trapped at the test line and give false negatives; the authors therefore coated the particles with polyelectrolyte layers, silica and PEG-silane before coupling antigen and antibody (DOI: 10.3390/bios13030352). The resulting three-line strip separated IgG and IgM and was quantified with a camera and image software. In the same study a commercial gold strip barely detected low antibody concentrations (DOI: 10.3390/bios13030352). The study used serum spiked with standard antibodies, not patient samples. Related labels include polylevodopa nanoparticles for SARS-CoV-2 and influenza A, polydiacetylene with both visible and fluorescent readout for HBsAg, and, before 2015, a disperse-dye strip for infectious bursal disease virus antibodies (DOI: 10.1016/j.bbrc.2024.149821; DOI: 10.1002/asia.201700769; DOI: 10.1016/j.vetimm.2008.05.022). The abstracts give little accuracy data (Table B1e).
+
+## 3.2.6 Cellulose nanobeads
+
+Cellulose nanobeads are dyed cellulose particles that were used for SARS-CoV-2 antigen with an scFv-Fc binder, for a comparison with gold against the WHO target product profile, and for Nipah virus nucleoprotein detected from inactivated cultures by eye and by reader (DOI: 10.1016/j.bios.2020.112868; DOI: 10.1039/d5ra08197a; DOI: 10.1080/22221751.2026.2716499). They are the most recent group here and the evidence is limited to analytical data (Table B1f).
+
+## 3.2.7 Where coloured labels fall short
+
+Four studies compare a coloured label with a fluorescent label and show the cost of equipment-free reading. Fluorescent microspheres were more sensitive than coloured microspheres in strips for rotavirus and adenovirus and for influenza A and B (DOI: 10.1186/s12985-018-0951-5; DOI: 10.1186/s12985-019-1190-0). In a neutralizing-antibody strip the fluorescent version reached a lower LOD than the latex colorimetric version (DOI: 10.1016/j.talanta.2022.124200). For adenovirus 3 antibodies, quantum dots reached the higher positive agreement of the two labels tested (DOI: 10.3390/diagnostics16162670). These results are consistent with a trade-off, in which coloured labels give up some sensitivity in exchange for reading without a fluorescence reader (Table B1g).
+
+## 3.2.8 What the evidence supports
+
+Coloured latex is the best-documented alternative to gold in this review, mainly in veterinary virology, and multicolour latex allows several analytes to share a test region and be told apart by colour. The other labels rest largely on single studies and abstracts. Head-to-head comparison with gold in the same experiment exists for a few of them (carbon, PDA, silver, ultramarine blue, cellulose nanobeads), and in one case the alternative was less sensitive (carbon).
+
+Three limitations recur. First, reference methods differ between studies (PCR, RT-PCR, commercial ELISA, virus neutralization), so agreement values cannot be compared across them. Second, several studies used spiked or standard samples only. Third, genotype or strain coverage depends on the antibody pair and not on the label. For the four papers read in full, Table B3 lists the reporting items. Four key papers for this section (silver, carbon black, ultramarine blue, selenium) remain at abstract level until their PDFs are available.
+
+
+
+### Table B1a. Coloured latex and composite carriers
+
+| Rec | Year | Target | Label | Matrix | LOD (as stated) | Within-paper comparison | Diagnostic data (as stated) | Readout | Evidence | DOI |
+|---|---|---|---|---|---|---|---|---|---|---|
+| R05403 | 2022 | PCV2 antigen | red latex microspheres (mAb 7C7 label, mAb 9H4 capture) | lymph node, lung, anal swab; cultured virus | 10^2.5 (PCV2a), 10^0.7 (PCV2b), 10^1.5 (PCV2d) TCID50/0.1 mL (exponents from abstract chart, unverified in text); endpoint dilution | NR (no gold comparator) | 100 tissue/swab samples vs PCR (53 pos, 47 neg): sens 81.13% (43/53), spec 100% (47/47), agreement 90.00%, kappa 0.720; 183 field samples 22.95% positive (surveillance) | visual, 10 min | Full text † | 10.1007/s00253-022-12074-y |
+| R04517 | 2021 | PEDV antigen | dyed latex beads (~300 nm) + filter pad | swine faeces | 10^3.60 TCID50/mL (exponent from abstract chart, unverified in text); blank + 3 SD | filter pad improved agreement with RT-PCR; literature values 74.07% (gold), 86.67% (fluorescent) not head-to-head | 108 faeces vs RT-PCR (70 pos, 38 neg): sens 88.57% (62/70), spec 100% (38/38), agreement 92.59%, kappa 0.845; recovery 91.00-114.40% | naked eye; smartphone + ImageJ | Full text † | 10.1186/s44149-021-00029-1 |
+| R04491 | 2021 | SARS-CoV-2 antigen | latex microspheres | positive specimens | 25 ng/mL | NR | highly specific | visual | Abstract | 10.1002/jcla.24091 |
+| R05103 | 2022 | North American PRRSV | latex microspheres | clinical samples | 5 x 10^2.0 TCID50/mL; 15 ng/mL N protein | NR | sens 90.32%, spec (value truncated) | visual | Abstract | 10.3389/fmicb.2022.882112 |
+| R07595 | 2025 | SARS-CoV-2 N protein | coloured latex | not reported | LFIA 10 ng/mL; sELISA 15 pg/mL | sandwich ELISA 15 pg/mL vs strip 10 ng/mL | not reported | visual | Abstract | 10.1111/1751-7915.70117 |
+| R05828 | 2023 | SARS-CoV-2 neutralizing antibodies | latex beads (LBs-LFIA, colorimetric) | clinical sera | LBs-LFIA 7.11 ng/mL (FBs 1.13 ng/mL) | fluorescent version of the same strip 1.13 ng/mL vs latex 7.11 ng/mL | LBs: sens 98.29% (95.84-99.37), spec 97.70% vs virus neutralization test | visual | Abstract | 10.1016/j.talanta.2022.124200 |
+| R01579 | 2015 | influenza A group 1 (receptor specificity) | latex | virus preparations | >128 HA units | NR | correlation >0.95 vs ELISA | visual | Abstract | 10.1016/j.bios.2014.10.036 |
+| R02468 | 2018 | influenza | Au or Pt nanoparticle-latex nanocomposite | NR | enhanced sensitivity (value NR) | enhanced sensitivity (value NR) | NR | visual | Abstract | 10.1021/acsami.8b11745 |
+| R02984 | 2020 | influenza H3 | AuNP-coated PS latex microspheres | NR | 1/16 HAU visual; 0.016 HAU quantitative | NR | NR | visual and quantitative | Abstract | 10.1007/s00604-020-04255-1 |
+| R03900 | 2021 | H7 avian influenza (H7N2, H7N9) | highly chromatic red silica nanoparticles (Direct Red 224) | NR | 0.08 ng/mL (range 0.1-10 ng/mL) | NR | NR | reader (T-line gray) | Abstract | 10.1039/d1ay00204j |
+| R04146 | 2021 | SARS-CoV-2 | dye-loaded polymersomes | 121 human samples (61 sera, 60 swabs) for reagent purification | NR | NR | NR | visual | Abstract | 10.1021/acssensors.1c00854 |
+
+### Table B1b. Multicolour latex and colour-coded strips
+
+| Rec | Year | Target | Label | Matrix | LOD (as stated) | Within-paper comparison | Diagnostic data (as stated) | Readout | Evidence | DOI |
+|---|---|---|---|---|---|---|---|---|---|---|
+| R08280 | 2026 | ASFV and CSFV antibodies | red, blue and black latex microspheres (multicolour) | pig serum (10-fold diluted) | LFIA 1:256 for both; commercial ELISA 1:256 (ASFV), 1:64 (CSFV) (from one standard positive serum) | equal to ELISA for ASFV; 4-fold better than ELISA for CSFV | 180 sera vs commercial ELISAs: ASFV TP 48, FP 1, FN 0, TN 131, kappa 0.986; CSFV TP 108, FP 5, FN 2, TN 65, sens 98.2%, spec 92.9%, kappa 0.918 | visual, 15 min | Full text † | 10.1155/tbed/5512419 |
+| R08335 | 2026 | ASFV antibodies | coloured latex | 159 clinical samples | 1:1024 | NR | kappa 0.955 | visual | Abstract | 10.1007/s00253-025-13694-w |
+| R04809 | 2022 | SARS-CoV-2 neutralizing antibodies | latex microspheres (bicolor) | 13 serum samples | ~48 ng/mL | NR | 3 positives >=736 ng/mL | visual | Abstract | 10.3390/bios12020103 |
+| R08441 | 2026 | norovirus GII, HAdV F41 | red and blue labels | not reported | 5.8 copies/uL NoV; 63 copies/uL HAdV | NR | not reported | visual | Abstract | 10.3389/fmicb.2026.1787049 |
+| R01533 | 2014 | seasonal influenza typing | coloured nanobeads | clinical | ~10x vs colloidal gold or latex | about 10x vs colloidal gold or latex (abstract) | distinguishes A and B by colours | visual | Abstract | 10.1016/j.jviromet.2014.08.025 |
+
+### Table B1c. Carbon-based labels
+
+| Rec | Year | Target | Label | Matrix | LOD (as stated) | Within-paper comparison | Diagnostic data (as stated) | Readout | Evidence | DOI |
+|---|---|---|---|---|---|---|---|---|---|---|
+| R06199 | 2023 | SFTSV | carbon black | spiked healthy serum | 100 pg/mL (range 0.1-1000 ng/mL) | NR | recoveries 91.58-105.4% | visual | Abstract | 10.1039/d3an00515a |
+| R06514 | 2023 | SARS-CoV-2 IgG | carbon black nanoparticles | human serum | lower LOD than colloidal gold (value NR) | lower LOD than colloidal gold (value NR) | NR | visual (black spots) | Abstract | 10.3390/bios13090857 |
+| R08674 | 2026 | PDCoV | AuNP; carbon NP | 137 faecal samples | 1:128 (gold); 1:64 (carbon) at 1e8 TCID50/mL | gold 1:128 vs carbon 1:64 (same sample) | gold 92.7%, carbon >88% agreement | visual | Abstract | 10.1016/j.isci.2026.116948 |
+
+### Table B1d. Selenium, silver, ultramarine blue and magnetic labels
+
+| Rec | Year | Target | Label | Matrix | LOD (as stated) | Within-paper comparison | Diagnostic data (as stated) | Readout | Evidence | DOI |
+|---|---|---|---|---|---|---|---|---|---|---|
+| R03310 | 2020 | SARS-CoV-2 IgM/IgG | selenium nanoparticles | 90 COVID-19, 263 controls | IgM 20 ng/mL, IgG 5 ng/mL | NR | sens 93.33%, spec 97.34% | visual | Abstract | 10.1039/d0lc00828a |
+| R04254 | 2022 | SARS-CoV-2 antibodies | selenium nanoparticles | NR | NR | NR | NR | visual | Abstract | 10.1109/tnb.2021.3105662 |
+| R07390 | 2025 | SARS-CoV-2 antigen | selenium NP | throat swab, saliva, serum, finger-prick blood (192) | 10 pg/mL | NR | neg. coincidence 100%, pos. 93.94%, overall 95.83% vs RT-PCR | visual | Abstract | 10.1016/j.bios.2024.116878 |
+| R05096 | 2022 | SARS-CoV-2 IgG | silver nanoparticles (calixarene-stabilised) | clinical samples | 1 order of magnitude lower than AuNP LFIA | one order of magnitude lower than AuNP LFIA | sens 73%, spec 100% | visual | Abstract | 10.1021/acs.analchem.2c00870 |
+| R02878 | 2020 | HBsAg | ultramarine blue (sodalite) particles | NR | 0.37 ng/mL (S/N=3) | better than AuNP-based ICA | better than AuNP-based ICA | reader (quantitative) | Abstract | 10.1016/j.aca.2019.11.037 |
+| R08351 | 2026 | SARS-CoV-2 | Fe3O4 | not reported | 0.5 ng/mL | NR | not reported | visual | Abstract | 10.1016/j.ijbiomac.2026.150960 |
+| R01121 | 2011 | HBsAg | Fe3O4@SiO2 | clinical sera | 5 pg/mL naked eye; 0.1 pg/mL CCD reader | naked eye 5 pg/mL vs CCD reader 0.1 pg/mL | spec 100% | visual + reader | Abstract | 10.1166/jbn.2011.1352 |
+| R01328 | 2013 | 2009 H1N1 HA | paramagnetic nanoparticle | not reported | 100 pg/mL HA | NR | no false positive | visual | Abstract | 10.1166/jnn.2013.7127 |
+
+### Table B1e. Organic and polymer chromophores
+
+| Rec | Year | Target | Label | Matrix | LOD (as stated) | Within-paper comparison | Diagnostic data (as stated) | Readout | Evidence | DOI |
+|---|---|---|---|---|---|---|---|---|---|---|
+| R06083 | 2023 | SARS-CoV-2 IgM and IgG (serology) | polydopamine nanoparticles (230 to 320 nm after coating), three-line strip | human serum spiked with standard antibodies | IgM 1.51 ng/mL; IgG 2.34 ng/mL (from calibration curve) | commercial AuNP strip barely detected 10-100 ng/mL; no fold value | none (no patient samples) | camera (Nikon D90) + ImageJ; custom quantification software | Full text † | 10.3390/bios13030352 |
+| R06924 | 2024 | SARS-CoV-2, influenza A | polylevodopa nanoparticles (black) | NR | 5 pg/mL (SARS-CoV-2), 0.1 ng/mL (Flu A H1N1) | NR | NR | visual | Abstract | 10.1016/j.bbrc.2024.149821 |
+| R02149 | 2017 | hepatitis B surface antigen | polydiacetylene (red; also fluorescent) | NR | NR | NR | NR | visual | Abstract | 10.1002/asia.201700769 |
+| R00637 | 2008 | IBDV antibodies | disperse dye | chicken sera | not reported | NR | high sens and spec vs F-ELISA | visual | Abstract | 10.1016/j.vetimm.2008.05.022 |
+
+### Table B1f. Cellulose nanobeads
+
+| Rec | Year | Target | Label | Matrix | LOD (as stated) | Within-paper comparison | Diagnostic data (as stated) | Readout | Evidence | DOI |
+|---|---|---|---|---|---|---|---|---|---|---|
+| R03444 | 2021 | SARS-CoV-2 | cellulose nanobeads | cultured virus | 2 ng antigen; 2.5 x 10^4 pfu | NR | NR | visual | Abstract | 10.1016/j.bios.2020.112868 |
+| R08235 | 2025 | SARS-CoV-2 nucleocapsid | cellulose nanobeads | spiked, archived NP specimens | CNB cut-off 100x below WHO TPP 1e6 copies/mL; AuNP met TPP threshold | cellulose nanobeads vs AuNP, judged against WHO target product profile threshold | not reported | visual | Abstract | 10.1039/d5ra08197a |
+| R08686 | 2026 | Nipah virus NP | cellulose nanobeads | inactivated cultured virus | 1 ng/mL NP; 4.1e7 copies/mL (reader); 8.3e7 (naked eye) | NR | not reported | visual + reader | Abstract | 10.1080/22221751.2026.2716499 |
+
+### Table B1g. Coloured versus fluorescent labels (additional studies; R05828 in B1a)
+
+| Rec | Year | Target | Label | Matrix | LOD (as stated) | Within-paper comparison | Diagnostic data (as stated) | Readout | Evidence | DOI |
+|---|---|---|---|---|---|---|---|---|---|---|
+| R02345 | 2018 | rotavirus, adenovirus | coloured microspheres (CMT) vs fluorescent (FMT) | cultures | FMT more sensitive than CMT | fluorescent microspheres more sensitive than coloured | no cross-reaction | visual | Abstract | 10.1186/s12985-018-0951-5 |
+| R02744 | 2019 | influenza A and B | coloured microspheres (CMT) vs fluorescent (FMT) | cultures | FMT more sensitive than CMT | fluorescent microspheres more sensitive than coloured | no cross-reactivity | visual | Abstract | 10.1186/s12985-019-1190-0 |
+| R08727 | 2026 | HAdV-3 hexon antibodies | AuNP; quantum dots | 90 sera | not reported | quantum dots vs AuNP: PPA 100% vs 96.9% | PPA 96.9% (AuNP), 100% (QD); NPA 98.2% | visual / fluorescence | Abstract | 10.3390/diagnostics16162670 |
+
+### Table B2. Strategy overview for non-gold coloured labels
+
+| Label group | What it offers (as argued in the studies) | Examples in the included studies | Costs and limits seen | Table |
+|---|---|---|---|---|
+| Coloured latex | bright colours, uniform size, covalent coupling | veterinary antigen strips (PCV2, PEDV, PRRSV), SARS-CoV-2 | strain coverage set by antibodies; lower sensitivity than PCR; sample handling (faeces) | B1a |
+| Multicolour latex | several analytes read by colour on one strip | ASFV/CSFV antibodies, norovirus/adenovirus, SARS-CoV-2 neutralizing antibodies | needs hue discrimination; no blinded reading reported | B1b |
+| Carbon | dark signal from a non-metal | SFTSV, SARS-CoV-2 IgG, PDCoV | less sensitive than gold in the one direct comparison | B1c |
+| Selenium, silver, ultramarine blue, magnetic oxides | alternative hues; magnetic core | SARS-CoV-2 antibodies and antigen, HBsAg | abstract-level evidence only; comparators vary | B1d |
+| Organic and polymer chromophores | broad strong absorption (polydopamine) | SARS-CoV-2 IgG/IgM, influenza A, HBsAg | surface engineering needed; serum spiked only | B1e |
+| Cellulose nanobeads | dyed cellulose carrier | SARS-CoV-2, Nipah virus | analytical data only | B1f |
+| Fluorescent comparison | higher sensitivity in head-to-head studies | rotavirus/adenovirus, influenza A/B, neutralizing antibodies | needs a fluorescence reader | B1a, B1g |
+
+
+### Table B3. Reporting checklist for papers read in full (descriptive, not scored)
+
+Items: (a) real samples; (b) n stated; (c) reference method; (d) LOD definition; (e) cross-reactivity tested by the authors; (f) replicates or reproducibility; (g) comparator run in the same study; (h) stability tested. Y = yes, N = no, P = partly, NR = not reported. The other 33 papers in Tables B1a-g have not been assessed (abstract only).
+
+| Rec | DOI | (a) | (b) | (c) | (d) | (e) | (f) | (g) | (h) |
+|---|---|---|---|---|---|---|---|---|---|
+| R05403 | 10.1007/s00253-022-12074-y | Y (tissue and swab samples) | Y (100) | Y (PCR, gel) | P (highest positive dilution) | Y (10 other porcine viruses) | Y (three batches) | N (no gold comparator) | NR |
+| R04517 | 10.1186/s44149-021-00029-1 | Y (108 faeces) | Y | Y (RT-PCR) | Y (blank + 3 SD) | Y (TGEV, PDCoV, PRV, PRRSV, CSFV, PCV) | P (five replicates in stability; CV < 15% at three levels) | P (with and without filter pad; literature values only for gold and fluorescent) | Y (56 days at room temperature and 37 C; 23 days at 50 C) |
+| R08280 | 10.1155/tbed/5512419 | Y (180 sera) | Y | Y (two commercial ELISAs) | P (lowest dilution with a visible line) | Y (PRRSV, PRV, PEDV, PCV-2, BVDV, FMDV-O) | Y (intra- and inter-batch, triplicate) | Y (ELISAs on the same dilution series) | N |
+| R06083 | 10.3390/bios13030352 | N (spiked serum) | not applicable | not applicable | P (calibration-based; formula not stated in the text seen) | N (not tested) | NR | Y (commercial AuNP strip, 0-100 ng/mL) | NR |
+
+## Items still to verify before this section is final
+1. R05403 (DOI: 10.1007/s00253-022-12074-y) and R04517 (DOI: 10.1186/s44149-021-00029-1): LOD exponents are lost in the retrieved text; values in the tables come from the abstract chart.
+2. R08335 (DOI: 10.1007/s00253-025-13694-w): the abstract-chart LOD of 1:1024 may belong to a comparator (the same error was found for R08280); check against the paper.
+3. R05096, R06199, R02878, R03310 (silver, carbon black, ultramarine blue, selenium): key papers at abstract level; PDFs not yet available.
+4. R02149 (DOI: 10.1002/asia.201700769): kept as a dual-mode note; the abstract gives no LOD or sample data.
+5. Record IDs in the tables will be replaced by numbered citations when the reference list is built.
