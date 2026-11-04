@@ -11,7 +11,9 @@
 | Retained for charting (before scope-check) | 3,076 (2,595 published 2015-2026; 481 before 2015) |
 | Included after scope-check review | 2,637 (2,227 published 2015-2026; 410 before 2015) |
 | Excluded by scope amendment E10 (commercial/finished-kit evaluations, 2026-11-05) | 1,322 |
-| **Included after E10** | **1,315 (1,150 published 2015-2026; 165 before 2015)** |
+| Included after E10 | 1,315 (1,150 published 2015-2026; 165 before 2015) |
+| Section-z records (21) reviewed and excluded (19 E10, 2 E9) | 21 |
+| **Final included** | **1,294 (1,129 published 2015-2026; 165 before 2015)** |
 
 Exclusion reasons (final, 6,199): E1 not a virus or non-viral analyte 1,120; E2 not an LFA 896; E3 LFA but not colorimetric 377; E4 publication type 1,182; E5 non-English 271; E6 no original assay data 637; E7 duplicate 13; E8 other/retracted 9; E9 LFA/RDT used only as a tool 1,694.
 

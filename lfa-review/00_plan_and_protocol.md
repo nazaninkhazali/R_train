@@ -252,3 +252,5 @@ Applied to all title/abstract decisions; UNSURE category removed (0 remaining).
 
 ## Scope amendment (author, 2026-11-05)
 Commercial/finished-kit evaluations are out of scope (new code E10). Section h retained only for development or prototype papers (65). Post-hoc change, to be stated in the manuscript. Included total: 1,315.
+
+Section-z review (2026-11-05): 21 unclassified records excluded (19 E10, 2 E9). Final included: 1,294.
