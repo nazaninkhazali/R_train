@@ -249,3 +249,6 @@ Applied to all title/abstract decisions; UNSURE category removed (0 remaining).
 - Epidemiology, seroprevalence and surveillance papers using an LFA only as a tool (E9); strip not stated or not an LFA (E2); modelling, EQA/QA, protocol, case report (E6).
 - Retained and flagged: arthropod-vector pools, viral assays with a non-viral co-target, records without or with incomplete abstracts, small-n and interference studies.
 - Included total: 2,637 (2,227 from 2015-2026; 410 pre-2015).
+
+## Scope amendment (author, 2026-11-05)
+Commercial/finished-kit evaluations are out of scope (new code E10). Section h retained only for development or prototype papers (65). Post-hoc change, to be stated in the manuscript. Included total: 1,315.

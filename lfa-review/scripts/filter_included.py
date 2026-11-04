@@ -3,16 +3,12 @@ S=openpyxl.load_workbook('03_screening.xlsx',read_only=True)['screening_all']
 sr=list(S.iter_rows(values_only=True));h=sr[0]
 inc={r[h.index('rec_id')] for r in sr[1:] if r[h.index('decision_claude')]=='INCLUDE'}
 wb=openpyxl.load_workbook('04_evidence_table.xlsx')
-ws=wb['abstract_chart'];rows=list(ws.iter_rows(values_only=True))
+ws=wb['abstract_chart_all3076'];rows=list(ws.iter_rows(values_only=True))
 H=rows[0]
-if 'abstract_chart_all3076' not in wb.sheetnames:
-    a=wb.create_sheet('abstract_chart_all3076')
-    for r in rows:a.append(r)
 if 'included' in wb.sheetnames: del wb['included']
 n=wb.create_sheet('included',0); n.append(H)
 k=[r for r in rows[1:] if r[0] in inc]
 for r in k:n.append(r)
-del wb['abstract_chart']
 wb.save('04_evidence_table.xlsx')
 print(len(k),len(inc))
 si=H.index('section');yi=H.index('year')
