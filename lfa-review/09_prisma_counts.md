@@ -16,7 +16,8 @@
 | Section-b review: R07568 excluded (E2, not a conventional LFA) | 1 |
 | Section-c review: 7 evaluations of marketed silver-amplification or rapid-test kits excluded (E10) | 7 |
 | Section-d review: 6 antibody-screening papers excluded (E9) | 6 |
-| **Final included** | **1,280 (1,117 published 2015-2026; 163 before 2015)** |
+| Section-g review: 15 evaluations of marketed multiplex rapid antigen tests excluded (E10) | 15 |
+| **Final included** | **1,265 (1,102 published 2015-2026; 163 before 2015)** |
 
 Exclusion reasons (final, 6,199): E1 not a virus or non-viral analyte 1,120; E2 not an LFA 896; E3 LFA but not colorimetric 377; E4 publication type 1,182; E5 non-English 271; E6 no original assay data 637; E7 duplicate 13; E8 other/retracted 9; E9 LFA/RDT used only as a tool 1,694.
 
