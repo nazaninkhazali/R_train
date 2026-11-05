@@ -265,3 +265,5 @@ Section-c review (2026-11-05): 7 kit evaluations excluded (E10; R00647, R01362, 
 Section-d review (2026-11-05): 6 records where the LFA only screens antibodies/peptides excluded (E9; R04099, R04230, R04396, R04446, R05367, R05737), default, reversible. Final included: 1,280.
 
 Section-g review (2026-11-05): 15 evaluations of marketed multiplex rapid antigen tests excluded (E10), default, reversible. Final included: 1,265.
+
+Scope amendment (author, 2026-11-05): records published before 2015 are excluded from the analysis (E11, 163 records); the search covered all years, a short paragraph on the origin of the lateral flow assay replaces them. Final included: 1,102.

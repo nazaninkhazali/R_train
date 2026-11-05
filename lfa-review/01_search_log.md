@@ -230,3 +230,5 @@ two screenings stay independent.
 Screening update 2026-11-04: after chart-based scope-check review, 439 further records excluded; 2,637 records included (2,227 from 2015-2026). See 09_prisma_counts.md.
 
 Screening update 2026-11-05: E10 scope amendment excluded 1,322 further records; 1,315 included. See 09_prisma_counts.md.
+
+Screening update 2026-11-05: E11 amendment excluded 163 records published before 2015; 1,102 records included (2015-2026).
