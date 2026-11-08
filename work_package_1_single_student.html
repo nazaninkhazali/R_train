@@ -38,20 +38,12 @@ th{text-align:left;padding:8px 10px;border-bottom:2px solid var(--line-2);color:
 td{padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
 @media(max-width:600px){main{padding:28px 16px 64px}h1{font-size:23px}}
 @media print{body{background:#fff;color:#000}main{max-width:none;padding:0}}
-
-body{font-size:17px}
-table{min-width:0 !important}
-@media(max-width:700px){
- .scroll{overflow:visible}
- table,tbody,tr,td{display:block;width:100%}
- thead{display:none}
- tr{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:8px 12px;margin:0 0 12px}
- td{border:0 !important;padding:5px 0}
- td::before{content:attr(data-label);display:block;font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3);font-weight:600}
- td:empty{display:none}
-}
 </style>
-</head>
+<style>body{font-size:17px}table{min-width:0 !important}
+@media(max-width:700px){.scroll{overflow:visible}table,tbody,tr,td{display:block;width:100%}thead{display:none}
+tr{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:8px 12px;margin:0 0 12px}
+td{border:0 !important;padding:5px 0}td::before{content:attr(data-label);display:block;font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3);font-weight:600}td:empty{display:none}}
+</style></head>
 <body><main>
 
 <h1 id="work-package-1-single-student-version-within-person-stability-of-gut-viral-markers-in-healthy-adults">Work
@@ -110,9 +102,11 @@ only</strong></td>
 n&quot;.</td>
 </tr>
 <tr class="even">
-<td data-label="Cut from the 2-student plan">No stretch goals</td>
+<td data-label="Cut from the 2-student plan">No stretch goals in the core plan</td>
 <td data-label="Why">No slack.</td>
-<td data-label="Consequence">None.</td>
+<td data-label="Consequence">The metagenomics follow-up your supervisor suggested is added as a
+separate, outsourced extension that is <strong>not on the thesis
+critical path</strong> (section 11).</td>
 </tr>
 </tbody>
 </table></div>
@@ -279,6 +273,12 @@ method development needs approval.</li>
 labels. Allow 2-4 weeks.</li>
 <li>Do not recruit your own team as volunteers. The student is not a
 volunteer.</li>
+<li><strong>Write the consent form and ethics application so they
+already cover metagenomic sequencing</strong> (human DNA in stool,
+removal of human reads, deposition of data, sending samples to an
+outside company). Adding this later may need an amendment, and
+volunteers cannot be re-consented retroactively for stored samples. See
+section 11.</li>
 </ul>
 <p><strong>WP-B, student, weeks 1-10: training and
 validation</strong></p>
@@ -518,5 +518,116 @@ standards.</li>
 <li>Whether the MSc programme allows an experimental thesis of this kind
 with a sampling window.</li>
 </ol>
+<h2 id="11-extension-metagenomics-by-a-third-party-suggested-by-your-supervisor">11.
+Extension: metagenomics by a third party (suggested by your
+supervisor)</h2>
+<p><strong>Status:</strong> this was not in the core plan above. It is
+added here as an optional extension. It answers a different question
+from the qPCR work: <strong>how does the whole viral community
+(diversity), not just six targets, change over time within a
+person?</strong> The qPCR data tell you how much of six known viruses is
+there. Metagenomics tells you which viruses are there, without choosing
+in advance.</p>
+<p><strong>The thesis does not depend on it.</strong> Sequencing results
+come back after the student has finished, so the thesis must be
+defendable on sections 2-9 alone. Treat metagenomics as the follow-up
+paper or a second project.</p>
+<h3 id="111-what-must-be-decided-now-before-any-volunteer-is-recruited">11.1
+What must be decided <em>now</em>, before any volunteer is
+recruited</h3>
+<ol type="1">
+<li><strong>Consent and ethics.</strong> The consent form must say that
+stool DNA/RNA may be sequenced by an external company, that human
+sequences will be removed before analysis or deposition, and how data
+are stored and shared. This is the one part that cannot be fixed
+later.</li>
+<li><strong>Which samples will be sequenced.</strong> Keep a
+<strong>spare, unthawed extraction or tube</strong> for each sequenced
+sample so qPCR does not use up the material.</li>
+<li><strong>Extraction suitable for sequencing.</strong> The
+co-extraction kit in section 1 may or may not meet the sequencing
+company&#39;s DNA and RNA quality and quantity needs. Ask the company for
+its input requirements in writing (amount, purity, fragment size, what
+buffer is acceptable) before choosing the kit.
+<strong>[verify]</strong></li>
+</ol>
+<h3 id="112-which-samples-to-sequence">11.2 Which samples to
+sequence</h3>
+<p>Sequencing every sample is probably unaffordable. Suggested choice,
+to be decided after the qPCR data are in: <strong>3-4 volunteers, all 8
+weekly samples each (24-32 samples)</strong>, chosen to include
+volunteers with large qPCR changes and volunteers with stable qPCR
+profiles. Always include:</p>
+<ul>
+<li><strong>Extraction blanks</strong> (at least one per extraction
+batch of sequenced samples). Without them, contaminant DNA cannot be
+separated from real viruses.</li>
+<li><strong>A mock or spike-in control</strong> if the company offers
+it.</li>
+<li>A few <strong>duplicate extractions</strong> from the same stool to
+estimate technical variation.</li>
+</ul>
+<h3 id="113-what-kind-of-sequencing">11.3 What kind of sequencing</h3>
+<ul>
+<li><strong>DNA metagenome (shotgun)</strong> covers DNA viruses and
+phages, which are most of the gut virome.</li>
+<li><strong>RNA</strong> viruses need an RNA-based method
+(metatranscriptome or total RNA-seq) and a further extraction and cost.
+Ask the supervisor whether the RNA part is wanted.</li>
+<li>Bulk stool metagenomes under-represent free virus particles compared
+with virus-particle-enriched libraries. That enrichment is difficult on
+stool already in DNA/RNA Shield. Ask the company whether they can do it,
+and expect the answer may be no. <strong>[verify]</strong></li>
+<li>Sequencing depth: set with the company. For orientation, a published
+study on Luxembourg stool used about 6 Gbp per DNA sample, and far more
+for RNA (this comes from the earlier project notes, not re-checked).
+<strong>[verify]</strong></li>
+</ul>
+<h3 id="114-what-the-third-party-should-deliver">11.4 What the third
+party should deliver</h3>
+<p>Write this into the order or collaboration agreement:</p>
+<ol type="1">
+<li>Raw reads and a sequencing quality report.</li>
+<li>Human reads removed, with the method stated.</li>
+<li>A table of viral sequences per sample (assembled viral contigs or
+species-like units), with completeness estimates.</li>
+<li>An abundance table per sample, taxonomy where possible, and the
+share of sequences that cannot be classified.</li>
+<li>Contaminants flagged using the sequenced blanks.</li>
+<li>The software, versions and settings used, so the analysis can be
+repeated.</li>
+<li>Agreement on who owns the data, where it is deposited, and
+authorship if the company contributes analysis.</li>
+</ol>
+<p>The student does <strong>not</strong> build the analysis pipeline.
+The student&#39;s role is choosing samples, shipping them, checking the
+report, and comparing the results with their qPCR data.</p>
+<h3 id="115-what-this-adds-scientifically">11.5 What this adds
+scientifically</h3>
+<ul>
+<li><strong>Concordance:</strong> does metagenomics detect the same
+targets (crAssphage, TTV, adenovirus, PMMoV) at the same time points as
+qPCR, and where does it disagree? Expect qPCR to be more sensitive for
+low-abundance viruses.</li>
+<li><strong>Within-person diversity over time:</strong> how much of a
+person&#39;s viral community stays and how much comes and goes week to week,
+compared between volunteers. This directly addresses the supervisor&#39;s
+idea.</li>
+<li><strong>Targets for future screening panels:</strong> viruses that
+appear in many people but are not in the current six.</li>
+</ul>
+<h3 id="116-limits-to-state">11.6 Limits to state</h3>
+<p>Only 3-4 volunteers means this is descriptive, not a population
+estimate. Contamination and low-input samples are the main technical
+risk. A metagenome shows viral sequences, not infectious virus.</p>
+<h3 id="117-timing-and-cost">11.7 Timing and cost</h3>
+<ul>
+<li>Ask the company for a quote and lead time <strong>in weeks
+1-4</strong>, so that the extraction method and consent are right.</li>
+<li>Send samples around <strong>weeks 20-22</strong>, once qPCR has
+shown which volunteers to choose. Results may arrive after week 26.</li>
+<li>Cost depends heavily on the number of samples, depth, and whether
+RNA is included. I have not estimated it. Get at least two quotes.</li>
+</ul>
 </main></body>
 </html>

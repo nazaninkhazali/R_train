@@ -13,7 +13,7 @@ Draft v2.1, 2026-11-08. Scaled-down version of `work_package_1.md` for **one MSc
 | Preservation experiment (M2) reduced to **3 donors, 3 conditions** | Keeps the question, cuts the workload. | Smaller but still publishable comparison. |
 | Separate DNA and RNA extractions -> **one co-extraction kit** (DNA and RNA from the same aliquot, e.g. ZymoBIOMICS DNA/RNA Miniprep **[verify suitability for Shield-preserved stool]**) | Halves extractions (~80 instead of ~160 plus blanks). | RNA targets are RNA viruses, so co-purified DNA does not produce signal; run a **no-RT control** on RNA assays to confirm. |
 | Miss-rate modelling (C1) becomes **descriptive only** | Too few transitions at n = 10 to model. | Report transition counts and an honest "not estimable at this n". |
-| No stretch goals | No slack. | None. |
+| No stretch goals in the core plan | No slack. | The metagenomics follow-up your supervisor suggested is added as a separate, outsourced extension that is **not on the thesis critical path** (section 11). |
 
 ## 2. Questions (thesis is defendable whatever the biology does)
 
@@ -64,6 +64,7 @@ I wrote candidate sources for each assay in section 4 of `work_package_1.md` fro
 - Written incidental-findings plan.
 - Orders: oligos, standards, kits, tubes, spike virus, balance, labels. Allow 2-4 weeks.
 - Do not recruit your own team as volunteers. The student is not a volunteer.
+- **Write the consent form and ethics application so they already cover metagenomic sequencing** (human DNA in stool, removal of human reads, deposition of data, sending samples to an outside company). Adding this later may need an amendment, and volunteers cannot be re-consented retroactively for stored samples. See section 11.
 
 **WP-B, student, weeks 1-10: training and validation**
 - Weeks 1-2: biosafety, pipetting qualification, qPCR theory, contamination control, read the protocol and each assay paper.
@@ -146,3 +147,51 @@ With one student there is no backup for illness or a bad month, so:
 4. Does the co-extraction kit work on Shield-preserved stool? Check the manufacturer's information and run a small test in weeks 3-4.
 5. All assay sources, the ISO method reference and acceptance criteria need verification against the original papers and current standards.
 6. Whether the MSc programme allows an experimental thesis of this kind with a sampling window.
+
+## 11. Extension: metagenomics by a third party (suggested by your supervisor)
+
+**Status:** this was not in the core plan above. It is added here as an optional extension. It answers a different question from the qPCR work: **how does the whole viral community (diversity), not just six targets, change over time within a person?** The qPCR data tell you how much of six known viruses is there. Metagenomics tells you which viruses are there, without choosing in advance.
+
+**The thesis does not depend on it.** Sequencing results come back after the student has finished, so the thesis must be defendable on sections 2-9 alone. Treat metagenomics as the follow-up paper or a second project.
+
+### 11.1 What must be decided *now*, before any volunteer is recruited
+1. **Consent and ethics.** The consent form must say that stool DNA/RNA may be sequenced by an external company, that human sequences will be removed before analysis or deposition, and how data are stored and shared. This is the one part that cannot be fixed later.
+2. **Which samples will be sequenced.** Keep a **spare, unthawed extraction or tube** for each sequenced sample so qPCR does not use up the material.
+3. **Extraction suitable for sequencing.** The co-extraction kit in section 1 may or may not meet the sequencing company's DNA and RNA quality and quantity needs. Ask the company for its input requirements in writing (amount, purity, fragment size, what buffer is acceptable) before choosing the kit. **[verify]**
+
+### 11.2 Which samples to sequence
+Sequencing every sample is probably unaffordable. Suggested choice, to be decided after the qPCR data are in: **3-4 volunteers, all 8 weekly samples each (24-32 samples)**, chosen to include volunteers with large qPCR changes and volunteers with stable qPCR profiles. Always include:
+- **Extraction blanks** (at least one per extraction batch of sequenced samples). Without them, contaminant DNA cannot be separated from real viruses.
+- **A mock or spike-in control** if the company offers it.
+- A few **duplicate extractions** from the same stool to estimate technical variation.
+
+### 11.3 What kind of sequencing
+- **DNA metagenome (shotgun)** covers DNA viruses and phages, which are most of the gut virome.
+- **RNA** viruses need an RNA-based method (metatranscriptome or total RNA-seq) and a further extraction and cost. Ask the supervisor whether the RNA part is wanted.
+- Bulk stool metagenomes under-represent free virus particles compared with virus-particle-enriched libraries. That enrichment is difficult on stool already in DNA/RNA Shield. Ask the company whether they can do it, and expect the answer may be no. **[verify]**
+- Sequencing depth: set with the company. For orientation, a published study on Luxembourg stool used about 6 Gbp per DNA sample, and far more for RNA (this comes from the earlier project notes, not re-checked). **[verify]**
+
+### 11.4 What the third party should deliver
+Write this into the order or collaboration agreement:
+1. Raw reads and a sequencing quality report.
+2. Human reads removed, with the method stated.
+3. A table of viral sequences per sample (assembled viral contigs or species-like units), with completeness estimates.
+4. An abundance table per sample, taxonomy where possible, and the share of sequences that cannot be classified.
+5. Contaminants flagged using the sequenced blanks.
+6. The software, versions and settings used, so the analysis can be repeated.
+7. Agreement on who owns the data, where it is deposited, and authorship if the company contributes analysis.
+
+The student does **not** build the analysis pipeline. The student's role is choosing samples, shipping them, checking the report, and comparing the results with their qPCR data.
+
+### 11.5 What this adds scientifically
+- **Concordance:** does metagenomics detect the same targets (crAssphage, TTV, adenovirus, PMMoV) at the same time points as qPCR, and where does it disagree? Expect qPCR to be more sensitive for low-abundance viruses.
+- **Within-person diversity over time:** how much of a person's viral community stays and how much comes and goes week to week, compared between volunteers. This directly addresses the supervisor's idea.
+- **Targets for future screening panels:** viruses that appear in many people but are not in the current six.
+
+### 11.6 Limits to state
+Only 3-4 volunteers means this is descriptive, not a population estimate. Contamination and low-input samples are the main technical risk. A metagenome shows viral sequences, not infectious virus.
+
+### 11.7 Timing and cost
+- Ask the company for a quote and lead time **in weeks 1-4**, so that the extraction method and consent are right.
+- Send samples around **weeks 20-22**, once qPCR has shown which volunteers to choose. Results may arrive after week 26.
+- Cost depends heavily on the number of samples, depth, and whether RNA is included. I have not estimated it. Get at least two quotes.
