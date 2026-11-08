@@ -229,11 +229,11 @@ Six targets and one control. Validation proceeds in the order given, so that the
 | 2 | Torque teno virus (TTV) | DNA | qPCR | Present in nearly everyone; a marker for change in quantity |
 | 3 | PMMoV, a plant virus from diet | RNA | RT-qPCR | Abundant; adjusts for diet and stool consistency |
 | 4 | Adenovirus | DNA | qPCR | Shed persistently by some people |
-| 5 | **Norovirus GII** | RNA | RT-qPCR | The pathogen of interest; see 6.3 |
-| 6 | Rotavirus | RNA | RT-qPCR | Pathogen; drop first if time runs short |
+| 5 | **Norovirus GII** | RNA | RT-qPCR | The pathogen of interest; see 6.3. Positive control material available |
+| 6 | Astrovirus | RNA | RT-qPCR | Pathogen. Positive control material available |
 | — | Mengovirus or equivalent, added to each sample before extraction | RNA | RT-qPCR | Measures how much was recovered from each individual sample |
 
-Norovirus GI, sapovirus and astrovirus are deliberately left out to keep the workload achievable, and can be added later.
+Adenovirus, norovirus and astrovirus are the three targets for which characterised positive material is expected to be available (section 6.4), which is why astrovirus is now in the panel and **rotavirus has been removed**. Rotavirus would have had to be validated on synthetic standards alone. Norovirus GI, sapovirus and rotavirus are left out to keep the workload achievable, and can be added later.
 
 **Published assays are used; we do not design primers.** For each target, the student finds the original publication describing the primers and probe, checks that the sequences still match viruses in current sequence databases, records the reference in the protocol, and only then orders. Norovirus and rotavirus are the two most likely to need a newer published version, because the circulating strains change. **The candidate assay references I gave in earlier drafts came from memory and are not reliable; finding and confirming them is a first-week task for the student, with help from an experienced colleague.** **[verify]**
 
@@ -250,12 +250,52 @@ This is the likely outcome and the plan must account for it in advance.
 **Therefore:**
 
 1. No hypothesis in this project depends on a norovirus-positive sample.
-2. The assay's performance is demonstrated regardless, using synthetic standards, by showing the lowest quantity it can reliably detect and comparing that against published asymptomatic loads. A validated assay with a clearly stated detection limit is a legitimate result.
+2. The assay's performance is demonstrated regardless. With the positive control material described in section 6.4, this demonstration becomes considerably stronger: the lowest quantity the assay can reliably detect is established **in stool**, not only in clean synthetic template, and can be compared against published asymptomatic loads. A validated assay with a detection limit stated in copies per gram, shown on real stool, is a legitimate and defendable result on its own.
 3. The common markers, crAssphage, TTV and PMMoV, supply data from every sample and carry Q5, Q6 and Q7.
 4. Norovirus is reported descriptively with its uncertainty, in the terms above.
 5. If a positive does appear, confirm it by repeat testing before reporting it, and check against the donor's recorded symptoms for that time point.
 
 Agree this framing with the student and with their examiners at the start, so that nobody expects a positive finding that the study is not designed to produce.
+
+### 6.4 Positive control material: norovirus, astrovirus and adenovirus
+
+Positive samples for these three viruses are expected to be available. This is a significant addition to the plan and changes what the project can claim.
+
+#### What positive material is used for
+
+| Use | What it adds |
+|---|---|
+| **Validating the whole procedure, not just the reaction** | A synthetic standard shows that the chemistry works on clean template. A real positive stool sample shows that the entire sequence of steps works: breaking the sample open, purifying, converting RNA to DNA, and detecting. These are different claims, and the second is the one that matters. |
+| **Establishing the detection limit in stool** | Dilute a positive sample step by step into stool known to be negative, and find the lowest quantity still reliably detected. This gives a detection limit in copies per gram of stool rather than copies per reaction, which was listed as a limitation in section 7.5. It is the most valuable single use of this material. |
+| **Showing the assay would catch asymptomatic-level shedding** | This directly addresses the weakness in section 6.3. If the detection limit in stool sits below published asymptomatic loads, a negative result in the study carries real weight instead of being uninformative. **[verify those published loads]** |
+| **A positive control on every plate** | At present the plan uses the standards for this. A characterised positive extract is better, because it passes through the same procedure as the samples. |
+| **Checking that the published primers match local strains** | If a published assay fails on a confirmed positive sample, either the primers no longer match the circulating strain or something in the procedure is wrong. Either way it must be found during validation, not afterwards. |
+| **Partial cover for the RNA risk** | If the study samples turn out to have degraded RNA (section 4.3, the largest technical risk), positive material still allows the RNA assays to be validated and reported. The thesis keeps a chapter. |
+
+#### Rules for using them
+
+1. **They are validation material, not study samples.** They come from people with an infection, not from healthy adults with repeat samples over time. They cannot contribute to Q1 to Q7, and they must not appear in any count of how many people were positive. Keep them in a separate part of the records so that the two are never mixed.
+2. **Handle them apart from the study samples.** This is the one real hazard they introduce. A positive stool sample can contain very large quantities of virus, and the study is searching for very small ones. Extract them in a separate session, never in the same batch as study samples, ideally on different days, with a blank run afterwards to show nothing was carried over. Treat them with the same caution as the concentrated standards.
+3. **Aliquot on the first thaw.** There will not be much material, and each freeze and thaw costs some of it, RNA most of all.
+4. **Find out what is actually in them.** See the questions below.
+
+#### Questions to settle before relying on them
+
+| # | Question | Why |
+|---|---|---|
+| 1 | Where do they come from, and does their consent or ethical approval permit use as validation material in this project? | Residual diagnostic material from patients usually needs its own approval or a defined anonymisation route. **This must be resolved before the material is used. [confirm]** |
+| 2 | Are they quantified, or only recorded as positive? Are diagnostic Cq values available? | A quantified sample can anchor the dilution series directly. An unquantified one can still be diluted, but the series is relative until your own standards place it. |
+| 3 | How many samples per virus, and how much material in each? | One sample per virus is enough for a dilution series. Two or three are better, because they show the assay works on more than a single strain. |
+| 4 | What are they in: neat stool, a preservative buffer, a transport medium? | If their matrix differs from that of the study samples, dilute them into negative stool of the same type as the study samples, so that the detection limit you report applies to the material you are actually testing. |
+| 5 | Is the genotype known, particularly for norovirus? | Useful for interpreting a failed assay as a primer mismatch rather than a procedural error. |
+
+#### Does adenovirus change?
+
+Adenovirus is a DNA virus and is already in the panel, so positive material adds a matrix-based detection limit and a proper positive control, but no new target. Norovirus and astrovirus are the two where it makes the real difference, because RNA targets are the harder ones and the positive material covers the reverse transcription step as well.
+
+#### Also worth asking
+
+If **negative** stool from the same source is available — stool tested for these viruses and found negative — it is exactly what the dilution series needs as a background, and it is also useful practice material during training. Ask for it at the same time.
 
 ---
 
@@ -315,13 +355,14 @@ To convert a Cq into an actual number of copies, you run alongside it a set of s
 | The same sample run at two dilutions | Substances in stool that suppress the reaction |
 | Duplicate reactions | The precision of the measurement |
 | Duplicate extractions of some samples | The real technical variation, which is what Q5 is compared against |
+| A characterised positive sample, on every plate | Whether the assay would in fact have detected a true positive on that run |
 | One shared reference sample on every plate | Differences between plates |
 
 ### 7.5 Limitations you should know before committing to the method
 
 1. **It detects genetic material, not infectious virus.** A positive result does not establish that a virus could infect anyone.
 2. **It only finds what you asked for.** A virus not in the panel is invisible. This is why sequencing is the primary method here.
-3. **There is a floor below which it cannot see.** That floor is set by how much stool goes into the reaction. If the stool was collected into a preservative at roughly one part in ten, the material is diluted tenfold before anything begins, and the floor rises accordingly. A negative result means "below that floor", never "absent", and the floor must be stated in copies per gram.
+3. **There is a floor below which it cannot see.** That floor is set by how much stool goes into the reaction. If the stool was collected into a preservative at roughly one part in ten, the material is diluted tenfold before anything begins, and the floor rises accordingly. A negative result means "below that floor", never "absent", and the floor must be stated in copies per gram. The positive control material in section 6.4 is how that floor is measured in stool rather than estimated.
 4. **Stool suppresses the reaction.** It contains substances that interfere, which is why the spiked control and the dilution check exist. A suppressed sample can read as negative when it is not.
 5. **Viruses change, and primers can stop matching.** A published assay may miss a strain circulating now. Checking the sequences against current databases is a necessary step, most of all for norovirus and rotavirus.
 6. **Contamination is the characteristic failure.** The standards contain very large numbers of copies; a trace carried into a sample produces a convincing false positive. Hence the separate benches, the separate pipettes and the blanks.
@@ -346,7 +387,8 @@ To convert a Cq into an actual number of copies, you run alongside it a set of s
 - B1 Weeks 1–2: biosafety; pipetting checked against a balance; the principles in section 7; find and verify the published assays; read the sample documentation.
 - B2 Weeks 3–6: extraction established on practice material; first standard curves; expect repeats.
 - B3 Weeks 7–10: all six assays validated; inhibition testing; randomisation scheme written and the random seed stored.
-- Deliverable: a table of assay performance; competency sign-off per section 10.2.
+- B4 Weeks 7–10: dilution series of the positive control material in negative stool, giving a detection limit in copies per gram for norovirus, astrovirus and adenovirus (section 6.4). Performed in sessions kept separate from any study material.
+- Deliverable: a table of assay performance, including the detection limit in stool for the three targets with positive material; competency sign-off per section 10.2.
 
 **WP-C — Sample handling and extraction (weeks 10–16)**
 
@@ -454,7 +496,9 @@ Chapters 4 and 5 constitute a complete thesis. Chapter 6 raises it.
 
 | Risk | Likelihood | What is done about it |
 |---|---|---|
-| RNA in the stored samples is degraded, so RNA viruses including norovirus cannot be measured | **High, and unresolved** | Establish at Decision 1; the project narrows to DNA viruses |
+| RNA in the stored samples is degraded, so RNA viruses including norovirus cannot be measured | **High, and unresolved** | Establish at Decision 1; the project narrows to DNA viruses. The RNA assays can still be validated and reported using the positive control material |
+| Carry-over from the positive control material produces false positives in study samples | Medium | Extracted in separate sessions, never in the same batch; blanks run afterwards; handled like the concentrated standards (section 6.4) |
+| Positive control material cannot be used for want of ethical approval | Unknown | Resolve before validation begins; otherwise validation falls back to synthetic standards and the detection limit is reported per reaction, not per gram |
 | Stool mass or buffer volume not recorded, so results cannot be given per gram | Medium | Report relative quantities and state the limitation |
 | Too few time points per person | Medium | Section 4.2 question 1, answered before the plan is fixed |
 | Sequencing analysis arrives after the thesis deadline | High | Thesis rests on chapters 4 and 5 |
@@ -473,7 +517,8 @@ Chapters 4 and 5 constitute a complete thesis. Chapter 6 raises it.
 2. **Whether there is a bead-beater**, and the other equipment in 7.3.
 3. **Whether an experienced colleague can support the student** as described in 7.3.
 4. **Sequencing quotations**, DNA only and DNA with RNA, from at least two providers.
-5. **The ethical and consent position**, including external providers and data deposition.
+5. **The ethical and consent position**, including external providers and data deposition, **and separately for the positive control material** (section 6.4).
+6. **The five questions in section 6.4** about the positive samples, and whether negative stool from the same source can be had as well.
 6. **Confirmation that the thesis structure in section 11 is acceptable** to the student's programme, given that chapter 6 is conditional.
 
 ---
