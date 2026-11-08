@@ -38,6 +38,18 @@ th{text-align:left;padding:8px 10px;border-bottom:2px solid var(--line-2);color:
 td{padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
 @media(max-width:600px){main{padding:28px 16px 64px}h1{font-size:23px}}
 @media print{body{background:#fff;color:#000}main{max-width:none;padding:0}}
+
+body{font-size:17px}
+table{min-width:0 !important}
+@media(max-width:700px){
+ .scroll{overflow:visible}
+ table,tbody,tr,td{display:block;width:100%}
+ thead{display:none}
+ tr{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:8px 12px;margin:0 0 12px}
+ td{border:0 !important;padding:5px 0}
+ td::before{content:attr(data-label);display:block;font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3);font-weight:600}
+ td:empty{display:none}
+}
 </style>
 </head>
 <body><main>
@@ -64,43 +76,43 @@ knowledge and must be checked against a source.</p>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Panel reduced from ~10 to <strong>6 assays + 1 spike
+<td data-label="Cut from the 2-student plan">Panel reduced from ~10 to <strong>6 assays + 1 spike
 control</strong></td>
-<td>Each assay costs ~3-4 weeks of a novice&#39;s time to validate.</td>
-<td>See section 3.</td>
+<td data-label="Why">Each assay costs ~3-4 weeks of a novice&#39;s time to validate.</td>
+<td data-label="Consequence">See section 3.</td>
 </tr>
 <tr class="even">
-<td>Volunteers 16 -&gt; <strong>10</strong> (target 8 completing)</td>
-<td>Less to recruit, track and process.</td>
-<td>Wider confidence intervals; stated openly.</td>
+<td data-label="Cut from the 2-student plan">Volunteers 16 -&gt; <strong>10</strong> (target 8 completing)</td>
+<td data-label="Why">Less to recruit, track and process.</td>
+<td data-label="Consequence">Wider confidence intervals; stated openly.</td>
 </tr>
 <tr class="odd">
-<td>Preservation experiment (M2) reduced to <strong>3 donors, 3
+<td data-label="Cut from the 2-student plan">Preservation experiment (M2) reduced to <strong>3 donors, 3
 conditions</strong></td>
-<td>Keeps the question, cuts the workload.</td>
-<td>Smaller but still publishable comparison.</td>
+<td data-label="Why">Keeps the question, cuts the workload.</td>
+<td data-label="Consequence">Smaller but still publishable comparison.</td>
 </tr>
 <tr class="even">
-<td>Separate DNA and RNA extractions -&gt; <strong>one co-extraction
+<td data-label="Cut from the 2-student plan">Separate DNA and RNA extractions -&gt; <strong>one co-extraction
 kit</strong> (DNA and RNA from the same aliquot, e.g. ZymoBIOMICS
 DNA/RNA Miniprep <strong>[verify suitability for Shield-preserved
 stool]</strong>)</td>
-<td>Halves extractions (~80 instead of ~160 plus blanks).</td>
-<td>RNA targets are RNA viruses, so co-purified DNA does not produce
+<td data-label="Why">Halves extractions (~80 instead of ~160 plus blanks).</td>
+<td data-label="Consequence">RNA targets are RNA viruses, so co-purified DNA does not produce
 signal; run a <strong>no-RT control</strong> on RNA assays to
 confirm.</td>
 </tr>
 <tr class="odd">
-<td>Miss-rate modelling (C1) becomes <strong>descriptive
+<td data-label="Cut from the 2-student plan">Miss-rate modelling (C1) becomes <strong>descriptive
 only</strong></td>
-<td>Too few transitions at n = 10 to model.</td>
-<td>Report transition counts and an honest &quot;not estimable at this
+<td data-label="Why">Too few transitions at n = 10 to model.</td>
+<td data-label="Consequence">Report transition counts and an honest &quot;not estimable at this
 n&quot;.</td>
 </tr>
 <tr class="even">
-<td>No stretch goals</td>
-<td>No slack.</td>
-<td>None.</td>
+<td data-label="Cut from the 2-student plan">No stretch goals</td>
+<td data-label="Why">No slack.</td>
+<td data-label="Consequence">None.</td>
 </tr>
 </tbody>
 </table></div>
@@ -116,37 +128,37 @@ Questions (thesis is defendable whatever the biology does)</h2>
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>M1</strong></td>
-<td>Can each of the 6 targets be quantified reliably in Shield-preserved
+<td data-label="ID"><strong>M1</strong></td>
+<td data-label="Question">Can each of the 6 targets be quantified reliably in Shield-preserved
 stool? Efficiency, linearity, LoD/LoQ in copies per gram, inhibition,
 extraction recovery.</td>
-<td>Yes</td>
+<td data-label="Always answerable?">Yes</td>
 </tr>
 <tr class="even">
-<td><strong>M2</strong></td>
-<td>How much does preservation change recovery (Shield 1:10 vs neat
+<td data-label="ID"><strong>M2</strong></td>
+<td data-label="Question">How much does preservation change recovery (Shield 1:10 vs neat
 frozen; Shield stored 7 days at room temperature)?</td>
-<td>Yes</td>
+<td data-label="Always answerable?">Yes</td>
 </tr>
 <tr class="odd">
-<td><strong>M3</strong></td>
-<td>How much does load of TTV, crAssphage, PMMoV (and adenovirus if
+<td data-label="ID"><strong>M3</strong></td>
+<td data-label="Question">How much does load of TTV, crAssphage, PMMoV (and adenovirus if
 prevalent) vary within a person over 8 weeks versus between people
 versus technical noise (ICC, within-person CV)?</td>
-<td>Yes, if samples are collected</td>
+<td data-label="Always answerable?">Yes, if samples are collected</td>
 </tr>
 <tr class="even">
-<td><strong>M4</strong></td>
-<td>How often are norovirus GII and rotavirus detected in healthy
+<td data-label="ID"><strong>M4</strong></td>
+<td data-label="Question">How often are norovirus GII and rotavirus detected in healthy
 volunteers? A zero is reported with the rule of three (95% upper bound
 about 3/n).</td>
-<td>Yes</td>
+<td data-label="Always answerable?">Yes</td>
 </tr>
 <tr class="odd">
-<td><strong>Descriptive</strong></td>
-<td>Do detection states change between weeks for any target? Report
+<td data-label="ID"><strong>Descriptive</strong></td>
+<td data-label="Question">Do detection states change between weeks for any target? Report
 counts of transitions; no model unless there are enough.</td>
-<td>Reported either way</td>
+<td data-label="Always answerable?">Reported either way</td>
 </tr>
 </tbody>
 </table></div>
@@ -166,47 +178,47 @@ detects nucleic acid, not infectious virus.</p>
 </thead>
 <tbody>
 <tr class="odd">
-<td>1</td>
-<td>TTV (anellovirus)</td>
-<td>DNA</td>
-<td>Near-universal; load stability</td>
+<td data-label="#">1</td>
+<td data-label="Target">TTV (anellovirus)</td>
+<td data-label="Type">DNA</td>
+<td data-label="Role">Near-universal; load stability</td>
 </tr>
 <tr class="even">
-<td>2</td>
-<td>crAssphage</td>
-<td>DNA</td>
-<td>Abundant; process positive; model marker</td>
+<td data-label="#">2</td>
+<td data-label="Target">crAssphage</td>
+<td data-label="Type">DNA</td>
+<td data-label="Role">Abundant; process positive; model marker</td>
 </tr>
 <tr class="odd">
-<td>3</td>
-<td>Adenovirus (pan-adenovirus)</td>
-<td>DNA</td>
-<td>Persistent shedder in some people</td>
+<td data-label="#">3</td>
+<td data-label="Target">Adenovirus (pan-adenovirus)</td>
+<td data-label="Type">DNA</td>
+<td data-label="Role">Persistent shedder in some people</td>
 </tr>
 <tr class="even">
-<td>4</td>
-<td>PMMoV</td>
-<td>RNA</td>
-<td>Diet-derived; normaliser; model marker</td>
+<td data-label="#">4</td>
+<td data-label="Target">PMMoV</td>
+<td data-label="Type">RNA</td>
+<td data-label="Role">Diet-derived; normaliser; model marker</td>
 </tr>
 <tr class="odd">
-<td>5</td>
-<td>Norovirus GII</td>
-<td>RNA</td>
-<td>Pathogen</td>
+<td data-label="#">5</td>
+<td data-label="Target">Norovirus GII</td>
+<td data-label="Type">RNA</td>
+<td data-label="Role">Pathogen</td>
 </tr>
 <tr class="even">
-<td>6</td>
-<td>Rotavirus</td>
-<td>RNA</td>
-<td>Pathogen</td>
+<td data-label="#">6</td>
+<td data-label="Target">Rotavirus</td>
+<td data-label="Type">RNA</td>
+<td data-label="Role">Pathogen</td>
 </tr>
 <tr class="odd">
-<td>spike</td>
-<td>Mengovirus (extraction control, as in ISO 15216
+<td data-label="#">spike</td>
+<td data-label="Target">Mengovirus (extraction control, as in ISO 15216
 <strong>[verify]</strong>)</td>
-<td>RNA</td>
-<td>Per-sample recovery and inhibition</td>
+<td data-label="Type">RNA</td>
+<td data-label="Role">Per-sample recovery and inhibition</td>
 </tr>
 </tbody>
 </table></div>
@@ -314,40 +326,40 @@ target, prevalence with exact confidence intervals for M4.</li>
 </thead>
 <tbody>
 <tr class="odd">
-<td>1-2</td>
-<td>Onboarding, biosafety, pipetting, read assay papers</td>
-<td>Ethics submitted; orders; bench buddy booked</td>
+<td data-label="Weeks">1-2</td>
+<td data-label="Student">Onboarding, biosafety, pipetting, read assay papers</td>
+<td data-label="You">Ethics submitted; orders; bench buddy booked</td>
 </tr>
 <tr class="even">
-<td>3-6</td>
-<td>Extraction set-up; first curves</td>
-<td>Consent forms; recruitment plan; kit preparation</td>
+<td data-label="Weeks">3-6</td>
+<td data-label="Student">Extraction set-up; first curves</td>
+<td data-label="You">Consent forms; recruitment plan; kit preparation</td>
 </tr>
 <tr class="odd">
-<td>7-10</td>
-<td>Validation; M2 experiment; randomisation plan</td>
-<td><strong>Gate 1 (week 8):</strong> ethics approved?</td>
+<td data-label="Weeks">7-10</td>
+<td data-label="Student">Validation; M2 experiment; randomisation plan</td>
+<td data-label="You"><strong>Gate 1 (week 8):</strong> ethics approved?</td>
 </tr>
 <tr class="even">
-<td>10</td>
-<td>Competency gate</td>
-<td><strong>Gate 2 (week 10):</strong> start sampling or reduce to 6
+<td data-label="Weeks">10</td>
+<td data-label="Student">Competency gate</td>
+<td data-label="You"><strong>Gate 2 (week 10):</strong> start sampling or reduce to 6
 weeks</td>
 </tr>
 <tr class="odd">
-<td>11-18</td>
-<td>Weekly sample logging; continued assay work</td>
-<td>Volunteer logistics (shared with student)</td>
+<td data-label="Weeks">11-18</td>
+<td data-label="Student">Weekly sample logging; continued assay work</td>
+<td data-label="You">Volunteer logistics (shared with student)</td>
 </tr>
 <tr class="even">
-<td>15-21</td>
-<td>Randomised extractions; qPCR</td>
-<td>Weekly QC review</td>
+<td data-label="Weeks">15-21</td>
+<td data-label="Student">Randomised extractions; qPCR</td>
+<td data-label="You">Weekly QC review</td>
 </tr>
 <tr class="odd">
-<td>19-26</td>
-<td>Analysis; thesis</td>
-<td><strong>Gate 3 (week 18):</strong> collection stops; analyse what
+<td data-label="Weeks">19-26</td>
+<td data-label="Student">Analysis; thesis</td>
+<td data-label="You"><strong>Gate 3 (week 18):</strong> collection stops; analyse what
 exists</td>
 </tr>
 </tbody>
@@ -386,46 +398,46 @@ inter-plate calibrator.</p>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Ethics, consent, incidental findings</td>
-<td>You</td>
-<td>You</td>
-<td>Ethics office</td>
+<td data-label="Task">Ethics, consent, incidental findings</td>
+<td data-label="Responsible">You</td>
+<td data-label="Accountable">You</td>
+<td data-label="Support">Ethics office</td>
 </tr>
 <tr class="even">
-<td>Ordering</td>
-<td>You or lab manager</td>
-<td>You</td>
-<td>Student checks specs</td>
+<td data-label="Task">Ordering</td>
+<td data-label="Responsible">You or lab manager</td>
+<td data-label="Accountable">You</td>
+<td data-label="Support">Student checks specs</td>
 </tr>
 <tr class="odd">
-<td>Finding and confirming published assays</td>
-<td>Student</td>
-<td>You</td>
-<td>Bench buddy (sequence check)</td>
+<td data-label="Task">Finding and confirming published assays</td>
+<td data-label="Responsible">Student</td>
+<td data-label="Accountable">You</td>
+<td data-label="Support">Bench buddy (sequence check)</td>
 </tr>
 <tr class="even">
-<td>Extraction, qPCR, validation</td>
-<td>Student</td>
-<td>You</td>
-<td>Bench buddy (heavy early, light later)</td>
+<td data-label="Task">Extraction, qPCR, validation</td>
+<td data-label="Responsible">Student</td>
+<td data-label="Accountable">You</td>
+<td data-label="Support">Bench buddy (heavy early, light later)</td>
 </tr>
 <tr class="odd">
-<td>Volunteer kits and weekly logging</td>
-<td>Student, with lab manager backup</td>
-<td>You</td>
-<td>Lab manager</td>
+<td data-label="Task">Volunteer kits and weekly logging</td>
+<td data-label="Responsible">Student, with lab manager backup</td>
+<td data-label="Accountable">You</td>
+<td data-label="Support">Lab manager</td>
 </tr>
 <tr class="even">
-<td>Analysis plan and statistics</td>
-<td>Student</td>
-<td>You</td>
-<td>Statistician or biostatistics service</td>
+<td data-label="Task">Analysis plan and statistics</td>
+<td data-label="Responsible">Student</td>
+<td data-label="Accountable">You</td>
+<td data-label="Support">Statistician or biostatistics service</td>
 </tr>
 <tr class="odd">
-<td>Thesis</td>
-<td>Student</td>
-<td>Academic supervisor</td>
-<td>You</td>
+<td data-label="Task">Thesis</td>
+<td data-label="Responsible">Student</td>
+<td data-label="Accountable">Academic supervisor</td>
+<td data-label="Support">You</td>
 </tr>
 </tbody>
 </table></div>
@@ -455,38 +467,38 @@ student</h2>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Ethics late</td>
-<td>High</td>
-<td>Submit before week 1; fallback is M1 + M2 only</td>
+<td data-label="Risk">Ethics late</td>
+<td data-label="Likelihood">High</td>
+<td data-label="Mitigation">Submit before week 1; fallback is M1 + M2 only</td>
 </tr>
 <tr class="even">
-<td>Assay validation takes longer</td>
-<td>High</td>
-<td>Order of validation easiest-first; 30% rerun allowance; 6-week
+<td data-label="Risk">Assay validation takes longer</td>
+<td data-label="Likelihood">High</td>
+<td data-label="Mitigation">Order of validation easiest-first; 30% rerun allowance; 6-week
 fallback sampling</td>
 </tr>
 <tr class="odd">
-<td>Student ill or leaves</td>
-<td>Medium</td>
-<td>Deputy for logistics; frozen samples stable; documented
+<td data-label="Risk">Student ill or leaves</td>
+<td data-label="Likelihood">Medium</td>
+<td data-label="Mitigation">Deputy for logistics; frozen samples stable; documented
 protocol</td>
 </tr>
 <tr class="even">
-<td>All pathogen targets negative</td>
-<td>High (expected)</td>
-<td>Framed as M4 with upper bounds; thesis does not depend on
+<td data-label="Risk">All pathogen targets negative</td>
+<td data-label="Likelihood">High (expected)</td>
+<td data-label="Mitigation">Framed as M4 with upper bounds; thesis does not depend on
 positives</td>
 </tr>
 <tr class="odd">
-<td>Volunteers drop out</td>
-<td>Medium</td>
-<td>Recruit 10 for 8 completers; per-person analysis uses available
+<td data-label="Risk">Volunteers drop out</td>
+<td data-label="Likelihood">Medium</td>
+<td data-label="Mitigation">Recruit 10 for 8 completers; per-person analysis uses available
 weeks</td>
 </tr>
 <tr class="even">
-<td>Contamination from standards</td>
-<td>Medium</td>
-<td>Separate rooms/benches; dilute standards away from sample prep;
+<td data-label="Risk">Contamination from standards</td>
+<td data-label="Likelihood">Medium</td>
+<td data-label="Mitigation">Separate rooms/benches; dilute standards away from sample prep;
 blanks every batch</td>
 </tr>
 </tbody>
