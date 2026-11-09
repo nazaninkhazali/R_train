@@ -145,6 +145,54 @@ Working with 30–40 samples in total:
 - Give every aliquot a label that identifies the person, the time point and the aliquot, and keep a single inventory file that is the only authoritative record.
 - Treat the material as potentially infectious and follow local biosafety rules for human stool. **[confirm requirements with the biosafety officer]**
 
+### 4.6 How much material is needed, and what for
+
+The figures below are typical input amounts for commercial stool extraction kits and typical sequencing input requirements. **They must be checked against the specific kit you buy and against the sequencing provider's written requirements before any material is requested. [verify]** They are given so that you can ask for the right amount rather than discover a shortfall halfway through.
+
+#### The principle
+
+Each sample needs **two extractions**, one for DNA and one for RNA, because the two require different chemistry. Each extraction produces a small volume of purified material, called the eluate, and **that eluate is then shared between qPCR and sequencing**. You do not need separate stool for the two methods. What you do need is enough stool that the extraction can be repeated if it fails, and enough left untouched that the sample is not consumed.
+
+#### Per study sample
+
+| Use | If the sample is in preservative buffer at about 1 part stool to 9 parts buffer | If the sample is neat frozen stool |
+|---|---|---|
+| DNA extraction | about 250 µl of the mixed slurry | about 200 mg |
+| RNA extraction | about 700 µl of the mixed slurry | about 200 mg |
+| Reserve for one repeat of each, which will be needed for some samples | about 950 µl | about 400 mg |
+| Duplicate extractions, on roughly a quarter of samples, to measure technical variation | about 950 µl on those samples | about 400 mg on those samples |
+| Untouched archive, never opened | at least 500 µl | at least 500 mg |
+| **Comfortable total to request** | **at least 2 ml of slurry** | **at least 1 g** |
+| **Absolute minimum that still allows one DNA and one RNA extraction with no margin** | about 1 ml | about 500 mg |
+
+RNA extraction takes more material than DNA because RNA is present in smaller amounts and is more easily lost.
+
+If the samples were collected into a tube of roughly 10 ml, as is common, then **volume is not a constraint** and the question becomes only how much is left after any previous use. If they are neat frozen stool, ask for the mass of each.
+
+#### One detail worth settling early
+
+A single extraction is eluted into a small volume, commonly 50 to 100 µl. Out of that volume you need:
+
+- **For qPCR:** three or four assays, each in duplicate, at roughly 5 µl per reaction, plus a dilution check and allowance for repeats. Realistically 60 to 80 µl of eluate per sample per nucleic acid.
+- **For sequencing:** a quantity of material set by the provider, commonly in the range of 100 ng to 1 µg. **[verify]**
+
+Those two demands can exceed one elution. There are two ways round it, and the choice should be made once the provider's requirements are known:
+
+1. **Elute into a larger volume, say 100 µl, and split it.** Simpler, fewer extractions. The cost is that a larger elution is more dilute, which slightly worsens the detection limit.
+2. **Two separate extractions per sample per nucleic acid, one for qPCR and one for sequencing.** Cleaner, and the better option if the provider needs a lot of material. The cost is twice the extraction work and twice the stool, which the budget above already allows for.
+
+**Ask the sequencing provider for their input requirements before buying the extraction kit.** This single question determines both the kit and the amount of stool you must request.
+
+#### Total material to request
+
+| Material | Amount | Purpose |
+|---|---|---|
+| Study samples, 30 to 40 | at least 2 ml of slurry, or 1 g, each | The study itself |
+| Positive samples: norovirus, astrovirus, adenovirus | at least 1 ml of slurry, or 500 mg, of each | Validation and detection limit in stool (section 6.4) |
+| Stool known to be negative for the panel targets | 15 to 20 g, or the equivalent in slurry | The background for the dilution series, and practice material during training |
+
+The last line is the one usually forgotten and it is the largest amount. Training on this method consumes a great deal of material: a first-time user will perform dozens of practice extractions before the competency sign-off in section 10.2, and every dilution series needs negative stool as its background. For practice material, a commercially sold pooled human stool matrix intended for method development avoids the need for ethical approval altogether and is worth pricing against stool from consenting volunteers. **[verify what products are available]**
+
 ---
 
 ## 5. Sequencing: outsourced, DNA and RNA
