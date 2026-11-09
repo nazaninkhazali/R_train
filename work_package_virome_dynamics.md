@@ -191,7 +191,63 @@ Those two demands can exceed one elution. There are two ways round it, and the c
 | Positive samples: norovirus, astrovirus, adenovirus | at least 1 ml of slurry, or 500 mg, of each | Validation and detection limit in stool (section 6.4) |
 | Stool known to be negative for the panel targets | 15 to 20 g, or the equivalent in slurry | The background for the dilution series, and practice material during training |
 
-The last line is the one usually forgotten and it is the largest amount. Training on this method consumes a great deal of material: a first-time user will perform dozens of practice extractions before the competency sign-off in section 10.2, and every dilution series needs negative stool as its background. For practice material, a commercially sold pooled human stool matrix intended for method development avoids the need for ethical approval altogether and is worth pricing against stool from consenting volunteers. **[verify what products are available]**
+The last line is the one usually forgotten and it is the largest amount. (In this table, "the last line" is the negative stool.) Training on this method consumes a great deal of material: a first-time user will perform dozens of practice extractions before the competency sign-off in section 10.2, and every dilution series needs negative stool as its background. For practice material, a commercially sold pooled human stool matrix intended for method development avoids the need for ethical approval altogether and is worth pricing against stool from consenting volunteers. **[verify what products are available]**
+
+### 4.7 Specification: what makes a stool sample usable here
+
+This is the standard against which to judge the samples you are offered. **[verify the specific figures against the extraction kit and preservative manufacturer's documentation before adopting them as acceptance criteria]**
+
+#### The short answer on storage and buffer
+
+There are two acceptable histories for a sample, and they are alternatives rather than both being required:
+
+1. **Mixed into a nucleic-acid stabilising buffer at the moment of collection**, then frozen. Such buffers hold both DNA and RNA stable at room temperature for days to weeks, which is what makes collection at home possible. **[verify the stated stability period for the particular buffer]**
+2. **Collected neat, with no buffer, and frozen quickly** — within about two hours — then held at −80 °C and never thawed.
+
+Both work. What does not work is neat stool that sat at room temperature for hours before freezing, or stool held at −20 °C for a long period, or stool that has been thawed and refrozen more than once. In each of those cases DNA may survive well enough while **RNA is likely to be degraded**, and with it norovirus, astrovirus, PMMoV and the RNA sequencing.
+
+So: a buffer is not strictly necessary if the sample was frozen fast and kept at −80 °C. Storage at −80 °C is necessary in nearly all circumstances, and is what I would insist on for anything held long term.
+
+#### Requirements
+
+| Property | What is required | Why it matters |
+|---|---|---|
+| **Storage temperature** | −80 °C for long-term storage. −20 °C is tolerable for DNA over short periods but not for RNA, and a frost-free freezer is worse than a conventional one because it cycles its temperature deliberately | RNA degrades at higher temperatures, and the RNA viruses are half the panel |
+| **Time from passage to preservation** | Into buffer immediately, or into a freezer within about two hours. The actual figure should be recorded | This is the single most important variable for RNA quality, and it is the one most often not recorded |
+| **Freeze–thaw history** | Ideally never thawed. Any thaw recorded, with how many | Each cycle degrades nucleic acids, RNA most of all, and changes the measured quantity |
+| **Homogenisation** | Mixed thoroughly before being divided into aliquots, and this recorded | Viruses are not spread evenly through a stool. Two portions taken from an unmixed sample can differ substantially, and that difference would appear in the results as change over time when it is nothing of the kind. For Q5 and Q6 this is not a minor point |
+| **Mass and volume** | The mass of stool, and the volume of any buffer, recorded for each sample | Without both, nothing can be expressed per gram, and quantities exist only as comparisons |
+| **Aliquots** | Already divided into single-use portions, if possible | Avoids thawing the whole sample each time something is measured |
+| **Identification** | A unique label on each tube, linked without ambiguity to the person, the time point and the collection date | A sample that cannot be assigned to a person and a date is of no use whatever |
+| **Consistency across the set** | **Every sample collected, preserved and stored the same way** | See below. This matters as much as the absolute quality |
+| **Remaining material** | At least 2 ml of slurry, or 1 g of neat stool (section 4.6) | Two extractions, a repeat, a duplicate and an untouched archive |
+
+#### Requirements concerning the donors
+
+| Property | What is required | Why |
+|---|---|---|
+| Health status | Adults without gastrointestinal symptoms at collection. Where symptoms did occur, recorded rather than the sample discarded | The project is about healthy adults; a symptomatic time point is informative if it is known about |
+| Antibiotics | No antibiotics in the period before collection, and the period stated. Studies of this kind commonly exclude use within three months **[verify]** | Antibiotics disturb the gut community profoundly and would dominate any change observed over time |
+| Repeat sampling | At least 3, preferably 4, samples from each person, with collection dates known | Without repeat samples from the same person there is no study |
+| Recorded about each person | Age, sex, and for each time point: symptoms, medication, travel, notable diet change | These are what explain an outlying result |
+| Consent | Covering viral sequencing, removal of human sequences, transfer to an external provider, and deposition of sequence data | The one item that cannot be put right later |
+
+#### Why consistency across the set matters so much
+
+If some samples were collected into buffer and others neat, or some frozen within the hour and others the next day, then those samples differ from each other systematically before any biology is involved. Such a difference can appear in the results as a difference between people, or between time points, and there is afterwards no way to separate it from a real one. **A uniform set of slightly imperfect samples is more useful here than a mixed set of individually better ones.** If the set is mixed, record which sample is which, and treat the grouping as something to be accounted for in the analysis.
+
+#### What would disqualify a sample
+
+- The collection date is unknown, which removes Q2.
+- It cannot be linked to a person, or it is not known which other samples came from the same person.
+- It has been thawed and refrozen repeatedly, or the history is unknown.
+- It was pooled from more than one donation, or from more than one person.
+- It was stored without buffer at above freezing for an extended period, in which case it may still serve for DNA work but not for RNA.
+- Too little material remains (section 4.6).
+
+#### Handling once in our possession
+
+Treat all of it as potentially infectious and follow local rules for human stool. **[confirm with the biosafety officer]** On the first thaw, mix thoroughly, divide into separate aliquots for DNA, RNA, qPCR and an untouched spare, and record the date of every thaw in the inventory.
 
 ---
 
