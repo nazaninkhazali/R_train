@@ -1,6 +1,6 @@
 # Colorimetric lateral flow assays for virus detection: scoping review (working draft, assembled 2026-11-10)
 
-Assembled unedited from the section drafts. Sections 3.1-3.4 are the rewritten versions; the others are still the earlier versions.
+Assembled unedited from the section drafts. Sections 3.1-3.5 are the rewritten versions; the others are still the earlier versions.
 
 ---
 
@@ -915,18 +915,17 @@ Items: (a) real samples; (b) n stated; (c) reference method; (d) LOD definition;
 
 ---
 
-# Part E (working text v2): nucleic-acid amplification with a strip readout
+# Part E (working text v3): nucleic-acid amplification with a strip readout and the colorimetric signal
 
-Working text, 2026-11-05. Version 2 discusses each study individually (target, design, novelty, key result); studies applying the same approach to another virus are grouped. Numerical detail is in the tables. † = read in full; all other rows abstract only (NR = not reported in the abstract).
+Working text, 2026-11-10. Reframed around the question of this review: how does amplifying the nucleic acid before the strip change what the colour at the test line can detect, by how much, and at what cost? Each subsection follows the four questions used in 3.1-3.4: what limits the signal, which technology addresses it, what the papers report against their own reference, and what it costs. The target virus is named for every method. Each study is described by its target, design, novelty and key result; studies applying the same approach to another virus are grouped. Numerical detail is in the tables, and Table E4 gathers the within-paper comparisons. † = read in full; all other rows abstract only (NR = not reported in the abstract). Every DOI cited in the text appears in a table and in the evidence table.
 
-# 3.5 Nucleic-acid amplification with a strip readout
+# 3.5 Nucleic-acid amplification with a strip readout: a stronger signal from a pre-step
 
-## 3.5.0 Why amplify the nucleic acid, and how a strip reads it
+## 3.5.0 What limits the signal, and where the improvement comes from
 
-Immunoassay strips detect proteins, and their sensitivity is limited by antibody affinity and label. Nucleic-acid tests work differently: an amplification step makes many copies of a chosen sequence, and the strip only has to show that amplicons are present. The strip is usually read by labelling the amplicon at both ends, with biotin and a hapten such as FAM, so that a captured amplicon forms a coloured line with gold particles or latex (DOI: 10.1186/s12916-025-04412-4). This design trades the simplicity of a protein strip for the sensitivity of molecular testing, at the cost of a heating step, a sample-preparation step and the risk of amplicon contamination.
+In an immunoassay strip, the colour at the test line is limited by antibody affinity and by how many labels are captured. In the nucleic-acid strips of this section the strip itself is usually an ordinary gold or latex line. What changes is the number of targets reaching it: an amplification step makes many copies of a chosen sequence, and the strip only has to show that amplicons are present. The strip is usually read by labelling the amplicon at both ends, with biotin and a hapten such as FAM, so that a captured amplicon forms a coloured line with gold particles or latex (DOI: 10.1186/s12916-025-04412-4). The improvement in the colorimetric result therefore comes from a pre-step, and it is paid for with a heating step, a sample-preparation step and the risk of amplicon contamination.
 
-The section follows the chemistry that precedes the strip: PCR and RT-PCR (3.5.1), LAMP (3.5.2), RPA and RAA (3.5.3), CRISPR-Cas detection (3.5.4) and other isothermal, enzyme-free and amplification-free approaches (3.5.5). Section 3.5.6 considers integrated and multiplex devices and 3.5.7 states what the evidence supports. Each study is described by what it adds: the target, the design of the reaction or strip, the sample and the key performance. Studies that apply the same approach to another virus are grouped. Numerical details are in Tables E1a-E1e. Papers read in full are marked † in the tables; all other statements rest on abstracts. The section covers 382 included records, all from 2015-2026. Records combining two methods are described under the method that dominates the design, and CRISPR studies that use RPA, RAA or LAMP are kept in the CRISPR subsection.
-
+The section follows the chemistry that precedes the strip: PCR and RT-PCR (3.5.1), LAMP (3.5.2), RPA and RAA (3.5.3), CRISPR-Cas detection (3.5.4) and other isothermal, enzyme-free and amplification-free approaches (3.5.5). Section 3.5.6 considers integrated and multiplex devices and 3.5.7 states what the evidence supports for the colour signal. Papers read in full are marked † in the tables; all other statements rest on abstracts. The section covers 382 included records, all from 2015-2026; one was read in full. Records combining two methods are described under the method that dominates the design, and CRISPR studies that use RPA, RAA or LAMP are kept in the CRISPR subsection.
 
 ## 3.5.1 PCR and RT-PCR with a strip readout
 
@@ -940,6 +939,8 @@ Strip detection of PCR products is the oldest approach in this section and shows
 
 PCR strips are the reference point for the isothermal methods below: they use the same labelling logic but need thermal cycling.
 
+
+Limit addressed in 3.5.1: the number of copies reaching the line, through thermal cycling; cost: a thermocycler or an integrated heater, and a separate step before the strip.
 
 ## 3.5.2 Loop-mediated isothermal amplification (LAMP)
 
@@ -959,6 +960,8 @@ LAMP amplifies at a single temperature with a strand-displacing polymerase and f
 
 Several of these studies report LODs ten or a hundred times below conventional PCR in the same paper, but the strongest data come from the studies with clinical samples (Table E1b).
 
+
+Limit addressed in 3.5.2: the amplification without a thermocycler, at a single temperature; cost: long branched products that need a labelling strategy for the strip, and the risk of carry-over contamination when tubes are opened.
 
 ## 3.5.3 Recombinase polymerase and recombinase-aided amplification (RPA, RAA)
 
@@ -983,6 +986,8 @@ RPA uses a recombinase, a single-stranded binding protein and a strand-displacin
 In total, the RPA strips report limits of detection from single-digit to a few hundred copies per reaction and, in many veterinary studies, ten to a thousand times below conventional gel-based PCR (Table E1c). The main practical limit of open-tube designs is amplicon contamination.
 
 
+Limit addressed in 3.5.3: low-temperature amplification, in some designs near body heat or without equipment; cost: primer design and background, and a tube-opening step before the strip.
+
 ## 3.5.4 CRISPR-Cas detection with a strip readout
 
 CRISPR-Cas systems add a second layer of specificity to amplification-based testing. A guide RNA directs a Cas enzyme to the target sequence; on recognition, Cas12 and Cas13 enzymes cut a reporter molecule, which is then read on a strip, while Cas9 variants hold labelled probes at the test line without cutting a reporter. The 93 studies in this group differ in the enzyme, the amplification step before it, and the way the strip is read, and they are described below in that order.
@@ -1006,6 +1011,8 @@ CRISPR-Cas systems add a second layer of specificity to amplification-based test
 Taken together, CRISPR strips reach single-copy sensitivities and report clinical comparisons for many viruses. The extra reaction step, the need to open tubes between amplification and Cas cleavage, and the fact that many designs rely on fluorescence in parallel with the strip are recurring limits (Table E1d).
 
 
+Limit addressed in 3.5.4: specificity of the signal, by a second sequence-specific recognition step; cost: an additional reaction, and in many designs a parallel fluorescence readout that is more sensitive than the strip (see 3.5.7).
+
 ## 3.5.5 Other isothermal, enzyme-free and amplification-free nucleic-acid strips
 
 This group collects isothermal methods other than LAMP and RPA, enzyme-free signal-amplification schemes, and strips that read nucleic acids without amplification. It contains 76 studies.
@@ -1026,13 +1033,77 @@ These studies show the breadth of nucleic-acid strip chemistries. The enzyme-bas
 
 
 
+Limit addressed in 3.5.5: dependence on enzymes and on amplification; cost: in most of these studies lower sensitivity than amplified methods, or the need for an added reader.
+
 ## 3.5.6 Integrated, one-pot and multiplex devices
 
 The step users find hardest is often sample preparation and transfer. Integrated designs therefore combine release, amplification and strip in one closed device, as in the RPA monkeypox kit (DOI: 10.1186/s12916-025-04412-4), the microfluidic RPA and RT-LAMP devices, the pen-shaped enclosed formats and the paper devices described above, or run amplification and Cas cleavage in one tube. Multiplex designs use several lines or labels for dual or triple targets. Contamination by amplicons is a practical risk in open designs, and the monkeypox study gives it as the reason for its closed device.
 
+Limit addressed in 3.5.6: the number of tubes and the number of steps between the sample and the strip; cost: more complex devices, and fewer clinical validations.
+
 ## 3.5.7 What the evidence supports
 
-Nucleic-acid strips report the lowest detection limits in this review, in several studies single-digit copy numbers per reaction and sensitivities equal to or above those of the reference PCR in the same paper. The costs are a heating step, sample preparation, amplicon contamination risk and, for CRISPR, an extra reaction step. Three cautions apply. First, "copies per reaction", "copies per microlitre" and "copies per millilitre" are not interchangeable, so LODs are not compared across studies. Second, reference PCRs differ in design, and positive agreement is sometimes counted over repeated tests of the same samples. Third, many abstracts do not report the sample matrix, number of samples or LOD definition (Table E2).
+For the question of this review, nucleic-acid strips give the lowest detection limits in the whole review, in several studies single-digit copy numbers per reaction, and sensitivities equal to or above those of the reference PCR in the same paper (Table E4a). Where a paper states a comparison, the strip is typically between equal to and 1000 times more sensitive than the conventional PCR run beside it (for example 1000-fold for the duck Tembusu virus RT-RAA-LFD and for the avian influenza RAA-CRISPR-Cas13a-LFD, and 100-fold for several RT-RAA and RPA strips), and less sensitive in one case (the bean pod mottle virus RT-CPA-LFD, against TaqMan RT-PCR). These gains belong to the amplification step; the strip contributes a visual readout, and it is not itself sensitised.
+
+A second finding bears directly on the colour signal. When the same reaction is read both by fluorescence and by a strip, the strip is often the less sensitive readout: the mpox virus assay reached 10^1 copies/uL by fluorescence and 10^4 by lateral flow, the avian influenza virus assay 69 against 690 copies/uL, the hepatitis E virus assay 25 against 247, the Lassa virus assay 10 against 100, and the Epstein-Barr virus assay 10 against 10^4 copies per reaction (Table E4b). In a few designs the strip equals or beats the real-time readout (capripoxvirus, human rhinovirus A and C). The colorimetric strip is therefore a convenient end point, and in many CRISPR designs it is the weakest link of the reaction.
+
+Three cautions apply. First, "copies per reaction", "copies per microlitre" and "copies per millilitre" are not interchangeable, so LODs are not compared across studies. Second, reference PCRs differ in design, and positive agreement is sometimes counted over repeated tests of the same samples. Third, many abstracts do not report the sample matrix, number of samples or LOD definition (Table E2). Only one paper in this section was read in full (Table E3).
+
+### Table E4a. Detection limit against the paper's own PCR or reference (as stated)
+
+Only studies whose abstract states a comparison are listed. Reference methods and units differ; rows cannot be ranked against each other. All rows are abstract level.
+
+| Rec | Virus (target) | Method | LOD and comparison (as stated) | DOI |
+|---|---|---|---|---|
+| R01589 | Japanese encephalitis virus | RT-LAMP + LFD | 5 pg RNA (10x more sensitive than RT-LAMP-calcein) | 10.1016/j.jviromet.2014.12.006 |
+| R01757 | Jembrana disease virus | RT-LAMP + LFD | 100-fold more sensitive than RT-PCR | 10.1007/s13337-015-0277-5 |
+| R01760 | RGNNV (grouper nervous necrosis virus) | CPA + LFD | 10^1 copies/uL RNA (10x below RT-PCR) | 10.1186/s12985-015-0374-5 |
+| R02396 | Macrobrachium rosenbergii nodavirus and extra small virus | duplex RT-LAMP-LFD | ~100-fold more sensitive than conventional PCR | 10.1016/j.mcp.2018.05.001 |
+| R02685 | Senecavirus A | RT-LAMP-LFD | 11 copies/uL RNA (10x more sensitive than RT-PCR) | 10.1371/journal.pone.0216245 |
+| R02721 | feline parvovirus | RPA-LFD | 10^2 copies/reaction (10-fold below PCR) | 10.1016/j.jviromet.2019.113679 |
+| R02882 | potato virus X | RT-RPA + nucleic acid LFA | 260-fold more sensitive than antibody-based LFA (same as PCR) | 10.1016/j.talanta.2019.120616 |
+| R02997 | porcine deltacoronavirus | RPA-LFD | 1 x 10^2 copies/uL (10x lower than PCR) | 10.1186/s12917-020-02341-3 |
+| R03009 | infectious bronchitis virus | RT-RAA-LFD | 10^2 copies/uL (100x below PCR) | 10.3382/ps/pez559 |
+| R03105 | Newcastle disease virus | RT-RAA-LFD and real-time RT-RAA | 10^2 copies/uL (LFD; 10x below PCR); 10 copies/uL (real-time) | 10.1016/j.psj.2020.03.018 |
+| R03573 | HBV | polymerase spiral reaction + nanoparticle LFB | 5.4 copies/mL (10x better than qPCR and LAMP) | 10.3389/fmolb.2020.578892 |
+| R03591 | infectious laryngotracheitis virus | RAA-LFD | 10^2 copies/uL (100x below PCR) | 10.1016/j.psj.2020.12.008 |
+| R03796 | ASFV | RAA-LFA without extraction | 10 copies/uL (10x below PCR/qPCR) | 10.3389/fcimb.2021.633763 |
+| R03973 | scale drop disease virus | UCPA with colorimetric (HNB) and LFD detection | 100 viral copies/uL; 10 pg total DNA (10x below PCR) | 10.1111/jfd.13448 |
+| R04649 | Micropterus salmoides rhabdovirus | RPA-LFD | 170 copies/uL (100x below PCR) | 10.1111/jfd.13575 |
+| R04661 | PRRSV | RT-RPA-LFD | 0.56 TCID50/reaction (more sensitive than RT-PCR) | 10.1007/s00705-021-05349-8 |
+| R05261 | sweepoviruses (begomoviruses) | RPA-LFD | 1.0 x 10^4 copies/reaction (10x PCR) | 10.4149/av_2022_208 |
+| R05372 | citrus tatter leaf virus | RT-RPA-LFD | 3 x 10^3 copies/uL (same as RT-qPCR) | 10.1016/j.jviromet.2022.114593 |
+| R05563 | Carassius auratus herpesvirus | RAA-LFD | 100 gene copies/reaction (100x below PCR) | 10.3389/fcimb.2022.981911 |
+| R05624 | strawberry mild yellow edge virus | RT-RPA-LF | 10 pg/uL (100x below RT-PCR) | 10.1007/s00284-022-03045-7 |
+| R05790 | cymbidium mosaic virus | RT-RPA + lateral flow immunostrip | 100x more sensitive than RT-PCR | 10.5423/ppj.ft.10.2022.0147 |
+| R06470 | duck Tembusu virus | RT-RAA-LFD | 10 copies/uL (1000x RT-PCR) | 10.1016/j.jviromet.2023.114810 |
+| R06552 | cowpea mild mottle virus | RT-RPA-LFS | 10 copies/uL (~100x RT-PCR gel) | 10.5423/ppj.oa.02.2023.0033 |
+| R06560 | chicken chaphamaparvovirus | MIRA-LFD | 21.3 copies (100x nested PCR) | 10.1016/j.psj.2023.103144 |
+| R06649 | H7 avian influenza | RT-RAA-LFD | 1 x 10^1 copies/uL (RT-qPCR same; RT-PCR 10^2) | 10.3389/fmicb.2023.1286713 |
+| R06772 | Epstein-Barr virus | RPA-LFA | 1 x 10^3 copies (RPA-LFA); 10^4 (PCR) | 10.3390/v16010106 |
+| R06776 | avian influenza virus | RAA-CRISPR-Cas13a-LFD | 1 copy/uL (1000x PCR-gel) | 10.3389/fvets.2023.1272612 |
+| R06962 | avian leukosis virus | RT-LAMP + lateral flow strip | 10^2 RNA copies/uL (100x RT-PCR) | 10.1007/s00705-024-05977-w |
+| R07041 | avian influenza H5, H7, H9 | RT-RAA-LFD and real-time RT-RAA | 10^2 copies/uL (LFD; 10-100x RT-PCR gel); 10^1 copies/uL (real-time) | 10.1186/s12917-024-04040-9 |
+| R07066 | duck hepatitis B virus | MIRA-LFD | 45.6 copies/reaction (~10x PCR) | 10.3390/vetsci11050191 |
+| R07226 | chikungunya virus | one-tube semi-nested RT-MIRA-LFD | 1 copy/uL (100x RT-MIRA; 10x RT-qPCR) | 10.1128/jcm.00383-24 |
+| R08324 | H1N1 | pre-amplified dsDNA-tag LFA | 1 pM; 100x vs conventional LFA | 10.1016/j.biochi.2026.01.006 |
+
+### Table E4b. Strip readout against another readout of the same reaction (as stated)
+
+| Rec | Virus (target) | Method | LOD by readout (as stated) | DOI |
+|---|---|---|---|---|
+| R06134 | monkeypox virus | RAA-CRISPR/Cas12a with lateral flow strips | 10^1 copies/uL (fluorescence); 10^4 copies/uL (lateral flow) | 10.1039/d2ay01998a |
+| R06582 | avian influenza virus (H1-H16) | CRISPR-Cas13a with fluorescence or lateral flow | 69 copies/uL (fluorescence); 690 copies/uL (lateral flow) | 10.3389/fmicb.2023.1288951 |
+| R07520 | hepatitis E virus | RT-RAA + LFD | LOD95 247 copies/uL (LFD); 25 (fluorescence) | 10.1128/jcm.01064-24 |
+| R07872 | Lassa virus | RAA + Cas13a with lateral flow | 1e2 copies/uL (strip); 1e1 (fluorescence) | 10.1038/s41598-025-07071-w |
+| R08565 | EBV | CRISPR-Cas13a two-step + LF strip | 1e4 copies/reaction (strip); 10 (fluorescence) | 10.3389/fmicb.2026.1850310 |
+| R07069 | H5 avian influenza | RT-RPA/CRISPR-Cas12a (blue light and LFS) | 1.9 copies/uL (blue light); 1.9 x 10^3 copies/uL (LFS) | 10.3390/v16050753 |
+| R02870 | West Nile virus | RT-RAA with LFD | 1,000 plasmid copies (LFD); 10 copies and 1.6 PFU (real-time) | 10.3967/bes2019.116 |
+| R02067 | PPRV | RT-RPA real-time and LFS | 150 copies/reaction (LFS); 100 copies (real-time) | 10.1186/s12985-017-0688-6 |
+| R02095 | pseudorabies virus | RPA-LFD and real-time RPA | 160 copies/reaction (LFD); 100 (real-time) | 10.1016/j.mcp.2017.03.005 |
+| R03105 | Newcastle disease virus | RT-RAA-LFD and real-time RT-RAA | 10^2 copies/uL (LFD; 10x below PCR); 10 copies/uL (real-time) | 10.1016/j.psj.2020.03.018 |
+| R06383 | genus Capripoxvirus | real-time RPA and LFS RPA | 10^2 (real-time), 10^1 (LFS) copies/reaction | 10.1016/j.jviromet.2023.114788 |
+| R05732 | human rhinovirus A and C | RT-RPA-Cas12a, fluorescence or LFS | 0.1 copy/uL (real-time or LFS) | 10.1016/j.virusres.2022.199001 |
 
 ### Table E1a. PCR and RT-PCR with a strip readout
 
