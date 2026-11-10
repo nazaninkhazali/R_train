@@ -267,3 +267,6 @@ Section-d review (2026-11-05): 6 records where the LFA only screens antibodies/p
 Section-g review (2026-11-05): 15 evaluations of marketed multiplex rapid antigen tests excluded (E10), default, reversible. Final included: 1,265.
 
 Scope amendment (author, 2026-11-05): records published before 2015 are excluded from the analysis (E11, 163 records); the search covered all years, a short paragraph on the origin of the lateral flow assay replaces them. Final included: 1,102.
+
+## Amendment 2026-11-10: article framing (author decision)
+The article describes methodologies, substances and technologies and how each changes the colorimetric signal. Only colorimetric detection is in scope. Sections are rewritten one at a time around four questions (what limits the signal; which technology addresses it; what the paper reports against its own baseline; what it costs), starting with section 3.1 (A). Sections 3.5-3.9 (E-I) will be shortened and their records re-sorted by mechanism; record counts will be updated when that is done. Text-assessment field corrected: 31 records read in full (a 13, b 7, c 6, d 3, e 1, f 1).

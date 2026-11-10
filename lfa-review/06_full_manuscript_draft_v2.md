@@ -1,0 +1,2382 @@
+# Colorimetric lateral flow assays for virus detection: scoping review (working draft, assembled 2026-11-10)
+
+Assembled unedited from the section drafts. Section 3.1 is the rewritten v3; other sections are still the earlier versions.
+
+---
+
+# Introduction paragraph: origin and principle of the lateral flow assay (draft v0.1)
+
+Status: the principle and the uses below are supported by papers read for this review. The historical statements (first descriptions, first commercial products, dates and inventors) are NOT yet included because no verified historical source has been retrieved; PubMed search was unstable in this session. They are marked [HISTORY: source needed] and must not be filled from memory.
+
+Text:
+
+The lateral flow assay (LFA) combines the binding of antibodies to a target with chromatographic separation of the complexes on a porous membrane, so that a drop of sample moving by capillary force forms a coloured zone when the target is present (DOI: 10.3390/bios11070229). [HISTORY: first descriptions of immunochromatographic strips and the adoption of coloured particles as labels - source needed.] Gold nanoparticles became the most widely used label because they are simple to synthesise, easy to couple to antibodies and give a visible red signal (DOI: 10.3390/bios11070229; DOI: 10.1016/j.bios.2022.114094). Strips of this kind are now familiar as self-tests for pregnancy, influenza and malaria (DOI: 10.1016/j.bios.2022.114385), and they are valued because they meet most of the WHO ASSURED criteria: affordable, sensitive, specific, user-friendly, rapid and robust, equipment-free and deliverable to end users (DOI: 10.1016/j.bios.2022.114385; DOI: 10.1038/s41467-023-37018-6). [HISTORY: development from latex and gold agglutination tests to the first commercial rapid tests - source needed.] Their main limitation, the high limit of detection compared with laboratory methods, is the problem addressed by the technologies reviewed in sections 3.1 to 3.7 (DOI: 10.3390/bios11070229).
+
+---
+
+# Part A (working text v3): gold nanoparticles and the colorimetric signal
+
+Working text, 2026-11-10. Reframed around the question of this review: how does each technology change the colour signal of a gold-based strip, by how much, and at what cost? Each subsection follows the same four questions: what limits the signal at this point, which substances or technologies address it, what the papers report against their own baseline, and what the change costs. Numbers are in the tables; Table A4 gathers the within-paper changes in the colour signal. † = read in full; all other rows are abstract only (NR = not reported in the abstract). Every DOI cited in the text appears in a table and in the evidence table. Wording and length will be adjusted when the whole review is assembled.
+
+# 3.1 Gold nanoparticles: how engineering changes the colorimetric signal
+
+## 3.1.0 What limits the colour at the test line, and how this section is organised
+
+In a colorimetric lateral flow immunoassay (LFIA) the result is the colour that builds up at the test line. The strength of that colour depends on three things: how many particles the sandwich captures, how strongly each captured particle changes the white membrane, and how clearly that change can be seen against the background. Gold nanoparticles (AuNPs) became the default label because they absorb visible light strongly, are easy to make and are easy to couple to antibodies (DOI: 10.1016/j.bios.2022.114094). Their weakness is a high limit of detection (LOD) when only a few particles reach the line (DOI: 10.3390/bios11070229).
+
+The studies in this section are arranged by which of these limits they act on. The first group improves how many particles reach and bind at the line, by tuning the particle and what it carries (3.1.1). The second leaves the particle unchanged and makes the captured gold more visible after the immunoreaction (3.1.2). The third replaces the sphere with a structure that has a larger optical effect per particle (3.1.3). The fourth changes the binder or antigen that decides what the particle captures (3.1.4). The fifth deals with the assay format, which sets what the line can show (3.1.5). The sixth changes the optics so the background hides less signal (3.1.6), and the last deals with conventional strips that apply none of these changes and serve as baseline (3.1.7). Section 3.1.8 states what the evidence supports.
+
+Table A4 collects the reported change in the colour signal for the studies that report one against their own baseline. Papers read in full are marked † in the tables. The section covers 93 included records, all from 2015-2026.
+
+## 3.1.1 Getting the standard particle right: size and surface
+
+The first design question is the particle itself. Large AuNPs carry more colour, but they also move more slowly through the membrane and may not reach the test line in useful numbers (DOI: 10.3390/bios11070229; DOI: 10.1038/s41467-025-58663-z). Studies that vary particle diameter treat this trade-off directly: HBsAg and dengue NS1 strips were built around size-controlled or large (80 nm) particles (DOI: 10.3390/s16122154; DOI: 10.3390/diagnostics16030395).
+
+What sits on the gold matters as much as the gold itself. Oriented conjugation lets an antibody bind through a defined site and reduces the amount of antibody needed (DOI: 10.1016/j.aca.2021.338623). An additive that chelates the gold surface (EDTA-K2) improved a SARS-CoV-2 antibody test without raising false positives (DOI: 10.2147/ijn.s281594). Studies of the protein corona and of the aggregation state of the probe show that the layer of adsorbed protein changes how the probe binds in NS1 sandwich assays (DOI: 10.1021/acs.bioconjchem.6b00523; DOI: 10.3390/pharmaceutics14112439; DOI: 10.1021/acsami.0c08628).
+
+These studies are valuable because they explain why nominally identical strips perform differently. Most of them, however, are mechanistic, and their abstracts report few diagnostic data (Table A1a). Even a well-tuned conventional strip reaches a limit, which leads to the next approach: making more of the gold that has already been captured.
+
+Several further studies change how the antibody is attached to the gold or what else is on the particle. A comparison of antibody-conjugation strategies in dengue NS1 sandwich assays is mechanistic and gives no values in its abstract (DOI: 10.1080/15321819.2016.1269338). Bacterial protein A and protein G on gold were used as flexible detectors for SARS-CoV-2 antibodies and tested on 105 sera (DOI: 10.1007/s00216-022-03939-2), and a recombinant streptavidin fusion protein served as the signal reporter in a hepatitis C antibody strip tested on patient sera (DOI: 10.1002/jcla.22701). The particle itself is varied: laser-ablated gold nanoparticles for the spike antigen (DOI: 10.5599/admet.2079); hollow gold nanoparticles, where the interaction between particle and antibody was studied to sensitise p24 detection (DOI: 10.1039/d4ra05277c); and gold magnetic nanoparticles in a TORCH IgM strip, which reported 100% sensitivity and specificity in 162/162 sera and higher sensitivity than commercial colloidal-gold strips, with the value not given in the abstract (DOI: 10.3892/ijmm.2015.2333). Ligands matched to the target include an oseltamivir derivative on gold that distinguished resistant from wild-type influenza virus (DOI: 10.1038/s41598-018-31311-x), dextrin-capped gold in a nucleic-acid biosensor for dengue-1 RNA with a cut-off of 1.2 x 10^4 PFU/mL (DOI: 10.3390/diagnostics9030074), and gold-oligonucleotide nanoconstructs designed for conserved enterovirus sequences, whose abstract reports detection of 96% of known enteroviruses (DOI: 10.3390/bios11070238). A thermoplasmonic gold-nanoprism lateral flow assay for SARS-CoV-2 RNA is listed here as a boundary case, because its signal is read from heat and not from colour alone (DOI: 10.1002/smll.202514946).
+
+The limit addressed in 3.1.1 is therefore the number of active particles at the line. The cost is that gains from conjugation chemistry are hard to see in abstracts, because few of these papers give a value against their own baseline strip.
+
+## 3.1.2 Making more of the captured gold: enlargement and amplification
+
+After the sandwich has formed, the particles at the test line can act as seeds. Depositing more metal on them enlarges them, and larger or more irregular particles colour the line more strongly (DOI: 10.3390/bios11070229). Panferov and colleagues compared silver enhancement, a new gold-after-silver step based on galvanic replacement, and gold enhancement on one strip format with the same antibodies and the same AuNPs. Gold enhancement gave the lowest LOD, by more than two orders of magnitude over the unenhanced strip, and used stable reagents, but it brought nonspecific colouring and needed an optical instrument to reach the lowest value (DOI: 10.3390/bios11070229). The pattern repeats in other studies: growing 20 nm particles into much larger ones after the assay, which in potato leaf extracts turned most of the conventional strip's false negatives into positives (DOI: 10.1007/s00604-018-3052-7), a self-enhancement design (DOI: 10.1016/j.snb.2023.133898), and gold nanoflowers combined with gold staining, which were tested in buffer and artificial saliva only (DOI: 10.1007/s00604-024-06502-1). Each lowers the LOD within its own strip format. Each also adds a step beyond the conventional run, and the lowest values often rely on calibration or a reader.
+
+A different route is to build up the label at the line instead of growing it. Layer-by-layer assembly of AuNPs through biotin-streptavidin binding, driven by electrophoresis, lowered the LOD of an HBsAg strip by more than 60-fold (DOI: 10.1002/anie.202215548). The design is a two-stage workflow: the conventional strip is read first, and enhancement is applied only to samples that look negative or weakly positive. On 118 clinical samples this raised diagnostic sensitivity against a laboratory chemiluminescent assay without changing specificity, but it needs a small power supply, a holder and an extra reagent step (DOI: 10.1002/anie.202215548). In antibody (serology) strips, a complex of antibody-gold and antigen-gold conjugates increased the test-line signal over antigen-gold alone, and brought the visual limit to the cut-off of the reference ELISA (DOI: 10.1002/gch2.202200008).
+
+The trade-off in this group is consistent. The gains are real and often large, but they are paid for with extra reagents, extra time, more background or dependence on instrument reading (Table A1b). That limits their use where the strip must work with no equipment. The alternative is to design a better particle in advance.
+
+## 3.1.3 Better particles: clusters, dimers, shells and composites
+
+The optical response of a particle depends on its size, shape, composition and the distance to its neighbours. Several groups exploit this to give each captured particle more effect on the line.
+
+Clusters add absorption by putting several particles at each binding event. The difficulty is plasmon coupling: when particles sit closer than about 10 nm the absorption shifts towards the near-infrared and the visible colour fades (DOI: 10.1016/j.bios.2022.114094). Streptavidin-core clusters held about 15 nm apart by biotinylated antibodies avoid this and keep the red colour, and the 40-40 cluster outperformed single particles, whereas the 40-15 cluster did not (DOI: 10.1016/j.bios.2022.114094). Gold dendrimer nanochains with a red-to-blue shift have also been tested (DOI: 10.1039/c7tb01394a). Core-satellite SiO2@Au particles, in which a silica core carries many small gold satellites, lowered the LOD by two orders of magnitude against 40 nm gold colloids with the same assay, although only recombinant protein and inactivated culture virus were tested and the visual limit was much higher than the calculated LOD (DOI: 10.1021/acsami.2c13303).
+
+Dimers use the opposite logic. Two particles joined with a sub-nanometre gap couple strongly and show two plasmon peaks, giving a stronger signal than single spheres, and they gave a clearly lower naked-eye LOD than a commercial strip for porcine epidemic diarrhea virus, with full agreement with RT-PCR on faecal samples (DOI: 10.1007/s00604-023-06013-5). The authors note that dimers are hard to prepare at scale and that their long-term stability has not been tested (DOI: 10.1007/s00604-023-06013-5).
+
+Hollow alloy shells widen the absorption band. Silver-rich Ag-Au nanoshells have two plasmon peaks and a larger integrated absorbance than same-size AuNPs. Used as label in a bovine viral diarrhea virus strip, they gave a lower visual LOD than the authors' own AuNP strip with the same antibodies, and good agreement with a commercial ELISA on field samples (DOI: 10.1007/s00604-026-08241-x).
+
+Composite particles combine gold with a second material, for example a magnetic Fe3O4 core used as a performance enhancer (DOI: 10.1039/c8ra00185e) or magnetic-gold nanostars, which add magnetic pre-concentration to a spiked plasmonic shell and gave a very large gain over the authors' own gold-sphere strip in buffer and spiked serum, but require a magnet and a pre-incubation step and were not tested on patient samples (DOI: 10.1021/acsami.5c21544). One study used two-wavelength imaging of composite particles, which gives a large gain but depends on an imager rather than the eye (DOI: 10.1016/j.bios.2022.114133).
+
+The strongest evidence in this group comes from papers that compare their particle with a conventional strip made with the same antibodies (clusters, shells). Others compare with commercial strips, which mixes label and antibody effects (dimers), or have been tested only in buffer (nanostars) (Table A1c). All of these designs still read absorbed colour against a white membrane. One study changes that.
+
+## 3.1.4 Replacing the binder and choosing the antigen
+
+A brighter label cannot help if the binder is weak. A parallel line of work therefore replaces the conventional antibody with a binder that is smaller, more stable or easier to produce.
+
+Nanobodies are small single-domain fragments. In a SARS-CoV-2 spike S1 strip, a nanobody-gold detector with an ACE2-gold capture probe lowered the LOD compared with a monoclonal-antibody version of the same strip, and gave higher sensitivity at low viral loads in saliva (DOI: 10.1038/s41598-023-37347-y). The abstract and the results text disagree on the comparator's sensitivity, so this comparison needs checking against the source tables (DOI: 10.1038/s41598-023-37347-y). Other nanobody designs, including multivalent and Y-shaped assemblies, have been reported for SARS-CoV-2 and chikungunya virus, and a nanobody strip has been used on human norovirus outbreak specimens (DOI: 10.1021/acs.analchem.4c00509; DOI: 10.1039/d4nr02762k; DOI: 10.1039/d5nr02568k; DOI: 10.3390/bios16020132; DOI: 10.3389/fimmu.2025.1707358; DOI: 10.1128/msphere.00219-16).
+
+Aptamers are chemically synthesised and can be produced more reproducibly and cheaply than antibodies (DOI: 10.3390/molecules29081776). They can be used in sandwich or competitive formats. A competitive aptamer strip for SARS-CoV-2 spike protein on food packaging used an aptamer chosen for broad binding to variant spike proteins, but its sensitivity was lower than other methods and it was tested only with recombinant protein (DOI: 10.3390/molecules29081776). Other aptamer strips were evaluated with inactivated virus or spiked samples (DOI: 10.1002/anie.202107730; DOI: 10.1021/acs.analchem.2c00554; DOI: 10.1186/s12951-023-02191-9).
+
+Further binders include sialic-acid glyconanoparticles that recognise spike through glycans, a lectin for severe dengue, and a miniprotein binder aimed at variants of concern (DOI: 10.1021/acscentsci.0c00855; DOI: 10.1080/15321819.2023.2260480; DOI: 10.1007/s00604-023-06113-2). Their abstracts give no accuracy data (Table A1d).
+
+In principle, binder replacement is promising for supply independence and for coping with sequence variation. The evidence so far is mostly analytical, and the clearest like-for-like comparison is the nanobody strip.
+
+Two further parts of the strip decide what the particle can capture: the pair of antibodies, and the antigen used in serology strips. For SARS-CoV-2 nucleocapsid, two antibody pairs (NP-mAb-7 and -40) reached 8 pg of nucleocapsid protein and 625 TCID50/mL of virus on 60 clinical samples (DOI: 10.3390/ijms222212412), and a detection antibody aimed at a linear epitope reached 10 pg/mL (DOI: 10.3390/ijms25084436). Comparing nucleocapsid and spike as targets for strips was the subject of one study (DOI: 10.1016/j.molimm.2021.01.005). In serology strips the antigen can be the variable: an acid-treated p72 antigen on gold detected African swine fever virus antibodies at a 1:10,000 serum dilution (DOI: 10.3389/fchem.2021.804981); the protrusion domain of the infectious bursal disease virus VP2 protein was used as a highly immunogenic diagnostic antigen (DOI: 10.1007/s00253-020-10458-6); plant-produced receptor-binding domain gave sensitivity 94.1% and specificity 98% on 51 sera (DOI: 10.3877/cma.j.issn.2096-112x.2021.01.006); and baculovirus-expressed nucleocapsid and receptor-binding domain were tested on 103 convalescent sera (DOI: 10.1007/s10529-022-03316-0). The shell domain of norovirus was chosen as the antigen for a broad-range strip tested on 122 clinical samples (DOI: 10.1186/s12866-020-02084-z).
+
+Aptamers and synthetic binders continue the theme. A pair of sandwich aptamers detected whole avian influenza H5N2 particles with enhanced specificity over other H5Nx viruses (DOI: 10.1016/j.bios.2019.03.061), an aptamer system for H3N2 selected by virus-based SELEX is a scope check, because the abstract describes no strip data (DOI: 10.1166/jbn.2019.2789), an aptamer-based isolation step was combined with a strip for grouper nervous necrosis virus (5 ng/mL coat protein) (DOI: 10.3389/fmicb.2020.00886), a nanogold-and-aptamer proof of concept was proposed for at-home detection of SARS-CoV-2 mutants (DOI: 10.1016/j.nano.2022.102590), and a DNA aptamer for the Omicron receptor-binding domain was developed for multiplexed detection and pseudovirus neutralisation, again a scope check (DOI: 10.1021/acs.analchem.2c01993). A hydrogel nanoparticle acting as an abiotic antibody mimic on a gold core was developed for spike detection (DOI: 10.1016/j.talanta.2025.129324).
+
+In every case in this group the abstract gives either a detection limit or a specificity statement, not a like-for-like comparison with an antibody version of the same strip. The exception is the nanobody strip above (DOI: 10.1038/s41598-023-37347-y).
+
+## 3.1.5 Assay format: what the line is able to show
+
+Even with a good label, the format of the immunoassay limits what colour can mean. In a sandwich strip, too much antigen can suppress the line (the hook effect). A study of lumpy skin disease virus investigated this effect directly, reporting a detection limit of 10^3.4 TCID50/mL, a coefficient of variation below 5.3% and no cross-reaction with 12 viruses (DOI: 10.3390/bios12090739). In competitive formats the line gets weaker as the target increases, which suits small analytes and functional assays: a competitive gold strip for neutralising antibodies gave 20.66 IU/L with 100% specificity (DOI: 10.1021/acsomega.2c03677), and a biomimetic mock-virus particle with trimeric spike measured neutralising antibody at 59 IU/mL, benchmarked to the WHO standard (DOI: 10.1021/acs.analchem.3c04372). Quantitative comparison of kits is another use of the format: a quantitative colloidal-gold assay measured the detection limit of nine approved antigen kits against the nucleocapsid protein and found nucleic-acid testing at least 1835 times more sensitive than antigen testing on a Delta strain (DOI: 10.1016/j.talanta.2023.124462). A Japanese encephalitis NS1 strip with a smartphone colorimeter reached 10 pg/mL by eye in spiked serum and was stable for one month at 4 C (DOI: 10.1039/d2na00463a).
+
+The limit addressed here is interpretation: whether the colour on the line has a one-to-one relation with the amount of target. The cost is that each format has a different dynamic range, and most of these abstracts do not state it.
+
+## 3.1.6 Changing the optics: plasmonic scattering as a boundary case
+All the strategies above increase absorbed colour. One study instead removes the white background that hides a different optical signal. When the nitrocellulose membrane is made transparent by refractive-index matching and placed over a black backing card, large AuNPs appear as orange lines by scattering rather than absorption, and the background almost disappears (DOI: 10.1038/s41467-025-58663-z). The authors report a very large gain against their own conventional strip and against commercial strips, a higher sensitivity on a small set of clinical swabs, and a naked-eye or smartphone readout (DOI: 10.1038/s41467-025-58663-z). The approach needs an extra reagent step and sufficient light, and the authors place it beyond absorbance-based colorimetric detection. We therefore keep it as a flagged boundary case and report its figures separately from absorption-based strips (Table A1c).
+
+## 3.1.7 Conventional gold strips without engineering
+
+Many included records describe new colloidal-gold strips that apply none of the steps above. They serve as baseline: they show what the unmodified format achieves, and they are the strips that the engineering papers set out to improve. Their abstracts rarely give a within-paper change, so they are summarised here by target, with values in Table A1f.
+
+For SARS-CoV-2 antibodies, IgM and IgG strips reported sensitivity and specificity against patient sera: sensitivity 100% and specificity 93.3% (kappa 0.872) for IgM (DOI: 10.1021/acsomega.0c01554), sensitivity 90% and specificity 96.6% against real-time PCR on 60 samples (DOI: 10.1089/mab.2021.0027), and others without values in the abstract (DOI: 10.1039/d0an00629g; DOI: 10.1097/cm9.0000000000000922); the colloidal-gold assays in Table A1e add 158/170 positives with AUC 0.958 (DOI: 10.1002/jcla.23619) and IgM sensitivity of 90.67% (DOI: 10.1002/ctm2.90). A nasal secretory IgA strip detected spike-specific IgA purified from people infected with BA.5 (DOI: 10.3389/fmicb.2024.1386891). For SARS-CoV-2 antigen, a spike strip detected 62.5 ng/mL in a subunit vaccine (DOI: 10.3389/fimmu.2021.635677), a nucleocapsid kit more than 0.2 ng/mL recombinant protein without cross-reaction (DOI: 10.1016/j.jviromet.2021.114183), a gold-nanoparticle receptor-binding-domain strip detected 1 ng/mL with sensitivity 94.3% and specificity 90.9% against RT-PCR on 100 clinical samples (DOI: 10.1002/jmv.28416), a nanogold test reached sensitivity 95% and specificity 98% on clinical specimens (DOI: 10.3390/nano12142477), another detected 2 ng/mL with 98% concordance (DOI: 10.1007/s00604-025-07299-3), and the CoV-SCAN strip detected 10 variants at 1.6-12.5 TCID50/swab (DOI: 10.1016/j.jcvp.2022.100080). A nucleic-acid sandwich strip for the N3 gene reached 5 pM (DOI: 10.1016/j.jbiosc.2022.11.001).
+
+For other human viruses: an HIV-1 p24 strip with in-house monoclonal antibodies reached 25 pg/mL and detected 10/10 positives with specificity 98.03% (DOI: 10.1155/2016/6743904); an SFTSV strip reached 1 ng/mL (DOI: 10.1021/acsomega.8b02366); a feline coronavirus antibody strip was tested on plasma, serum, whole blood and ascitic fluid (DOI: 10.1007/978-1-4939-2438-7_3); a dengue competitive strip with 4G2 reached 5.12 x 10^2 PFU (DOI: 10.3390/bios12070495); a varicella-zoster strip reached 30 ng/mL gE without cross-reactivity with EV71, HSV-1 or HSV-2 (DOI: 10.1016/j.virol.2023.07.008); and an HTLV-I IgG strip showed sensitivity 96.7% and specificity 100% (DOI: 10.3390/v15010129). For animal and aquatic viruses: a nervous necrosis virus strip for whole virions on fish tissue (DOI: 10.1038/s41598-020-63553-z), porcine circovirus 2 at 10^3.18 TCID50/mL (DOI: 10.1128/spectrum.01953-22), pseudorabies virus at 1.336 x 10^3 copies/uL (DOI: 10.3389/fmicb.2024.1399123), a canine parvovirus strip on faecal samples (sensitivity 71%, specificity 92% against haemagglutination) (DOI: 10.1007/s00705-018-3846-2), canine parvovirus strips, one in colloidal gold and fluorescent format on 60 clinical samples and one in nanogold with sensitivity 96.4% and specificity 88.2% against qPCR (DOI: 10.1007/s00253-023-12604-2; DOI: 10.1038/s41598-024-55548-x).
+
+These records show how widely the format has been adapted, but they say little about signal improvement, because no engineered comparison strip is run beside them. A strip is listed in this group when its abstract describes no deliberate change to the label, binder or readout.
+
+## 3.1.8 What the evidence supports
+
+For the question of this review, the studies give a consistent picture. The largest changes to the colour signal come from making the captured gold more visible, either after capture (enlargement, layer assembly, an amplifier complex) or through a better particle (clusters, dimers, shells, nanoflowers, nanostars), and these are the changes with the best-supported comparisons, because the same paper runs its own conventional strip (Table A4). The size of the change, within a paper, ranges from about 2-fold to about 1000-fold, and the high end belongs to designs with extra hardware or reagents (a magnet, an electrode set, an imager). Conjugation chemistry, binder replacement, antigen design and assay format address other limits (activity of the antibody, supply, variants, interpretation of the line); they matter for performance but their abstracts seldom state a change in signal against a baseline.
+
+Three limitations apply across the section. First, many reported LODs come from scanners, imagers or readers rather than the naked eye, so they describe instrument-assisted performance, not equipment-free performance. Second, clinical evaluation is the exception among engineering papers: several tested only spiked buffer, saliva or recombinant protein, and the reference method varies (ELISA, RT-PCR, gel-read RT-PCR). Third, comparators differ (own conventional strip, same-size particles, commercial strip), so fold-changes cannot be ranked. Reporting quality of the papers read in full is in Table A3. Two animal-virus strips (DOI: 10.1039/d4an00180j; DOI: 10.1039/d2an02043b) are still known from abstracts only. Thirteen of the 93 papers have been read in full, in some cases in the main text only.
+
+### Table A1a. Particle size, conjugation chemistry and probe design
+
+| Rec | Year | Target | Label / engineering | Matrix | LOD (as stated) | Within-paper comparison | Diagnostic data (as stated) | Readout | Evidence | DOI |
+|---|---|---|---|---|---|---|---|---|---|---|
+| R02038 | 2016 | HBsAg | AuNP, sizes 34.2-137.8 nm | NR | NR | NR | NR | visual | Abstract | 10.3390/s16122154 |
+| R08340 | 2026 | DENV NS1 | 80 nm AuNP | 185 archived plasma | 2.9 (DENV-1), 0.5 (DENV-2), 25.2 (DENV-3), 4.5 ng/mL (DENV-4) | NR | vs NS1 ELISA (values not in abstract) | visual | Abstract | 10.3390/diagnostics16030395 |
+| R03985 | 2021 | HBsAg | gold nanoparticles | NR | less labelled antibody (0.2 mg/pmol AuNPs); LOD NR | NR | NR | visual | Abstract | 10.1016/j.aca.2021.338623 |
+| R03607 | 2021 | SARS-CoV-2 IgM/IgG | AuNP | serum | not reported | NR | improved sensitivity without false positives (no values) | visual | Abstract | 10.2147/ijn.s281594 |
+| R02055 | 2017 | Zika virus NS1 | gold nanoparticles | NR | NR | NR | protein corona improves specificity/sensitivity | visual | Abstract | 10.1021/acs.bioconjchem.6b00523 |
+| R05768 | 2022 | dengue NS1 | gold nanoparticles | NR | preformed coronas altered LOD and KD | NR | NR | visual | Abstract | 10.3390/pharmaceutics14112439 |
+| R03110 | 2020 | dengue (model) | gold nanoparticles | NR | NR | NR | NR | visual | Abstract | 10.1021/acsami.0c08628 |
+| R02034 | 2017 | dengue NS1 | dipstick AuNP-antibody conjugation strategies (gold nanoparticles) | NR | NR | NR | NR | visual | Abstract | 10.1080/15321819.2016.1269338 |
+| R04769 | 2022 | SARS-CoV-2 antibodies | LFIA with SpA/SpG-gold conjugates (gold nanoparticles (bacterial ligands)) | 105 sera (69 positive, 36 negative) | NR | NR | NR | visual | Abstract | 10.1007/s00216-022-03939-2 |
+| R02505 | 2019 | anti-HCV antibodies | LFA with gold-labelled streptavidin fusion protein reporter (colloidal gold-streptavidin fusion) | patient sera | NR | NR | NR | visual | Abstract | 10.1002/jcla.22701 |
+| R06935 | 2024 | SARS-CoV-2 spike | laser-ablated gold nanoparticles in LFIA (laser-ablated gold nanoparticles) | NR | NR | NR | NR | visual | Abstract | 10.5599/admet.2079 |
+| R07303 | 2024 | HIV p24 | LFIA with hollow gold nanoparticle-antibody interaction study (hollow AuNP) | not reported | not reported | NR | not reported | visual | Abstract | 10.1039/d4ra05277c |
+| R01743 | 2015 | TORCH IgM (rubella, CMV, HSV) | LFIA, gold magnetic nanoparticle conjugate (gold magnetic nanoparticles (PMAA-modified)) | 41 seropositive, 121 seronegative sera | higher than commercial colloidal gold strips (value NR) | NR | sens 100% (162/162), spec 100% (162/162) | visual/reader NR | Abstract | 10.3892/ijmm.2015.2333 |
+| R02458 | 2018 | oseltamivir-resistant influenza | LF biosensor with oseltamivir-derivative-modified AuNPs (gold nanoparticles (OHT-GNP)) | virus preparations | 5 x 10^2-10^3 PFU/test (1 x 10^4 PFU/mL) | NR | distinguishes resistant from WT virus | visual | Abstract | 10.1038/s41598-018-31311-x |
+| R02747 | 2019 | dengue-1 RNA | LFB, dextrin-capped AuNP (dextrin-capped AuNP) | pooled human sera | cut-off 1.2 x 10^4 PFU/mL | NR | NR | visual | Abstract | 10.3390/diagnostics9030074 |
+| R04213 | 2021 | enteroviruses | gold-oligonucleotide nanoconstructs (colourimetric, spectroscopic, lateral flow) (gold nanoparticles) | NR | NR | NR | detects 96% of known enteroviruses (conserved sequences) | visual | Abstract | 10.3390/bios11070238 |
+| R08549 | 2026 | SARS-CoV-2 RNA | gold nanoprism thermoplasmonic LFA (ThermoOLFA) (gold nanoprisms) [boundary: heat readout] | not reported | comparable to RT-qPCR (no value) | NR | not reported | visual (thermal enhancement) | Abstract | 10.1002/smll.202514946 |
+
+### Table A1b. On-strip enlargement and signal amplification
+
+| Rec | Year | Target | Label / engineering | Matrix | LOD (as stated) | Within-paper comparison | Diagnostic data (as stated) | Readout | Evidence | DOI |
+|---|---|---|---|---|---|---|---|---|---|---|
+| R04212 | 2021 | SARS-CoV-2 RBD | 22.8 nm AuNP; Ag, galvanic-Au or Au enhancement on strip | saliva spiked (1 healthy volunteer); inactivated virus | 488 / 61 / 8 / 1 pg/mL (conventional / Ag / galvanic / Au) | Same strip, same antibodies: 488-fold from conventional to gold enhancement (calculated); inactivated virus detected at 500-fold higher dilution | none (no patient samples) | flatbed scanner, grayscale | Full text † | 10.3390/bios11070229 |
+| R02496 | 2018 | Potato virus X | 20 nm AuNP enlarged to ~350 nm on strip (HAuCl4 + H2O2, 1 min) | potato leaf extracts | conventional 4.11 ng/mL; enhanced 17 pg/mL (blank mean + 3 SD) | 240-fold lower than conventional LFIA | 170 infected and 49 healthy extracts (20 and 16 plants): conventional detected 117/170; enhanced 170/170; no false positives in 49 healthy; infected status of plants checked with commercial ELISA | visual; flatbed scanner (Canon 9000F) for quantification | Full text † | 10.1007/s00604-018-3052-7 |
+| R06172 | 2023 | SARS-CoV-2 nucleocapsid | gold nanoparticles + gold enhancement | saliva | 0.50 ng/mL (naked eye), 0.10 ng/mL (calibration); 10x conventional | about 10x vs conventional LFIA | NR | visual | Abstract | 10.1016/j.snb.2023.133898 |
+| R07142 | 2024 | SARS-CoV-2 N protein | 135 nm gold nanoflowers (Au NFs) +/- gold staining; Au NF-600 vs 94 nm AuNP of similar size | sample dilution buffer; artificial saliva (matrix test); no real samples | naked eye 0.025 ng/mL (3 sigma/slope 0.01 ng/mL); with gold staining naked eye 0.005 ng/mL (3 sigma/slope 0.0035 ng/mL) | nanoflower 5-fold (naked eye 0.05 vs 0.25 ng/mL) vs spherical AuNP of similar size, same antibodies; gold staining 5-fold further | none; artificial saliva up to 40% v/v no effect, 50% weakened signal | naked eye; smartphone (Oppo Reno 8 Pro+) + ImageJ | Full text † | 10.1007/s00604-024-06502-1 |
+| R05719 | 2023 | HBsAg | 22.7 nm AuNP; post-assay electrophoretic layer-by-layer assembly (biotin/streptavidin AuNP) | human serum spiked with HBsAg; 118 clinical samples (99 serum, 19 plasma) | conventional 7.8 ng/mL; enhanced 0.12 ng/mL (blank + 3 SD, n = 3); linear range 0.12-62.5 ng/mL | more than 60-fold (authors; 65-fold calculated); capillary-flow addition of the same conjugates gave only 6.0 vs 7.8 ng/mL | vs Abbott Alinity i chemiluminescent assay (80 positive, 38 negative): conventional sens 58/80 (72.5%), spec 36/38 (94.7%); enhanced sens 78/80 (97.5%), spec 36/38 (94.7%); enhancement applied only to samples with no or weak coloration (< 4 RU) | visual and colorimetric intensity (RU); imaging device not stated in main text | Full text † | 10.1002/anie.202215548 |
+| R05311 | 2022 | SARS-CoV-2 N-protein IgM/IgG (serology) | N-protein-gold + anti-N IgG-gold amplifier complex (150 nm nanoshells per text) | serum, 2 uL | visual at ELISA OD 0.55 (IgM), 0.4 (IgG); no concentration LOD | more than 2-fold signal vs N-protein-gold alone | 112 RT-PCR+ and 52 pre-pandemic sera vs in-house ELISA: IgM sens 94% (103/109), spec 93% (51/55); IgG sens 96% (107/112), spec 98% (51/52) | smartphone + ImageJ | Full text † | 10.1002/gch2.202200008 |
+
+### Table A1c. Structured plasmonic particles and the scattering boundary case
+
+| Rec | Year | Target | Label / engineering | Matrix | LOD (as stated) | Within-paper comparison | Diagnostic data (as stated) | Readout | Evidence | DOI |
+|---|---|---|---|---|---|---|---|---|---|---|
+| R04815 | 2022 | SARS-CoV-2 nucleocapsid | PLASCOP AuNP clusters (streptavidin core, ~15 nm gaps) | buffer; virus-spiked saliva | 0.910 (15 nm AuNP), 0.226 (40 nm), 0.551 (40-15 cluster), 0.038 ng/mL (40-40 cluster); 54 TCID50/mL virus in saliva | 40-40 cluster: 5.9x vs 40 nm, 23.8x vs 15 nm; 40-15 cluster worse than 40 nm | none (spiked saliva only) | ChemiDoc imager, S/N = 5 | Full text † | 10.1016/j.bios.2022.114094 |
+| R02948 | 2017 | HIV p24 | gold dendrimer nanochains (red-to-blue shift) | pseudo-serum | 5 ng/mL (pseudo-serum) | NR | NR | visual | Abstract | 10.1039/c7tb01394a |
+| R05579 | 2022 | SARS-CoV-2 nucleocapsid protein | SiO2@Au core-satellite particles vs 40 nm gold colloid | assay buffer; heat-inactivated cultured virus | 0.24 pg/mL N protein (blank + 3 SD); visual limit 10 pg/mL; cultured virus 4.9 TCID50/mL (naked eye 3.8 x 10^2 TCID50/mL) | 2 orders of magnitude lower than conventional strip with 40 nm gold colloids (100-fold in dilution test) | none (no patient samples); no cross-reactivity with influenza A, influenza B, MERS-CoV, Ebola and HCoV-229E NPs; strips stable 15 days (RSD 4.31%) | naked eye and colorimetric intensity (imaging reader) | Full text † | 10.1021/acsami.2c13303 |
+| R06544 | 2023 | PEDV antigen | AuNP dimers (30 nm, Ag-ion soldering) | pig faeces; cultured virus dilutions | 2.0 x 10^2 TCID50/mL | 50-fold vs commercial AuNP strip (1.0 x 10^4); different antibodies | 109 faeces vs gel-read RT-PCR: 90+/19-, 100% agreement | naked eye | Full text † | 10.1007/s00604-023-06013-5 |
+| R08618 | 2026 | BVDV NS3 antigen | hollow Ag-rich Ag-Au nanoshells (~40 nm) | bovine serum and ear tissue | 1.95 x 10^3 TCID50/mL | 4-fold vs own AuNP strip (7.81 x 10^3), same antibodies | 215 samples vs commercial NS3 ELISA: TP 45, FN 3, FP 1, TN 166; PPA 93.75%, NPA 99.40%, OA 98.14% | visual (ImageJ for optimisation) | Full text † | 10.1007/s00604-026-08241-x |
+| R05088 | 2018 | avian influenza H7 | Au/Fe3O4 core-shell nanoparticles | 200 clinical samples | 10^3.5 EID50 | NR | 7 positives in 200 clinical samples | visual | Abstract | 10.1039/c8ra00185e |
+| R08385 | 2026 | RVFV nucleoprotein (recombinant) | magnetic-gold nanostars (mpGNS-3, Fe3O4 core, sharp gold spikes); magnetic pre-concentration | PBS; blood serum spiked; saliva, urine, whole blood from one healthy volunteer (1 ng/mL spike) | 2.24 pg/mL in PBS; 1.17 pg/mL in spiked blood serum (3 sigma/slope) | about 1000-fold vs own gold nanosphere strip (2 ng/mL); non-magnetic control run | none (spiked samples only); specificity panel not tested; whole blood caused aggregation | smartphone grayscale; colorimetric | Full text † | 10.1021/acsami.5c21544 |
+| R04920 | 2022 | HIV capsid protein | composite plasmonic nanoparticles | NR | 170 fM (58-fold improvement over 50 nm AuNP single wavelength) | 58-fold vs single-wavelength imaging of 50 nm AuNP | NR | optical two-wavelength imaging | Abstract | 10.1016/j.bios.2022.114133 |
+| R07685 | 2025 | Influenza A (H1N1 particles, NP) | 100 nm AuNP, plasmonic scattering on black backing (boundary case) | buffer; swabs in transport medium (diluted to 10%) | 2.09 pfu/mL (NP 1.17 pg/mL) | 361-fold vs own 40 nm AuNP strip (755.47 pfu/mL; NP 234.69 pg/mL); 2600-4400-fold vs three commercial strips (5,417-9,219 pfu/mL) | 30 qRT-PCR+ and 12 healthy: sens 90% (27/30), spec 100%; commercial strips 23-30%; own conventional 40% | gel imager; smartphone gave same positive rate | Full text † | 10.1038/s41467-025-58663-z |
+
+### Table A1d. Binders, antibody pairs and antigen design
+
+| Rec | Year | Target | Label / engineering | Matrix | LOD (as stated) | Within-paper comparison | Diagnostic data (as stated) | Readout | Evidence | DOI |
+|---|---|---|---|---|---|---|---|---|---|---|
+| R06317 | 2023 | SARS-CoV-2 S1 | AuNP-nanobody detector + AuNP-ACE2 capture (40 nm) | gamma-irradiated virus; saliva | nanobody 0.4 vs mAb 1.6 (x 10^n copies/mL; exponent unverified) | 4-fold lower LOD than mAb version of same strip | 320 saliva (180 RT-PCR+, 140 -): Ct<=30 sens 97.14%, spec 98.57% (nanobody); mAb sens 90.04% (abstract) vs 83.33% (text) | gel documentation imager | Full text † | 10.1038/s41598-023-37347-y |
+| R07006 | 2024 | SARS-CoV-2 N protein | NR | NR | 500 pg/mL | NR | NR | visual | Abstract | 10.1021/acs.analchem.4c00509 |
+| R07343 | 2024 | SARS-CoV-2 S1 | AuNP | not reported | picomolar sensitivity | NR | not reported | visual | Abstract | 10.1039/d4nr02762k |
+| R08024 | 2025 | SARS-CoV-2 N protein | AuNP | not reported | 10^3.15 PFU/mL; R2 0.9874 | NR | not reported | visual | Abstract | 10.1039/d5nr02568k |
+| R08366 | 2026 | SARS-CoV-2 N protein | AuNP | not reported | 40 ng/mL | NR | not reported | visual | Abstract | 10.3390/bios16020132 |
+| R08202 | 2025 | CHIKV E protein | AuNP | serum | 1.56 ng/mL (ICTS); 49 pg/mL (ELISA) | nanobody ELISA 49 pg/mL for comparison | not reported | visual | Abstract | 10.3389/fimmu.2025.1707358 |
+| R01994 | 2016 | human norovirus | NR | outbreak specimens | NR | NR | sens 80%, spec 86% | visual | Abstract | 10.1128/msphere.00219-16 |
+| R07002 | 2024 | SARS-CoV-2 spike protein | AuNP-aptamer, competitive format | thawed cold-chain package ice, spiked with recombinant S protein | 91.2 ng/mL (0.68 nM), 3 sigma/slope | NR | none; recovery 83.3-108.8% (RSD 2.3-6.2%) | Hamamatsu reader; visual range 0.1-1 ug/mL | Full text † | 10.3390/molecules29081776 |
+| R04192 | 2021 | SARS-CoV-2 spike | NR | UV-inactivated virus | 5 x 10^5 copies/mL | NR | NR | visual | Abstract | 10.1002/anie.202107730 |
+| R05081 | 2022 | SARS-CoV-2 | NR | UV-inactivated virus | 10^6 copies/mL | NR | NR | visual | Abstract | 10.1021/acs.analchem.2c00554 |
+| R06728 | 2024 | SARS-CoV-2 N | NR | 10 spiked NP samples | 0.1 ng/mL (ELAAA); 0.1-0.5 ng/mL range (hybrid-LFS) | NR | ELAAA recovery 92% | visual | Abstract | 10.1186/s12951-023-02191-9 |
+| R03437 | 2020 | SARS-CoV-2 spike | glyconanoparticles (gold) | NR | NR | NR | NR | visual | Abstract | 10.1021/acscentsci.0c00855 |
+| R06535 | 2023 | dengue (severe) | gold nanoparticles (lectin) | patient samples | 5 ug/uL | NR | NR | visual | Abstract | 10.1080/15321819.2023.2260480 |
+| R06699 | 2023 | SARS-CoV-2 variants of concern | gold nanoparticles | NR | NR | NR | NR | visual | Abstract | 10.1007/s00604-023-06113-2 |
+| R04547 | 2021 | SARS-CoV-2 nucleocapsid | LFIA with NP-mAb-7 and -40 | 60 clinical samples | 8 pg NP; 625 TCID50/mL virus | NR | spec 100%, sens 90% at Ct<29.5 | visual | Abstract | 10.3390/ijms222212412 |
+| R07001 | 2024 | SARS-CoV-2 N protein | colloidal gold IC with linear-epitope detection antibody (colloidal gold) | NR | 10 pg/mL | NR | NR | visual | Abstract | 10.3390/ijms25084436 |
+| R03544 | 2021 | SARS-CoV-2 N and S proteins | immunoassay strips, N vs S targets | NR | NR | NR | NR | visual | Abstract | 10.1016/j.molimm.2021.01.005 |
+| R04694 | 2021 | ASFV antibodies | double-antigen sandwich LFA, AuNP-labelled acid-treated p72 (gold nanoparticles) | serum | 1:10,000 serum dilution | NR | NR | visual | Abstract | 10.3389/fchem.2021.804981 |
+| R02902 | 2020 | infectious bursal disease virus antibodies | AuNP LFA with VP2 protrusion domain (gold nanoparticles) | chicken serum | NR | NR | high specificity lab and on-site | visual | Abstract | 10.1007/s00253-020-10458-6 |
+| R05292 | 2021 | SARS-CoV-2 RBD | LFIA with plant-produced RBD | 51 COVID-19 sera | NR | NR | sens 94.1%, spec 98% | visual | Abstract | 10.3877/cma.j.issn.2096-112x.2021.01.006 |
+| R05684 | 2022 | SARS-CoV-2 IgM/IgG | AuNP LFA with baculovirus-expressed N and RBD (gold nanoparticles) | 103 convalescent, 28 controls | NR | NR | NR | visual | Abstract | 10.1007/s10529-022-03316-0 |
+| R03535 | 2021 | human norovirus GI/GII | colloidal gold ICA, shell domain (colloidal gold) | 122 clinical samples | 1.2 x 10^6 gc/g (GI), 4.4 x 10^5 gc/g (GII) | NR | vs RT-qPCR (values NR) | visual | Abstract | 10.1186/s12866-020-02084-z |
+| R02668 | 2019 | avian influenza H5N2 | aptamer pair on lateral flow strip | whole virus particles | NR | NR | enhanced specificity over other H5Nx | visual | Abstract | 10.1016/j.bios.2019.03.061 |
+| R02714 | 2019 | influenza H3N2 | aptamers selected by Viro-SELEX for diagnostic system [scope check] | NR | NR | NR | NR | NR | Abstract | 10.1166/jbn.2019.2789 |
+| R03053 | 2020 | grouper nervous necrosis virus | LFB with aptamer-based isolation (gold nanoparticles) | grouper brain cells | 5 ng/mL RGNNV-CP; 5 x 10^3 infected GB cells | NR | NR | visual | Abstract | 10.3389/fmicb.2020.00886 |
+| R05369 | 2022 | SARS-CoV-2 mutants | nanogold and aptamer at-home test (proof of concept) (nanogold) | NR | NR | NR | NR | visual | Abstract | 10.1016/j.nano.2022.102590 |
+| R05422 | 2022 | SARS-CoV-2 Omicron RBD | SCORe DNA aptamer for multiplexed detection [scope check] | NR | NR | NR | NR | NR | Abstract | 10.1021/acs.analchem.2c01993 |
+| R08254 | 2026 | SARS-CoV-2 spike | abiotic antibody mimic hydrogel NP on AuNP (AuNP core-shell) | pseudovirus | not reported | NR | not reported | visual | Abstract | 10.1016/j.talanta.2025.129324 |
+
+### Table A1e. Conventional gold strips (baseline)
+
+| Rec | Year | Target | Label / engineering | Matrix | LOD (as stated) | Within-paper comparison | Diagnostic data (as stated) | Readout | Evidence | DOI |
+|---|---|---|---|---|---|---|---|---|---|---|
+| R03311 | 2021 | SARS-CoV-2 IgG/IgM | colloidal gold | 170 patients, 300 controls | NR | NR | 158/170 positive, 296/300 negative; AUC 0.958, kappa 0.926 | visual | Abstract | 10.1002/jcla.23619 |
+| R03052 | 2020 | SARS-CoV-2 IgM/IgG | colloidal gold | 75 cases, 139 controls | NR | NR | IgM sens 90.67%, spec 97.84%, accuracy 95.33% | visual | Abstract | 10.1002/ctm2.90 |
+| R05807 | 2023 | SARS-CoV-2 RBD | gold nanoparticles | 100 clinical samples | 1 ng/mL | NR | sens 94.3%, spec 90.9% vs RT-PCR | smartphone | Abstract | 10.1002/jmv.28416 |
+| R02384 | 2018 | canine parvovirus | gold nanoparticles | faecal samples | 6.6 x 10^5 TCID50/mL | NR | sens/spec 71%/92% vs HA; 71%/100% vs commercial IC | visual | Abstract | 10.1007/s00705-018-3846-2 |
+| R06939 | 2024 | avian leukosis virus p27 | gold nanoparticles | 35 egg samples | 1.53 ng/mL (ICS); 0.2 ng/mL (ELISA) | ELISA 0.2 ng/mL for comparison | 5 positive, 30 negative | visual | Abstract | 10.1039/d4an00180j |
+| R05924 | 2023 | monkeypox virus A29 | colloidal gold | NR | 50 pg/mL purified A29 | NR | no cross-reaction with vaccinia or cowpox | visual | Abstract | 10.1039/d2an02043b |
+| R03073 | 2020 | SARS-CoV-2 IgM | AuNP lateral flow (colloidal gold nanoparticles) | COVID-19 patients and normal sera | NR | NR | sens 100%, spec 93.3%, kappa 0.872 | visual | Abstract | 10.1021/acsomega.0c01554 |
+| R04438 | 2021 | SARS-CoV-2 IgG/IgM | AuNP-based LFIA (gold nanoparticles) | 60 samples | NR | NR | sens 90%, spec 96.6% vs real-time PCR | visual | Abstract | 10.1089/mab.2021.0027 |
+| R03081 | 2020 | SARS-CoV-2 IgG | LFIA strip | COVID-19 sera | NR | NR | NR | visual | Abstract | 10.1039/d0an00629g |
+| R03200 | 2020 | SARS-CoV-2 | colloidal gold ICA (no abstract) (colloidal gold) | NR | NR | NR | NR | visual | Abstract | 10.1097/cm9.0000000000000922 |
+| R07104 | 2024 | SARS-CoV-2 nasal sIgA | colloidal gold ICT (colloidal gold) | purified nasal sIgA from BA.5 recoverees | NR | NR | detects spike-specific sIgA | visual | Abstract | 10.3389/fmicb.2024.1386891 |
+| R03766 | 2021 | SARS-CoV-2 spike | colloidal gold ICS, RBD mAbs (colloidal gold) | subunit vaccine | 62.5 ng/mL spike protein | NR | NR | visual | Abstract | 10.3389/fimmu.2021.635677 |
+| R03922 | 2021 | SARS-CoV-2 N protein | ICA kit | samples 1-9 days after onset | >0.2 ng/mL recombinant N | NR | no cross-reaction with MERS-CoV and others | visual | Abstract | 10.1016/j.jviromet.2021.114183 |
+| R05354 | 2022 | SARS-CoV-2 nucleocapsid | nanogold LFI antigen test (nanogold) | clinical specimens | NR | NR | sens 95%, spec 98%, accuracy 97% | visual | Abstract | 10.3390/nano12142477 |
+| R07828 | 2025 | SARS-CoV-2 antigen | IgG colloidal gold ICS (AuNP) | not reported | 2 ng/mL | NR | concordance 98% | visual | Abstract | 10.1007/s00604-025-07299-3 |
+| R05078 | 2022 | SARS-CoV-2 variants | CoV-SCAN LFA | symptomatic and asymptomatic individuals | 0.2-3.2 ng/mL (14 recombinant N proteins); 1.6-12.5 TCID50/swab (10 variants) | NR | PPA/NPA vs RT-PCR | visual | Abstract | 10.1016/j.jcvp.2022.100080 |
+| R05786 | 2023 | SARS-CoV-2 N3 gene | nucleic acid sandwich LFA with AuNP (gold nanoparticles) | NR | 5 pM | NR | NR | visual | Abstract | 10.1016/j.jbiosc.2022.11.001 |
+| R01889 | 2016 | HIV-1 p24 | colloidal gold ICA with in-house mAbs (colloidal gold) | reference p24 panel (10 positive, 153 negative) | 25 pg/mL | NR | detected 10/10 positives; spec 98.03% (3 false positives/153) | visual | Abstract | 10.1155/2016/6743904 |
+| R02544 | 2018 | SFTSV | colloidal gold LFITS (colloidal gold) | patient serum | 1 ng/mL | NR | satisfactory in patient sera (values NR) | visual | Abstract | 10.1021/acsomega.8b02366 |
+| R01626 | 2015 | feline coronavirus | ICA with colloidal gold-rNP conjugate (colloidal gold) | plasma, serum, whole blood, ascitic fluid | NR | NR | NR | visual | Abstract | 10.1007/978-1-4939-2438-7_3 |
+| R05345 | 2022 | dengue virus | AuNP-4G2 competitive LFA (gold nanoparticles (3 ug/mL 4G2)) | DENV-2 isolate (4.58 x 10^3 TCID50/mL) | 5.12 x 10^2 PFU | NR | NR | visual | Abstract | 10.3390/bios12070495 |
+| R06359 | 2023 | varicella-zoster virus | colloidal gold ICS (colloidal gold) | NR | 30 ng/mL gE | NR | no cross-reactivity with EV71, HSV-1, HSV-2 | visual | Abstract | 10.1016/j.virol.2023.07.008 |
+| R05888 | 2022 | HTLV-I IgG | AuNP rapid test with p24 antigen (gold nanoparticles) | NR | NR | NR | sens 96.7%, spec 100% | visual | Abstract | 10.3390/v15010129 |
+| R02964 | 2020 | nervous necrosis virus (virions) | nanoparticle LFB for whole virions (gold nanoparticles) | fish brain/retina homogenates | NR | NR | NR | visual | Abstract | 10.1038/s41598-020-63553-z |
+| R06350 | 2023 | porcine circovirus 2 | AuNP ICS (gold nanoparticles) | NR | 10^3.18 TCID50/mL; 2.03 ug/mL Cap | NR | NR | visual | Abstract | 10.1128/spectrum.01953-22 |
+| R07049 | 2024 | pseudorabies virus | high-sensitivity colloidal gold ICTS (colloidal gold) | NR | 1.336 x 10^3 copies/uL | NR | NR | visual | Abstract | 10.3389/fmicb.2024.1399123 |
+| R06262 | 2023 | canine parvovirus | colloidal gold and fluorescent ICS (colloidal gold (and fluorescent)) | 60 clinical samples | NR | NR | high sens and spec vs qPCR, HA, HI (values NR) | visual | Abstract | 10.1007/s00253-023-12604-2 |
+| R06864 | 2024 | canine parvovirus | nanogold LFA-CPV antigen test (nanogold) | live attenuated CPV vaccines | NR | NR | sens 96.4%, spec 88.2%, accuracy 95% vs qPCR | visual | Abstract | 10.1038/s41598-024-55548-x |
+
+### Table A1f. Assay format and quantification
+
+| Rec | Year | Target | Label / engineering | Matrix | LOD (as stated) | Within-paper comparison | Diagnostic data (as stated) | Readout | Evidence | DOI |
+|---|---|---|---|---|---|---|---|---|---|---|
+| R05542 | 2022 | lumpy skin disease virus | AuNP LFIA, hook-effect investigation (gold nanoparticles) | NR | 10^3.4 TCID50/mL | NR | CV <5.3%; no cross-reaction with 12 viruses | visual | Abstract | 10.3390/bios12090739 |
+| R05643 | 2022 | SARS-CoV-2 NAbs | competitive colloidal gold GICA (AuNP) | reference material, positive sera | 20.66 IU/L | NR | spec 100% | visual | Abstract | 10.1021/acsomega.2c03677 |
+| R06809 | 2024 | SARS-CoV-2 neutralizing antibodies | biomimetic AuNP mock-virus competitive LFA (gold nanoparticles with trimeric S) | blood samples | 59 IU/mL | NR | benchmarked to WHO standard 21/338 | visual | Abstract | 10.1021/acs.analchem.3c04372 |
+| R06073 | 2023 | SARS-CoV-2 nucleocapsid | quantitative CGNP-LFIA; LOD of 9 approved kits (colloidal gold) | Delta strain | NAT at least 1835x more sensitive than antigen tests | NR | NR | visual/reader | Abstract | 10.1016/j.talanta.2023.124462 |
+| R05536 | 2022 | Japanese encephalitis virus NS1 | AuNP LFA with smartphone colorimeter (gold nanoparticles) | spiked serum | 10 pg/mL (visual) | NR | minimal cross-reactivity; stable 1 month at 4 C | smartphone | Abstract | 10.1039/d2na00463a |
+
+### Table A4. Reported change in the colour signal against the paper's own baseline
+
+Only studies that give a baseline run in the same paper are listed. Fold-changes are the authors' figures unless marked "calculated"; they use different baselines, matrices and readouts and cannot be ranked against each other. All rows are read in full (†) unless marked.
+
+| Rec | Technology | What changed | Baseline in the same paper | Change in LOD | Readout | Matrix tested | DOI |
+|---|---|---|---|---|---|---|---|
+| R04212 | gold enhancement on strip | gold deposition after the sandwich | same strip, unenhanced | 488-fold (calculated) | flatbed scanner | spiked saliva | 10.3390/bios11070229 |
+| R02496 | gold enlargement (20 nm to ~350 nm) | HAuCl4 + H2O2 on strip | conventional LFIA | 240-fold; conventional detected 117/170 infected extracts, enhanced 170/170 | visual and scanner | potato leaf extracts | 10.1007/s00604-018-3052-7 |
+| R06172 | gold enhancement | self-enhancement design | conventional LFIA | about 10-fold (abstract) | visual | saliva | 10.1016/j.snb.2023.133898 |
+| R05719 | electrophoretic layer-by-layer assembly | post-assay AuNP stacking | same strips before enhancement | more than 60-fold (65-fold calculated) | visual and intensity | serum, 118 clinical samples | 10.1002/anie.202215548 |
+| R05311 | amplifier complex | antigen-gold plus antibody-gold | antigen-gold alone | more than 2-fold signal (no LOD) | smartphone | serum | 10.1002/gch2.202200008 |
+| R07142 | gold nanoflowers (+ gold staining) | shape; then staining | spherical AuNP of similar size | 5-fold (nanoflower); 5-fold further with staining | naked eye and smartphone | buffer, artificial saliva | 10.1007/s00604-024-06502-1 |
+| R04815 | AuNP clusters | streptavidin core, ~15 nm gaps | single 40 nm AuNP | 5.9-fold (40-40 cluster); the 40-15 cluster was worse | imager | spiked saliva | 10.1016/j.bios.2022.114094 |
+| R05579 | core-satellite SiO2@Au | silica core with gold satellites | 40 nm gold colloid | about 100-fold | visual and imager | inactivated virus | 10.1021/acsami.2c13303 |
+| R06544 | AuNP dimers | sub-nanometre gap | commercial strip (different antibodies) | 50-fold | naked eye | pig faeces | 10.1007/s00604-023-06013-5 |
+| R08618 | hollow Ag-Au nanoshells | Ag-rich shell, two plasmon peaks | own AuNP strip, same antibodies | 4-fold | visual | bovine serum, ear tissue | 10.1007/s00604-026-08241-x |
+| R08385 | magnetic-gold nanostars | spiked shell and magnetic pre-concentration | own gold-nanosphere strip | about 1000-fold | smartphone | spiked samples | 10.1021/acsami.5c21544 |
+| R06317 | nanobody detector | binder replaced | monoclonal-antibody version of same strip | 4-fold (exponent unverified) | gel imager | saliva | 10.1038/s41598-023-37347-y |
+| R07685 | plasmonic scattering (boundary) | transparent membrane on black backing | own 40 nm AuNP strip | 361-fold; 2600-4400-fold vs three commercial strips | gel imager | swabs | 10.1038/s41467-025-58663-z |
+
+### Table A2. Strategy overview for gold-nanoparticle engineering
+
+| Strategy | Bottleneck addressed | Approaches in the included studies | Reported within-paper gains (see tables for values) | Costs and limits seen in the evidence | Table |
+|---|---|---|---|---|---|
+| Size and surface tuning | antibody activity, particle mobility | size series, oriented conjugation, additives, corona and aggregation studies | less antibody needed with oriented conjugation; serotype-specific LODs with an 80 nm particle | mostly mechanistic; few diagnostic data | A1a |
+| Enlargement and amplification | size of the captured signal | silver, gold and galvanic enhancement, self-enhancement, layer assembly, amplifier complex | LOD lowered within the same strip format, by up to more than two orders of magnitude | extra steps, background, lowest values often need calibration or a reader | A1b |
+| Structured particles | optical effect per particle | clusters, dimers, nanoshells, composites, nanostars | about 4- to 24-fold against the authors' own strips; 50-fold against a commercial strip (dimers) | scale-up (dimers), buffer-only tests (nanostars), instrument imaging (two-wavelength) | A1c |
+| Binder replacement and antigen design | binder quality, supply, variants | nanobodies, aptamers, glycans, lectins, miniproteins, antibody pairs, recombinant and plant-made antigens | nanobody: lower LOD than mAb in the same strip | aptamer strips less sensitive; mostly spiked or inactivated-virus samples | A1d |
+| Optical readout change | background of the white membrane | plasmonic scattering on a black backing | one study: 361-fold against its own strip, sensitivity 90% on 30 positive swabs | extra reagent step, light source, boundary to colorimetric | A1c |
+
+
+### Table A3. Reporting checklist for papers read in full (13 papers; the supporting information was not available for R05719) (descriptive, not scored)
+
+Items: (a) real samples; (b) n stated; (c) reference method; (d) LOD definition; (e) cross-reactivity tested by the authors; (f) replicates or reproducibility; (g) comparator run in the same study; (h) stability tested. Y = yes, N = no, P = partly, NR = not reported. The other 30 papers in Tables A1a-e have not been assessed (abstract only); they will be added as summaries arrive.
+
+| Rec | DOI | (a) | (b) | (c) | (d) | (e) | (f) | (g) | (h) |
+|---|---|---|---|---|---|---|---|---|---|
+| R04212 | 10.3390/bios11070229 | N (spiked saliva, inactivated virus) | NR | not applicable | Y (blank mean + 3 SD) | N (supplier claim only) | P (blank n = 5; assay replicates unclear) | Y (same strip, same antibodies) | N |
+| R04815 | 10.1016/j.bios.2022.114094 | N (spiked saliva) | NR | not applicable | Y (S/N = 5 formula) | Y (influenza A/B, MERS-CoV, HCoV-229E N proteins) | NR | Y (single AuNPs; two commercial kits compared) | N |
+| R07685 | 10.1038/s41467-025-58663-z | Y (30 flu A, 12 healthy) | Y | Y (qRT-PCR) | Y (blank mean + 3 SD) | Y (SARS-CoV-2, RSV, flu B) | P (six repeats in stability test) | Y (own strip and three commercial strips) | Y (one year) |
+| R07002 | 10.3390/molecules29081776 | N (spiked package ice, recombinant protein) | NR | not applicable | Y (3 sigma/slope) | Y (HCoV-229E, OC43, RSV-F, IgG, BSA) | Y (intra- and inter-batch, CV < 15%) | N | Y (16 days) |
+| R05311 | 10.1002/gch2.202200008 | Y (112 RT-PCR+, 52 pre-pandemic sera) | Y | P (in-house ELISA, not PCR) | Y (visual OD cut-off; regression formula) | P (reagent specificity by ELISA only) | P (triplicate strips) | Y (N-protein-gold alone) | N |
+| R06317 | 10.1038/s41598-023-37347-y | Y (320 saliva) | Y | Y (RT-PCR) | P (serial dilution; statistical definition NR) | Y (SARS-CoV, MERS-CoV S1) | P (small stability set; batch testing NR) | Y (mAb version) | Y (2 months) |
+| R08618 | 10.1007/s00604-026-08241-x | Y (215 serum and ear tissue) | Y | P (commercial ELISA; RT-PCR only for sequencing) | Y (visual cut-off: no purple band) | Y (CSFV, IBRV, BPIV-3, M. bovis, BVDV subtypes) | NR | Y (own AuNP strip) | Y (accelerated, 37 C, 21 d) |
+| R06544 | 10.1007/s00604-023-06013-5 | Y (109 pig faeces) | Y | Y (gel-read RT-PCR) | Y (lowest dilution with visible T line) | Y (TGEV, RV, PRV, PCV2, 4 bacteria) | Y (intra- and inter-batch, 3 batches) | P (commercial strip, different antibodies) | N (stated limitation) |
+| R05719 | 10.1002/anie.202215548 | Y (118 clinical, 99 serum and 19 plasma) | Y (80 pos, 38 neg) | Y (Abbott Alinity i chemiluminescent assay) | Y (blank + 3 SD) | NR (main text only) | P (n = 3 for calibration) | Y (same strips before and after enhancement) | P (one-week storage of strips before enhancement tested; shelf stability NR) |
+| R02496 | 10.1007/s00604-018-3052-7 | Y (170 infected and 49 healthy leaf extracts) | Y | P (infected status from commercial ELISA of source plants) | Y (blank mean + 3 SD) | NR | P (n = 4 and n = 5 per calibration point) | Y (conventional vs enhanced) | N |
+| R07142 | 10.1007/s00604-024-06502-1 | N (artificial saliva only) | not applicable | not applicable | Y (3 sigma/slope; naked-eye limit) | NR (main text) | Y (intra- and inter-batch RSD, Table S1, S2) | Y (spherical AuNP of similar size) | Y (8 weeks, 4 C, RT and 40 C) |
+| R05579 | 10.1021/acsami.2c13303 | N (cultured inactivated virus) | NR | P (RT-qPCR on culture fluid) | Y (IUPAC blank + 3 SD) | Y (influenza A and B, MERS-CoV, Ebola, HCoV-229E NPs) | Y (three independent experiments; five for membrane optimisation) | Y (40 nm gold colloid) | Y (15 days) |
+| R08385 | 10.1021/acsami.5c21544 | N (spiked serum, saliva, urine, blood) | not applicable | not applicable | Y (IUPAC 3 sigma/slope) | N (stated as needed) | Y (four batches, RSD 7.5%) | Y (own gold nanosphere strip; non-magnetic control) | P (probe stable 6 months at 2-8 C; not at 40 C or room temperature) |
+
+## Items still to verify before this section is final
+1. R06317 (DOI: 10.1038/s41598-023-37347-y): exponent of the LOD, and the mAb comparator sensitivity (90.04% in the abstract, 83.33% in the results text).
+2. R05311 (DOI: 10.1002/gch2.202200008): label is 150 nm gold nanoshells in the text, gold nanoparticles in the abstract.
+3. R05924 (DOI: 10.1039/d2an02043b) and R06939 (DOI: 10.1039/d4an00180j): abstract only.
+4. R07685 (DOI: 10.1038/s41467-025-58663-z) and R08549 (the nanoprism thermoplasmonic strip): boundary cases whose readout is not purely absorbance.
+5. Scope-check records in Table A1d: R02714 and R05422 (aptamer development, no strip data in the abstract).
+6. Table A4 lists only studies with a baseline in the same paper; R06172 is abstract-level (about 10-fold).
+7. 51 records added in v3 are abstract-level; their within-paper comparison is NR throughout.
+8. Record IDs in the tables will be replaced by numbered citations when the reference list is built.
+
+---
+
+# Part B (working text v1): other coloured labels
+
+Working text, 2026-11-05. Text focuses on the labels and how they connect; numerical detail is in the tables. † = read in full; all other rows abstract only (NR = not reported in the abstract). Every DOI cited in the text appears in a table and in the evidence table. Section b covers 33 included records (R07568 excluded as not a conventional LFA; pre-2015 records removed).
+
+# 3.2 Other coloured labels: widening the palette beyond gold
+
+## 3.2.0 Why look beyond gold, and how this section is organised
+
+Gold nanoparticles dominate colorimetric lateral flow assays, but several groups have argued for other coloured labels. The reasons given in the papers read for this review fall into three groups. First, optics: polydopamine nanoparticles absorb over a broader and stronger band than gold (DOI: 10.3390/bios13030352). Second, manufacturing: colloidal gold strips are described as limited in analytical sensitivity and affected by batch-to-batch differences in particle size, while dyed latex beads are bright and uniform in size and can be coupled to antibodies in a controlled way (DOI: 10.1186/s44149-021-00029-1; DOI: 10.1007/s00253-022-12074-y). Third, colour as information: particles with different colours let one strip report more than one analyte (DOI: 10.1155/tbed/5512419).
+
+This section follows the labels from the most developed to the least. It starts with coloured latex microspheres (3.2.1), moves to colour coding for multiplexing (3.2.2), and then covers carbon (3.2.3), selenium, silver and other inorganic labels (3.2.4), organic and polymer chromophores (3.2.5) and cellulose nanobeads (3.2.6). Section 3.2.7 collects the studies in which a coloured label was less sensitive than a fluorescent one, and 3.2.8 states what the evidence supports. Numerical details are in Tables B1a-B1f; the text concentrates on how the labels work and where they fit. Papers read in full are marked † in the tables; all other statements rest on abstracts. Seven papers were read in full for this section. The section covers 33 included records, all from 2015-2026.
+
+## 3.2.1 Coloured latex microspheres
+
+Latex microspheres are polymer particles a few hundred nanometres in diameter that are dyed in a chosen colour and carry carboxyl groups for covalent coupling to antibodies (DOI: 10.1186/s44149-021-00029-1; DOI: 10.1155/tbed/5512419). Their size is a design constraint as well as an advantage. Large particles aggregate easily, so the amount of protein coupled to the surface has to be set at the highest level that does not cause sedimentation (DOI: 10.1155/tbed/5512419).
+
+Most of the latex work in this review concerns animal viruses detected directly as antigen, and two studies read in full show what such strips can and cannot do. A red-latex strip for porcine circovirus 2 used monoclonal antibodies raised against the dominant genotypes and detected the three main genotypes, but was clearly less sensitive for the older PCV2a genotype than for PCV2b and PCV2d, which the authors attribute to the immunogens (DOI: 10.1007/s00253-022-12074-y). Against PCR on tissue and swab samples it was fully specific but missed some PCR-positive samples. The authors explain this partly by the fact that PCR detects viral DNA whether or not it is infectious virus (DOI: 10.1007/s00253-022-12074-y). A latex strip for porcine epidemic diarrhea virus in faeces solved a practical problem of the sample itself: solid faecal particles disturbed the strip, and a filter pad placed between the sample pad and the conjugate pad improved agreement with RT-PCR (DOI: 10.1186/s44149-021-00029-1). Both studies therefore illustrate that a coloured carrier alone does not set performance; antibody choice and sample handling matter as much.
+
+Latex strips have also been made for SARS-CoV-2 antigen, for PRRSV and for avian influenza group 1 receptor-binding detection, and a latex double-antigen sandwich was used for neutralizing antibodies (DOI: 10.1002/jcla.24091; DOI: 10.3389/fmicb.2022.882112; DOI: 10.1016/j.bios.2014.10.036; DOI: 10.1016/j.talanta.2022.124200). A latex strip for the SARS-CoV-2 N protein was far less sensitive than a sandwich ELISA in the same study (DOI: 10.1111/1751-7915.70117). Composite carriers combine latex with a second material: gold or platinum nanoparticle-latex nanocomposites and gold-coated polystyrene latex for influenza, dye-doped silica for H7 avian influenza, and dye-loaded polymersomes for SARS-CoV-2 (DOI: 10.1021/acsami.8b11745; DOI: 10.1007/s00604-020-04255-1; DOI: 10.1039/d1ay00204j; DOI: 10.1021/acssensors.1c00854). Their abstracts report mainly analytical data (Table B1a).
+
+## 3.2.2 Colour as a code: multicolour strips for multiplexing
+
+Because coloured carriers come in distinct hues, one strip can report more than one analyte and the result is read by colour. A strip with red, blue and black latex gives a red line for African swine fever virus (ASFV) antibodies, a blue line for classical swine fever virus (CSFV) antibodies, and a black control line (DOI: 10.1155/tbed/5512419). Its visual detection limit was equal to a commercial ELISA for ASFV and better than the commercial ELISA for CSFV, and agreement with the ELISAs on 180 sera was high for both (DOI: 10.1155/tbed/5512419). The authors point out a limit that no label can remove: CSFV E2 antibodies cannot separate vaccinated from infected animals, so the CSFV line mainly serves to evaluate vaccine response (DOI: 10.1155/tbed/5512419).
+
+Other multicolour designs use a bicolour latex strip for neutralizing antibodies against SARS-CoV-2 and a red/blue strip for norovirus and adenovirus (DOI: 10.3390/bios12020103; DOI: 10.3389/fmicb.2026.1787049). A fourth design uses colour only to make the result easier to read: a red latex test line for ASFV antibodies and a blue latex control line made with chicken IgY, which read by eye within 15 min, agreed closely with a commercial ELISA on 159 sera and tolerated months of storage at 4 C, room temperature and 37 C (DOI: 10.1007/s00253-025-13694-w). In that study the authors found that larger particles (400 nm) gave a weak false-positive line, and settled on 300 nm (DOI: 10.1007/s00253-025-13694-w). Colour coding keeps the strip equipment-free, but it relies on the user telling hues apart, and none of these abstracts reports blinded or multi-reader reading (Table B1b).
+
+## 3.2.3 Carbon-based labels
+
+Carbon labels give a dark signal from a material very different from the metals. Carbon black was used as the label for a severe fever with thrombocytopenia syndrome virus strip and in a vertical-flow format for SARS-CoV-2 IgG (DOI: 10.1039/d3an00515a; DOI: 10.3390/bios13090857). The only head-to-head comparison in this review, for porcine deltacoronavirus, found the carbon strip less sensitive than the gold strip (DOI: 10.1016/j.isci.2026.116948). Carbon therefore appears as a workable alternative, but not as an improvement in sensitivity (Table B1c).
+
+## 3.2.4 Selenium, silver, ultramarine blue and magnetic labels
+
+Several inorganic particles have been proposed as red or blue labels. Selenium nanoparticles were used for SARS-CoV-2 antibodies and, with structured protein probes, for antigen in several sample types (DOI: 10.1039/d0lc00828a; DOI: 10.1109/tnb.2021.3105662; DOI: 10.1016/j.bios.2024.116878). Silver is a stronger absorber than gold but is unstable; coating the particles with a thin calixarene layer made them stable in plasma and for months of storage, and carboxyl groups on the coating allowed covalent coupling of the SARS-CoV-2 spike protein (DOI: 10.1021/acs.analchem.2c00870). The particles give a yellow line, not a red one, and in a dipstick assay for anti-SARS-CoV-2 IgG they gave a lower LOD and similar signals with ten times fewer particles than gold particles with adsorbed protein (DOI: 10.1021/acs.analchem.2c00870). The gain was shown in buffer; in human plasma the LOD was several hundred-fold higher, and on 25 serum samples the dipstick was fully specific but detected only about three-quarters of the PCR-positive patients, which the authors say matches typical gold-based strips (DOI: 10.1021/acs.analchem.2c00870). Ultramarine blue, an inexpensive inorganic pigment, was used as a blue label for HBsAg and read by eye or by image analysis; it was tested in spiked fetal calf serum and not in patient samples. The abstract states a lower LOD than a gold strip, whereas the comparisons I could find in the main text are with literature values for iron-oxide and red-silica labels, and a quantum-dot method is described as more sensitive (DOI: 10.1016/j.aca.2019.11.037). Magnetic oxide labels combine colour with a magnetic core, in a recent SARS-CoV-2 strip (DOI: 10.1016/j.ijbiomac.2026.150960). All of these are known from abstracts only. A head-to-head gold comparator is reported for the silver and ultramarine-blue strips (Table B1d).
+
+## 3.2.5 Organic and polymer chromophores
+
+Polydopamine (PDA) nanoparticles show how a new label needs surface engineering as much as gold does. PDA sticks strongly to nitrocellulose, and probes coupled directly to it would be trapped at the test line and give false negatives; the authors therefore coated the particles with polyelectrolyte layers, silica and PEG-silane before coupling antigen and antibody (DOI: 10.3390/bios13030352). The resulting three-line strip separated IgG and IgM and was quantified with a camera and image software. In the same study a commercial gold strip barely detected low antibody concentrations (DOI: 10.3390/bios13030352). The study used serum spiked with standard antibodies, not patient samples. Related labels include polylevodopa nanoparticles for SARS-CoV-2 and influenza A, polydiacetylene with both visible and fluorescent readout for HBsAg (DOI: 10.1016/j.bbrc.2024.149821; DOI: 10.1002/asia.201700769). The abstracts give little accuracy data (Table B1e).
+
+## 3.2.6 Cellulose nanobeads
+
+Cellulose nanobeads are dyed cellulose particles that were used for SARS-CoV-2 antigen with an scFv-Fc binder, for a comparison with gold against the WHO target product profile, and for Nipah virus nucleoprotein detected from inactivated cultures by eye and by reader (DOI: 10.1016/j.bios.2020.112868; DOI: 10.1039/d5ra08197a; DOI: 10.1080/22221751.2026.2716499). They are the most recent group here and the evidence is limited to analytical data (Table B1f).
+
+## 3.2.7 Where coloured labels fall short
+
+Four studies compare a coloured label with a fluorescent label and show the cost of equipment-free reading. Fluorescent microspheres were more sensitive than coloured microspheres in strips for rotavirus and adenovirus and for influenza A and B (DOI: 10.1186/s12985-018-0951-5; DOI: 10.1186/s12985-019-1190-0). In a neutralizing-antibody strip the fluorescent version reached a lower LOD than the latex colorimetric version (DOI: 10.1016/j.talanta.2022.124200). For adenovirus 3 antibodies, quantum dots reached the higher positive agreement of the two labels tested (DOI: 10.3390/diagnostics16162670). These results are consistent with a trade-off, in which coloured labels give up some sensitivity in exchange for reading without a fluorescence reader (Table B1g).
+
+## 3.2.8 What the evidence supports
+
+Coloured latex is the best-documented alternative to gold in this review, mainly in veterinary virology, and multicolour latex allows several analytes to share a test region and be told apart by colour. The other labels rest largely on single studies and abstracts. Head-to-head comparison with gold in the same experiment exists for a few of them (carbon, PDA, silver, ultramarine blue, cellulose nanobeads), and in one case the alternative was less sensitive (carbon).
+
+Three limitations recur. First, reference methods differ between studies (PCR, RT-PCR, commercial ELISA, virus neutralization), so agreement values cannot be compared across them. Second, several studies used spiked or standard samples only. Third, genotype or strain coverage depends on the antibody pair and not on the label. For the four papers read in full, Table B3 lists the reporting items. Two key papers for this section (carbon black and selenium) remain at abstract level until their PDFs are available.
+
+
+
+### Table B1a. Coloured latex and composite carriers
+
+| Rec | Year | Target | Label | Matrix | LOD (as stated) | Within-paper comparison | Diagnostic data (as stated) | Readout | Evidence | DOI |
+|---|---|---|---|---|---|---|---|---|---|---|
+| R05403 | 2022 | PCV2 antigen | red latex microspheres (mAb 7C7 label, mAb 9H4 capture) | lymph node, lung, anal swab; cultured virus | 10^2.5 (PCV2a), 10^0.7 (PCV2b), 10^1.5 (PCV2d) TCID50/0.1 mL (exponents from abstract chart, unverified in text); endpoint dilution | NR (no gold comparator) | 100 tissue/swab samples vs PCR (53 pos, 47 neg): sens 81.13% (43/53), spec 100% (47/47), agreement 90.00%, kappa 0.720; 183 field samples 22.95% positive (surveillance) | visual, 10 min | Full text † | 10.1007/s00253-022-12074-y |
+| R04517 | 2021 | PEDV antigen | dyed latex beads (~300 nm) + filter pad | swine faeces | 10^3.60 TCID50/mL (exponent from abstract chart, unverified in text); blank + 3 SD | filter pad improved agreement with RT-PCR; literature values 74.07% (gold), 86.67% (fluorescent) not head-to-head | 108 faeces vs RT-PCR (70 pos, 38 neg): sens 88.57% (62/70), spec 100% (38/38), agreement 92.59%, kappa 0.845; recovery 91.00-114.40% | naked eye; smartphone + ImageJ | Full text † | 10.1186/s44149-021-00029-1 |
+| R04491 | 2021 | SARS-CoV-2 antigen | latex microspheres | positive specimens | 25 ng/mL | NR | highly specific | visual | Abstract | 10.1002/jcla.24091 |
+| R05103 | 2022 | North American PRRSV | latex microspheres | clinical samples | 5 x 10^2.0 TCID50/mL; 15 ng/mL N protein | NR | sens 90.32%, spec (value truncated) | visual | Abstract | 10.3389/fmicb.2022.882112 |
+| R07595 | 2025 | SARS-CoV-2 N protein | coloured latex | not reported | LFIA 10 ng/mL; sELISA 15 pg/mL | sandwich ELISA 15 pg/mL vs strip 10 ng/mL | not reported | visual | Abstract | 10.1111/1751-7915.70117 |
+| R05828 | 2023 | SARS-CoV-2 neutralizing antibodies | latex beads (LBs-LFIA, colorimetric) | clinical sera | LBs-LFIA 7.11 ng/mL (FBs 1.13 ng/mL) | fluorescent version of the same strip 1.13 ng/mL vs latex 7.11 ng/mL | LBs: sens 98.29% (95.84-99.37), spec 97.70% vs virus neutralization test | visual | Abstract | 10.1016/j.talanta.2022.124200 |
+| R01579 | 2015 | influenza A group 1 (receptor specificity) | latex | virus preparations | >128 HA units | NR | correlation >0.95 vs ELISA | visual | Abstract | 10.1016/j.bios.2014.10.036 |
+| R02468 | 2018 | influenza | Au or Pt nanoparticle-latex nanocomposite | NR | enhanced sensitivity (value NR) | enhanced sensitivity (value NR) | NR | visual | Abstract | 10.1021/acsami.8b11745 |
+| R02984 | 2020 | influenza H3 | AuNP-coated PS latex microspheres | NR | 1/16 HAU visual; 0.016 HAU quantitative | NR | NR | visual and quantitative | Abstract | 10.1007/s00604-020-04255-1 |
+| R03900 | 2021 | H7 avian influenza (H7N2, H7N9) | highly chromatic red silica nanoparticles (Direct Red 224) | NR | 0.08 ng/mL (range 0.1-10 ng/mL) | NR | NR | reader (T-line gray) | Abstract | 10.1039/d1ay00204j |
+| R04146 | 2021 | SARS-CoV-2 | dye-loaded polymersomes | 121 human samples (61 sera, 60 swabs) for reagent purification | NR | NR | NR | visual | Abstract | 10.1021/acssensors.1c00854 |
+
+### Table B1b. Multicolour latex and colour-coded strips
+
+| Rec | Year | Target | Label | Matrix | LOD (as stated) | Within-paper comparison | Diagnostic data (as stated) | Readout | Evidence | DOI |
+|---|---|---|---|---|---|---|---|---|---|---|
+| R08280 | 2026 | ASFV and CSFV antibodies | red, blue and black latex microspheres (multicolour) | pig serum (10-fold diluted) | LFIA 1:256 for both; commercial ELISA 1:256 (ASFV), 1:64 (CSFV) (from one standard positive serum) | equal to ELISA for ASFV; 4-fold better than ELISA for CSFV | 180 sera vs commercial ELISAs: ASFV TP 48, FP 1, FN 0, TN 131, kappa 0.986; CSFV TP 108, FP 5, FN 2, TN 65, sens 98.2%, spec 92.9%, kappa 0.918 | visual, 15 min | Full text † | 10.1155/tbed/5512419 |
+| R08335 | 2026 | ASFV antibodies | red latex (p72 test line) and blue latex (chicken IgY control line), ~300 nm | pig serum; 159 clinical sera | visual 1:1024; commercial ELISA the same (1:1024) | equal to commercial ELISA | 159 sera vs commercial ELISA (47 pos, 112 neg): TP 46, FN 1, FP 2, TN 110; sens 97.9%, spec 98.2%, kappa 0.955 | naked eye, 15 min | Full text † | 10.1007/s00253-025-13694-w |
+| R04809 | 2022 | SARS-CoV-2 neutralizing antibodies | latex microspheres (bicolor) | 13 serum samples | ~48 ng/mL | NR | 3 positives >=736 ng/mL | visual | Abstract | 10.3390/bios12020103 |
+| R08441 | 2026 | norovirus GII, HAdV F41 | red and blue labels | not reported | 5.8 copies/uL NoV; 63 copies/uL HAdV | NR | not reported | visual | Abstract | 10.3389/fmicb.2026.1787049 |
+
+### Table B1c. Carbon-based labels
+
+| Rec | Year | Target | Label | Matrix | LOD (as stated) | Within-paper comparison | Diagnostic data (as stated) | Readout | Evidence | DOI |
+|---|---|---|---|---|---|---|---|---|---|---|
+| R06199 | 2023 | SFTSV | carbon black | spiked healthy serum | 100 pg/mL (range 0.1-1000 ng/mL) | NR | recoveries 91.58-105.4% | visual | Abstract | 10.1039/d3an00515a |
+| R06514 | 2023 | SARS-CoV-2 IgG | carbon black nanoparticles | human serum | lower LOD than colloidal gold (value NR) | lower LOD than colloidal gold (value NR) | NR | visual (black spots) | Abstract | 10.3390/bios13090857 |
+| R08674 | 2026 | PDCoV | AuNP; carbon NP | 137 faecal samples | 1:128 (gold); 1:64 (carbon) at 1e8 TCID50/mL | gold 1:128 vs carbon 1:64 (same sample) | gold 92.7%, carbon >88% agreement | visual | Abstract | 10.1016/j.isci.2026.116948 |
+
+### Table B1d. Selenium, silver, ultramarine blue and magnetic labels
+
+| Rec | Year | Target | Label | Matrix | LOD (as stated) | Within-paper comparison | Diagnostic data (as stated) | Readout | Evidence | DOI |
+|---|---|---|---|---|---|---|---|---|---|---|
+| R03310 | 2020 | SARS-CoV-2 IgM/IgG | selenium nanoparticles | 90 COVID-19, 263 controls | IgM 20 ng/mL, IgG 5 ng/mL | NR | sens 93.33%, spec 97.34% | visual | Abstract | 10.1039/d0lc00828a |
+| R04254 | 2022 | SARS-CoV-2 antibodies | selenium nanoparticles | NR | NR | NR | NR | visual | Abstract | 10.1109/tnb.2021.3105662 |
+| R07390 | 2025 | SARS-CoV-2 antigen | selenium NP | throat swab, saliva, serum, finger-prick blood (192) | 10 pg/mL | NR | neg. coincidence 100%, pos. 93.94%, overall 95.83% vs RT-PCR | visual | Abstract | 10.1016/j.bios.2024.116878 |
+| R05096 | 2022 | anti-SARS-CoV-2 IgG (serology) | calix[4]arene-coated silver nanoparticles coupled to spike protein (yellow, lambda max 417 nm); dipstick format | buffer; human plasma spiked with monoclonal IgG; 25 clinical samples | 5 ng/mL in buffer; 1.5 ug/mL in plasma (visual, five observers; confirmed with ImageJ) | vs gold nanoparticles (citrate) with adsorbed spike protein: LOD 1 order of magnitude lower in buffer; similar signal with 10x fewer particles (abstract) | 15 RT-PCR-positive and 10 pre-pandemic negative sera: spec 100% (10/10); sens 73% (11/15); IgG quantified by Wantai ELISA | naked eye (panel of five observers; two operators) and ImageJ | Full text † | 10.1021/acs.analchem.2c00870 |
+| R02878 | 2020 | HBsAg | ultramarine blue particles (carboxylated, mAb-coupled, ~285 nm hydrodynamic) | HBsAg spiked into fetal calf serum (1-250 ng/mL) | 0.37 ng/mL (S/N = 3); calibration y = 385.796 + 97.2298x, R2 = 0.9872 | abstract: better than gold ICA; main-text comparisons seen were with literature Fe3O4 and red silica labels (2-3-fold) | none (no real samples; triplicate) | naked eye and camera + ImageJ, 15 min | Full text † | 10.1016/j.aca.2019.11.037 |
+| R08351 | 2026 | SARS-CoV-2 | Fe3O4 | not reported | 0.5 ng/mL | NR | not reported | visual | Abstract | 10.1016/j.ijbiomac.2026.150960 |
+
+### Table B1e. Organic and polymer chromophores
+
+| Rec | Year | Target | Label | Matrix | LOD (as stated) | Within-paper comparison | Diagnostic data (as stated) | Readout | Evidence | DOI |
+|---|---|---|---|---|---|---|---|---|---|---|
+| R06083 | 2023 | SARS-CoV-2 IgM and IgG (serology) | polydopamine nanoparticles (230 to 320 nm after coating), three-line strip | human serum spiked with standard antibodies | IgM 1.51 ng/mL; IgG 2.34 ng/mL (from calibration curve) | commercial AuNP strip barely detected 10-100 ng/mL; no fold value | none (no patient samples) | camera (Nikon D90) + ImageJ; custom quantification software | Full text † | 10.3390/bios13030352 |
+| R06924 | 2024 | SARS-CoV-2, influenza A | polylevodopa nanoparticles (black) | NR | 5 pg/mL (SARS-CoV-2), 0.1 ng/mL (Flu A H1N1) | NR | NR | visual | Abstract | 10.1016/j.bbrc.2024.149821 |
+| R02149 | 2017 | hepatitis B surface antigen | polydiacetylene (red; also fluorescent) | NR | NR | NR | NR | visual | Abstract | 10.1002/asia.201700769 |
+
+### Table B1f. Cellulose nanobeads
+
+| Rec | Year | Target | Label | Matrix | LOD (as stated) | Within-paper comparison | Diagnostic data (as stated) | Readout | Evidence | DOI |
+|---|---|---|---|---|---|---|---|---|---|---|
+| R03444 | 2021 | SARS-CoV-2 | cellulose nanobeads | cultured virus | 2 ng antigen; 2.5 x 10^4 pfu | NR | NR | visual | Abstract | 10.1016/j.bios.2020.112868 |
+| R08235 | 2025 | SARS-CoV-2 nucleocapsid | cellulose nanobeads | spiked, archived NP specimens | CNB cut-off 100x below WHO TPP 1e6 copies/mL; AuNP met TPP threshold | cellulose nanobeads vs AuNP, judged against WHO target product profile threshold | not reported | visual | Abstract | 10.1039/d5ra08197a |
+| R08686 | 2026 | Nipah virus NP | cellulose nanobeads | inactivated cultured virus | 1 ng/mL NP; 4.1e7 copies/mL (reader); 8.3e7 (naked eye) | NR | not reported | visual + reader | Abstract | 10.1080/22221751.2026.2716499 |
+
+### Table B1g. Coloured versus fluorescent labels (additional studies; R05828 in B1a)
+
+| Rec | Year | Target | Label | Matrix | LOD (as stated) | Within-paper comparison | Diagnostic data (as stated) | Readout | Evidence | DOI |
+|---|---|---|---|---|---|---|---|---|---|---|
+| R02345 | 2018 | rotavirus, adenovirus | coloured microspheres (CMT) vs fluorescent (FMT) | cultures | FMT more sensitive than CMT | fluorescent microspheres more sensitive than coloured | no cross-reaction | visual | Abstract | 10.1186/s12985-018-0951-5 |
+| R02744 | 2019 | influenza A and B | coloured microspheres (CMT) vs fluorescent (FMT) | cultures | FMT more sensitive than CMT | fluorescent microspheres more sensitive than coloured | no cross-reactivity | visual | Abstract | 10.1186/s12985-019-1190-0 |
+| R08727 | 2026 | HAdV-3 hexon antibodies | AuNP; quantum dots | 90 sera | not reported | quantum dots vs AuNP: PPA 100% vs 96.9% | PPA 96.9% (AuNP), 100% (QD); NPA 98.2% | visual / fluorescence | Abstract | 10.3390/diagnostics16162670 |
+
+### Table B2. Strategy overview for non-gold coloured labels
+
+| Label group | What it offers (as argued in the studies) | Examples in the included studies | Costs and limits seen | Table |
+|---|---|---|---|---|
+| Coloured latex | bright colours, uniform size, covalent coupling | veterinary antigen strips (PCV2, PEDV, PRRSV), SARS-CoV-2 | strain coverage set by antibodies; lower sensitivity than PCR; sample handling (faeces) | B1a |
+| Multicolour latex | several analytes read by colour on one strip | ASFV/CSFV antibodies, norovirus/adenovirus, SARS-CoV-2 neutralizing antibodies | needs hue discrimination; no blinded reading reported | B1b |
+| Carbon | dark signal from a non-metal | SFTSV, SARS-CoV-2 IgG, PDCoV | less sensitive than gold in the one direct comparison | B1c |
+| Selenium, silver, ultramarine blue, magnetic oxides | alternative hues; magnetic core | SARS-CoV-2 antibodies and antigen, HBsAg | abstract-level evidence only; comparators vary | B1d |
+| Organic and polymer chromophores | broad strong absorption (polydopamine) | SARS-CoV-2 IgG/IgM, influenza A, HBsAg | surface engineering needed; serum spiked only | B1e |
+| Cellulose nanobeads | dyed cellulose carrier | SARS-CoV-2, Nipah virus | analytical data only | B1f |
+| Fluorescent comparison | higher sensitivity in head-to-head studies | rotavirus/adenovirus, influenza A/B, neutralizing antibodies | needs a fluorescence reader | B1a, B1g |
+
+
+### Table B3. Reporting checklist for papers read in full (descriptive, not scored)
+
+Items: (a) real samples; (b) n stated; (c) reference method; (d) LOD definition; (e) cross-reactivity tested by the authors; (f) replicates or reproducibility; (g) comparator run in the same study; (h) stability tested. Y = yes, N = no, P = partly, NR = not reported. The other 30 papers in Tables B1a-g have not been assessed (abstract only).
+
+| Rec | DOI | (a) | (b) | (c) | (d) | (e) | (f) | (g) | (h) |
+|---|---|---|---|---|---|---|---|---|---|
+| R05403 | 10.1007/s00253-022-12074-y | Y (tissue and swab samples) | Y (100) | Y (PCR, gel) | P (highest positive dilution) | Y (10 other porcine viruses) | Y (three batches) | N (no gold comparator) | NR |
+| R04517 | 10.1186/s44149-021-00029-1 | Y (108 faeces) | Y | Y (RT-PCR) | Y (blank + 3 SD) | Y (TGEV, PDCoV, PRV, PRRSV, CSFV, PCV) | P (five replicates in stability; CV < 15% at three levels) | P (with and without filter pad; literature values only for gold and fluorescent) | Y (56 days at room temperature and 37 C; 23 days at 50 C) |
+| R08280 | 10.1155/tbed/5512419 | Y (180 sera) | Y | Y (two commercial ELISAs) | P (lowest dilution with a visible line) | Y (PRRSV, PRV, PEDV, PCV-2, BVDV, FMDV-O) | Y (intra- and inter-batch, triplicate) | Y (ELISAs on the same dilution series) | N |
+| R06083 | 10.3390/bios13030352 | N (spiked serum) | not applicable | not applicable | P (calibration-based; formula not stated in the text seen) | N (not tested) | NR | Y (commercial AuNP strip, 0-100 ng/mL) | NR |
+| R05096 | 10.1021/acs.analchem.2c00870 | Y (25 clinical samples) | Y (15 pos, 10 neg) | Y (RT-PCR for positives; Wantai ELISA for IgG levels) | P (visual endpoint by five observers, confirmed by ImageJ) | NR (not seen in text) | Y (three repeats with three independent batches) | Y (AuNP-citrate with adsorbed spike protein) | Y (6 months) |
+| R02878 | 10.1016/j.aca.2019.11.037 | N (spiked fetal calf serum) | not applicable | not applicable | Y (S/N = 3) | NR (not seen in text) | P (triplicate) | P (abstract claims gold comparison; text compares with literature) | P (particle suspension stable 3 months; strip stability NR) |
+| R08335 | 10.1007/s00253-025-13694-w | Y (159 sera) | Y | Y (commercial ELISA, Ingenasa) | P (highest dilution with a visible line) | Y (CSFV, PRRSV, FMDV-O, PEDV, PCV-2) | Y (intra- and inter-batch, three batches) | Y (same serum series on ELISA) | Y (16 months at 4 C, 12 at room temperature, 10 at 37 C) |
+
+## Items still to verify before this section is final
+1. R05403 (DOI: 10.1007/s00253-022-12074-y) and R04517 (DOI: 10.1186/s44149-021-00029-1): LOD exponents are lost in the retrieved text; values in the tables come from the abstract chart.
+2. R06199 (carbon black) and R03310 (selenium): key papers at abstract level; PDFs not yet available.
+3. R02878 (DOI: 10.1016/j.aca.2019.11.037): the abstract claims a lower LOD than a gold strip; check the PDF for a same-experiment gold comparison (not found in the text read).
+4. R02149 (DOI: 10.1002/asia.201700769): kept as a dual-mode note; the abstract gives no LOD or sample data.
+5. Record IDs in the tables will be replaced by numbered citations when the reference list is built.
+
+---
+
+# Part C (working text v1): catalytic and enzymatic amplification
+
+Working text, 2026-11-05. Text focuses on the technologies and how they connect; numerical detail is in the tables. † = read in full; all other rows abstract only (NR = not reported in the abstract). Every DOI cited in the text appears in a table and in the evidence table. Section c covers 47 included records after the E10 exclusion of seven marketed-kit evaluations and the removal of pre-2015 records.
+
+# 3.3 Catalytic and enzymatic amplification: adding signal after capture
+
+## 3.3.0 Why amplify, and how this section is organised
+
+The colour of a conventional strip is limited by what the label itself absorbs, and by how many labels the antibodies manage to capture (DOI: 10.1021/acsnano.7b06229). Amplification adds a second source of signal: after the sandwich has formed, something at the test line produces or deposits more colour. Enzyme-catalysed amplification is standard in laboratory immunoassays, but conventional implementations need technical skill and equipment that suit field use poorly (DOI: 10.1021/acsnano.7b06229). The studies in this section try to bring catalytic amplification into the strip while keeping it simple enough for the point of need.
+
+The approaches can be read as a progression in how much of the amplifier is built into the strip. The first group deposits metal on particles that are already captured (3.3.1). The second uses natural enzymes such as horseradish peroxidase and alkaline phosphatase as labels (3.3.2). The third replaces enzymes with inorganic nanozymes, particles that mimic enzyme activity and are described by their authors as more stable and easier to scale up (3.3.3 and 3.3.4; DOI: 10.1016/j.snb.2021.130718; DOI: 10.3390/plants15040656). The fourth tries to make the amplification step automatic (3.3.5). The last group combines catalytic colour with a second readout, and only the colorimetric channel counts here (3.3.6). Section 3.3.7 states what the evidence supports.
+
+Details (LOD with units, matrix, comparator, diagnostic data, readout) are in Tables C1a-C1f. Papers read in full are marked † in the tables (six for this section); all other statements rest on abstracts. The section covers 47 included records, all from 2015-2026. Seven evaluations of marketed amplification kits were excluded under the rule agreed for commercial-kit evaluations (E10); they are listed in the supplement.
+
+## 3.3.1 Depositing more metal on captured particles
+
+The simplest amplifier uses the particles themselves as seeds for further metal deposition. Silver enhancement was used for equine influenza and foot-and-mouth disease virus (DOI: 10.1292/jvms.17-0105; DOI: 10.1016/j.jviromet.2019.113736). Gold enlargement was used for a fish iridovirus (DOI: 10.1016/j.talanta.2026.130562), and copper deposition on gold seeds extended the approach to HIV p24 and to SARS-CoV-2 nucleocapsid protein (DOI: 10.1016/j.bios.2020.112753; DOI: 10.3390/bios12010013). A three-dimensional device combines gold and silver enhancement in one step for SARS-CoV-2 (DOI: 10.1021/acs.analchem.5c03575). These designs follow the logic described in section 3.1.2: the gain is large, but each needs an extra reagent step and carries a risk of background. One related approach amplifies by thermal contrast, which changes the readout from colour to heat and so lies at the edge of this review (DOI: 10.1021/acsanm.1c03217).
+
+## 3.3.2 Natural enzymes as labels
+
+Horseradish peroxidase (HRP) and alkaline phosphatase (ALP) produce a coloured precipitate from a substrate. On a strip they have been used as the sole label, together with gold, or on magnetic carriers. ALP combined with gold nanoparticles was used for potato virus X (DOI: 10.1007/s00604-017-2595-3). An HRP-labelled strip differentiated influenza A and B in nasopharyngeal samples (DOI: 10.1002/jmv.25322), and HRP added to a colloidal-gold strip for bovine parvovirus raised the signal on faecal samples (DOI: 10.3389/fmicb.2023.1174737). Magnetic enzyme labels were used for dengue NS1, and a capture-layer design with an enzyme label allowed quantitative dengue NS1 detection (DOI: 10.7717/peerj.7779; DOI: 10.1021/acsomega.0c00367). A hepatitis B e-antigen strip used a signal amplification system, with a mechanism not stated in the abstract (DOI: 10.1002/jmv.25452). Enzyme-induced tyramide deposition produced a dual-colour amplification for SARS-CoV-2 and influenza (DOI: 10.1016/j.bios.2024.116262), and HRP tracers have been applied to nucleic acid detection in a vertical-flow format (DOI: 10.1007/s00216-022-03988-7).
+
+The main weakness of natural enzymes is stability. In one direct test, freeze-dried antibody-HRP conjugates lost most of their signal within two weeks of dry storage at room temperature, whereas a platinum nanocatalyst kept its signal for weeks, even at 44 C (DOI: 10.1021/acsnano.7b06229). That observation is the main reason given for nanozymes in the studies that follow.
+
+## 3.3.3 Noble-metal nanozymes
+
+Nanozymes are particles with peroxidase-like activity; supplied with hydrogen peroxide and a chromogenic substrate, they oxidise it and deposit colour at the test line. Platinum-based particles dominate the evidence.
+
+A porous platinum core-shell nanocatalyst for HIV p24 is the most thoroughly characterised example (DOI: 10.1021/acsnano.7b06229). Its activity depends on particle size, on the polymer capping used in synthesis and on the porous platinum shell, which stays accessible to hydrogen peroxide even when serum proteins coat the surface; the best size range was 120-200 nm, and larger particles performed worse (DOI: 10.1021/acsnano.7b06229). The same strip works in two regimes: at high antigen the intrinsic dark colour of the particle is visible, and at low antigen the catalytic step takes over, which widens the dynamic range over several orders of magnitude (DOI: 10.1021/acsnano.7b06229). The authors tested serial plasma from an HIV seroconversion panel and detected antigen during the acute phase, and lyophilised reagents survived weeks of accelerated ageing (DOI: 10.1021/acsnano.7b06229). The assay needs a wash step and a 5-min development step, so it is not a one-step strip.
+
+Gold-platinum particles follow the same principle. A nanoenzyme-linked sensor with Au@Pt particles for SARS-CoV-2 nucleocapsid protein reads the developed substrate by transmitted light in a small 3D-printed holder with a laser, a photometer and a smartphone, so the result is colorimetric but not equipment-free (DOI: 10.1016/j.snb.2021.130718). The reported LOD was similar to a laboratory ELISA and lower than that of a conventional strip with the same antibodies, and the Au@Pt particles kept their activity over days while HRP lost it (DOI: 10.1016/j.snb.2021.130718). Platinum nanoparticles have also been used to make amplification reagent-free: in a strip for influenza A, a flow-delay pad and an acidic secondary flow deliver TMB and peroxide to the captured particles after the sample, so the user adds nothing but the sample, and a smartphone application reads the intensity ratio (DOI: 10.1021/acsinfecdis.5c00731). Against RT-PCR on 42 clinical samples tested in triplicate the reported sensitivity was 96.8% and specificity 98.4%, but these figures count the 126 replicate measurements, not 42 independent patients (DOI: 10.1021/acsinfecdis.5c00731). Related noble-metal nanozymes include peroxide-tolerant Au@Pt for plant virus (DOI: 10.1016/j.talanta.2020.121961), Au@Pt nanorods for HBV DNA (DOI: 10.1039/d1an02084f), trimetallic Au@Pd@Pt (DOI: 10.1039/d2ay01530g), an AuPt nanoalloy for HPV16 DNA (DOI: 10.1039/d3ra00757j), Au@Pt for SARS-CoV-2 nucleocapsid protein and respiratory syncytial virus (DOI: 10.1007/s00604-024-06697-3; DOI: 10.1016/j.talanta.2026.130820), Au@Pt@Pd (DOI: 10.1007/s00604-024-06819-x), a platinum nanozyme with a mesoporous silica shell for enrichment (DOI: 10.1016/j.aca.2024.343474), Pt-Pd particles for foot-and-mouth disease virus (DOI: 10.1016/j.jchromb.2024.124043), PdRu nanocages for HPV16 and HPV18 (DOI: 10.1016/j.jcis.2024.06.002), polydopamine-platinum particles (DOI: 10.1186/s12951-025-03903-z) and a further platinum strip with a stated clinical sensitivity and specificity against RT-PCR (see above). A platinum-polymer nanoparticle strip evaluated on 200 clinical specimens had a sensitivity of 74% and a specificity of 100% (DOI: 10.3390/biomedicines13122993), a reminder that amplification does not remove the limits that antibody pairs and sample type set (Table C1c).
+
+## 3.3.4 Other nanozymes and structured catalysts
+
+Iron-oxide nanozymes were among the earliest: a Fe3O4 nanozyme strip for Ebola virus glycoprotein, developed with DAB and peroxide after the run, reached 1 ng/mL by eye against 100 ng/mL for a standard colloidal-gold strip and 0.1 ng/mL for an ELISA (DOI: 10.1016/j.bios.2015.05.025). Because no Ebola patient samples were available, the authors tested pseudo-virus in serum and, as a surrogate, serum from 20 PCR-positive and 31 negative patients with a different bunyavirus infection; the strip detected 12 of 20 positives, against 8 of 20 for the ELISA, with no false positives (DOI: 10.1016/j.bios.2015.05.025). A study on potato viruses shows how differently nanozymes can be used (DOI: 10.3390/plants15040656). Fe3O4 particles were applied as a plain colorimetric label read by eye within 10 minutes, with no substrate step, to build monovalent and bivalent strips for potato viruses X and Y; the authors note that substrate-based amplification could raise sensitivity further, but did not test it (DOI: 10.3390/plants15040656). All 12 tissue-culture plantlets matched RT-PCR, and the authors state that storage stability and batch consistency were not evaluated, even though the abstract mentions storage at ambient temperature (DOI: 10.3390/plants15040656).
+
+Further designs vary the chemistry. A PDA@MnO2 oxidase-like mimic was combined with a peptide binder (DOI: 10.1021/acs.analchem.3c02821). Bimetallic Fe-Co particles were used for porcine rotavirus on faecal samples (DOI: 10.1016/j.ab.2026.116259), a nanozyme strip was developed for avian leukosis virus (DOI: 10.1016/j.tvjl.2025.106508), magnetic multi-metallic nanozymes for influenza A (DOI: 10.1002/exp.20240425), and a three-dimensional film-like nanozyme for respiratory viruses (DOI: 10.1021/acsnano.4c09513) (Table C1d).
+
+## 3.3.5 Building the amplification into the strip
+
+The weak point of most amplified strips is the extra step. Three designs try to make it automatic or user-friendly. A nanozyme strip with a push-button signal enhancement worked in undiluted serum (DOI: 10.1039/d1an01350e). A strip with delayed substrate release keeps the chromogenic substrate in a glass-fibre membrane at the sample pad, so it dissolves and reaches the test line only after the nanozyme probes have been captured, which lowers the background and removes a user step (DOI: 10.1016/j.talanta.2025.127557). It was shown on a synthetic H1N1 nucleic acid spiked into serum, with a 25-fold lower LOD than the same strip before catalysis, and has not been tested on patient samples (DOI: 10.1016/j.talanta.2025.127557). The influenza A platinum strip described in 3.3.3 uses the same idea with a timed secondary flow (DOI: 10.1021/acsinfecdis.5c00731). An aptamer-based design changes how the chemical signal is transformed to raise signal quality (DOI: 10.1039/d4nr04130e). These approaches aim to keep the strip one-step, which is the main reason many simple gold strips remain in use (Table C1e).
+
+## 3.3.6 Dual-mode strips and mixed-target assays
+
+Some nanozyme strips add a second readout, such as photothermal, fluorescent or Raman signals, or combine viral and bacterial targets. A Fe3O4@MoS2@Pt nanotag gave colorimetric and photothermal readouts, and the photothermal LODs are not colorimetric and are kept apart in the table (DOI: 10.1021/acsami.3c15851). Others combine nanozymes with fluorescence or SERS for SARS-CoV-2, norovirus and adenovirus (DOI: 10.1021/acs.analchem.5c02780; DOI: 10.1021/acs.analchem.5c03047; DOI: 10.1021/acsami.6c07352), and three strips detect viruses together with bacteria or without naming the viral targets in the abstract (DOI: 10.1002/advs.202502574; DOI: 10.1021/acs.analchem.5c03762; DOI: 10.1021/acs.analchem.6c03394). Only the colorimetric channel and the viral target are counted for this review (Table C1f).
+
+## 3.3.7 What the evidence supports
+
+Catalytic amplification gives the largest gains reported in this review, often one to three orders of magnitude within a paper, and nanozymes are consistently described as more stable than natural enzymes (Table C2). Three cautions run through the evidence. First, amplification is paid for with steps: substrate, hydrogen peroxide, washing or a reading device; the clearest example of this is the smartphone nanoenzyme sensor, whose result depends on an optical reader. Second, the comparator differs, such as an unamplified strip, a commercial gold strip or an ELISA, so fold-improvements cannot be ranked. Third, clinical evidence is thin: where patient samples were tested, sensitivity ranged widely, from 60% for the Ebola-surrogate strip and 74% for a platinum-polymer strip to high values with small panels, and replicate measurements were sometimes counted as separate samples. The potato-virus Fe3O4 strip shows that a nanozyme can also serve as a simple label without any amplification step, which makes the term "nanozyme strip" ambiguous in the literature.
+
+
+
+### Table C1a. Metal deposition on captured particles
+
+| Rec | Year | Target | Label / amplifier | Matrix | LOD (as stated) | Within-paper comparison | Diagnostic data (as stated) | Readout | Evidence | DOI |
+|---|---|---|---|---|---|---|---|---|---|---|
+| R02120 | 2017 | equine influenza virus | silver amplification (gold) | nasal swabs | 5-fold lower than conventional RAD tests | 5-fold lower than conventional rapid tests | NR | visual | Abstract | 10.1292/jvms.17-0105 |
+| R02817 | 2020 | FMDV (7 serotypes) | silver amplification | 132 clinical samples | 10-100x more sensitive than Svanodip (serotypes O, A, Asia1, C, SAT1) | 10-100x more sensitive than Svanodip | less saliva inhibition than Svanodip | visual | Abstract | 10.1016/j.jviromet.2019.113736 |
+| R03340 | 2021 | HIV-1 p24 (and E. coli O157:H7) | gold nanoparticles + Cu nanoshell growth (PEI-assisted) | NR | 50 fg/mL (HIV-1 p24); 6 CFU/mL (E. coli) | NR | NR | visual | Abstract | 10.1016/j.bios.2020.112753 |
+| R04697 | 2021 | SARS-CoV-2 N protein | AuNP + Cu deposition | certified reference materials | 0.01 ug/mL to 10 pg/mL (3 orders) | 3 orders of magnitude | not reported | visual | Abstract | 10.3390/bios12010013 |
+| R08742 | 2027 | ISKNV | AuNP | sea bass mucus | 0.25 ug/mL; 0.050 ug/mL after gold enhancement (5x) | 5x (gold enhancement) | aligned with PCR | visual | Abstract | 10.1016/j.talanta.2026.130562 |
+| R08163 | 2025 | SARS-CoV-2 | AuNP + Au/Ag enhancement | Omicron BA.1 viral samples | not reported | NR | not reported | visual | Abstract | 10.1021/acs.analchem.5c03575 |
+| R04627 | 2021 | SARS-CoV-2 antigen | AuNP | not reported | fM-aM; comparable to PCR (aM-zM) | NR | not reported | visual | Abstract | 10.1021/acsanm.1c03217 |
+
+### Table C1b. Natural enzymes as labels
+
+| Rec | Year | Target | Label / amplifier | Matrix | LOD (as stated) | Within-paper comparison | Diagnostic data (as stated) | Readout | Evidence | DOI |
+|---|---|---|---|---|---|---|---|---|---|---|
+| R02353 | 2017 | potato virus X | gold NPs + ALP enzyme | buffer, leaf extracts | 0.3 ng/mL (27-fold below conventional LFIA) | 27-fold below conventional LFIA | NR | visual | Abstract | 10.1007/s00604-017-2595-3 |
+| R02484 | 2019 | influenza A and B | HRP enzyme (TMB colour) | nasopharyngeal samples | >10-fold more sensitive than gold-colloidal strips (13 isolates) | >10-fold more sensitive than gold-colloidal strips | sens 90.2% (55/61) and 82.6% (71/86) | visual | Abstract | 10.1002/jmv.25322 |
+| R02792 | 2019 | dengue NS1 (DENV1-4) | magnetic enzyme label (catalytic) | clinical samples | 0.25 ng/mL (DENV-1/3), 0.1 (DENV-2), 1.0 (DENV-4) | NR | sens 100%, spec 100% clinical | visual | Abstract | 10.7717/peerj.7779 |
+| R03014 | 2020 | dengue NS1 | enzyme label (no nanobeads) | spiked buffer and serum | 5-fold more sensitive than gold-standard ELISA | 5-fold more sensitive than ELISA | NR | visual/quantitative | Abstract | 10.1021/acsomega.0c00367 |
+| R04947 | 2022 | HBV DNA | HRP enzymatic tracer | 45 HBV plasma samples | 1.7 nM (8.5 fmol in 12 uL) | NR | 100% consistent with real-time PCR | visual | Abstract | 10.1007/s00216-022-03988-7 |
+| R06219 | 2023 | bovine parvovirus | colloidal gold + HRP enhancement | 280 clinical faecal samples | 10^2 TCID50 (10x traditional strip) | 10x traditional strip | no cross-reaction with BRV, BVDV, BRSV | visual | Abstract | 10.3389/fmicb.2023.1174737 |
+| R06975 | 2024 | SARS-CoV-2 nucleoprotein, influenza A/B | enzyme-induced tyramide amplification (dual-colour) | inactivated virus | 3.9 pg/mL; naked-eye cut-off 7.8 pg/mL; 0.018 TCID50/mL | NR | NR | visual/automated | Abstract | 10.1016/j.bios.2024.116262 |
+
+### Table C1c. Noble-metal nanozymes
+
+| Rec | Year | Target | Label / amplifier | Matrix | LOD (as stated) | Within-paper comparison | Diagnostic data (as stated) | Readout | Evidence | DOI |
+|---|---|---|---|---|---|---|---|---|---|---|
+| R02272 | 2018 | HIV-1 p24 | porous Pt core-shell nanocatalyst (~120 nm) + nanobody-biotin; streptavidin line; CN/DAB + H2O2 development | spiked fetal bovine serum and plasma; HIV seroconversion panel plasma (one donor) | 0.8 pg/mL (32.5 fM) after catalysis; pre-catalysis visible 100-10,000 pg/mL | catalysis lowers LOD by about 2 orders of magnitude; authors state up to 20x better than published sensitivity of leading commercial p24 tests (cross-study) | panel samples 7-14 of one donor detected (p24 10.8 and 4.6 pg/mL in samples 13, 14); cutoff blank + 3 SD; no sensitivity/specificity | phone camera + ImageJ; wash and 5-min development; < 20 min | Full text † | 10.1021/acsnano.7b06229 |
+| R03648 | 2021 | potato virus X | Au@Pt core-shell nanozyme | leaf and tuber extracts | 4 pg/mL (tuber), 8 pg/mL (leaf) | NR | NR | visual (catalytic) | Abstract | 10.1016/j.talanta.2020.121961 |
+| R04340 | 2021 | SARS-CoV-2 nucleocapsid protein | Au@PtNP-mAb (13 nm Au core, Pt shell) + TMB; U-shaped strip device | buffer standards; 21 COVID-19 sera; 80 healthy donor plasma | 0.026 ng/mL (mean + 3 SD of 40 negatives); range 0.05-1.6 ng/mL | commercial ELISA LOD 0.025 ng/mL; conventional ICA visible only above 0.1 ng/mL | 21 NAT-confirmed sera: 16 positive (76.2%) vs 10 by ELISA (47.6%), p = 0.057; 80 donors all negative (spec 100%); accuracy 95.1% vs 89.1%; r = 0.990 vs ELISA | 450 nm laser + photometer + smartphone (transmitted light); 25 min | Full text † | 10.1016/j.snb.2021.130718 |
+| R04683 | 2022 | HBV DNA | Au@Pt nanorods (nanozyme) | NR | 8.5 pM (range 0.1-50 nM) | NR | NR | visual (catalytic) | Abstract | 10.1039/d1an02084f |
+| R05783 | 2022 | SARS-CoV-2 nucleocapsid | Au@Pd@Pt core-shell nanozyme | spiked samples | 0.037 ng/mL (17-fold lower than unenhanced LFIA); range 0.05-100 ng/mL | 17-fold lower than unenhanced LFIA | recoveries 92.5-107.9% | visual (catalytic) | Abstract | 10.1039/d2ay01530g |
+| R06192 | 2023 | HPV16 DNA | AuPt nanoalloy | NR | excellent sensitivity (value NR) | NR | NR | visual | Abstract | 10.1039/d3ra00757j |
+| R07345 | 2024 | SARS-CoV-2 N protein | Au@Pt | not reported | 40 pg/mL naked eye (>1000x vs without amplification) | >1000x vs without amplification | not reported | visual | Abstract | 10.1007/s00604-024-06697-3 |
+| R07397 | 2024 | SARS-CoV-2 N protein | Au@Pt@Pd | nasal swab | 0.06 ng/mL; 16x and 8x vs Au-LFIA and AF-LFIA | 16x vs Au-LFIA; 8x vs AF-LFIA | sens 84.09%, spec 100%, accuracy 92.55% | visual/reader | Abstract | 10.1007/s00604-024-06819-x |
+| R07452 | 2025 | influenza A | Pt nanozyme | not reported | 33 copies/mL; ~100x vs AuNP strips | about 100x vs AuNP strips | not reported | visual | Abstract | 10.1016/j.aca.2024.343474 |
+| R08120 | 2025 | Influenza A nucleoprotein | platinum nanoparticles (50 nm) with TMB delivered by delayed secondary acidic flow (reagent-free, single sample drop) | assay buffer; inactivated virus; 42 clinical samples in transport medium (prediluted 10-fold) | 11.64 pg/mL NP (mean + 3 SD of 8 negatives, regression model); inactivated virus 2,000 TCID50/mL enhanced vs 200,000 unenhanced | about 100-fold visual signal gain vs unenhanced; authors state about 1000-fold vs conventional LFIAs (cross-study) | 21 PCR-positive, 21 negative, each in triplicate (126 measurements): sens 96.8% (61/63), spec 98.4% (62/63) vs real-time PCR; Ct vs intensity ratio R2 = 0.832 (N = 20) | smartphone app with machine-learning model; ChemiDoc for evaluation; 15 min | Full text † | 10.1021/acsinfecdis.5c00731 |
+| R08245 | 2025 | SARS-CoV-2 | Pt-P2VP | 200 clinical specimens | not reported | NR | sens 74%, spec 100% | visual | Abstract | 10.3390/biomedicines13122993 |
+| R08831 | 2026 | RSV F protein | Au@Pt | preliminary clinical | 0.25, 0.04, 0.78 ng/mL (ELISA, CLIA, Au@Pt-LFIA); Au@Pt ~4x vs colloidal gold | about 4x vs colloidal gold | PPA 90.0%, 93.3%, 83.3%; NPA 100% | visual | Abstract | 10.1016/j.talanta.2026.130820 |
+| R06816 | 2024 | FMDV serotype O | Pt-Pd bimetallic nanoparticles (TMB catalytic colour) | NR | 1:2^8/test (range 1:2^6-1:2^9) | NR | 96.7% sensitivity on positive serum | visual and quantitative | Abstract | 10.1016/j.jchromb.2024.124043 |
+| R07119 | 2024 | HPV16, HPV18 | PdRu nanocages (catalytic colour) | NR | 0.93 nM and 0.19 nM | NR | NR | visual | Abstract | 10.1016/j.jcis.2024.06.002 |
+| R08213 | 2025 | influenza A | PDA@Pt | not reported | 0.5 ng/mL colorimetric; 0.005 ng/mL catalytic (2x, 200x vs AuNP LFIA) | 2x (colorimetric) and 200x (catalytic) vs AuNP LFIA | not reported | visual | Abstract | 10.1186/s12951-025-03903-z |
+
+### Table C1d. Other nanozymes and structured catalysts
+
+| Rec | Year | Target | Label / amplifier | Matrix | LOD (as stated) | Within-paper comparison | Diagnostic data (as stated) | Readout | Evidence | DOI |
+|---|---|---|---|---|---|---|---|---|---|---|
+| R01705 | 2015 | Ebola virus glycoprotein (and pseudo-virus); New Bunyavirus NP as clinical surrogate | Fe3O4 magnetic nanoparticle nanozyme probe; DAB + H2O2 development | buffer; pseudo-EBOV in serum; 20 PCR-positive and 31 negative bunyavirus sera | 1 ng/mL EBOV-GP by eye; pseudo-EBOV 240 pfu/mL | standard colloidal gold strip 100 ng/mL (100-fold); ELISA 0.1 ng/mL | bunyavirus sera vs RT-PCR: nanozyme strip 12/20 positive, ELISA 8/20, 0/31 false positives in both; no Ebola patient samples | naked eye (five observers); 30 min | Full text † | 10.1016/j.bios.2015.05.025 |
+| R06404 | 2023 | SARS-CoV-2 spike | PDA@MnO2 oxidase mimic (catalytic colour) | pseudovirus in saliva (150 TU/mL) | 8.01 pg/mL (18.7x lower than gold nanoparticle pLFIA) | 18.7x vs gold nanoparticle LFIA | NR | visual (catalytic) | Abstract | 10.1021/acs.analchem.3c02821 |
+| R08764 | 2027 | porcine rotavirus | Fe-Co nanozyme | 72 faecal samples | 100 TCID50/mL (2x vs commercial gold strips) | 2x vs commercial gold strips | sens 95.45%, spec 100%, kappa 0.97 | visual | Abstract | 10.1016/j.ab.2026.116259 |
+| R08369 | 2026 | PVX and PVY coat proteins | Fe3O4 nanozyme used as plain colour label (no substrate); monovalent and bivalent strips | extracts of potato plantlets in vitro (RT-PCR confirmed) | visible T line up to a dilution of 10^n (exponents lost in retrieved text; chart: 1e3 PVX, 1e4 PVY); LOD = highest dilution with a visible line in 3/3 replicates | no gold strip or ELISA comparator in the study | 12 plantlets (1 PVX+, 6 PVY+) fully concordant with RT-PCR | naked eye, 10 min | Full text † | 10.3390/plants15040656 |
+| R08184 | 2026 | ALV | nanozyme | not reported | 12.5 TCID50/mL; 0.20 ng/mL proteins | NR | no cross-reaction with six avian viruses | visual | Abstract | 10.1016/j.tvjl.2025.106508 |
+| R08612 | 2026 | influenza A | multi-metal nanozyme | 20 clinical samples | 0.8 pg/mL (125x vs commercial colloidal gold); 140 copies/mL inactivated virus | 125x vs commercial colloidal gold | accuracy 100% | visual | Abstract | 10.1002/exp.20240425 |
+| R07275 | 2024 | respiratory viruses (two) | nanozyme (GO-Pt30-AuPt5) | not reported | 1 pg/mL | about 100x vs no amplification | not reported | visual | Abstract | 10.1021/acsnano.4c09513 |
+
+### Table C1e. Built-in or automatic amplification
+
+| Rec | Year | Target | Label / amplifier | Matrix | LOD (as stated) | Within-paper comparison | Diagnostic data (as stated) | Readout | Evidence | DOI |
+|---|---|---|---|---|---|---|---|---|---|---|
+| R04542 | 2021 | SARS-CoV-2 nucleocapsid | nanozyme (catalytic colour) | undiluted serum | 0.1 ng/mL | NR | NR | visual | Abstract | 10.1039/d1an01350e |
+| R07515 | 2025 | Synthetic H1N1 nucleic acid | Au@PtNP probes; DAB delayed-release from glass-fibre membrane (PVA) | buffer; serum spiked with synthetic DNA | 0.02 nM (3 sigma/slope); visual 0.5 nM | 25-fold lower than the nanozyme strip before catalysis | none; recovery 96-102.7% (n = 3); selectivity vs H3N2, H9N2, H5N1 | phone camera + ImageJ; 20 min | Full text † | 10.1016/j.talanta.2025.127557 |
+| R07513 | 2025 | SARS-CoV-2 spike | AuNP nanozyme | 25 clinical samples | 168 pg/mL; >20x signal quality | >20x signal quality | semi-quantitative efficiency >90% | visual | Abstract | 10.1039/d4nr04130e |
+| R02642 | 2019 | HBeAg | gold nanoparticles + amplification | 420 blood samples | 9 ng/mL (27-fold more sensitive than conventional LFIA) | 27-fold more sensitive than conventional LFIA | fully in accordance with ELISA | visual | Abstract | 10.1002/jmv.25452 |
+
+### Table C1f. Dual-mode and mixed-target strips (colorimetric channel only)
+
+| Rec | Year | Target | Label / amplifier | Matrix | LOD (as stated) | Within-paper comparison | Diagnostic data (as stated) | Readout | Evidence | DOI |
+|---|---|---|---|---|---|---|---|---|---|---|
+| R06844 | 2024 | SARS-CoV-2 NP, H1N1 | Fe3O4@MoS2@Pt nanozyme | simulated nose swabs | catalytic colorimetric 80 and 20 ng/mL (~100x vs commercial); photothermal 10 and 8 ng/mL (not colorimetric) | about 100x vs commercial (catalytic colorimetric) | recovery 95.2-103.8% | visual + photothermal | Abstract | 10.1021/acsami.3c15851 |
+| R07938 | 2025 | SARS-CoV-2 N protein | nanozyme + fluorophore | clinical | 0.0302 ng/mL colorimetric | NR | superior to colloidal gold LFIA (no values) | visual + fluorescence | Abstract | 10.1021/acs.analchem.5c02780 |
+| R08000 | 2025 | norovirus, adenovirus | nanozyme | 92 stool samples | 0.001 ng/mL NoV; 1e2 PFU/mL AdV (visual); SERS 0.00014 ng/mL, 11 PFU/mL (not colorimetric) | NR | not reported | visual + SERS | Abstract | 10.1021/acs.analchem.5c03047 |
+| R08737 | 2026 | norovirus + E. coli O157 | magnetic nanozyme | 116 stool samples | vLOD 0.05 ng/mL norovirus; SERS 0.11 pg/mL (not colorimetric) | NR | consistent with qPCR | visual + SERS | Abstract | 10.1021/acsami.6c07352 |
+| R08826 | 2026 | emerging viruses (two targets) | magnetic nanozyme | not reported | 19.4 and 22.5 pg/mL direct; >=92.65x sensitivity after 2 min catalysis | >=92.65x after catalysis | not reported | visual | Abstract | 10.1021/acs.analchem.6c03394 |
+| R07744 | 2025 | SARS-CoV-2 + two bacteria | FeAu@AuIr nanozyme | 170 positive respiratory samples | not reported | NR | not reported | visual | Abstract | 10.1002/advs.202502574 |
+| R08107 | 2025 | SARS-CoV-2 + bacteria | Au@Ir nanozyme | not reported | >=555x vs AuNP LFA; ~116x vs ELISA | >=555x vs AuNP LFA | not reported | visual | Abstract | 10.1021/acs.analchem.5c03762 |
+
+### Table C2. Strategy overview for catalytic and enzymatic amplification
+
+| Strategy | What it adds | Examples | Costs and limits seen | Table |
+|---|---|---|---|---|
+| Metal deposition (silver, gold, copper) | larger particles at the line | plant, avian, equine and foot-and-mouth viruses; HIV p24; SARS-CoV-2 | extra reagent step, background | C1a |
+| Natural enzymes (HRP, ALP, tyramide) | catalytic colour from a substrate | influenza A/B, dengue NS1, bovine parvovirus, PVX | enzyme stability on dry storage | C1b |
+| Noble-metal nanozymes (Pt, Au@Pt, Pd-based) | peroxidase-like catalysis, stable | HIV p24, SARS-CoV-2, influenza A, HPV, HBV | substrate and peroxide steps; reader in some designs; clinical data thin | C1c |
+| Other nanozymes (iron oxide, oxidase mimics, composites) | alternative catalysts or plain labels | Ebola, potato viruses, rotavirus, avian leukosis virus | term used also for plain labels without amplification | C1d |
+| Built-in or automatic amplification | removes a user step | push-button, delayed substrate release | few clinical data | C1e |
+| Dual-mode with a second readout | extra sensitivity channel | SARS-CoV-2, norovirus, adenovirus | non-colorimetric channels excluded; mixed viral and bacterial targets | C1f |
+
+### Table C3. Reporting checklist for papers read in full (descriptive, not scored)
+
+Items: (a) real samples; (b) n stated; (c) reference method; (d) LOD definition; (e) cross-reactivity tested by the authors; (f) replicates or reproducibility; (g) comparator run in the same study; (h) stability tested. Y = yes, N = no, P = partly, NR = not reported. The other 45 papers in Tables C1a-f have not been assessed (abstract only).
+
+| Rec | DOI | (a) | (b) | (c) | (d) | (e) | (f) | (g) | (h) |
+|---|---|---|---|---|---|---|---|---|---|
+| R02272 | 10.1021/acsnano.7b06229 | P (commercial seroconversion panel, one donor) | P (panel samples; counts not given) | P (manufacturer p24 ELISA and RNA assays) | P (cutoff blank + 3 SD for panel) | N (no panel in the text seen) | Y (five batches, CV 2.4%; triplicates) | Y (before vs after catalysis; HRP conjugate) | Y (6 weeks, 44 C and room temperature) |
+| R04340 | 10.1016/j.snb.2021.130718 | Y (21 sera, 80 donors) | Y | P (NAT-confirmed patients; ELISA comparator) | Y (mean + 3 SD of 40 negatives) | Y (S, RBD, H1N1 HA and NA, HBsAg, HCV core) | Y (intra-assay 6 replicates; inter-assay 8 tests) | Y (ELISA and conventional ICA on same standards) | P (catalyst activity 15 days; strip shelf life NR) |
+| R08369 | 10.3390/plants15040656 | P (tissue-culture plantlets, not field) | Y (12) | Y (RT-PCR) | Y (highest dilution with a visible line in 3/3 replicates) | Y (PVA, PVM, PVS, PLRV, healthy) | P (n = 3 per dilution; batch consistency not assessed) | N | N (stated as not evaluated) |
+| R08120 | 10.1021/acsinfecdis.5c00731 | Y (42 clinical samples) | P (21 + 21 samples, triplicate; 126 measurements) | Y (real-time PCR) | Y (blank mean + 3 SD of 8 negatives) | NR (not seen in text) | Y (triplicate; five batches in LOD test) | Y (enhanced vs unenhanced strips) | NR |
+| R01705 | 10.1016/j.bios.2015.05.025 | P (bunyavirus surrogate sera; pseudo-virus for Ebola) | Y (20 + 31) | Y (RT-PCR, ELISA) | Y (visual limit; ELISA cut-off defined) | Y (influenza A virus) | Y (three repeats read by five observers) | Y (standard gold strip and ELISA) | NR |
+| R07515 | 10.1016/j.talanta.2025.127557 | N (synthetic DNA in serum) | not applicable | not applicable | Y (3 sigma/slope) | Y (H3N2, H9N2, H5N1) | P (n = 3 for recovery) | Y (before vs after catalysis) | P (membrane stability described; strip shelf life NR) |
+
+## Items still to verify before this section is final
+1. R08369 (DOI: 10.3390/plants15040656): the dilution exponents are lost in the retrieved text (chart values 1e3 and 1e4).
+2. R08742 (DOI: 10.1016/j.talanta.2026.130562) and R08764 (DOI: 10.1016/j.ab.2026.116259): records show a 2027 year; check the publication dates.
+3. R04627 (DOI: 10.1021/acsanm.1c03217): read-out by thermal contrast, not colour; boundary case, may be moved to the supplement.
+4. R02642 (DOI: 10.1002/jmv.25452): the amplification mechanism is not stated in the abstract.
+5. R07744, R08107, R08737 combine viral and bacterial targets and R08826 does not name its viruses in the abstract; viral target retained, flagged.
+6. Seven marketed-kit evaluations were excluded (E10) by default; reversible.
+7. Record IDs in the tables will be replaced by numbered citations when the reference list is built.
+
+---
+
+# Part D (working text v1): assay and flow engineering
+
+Working text, 2026-11-05. Text focuses on the technologies and how they connect; numerical detail is in the tables. † = read in full; all other rows abstract only (NR = not reported in the abstract). Every DOI cited in the text appears in a table and in the evidence table. Section d covers 99 included records after the E9 exclusion of six antibody-screening papers.
+
+# 3.4 Assay and flow engineering: designing the strip around the sample
+
+## 3.4.0 Why look at the strip rather than the label, and how this section is organised
+
+The sections so far changed what is on the strip: the particle, the colour carrier and the amplifier. This section looks at everything else that decides whether the label gets a chance to work. A sample has to enter the strip in a usable form, flow past the capture line for long enough, meet binders that recognise the target, and be read in a defined format. Performance can be limited by any of these steps, not only by the label.
+
+The studies are organised along that path. They start with the flow inside the strip (3.4.1), then with concentrating the target before it enters (3.4.2), and with collecting and pre-treating the sample (3.4.3). They continue with the binders and antigens that give the strip its specificity (3.4.4), the assay formats built around them (3.4.5), and the many prototype strips that combine these elements for a new virus (3.4.6). Section 3.4.7 states what the evidence supports. Numerical details are in Tables D1a-D1f. Papers read in full are marked † in the tables (three for this section); all other statements rest on abstracts. The section covers 99 included records, all from 2015-2026. Six records in which the strip was used only to screen antibodies or peptides were excluded (E9).
+
+## 3.4.1 Controlling the flow inside the strip
+
+Sensitivity depends on how long the sample is in contact with the capture line, so several designs slow or shape the flow. A delayed lateral flow design for SARS-CoV-2 spike RBD lowered the LOD and raised sensitivity against a conventional strip (DOI: 10.1007/s00604-022-05467-3), and dissolvable sugar barriers placed in the membrane did the same for a nucleic acid strip (DOI: 10.1016/j.carbpol.2021.118259). Other designs change the geometry: a tapered strip for dengue NS1 (DOI: 10.1063/1.5035113), a sponge for hepatitis B nucleic acid (DOI: 10.1038/s41598-017-01558-x), a paper network for influenza haemagglutinin (DOI: 10.1039/c8lc00691a), a paper-hydrogel hybrid for dengue RNA (DOI: 10.1002/adhm.201600920) and laser micro-machined channels (DOI: 10.1038/s41598-024-74407-3). Cost-efficient changes of strip design also raised the sensitivity of SARS-CoV-2 antigen tests (DOI: 10.1038/s41598-023-31641-5; DOI: 10.3390/bios14060305).
+
+A second family moves the sample through the paper in another direction. Vertical-flow cellulose assays were used for SARS-CoV-2 antibodies and antigen and for Rift Valley fever virus, where a vertical-flow format was 2.5-fold more sensitive than a lateral-flow prototype (DOI: 10.1021/acssensors.1c00235; DOI: 10.1039/d2lc00073c; DOI: 10.1128/spectrum.00341-25), and a vertical-flow paper sensor combined colorimetric and electrochemical readout for influenza (DOI: 10.1016/j.bios.2018.10.008). A thermochromic strip was developed for dengue NS1, and a centrifugal microfluidic chip analysed Ebola virus-like particles by digital imaging (DOI: 10.1039/d3nr01858j; DOI: 10.1039/d3ay00073g). Low-cost fabrication tools, foil-based chips and cellulose test strips address manufacturing rather than sensitivity (DOI: 10.1021/acsomega.2c07014; DOI: 10.3390/bios15040229; DOI: 10.1007/s10570-022-04808-y; DOI: 10.18063/ijb.v7i4.399). These designs trade the one-step simplicity of a conventional strip for sensitivity or manufacturability; whether the trade is worth it depends on the setting.
+
+## 3.4.2 Concentrating the target before the strip
+
+The target concentration at the line can also be raised by enriching the sample before it reaches the strip. The simplest approach for the user is a front-end device that works with an unmodified commercial strip.
+
+A nanoelectrokinetic preconcentrator coupled to a commercial SARS-CoV-2 IgG/IgM strip concentrated antibodies more than 30-fold on rolled paper discs under an electric field of about 70 V/cm and gave a 32-fold lower LOD (the signal appeared at 1/6,400 instead of 1/200 dilution of a vaccinated serum), with 95.7% extraction efficiency when the right paper was used (DOI: 10.1016/j.bios.2022.114385). In a pilot with sera from vaccinated people, four samples that the commercial strip did not detect became detectable (Table D1b). Another group enriched virus, nucleocapsid protein and IgG on a red-blood-cell-membrane-coated nanoporous aluminium oxide membrane under 3 bar of pressure in 3 minutes, again in front of a commercial strip (DOI: 10.1038/s41467-023-37018-6). The LOD improved up to 20-fold, and in 62 individuals the strip's sensitivity rose from 14.29% to 88.1% with 100% specificity (DOI: 10.1038/s41467-023-37018-6). The low-viral-load samples were partly produced by diluting positive swabs, and the device needs a pressure source and 3 mL of sample, which the authors recognise as limits for fingerstick serology (DOI: 10.1038/s41467-023-37018-6).
+
+Related approaches use an osmotic processor, a non-powered preconcentrator, electrokinetic focusing by ion concentration polarization and an agglutination system for large sample volumes (DOI: 10.3389/fbioe.2022.884271; DOI: 10.1016/j.bios.2022.114965; DOI: 10.1039/d3ay00990d; DOI: 10.1016/j.aca.2023.341674), nanoelectrokinetic enhancement of nucleocapsid-protein strips (DOI: 10.1016/j.bios.2025.117357), electrophoresis-driven assembly of antibody-antigen complexes (DOI: 10.1021/acssensors.3c00130), and paper-based concentration of HIV nucleic acid (DOI: 10.1016/j.talanta.2016.02.017), and magnetic enrichment for potato virus X (DOI: 10.1016/j.talanta.2016.11.025; DOI: 10.1016/j.aca.2017.12.023). Most of these show an enrichment effect with spiked or reference samples; only a few include patient samples (Table D1b).
+
+## 3.4.3 Collecting and treating the sample
+
+The sample itself can be the main obstacle. A processing method makes sputum usable for lateral flow detection of PEDV and MERS coronavirus (DOI: 10.4110/in.2021.21.e11). A gargle with a bean extract replaced swab collection for SARS-CoV-2 (102 patients; high sensitivity in the first six days) (DOI: 10.1128/spectrum.01614-21), and a porous microneedle patch served for sampling in an antibody test (DOI: 10.1038/s41598-022-14725-6). Buffer composition and sample volume were optimised for SARS-CoV-2 IgG, for mpox and orthopoxviruses, and for a dengue serotype-specific NS1 assay that needed less sample (DOI: 10.1007/s13337-021-00669-4; DOI: 10.1128/spectrum.02456-24; DOI: 10.3390/bios15120802). Together they show that sample handling is itself a design variable (Table D1c).
+
+## 3.4.4 Binders and antigens designed for the strip
+
+The most numerous group concerns the molecules that give the strip its specificity. Many studies develop monoclonal antibody pairs or scFv fragments for a new target: SARS-CoV-2 nucleocapsid protein, hepatitis C core antigen, FeLV p27, Lassa virus nucleoprotein, Ebola glycoprotein, CCHFV nucleoprotein and others (DOI: 10.1002/jmv.27520; DOI: 10.1371/journal.pntd.0010311; DOI: 10.3390/microorganisms11102422; DOI: 10.3390/ph17081022; DOI: 10.1016/j.ab.2025.116013; DOI: 10.1128/jcm.00071-26; DOI: 10.1038/s41598-026-54470-8; DOI: 10.1038/s44298-026-00209-1; DOI: 10.1371/journal.pntd.0008364; DOI: 10.1093/jaoacint/qsaf105). Non-antibody binders are also used: aptamers and aptamer pairs for SARS-CoV-2 and dengue NS1 (DOI: 10.1093/jaoacint/qsae004; DOI: 10.1016/j.talanta.2024.126825; DOI: 10.1016/j.virol.2025.110688; DOI: 10.1186/s12879-025-11751-3; DOI: 10.1038/s41598-025-29869-4), a nanobody strip improved by streptavidin-biotin capture (DOI: 10.1038/s41598-024-57230-8), a competitive strip with an affinity-engineered receptor for betacoronaviruses (DOI: 10.1016/j.bios.2026.118909), nanobodies for Zika NS1 and coronaviruses (DOI: 10.1021/acssynbio.4c00819; DOI: 10.1021/acssynbio.4c00592), an affibody that replaces the antibody directly (DOI: 10.1021/jacs.4c17452), the human ACE2 receptor as capture (DOI: 10.1016/j.bios.2020.112715), glycan recognition (DOI: 10.1021/acssensors.1c01470; DOI: 10.1021/acscentsci.1c01080), and a binder that recognises intact influenza virus particles (DOI: 10.1021/acs.analchem.7b00769). Orienting the antibody on the particle improved a SARS-CoV-2 strip (DOI: 10.1016/j.snb.2022.133245), and an extracellular-vesicle capture design links HIV to EV markers (DOI: 10.1016/j.vesic.2025.100084). Three further studies concern antigen engineering, an antibody against a drug-resistance-associated neuraminidase and genotype-specific bocavirus antibodies (DOI: 10.3390/biom13101524; DOI: 10.1038/s41467-020-17246-w; DOI: 10.1007/s12519-023-00697-8).
+
+These papers establish what a strip can recognise; whether the strip then works depends on the assay format and the samples, which many of them do not report in the abstract (Table D1d).
+
+## 3.4.5 Assay formats and functional assays
+
+Formats go beyond the antigen sandwich. A half-strip format uses open reagents for nucleocapsid protein and Rift Valley fever antibodies (DOI: 10.1021/acs.analchem.0c01975; DOI: 10.3390/diagnostics12112664), a pipetting-based format runs the immunoreaction outside the strip (DOI: 10.1038/s41598-019-53083-8), and a comparison of three antibody-detection formats, run with the same RBD antigen and 30 nm gold particles, found that the format with immobilised protein A in the line and labelled antigen in the conjugate gave a 15- and 255-fold lower detection limit than the other two on pooled positive serum, while still detecting 22 of 22 patient sera correctly (DOI: 10.3390/bios13070750). Functional formats measure neutralizing antibodies from a finger prick or from sera (DOI: 10.1016/j.jcv.2021.105024; DOI: 10.1016/j.crmeth.2022.100273; DOI: 10.2147/ijn.s408921). Serological and multiplex tests include a four-serotype dengue panel, a species-independent Rift Valley fever antibody test, a semi-quantitative visual antibody test, an HPV vaccination status test and an enhancement step for "silent" antibodies (DOI: 10.1128/spectrum.02796-22; DOI: 10.3390/v18030316; DOI: 10.1039/d3tb02895j; DOI: 10.1016/j.vaccine.2016.09.021; DOI: 10.3390/bios12070434). Plant virus assay engineering lowered the PVY LOD 60-fold in one study (DOI: 10.3390/s18113975).
+
+Nucleic-acid targets were read on strips by hybridisation, with signal-amplifying DNA structures (a triplex enhanced assay, hybridisation chain reaction, net-shaped DNA nanostructures, an M13 scaffold) or new probe-anchoring methods (DOI: 10.3390/ijms232315258; DOI: 10.1021/acsinfecdis.2c00472; DOI: 10.1021/acs.analchem.3c03698; DOI: 10.1002/adhm.202504037; DOI: 10.3390/mi14101936; DOI: 10.1016/j.ijbiomac.2024.136945) (Table D1e). A caution applies to the functional and serological formats: their reference standards are different (neutralization tests, ELISA), so agreement figures cannot be compared with antigen strips.
+
+## 3.4.6 Prototype and development strips
+
+A large share of the records are strips developed for one virus by combining these elements, many of them evaluated on patient samples. The SARS-CoV-2 era added antigen strips and prototypes for variants, Omicron-specific detection and in-house antibody kits (DOI: 10.3390/bios10110161; DOI: 10.1016/j.ijid.2021.05.007; DOI: 10.1371/journal.pone.0258819; DOI: 10.3390/bios11120488; DOI: 10.48101/ujms.v127.8207; DOI: 10.1039/d1ra01361k; DOI: 10.3390/v14122609; DOI: 10.3390/vaccines11020303; DOI: 10.3389/fimmu.2023.1111644; DOI: 10.1002/open.202300120; DOI: 10.1186/s13568-023-01620-0; DOI: 10.1016/j.heliyon.2023.e20913; DOI: 10.1039/d3ay02075d; DOI: 10.1002/jmv.70374; DOI: 10.3390/v17071021). Their clinical sensitivities are reported in Table D1f and range widely; they are reported there, not ranked.
+
+## 3.4.7 What the evidence supports
+
+For this section front-end enrichment shows the largest gains without changing the label or the commercial strip, but its cost is hardware: electrodes, pressure and larger sample volumes. The two enrichment studies read in full show the pattern. Both used a commercial strip as the downstream test, both measured gains against that strip, and neither can be called equipment-free (Table D2).
+
+Three limitations recur. First, many studies use reference or spiked samples; clinical samples are the exception among engineering papers. Second, several studies give only a fold-improvement and not the strip's accuracy on patients. Third, the antibody and binder papers rarely report the matrix, number of samples or reference method in their abstracts. For the two papers read in full, Table D3 lists the reporting items.
+
+
+
+### Table D1a. Flow control and device architecture
+
+| Rec | Year | Target | Label / device | Matrix | LOD (as stated) | Within-paper comparison | Diagnostic data (as stated) | Readout | Evidence | DOI |
+|---|---|---|---|---|---|---|---|---|---|---|
+| R02018 | 2017 | dengue virus RNA | NR | clinical samples | NR | NR | NR | visual (semi-quantitative) | Abstract | 10.1002/adhm.201600920 |
+| R02122 | 2017 | HBV nucleic acid | NR | NR | improved analytical sensitivity (value NR) | NR | NR | visual | Abstract | 10.1038/s41598-017-01558-x |
+| R02398 | 2018 | dengue NS1 | NR | NR | 4.9 ng/mL (~11-fold better than previously reported) | about 11-fold better than previously reported | NR | visual | Abstract | 10.1063/1.5035113 |
+| R02604 | 2019 | influenza haemagglutinin | NR | spiked pediatric nasal swab | 4.45 x 10^2 TCID50/mL | NR | NR | visual | Abstract | 10.1039/c8lc00691a |
+| R04042 | 2021 | COVID-19 nucleic acid | NR | NR | 0.5 nM vs 2.5 nM (5-fold) | 5-fold (0.5 vs 2.5 nM) | NR | visual | Abstract | 10.1016/j.carbpol.2021.118259 |
+| R05533 | 2022 | SARS-CoV-2 spike RBD | NR | NR | 9.1-fold lower LOD, 2.6-fold higher sensitivity than conventional LFIA | 9.1-fold lower LOD; 2.6-fold higher sensitivity | NR | visual | Abstract | 10.1007/s00604-022-05467-3 |
+| R06060 | 2023 | SARS-CoV-2 nucleocapsid | NR | NR | 2.0 ng/mL (4-fold improvement) | 4-fold improvement | NR | visual | Abstract | 10.1038/s41598-023-31641-5 |
+| R07133 | 2024 | SARS-CoV-2 | NR | NR | 50 pg/mL (5-20x better than market kits) | 5-20x better than market kits | high specificity | visual | Abstract | 10.3390/bios14060305 |
+| R07330 | 2024 | respiratory viruses/SARS-CoV-2 | not reported | not reported | not reported | NR | not reported | visual | Abstract | 10.1038/s41598-024-74407-3 |
+| R03802 | 2021 | SARS-CoV-2 antibodies | NR | clinical sera | NR | NR | consistent with bead-based chemiluminescence immunoassay | visual | Abstract | 10.1021/acssensors.1c00235 |
+| R04839 | 2022 | SARS-CoV-2 N protein | NR | NR | NR | NR | NR | visual | Abstract | 10.1039/d2lc00073c |
+| R07816 | 2025 | RVFV | not reported | not reported | 0.78 ng/mL (2.5x vs LFI prototype) | 2.5x vs lateral-flow prototype | not reported | visual | Abstract | 10.1128/spectrum.00341-25 |
+| R02509 | 2019 | influenza H1N1 | HRP (colorimetric) + electrochemical | PBS, saliva | 1.34 PFU/mL (PBS), 2.27 PFU/mL (saliva) colorimetric | NR | NR | electrochemical and colorimetric | Abstract | 10.1016/j.bios.2018.10.008 |
+| R06078 | 2023 | Zaire Ebola virus-like particles | gold nanoparticles | NR | NR | NR | NR | digital image analysis | Abstract | 10.1039/d3ay00073g |
+| R06336 | 2023 | dengue NS1 (DENV2) | colorimetric thermal sensing | NR | 4x lower LOD than typical visual readout | NR | NR | visual | Abstract | 10.1039/d3nr01858j |
+| R07716 | 2025 | SARS-CoV-2 serology | not reported | not reported | not reported | NR | not reported | visual | Abstract | 10.3390/bios15040229 |
+| R06051 | 2023 | SARS-CoV-2 IgM/IgG | not reported | serum 5 uL | not reported | NR | sens 93.3% IgM, 96.6% IgG; spec 96.6%, 100% | visual | Abstract | 10.1021/acsomega.2c07014 |
+| R05559 | 2022 | SARS-CoV-2 anti-S antibodies | NR | 500-fold diluted serum | 10 ng/mL to 1 ug/mL range | NR | NR | digital image green coordinate | Abstract | 10.1007/s10570-022-04808-y |
+| R04535 | 2021 | SARS-CoV-2 antibodies | NR | NR | NR | NR | NR | visual | Abstract | 10.18063/ijb.v7i4.399 |
+
+### Table D1b. Concentrating the target before the strip
+
+| Rec | Year | Target | Label / device | Matrix | LOD (as stated) | Within-paper comparison | Diagnostic data (as stated) | Readout | Evidence | DOI |
+|---|---|---|---|---|---|---|---|---|---|---|
+| R01867 | 2016 | HIV nucleic acid | NR | NR | 0.1 nM (10-fold signal gain) | NR | NR | visual | Abstract | 10.1016/j.talanta.2016.02.017 |
+| R05150 | 2022 | SARS-CoV-2 IgG/IgM antibodies | nanoelectrokinetic paper preconcentrator in front of a commercial IgG/IgM strip | vaccinated serum (pooled and five individual samples) | signal at 1/6,400 dilution with enrichment vs 1/200 without; enrichment factor > 30; extraction efficiency 95.7% | 32-fold lower LOD; analytical sensitivity +16.4% | four individual sera below the commercial LOD gave a signal after enrichment; no sensitivity/specificity | custom imaging system; five trained observers set LOD | Full text † | 10.1016/j.bios.2022.114385 |
+| R05235 | 2022 | SARS-CoV-2 nucleocapsid (and hCG) | NR | model analytes | improved LOD (value NR) | NR | NR | visual | Abstract | 10.3389/fbioe.2022.884271 |
+| R05785 | 2023 | SARS-CoV-2 | NR | clinical samples | enhanced LOD (value NR) | NR | NR | visual | Abstract | 10.1016/j.bios.2022.114965 |
+| R06050 | 2023 | SARS-CoV-2 virus, N protein, IgG | red-blood-cell-membrane-coated AAO nanotrap (3 bar, 3 min) in front of a commercial antigen strip | PBS, artificial saliva, NP/OP swabs, saliva; 62 individuals | LOD improved up to 20-fold | commercial strip alone vs with enrichment | 42 positive, 20 healthy: sens 88.1% vs 14.29% (strip alone); spec 100%; Delta 10/10 vs 2/10; Omicron 27/32 vs 4/32; low-viral-load samples partly prepared by dilution | colour intensity (custom optical system); five observers set LOD | Full text † | 10.1038/s41467-023-37018-6 |
+| R06089 | 2023 | serological target (model) | NR | NR | 1000x lower LOD than conventional LFIA | 1000x lower LOD than conventional LFIA | NR | visual | Abstract | 10.1021/acssensors.3c00130 |
+| R06432 | 2023 | SARS-CoV-2 antigen (model) | NR | saliva spiked with gamma-irradiated virus | 10 pg/mL (~250 fM); 250 genome copies/uL; 10x enhancement at 2 mL vs 50 uL | 10x enhancement at 2 mL vs 5 uL (abstract) | NR | visual | Abstract | 10.1016/j.aca.2023.341674 |
+| R06685 | 2023 | SARS-CoV-2 spike | not reported | not reported | enhanced vs standard LFA | NR | not reported | visual | Abstract | 10.1039/d3ay00990d |
+| R07636 | 2025 | SARS-CoV-2 N protein | not reported | clinical trial | 0.24 ng/mL; 32.5x | 32.5x; conventional strip sensitivity 66.7% | sens 100%, spec 100% vs conventional LFA sens 66.7% | visual | Abstract | 10.1016/j.bios.2025.117357 |
+| R02057 | 2017 | potato virus X | magnetic nanoparticles | leaf extracts | cut-offs 3, 30, 150 ng/mL; first cut-off 0.5 ng/mL (6-fold lower with magnetic concentration) | 6-fold lower first cut-off with magnetic enrichment | NR | visual/reader | Abstract | 10.1016/j.talanta.2016.11.025 |
+| R02324 | 2018 | potato virus X | magnetic NPs + gold NPs | buffer, leaf extract | 0.25 ng/mL (32-fold below non-enhanced LFIA at 8 ng/mL) | NR | NR | visual | Abstract | 10.1016/j.aca.2017.12.023 |
+
+### Table D1c. Sample collection and pretreatment
+
+| Rec | Year | Target | Label / device | Matrix | LOD (as stated) | Within-paper comparison | Diagnostic data (as stated) | Readout | Evidence | DOI |
+|---|---|---|---|---|---|---|---|---|---|---|
+| R03733 | 2021 | PEDV, MERS-CoV | NR | spiked sputum | NR | NR | pretreatment suitable for sputum | visual | Abstract | 10.4110/in.2021.21.e11 |
+| R04785 | 2022 | SARS-CoV-2 | NR | 102 COVID-19 patients | NR | NR | sens 97.8%, spec 100% (45 patients within 6 days) | visual | Abstract | 10.1128/spectrum.01614-21 |
+| R05266 | 2022 | SARS-CoV-2 IgM/IgG | NR | NR | IgM 3 ng/mL, IgG 7 ng/mL | NR | NR | visual | Abstract | 10.1038/s41598-022-14725-6 |
+| R03716 | 2021 | SARS-CoV-2 IgG | NR | 25 positive, 25 negative | NR | NR | sens 91%, spec 100% | visual | Abstract | 10.1007/s13337-021-00669-4 |
+| R07605 | 2025 | mpox, orthopoxviruses | not reported | buffer/clinical matrices | 3e5 pfu/mL | NR | not reported | visual | Abstract | 10.1128/spectrum.02456-24 |
+| R08237 | 2025 | DENV serotypes NS1 | not reported | clinical isolates, specimens | not reported | NR | serotype specificity 100% | visual | Abstract | 10.3390/bios15120802 |
+
+### Table D1d. Binders and antigens designed for the strip
+
+| Rec | Year | Target | Label / device | Matrix | LOD (as stated) | Within-paper comparison | Diagnostic data (as stated) | Readout | Evidence | DOI |
+|---|---|---|---|---|---|---|---|---|---|---|
+| R04590 | 2022 | SARS-CoV-2 N protein | not reported | not reported | not reported | NR | not reported | visual | Abstract | 10.1002/jmv.27520 |
+| R04950 | 2022 | SARS-CoV-2 | NR | NR | NR | NR | NR | NR | Abstract | 10.1371/journal.pntd.0010311 |
+| R06593 | 2023 | SARS-CoV-2 N protein | not reported | clinical | not reported | NR | best prototype sens 95.2% (Ct<=25), spec 98.3%, accuracy 85.0% | visual | Abstract | 10.3390/microorganisms11102422 |
+| R07270 | 2024 | HCV core antigen | not reported | serum matrix | 10 ng/strip | NR | not reported | visual | Abstract | 10.3390/ph17081022 |
+| R08171 | 2026 | FeLV p27 | not reported | not reported | not reported | NR | not reported | visual | Abstract | 10.1016/j.ab.2025.116013 |
+| R08432 | 2026 | Lassa virus NP | not reported | 60 human samples | lineage-dependent | NR | spec 100% | visual | Abstract | 10.1128/jcm.00071-26 |
+| R08528 | 2026 | HCV core | not reported | clinical | 0.3125 ng/mL | NR | sens 92.0%, spec 100%, accuracy 95.6% | visual | Abstract | 10.1038/s41598-026-54470-8 |
+| R08594 | 2026 | orthoebolavirus GP | not reported | spiked blood, NHP samples | not reported | NR | detected EBOV in NHP at day 4 | visual | Abstract | 10.1038/s44298-026-00209-1 |
+| R03041 | 2020 | CCHFV nucleoprotein | NR | NR | NR | NR | NR | visual | Abstract | 10.1371/journal.pntd.0008364 |
+| R08211 | 2026 | SARS-CoV-2 | not reported | NP/OP swabs | not reported | NR | not reported | visual | Abstract | 10.1093/jaoacint/qsaf105 |
+| R06754 | 2024 | SARS-CoV-2 sRBD | not reported | swabs | not reported | NR | best: sens 100%, spec 93.3% | visual | Abstract | 10.1093/jaoacint/qsae004 |
+| R07292 | 2025 | SARS-CoV-2 S protein | not reported | not reported | 51.81 ng/mL (linear 0.1-1 ug/mL) | NR | not reported | visual/reader | Abstract | 10.1016/j.talanta.2024.126825 |
+| R08036 | 2025 | SARS-CoV-2 N protein | not reported | not reported | 500 ng/mL | NR | not reported | visual | Abstract | 10.1016/j.virol.2025.110688 |
+| R08072 | 2025 | SARS-CoV-2 | not reported | clinical | not reported | NR | spec 100%; sens 96.6% (model 1), 100% (models 2, 3) | visual | Abstract | 10.1186/s12879-025-11751-3 |
+| R08198 | 2025 | DENV2 NS1 | not reported | buffer, spiked serum | 5.2 ng/mL buffer; 6.1 ng/mL serum | NR | not reported | visual | Abstract | 10.1038/s41598-025-29869-4 |
+| R07619 | 2025 | Zika NS1 | not reported | buffer, urine | 25 ng/mL (buffer); 1 ng/mL (urine) | NR | not reported | visual | Abstract | 10.1021/acssynbio.4c00819 |
+| R07509 | 2025 | SARS-CoV-2, MERS-CoV | not reported | not reported | not reported | NR | not reported | visual | Abstract | 10.1021/acssynbio.4c00592 |
+| R07644 | 2025 | SARS-CoV-2 spike | not reported | not reported | not reported | NR | not reported | visual | Abstract | 10.1021/jacs.4c17452 |
+| R03325 | 2021 | SARS-CoV-2 S1 antigen | NR | clinical specimens, COVID-19 patients | 1.86 x 10^5 copies/mL | NR | no cross-reactivity with nasal swabs of healthy subjects | visual | Abstract | 10.1016/j.bios.2020.112715 |
+| R04412 | 2021 | SARS-CoV-2 | NR | NR | NR | NR | NR | visual | Abstract | 10.1021/acssensors.1c01470 |
+| R04739 | 2022 | SARS-CoV-2 and betacoronaviruses | gold nanoparticles | NR | NR | NR | NR | visual | Abstract | 10.1021/acscentsci.1c01080 |
+| R02133 | 2017 | influenza virus (intact) | NR | NR | 3.54 x 10^7 and 1.34 x 10^7 CEID50/mL | NR | NR | visual | Abstract | 10.1021/acs.analchem.7b00769 |
+| R05843 | 2023 | SARS-CoV-2 | colloidal gold | 19 clinical samples | 5 x 10^4 copies/mL | NR | 100% accuracy | visual | Abstract | 10.1016/j.snb.2022.133245 |
+| R08676 | 2025 | HIV | not reported | blood | not reported | NR | not reported | visual | Abstract | 10.1016/j.vesic.2025.100084 |
+| R06590 | 2023 | SARS-CoV-2 nucleocapsid antigen | NR | NR | NR | NR | NR | visual | Abstract | 10.3390/biom13101524 |
+| R03119 | 2020 | oseltamivir-resistant influenza (NA mutant) | NR | NR | NR | NR | NR | naked eye, SERS, etc. | Abstract | 10.1038/s41467-020-17246-w |
+| R05963 | 2023 | human bocavirus 1 and 2 | NR | paediatric respiratory samples | NR | NR | NR | NR | Abstract | 10.1007/s12519-023-00697-8 |
+| R08578 | 2026 | Betacoronavirus S1 | not reported | not reported | 1.66 ug/mL | NR | not reported | visual | Abstract | 10.1016/j.bios.2026.118909 |
+| R06925 | 2024 | SARS-CoV-2 S1 | gold-streptavidin | saliva, NP swabs | NR | NR | sens 95.21%, spec 99.29% (vs 91.66%/98.57% earlier strip) | visual | Abstract | 10.1038/s41598-024-57230-8 |
+
+### Table D1e. Assay formats, functional assays and nucleic-acid formats
+
+| Rec | Year | Target | Label / device | Matrix | LOD (as stated) | Within-paper comparison | Diagnostic data (as stated) | Readout | Evidence | DOI |
+|---|---|---|---|---|---|---|---|---|---|---|
+| R03096 | 2020 | SARS-CoV-2 nucleocapsid | NR | buffer, recombinant antigen | 0.65 ng/mL (0.53-0.77) | NR | NR | optical reader (equivalent to visual) | Abstract | 10.1021/acs.analchem.0c01975 |
+| R05721 | 2022 | Rift Valley fever virus antibodies | NR | NR | NR | NR | NR | visual | Abstract | 10.3390/diagnostics12112664 |
+| R02830 | 2019 | influenza A (NP) | enzyme/colorimetric | NR | 100-fold better LOD when used for capture | 100-fold better LOD when used for capture | NR | visual | Abstract | 10.1038/s41598-019-53083-8 |
+| R06372 | 2023 | SARS-CoV-2 RBD antibodies (serology) | three formats with 30 nm gold particles: A protein A label, B labelled antigen with antigen line, C labelled antigen with protein A line | pooled positive serum; humanized monoclonal antibody; 22 human sera | Scheme C 10 ng/mL monoclonal antibody (blank + 3 SD) | Scheme C 15x lower than B and 255x lower than A (pooled positive serum) | 22 sera (confirmed by PCR and clinical observation; ELISA): Scheme C sens 100%, spec 100% | visual; 60 uL sample, 10 min | Full text † | 10.3390/bios13070750 |
+| R04519 | 2021 | SARS-CoV-2 neutralizing antibodies | NR | finger-prick blood | NR | NR | NR | visual | Abstract | 10.1016/j.jcv.2021.105024 |
+| R05400 | 2022 | SARS-CoV-2 neutralizing antibodies | NR | NR | NR | NR | NR | visual | Abstract | 10.1016/j.crmeth.2022.100273 |
+| R06277 | 2023 | SARS-CoV-2 neutralizing antibodies | NR | 684 uninfected, clinical samples | 2 ug/mL | NR | sens 97.80%, spec 100% | visual | Abstract | 10.2147/ijn.s408921 |
+| R05892 | 2023 | dengue serotypes | not reported | spiked plasma, serum, blood | 333 to 22,500 TCID50/mL (plasma/serum); 94,000-333,000 in blood | NR | each serotype-specific, no cross-reactivity | visual | Abstract | 10.1128/spectrum.02796-22 |
+| R08431 | 2026 | RVFV antibodies | not reported | not reported | not reported | NR | high sens and spec (no values) | visual | Abstract | 10.3390/v18030316 |
+| R06800 | 2024 | SARS-CoV-2 antibodies | NR | NR | NR | NR | classifies high and low titres | visual | Abstract | 10.1039/d3tb02895j |
+| R01986 | 2016 | HPV16 vaccination status | NR | whole blood/plasma | NR | NR | NR | visual | Abstract | 10.1016/j.vaccine.2016.09.021 |
+| R05342 | 2022 | NR (serodiagnosis model) | gold nanoparticles | NR | NR | NR | sens 62.5% (common) vs 100% (enhanced); spec 100% | visual | Abstract | 10.3390/bios12070434 |
+| R02519 | 2018 | potato virus Y | gold nanoparticles | NR | 5.4 ng/mL (60-fold lower than 330 ng/mL conventional) | 60-fold lower than conventional (330 ng/mL) | NR | visual | Abstract | 10.3390/s18113975 |
+| R05788 | 2022 | SARS-CoV-2 | NR | NR | 0.01 nM without amplification | NR | NR | visual | Abstract | 10.3390/ijms232315258 |
+| R05932 | 2023 | SARS-CoV-2 | NR | gamma-irradiated virions in saliva | 200 copies/uL (commercial unamplified LFAs: 500, 1000, 2000, 2000, 20,000) | NR | NR | visual | Abstract | 10.1021/acsinfecdis.2c00472 |
+| R06795 | 2024 | SARS-CoV-2 | not reported | not reported | 1e3 to 1e8 copies/mL | NR | not reported | visual | Abstract | 10.1021/acs.analchem.3c03698 |
+| R08593 | 2026 | PEDV | not reported | oral fluid, 102 clinical samples | 1.33 ng/mL N protein; 278 copies/test | NR | accuracy 97.06%, sens 96.92%, spec 97.30% | visual | Abstract | 10.1002/adhm.202504037 |
+| R06592 | 2023 | SARS-CoV-2 sequence | NR | NR | ~0.2 nM | NR | NR | visual | Abstract | 10.3390/mi14101936 |
+| R07400 | 2024 | influenza A H1N1 | not reported | not reported | 1 pM | NR | not reported | visual | Abstract | 10.1016/j.ijbiomac.2024.136945 |
+
+### Table D1f. Prototype and development strips (by year)
+
+| Rec | Year | Target | Label / device | Matrix | LOD (as stated) | Within-paper comparison | Diagnostic data (as stated) | Readout | Evidence | DOI |
+|---|---|---|---|---|---|---|---|---|---|---|
+| R03359 | 2020 | HBV preS2 antigen | magnetic nanoparticles (GAM-MNPs) | 25 clinical sera | 625 ng/mL (qualitative); 3.6 ng/mL (quantitative) | NR | sens 93.3%, spec 90% | visual and magnetic signal | Abstract | 10.3390/bios10110161 |
+| R03930 | 2021 | dengue NS1 | NR | 219 sera | 0.78 (unit NR in abstract) | NR | sens 88.89%, spec 86.67%, kappa 0.7522 vs nested PCR | visual | Abstract | 10.1016/j.ijid.2021.05.007 |
+| R04503 | 2021 | SARS-CoV-2 nucleocapsid | NR | gamma-irradiated virus on swabs | 4 TCID50/swab | NR | meets WHO target product profile | visual | Abstract | 10.1371/journal.pone.0258819 |
+| R04614 | 2021 | SARS-CoV-2 | magnetic particles (blue dots) | PBS, saliva, nasal swabs | 400 PFU/mL (PBS); 1200 PFU/mL (saliva) | NR | sens 66.7%, spec 100% (nasal swabs) | visual | Abstract | 10.3390/bios11120488 |
+| R04897 | 2022 | SARS-CoV-2 antigen | not reported | 111 hospitalised patients | not reported | NR | not reported in abstract | visual | Abstract | 10.48101/ujms.v127.8207 |
+| R05044 | 2021 | influenza A and B | NR | 101 NP swabs | 4-8x more sensitive than commercial tests | NR | sens 89% (A), 83% (B); spec 100% | visual | Abstract | 10.1039/d1ra01361k |
+| R05822 | 2022 | SARS-CoV-2 antigen | not reported | not reported | not reported | NR | not reported | visual | Abstract | 10.3390/v14122609 |
+| R05994 | 2023 | SARS-CoV-2 Omicron | NR | simulated positive samples | 62.5 TCID50/mL | NR | no cross-reaction | visual | Abstract | 10.3390/vaccines11020303 |
+| R06038 | 2023 | SARS-CoV-2 spike | NR | heat-inactivated virus, respiratory panel | 25 ng/test | NR | spec 98% | visual | Abstract | 10.3389/fimmu.2023.1111644 |
+| R06556 | 2024 | SARS-CoV-2 | silica nanoparticles | unprocessed swabs (1:10^3 dilution) | 0.73 pg/mL | NR | sens 100%, spec 83%, accuracy 92% vs RT-qPCR | visual | Abstract | 10.1002/open.202300120 |
+| R06568 | 2023 | SARS-CoV-2 IgG/IgM | not reported | 300 samples | not reported | NR | not reported in abstract | visual | Abstract | 10.1186/s13568-023-01620-0 |
+| R06576 | 2023 | SARS-CoV-2 Omicron variants | NR | variant virus panel | NR | NR | detected Omicron sublineages, Wuhan, Delta | visual | Abstract | 10.1016/j.heliyon.2023.e20913 |
+| R06981 | 2024 | SARS-CoV-2 nucleocapsid | NR | 170 NP swabs | R2 0.9571 visual vs reader | NR | sens 98% (89.35-99.95), spec 100% | visual and reader | Abstract | 10.1039/d3ay02075d |
+| R07722 | 2025 | hMPV | not reported | not reported | not reported | NR | not reported | visual | Abstract | 10.1002/jmv.70374 |
+| R07921 | 2025 | Nipah, Hendra viruses | not reported | not reported | not reported | NR | diagnostic spec 94.4% | visual | Abstract | 10.3390/v17071021 |
+
+### Table D2. Strategy overview for assay and flow engineering
+
+| Strategy | What it changes | Examples | Costs and limits seen | Table |
+|---|---|---|---|---|
+| Flow control and architecture | contact time, reagent delivery, geometry | delayed flow, sugar barriers, sponges, tapered strips, vertical flow | more parts or steps; format differs from a simple strip | D1a |
+| Front-end enrichment | target concentration entering the strip | nanoelectrokinetic, nanotrap, osmotic and magnetic enrichment | hardware (power, pressure), larger sample volumes | D1b |
+| Sample collection and pretreatment | usability of the sample | blood, sputum, gargle, microneedle, buffers | few clinical data | D1c |
+| Binders and antigens | specificity and supply | mAb pairs, aptamers, nanobodies, affibody, receptor and glycan capture | matrix, n and reference often not in abstracts | D1d |
+| Formats and functional assays | what is measured | half-strip, neutralization, serotyping, DNA-structure readouts | reference standards differ | D1e |
+| Prototype strips | new target, new evaluation | rotavirus, influenza, dengue, SARS-CoV-2 and others | accuracy ranges widely | D1f |
+
+### Table D3. Reporting checklist for papers read in full (descriptive, not scored)
+
+Items: (a) real samples; (b) n stated; (c) reference method; (d) LOD definition; (e) cross-reactivity tested by the authors; (f) replicates or reproducibility; (g) comparator run in the same study; (h) stability tested. Y = yes, N = no, P = partly, NR = not reported. The other papers in Tables D1a-f have not been assessed (abstract only).
+
+| Rec | DOI | (a) | (b) | (c) | (d) | (e) | (f) | (g) | (h) |
+|---|---|---|---|---|---|---|---|---|---|
+| R05150 | 10.1016/j.bios.2022.114385 | P (vaccinated sera; no infected patients) | P (five individual sera) | N (no reference method) | Y (normalised signal; observers' LOD) | Y (other antibodies, BSA, buffer after enrichment) | Y (ten repeats per commercial assay) | Y (commercial strip alone) | N |
+| R06050 | 10.1038/s41467-023-37018-6 | Y (62 individuals; NP/OP and saliva) | Y (42 + 20) | Y (RT-qPCR) | P (observer-defined cut-off) | Y (RSV A/B, influenza A/B, HCoV-OC43) | P (at least three repeats per point) | Y (commercial strip alone) | P (membrane stable 15 days at room temperature) |
+| R06372 | 10.3390/bios13070750 | Y (22 human sera) | P (22; split into positives and negatives not stated in the text read) | P (PCR and clinical observation; ELISA on sera) | Y (blank mean + 3 SD) | NR | NR | Y (three formats run under optimised conditions) | P (conjugates stable 3 months; strip stability NR) |
+
+## Items still to verify before this section is final
+1. Many abstract-level rows give matrix or reference method as NR; they stay NR until full text is read.
+2. R05150 (DOI: 10.1016/j.bios.2022.114385): the 32-fold figure is the shift from 1/200 to 1/6,400 dilution of a vaccinated serum with a commercial strip; no patient accuracy is reported.
+3. R06050 (DOI: 10.1038/s41467-023-37018-6): low-viral-load samples were partly prepared by diluting positive swabs.
+4. Six antibody-screening papers were excluded (E9) by default; reversible.
+5. Records flagged scope-check (R03041, R03119, R04535, R05963, R06590, R05822, R07722, R00584) are kept; check them if section length matters.
+6. Record IDs in the tables will be replaced by numbered citations when the reference list is built.
+
+---
+
+# Part E (working text v2): nucleic-acid amplification with a strip readout
+
+Working text, 2026-11-05. Version 2 discusses each study individually (target, design, novelty, key result); studies applying the same approach to another virus are grouped. Numerical detail is in the tables. † = read in full; all other rows abstract only (NR = not reported in the abstract).
+
+# 3.5 Nucleic-acid amplification with a strip readout
+
+## 3.5.0 Why amplify the nucleic acid, and how a strip reads it
+
+Immunoassay strips detect proteins, and their sensitivity is limited by antibody affinity and label. Nucleic-acid tests work differently: an amplification step makes many copies of a chosen sequence, and the strip only has to show that amplicons are present. The strip is usually read by labelling the amplicon at both ends, with biotin and a hapten such as FAM, so that a captured amplicon forms a coloured line with gold particles or latex (DOI: 10.1186/s12916-025-04412-4). This design trades the simplicity of a protein strip for the sensitivity of molecular testing, at the cost of a heating step, a sample-preparation step and the risk of amplicon contamination.
+
+The section follows the chemistry that precedes the strip: PCR and RT-PCR (3.5.1), LAMP (3.5.2), RPA and RAA (3.5.3), CRISPR-Cas detection (3.5.4) and other isothermal, enzyme-free and amplification-free approaches (3.5.5). Section 3.5.6 considers integrated and multiplex devices and 3.5.7 states what the evidence supports. Each study is described by what it adds: the target, the design of the reaction or strip, the sample and the key performance. Studies that apply the same approach to another virus are grouped. Numerical details are in Tables E1a-E1e. Papers read in full are marked † in the tables; all other statements rest on abstracts. The section covers 382 included records, all from 2015-2026. Records combining two methods are described under the method that dominates the design, and CRISPR studies that use RPA, RAA or LAMP are kept in the CRISPR subsection.
+
+
+## 3.5.1 PCR and RT-PCR with a strip readout
+
+Strip detection of PCR products is the oldest approach in this section and shows how the strip was first used as a molecular readout; the studies within the 2015-2026 window are described below.
+
+**Putting PCR and the strip in one device.** A group of studies integrate thermal cycling and the strip: an infrared-heated PCR platform for HPV, a PCR on a paper strip with a Joule heater for SARS-CoV-2 (abstract incomplete) and a photonic PCR with a strip for Seoul orthohantavirus (DOI: 10.1016/j.bios.2017.04.047; DOI: 10.1039/d2mh01267g; DOI: 10.1002/adhm.71600; DOI: 10.2147/mder.s508723). These designs address the dependence of PCR on a laboratory thermocycler, but most report only analytical performance.
+
+**Multiplex strips for several targets.** Multiplex PCR with a strip reads several targets in one reaction: HPV16 and HPV18 by nested PCR and by integrated PCR strips (DOI: 10.1016/j.jviromet.2014.10.009; DOI: 10.1007/s00604-022-05449-5), seven respiratory pathogens on 896 samples (DOI: 10.1007/s00284-021-02621-7), SARS-CoV-2 genes on a lateral flow strip membrane assay (positive agreement 100%, negative agreement 99.0% on 162 clinical samples) (DOI: 10.1021/acs.analchem.0c03202) and a one-step multiplex RT-PCR LFIA (sensitivity 88%, specificity 98% on 100 samples) (DOI: 10.1186/s12879-024-10296-1). A dual-serotype strip detected the four dengue serotypes from serum after RT-PCR with sensitivity of 100% for all serotypes (DOI: 10.1016/j.diagmicrobio.2025.116679). Fish viruses were covered with dual strips or PCR-strip assays for nodavirus genotypes, red sea bream iridovirus with viral haemorrhagic septicaemia virus, cyprinid herpesvirus 3 and fish nervous necrosis virus (DOI: 10.1155/2018/7691014; DOI: 10.1007/s13337-020-00577-z; DOI: 10.1371/journal.pone.0241420; DOI: 10.1016/j.mcp.2015.03.005).
+
+**Other designs.** A DNA chromatography strip after PCR detected dengue virus in clinical samples with sensitivity 100% and specificity 88.9% against TaqMan (DOI: 10.1007/s10096-018-03453-3), an open-source nucleic-acid LFIA after PCR detected chikungunya virus with 100% sensitivity and specificity against culture and qRT-PCR (DOI: 10.4014/jmb.2108.08025), and a paper-based nucleic-acid strip with asymmetric PCR and Au@SiO2 particles lowered the LOD for Epstein-Barr virus (DOI: 10.1016/j.aca.2022.339514). HIV-1 detection with digoxigenin-labelled primers on a strip was compared with gel results on five plasma samples (DOI: 10.1016/j.heliyon.2024.e32784), and a RT-MIRA strip was applied to hepatitis A virus in 35 human blood samples (DOI: 10.1080/21691401.2023.2203198). Cross-priming amplification on a strip was compared with real-time PCR for koi herpesvirus on 179 fish samples (DOI: 10.1016/j.jviromet.2024.114890).
+
+PCR strips are the reference point for the isothermal methods below: they use the same labelling logic but need thermal cycling.
+
+
+## 3.5.2 Loop-mediated isothermal amplification (LAMP)
+
+LAMP amplifies at a single temperature with a strand-displacing polymerase and four to six primers. Its products are long and branched, so the strip needs a labelling strategy that suits them; this is where much of the technical variation between the 59 studies lies.
+
+**Getting LAMP products onto a strip.** Most studies label a LAMP primer with biotin and use a FITC- or FAM-labelled probe or primer for capture, and this design underlies LAMP-strip studies for Japanese encephalitis, coxsackievirus A16, measles and Jembrana disease virus (DOI: 10.1016/j.jviromet.2014.12.006; DOI: 10.1111/lam.12499; DOI: 10.1016/j.diagmicrobio.2016.02.023; DOI: 10.1007/s13337-015-0277-5). Variants of the labelling logic include biotin-dUTP incorporation (DOI: 10.1007/s00216-022-03880-4), a biotinylated probe on crude swab material (DOI: 10.3390/bios13110988), an avidin-biotin complex that raises the strip signal for porcine circovirus 2 (DOI: 10.1039/d1ay01189h), and a study that dissects how LAMP products are captured on a strip at all (DOI: 10.1007/s00216-020-02702-9). A 2017 study coupled LAMP to hCG-labelled primers so that a commercial pregnancy-test strip reported Ebola virus in serum and saliva at 20 copies (DOI: 10.1002/anie.201609108), and a later design for hepatitis B added toehold-mediated strand displacement and a DNA nanoflower on a pregnancy strip to separate the rtL180M drug-resistance genotype (DOI: 10.1002/anie.202108827).
+
+**Multiplexing.** Strips with several lines or labels allow one LAMP reaction to report several targets. Multiplex RT-LAMP strips were built for influenza A subtypes (DOI: 10.1016/j.aca.2014.10.020), SARS-CoV-2 with two or three genes (DOI: 10.1016/j.bios.2020.112437; DOI: 10.3389/fcimb.2021.581239; DOI: 10.3390/microorganisms11051233; DOI: 10.1186/s12879-023-08924-3), HPV16/18/45 (DOI: 10.1016/j.ab.2024.115480), HBV and HCV in a single tube (DOI: 10.1002/jmv.29721; DOI: 10.1186/s12866-024-03610-z), influenza A and B (DOI: 10.3390/diagnostics14090967; DOI: 10.1111/1751-7915.70169) and SARS-CoV-2 Omicron lineages (DOI: 10.1039/d4ay01798f). Veterinary examples are duplex and triplex assays for infectious bronchitis and Newcastle disease viruses, PEDV with porcine circovirus 2, PEDV with porcine rotavirus and porcine bocavirus, and giant freshwater prawn viruses (DOI: 10.3382/ps/pez372; DOI: 10.3390/cimb44110368; DOI: 10.3390/ani13121910; DOI: 10.1016/j.mcp.2018.05.001). In one SARS-CoV-2 multiplex strip, 33 positive and 96 negative swabs were all classified correctly (DOI: 10.1016/j.bios.2020.112437); and one study includes a human internal control on the strip (DOI: 10.1186/s12879-023-08924-3).
+
+**Devices that integrate steps.** Several studies embed LAMP and the strip in one device to keep amplicons contained. A centrifugal microdevice linked RT-LAMP and an immunochromatographic strip for influenza H1N1 (DOI: 10.1039/c4lc01033g); microRAAD performed RT-LAMP and a lateral-flow immunoassay from whole blood for HIV-1 (DOI: 10.1039/c9lc00506d); a palm-sized device (PaGeR) ran RT-LAMP and dipstick for SARS-CoV-2 (DOI: 10.1016/j.bios.2021.113925); an integrated RT-LAMP device detected chikungunya virus without cross-reaction with dengue, Japanese encephalitis, Zika and yellow fever viruses (DOI: 10.3390/mi15050663); and a one-pot RT-LAMP strip detected SARS-CoV-2 with a closed workflow (DOI: 10.1021/acs.analchem.0c05059). Combined colorimetric and strip readouts and electrochemical sensors were also developed (DOI: 10.1111/jam.15783; DOI: 10.3390/ijms232113105).
+
+**Simplifying the sample.** Direct amplification from crude or heat-treated material was shown for SARS-CoV-2 on crude VTM and throat swabs, for HBV in heat-treated serum and for Epstein-Barr virus in whole blood (DOI: 10.3390/microorganisms11051233; DOI: 10.3390/bios13110988; DOI: 10.1007/s11033-023-08730-9; DOI: 10.1007/s00253-023-12948-9), and a direct RT-LAMP strip for SARS-CoV-2 swabs reported a sensitivity of 95% for LAMP and a lower specificity of 75% (DOI: 10.1016/j.plabm.2024.e00437). The Chelex-extracted kit for SARS-CoV-2 reached 97.8% sensitivity (DOI: 10.3390/diagnostics13183001), and RT-HDA and RT-LAMP strips were compared for SARS-CoV-2 (DOI: 10.3390/biomedicines10092329).
+
+**Human virus targets and clinical comparisons.** Among the strips with clinical data are an HBV LAMP strip with 92% sensitivity (138/150) and 100% specificity (DOI: 10.1007/s42770-022-00690-9), LAMP-nanoparticle strips for HBV, HCV, HIV-1 and monkeypox virus (DOI: 10.3389/fbioe.2021.731415; DOI: 10.1186/s12866-024-03220-9; DOI: 10.3389/fmicb.2023.1230533; DOI: 10.3389/fpubh.2023.1132896; DOI: 10.1016/j.talanta.2023.125502), a West Nile virus strip with a kappa of 0.970 against qRT-PCR on 110 human sera (DOI: 10.1111/jam.15783), an HPV16/18 strip tested on HPV16-positive, HPV18-positive and negative samples (DOI: 10.3892/mmr.2017.6370) and a RotEx-LAMP strip for HPV16/18 (sensitivity 94.74% for squamous cell carcinoma samples) (DOI: 10.1002/advs.202509468), Zika virus assays in several matrices (DOI: 10.1021/acs.analchem.6b03460; DOI: 10.1039/d1ra01227d), adenovirus 3 and adenovirus 3/7 assays with up to 188 clinical specimens (DOI: 10.1039/d4ay01973c; DOI: 10.1007/s10096-025-05224-3), a SARS-CoV-2 assay comparable to RT-qPCR (DOI: 10.3389/fpubh.2026.1798338), and sequencing-validated BA.1 and BA.2 detection (DOI: 10.1039/d4ay01798f).
+
+**Animal and fish viruses.** Senecavirus A, fowl adenovirus 4 (150 field samples), avian leukosis virus, swine influenza A, herpesvirus of turkeys (including detection of vaccine strains), canine parvovirus (with immunocapture), cyprinid herpesvirus 2 and a plant badnavirus were targeted with LAMP-strips (DOI: 10.1371/journal.pone.0216245; DOI: 10.1016/j.jviromet.2019.04.026; DOI: 10.1007/s00705-024-05977-w; DOI: 10.1016/j.vetmic.2024.110174; DOI: 10.3389/fvets.2022.873163; DOI: 10.1016/j.jviromet.2017.08.009; DOI: 10.1016/j.mcp.2020.101507; DOI: 10.3390/v13122408), and one ASFV LAMP-strip study has no abstract in the record (DOI: 10.1007/s12250-020-00309-z).
+
+Several of these studies report LODs ten or a hundred times below conventional PCR in the same paper, but the strongest data come from the studies with clinical samples (Table E1b).
+
+
+## 3.5.3 Recombinase polymerase and recombinase-aided amplification (RPA, RAA)
+
+RPA uses a recombinase, a single-stranded binding protein and a strand-displacing polymerase to amplify at 37-42 C within about 20 minutes, and RAA and ERA are related formulations. Strip readout is usually achieved with a labelled reverse primer (biotin) and an internal probe with a FAM label and a tetrahydrofuran site cleaved by an exonuclease (nfo), so that only specific amplicons carry both labels. This is the largest group, with 134 studies, and the studies are described below by what they add to the basic design.
+
+**Equipment-free operation.** A line of studies uses body heat for the reaction, so that the user needs no heater: canine parvovirus 2 (46 of 60 faecal samples positive, equal to real-time PCR), feline herpesvirus 1, canine distemper virus (20 of 32 swabs, the same as real-time RT-PCR) and foot-and-mouth disease virus (25 of 55 against 29 of 55 by real-time) (DOI: 10.1016/j.mcp.2018.04.004; DOI: 10.1007/s00705-018-4064-7; DOI: 10.1016/j.jviromet.2018.07.007; DOI: 10.1186/s12917-018-1594-x). The same logic has been applied to a plant virus, tomato chlorotic spot virus, with the strip reading a total RNA load of about 6 pg/uL (DOI: 10.1186/s12985-023-02097-w). The cost of these designs is a lower positive rate than the real-time comparator in some studies.
+
+**Skipping extraction.** Several designs avoid nucleic-acid extraction. A RAA strip detected ASFV directly from blood at 10 copies/uL (DOI: 10.3389/fcimb.2021.633763); pseudorabies virus was detected from crude clinical samples (DOI: 10.1016/j.ijbiomac.2022.10.153); boiled human stool was used for norovirus GII (DOI: 10.1007/s00705-020-04798-x); and a pen-shaped, fully enclosed RT-RPA device with a dipstick was developed for SARS-CoV-2 (DOI: 10.1016/j.snb.2023.133531).
+
+**More than one target.** Duplex or serotype-specific designs include influenza A H1 and H3 (DOI: 10.1016/j.mcp.2018.10.004), influenza A and B (DOI: 10.1007/s00216-019-01840-z), SARS-CoV-2 with influenza (DOI: 10.1016/j.bios.2021.113771), enterovirus 71 with coxsackievirus A16 (DOI: 10.1186/s12985-019-1264-z), HBV genotypes (DOI: 10.1002/jmv.25778), Zika with Japanese encephalitis virus (DOI: 10.1016/j.talanta.2025.128195) and HPV genotypes (DOI: 10.1007/s00216-019-02113-5) and human adenovirus species (DOI: 10.1155/2021/9957747). An RPA lateral flow gene assay with gold particles detected ASFV in blood at 10^2 copies/uL (DOI: 10.1007/s00216-021-03408-2). Veterinary examples cover foot-and-mouth disease serotypes A, O and Asia 1 (DOI: 10.1186/s12917-018-1644-4), BVDV with BPIV3, BVDV with IBRV, epizootic haemorrhagic disease virus with Palyam virus, ASFV with classical swine fever virus, and H5, H7 and H9 avian influenza subtypes (DOI: 10.1016/j.jviromet.2021.114343; DOI: 10.3389/fvets.2024.1360504; DOI: 10.1186/s12917-021-02977-9; DOI: 10.3389/fmolb.2021.811824; DOI: 10.1186/s12917-024-04040-9). A primer-labelling design was compared with a probe-dependent design in a model RNA virus (DOI: 10.3390/ijms222111885).
+
+**Fixing known failure modes of RPA strips.** RPA strips are prone to false positives from primer artefacts and to weak signal at low copy numbers, and several studies address these directly. Betaine improved a hepatitis B RPA strip (sensitivity 90%, specificity 100%) (DOI: 10.1002/bab.1940). A graphene-oxide and self-avoiding molecular recognition system reduced non-specific amplification for HPV16/18 and detected all 14 positive and none of 75 negative samples (DOI: 10.1007/s00604-020-04637-5). A TeaPNA step suppressed false positives in a SARS-CoV-2 strip (DOI: 10.1016/j.bios.2022.114989). Tailed primers with a nucleic-acid lateral flow assay gave 100% consistency with RT-qPCR for SARS-CoV-2 (DOI: 10.3390/bios14120585), a low probe concentration improved the HPV16 strip (DOI: 10.1039/d4ay01625d), a duplexed internal control was added for SARS-CoV-2 (DOI: 10.1039/d3sd00246b), and a variant-discrimination design separated Omicron by an S-gene deletion-insertion (DOI: 10.3390/v15061254). An RPA assay with a DNA-templated reaction gave fluorescence and strip readouts for SARS-CoV-2 (DOI: 10.1002/bip.23485). A threshold design triaged HBV viral load at 2 x 10^5 IU/mL with 98.6% sensitivity (DOI: 10.3390/diagnostics12030621).
+
+**Integrated devices.** Microfluidic integration (MI-IF-RPA) combined RPA and the strip for SARS-CoV-2 with 97% sensitivity and 100% specificity (DOI: 10.1039/d0lc01222j), and a paper/PDMS device detected murine norovirus, a surrogate for human norovirus, on lettuce and raspberries (DOI: 10.1128/aem.01208-24). The monkeypox device read in full combines a release agent, freeze-dried RPA and a strip in one closed unit and reached 95.47% positive agreement against RT-qPCR with no false positives in 40 healthy samples (DOI: 10.1186/s12916-025-04412-4); its abstract claims 100% consistency, but the results text gives 95.47%.
+
+**Human viruses with clinical comparisons.** A series of studies tested RPA strips against RT-qPCR or qPCR on patient samples: dengue virus on 120 and 247 patients (DOI: 10.1016/j.mcp.2019.06.003; DOI: 10.1016/j.ijid.2020.03.075), respiratory syncytial virus on 136 samples with 100% agreement (DOI: 10.1016/j.mcp.2019.101473), hepatitis C on 46 positive samples (DOI: 10.3389/fcimb.2022.816238), hepatitis E in human and rabbit samples and in serum and stool (DOI: 10.1177/10406387231167119; DOI: 10.1128/jcm.01064-24), coxsackievirus A6 on 142 samples (DOI: 10.3389/fmicb.2021.629533), human adenoviruses (DOI: 10.1186/s12866-018-1365-7; DOI: 10.1039/d5ay01439e), West Nile virus (DOI: 10.3967/bes2019.116), Heartland virus (DOI: 10.1089/vbz.2020.2670), circulating HPV16/18 DNA in plasma of cervical cancer patients (DOI: 10.1177/1535370220978899), HBV (DOI: 10.1016/j.jviromet.2021.114094), SARS-CoV-2 on nasopharyngeal samples (DOI: 10.1371/journal.pone.0245164; DOI: 10.3389/fcimb.2021.613304; DOI: 10.1016/j.jviromet.2021.114227), monkeypox virus (DOI: 10.1016/j.virs.2023.05.012; DOI: 10.1002/jmv.29469; DOI: 10.1186/s12985-023-02223-8; DOI: 10.1016/j.jviromet.2026.115405), SFTSV (DOI: 10.3389/fmicb.2026.1934648), respiratory syncytial virus A and B (DOI: 10.3389/fcimb.2026.1838582), influenza B (DOI: 10.3389/fmicb.2026.1856881) and dengue serotype 2 (DOI: 10.3389/fcimb.2025.1578549). Further examples are varicella-zoster virus, cytomegalovirus in maternal urine, Epstein-Barr virus (cell-line quality control) and orthoflaviviruses in mosquito samples (DOI: 10.3390/diagnostics12122957; DOI: 10.1016/j.virusres.2023.199229; DOI: 10.3390/v16010106; DOI: 10.7717/peerj.19820). One study uses a LF-RAA strip to detect recombinant AAV genomes for gene-therapy vectors (DOI: 10.1021/acsomega.2c05660), which is flagged for scope.
+
+**Livestock and companion animal viruses.** RPA strips were developed for swine viruses (porcine parvovirus, pseudorabies, porcine circovirus 2, ASFV, porcine deltacoronavirus, PRRSV, Senecavirus A, PEDV, encephalomyocarditis virus), ruminant viruses (Orf, caprine arthritis-encephalitis, peste des petits ruminants, goatpox and sheeppox, infectious bovine rhinotracheitis, bovine ephemeral fever, foot-and-mouth disease, bovine respirovirus 3, capripoxvirus, bovine rotavirus A), poultry viruses (H7N9, H9N2, NDV and IBV, infectious laryngotracheitis, infectious bursal disease, duck Tembusu virus, duck circovirus) and companion animal viruses (feline parvovirus and calicivirus, canine distemper) (DOI: 10.1016/j.mcp.2016.08.011; DOI: 10.1016/j.mcp.2017.03.005; DOI: 10.1155/2017/8403642; DOI: 10.3389/fmicb.2019.01004; DOI: 10.1016/j.jviromet.2020.113885; DOI: 10.3389/fvets.2021.676294; DOI: 10.3390/life11080762; DOI: 10.1007/s00705-021-05349-8; DOI: 10.3967/bes2022.018; DOI: 10.1016/j.ab.2022.114627; DOI: 10.1186/s12917-022-03232-5; DOI: 10.1016/j.jviromet.2022.114544; DOI: 10.1080/21505594.2022.2116157; DOI: 10.3390/biology11071018; DOI: 10.14202/vetworld.2023.2313-2320; DOI: 10.1186/s12917-020-02341-3; DOI: 10.1186/s12985-016-0502-x; DOI: 10.1016/j.jviromet.2017.01.023; DOI: 10.1186/s12985-017-0688-6; DOI: 10.1186/s12985-017-0792-7; DOI: 10.1186/s12917-017-1284-0; DOI: 10.1016/j.mcp.2017.12.003; DOI: 10.1016/j.jviromet.2018.07.011; DOI: 10.1016/j.mcp.2018.08.004; DOI: 10.1016/j.jviromet.2023.114788; DOI: 10.1186/s12917-022-03437-8; DOI: 10.1111/tbed.13063; DOI: 10.1248/bpb.b18-00468; DOI: 10.1007/s11033-019-05085-y; DOI: 10.3382/ps/pez559; DOI: 10.1016/j.psj.2020.03.018; DOI: 10.1016/j.psj.2020.12.008; DOI: 10.1177/1040638721990122; DOI: 10.1016/j.psj.2021.101339; DOI: 10.1016/j.psj.2022.102306; DOI: 10.1016/j.jviromet.2023.114810; DOI: 10.3389/fmicb.2023.1286713; DOI: 10.1016/j.jviromet.2019.113679; DOI: 10.1007/s00253-022-11785-6; DOI: 10.1292/jvms.23-0389). The validation data are strongest where the study reports a clinical comparison, for example 143 clinical samples for foot-and-mouth disease virus with 98.6% concordance, 145 field samples for ASFV, 128 samples for porcine parvovirus with sensitivity 94.4% and 149 samples for porcine deltacoronavirus with 97.32% coincidence (DOI: 10.1016/j.jviromet.2018.07.011; DOI: 10.3389/fmicb.2019.01004; DOI: 10.1016/j.mcp.2016.08.011; DOI: 10.1080/21505594.2022.2116157).
+
+**Fish, shrimp and plant viruses.** Aquaculture studies cover cyprinid herpesvirus 2 and 3, Carassius auratus herpesvirus, anguillid herpesvirus 1, large yellow croaker iridovirus, Micropterus salmoides rhabdovirus, hepatopancreatic parvovirus, white spot syndrome virus and infectious myonecrosis virus (DOI: 10.1111/jfd.12808; DOI: 10.1007/s10499-021-00806-2; DOI: 10.1111/jfd.13960; DOI: 10.3389/fcimb.2022.981911; DOI: 10.1111/jfd.13907; DOI: 10.1111/jfd.13930; DOI: 10.1111/jfd.13575; DOI: 10.1371/journal.pone.0276164; DOI: 10.3389/fcimb.2022.889775; DOI: 10.1016/j.jip.2024.108143). Plant-virus studies include potato viruses X and Y, rice black-streaked dwarf virus, milk vetch dwarf virus, citrus tristeza virus and citrus tatter leaf virus, tomato spotted wilt virus, barley yellow dwarf virus, strawberry mottle and mild yellow edge viruses, sweepoviruses, cymbidium mosaic virus, piper yellow mottle virus, kiwifruit actinidia chlorotic ringspot virus, cowpea mild mottle virus and soybean mosaic virus (DOI: 10.1016/j.talanta.2019.120616; DOI: 10.1016/j.ab.2021.114526; DOI: 10.1016/j.jviromet.2018.11.001; DOI: 10.1186/s12985-020-01371-5; DOI: 10.1038/s41598-020-77692-w; DOI: 10.1016/j.jviromet.2022.114593; DOI: 10.1016/j.mcp.2021.101727; DOI: 10.5423/ppj.nt.01.2022.0009; DOI: 10.1016/j.jviromet.2022.114566; DOI: 10.1007/s00284-022-03045-7; DOI: 10.4149/av_2022_208; DOI: 10.5423/ppj.ft.10.2022.0147; DOI: 10.1016/j.jviromet.2023.114695; DOI: 10.1094/pdis-02-23-0270-sr; DOI: 10.5423/ppj.oa.02.2023.0033; DOI: 10.5423/ppj.oa.02.2024.0027). A wastewater study monitors human adenovirus and a food study monitors hepatitis E virus in raw pork liver (DOI: 10.1007/s00253-019-10077-w; DOI: 10.3389/fcimb.2022.958990).
+
+In total, the RPA strips report limits of detection from single-digit to a few hundred copies per reaction and, in many veterinary studies, ten to a thousand times below conventional gel-based PCR (Table E1c). The main practical limit of open-tube designs is amplicon contamination.
+
+
+## 3.5.4 CRISPR-Cas detection with a strip readout
+
+CRISPR-Cas systems add a second layer of specificity to amplification-based testing. A guide RNA directs a Cas enzyme to the target sequence; on recognition, Cas12 and Cas13 enzymes cut a reporter molecule, which is then read on a strip, while Cas9 variants hold labelled probes at the test line without cutting a reporter. The 93 studies in this group differ in the enzyme, the amplification step before it, and the way the strip is read, and they are described below in that order.
+
+**First strip adaptations (2018-2020).** The earliest studies put existing CRISPR diagnostics onto strips. SHERLOCK version 2 with a lateral-flow readout detected dengue and Zika RNA in patient samples, and added a Csm6 enzyme that gave a 3.5-fold signal gain (DOI: 10.1126/science.aaq0179). A Cas9 lateral flow assay (CASLFA) identified African swine fever virus (ASFV) in swine sera with 100% accuracy against RT-PCR (DOI: 10.1021/acsnano.0c00022), and a Cas12a-immunochromatographic strip detected ASFV at 20 copies per reaction in 149 clinical samples (DOI: 10.1038/s42003-020-0796-5). The DETECTR assay was adapted to SARS-CoV-2 with a strip and compared with CDC RT-PCR on 36 patients and 42 patients with other viral infections (DOI: 10.1038/s41587-020-0513-4); a later study found higher analytical sensitivity for DETECTR than for qRT-PCR on 378 patient samples (DOI: 10.1093/infdis/jiaa641). Other early work used Cas12a for circulating HPV16/18 DNA in plasma and Epstein-Barr virus (DOI: 10.1016/j.tranon.2019.08.011; DOI: 10.1039/d0an00663g), SHERLOCK for white spot syndrome virus in shrimp at the single-copy level (DOI: 10.1038/s41598-019-56170-y), and Cas13a for Ebola and Lassa viruses with fluorescent and strip readouts (DOI: 10.1038/s41467-020-17994-9).
+
+**SARS-CoV-2 and the clinical validations of 2020-2023.** The pandemic produced the largest cluster. A Cas13-based assay with a lateral-flow readout was validated on 154 swabs from Thailand (sensitivity 97%, specificity 100% for the strip) (DOI: 10.1038/s41551-020-00603-x), and the ERASE strip was tested on 649 blinded clinical samples (positive agreement 90.67%, negative agreement 99.21%) (DOI: 10.1089/crispr.2020.0138). Cas9-type strips avoid a reporter-cleavage step: a dual-gene Cas9 assay read the E and Orf1ab genes on 64 swabs (DOI: 10.1002/anie.202014506), Bio-SCAN used dCas9 on 86 swabs (DOI: 10.1021/acssynbio.1c00499), Vigilant used a VirD2-dCas9 complex after RT-RPA (DOI: 10.1021/acs.nanolett.1c00612), CasRx (Cas13d) gave a strip and fluorescence readout (DOI: 10.1021/acssensors.1c01088), and a CRISPR/Cas9 strip was also described for general SARS-CoV-2 sequences (DOI: 10.3390/bioengineering8020023). FnCas9 (FELUDA) was adapted to discriminate SARS-CoV-2 variants, with a second study reporting sensitivity 87% and specificity 97% against sequencing for mutant detection (DOI: 10.1016/j.bios.2021.113207; DOI: 10.7554/elife.67130), and SHINEv.2 identified variants of concern with Cas13 (DOI: 10.1038/s41551-022-00889-z). Multiplex designs read two or three targets at once: an orthogonal CRISPR-Cas lateral flow assay (OC-MLFA) correctly classified 76 of 76 swabs (DOI: 10.1016/j.snb.2022.132537), and a dual-enzyme platform read ORF1ab and N on 105 swabs (DOI: 10.1002/jmv.29090). Another Cas13a strip was tested on 52 positive and 101 negative samples (DOI: 10.1002/jmv.28096), and a Cas13a system with RPA was paired with a fluorescence analyser (DOI: 10.1016/j.talanta.2022.123594).
+
+**Workflows that remove steps.** Several designs target sample handling and the number of tubes. CASSPIT combines extraction-free saliva with Cas13 and a strip, reaching 97% positive agreement with RNA extraction (DOI: 10.3389/fcimb.2021.632646). A paper device combined RT-LAMP and Cas12a for SARS-CoV-2 in wastewater, with sensitivity 97.7% (DOI: 10.1021/acs.est.2c04727), and PLACID uses paper-based LAMP and CRISPR with smartphone reading on crude samples (DOI: 10.1016/j.bios.2024.116292). Direct PCR was coupled to Cas12a to detect ASFV without nucleic-acid extraction (DOI: 10.1007/s00253-022-11999-8). One-pot designs run amplification and cleavage in the same tube: OPERATOR combines rolling-circle amplification with FnCas12a (DOI: 10.1016/j.bios.2023.115179), CRICOLAP combines RT-LAMP and Cas12a with a strip and fluorescence (DOI: 10.3390/bios12010011), a magnetic-bead extraction preceded RT-LAMP and Cas12a (DOI: 10.1039/d4ay00757c), and a NESBA-Cas13a method detected SARS-CoV-2 at 0.05 copies/uL (DOI: 10.1021/acssynbio.4c00605). FELICX adds a flap endonuclease to Cas12 for DNA and RNA detection (DOI: 10.1016/j.bios.2022.115002). TESTOR uses phosphorothioate primers in a one-pot Cas12a assay and optimises the gold-particle strip (DOI: 10.1016/j.bioactmat.2021.05.005), and the G-triplex reporter for Cas12a reached one copy per reaction for HPV (DOI: 10.1016/j.bios.2021.113292). Other enzymes, such as Cas12b, Cas12f1 and Cas13d, have also been used on strips (DOI: 10.1016/j.aca.2026.345081; DOI: 10.1039/d4ay02079k; DOI: 10.1016/j.ijbiomac.2024.134151; DOI: 10.1016/j.aca.2024.342918).
+
+**Amplification-free strips.** Three studies skip the amplification step altogether. A cascade of Cas13a and Cas12a reached 1 aM for SARS-CoV-2 (DOI: 10.1021/acs.analchem.4c02726), a Cas13a method (MAD) detected human adenovirus in 167 paediatric samples with 99.4% concordance with qPCR (DOI: 10.1016/j.bios.2024.116918), and amplification-free Cas13a strips detected SARS-CoV-2 and H3N2 in a multiplex format (DOI: 10.1186/s12985-025-02765-z). A Cas9 strand-displacement strip reached 1-10 copies/uL for SARS-CoV-2 and H1N1 (DOI: 10.1021/acsabm.5c00307).
+
+**RPA- and RAA-linked CRISPR for animal and plant viruses.** The largest group in veterinary and plant virology pairs recombinase amplification with Cas12a or Cas13a, and several designs add a clinically oriented twist. For ASFV, CRISPR assays were built for the D117L, KP177R and genotype II targets and validated on clinical samples with up to 100% agreement (DOI: 10.1007/s12250-020-00323-1; DOI: 10.3390/bios10120203; DOI: 10.3390/v14020179; DOI: 10.3390/ani13233712; DOI: 10.1016/j.vetmic.2024.110073; DOI: 10.3389/fimmu.2024.1358960), and an orthogonal Cas12b/Cas13a strip separates wild-type from variant virus in under 60 minutes (DOI: 10.1016/j.isci.2024.109050). Other swine and carnivore viruses include porcine parvovirus, porcine circovirus 4, a porcine circovirus-like virus, PEDV (a wild-type versus vaccine-strain assay) and pseudorabies virus (DOI: 10.3389/fcimb.2022.879887; DOI: 10.3390/microorganisms11020354; DOI: 10.1007/s00216-023-05020-y; DOI: 10.3389/fcimb.2022.976137; DOI: 10.1016/j.aca.2024.342918). Poultry and waterfowl viruses include fowl adenovirus 4, avian leukosis virus subgroups A and B, duck hepatitis A virus 3, and H5 and other avian influenza viruses, tested on up to 380 clinical samples (DOI: 10.1080/03079457.2023.2254253; DOI: 10.3390/v16071168; DOI: 10.1016/j.ijbiomac.2024.133246; DOI: 10.3389/fmicb.2023.1283210; DOI: 10.3389/fvets.2023.1272612; DOI: 10.3389/fmicb.2023.1288951; DOI: 10.3390/v16050753), plus feline calicivirus, Japanese encephalitis virus and tick-borne encephalitis virus (DOI: 10.3389/fvets.2022.913780; DOI: 10.1016/j.ijbiomac.2024.134151; DOI: 10.1016/j.ijbiomac.2024.133720). Aquaculture examples include scale drop disease virus (DOI: 10.1111/jfd.13541). For plants, an RAA-Cas12a one-tube assay detects maize chlorotic mottle virus, a multiplex assay detects four tobamoviruses, and Cas12a/Cas13 strips were developed for TMV, TEV and PVX (DOI: 10.3389/fpls.2023.1088544; DOI: 10.1021/acs.jafc.3c05268; DOI: 10.1021/acssynbio.2c00090).
+
+**RPA- and RAA-linked CRISPR for human viruses.** Human-virus studies add a clinical dimension. Norovirus GII.4, GII.2 and GII.17 were detected by RT-RPA or RT-RAA with Cas12a or Cas13, the latter on food-contaminated samples (DOI: 10.1016/j.virol.2021.09.008; DOI: 10.3389/fmicb.2022.912315; DOI: 10.1186/s12985-022-01878-z; DOI: 10.33073/pjm-2024-023), human metapneumovirus and rhinovirus A/C by RT-RPA-Cas12a on 28 to 106 clinical samples (DOI: 10.1016/j.virusres.2021.198568; DOI: 10.1002/jmv.70921; DOI: 10.1016/j.virusres.2022.199001). Hepatitis viruses include HBV with Cas13a, Cas12 or Cas12f1 (up to 180 patients) and a pgRNA assay with a nanoparticle biosensor and Cas12b, and hepatitis D RNA on 144 patients (DOI: 10.1080/22221751.2023.2177088; DOI: 10.3390/ijms22094842; DOI: 10.1039/d4ay02079k; DOI: 10.1186/s12866-026-04900-4; DOI: 10.1080/22221751.2023.2276337). Further examples are HIV-1 (sensitivity 91.81% on clinical samples), measles (sensitivity 96%, specificity 100%), mpox, Nipah, Lassa, chikungunya, yellow fever, Epstein-Barr virus, SFTSV and HPV16/18 on a microfluidic platform (DOI: 10.1186/s12879-023-08492-6; DOI: 10.3390/diagnostics14050517; DOI: 10.1039/d2ay01998a; DOI: 10.1016/j.virusres.2023.199130; DOI: 10.1038/s41598-025-07071-w; DOI: 10.1128/spectrum.02298-25; DOI: 10.1016/j.bsheal.2026.03.001; DOI: 10.3389/fmicb.2026.1850310; DOI: 10.4014/jmb.2603.03014; DOI: 10.1021/acs.analchem.2c04713). One study detects oseltamivir-resistant influenza by RPA-CRISPR/Cas12a with a strip (DOI: 10.3724/abbs.2022163); a PCR-Cas12a assay detects influenza A (DOI: 10.46234/ccdcw2024.198).
+
+**Repurposed and multi-readout strips.** Two studies replace the dedicated strip with a commercial pregnancy test: CLIPON links CRISPR cleavage to hCG detection and a Cas12a method reached 1 copy/uL with 96.3% agreement (DOI: 10.1002/anie.202115907; DOI: 10.1039/d3an00284e); both are flagged for scope because they repurpose a commercial strip designed for another target. A Cas12a design with strand-displacement amplification gives several readouts including fluorescence and strip, with a 1 pM LOD in the strip mode (DOI: 10.1016/j.talanta.2024.125922).
+
+**A negative result.** One study reports that a CRISPR-dCas9 lateral flow assay for HPV16/18 failed because the amplification step left excess biotin that blocked the strip, which is a reminder that the labels used to read amplicons can interfere with the test (DOI: 10.1038/s41598-026-44828-3).
+
+Taken together, CRISPR strips reach single-copy sensitivities and report clinical comparisons for many viruses. The extra reaction step, the need to open tubes between amplification and Cas cleavage, and the fact that many designs rely on fluorescence in parallel with the strip are recurring limits (Table E1d).
+
+
+## 3.5.5 Other isothermal, enzyme-free and amplification-free nucleic-acid strips
+
+This group collects isothermal methods other than LAMP and RPA, enzyme-free signal-amplification schemes, and strips that read nucleic acids without amplification. It contains 76 studies.
+
+**NASBA and paper-based isothermal devices.** A paper device combined RNA extraction, isothermal amplification and the strip for influenza (DOI: 10.1021/acs.analchem.5b01594). NASBA with a strip was used for a prawn virus and for SARS-CoV-2 in the INSIGHT workflow that links the strip to sequencing (DOI: 10.1016/j.jip.2023.107921; DOI: 10.1126/sciadv.abe5054).
+
+**Cross-priming and related amplifications.** Cross-priming amplification (CPA) with a strip was developed for grouper nervous necrosis virus, PEDV, Prunus necrotic ringspot virus, bean pod mottle virus, scale drop disease virus (with a colorimetric alternative) and infectious hematopoietic necrosis virus (DOI: 10.1186/s12985-015-0374-5; DOI: 10.1038/srep24702; DOI: 10.1038/s41598-017-16536-6; DOI: 10.1038/s41598-021-03562-8; DOI: 10.1111/jfd.13448; DOI: 10.1016/j.jviromet.2024.115008). Multiple cross displacement amplification (MCDA), usually with a nanoparticle lateral flow biosensor, was applied to HBV, HCV, coxsackievirus A16, enterovirus A71 and A6, Epstein-Barr virus, influenza A, monkeypox virus and others (DOI: 10.2147/idr.s297645; DOI: 10.1002/jmv.28479; DOI: 10.3389/fmicb.2023.1121930; DOI: 10.3389/fmicb.2023.1268572; DOI: 10.3389/fcimb.2023.1321394; DOI: 10.1002/jmv.29481; DOI: 10.1002/jmv.70059; DOI: 10.1128/spectrum.01738-24; DOI: 10.1016/j.jviromet.2025.115235; DOI: 10.1021/acsinfecdis.5c01056), and polymerase spiral reaction was used for HBV in blood (DOI: 10.3389/fmolb.2020.578892). Multienzyme isothermal rapid amplification (MIRA), a recombinase-based method, was used for HBV, bovine coronavirus, chicken chaphamaparvovirus, duck hepatitis B virus, cytomegalovirus in breast milk, chikungunya virus (a semi-nested design detecting 1 copy/uL, with a 85.7% detection rate against 80.9% for RT-qPCR), HTLV-1 proviral DNA (500 clinical samples) and a duplex SARS-CoV-2 assay (DOI: 10.3389/fmolb.2021.763079; DOI: 10.3389/fvets.2022.1059934; DOI: 10.1016/j.psj.2023.103144; DOI: 10.3390/vetsci11050191; DOI: 10.3389/fcimb.2024.1430302; DOI: 10.1128/jcm.00383-24; DOI: 10.1186/s12967-025-06642-9; DOI: 10.3389/fcimb.2021.678703). Strand-displacement amplification gave a multiplex strip for respiratory RNA viruses (DOI: 10.3390/bios14020103), a ligation-based duplex method gave a semiquantitative HBV strip (DOI: 10.1021/acs.analchem.1c05039), a primer-extension amplification with an M13mp18 scaffold detected H1N1 (DOI: 10.1007/s00604-025-07031-1), and a duplex-specific nuclease with a target-primed isothermal amplification and a pre-amplified dsDNA-tag design also targeted H1N1 (DOI: 10.1016/j.enzmictec.2025.110653; DOI: 10.1016/j.biochi.2026.01.006).
+
+REVEALR, an XNAzyme-based system with a lateral-flow readout, detected SARS-CoV-2 at about 10 copies/uL with perfect accuracy on clinical samples (DOI: 10.1021/jacs.1c02664).
+
+**Genotyping and drug resistance.** Strips can read single-base differences. An isothermal amplification with an oligonucleotide ligation assay (OLA) on paper detected HIV-1 drug-resistance mutants, and its OLA-Simple version gave a sensitivity of 98.2% and specificity of 99.6% against Sanger sequencing on clinical specimens (DOI: 10.1016/j.ab.2017.12.008; DOI: 10.1016/j.ebiom.2019.11.002; DOI: 10.1097/qad.0000000000002524; DOI: 10.1016/j.talanta.2021.122378). A target-mimicking internal control made an isothermal HIV-1 DNA test quantitative at two thresholds (DOI: 10.1021/acs.analchem.1c03960). Allele-specific and peptide-nucleic-acid probes were used for SARS-CoV-2 mutations (DOI: 10.3389/fcimb.2022.902914; DOI: 10.1021/acs.analchem.3c01809; DOI: 10.3389/fmicb.2024.1459644).
+
+**Enzyme-free amplification and amplification-free probes.** Catalytic hairpin assembly, hybridisation chain reaction, entropy-driven circuits and similar DNA circuits amplify the signal without an enzyme, so the strip carries the amplifier. They were developed for H1N1 RNA, SARS-CoV-2, influenza A/B with RSV, dengue DNA, SFTSV, norovirus (a gold strip and a fluorescence format side by side) and chikungunya virus (DOI: 10.1039/d0an02273j; DOI: 10.1016/j.snb.2021.129899; DOI: 10.1021/acsomega.2c00882; DOI: 10.1016/j.talanta.2022.123588; DOI: 10.1016/j.talanta.2023.124855; DOI: 10.1021/acs.analchem.3c02019; DOI: 10.1128/spectrum.02144-23; DOI: 10.1039/d4ay00074a; DOI: 10.1021/acsomega.6c00618; DOI: 10.1016/j.aca.2026.345818). Their reported limits are typically in the femtomolar to picomolar range, higher than for amplified assays, and the studies using clinical samples report moderate sensitivities (73.3% for norovirus) and higher ones for chikungunya virus (92%) (DOI: 10.1021/acsomega.6c00618; DOI: 10.1016/j.aca.2026.345818). Amplification-free probe assays detect SARS-CoV-2 and H1N1 and H3N2, clade-specific mpox, hemorrhagic fever viruses (10 fM), BK polyomavirus and HBV pgRNA in serum at 50 copies/mL (DOI: 10.1016/j.jviromet.2023.114774; DOI: 10.1590/1414-431x2025e14761; DOI: 10.1002/cbic.202500216; DOI: 10.1039/d5cc06114h; DOI: 10.1039/d0ay01137a; DOI: 10.3390/diagnostics10060403; DOI: 10.1128/spectrum.01918-25).
+
+**Sample preparation, devices and special cases.** Extraction-free formats used chemical probes with cysteamine-capped gold particles (accuracy about 99.99% against a TaqPath assay on 60 samples) and an RNA:DNA hybrid-capture antibody (DOI: 10.1016/j.bios.2021.113900; DOI: 10.1093/pnasnexus/pgad031). Integrated and pen-shaped formats include a palm-size microfluidic device with pregnancy strips, a pen-like amplification strip, a cartridge with tailed primers for HPV16/18/45 and an integrated NAAT for HPV, and a closed paper LFA for wastewater SARS-CoV-2 (DOI: 10.1021/acs.analchem.1c01829; DOI: 10.1016/j.biosx.2022.100248; DOI: 10.1038/s41598-023-47582-y; DOI: 10.1126/scitranslmed.abn4768; DOI: 10.3390/bios14030115). Tailed amplicons and quantitative designs read SARS-CoV-2 or influenza on clinical samples (DOI: 10.1371/journal.pone.0301234; DOI: 10.3390/bios12110926; DOI: 10.3390/diagnostics13061118; DOI: 10.1099/jmm.0.001519; DOI: 10.1007/s00216-022-04090-8), and a target-independent device reads any nucleic acid by a universal probe (DOI: 10.1016/j.mex.2023.102372). One study uses logic determination to interpret co-existing viral RNAs (DOI: 10.1016/j.bios.2024.116519), one uses click ligation, rolling-circle amplification and a pregnancy strip for hepatitis A virus (DOI: 10.1016/j.aca.2025.344357), one compares an isothermal strip with targeted sequencing for influenza and Mycoplasma in children (DOI: 10.3389/fped.2026.1741420), and exponential rolling-circle amplification coupled to a strip detected 500 aM SARS-CoV-2 RNA with 95-100% accuracy in saliva (DOI: 10.1002/anie.3766984).
+
+These studies show the breadth of nucleic-acid strip chemistries. The enzyme-based isothermal methods reach sensitivities close to PCR; the enzyme-free circuits trade sensitivity for simplicity (Table E1e).
+
+
+
+## 3.5.6 Integrated, one-pot and multiplex devices
+
+The step users find hardest is often sample preparation and transfer. Integrated designs therefore combine release, amplification and strip in one closed device, as in the RPA monkeypox kit (DOI: 10.1186/s12916-025-04412-4), the microfluidic RPA and RT-LAMP devices, the pen-shaped enclosed formats and the paper devices described above, or run amplification and Cas cleavage in one tube. Multiplex designs use several lines or labels for dual or triple targets. Contamination by amplicons is a practical risk in open designs, and the monkeypox study gives it as the reason for its closed device.
+
+## 3.5.7 What the evidence supports
+
+Nucleic-acid strips report the lowest detection limits in this review, in several studies single-digit copy numbers per reaction and sensitivities equal to or above those of the reference PCR in the same paper. The costs are a heating step, sample preparation, amplicon contamination risk and, for CRISPR, an extra reaction step. Three cautions apply. First, "copies per reaction", "copies per microlitre" and "copies per millilitre" are not interchangeable, so LODs are not compared across studies. Second, reference PCRs differ in design, and positive agreement is sometimes counted over repeated tests of the same samples. Third, many abstracts do not report the sample matrix, number of samples or LOD definition (Table E2).
+
+### Table E1a. PCR and RT-PCR with a strip readout
+
+| Rec | Year | Target | Method / label | Matrix | LOD (as stated) | Diagnostic data (as stated) | Readout | Evidence | DOI |
+|---|---|---|---|---|---|---|---|---|---|
+| R01574 | 2015 | HPV16/18 | PCR; NR | DNA | 100 copies HPV DNA | NR | visual | Abstract | 10.1016/j.jviromet.2014.10.009 |
+| R01642 | 2015 | fish nervous necrosis virus (nodavirus) | PCR; AuNP | fish total RNA | 270 pg initial total RNA | NR | visual | Abstract | 10.1016/j.mcp.2015.03.005 |
+| R02134 | 2017 | HPV | PCR; NR | NR | NR | NR | visual | Abstract | 10.1016/j.bios.2017.04.047 |
+| R02368 | 2018 | nodavirus genotypes | PCR; gold nanoparticles | healthy and RGNNV-infected fish | NR | NR | visual | Abstract | 10.1155/2018/7691014 |
+| R02581 | 2019 | dengue virus | PCR+OTHER; NR | clinical samples | NR | sens 100%, spec 88.9% (vs TaqMan), 86.6% (vs SD NS1) | visual | Abstract | 10.1007/s10096-018-03453-3 |
+| R03236 | 2020 | RSIV, VHSV | PCR; NR | fish samples | NR | NR | visual | Abstract | 10.1007/s13337-020-00577-z |
+| R03271 | 2020 | SARS-CoV-2 | PCR; NR | 162 clinical samples | 10 copies/test/gene | PPA 100% (94.2-100), NPA 99.0% (94.6-100), OPA 99.4% | visual | Abstract | 10.1021/acs.analchem.0c03202 |
+| R03343 | 2020 | cyprinid herpesvirus 3 | PCR; NR | gill (n=54), kidney (n=46) tissue | 9 gene copies/uL | diagnostic spec 100%, sens 94.81% | visual | Abstract | 10.1371/journal.pone.0241420 |
+| R04199 | 2021 | 7 respiratory pathogens | PCR; NR | 896 samples | NR | vs Sanger sequencing (values NR) | visual | Abstract | 10.1007/s00284-021-02621-7 |
+| R04378 | 2021 | chikungunya virus | PCR; NR | NR | 10 RNA copies/mL | sens 100%, spec 100% vs culture/qRT-PCR | visual | Abstract | 10.4014/jmb.2108.08025 |
+| R04779 | 2022 | Epstein-Barr virus | PCR; gold + silicon particles | NR | 50 nM target DNA | lower LOD than LFNAB without PCR and Au@SiO2 | visual | Abstract | 10.1016/j.aca.2022.339514 |
+| R05458 | 2022 | HPV16/18 | PCR; NR | clinical samples | 700 copies | NR | visual | Abstract | 10.1007/s00604-022-05449-5 |
+| R05989 | 2023 | SARS-CoV-2 | PCR; not reported | not reported | not reported | not reported | visual | Abstract | 10.1039/d2mh01267g |
+| R06153 | 2023 | hepatitis A virus | PCR; NR | 35 human blood samples | 1 copy/uL | vs conventional RT-PCR | visual | Abstract | 10.1080/21691401.2023.2203198 |
+| R06796 | 2024 | koi herpesvirus | PCR+OTHER; NR | 179 fish samples | 675.69 copies/uL (LFA); 8.384 (real-time PCR) | NR | visual | Abstract | 10.1016/j.jviromet.2024.114890 |
+| R07161 | 2024 | HIV-1 | PCR; NR | 5 plasma samples | NR | LFA consistent with gel | visual | Abstract | 10.1016/j.heliyon.2024.e32784 |
+| R07472 | 2024 | SARS-CoV-2 | PCR; not reported | 100 samples | not reported | sens 88%, spec 98% vs RT-qPCR | visual | Abstract | 10.1186/s12879-024-10296-1 |
+| R07512 | 2025 | DENV-1 to -4 | PCR; AuNP + fluorescent/enzymatic tags | serum | 10 copies (DENV-1), 100 (DENV-2/3/4) | sens 100% all serotypes; spec 100% (1-3), 95% (DENV-4) vs RT-PCR | visual | Abstract | 10.1016/j.diagmicrobio.2025.116679 |
+| R07866 | 2025 | HPV16 | PCR; AuNP | not reported | not reported | not reported | visual | Abstract | 10.2147/mder.s508723 |
+| R08716 | 2026 | Seoul orthohantavirus | PCR; not reported | not reported | 150 copies/mL | not reported | visual | Abstract | 10.1002/adhm.71600 |
+
+### Table E1b. LAMP with a strip readout
+
+| Rec | Year | Target | Method / label | Matrix | LOD (as stated) | Diagnostic data (as stated) | Readout | Evidence | DOI |
+|---|---|---|---|---|---|---|---|---|---|
+| R01570 | 2015 | influenza A (H1N1) | LAMP; NR | viral RNA | 10 copies viral RNA | NR | visual | Abstract | 10.1039/c4lc01033g |
+| R01581 | 2015 | influenza A (H1N1,H3N2,H5N1) | LAMP; NR | clinical samples (n NR) | 10 copies RNA | NR | visual | Abstract | 10.1016/j.aca.2014.10.020 |
+| R01589 | 2015 | Japanese encephalitis virus | LAMP; NR | 14 serum samples | 5 pg RNA (10x more sensitive than RT-LAMP-calcein) | no false positives in 14 sera | visual | Abstract | 10.1016/j.jviromet.2014.12.006 |
+| R01757 | 2015 | Jembrana disease virus | LAMP; NR | NR | 100-fold more sensitive than RT-PCR | NR | visual | Abstract | 10.1007/s13337-015-0277-5 |
+| R01758 | 2015 | coxsackievirus A16 | LAMP; NR | clinical specimens | 0.55 TCID50 per reaction | 93.3% agreement with real-time RT-PCR; 100% specificity | visual | Abstract | 10.1111/lam.12499 |
+| R01897 | 2016 | measles virus | LAMP; NR | NR | 8.8 copies/uL synthetic RNA (equal to real-time RT-PCR) | NR | visual | Abstract | 10.1016/j.diagmicrobio.2016.02.023 |
+| R02035 | 2017 | Ebola virus | LAMP; commercial pregnancy test (gold) | serum, saliva | 20 copies | NR | visual | Abstract | 10.1002/anie.201609108 |
+| R02070 | 2016 | Zika virus | LAMP; NR | NR | NR | NR | visual | Abstract | 10.1021/acs.analchem.6b03460 |
+| R02093 | 2017 | HPV16/18 | LAMP; NR | 44 HPV16+, 18 HPV18+, 80 negatives | NR | NR | visual | Abstract | 10.3892/mmr.2017.6370 |
+| R02202 | 2017 | canine parvovirus | LAMP; NR | NR | 10^-1 TCID50/mL | NR | visual | Abstract | 10.1016/j.jviromet.2017.08.009 |
+| R02396 | 2018 | Macrobrachium rosenbergii nodavirus and extra small virus | LAMP; NR | NR | ~100-fold more sensitive than conventional PCR | specific vs other shrimp viruses | visual | Abstract | 10.1016/j.mcp.2018.05.001 |
+| R02685 | 2019 | Senecavirus A | LAMP; NR | clinical samples | 11 copies/uL RNA (10x more sensitive than RT-PCR) | positive rate comparable to RT-PCR | visual | Abstract | 10.1371/journal.pone.0216245 |
+| R02688 | 2019 | fowl adenovirus 4 | LAMP; NR | 150 field samples | 10 copies/uL (nested PCR 10; real-time 10^2; PCR 10^4) | NR | visual | Abstract | 10.1016/j.jviromet.2019.04.026 |
+| R02729 | 2019 | IBV, NDV | LAMP; NR | NR | 10^0.8 IBV, 10^0.7 NDV copies/reaction | same LOD in duplex and single | visual | Abstract | 10.3382/ps/pez372 |
+| R02782 | 2019 | HIV-1 | LAMP; NR | whole blood | 100 copies (tube); 3 x 10^5 viral particles on device | NR | visual | Abstract | 10.1039/c9lc00506d |
+| R02868 | 2020 | cyprinid herpesvirus 2 | LAMP; NR | diseased goldfish | 0.18 pg/uL (same as PCR) | NR | visual | Abstract | 10.1016/j.mcp.2020.101507 |
+| R03039 | 2020 | HPV16 | LAMP; NR | plasmid and clinical samples | NR | NR | visual | Abstract | 10.1007/s00216-020-02702-9 |
+| R03141 | 2020 | SARS-CoV-2 | LAMP; nanoparticle (gold) | 33 positive, 96 negative swabs | 12 copies/reaction/target | sens 100% (33/33), spec 100% (96/96) | visual | Abstract | 10.1016/j.bios.2020.112437 |
+| R03364 | 2021 | ASFV | LAMP; NR | NR | NR | NR | visual | Abstract | 10.1007/s12250-020-00309-z |
+| R03627 | 2021 | SARS-CoV-2 | LAMP; NR | 12 synthetic + 12 clinical | NR | accuracy 100% | visual | Abstract | 10.1021/acs.analchem.0c05059 |
+| R04197 | 2021 | SARS-CoV-2 | LAMP; gold nanoparticles | clinical and artificial sputum samples | 20 copies/reaction | spec 100% | visual | Abstract | 10.3389/fcimb.2021.581239 |
+| R04272 | 2021 | HBV (rtL180M mutation) | LAMP+OTHER; pregnancy test strip (gold) | HBV clinical samples | 2 copies/uL | identifies unmutated and rtL180M genotypes | visual | Abstract | 10.1002/anie.202108827 |
+| R04306 | 2021 | porcine circovirus 2 | LAMP; NR | NR | low LOD (value NR) | NR | visual | Abstract | 10.1039/d1ay01189h |
+| R04384 | 2021 | HBV | LAMP; nanoparticles | clinical samples | 7.5 IU/test | spec 100% | visual | Abstract | 10.3389/fbioe.2021.731415 |
+| R04631 | 2021 | badnavirus (chinaberry) | LAMP; NR | NR | NR | NR | visual | Abstract | 10.3390/v13122408 |
+| R04645 | 2022 | SARS-CoV-2 | LAMP; NR | 17 patient, 55 normal RNA samples | NR | 15/17 positive; 55/55 negative | visual | Abstract | 10.1016/j.bios.2021.113925 |
+| R04692 | 2022 | SARS-CoV-2 | LAMP; not reported | 82 positive RNA samples | not reported | accuracy 81.66% | visual | Abstract | 10.1007/s00216-022-03880-4 |
+| R04791 | 2022 | HBV | LAMP; NR | 150 positive plasma | NR | sens 92% (138/150), spec 100% | visual | Abstract | 10.1007/s42770-022-00690-9 |
+| R05043 | 2021 | Zika virus | LAMP; NR | PBS, urine, plasma | NR | NR | visual | Abstract | 10.1039/d1ra01227d |
+| R05280 | 2022 | herpesvirus of turkeys (HVT) vaccines | LAMP; NR | field organ, feather, dust samples | LOD on plasmid (value NR) | detected all HVT vaccines | visual | Abstract | 10.3389/fvets.2022.873163 |
+| R05456 | 2022 | West Nile virus | LAMP; NR | 110 human sera | 10 copies | kappa 0.970 vs qRT-PCR | visual | Abstract | 10.1111/jam.15783 |
+| R05544 | 2022 | SARS-CoV-2 | LAMP+OTHER; NR | NR | 3 genome copies/reaction (RT-HDA); 30-300 (RT-LAMP) | NR | visual | Abstract | 10.3390/biomedicines10092329 |
+| R05717 | 2022 | PEDV, PCV2 | LAMP; NR | 50 swine clinical samples | 0.1 ng/uL (PEDV), 0.246 ng/uL (PCV2) | sens, spec, accuracy 100% vs PCR | visual | Abstract | 10.3390/cimb44110368 |
+| R05723 | 2022 | SARS-CoV-2 | LAMP; NR | 2020-2021 outbreak clinical samples | E-sensor LOD log 1.79 pg/uL | NR | visual (LFD) | Abstract | 10.3390/ijms232113105 |
+| R06121 | 2023 | monkeypox virus | LAMP; nanoparticles | pseudovirus in human blood | 5 copies/uL plasmid; 12.5 copies/uL pseudovirus | NR | visual | Abstract | 10.3389/fpubh.2023.1132896 |
+| R06266 | 2023 | SARS-CoV-2 | LAMP; NR | crude VTM samples | 100 copies | NR | visual | Abstract | 10.3390/microorganisms11051233 |
+| R06309 | 2023 | PEDV, PoRV, PBoV | LAMP; NR | field samples | 24.0, 28.9, 25.2 copies/uL | >99% consistency with rt-qPCR | visual | Abstract | 10.3390/ani13121910 |
+| R06370 | 2023 | HIV-1 | LAMP; gold nanoparticles | NR | 20 copies/test | no cross-reactivity | visual | Abstract | 10.3389/fmicb.2023.1230533 |
+| R06420 | 2023 | HBV | LAMP; NR | HBV-positive serum | 10^3 IU/mL (heat-treated serum) | NR | visual | Abstract | 10.1007/s11033-023-08730-9 |
+| R06519 | 2023 | SARS-CoV-2 | LAMP; NR | NR | 100 PFU/mL (Chelex extraction); 10^-1 PFU/mL (commercial extraction) | sens 97.8%, spec 100% | visual | Abstract | 10.3390/diagnostics13183001 |
+| R06632 | 2023 | SARS-CoV-2 | LAMP; NR | crude throat swabs in VTM | 3 RNA copies/uL (Ct 33) | T-line intensity correlates with qRT-PCR Ct | visual and digital semi-quantification | Abstract | 10.3390/bios13110988 |
+| R06676 | 2024 | monkeypox virus | LAMP; nanoparticles | simulated blood | 5 copies (plasmid); 12.5 copies (pseudovirus) | all positive controls identified | visual | Abstract | 10.1016/j.talanta.2023.125502 |
+| R06752 | 2024 | Epstein-Barr virus | LAMP; gold nanoparticles | whole blood | 45 copies/reaction | NR | visual | Abstract | 10.1007/s00253-023-12948-9 |
+| R06757 | 2024 | SARS-CoV-2 | LAMP; NR | clinical specimens | 500 copies/mL | kappa 0.876 vs RT-qPCR | visual | Abstract | 10.1186/s12879-023-08924-3 |
+| R06808 | 2024 | HPV16, 18, 45 | LAMP; NR | NR | LF: 100, 10, 100 copies/reaction (HPV16, 18, 45); 1 ng gDNA | NR | visual (LF) | Abstract | 10.1016/j.ab.2024.115480 |
+| R06857 | 2024 | hepatitis C virus | LAMP; gold nanoparticles | clinical sera | 20 copies/test | NR | visual | Abstract | 10.1186/s12866-024-03220-9 |
+| R06962 | 2024 | avian leukosis virus | LAMP; NR | NR | 10^2 RNA copies/uL (100x RT-PCR) | NR | visual | Abstract | 10.1007/s00705-024-05977-w |
+| R07028 | 2024 | influenza A/B | LAMP; NR | 243 NP swabs (85 IAV+, 58 IBV+, 100 negative) | NR | sens 94.1% (IAV), 96.6% (IBV); spec 98% vs Allplex | visual | Abstract | 10.3390/diagnostics14090967 |
+| R07067 | 2024 | chikungunya virus | LAMP; NR | NR | 598.46 copies/mL | distinguishes from DENV, JEV, ZIKV, YFV | visual | Abstract | 10.3390/mi15050663 |
+| R07110 | 2024 | HBV, HCV | LAMP; NR | clinical samples, various genotypes | 10 (HBV) and 10^3 (HCV) genomic copies/reaction | NR | visual | Abstract | 10.1002/jmv.29721 |
+| R07164 | 2024 | influenza A virus (swine) | LAMP; NR | swine samples | comparable to RT-qPCR Cq <35 | sens 83.5%, spec 89.6% | visual | Abstract | 10.1016/j.vetmic.2024.110174 |
+| R07395 | 2024 | HBV, HCV | LAMP; AuNP | clinical samples | 20 copies/test | not reported | visual | Abstract | 10.1186/s12866-024-03610-z |
+| R07413 | 2024 | SARS-CoV-2 | LAMP; not reported | swabs | not reported | LAMP sens 95%, spec 75%; LAMP-LFA sens 100%, spec 77.27% | visual | Abstract | 10.1016/j.plabm.2024.e00437 |
+| R07579 | 2025 | SARS-CoV-2 Omicron lineages | LAMP; not reported | clinical vs sequencing | not reported | BA.1 sens/spec 100/100%; BA.2 100/95% | visual | Abstract | 10.1039/d4ay01798f |
+| R07591 | 2025 | adenovirus 3 | LAMP; not reported | 100 respiratory specimens | not reported | 98% agreement with tNGS/qPCR | visual | Abstract | 10.1039/d4ay01973c |
+| R07843 | 2025 | influenza A/B | LAMP; Au-magnetic NP | 70 clinical samples | 80 copies/mL | 100% agreement vs fluorescent PCR | visual | Abstract | 10.1111/1751-7915.70169 |
+| R07934 | 2025 | HAdV-3, HAdV-7 | LAMP; not reported | 188 clinical samples | 2.5 copies/reaction | vs commercial PCR (values not in abstract) | visual | Abstract | 10.1007/s10096-025-05224-3 |
+| R08043 | 2025 | HPV16/18 | LAMP; not reported | 69 clinical specimens | not reported | sens 94.74% (18/19, SCC) | visual | Abstract | 10.1002/advs.202509468 |
+| R08450 | 2026 | SARS-CoV-2 | LAMP; not reported | not reported | 18.92 copies/uL | comparable to RT-qPCR | visual | Abstract | 10.3389/fpubh.2026.1798338 |
+
+### Table E1c. RPA and RAA with a strip readout
+
+| Rec | Year | Target | Method / label | Matrix | LOD (as stated) | Diagnostic data (as stated) | Readout | Evidence | DOI |
+|---|---|---|---|---|---|---|---|---|---|
+| R01868 | 2016 | Orf virus | RPA; NR | clinical samples | 80 copies/reaction | good correlation with qPCR; no cross-reaction with capripox, FMDV, PPRV | visual | Abstract | 10.1186/s12985-016-0502-x |
+| R01969 | 2016 | porcine parvovirus | RPA; NR | 128 clinical samples | 400 copies/reaction (LFD) | sens 94.4%, spec 100% vs qPCR | visual | Abstract | 10.1016/j.mcp.2016.08.011 |
+| R02064 | 2017 | caprine arthritis-encephalitis virus | RPA; NR | 200 field samples, Taiwan | 80 pg DNA; 10 plasmid copies | 82% positive in field samples, higher sensitivity than ELISA | visual | Abstract | 10.1016/j.jviromet.2017.01.023 |
+| R02067 | 2017 | PPRV | RPA; NR | NR | 150 copies/reaction (LFS); 100 copies (real-time) | NR | visual | Abstract | 10.1186/s12985-017-0688-6 |
+| R02095 | 2017 | pseudorabies virus | RPA; NR | NR | 160 copies/reaction (LFD); 100 (real-time) | NR | visual | Abstract | 10.1016/j.mcp.2017.03.005 |
+| R02114 | 2017 | porcine circovirus 2 | RPA; NR | NR | 10^2 copies/reaction (both) | NR | visual | Abstract | 10.1155/2017/8403642 |
+| R02172 | 2017 | goatpox, sheeppox virus | RPA; NR | 107 clinical samples | 3 x 10^2 copies/reaction | specific for SPPV/GTPV in tissues | visual | Abstract | 10.1186/s12985-017-0792-7 |
+| R02276 | 2017 | infectious bovine rhinotracheitis virus | RPA; NR | NR | 5 copies/reaction | no cross-reaction with other bovine viruses | visual | Abstract | 10.1186/s12917-017-1284-0 |
+| R02293 | 2018 | bovine ephemeral fever virus | RPA; NR | NR | 8 copies/reaction | no cross-reactivity with BVDV, IBRV, BRSV | visual | Abstract | 10.1016/j.mcp.2017.12.003 |
+| R02375 | 2018 | canine parvovirus 2 | RPA; NR | 60 faecal samples | 1.0 x 10^2 copies/reaction (same as real-time PCR) | 46/60 positive, equals real-time PCR | visual | Abstract | 10.1016/j.mcp.2018.04.004 |
+| R02399 | 2018 | cyprinid herpesvirus 2 | RPA; NR | NR | NR | NR | visual | Abstract | 10.1111/jfd.12808 |
+| R02426 | 2018 | canine distemper virus | RPA; NR | 32 swabs | 9.4 x 10^1 copies/reaction (same as real-time RT-PCR) | 62.0% (20/32) positive, same as real-time RT-PCR | visual | Abstract | 10.1016/j.jviromet.2018.07.007 |
+| R02439 | 2018 | FMDV | RPA; NR | 143 clinical samples | 10 copies plasmid DNA | 98.6% concordance with real-time PCR | visual | Abstract | 10.1016/j.jviromet.2018.07.011 |
+| R02453 | 2018 | bovine respirovirus 3 | RPA; NR | 95 clinical samples | 100 copies/reaction | NR | visual | Abstract | 10.1016/j.mcp.2018.08.004 |
+| R02462 | 2018 | FMDV | RPA; NR | 55 samples | 1.0 x 10^2 copies/reaction (same as real-time RT-PCR) | 45.5% (25/55) vs 52.7% (29/55) by real-time RT-PCR | visual | Abstract | 10.1186/s12917-018-1594-x |
+| R02482 | 2018 | influenza A H7N9 | RPA; NR | 50 positive samples | NR | 100% specificity; agrees with real-time RT-PCR | visual | Abstract | 10.1248/bpb.b18-00468 |
+| R02492 | 2019 | feline herpesvirus 1 | RPA; NR | cat swabs | 10^3 copies (PCR 10^4) | compared with PCR (values NR) | visual | Abstract | 10.1007/s00705-018-4064-7 |
+| R02513 | 2018 | influenza A (H1, H3) | RPA; NR | 111 samples | 123.6 copies (M), 677.1 (H1), 112.2 (H3) per reaction | sens 75%, 93.33%, 71.43%; spec 100% | visual | Abstract | 10.1016/j.mcp.2018.10.004 |
+| R02515 | 2019 | rice black-streaked dwarf virus | RPA; NR | rice plants | similar to RT-PCR | similar sens/spec to RT-PCR | visual | Abstract | 10.1016/j.jviromet.2018.11.001 |
+| R02516 | 2019 | avian influenza H9N2 | RPA; NR | 120 cloacal samples | NR | NR | visual | Abstract | 10.1111/tbed.13063 |
+| R02521 | 2018 | FMDV serotypes A, O, Asia1 | RPA; NR | 126 clinical samples | NR (stated in abstract, value truncated) | 98.41% concordance with real-time PCR; 2 additional positives confirmed | visual | Abstract | 10.1186/s12917-018-1644-4 |
+| R02560 | 2019 | human mastadenovirus B | RPA; NR | clinical samples | 50 copies/reaction | real-time RPA correlates with real-time PCR | visual | Abstract | 10.1186/s12866-018-1365-7 |
+| R02695 | 2019 | influenza A and B | RPA; NR | clinical samples | 50 copies (flu B), 500 copies (flu A) per reaction; 5.80 fmol FITC, 8.39 fmol DIG amplicons | sens 78.57% (A), 87.50% (B); spec 100% vs real-time PCR | visual | Abstract | 10.1007/s00216-019-01840-z |
+| R02709 | 2019 | African swine fever virus | RPA; NR | 145 field samples | 150 copies/reaction | 10/145 positives, 100% agreement with real-time PCR | visual | Abstract | 10.3389/fmicb.2019.01004 |
+| R02717 | 2019 | dengue virus | RPA; NR | 120 clinical samples | 10 RNA copies | 100% coincidence with qRT-PCR | visual | Abstract | 10.1016/j.mcp.2019.06.003 |
+| R02721 | 2019 | feline parvovirus | RPA; NR | NR | 10^2 copies/reaction (10-fold below PCR) | NR | visual | Abstract | 10.1016/j.jviromet.2019.113679 |
+| R02766 | 2019 | human adenovirus (water) | RPA; NR | wastewater | 10-50 plasmid copies | sens 100%, spec 100% vs qPCR; LOD 50 gene copies | visual | Abstract | 10.1007/s00253-019-10077-w |
+| R02785 | 2019 | NDV, IBV | RPA; NR | farm samples | 10 genomic copies/reaction | good performance vs qRT-PCR | visual | Abstract | 10.1007/s11033-019-05085-y |
+| R02795 | 2019 | HPV genotypes | RPA; NR | NR | 100 fg viral DNA | NR | visual | Abstract | 10.1007/s00216-019-02113-5 |
+| R02812 | 2020 | RSV A and B | RPA; NR | 136 clinical samples | 10 copies RNA | 100% agreement with qRT-PCR (34 pos, 102 neg) | visual | Abstract | 10.1016/j.mcp.2019.101473 |
+| R02867 | 2019 | enterovirus 71, coxsackievirus A16 | RPA; NR | clinical samples | 91 copies/reaction (LFS) | compared with real-time (values NR) | visual | Abstract | 10.1186/s12985-019-1264-z |
+| R02870 | 2019 | West Nile virus | RPA; NR | NR | 1,000 plasmid copies (LFD); 10 copies and 1.6 PFU (real-time) | sens 100%, spec 100% vs RT-qPCR | visual | Abstract | 10.3967/bes2019.116 |
+| R02882 | 2020 | potato virus X | RPA; NR | NR | 260-fold more sensitive than antibody-based LFA (same as PCR) | NR | visual | Abstract | 10.1016/j.talanta.2019.120616 |
+| R02930 | 2020 | HBV | RPA; NR | clinical serum | NR | sens 97.18% and 95.77%, spec 100% vs qPCR | visual | Abstract | 10.1002/jmv.25778 |
+| R02951 | 2020 | dengue virus | RPA; NR | 247 patients | 10 copies/uL | kappa 0.957 vs RT-qPCR | visual | Abstract | 10.1016/j.ijid.2020.03.075 |
+| R02997 | 2020 | porcine deltacoronavirus | RPA; NR | 68 clinical samples | 1 x 10^2 copies/uL (10x lower than PCR) | positive rate 26.47% vs 23.53% by RT-PCR | visual | Abstract | 10.1186/s12917-020-02341-3 |
+| R03002 | 2021 | HBV DNA | RPA; NR | serum | 1,000 copies/50 uL | sens 90%, spec 100% | visual | Abstract | 10.1002/bab.1940 |
+| R03009 | 2020 | infectious bronchitis virus | RPA; NR | NR | 10^2 copies/uL (100x below PCR) | no cross-reaction | visual | Abstract | 10.3382/ps/pez559 |
+| R03042 | 2020 | African swine fever virus | RPA; NR | NR | 1 x 10^2 copies/reaction (equal to real-time PCR) | no cross-reaction | visual | Abstract | 10.1016/j.jviromet.2020.113885 |
+| R03105 | 2020 | Newcastle disease virus | RPA; NR | chickens | 10^2 copies/uL (LFD; 10x below PCR); 10 copies/uL (real-time) | NR | visual | Abstract | 10.1016/j.psj.2020.03.018 |
+| R03124 | 2020 | milk vetch dwarf virus | RPA; NR | NR | 10^1 copies/reaction (RPA-LFS); PCR gel 10^3 | NR | visual | Abstract | 10.1186/s12985-020-01371-5 |
+| R03256 | 2020 | norovirus GII | RPA; NR | boiled human stool | 50 genome copies/reaction | specific for GII noroviruses | visual | Abstract | 10.1007/s00705-020-04798-x |
+| R03398 | 2020 | HPV16/18 | RPA; NR | 14 HPV+ and 75 non-HPV samples | 10 copies/reaction | sens 14/14, spec 75/75 | visual | Abstract | 10.1007/s00604-020-04637-5 |
+| R03425 | 2020 | citrus tristeza virus | RPA; NR | field citrus plants | compared with other techniques (value NR) | NR | visual | Abstract | 10.1038/s41598-020-77692-w |
+| R03430 | 2021 | Heartland virus | RPA; NR | 6 clinical samples | 1.19-1.54 PFU equivalents/reaction; 0.6075 copies/uL | 5/6 positive (83.3% concordance with real-time PCR) | visual | Abstract | 10.1089/vbz.2020.2670 |
+| R03460 | 2021 | HPV16/18 E7 cfDNA | RPA; NR | cervical cancer plasma | 5-10 copies | sens 100%, spec 88.24% (RPA-LF); ddPCR sens 30.77% | visual | Abstract | 10.1177/1535370220978899 |
+| R03517 | 2021 | SARS-CoV-2 | RPA; NR | 78 positive, 35 negative NP samples | 7.659 copies/uL (RT-qPCR 5) | NR | visual | Abstract | 10.1371/journal.pone.0245164 |
+| R03591 | 2021 | infectious laryngotracheitis virus | RPA; NR | NR | 10^2 copies/uL (100x below PCR) | no cross-reaction | visual | Abstract | 10.1016/j.psj.2020.12.008 |
+| R03612 | 2021 | HBV | RPA; NR | 85 samples (36 positive) | 10 copies/reaction | no cross-reactions | visual | Abstract | 10.1016/j.jviromet.2021.114094 |
+| R03653 | 2021 | SARS-CoV-2 | RPA; NR | 100 clinical samples (13 positive) | NR | vs RT-qPCR (values NR in abstract) | visual | Abstract | 10.3389/fcimb.2021.613304 |
+| R03668 | 2021 | coxsackievirus A6 | RPA; NR | 142 clinical samples | 10 copies/reaction | 100% coincidence with qPCR | visual | Abstract | 10.3389/fmicb.2021.629533 |
+| R03713 | 2021 | avian orthoavulavirus 1 (NDV) | RPA; NR | NR | 3.34 x 10^-3 ng/uL cDNA | NR | visual | Abstract | 10.1177/1040638721990122 |
+| R03776 | 2021 | tomato spotted wilt virus | RPA; NR | pepper samples | similar to RT-PCR | no cross-reactivity with CMV, PepMoV, PMMoV, BBWV2 | visual | Abstract | 10.1016/j.mcp.2021.101727 |
+| R03796 | 2021 | ASFV | RPA; NR | blood | 10 copies/uL (10x below PCR/qPCR) | NR | visual | Abstract | 10.3389/fcimb.2021.633763 |
+| R03943 | 2021 | SARS-CoV-2 | RPA; NR | armored RNA; clinical COVID cases | 1 copy/uL (30 copies/sample) | sens 97%, spec 100% | visual | Abstract | 10.1039/d0lc01222j |
+| R03956 | 2021 | ASFV | RPA; gold nanoparticles | blood samples | 10^2 copies/uL | specific vs CSFV | visual | Abstract | 10.1007/s00216-021-03408-2 |
+| R04112 | 2021 | SARS-CoV-2 | RPA; NR | 37 nasopharyngeal samples | 35.4 N cDNA copies/uL; 0.25-2.5 copies/uL plasmid | vs CDC RT-qPCR | visual | Abstract | 10.1016/j.jviromet.2021.114227 |
+| R04136 | 2021 | porcine circovirus 2 | RPA; NR | 42 clinical samples | 10^3 copies/uL plasmid; 6.7 x 10^-6 ng/uL DNA; 10 TCID50/mL | NR | visual | Abstract | 10.3389/fvets.2021.676294 |
+| R04196 | 2021 | duck circovirus | RPA; NR | NR | 10^2 copies/uL | NR | visual | Abstract | 10.1016/j.psj.2021.101339 |
+| R04275 | 2021 | EHDV, Palyam serogroup viruses | RPA; NR | 56 isolate blood samples, 96 farm samples | 7.1 copies/uL (EHDV), 6.8 (PALV) | coincidence >94.8% with qRT-PCR | visual | Abstract | 10.1186/s12917-021-02977-9 |
+| R04277 | 2021 | porcine parvovirus | RPA; NR | NR | 10^2 copies/uL plasmid; 6.38 x 10^-7 ng/uL DNA; 10^-1 TCID50/mL | NR | visual | Abstract | 10.3390/life11080762 |
+| R04420 | 2021 | human adenovirus species B (HAdV 3, 7, 21, 55) | RPA; NR | limited clinical samples | 10-280 copies/reaction | sens >92%, spec >98% | visual | Abstract | 10.1155/2021/9957747 |
+| R04482 | 2022 | BVDV, BPIV3 | RPA; NR | clinical samples | 50 RNA molecules (BVDV), 34 (BPIV3) per reaction | good performance vs RT-qPCR | visual | Abstract | 10.1016/j.jviromet.2021.114343 |
+| R04512 | 2021 | RNA virus (model) | RPA; NR | NR | 10^3 RNA copies in reaction; 22x lower half-max binding concentration than probe-dependent | NR | visual | Abstract | 10.3390/ijms222111885 |
+| R04514 | 2022 | SARS-CoV-2, influenza | RPA; NR | 15 SARS-CoV-2+, 10 flu+, 5 negative samples | 10 viral RNA copies | 100% accuracy | visual | Abstract | 10.1016/j.bios.2021.113771 |
+| R04602 | 2022 | potato virus Y | RPA; NR | NR | NR | NR | visual | Abstract | 10.1016/j.ab.2021.114526 |
+| R04649 | 2022 | Micropterus salmoides rhabdovirus | RPA; NR | NR | 170 copies/uL (100x below PCR) | NR | visual | Abstract | 10.1111/jfd.13575 |
+| R04661 | 2022 | PRRSV | RPA; NR | 179 samples | 0.56 TCID50/reaction (more sensitive than RT-PCR) | vs RT-qPCR | visual | Abstract | 10.1007/s00705-021-05349-8 |
+| R04673 | 2022 | SARS-CoV-2 | RPA; NR | NR | NR | NR | visual (LF) | Abstract | 10.1002/bip.23485 |
+| R04727 | 2022 | feline calicivirus | RPA; NR | 23 samples | 3.2 TCID50/reaction | 14/23 positive, equal to RT-qPCR | visual | Abstract | 10.1007/s00253-022-11785-6 |
+| R04789 | 2021 | ASFV, CSFV | RPA; NR | NR | 10^3 copies/uL; 10 pg and 12 pg viral DNA/cDNA | no cross-reaction | visual | Abstract | 10.3389/fmolb.2021.811824 |
+| R04801 | 2022 | cyprinid herpesvirus 2 | RPA; NR | goldfish | satisfactory LOD (value NR) | NR | visual | Abstract | 10.1007/s10499-021-00806-2 |
+| R04805 | 2022 | ASFV | RPA; NR | 30 clinical samples | 200 copies/reaction | NR | visual | Abstract | 10.3967/bes2022.018 |
+| R04857 | 2022 | Senecavirus A | RPA; NR | clinical samples | 15 copies/uL | no significant difference vs qRT-PCR | visual | Abstract | 10.1016/j.ab.2022.114627 |
+| R04863 | 2022 | HCV | RPA; NR | 46 anti-HCV positive RNA extracts | 10 copies/uL | 100% concordance with qPCR | visual | Abstract | 10.3389/fcimb.2022.816238 |
+| R04925 | 2022 | HBV viral load | RPA; NR | HBV DNA-positive plasma | threshold 2 x 10^5 IU/mL | sens 98.6% (92.7-99.9), spec 88.2% (73.4-95.3) | visual | Abstract | 10.3390/diagnostics12030621 |
+| R04965 | 2022 | barley yellow dwarf virus | RPA; NR | oat samples from 6 regions; individual aphids | similar to RT-PCR | no cross-reactivity with cereal viruses | visual | Abstract | 10.5423/ppj.nt.01.2022.0009 |
+| R05008 | 2022 | PEDV | RPA; NR | clinical samples | 10^2 copies/uL | no cross-reactivity | visual | Abstract | 10.1186/s12917-022-03232-5 |
+| R05125 | 2022 | porcine encephalomyocarditis virus | RPA; NR | 92 samples | 10^2 copies (qRT-RPA); 10^1 copies (LFB) | LFB 97.83% agreement with qRT-PCR | visual (LFB) | Abstract | 10.1016/j.jviromet.2022.114544 |
+| R05214 | 2022 | strawberry mottle virus | RPA; NR | 100 suspected samples (3 positive) | 500 fg RNA | concordant with RT-PCR | visual | Abstract | 10.1016/j.jviromet.2022.114566 |
+| R05261 | 2022 | sweepoviruses (begomoviruses) | RPA; NR | NR | 1.0 x 10^4 copies/reaction (10x PCR) | NR | visual | Abstract | 10.4149/av_2022_208 |
+| R05372 | 2022 | citrus tatter leaf virus | RPA; NR | 45 field tangor samples | 3 x 10^3 copies/uL (same as RT-qPCR) | consistent with RT-PCR and RT-qPCR | visual | Abstract | 10.1016/j.jviromet.2022.114593 |
+| R05374 | 2022 | WSSV | RPA; NR | 100 field samples | 20 copies/reaction | vs real-time PCR | visual | Abstract | 10.3389/fcimb.2022.889775 |
+| R05453 | 2022 | porcine deltacoronavirus | RPA; NR | 149 samples | 3.97 TCID50/reaction (95% LOD) | coincidence 97.32% (145/149), kappa 0.946 vs trRT-PCR | visual | Abstract | 10.1080/21505594.2022.2116157 |
+| R05495 | 2022 | bovine rotavirus A | RPA; NR | 134 faecal samples | 14 copies/reaction (LFS) | positive rate 46.27% (LFS) vs 45.52% (real-time) | visual (LFS) | Abstract | 10.1186/s12917-022-03437-8 |
+| R05509 | 2022 | PEDV | RPA; NR | 5 simulated faecal samples | 10^2 TCID50/mL | specific to M gene | visual | Abstract | 10.3390/biology11071018 |
+| R05535 | 2022 | hepatitis E virus | RPA; NR | raw pork livers | 24 copies/uL (LFB); 154 copies/uL (qRT-RPA) | no cross-reactions | visual (LFB) | Abstract | 10.3389/fcimb.2022.958990 |
+| R05563 | 2022 | Carassius auratus herpesvirus | RPA; NR | NR | 100 gene copies/reaction (100x below PCR) | NR | visual | Abstract | 10.3389/fcimb.2022.981911 |
+| R05624 | 2022 | strawberry mild yellow edge virus | RPA; NR | field samples | 10 pg/uL (100x below RT-PCR) | consistent with RT-PCR | visual | Abstract | 10.1007/s00284-022-03045-7 |
+| R05647 | 2023 | pseudorabies virus | RPA; NR | clinical crude samples | 21 copies/reaction; 6.0 TCID50/reaction extraction-free | NR | visual | Abstract | 10.1016/j.ijbiomac.2022.10.153 |
+| R05713 | 2022 | hepatopancreatic parvovirus | RPA; NR | 33 hepatopancreas tissues | 35 genome-equivalent copies/reaction | sens 100% (86-100), spec 100% (66-100) | visual | Abstract | 10.1371/journal.pone.0276164 |
+| R05769 | 2023 | infectious bursal disease virus | RPA; NR | NR | 10 copies/uL | no cross-reaction | visual | Abstract | 10.1016/j.psj.2022.102306 |
+| R05790 | 2022 | cymbidium mosaic virus | RPA; NR | orchid plants | 100x more sensitive than RT-PCR | NR | visual | Abstract | 10.5423/ppj.ft.10.2022.0147 |
+| R05806 | 2023 | SARS-CoV-2 | RPA; NR | clinical samples | 6.7 copies/uL RNA; 90 copies/uL virus | spec 100%, sens 100% (Ct<31) | visual | Abstract | 10.1016/j.bios.2022.114989 |
+| R05817 | 2022 | varicella-zoster virus | RPA; NR | NR | NR | NR | visual | Abstract | 10.3390/diagnostics12122957 |
+| R05846 | 2022 | AAV genome | RPA; NR | 47 recombinant AAV samples | 10 copies/uL | 100% accuracy | visual | Abstract | 10.1021/acsomega.2c05660 |
+| R05962 | 2023 | SARS-CoV-2 | RPA; NR | NR | NR | NR | visual | Abstract | 10.1016/j.snb.2023.133531 |
+| R05970 | 2023 | piper yellow mottle virus | RPA; NR | black pepper and mealybug vectors | NR | NR | visual | Abstract | 10.1016/j.jviromet.2023.114695 |
+| R06117 | 2023 | hepatitis E virus | RPA; NR | 28 human, 360 rabbit samples | 1.0 x 10^2 copies/mL | compared with RT-qPCR | visual | Abstract | 10.1177/10406387231167119 |
+| R06246 | 2023 | monkeypox virus clades I and II | RPA; NR | NR | 1 copy/uL | no cross-reactivity with orthopox and herpes viruses | visual | Abstract | 10.1016/j.virs.2023.05.012 |
+| R06287 | 2023 | tomato chlorotic spot virus | RPA; NR | tomato plants | ~6 pg/uL total RNA | NR | visual | Abstract | 10.1186/s12985-023-02097-w |
+| R06312 | 2023 | SARS-CoV-2 (and Omicron BA.1) | RPA; NR | clinical samples | 10 copies/uL (both) | sens 100% (high/moderate VL), 83.3% (low VL); BA.1 assay 94.9/78/23.8/0% | visual | Abstract | 10.3390/v15061254 |
+| R06351 | 2023 | actinidia chlorotic ringspot-associated virus | RPA; NR | kiwifruit samples | 10^-8 ng (~20 viral copies) | equal to RT-qPCR; 100x RT-PCR | visual | Abstract | 10.1094/pdis-02-23-0270-sr |
+| R06383 | 2023 | genus Capripoxvirus | RPA; NR | 15 clinical samples | 10^2 (real-time), 10^1 (LFS) copies/reaction | LFS detected 15/15 vs real-time RPA 13/15 | visual (LFS) | Abstract | 10.1016/j.jviromet.2023.114788 |
+| R06470 | 2023 | duck Tembusu virus | RPA; NR | NR | 10 copies/uL (1000x RT-PCR) | no cross-reaction | visual | Abstract | 10.1016/j.jviromet.2023.114810 |
+| R06528 | 2023 | human cytomegalovirus IE1 | RPA; NR | maternal urine | NR | NR | visual | Abstract | 10.1016/j.virusres.2023.199229 |
+| R06552 | 2023 | cowpea mild mottle virus | RPA; NR | NR | 10 copies/uL (~100x RT-PCR gel) | NR | visual | Abstract | 10.5423/ppj.oa.02.2023.0033 |
+| R06631 | 2023 | monkeypox virus | RPA+OTHER; NR | pseudoviruses | HDA-LFT 9.86 copies/uL | spec >90% | visual | Abstract | 10.1186/s12985-023-02223-8 |
+| R06649 | 2023 | H7 avian influenza | RPA; NR | 132 clinical samples | 1 x 10^1 copies/uL (RT-qPCR same; RT-PCR 10^2) | kappa 0.9169 vs RT-PCR | visual | Abstract | 10.3389/fmicb.2023.1286713 |
+| R06700 | 2024 | anguillid herpesvirus 1 | RPA; NR | diseased samples | 10^2 copies | higher accuracy than conventional PCR | visual | Abstract | 10.1111/jfd.13907 |
+| R06717 | 2023 | porcine circovirus 2 | RPA; NR | 100 field samples | NR | vs PCR and qPCR | visual | Abstract | 10.14202/vetworld.2023.2313-2320 |
+| R06772 | 2024 | Epstein-Barr virus | RPA; NR | NR | 1 x 10^3 copies (RPA-LFA); 10^4 (PCR) | NR | visual | Abstract | 10.3390/v16010106 |
+| R06823 | 2024 | large yellow croaker iridovirus | RPA; NR | NR | 10^1 copies/uL (LFD); 10^2 (RPA) | no cross-reaction with aquatic pathogens | visual | Abstract | 10.1111/jfd.13930 |
+| R06834 | 2024 | mpox virus | RPA; NR | clinical samples | 10 copies/reaction | on par with qPCR | visual | Abstract | 10.1002/jmv.29469 |
+| R06881 | 2024 | canine distemper virus | RPA; NR | experimentally infected dogs | 10^1 TCID50/mL | detected CDV day 4 post-infection | visual | Abstract | 10.1292/jvms.23-0389 |
+| R06901 | 2024 | SARS-CoV-2 | RPA; NR | NR | 50 copies/reaction | NR | visual (LF) | Abstract | 10.1039/d3sd00246b |
+| R06967 | 2024 | BVDV, IBRV | RPA; NR | 32 clinical samples | 5.1 x 10^1 and 6.65 x 10^1 copies/uL | consistent with qPCR | visual | Abstract | 10.3389/fvets.2024.1360504 |
+| R07019 | 2024 | cyprinid herpesvirus 3 | RPA; NR | NR | 1.3 copies/reaction (real-time) | NR | visual | Abstract | 10.1111/jfd.13960 |
+| R07041 | 2024 | avian influenza H5, H7, H9 | RPA; NR | clinical samples | 10^2 copies/uL (LFD; 10-100x RT-PCR gel); 10^1 copies/uL (real-time) | coincidence >95% | visual | Abstract | 10.1186/s12917-024-04040-9 |
+| R07076 | 2024 | infectious myonecrosis virus | RPA; NR | NR | 10^1 copies/uL (nested RT-PCR 10^0; real-time RT-PCR 10^2) | NR | visual | Abstract | 10.1016/j.jip.2024.108143 |
+| R07219 | 2024 | soybean mosaic virus | RPA; NR | NR | NR | NR | visual | Abstract | 10.5423/ppj.oa.02.2024.0027 |
+| R07336 | 2024 | HPV16 | RPA; not reported | clinical samples | 230 copies/reaction | consistent with qPCR | visual | Abstract | 10.1039/d4ay01625d |
+| R07340 | 2024 | murine norovirus (HuNoV surrogate) | RPA; not reported | lettuce, raspberries | 200 PFU/mL; 170 and 230 PFU/g in foods | not reported | visual | Abstract | 10.1128/aem.01208-24 |
+| R07485 | 2024 | SARS-CoV-2 | RPA; not reported | NP clinical samples | not reported | 100% consistent with RT-qPCR | visual | Abstract | 10.3390/bios14120585 |
+| R07520 | 2025 | hepatitis E virus | RPA; not reported | serum, stool | LOD95 247 copies/uL (LFD); 25 (fluorescence) | not reported | visual | Abstract | 10.1128/jcm.01064-24 |
+| R07734 | 2025 | Zika, JEV | RPA; not reported | not reported | 8.5 copies ZIKV; 1.1 copies JEV; 110 copies JEV co-detection | not reported | visual | Abstract | 10.1016/j.talanta.2025.128195 |
+| R07788 | 2025 | DENV2 | RPA; not reported | serum, culture, FTA cards | LOD95 38.48 (Twista), 50.37 copies (LFD) | not reported | visual | Abstract | 10.3389/fcimb.2025.1578549 |
+| R07994 | 2025 | orthoflaviviruses | RPA; not reported | mosquito samples | 1e4 RNA copies confirmed | not reported | visual | Abstract | 10.7717/peerj.19820 |
+| R08160 | 2025 | Monkeypox virus DNA | RPA; RPA (freeze-dried) with FAM-biotin amplicon on a lateral flow strip in a closed device with heater; nucleic-acid release agent, no extraction | body-fluid samples (swabs, blood, skin); 81 patient and 40 healthy samples | 2.5 copies/reaction (plasmid); clinical samples 41 copies/mL lowest, mean 113.3 +/- 52.1 copies/mL (5.7 +/- 2.6 copies/reaction, 7 samples) (at least one order of magnitude more sensitive than RT-qPCR and ddPCR on serial dilutions of clinical samples) | 81 patient + 40 healthy vs RT-qPCR: 0 false positives (0%, CI 0-8.8%); positive agreement 95.47% (CI 92.86-98.08%) vs RT-qPCR 95.06%; abstract states 100% consistency | visual, 25 min (3 min on strip after 20 min RPA) | Full text † | 10.1186/s12916-025-04412-4 |
+| R08282 | 2026 | HAdV subtypes | RPA; not reported | 50 respiratory specimens | 10-100 copies/uL | complete agreement with qPCR | visual | Abstract | 10.1039/d5ay01439e |
+| R08516 | 2026 | MPXV | RPA; not reported | matrices | 14 copies | consistent detection at 45 copies | visual | Abstract | 10.1016/j.jviromet.2026.115405 |
+| R08641 | 2026 | RSV-A, RSV-B | RPA; not reported | not reported | 6.05e3 (RSV-A), 7.80e2 (RSV-B) copies/uL LFB | not reported | visual | Abstract | 10.3389/fcimb.2026.1838582 |
+| R08703 | 2026 | influenza B | RPA; not reported | not reported | 50 copies/mL | not reported | visual | Abstract | 10.3389/fmicb.2026.1856881 |
+| R08773 | 2026 | SFTSV | RPA; not reported | 96 clinical samples | 10 copies/uL | excellent vs qPCR (no values) | visual | Abstract | 10.3389/fmicb.2026.1934648 |
+
+### Table E1d. CRISPR-Cas detection with a strip readout (including RPA or LAMP preamplification)
+
+| Rec | Year | Target | Method / label | Matrix | LOD (as stated) | Diagnostic data (as stated) | Readout | Evidence | DOI |
+|---|---|---|---|---|---|---|---|---|---|
+| R02332 | 2018 | dengue, Zika RNA | CRISPR; NR | patient samples | 3.5-fold signal gain with Csm6 | NR | visual | Abstract | 10.1126/science.aaq0179 |
+| R02810 | 2019 | HPV16/18 DNA | CRISPR; NR | plasma, 14 cervical cancer patients | 0.24 fM (same as PCR) | HPV16 detected in 13/14; HPV18 in 3/10 | visual | Abstract | 10.1016/j.tranon.2019.08.011 |
+| R02863 | 2019 | WSSV | CRISPR; NR | shrimp | single copy | NR | visual | Abstract | 10.1038/s41598-019-56170-y |
+| R02895 | 2020 | ASFV | CRISPR; NR | 110 swine sera, 27 ASFV-positive | hundreds of copies | 100% accuracy vs RT-PCR | visual | Abstract | 10.1021/acsnano.0c00022 |
+| R02896 | 2020 | ASFV | CRISPR; NR | 149 clinical samples | 20 copies/reaction | 100% agreement with real-time PCR | visual | Abstract | 10.1038/s42003-020-0796-5 |
+| R02965 | 2020 | SARS-CoV-2 | CRISPR; NR | 36 COVID-19 + 42 other-virus patients | NR | PPA 95%, NPA 100% vs CDC RT-PCR | visual | Abstract | 10.1038/s41587-020-0513-4 |
+| R03190 | 2020 | Ebola virus, Lassa virus | CRISPR; NR | clinical samples | NR | NR | visual (LF) | Abstract | 10.1038/s41467-020-17994-9 |
+| R03215 | 2020 | SARS-CoV-2 | CRISPR; NR | 154 NP/throat swabs, Thailand | 42 RNA copies/reaction | LF readout sens 97%, spec 100%; fluorescence sens 100%, spec 100% | visual (LF) | Abstract | 10.1038/s41551-020-00603-x |
+| R03285 | 2020 | Epstein-Barr virus | CRISPR; NR | plasmid-spiked samples; Burkitt's lymphoma sera | 7.1 x 10^-14 M (~42,000 copies/uL) with PCR pre-amplification | NR | visual | Abstract | 10.1039/d0an00663g |
+| R03448 | 2021 | SARS-CoV-2 | CRISPR; not reported | 64 NP swabs | 100 RNA copies/reaction | NPA 100%, PPA 97.14% | visual | Abstract | 10.1002/anie.202014506 |
+| R03471 | 2020 | ASFV | CRISPR; NR | swine blood | 2.5 x 10^-15 M | identified ASFV in blood | visual | Abstract | 10.3390/bios10120203 |
+| R03522 | 2021 | ASFV | CRISPR+RPA; NR | clinical DNA samples | single copy | 100% coincidence | visual (LF) | Abstract | 10.1007/s12250-020-00323-1 |
+| R03602 | 2021 | SARS-CoV-2 | CRISPR; NR | 378 patient samples | higher analytical sensitivity than qRT-PCR | NR | NR | Abstract | 10.1093/infdis/jiaa641 |
+| R03704 | 2021 | SARS-CoV-2 sequences | CRISPR; not reported | synthetic | not reported | not reported | visual | Abstract | 10.3390/bioengineering8020023 |
+| R03783 | 2021 | SARS-CoV-2 | CRISPR; NR | saliva COVID-19 samples | ~200 copies (visual) | 97% positive agreement with RNA extraction | visual and smartphone | Abstract | 10.3389/fcimb.2021.632646 |
+| R03827 | 2021 | SARS-CoV-2 | CRISPR+RPA; NR | clinical samples | 2.5 copies/uL | no cross-reactivity with SARS-CoV-1 or MERS | visual | Abstract | 10.1021/acs.nanolett.1c00612 |
+| R03840 | 2021 | SARS-CoV-2 | CRISPR; NR | clinical samples | NR | sens 100%, spec 97% | visual | Abstract | 10.1016/j.bios.2021.113207 |
+| R03931 | 2021 | HPV | CRISPR; NR | 27 PCR-amplified patient samples | 0.1 amol (one copy/reaction) | sens 94.7%, spec 100% | fluorescence and LFA | Abstract | 10.1016/j.bios.2021.113292 |
+| R03999 | 2021 | hepatitis B virus | CRISPR; NR | 73 clinical samples | 1 copy/uL | sens 100%, spec 100% vs qPCR | visual (LF) | Abstract | 10.3390/ijms22094842 |
+| R04021 | 2021 | HPV | CRISPR; gold nanoparticle strip | clinical cervical scrapes | NR | validated on cervical scrapes (values NR) | visual | Abstract | 10.1016/j.bioactmat.2021.05.005 |
+| R04029 | 2021 | SARS-CoV-2 variants | CRISPR; NR | 37 wild-type + 22 mutant samples | NR | sens 87%, spec 97% vs sequencing | visual | Abstract | 10.7554/elife.67130 |
+| R04054 | 2021 | SARS-CoV-2 | CRISPR; NR | 649 blind clinical samples | 1 copy/uL | PPA 90.67%, NPA 99.21% | visual (easy-read strip) | Abstract | 10.1089/crispr.2020.0138 |
+| R04349 | 2021 | human metapneumovirus | CRISPR+RPA; NR | 28 clinical samples | 6.97 x 10^2 copies/mL | NR | visual (LF) | Abstract | 10.1016/j.virusres.2021.198568 |
+| R04390 | 2021 | norovirus GII.4 | CRISPR+RPA; NR | NR | 9.65 x 10^2 copies/mL | no cross-reactivity | visual (LF) | Abstract | 10.1016/j.virol.2021.09.008 |
+| R04399 | 2022 | scale drop disease virus | CRISPR+RPA; NR | NR | 40 copies/reaction | NR | visual | Abstract | 10.1111/jfd.13541 |
+| R04471 | 2021 | SARS-CoV-2 | CRISPR; NR | patient-derived samples | 45 copies/uL | 100% sensitivity | visual (LF) | Abstract | 10.1021/acssensors.1c01088 |
+| R04613 | 2022 | SARS-CoV-2 | CRISPR; NR | 86 NP swabs | 4 copies/uL | PPA 96%, NPA 100% | visual | Abstract | 10.1021/acssynbio.1c00499 |
+| R04696 | 2021 | SARS-CoV-2 | CRISPR+LAMP; NR | 60 NP samples | 1 copy/uL | sens 97.5% (S), 100% (N); spec 100% | visual (LFS) | Abstract | 10.3390/bios12010011 |
+| R04707 | 2022 | nucleic acids (general) | CRISPR; commercial pregnancy strip | NR | NR | NR | visual | Abstract | 10.1002/anie.202115907 |
+| R04831 | 2022 | ASFV genotype II | CRISPR; NR | 83 clinical samples | 10^1 copies/uL | 100% coincidence with real-time PCR | visual | Abstract | 10.3390/v14020179 |
+| R05161 | 2022 | SARS-CoV-2 variants | CRISPR; NR | nasopharyngeal samples | NR | sens 90.5%, spec 100% vs RT-qPCR | visual (LF) | Abstract | 10.1038/s41551-022-00889-z |
+| R05169 | 2022 | porcine parvovirus | CRISPR+RPA; NR | NR | 3.75 x 10^2 copies/uL | no cross-reactions | visual | Abstract | 10.3389/fcimb.2022.879887 |
+| R05178 | 2022 | SARS-CoV-2 | CRISPR+RPA; NR | NR | 0.68 fM (S gene), 4.16 fM (Orf1ab) | NR | visual (LFS) and fluorescence | Abstract | 10.1016/j.talanta.2022.123594 |
+| R05227 | 2022 | ASFV | CRISPR; NR | NR | 4 copies/uL (7.6 x 10^-4 ng/uL) | NR | visual (LFA) | Abstract | 10.1007/s00253-022-11999-8 |
+| R05270 | 2022 | TMV, TEV, PVX | CRISPR; NR | NR | NR | NR | visual | Abstract | 10.1021/acssynbio.2c00090 |
+| R05365 | 2022 | feline calicivirus | CRISPR+RPA; NR | clinical samples | 5.5 copies/uL | no cross-reaction | visual (LF likely; not clear) | Abstract | 10.3389/fvets.2022.913780 |
+| R05464 | 2022 | SARS-CoV-2 | CRISPR; NR | 52 positive, 101 negative samples | NR | vs RT-PCR (values NR in abstract) | visual | Abstract | 10.1002/jmv.28096 |
+| R05467 | 2022 | SARS-CoV-2 | CRISPR; NR | 76 NP swab samples | 10 copies/test (30 uL) | 76/76 accuracy | visual | Abstract | 10.1016/j.snb.2022.132537 |
+| R05472 | 2022 | SARS-CoV-2 | CRISPR+LAMP; NR | wastewater | 25 (N), 310 (E), 10 (S) copies/mL | sens 97.7%, semiquantitative accuracy 82% | visual (lateral flow) | Abstract | 10.1021/acs.est.2c04727 |
+| R05501 | 2022 | norovirus GII.4 | CRISPR; NR | NR | 5 copies/reaction | no cross-reaction | visual (strip arm) | Abstract | 10.3389/fmicb.2022.912315 |
+| R05523 | 2022 | norovirus GII.4, GII.17 | CRISPR+RPA; NR | clinical samples | 0.1 copies/uL | PPA 95.7% and 94.3%, NPA 100% | visual (LFS) | Abstract | 10.1186/s12985-022-01878-z |
+| R05565 | 2022 | PEDV wild-type vs vaccine strains | CRISPR; NR | clinical samples | 10^1 copies/uL | no cross-reactivity | visual | Abstract | 10.3389/fcimb.2022.976137 |
+| R05732 | 2023 | human rhinovirus A and C | CRISPR+RPA; NR | 80 clinical samples | 0.1 copy/uL (real-time or LFS) | PPA/NPA 96.7%, 100% | visual (LFS) | Abstract | 10.1016/j.virusres.2022.199001 |
+| R05797 | 2023 | DNA/RNA (virus in infected cells) | CRISPR; NR | simulated samples | 0.6 copies/uL (DNA, 60 min; RNA, 90 min) | NR | visual | Abstract | 10.1016/j.bios.2022.115002 |
+| R05853 | 2022 | oseltamivir-resistant influenza | CRISPR+RPA; NR | NR | ~20 copies/reaction (LFD) | NR | visual | Abstract | 10.3724/abbs.2022163 |
+| R05931 | 2023 | HBV DNA | CRISPR+RPA; NR | 180 HBV patients | 10^1 copies/uL | spec 100% | visual | Abstract | 10.1080/22221751.2023.2177088 |
+| R05933 | 2023 | HPV16 and 18 | CRISPR+RPA; NR | clinical samples | 1 x 10^-18 M amplified plasmids (LFD) | NR | fluorescence and LFD | Abstract | 10.1021/acs.analchem.2c04713 |
+| R05987 | 2023 | porcine circovirus 4 | CRISPR+RPA; NR | 15 clinical samples | NR | high accuracy | visual | Abstract | 10.3390/microorganisms11020354 |
+| R06020 | 2023 | SARS-CoV-2 | CRISPR+OTHER; NR | reference materials and clinical samples | 1.625 copies/reaction | spec 100% | visual | Abstract | 10.1016/j.bios.2023.115179 |
+| R06054 | 2023 | maize chlorotic mottle virus | CRISPR+RPA; NR | maize leaves | 2.5 copies CP gene; 0.96 pg total RNA | NR | visual | Abstract | 10.3389/fpls.2023.1088544 |
+| R06134 | 2023 | monkeypox virus | CRISPR+RPA; NR | NR | 10^1 copies/uL (fluorescence); 10^4 copies/uL (lateral flow) | NR | visual | Abstract | 10.1039/d2ay01998a |
+| R06175 | 2023 | SARS-CoV-2 | CRISPR; hCG strip | spiked samples | 1 copy/uL | 96.3% agreement with RT-qPCR | visual | Abstract | 10.1039/d3an00284e |
+| R06189 | 2023 | Nipah virus | CRISPR+RPA; NR | simulated clinical samples | 10^3 copies/uL synthetic cDNA | NR | visual | Abstract | 10.1016/j.virusres.2023.199130 |
+| R06472 | 2023 | SARS-CoV-2 ORF1ab and N | CRISPR; NR | 105 NP swabs | 200 copies/mL | PPV agreement 100%, NPV agreement 95.7% | visual | Abstract | 10.1002/jmv.29090 |
+| R06507 | 2023 | fowl adenovirus 4 | CRISPR+RPA; NR | clinical samples | 10^1 copies/uL | NR | visual | Abstract | 10.1080/03079457.2023.2254253 |
+| R06509 | 2023 | HIV-1 | CRISPR+RPA; NR | clinical samples | 1 copy/uL; 112 copies/mL lowest viral load | sens 91.81% (85.03-96.19) | visual (LF) and fluorescence | Abstract | 10.1186/s12879-023-08492-6 |
+| R06580 | 2023 | hepatitis D virus RNA | CRISPR+RPA; NR | 144 HDV-IgG+ patients | 10 copies/uL | as sensitive as RT-qPCR and RT-ddPCR | visual (LF) | Abstract | 10.1080/22221751.2023.2276337 |
+| R06582 | 2023 | avian influenza virus (H1-H16) | CRISPR; NR | clinical samples | 69 copies/uL (fluorescence); 690 copies/uL (lateral flow) | 100% consistency with qPCR | visual (LF) | Abstract | 10.3389/fmicb.2023.1288951 |
+| R06596 | 2023 | PMMoV, ToBRFV, ToMV, ToMMV | CRISPR+RPA; NR | NR | NR | NR | visual | Abstract | 10.1021/acs.jafc.3c05268 |
+| R06604 | 2024 | porcine circovirus-like virus | CRISPR+LAMP; NR | field samples | 10 copies | NR | visual (LFS) | Abstract | 10.1007/s00216-023-05020-y |
+| R06675 | 2023 | ASFV D117L | CRISPR; NR | 68 clinical samples | 2 gene copies | coincidence 100% vs qPCR | visual | Abstract | 10.3390/ani13233712 |
+| R06688 | 2023 | H5 avian influenza | CRISPR+RPA; NR | 380 clinical samples | 0.1 copy/uL | kappa 0.89 vs RT-qPCR | visual | Abstract | 10.3389/fmicb.2023.1283210 |
+| R06776 | 2023 | avian influenza virus | CRISPR+RPA; NR | clinical samples | 1 copy/uL (1000x PCR-gel) | NR | visual | Abstract | 10.3389/fvets.2023.1272612 |
+| R06889 | 2024 | measles virus | CRISPR+RPA; NR | 27 RT-PCR positive, 29 negative saliva | 31 RNA copies | sens 96% (81-99), spec 100% (88-100), accuracy 98% | visual | Abstract | 10.3390/diagnostics14050517 |
+| R06906 | 2024 | SARS-CoV-2 N gene | CRISPR+OTHER; not reported | synthetic | LFA mode 1 pM (fluorescence 53.1 fM, PGM 0.15 pM) | not reported | LFA mode among others | Abstract | 10.1016/j.talanta.2024.125922 |
+| R06944 | 2024 | ASFV (wild type vs variants) | CRISPR; NR | field clinical samples | NR | detected all positives in <60 min | visual | Abstract | 10.1016/j.isci.2024.109050 |
+| R06954 | 2024 | ASFV D117L | CRISPR+RPA; NR | 200 clinical samples | 2 gene copies | 100% coincidence with qPCR | visual | Abstract | 10.1016/j.vetmic.2024.110073 |
+| R06988 | 2024 | nucleic acid targets (and pathogens) | CRISPR+LAMP; NR | crude samples | 50 copies/uL | NR | visual | Abstract | 10.1016/j.bios.2024.116292 |
+| R06992 | 2024 | ASFV KP177R | CRISPR+RPA; NR | 10 clinical samples | 6.8 copies/uL | coincidence 100%, kappa 1.000 vs RT-qPCR | visual | Abstract | 10.3389/fimmu.2024.1358960 |
+| R07069 | 2024 | H5 avian influenza | CRISPR+RPA; NR | 81 clinical samples | 1.9 copies/uL (blue light); 1.9 x 10^3 copies/uL (LFS) | 80.70% positive detection rate | visual (LFS) | Abstract | 10.3390/v16050753 |
+| R07117 | 2024 | norovirus GII.2 | CRISPR+RPA; NR | 60 food-contaminated samples | 10 copies/uL | compared with qRT-PCR | visual | Abstract | 10.33073/pjm-2024-023 |
+| R07120 | 2024 | duck hepatitis A virus 3, novel duck reovirus | CRISPR+RPA; NR | clinical samples | 10^0 copy/uL (fluorescence); 10^1 copies/uL (LFA) | consistent with qPCR | visual (LFA) | Abstract | 10.1016/j.ijbiomac.2024.133246 |
+| R07166 | 2024 | tick-borne encephalitis virus | CRISPR+RPA; NR | 15 patients, 10 healthy volunteers | 50 CFU/mL (as stated) | sens 100%, spec 100% vs RT-qPCR | visual | Abstract | 10.1016/j.ijbiomac.2024.133720 |
+| R07196 | 2024 | Japanese encephalitis virus (swine) | CRISPR+RPA; NR | clinical and vector samples | 2 copies | 100% concordance with real-time PCR | visual (LF) and fluorescence | Abstract | 10.1016/j.ijbiomac.2024.134151 |
+| R07201 | 2024 | avian leukosis virus A/B/J | CRISPR+RPA; NR | proviral DNA | 50 copies | no cross-reactivity with ALV-C/D/E, REV, MDV | visual | Abstract | 10.3390/v16071168 |
+| R07202 | 2024 | pseudorabies virus | CRISPR+RPA; NR | 50 pig samples | 1 copy/uL | 34% (17/50) positive | visual (LF) and fluorescence | Abstract | 10.1016/j.aca.2024.342918 |
+| R07238 | 2024 | SARS-CoV-2 | CRISPR+LAMP; not reported | not reported | 6.2e2 copies/mL | not reported | visual | Abstract | 10.1039/d4ay00757c |
+| R07241 | 2024 | SARS-CoV-2 | CRISPR; not reported | not reported | 1 aM | not reported | visual | Abstract | 10.1021/acs.analchem.4c02726 |
+| R07324 | 2024 | influenza A | CRISPR; not reported | 82 clinical samples | 10 copies/uL | kappa 0.95 vs fluorescent PCR | visual | Abstract | 10.46234/ccdcw2024.198 |
+| R07425 | 2025 | human adenovirus | CRISPR; not reported | 167 pediatric samples | not reported | 99.4% concordance with qPCR | visual | Abstract | 10.1016/j.bios.2024.116918 |
+| R07530 | 2025 | SARS-CoV-2 | CRISPR; not reported | 20 clinical samples | 0.05 copies/uL | 100% sens and spec | visual | Abstract | 10.1021/acssynbio.4c00605 |
+| R07537 | 2025 | HBV | CRISPR+RPA; not reported | 71 clinical samples | 100 copies/uL | sens 94.23%, spec 100%, kappa 0.90 vs qPCR | visual | Abstract | 10.1039/d4ay02079k |
+| R07712 | 2025 | SARS-CoV-2, H1N1 | CRISPR+OTHER; not reported | clinical samples (SARS-CoV-2) | 1-10 copies/uL | not reported in abstract | visual | Abstract | 10.1021/acsabm.5c00307 |
+| R07829 | 2025 | SARS-CoV-2, H3N2 | CRISPR; not reported | 9 SARS-CoV-2, 9 H3N2 positives | not reported | not reported | visual | Abstract | 10.1186/s12985-025-02765-z |
+| R07872 | 2025 | Lassa virus | CRISPR+RPA; not reported | not reported | 1e2 copies/uL (strip); 1e1 (fluorescence) | not reported | visual | Abstract | 10.1038/s41598-025-07071-w |
+| R08232 | 2026 | chikungunya virus | CRISPR+RPA; not reported | 146 plasma samples | 215 copies/reaction | LF sens 94.52%, spec 100%; fluorescence 97.26%, 100% | visual | Abstract | 10.1128/spectrum.02298-25 |
+| R08311 | 2026 | measles virus | CRISPR+LAMP; not reported | patient samples | ~1e4 copies (LF); ~1e5 (fluorescence) | not reported | visual | Abstract | 10.1016/j.aca.2026.345081 |
+| R08420 | 2026 | HBV pgRNA | CRISPR; AuNP | chronic HBV patients | 10 copies/reaction | not reported | visual | Abstract | 10.1186/s12866-026-04900-4 |
+| R08451 | 2026 | hMPV | CRISPR+RPA; not reported | 106 clinical samples | 1 copy/uL | vs RT-qPCR (not in abstract) | visual | Abstract | 10.1002/jmv.70921 |
+| R08465 | 2026 | HPV16/18 | CRISPR; not reported | n/a | n/a | assay failed from excess biotin | visual | Abstract | 10.1038/s41598-026-44828-3 |
+| R08502 | 2026 | yellow fever virus | CRISPR+RPA; not reported | spiked serum | 1 copy/uL; 100 PFU/mL (serum) | not reported | visual | Abstract | 10.1016/j.bsheal.2026.03.001 |
+| R08565 | 2026 | EBV | CRISPR; not reported | not reported | 1e4 copies/reaction (strip); 10 (fluorescence) | not reported | visual | Abstract | 10.3389/fmicb.2026.1850310 |
+| R08607 | 2026 | SFTSV | CRISPR; not reported | 40 clinical sera | 2.5 copies/uL | sens 100%, spec 100% | visual | Abstract | 10.4014/jmb.2603.03014 |
+
+### Table E1e. Other isothermal, amplification-free and unclassified nucleic-acid strips
+
+| Rec | Year | Target | Method / label | Matrix | LOD (as stated) | Diagnostic data (as stated) | Readout | Evidence | DOI |
+|---|---|---|---|---|---|---|---|---|---|
+| R01702 | 2015 | influenza A (H1N1) | UNSPEC; NR | clinical specimens | 10^6 copies/mL | NR | visual | Abstract | 10.1021/acs.analchem.5b01594 |
+| R01760 | 2015 | RGNNV (grouper nervous necrosis virus) | OTHER; NR | fish samples | 10^1 copies/uL RNA (10x below RT-PCR) | NR | visual | Abstract | 10.1186/s12985-015-0374-5 |
+| R01893 | 2016 | PEDV | OTHER; NR | NR | 10^-6 dilution of plasmid (same as PCR) | NR | visual | Abstract | 10.1038/srep24702 |
+| R02265 | 2017 | prunus necrotic ringspot virus | OTHER; NR | plant samples | 72 copies/reaction | no cross-reaction with Prunus viruses/viroids | visual | Abstract | 10.1038/s41598-017-16536-6 |
+| R02275 | 2018 | HIV-1 drug resistance mutations | UNSPEC; NR | synthetic DNA mixtures | 200 mutant copies in 800 wild type | sens 100%, spec 100% | visual | Abstract | 10.1016/j.ab.2017.12.008 |
+| R02836 | 2019 | HIV drug resistance | UNSPEC; NR | clinical specimens | NR | spec 99.6%, sens 98.2% vs Sanger | visual | Abstract | 10.1016/j.ebiom.2019.11.002 |
+| R02933 | 2020 | HIV-1 drug resistance | UNSPEC; NR | Mexican cohort | NR | high sens/accuracy vs MiSeq | visual | Abstract | 10.1097/qad.0000000000002524 |
+| R03074 | 2020 | BK polyomavirus | UNSPEC; NR | E. coli BKV plasmid cultures | 5 nM synthetic ssDNA; 10^7 copies/mL | no cross-reactivity with JC virus, SV40 | visual | Abstract | 10.3390/diagnostics10060403 |
+| R03383 | 2020 | hemorrhagic fever viruses (4) | UNSPEC; gold nanoparticles | NR | 10 fM | NR | visual | Abstract | 10.1039/d0ay01137a |
+| R03560 | 2021 | H1N1 RNA, nucleic acids | UNSPEC; NR | NR | 1.43 pM (target DNA), 2.02 pM (H1N1 RNA) | NR | visual | Abstract | 10.1039/d0an02273j |
+| R03573 | 2020 | HBV | UNSPEC; gold nanoparticles | 82 blood samples | 5.4 copies/mL (10x better than qPCR and LAMP) | 29/82 ELISA-positives all detected | visual | Abstract | 10.3389/fmolb.2020.578892 |
+| R03637 | 2021 | SARS-CoV-2 | OTHER; NR | NR | <50 RNA copies/reaction (95% LOD) | NR | visual | Abstract | 10.1126/sciadv.abe5054 |
+| R03777 | 2021 | HBV | UNSPEC; polymer nanoparticles | donor sera | NR | NR | visual | Abstract | 10.2147/idr.s297645 |
+| R03823 | 2021 | SARS-CoV-2 nucleic acid | UNSPEC; NR | 15 patients, 15 healthy | 2000 copies/mL | 100% PPA and NPA | visual | Abstract | 10.1016/j.snb.2021.129899 |
+| R03906 | 2021 | HIV-1 drug resistance mutations | UNSPEC; NR | 16 plasma samples | 100 plasmid copies | more sensitive than Sanger | visual | Abstract | 10.1016/j.talanta.2021.122378 |
+| R03973 | 2021 | scale drop disease virus | OTHER; NR | 25 infected fish | 100 viral copies/uL; 10 pg total DNA (10x below PCR) | all 25 positives detected | visual | Abstract | 10.1111/jfd.13448 |
+| R04035 | 2021 | SARS-CoV-2 | UNSPEC; NR | COVID-19 clinical samples | <=20 aM (~10 copies/uL) | perfect accuracy on clinical samples | fluorescence and lateral flow | Abstract | 10.1021/jacs.1c02664 |
+| R04269 | 2021 | SARS-CoV-2 | UNSPEC; commercial pregnancy strip (gold) | authentic samples | NR | NR | visual | Abstract | 10.1021/acs.analchem.1c01829 |
+| R04495 | 2021 | SARS-CoV-2 | UNSPEC; NR | clinical samples | 49.5 copies/mL (ORF1ab), 48.8 (N) | kappa 1.00 vs qPCR | visual | Abstract | 10.3389/fcimb.2021.678703 |
+| R04600 | 2022 | HIV-1 DNA viral load | UNSPEC; NR | NR | distinguishes <=600 or >=1400 copies at 1000-copy threshold | NR | scanner and densitometry | Abstract | 10.1021/acs.analchem.1c03960 |
+| R04603 | 2021 | HBV | UNSPEC; NR | 45 clinical samples | 10 pg | NR | visual | Abstract | 10.3389/fmolb.2021.763079 |
+| R04629 | 2022 | SARS-CoV-2 | UNSPEC; cysteamine-capped AuNPs | 60 clinical samples | NR | accuracy and spec ~99.99% vs TaqPath | visual | Abstract | 10.1016/j.bios.2021.113900 |
+| R04675 | 2022 | bean pod mottle virus | OTHER; NR | soybean seeds | NR (less sensitive than TaqMan RT-PCR) | better in field samples | visual | Abstract | 10.1038/s41598-021-03562-8 |
+| R04808 | 2022 | HBV | UNSPEC; NR | NR | NR | NR | visual | Abstract | 10.1021/acs.analchem.1c05039 |
+| R05023 | 2022 | SARS-CoV-2 | UNSPEC; NR | clinical specimens | 6 copies/uL | NR | visual | Abstract | 10.1099/jmm.0.001519 |
+| R05061 | 2022 | influenza virus | UNSPEC; NR | NR | NR | NR | visual | Abstract | 10.1007/s00216-022-04090-8 |
+| R05095 | 2022 | influenza A/B, RSV | UNSPEC; NR | NR | 1 pM (flu A, B), 5 pM (RSV) | NR | visual | Abstract | 10.1021/acsomega.2c00882 |
+| R05189 | 2022 | dengue virus (DENV) DNA | OTHER; NR | synthetic 105-nt DENV target | nanomolar range | NR | visual | Abstract | 10.1016/j.talanta.2022.123588 |
+| R05375 | 2022 | SARS-CoV-2 mutations | UNSPEC; NR | 113 positive RNA extracts (Ct<30) | NR | performance comparable to RT-qPCR | visual | Abstract | 10.3389/fcimb.2022.902914 |
+| R05504 | 2022 | SARS-CoV-2 | UNSPEC; NR | blinded experiment | 0.5 copies/uL | accuracy comparable to qPCR | visual | Abstract | 10.1016/j.biosx.2022.100248 |
+| R05714 | 2022 | SARS-CoV-2 | UNSPEC; NR | NP swabs | NR | high specificity, detectability, repeatability | visual and quantitative | Abstract | 10.3390/bios12110926 |
+| R05858 | 2023 | monkeypox virus | UNSPEC; nanoparticles | pseudotyped virus in blood | 5 copies/reaction (plasmid); 12.5 copies (pseudovirus in blood) | no cross-reaction | visual | Abstract | 10.1002/jmv.28479 |
+| R05896 | 2022 | bovine coronavirus | UNSPEC; NR | 192 cattle samples | NR | kappa 0.982 vs RT-qPCR | visual | Abstract | 10.3389/fvets.2022.1059934 |
+| R06036 | 2023 | SARS-CoV-2 RNA | UNSPEC; gold nanoparticles | clinical samples | 10 copies/uL | sens 96.6%, spec 100% vs RT-qPCR | visual | Abstract | 10.1093/pnasnexus/pgad031 |
+| R06076 | 2023 | coxsackievirus A16 | UNSPEC; nanoparticles | 220 clinical samples | <40 copies | 46/220 positives all identified | visual | Abstract | 10.3389/fmicb.2023.1121930 |
+| R06085 | 2023 | SARS-CoV-2 | UNSPEC; not reported | 389 NP swabs | not reported | sens 95.05%, spec 99.03% vs Allplex | visual | Abstract | 10.3390/diagnostics13061118 |
+| R06111 | 2023 | Macrobrachium rosenbergii nodavirus | OTHER; NR | NR | 1.0 fg | NR | visual | Abstract | 10.1016/j.jip.2023.107921 |
+| R06282 | 2023 | HPV16, HPV18 | UNSPEC; NR | synthetic and clinical samples | 1000 DNA copies/test | NR | visual | Abstract | 10.1126/scitranslmed.abn4768 |
+| R06328 | 2023 | influenza A | UNSPEC; colloidal gold | clinical samples | NR | sens 81.8% (35 C), 74% (25 C) | visual | Abstract | 10.1016/j.talanta.2023.124855 |
+| R06348 | 2023 | SARS-CoV-2 RdRp/Orf1ab | OTHER; not reported | synthetic and clinical | not reported | 100% sens and spec | visual | Abstract | 10.1016/j.jviromet.2023.114774 |
+| R06349 | 2023 | SARS-CoV-2 RNA | UNSPEC; gold nanoparticles | NR | comparable to RT-qPCR with upstream amplification | NR | visual | Abstract | 10.1021/acs.analchem.3c02019 |
+| R06463 | 2023 | SFTSV | UNSPEC; NR | clinical serum | NR | compatible with RT-PCR | visual | Abstract | 10.1128/spectrum.02144-23 |
+| R06474 | 2023 | SARS-CoV-2 (and SNPs) | UNSPEC; NR | clinical samples | 2 copies/uL | NR | visual | Abstract | 10.1021/acs.analchem.3c01809 |
+| R06505 | 2023 | respiratory viruses | UNSPEC; NR | NR | NR | NR | visual | Abstract | 10.1016/j.mex.2023.102372 |
+| R06560 | 2023 | chicken chaphamaparvovirus | UNSPEC; NR | clinical samples | 21.3 copies (100x nested PCR) | NR | visual | Abstract | 10.1016/j.psj.2023.103144 |
+| R06583 | 2023 | Epstein-Barr virus | UNSPEC; gold nanoparticles | whole blood | 10 copies/reaction | NR | visual | Abstract | 10.3389/fmicb.2023.1268572 |
+| R06625 | 2023 | HPV16, 18, 45 | UNSPEC; NR | HPV-positive cell DNA | 50-500 copies/reaction | NR | visual (LF) | Abstract | 10.1038/s41598-023-47582-y |
+| R06775 | 2023 | Epstein-Barr virus | UNSPEC; nanoparticles | 49 clinical plasma samples | 7 copies/reaction | spec 100% | visual | Abstract | 10.3389/fcimb.2023.1321394 |
+| R06846 | 2024 | respiratory RNA viruses | OTHER; NR | NR | 20 copies/uL | NR | visual | Abstract | 10.3390/bios14020103 |
+| R06865 | 2024 | hepatitis C virus | UNSPEC; gold nanoparticles | NR | 10 copies/test | spec 100% | visual | Abstract | 10.1002/jmv.29481 |
+| R06921 | 2024 | SARS-CoV-2, PMMoV | UNSPEC; NR | wastewater | 100 (heat-inactivated virus; unit truncated) | NR | visual | Abstract | 10.3390/bios14030115 |
+| R07026 | 2024 | SARS-CoV-2 gene segment | OTHER; NR | NR | 10 fM (6.02 x 10^3 copies/mL) and 1 fM (6.02 x 10^2 copies/mL) | NR | visual (and second mode) | Abstract | 10.1039/d4ay00074a |
+| R07027 | 2024 | SARS-CoV-2 | UNSPEC; NR | 20 clinical samples | 25 RNA copies/reaction (1 copy/uL) | sens 100%, spec 100% (n=20) | visual | Abstract | 10.1371/journal.pone.0301234 |
+| R07066 | 2024 | duck hepatitis B virus | UNSPEC; NR | clinical sera | 45.6 copies/reaction (~10x PCR) | NR | visual | Abstract | 10.3390/vetsci11050191 |
+| R07127 | 2024 | co-existing viral RNA fragments | UNSPEC; NR | NR | NR | NR | visual | Abstract | 10.1016/j.bios.2024.116519 |
+| R07213 | 2024 | human cytomegalovirus | UNSPEC; NR | breast milk | 50 copies/uL | compared with qPCR | visual | Abstract | 10.3389/fcimb.2024.1430302 |
+| R07226 | 2024 | chikungunya virus | UNSPEC; NR | 21 patient plasma samples | 1 copy/uL (100x RT-MIRA; 10x RT-qPCR) | detection 85.7% (18/21) vs RT-qPCR 80.9% (17/21) | visual | Abstract | 10.1128/jcm.00383-24 |
+| R07233 | 2024 | infectious hematopoietic necrosis virus | OTHER; NR | fish samples | NR | validated (values NR) | visual | Abstract | 10.1016/j.jviromet.2024.115008 |
+| R07388 | 2024 | SARS-CoV-2 variants | UNSPEC; not reported | patient samples | not reported | not reported | visual | Abstract | 10.3389/fmicb.2024.1459644 |
+| R07406 | 2024 | enterovirus A71 | UNSPEC; not reported | 125 anal swabs | 40 copies plasmid; 50 copies pseudovirus | 30 positive, concordant with RT-qPCR | visual | Abstract | 10.1002/jmv.70059 |
+| R07588 | 2025 | H1N1 | UNSPEC; not reported | not reported | 10 pM visual | not reported | visual | Abstract | 10.1007/s00604-025-07031-1 |
+| R07688 | 2025 | H1N1 | UNSPEC; not reported | not reported | 829 fM | not reported | visual | Abstract | 10.1016/j.enzmictec.2025.110653 |
+| R07697 | 2025 | HBV, HCV | UNSPEC; AuNP | not reported | 10 copies/test | not reported | visual | Abstract | 10.1128/spectrum.01738-24 |
+| R07709 | 2025 | influenza A H1N1/H3N2 | UNSPEC; not reported | 16 H1N1 patients, 12 controls | aM sensitivity | discriminated infected from non-infected | visual | Abstract | 10.1002/cbic.202500216 |
+| R07825 | 2025 | HTLV-1 proviral DNA | UNSPEC; not reported | 500 clinical samples | not reported | vs qPCR, values not in abstract | visual | Abstract | 10.1186/s12967-025-06642-9 |
+| R07905 | 2025 | hepatitis A virus | OTHER; hCG strip | not reported | 3.2 fM | not reported | visual | Abstract | 10.1016/j.aca.2025.344357 |
+| R07930 | 2025 | H1N1, H3N2, H7N9 | UNSPEC; not reported | not reported | more sensitive than RT-PCR (no value) | not reported | visual | Abstract | 10.1016/j.jviromet.2025.115235 |
+| R08086 | 2025 | SARS-CoV-2 N gene | UNSPEC; AuNP | not reported | not reported in abstract | not reported | visual | Abstract | 10.1590/1414-431x2025e14761 |
+| R08230 | 2026 | HBV pgRNA | UNSPEC; AuNP | serum | 50 copies/mL | not reported | visual | Abstract | 10.1128/spectrum.01918-25 |
+| R08324 | 2026 | H1N1 | UNSPEC; not reported | not reported | 1 pM; 100x vs conventional LFA | not reported | visual | Abstract | 10.1016/j.biochi.2026.01.006 |
+| R08332 | 2026 | coxsackievirus A6 | UNSPEC; AuNP | 70 anal, 42 throat swabs | 33 copies/reaction | 100% concordance with qRT-PCR | visual | Abstract | 10.1021/acsinfecdis.5c01056 |
+| R08372 | 2026 | mpox clades | UNSPEC; AuNP | not reported | 1e2 copies/uL | not reported | visual | Abstract | 10.1039/d5cc06114h |
+| R08414 | 2026 | influenza A/B, Mycoplasma | UNSPEC; AuNP | pediatric | not reported | agreement moderate for influenza | visual | Abstract | 10.3389/fped.2026.1741420 |
+| R08456 | 2026 | norovirus | UNSPEC; AuNP | 55 faecal specimens | 10 pM (gold); 100 fM (fluorescence) | CHA-GICA sens 73.3%, spec 100%; CHA-FICA 86.7%, 100% | visual | Abstract | 10.1021/acsomega.6c00618 |
+| R08658 | 2026 | CHIKV | UNSPEC; AuNP / time-resolved fluorescence | 100 spiked sera | 1 pM (CHA-GICA); 100 fM (CHA-TRFIA) | CHA-GICA sens 92%, AUC 0.984; TRFIA 94%; spec 100% | visual / fluorescence | Abstract | 10.1016/j.aca.2026.345818 |
+| R08709 | 2026 | SARS-CoV-2 RNA | OTHER; not reported | clinical saliva | 500 aM | accuracy 95-100% | visual | Abstract | 10.1002/anie.3766984 |
+
+### Table E2. Strategy overview for nucleic-acid amplification with a strip readout
+
+| Method | What it adds | Examples | Costs and limits seen | Table |
+|---|---|---|---|---|
+| PCR, RT-PCR | established amplification | multiplex dipsticks for hepatitis, influenza, HPV, fish viruses | thermocycler | E1a |
+| LAMP | single-temperature amplification | influenza, Ebola, Zika, HIV, animal viruses | complex primer sets; amplicon contamination | E1b |
+| RPA, RAA | amplification at 37-42 C, often equipment-free | livestock, poultry, fish, plant and human viruses | amplicon contamination in open designs | E1c |
+| CRISPR-Cas | sequence-specific detection, often after RPA or LAMP | African swine fever, SARS-CoV-2, Ebola, Lassa, HBV | extra reaction step; fluorescence often used alongside the strip | E1d |
+| Other and amplification-free | alternative isothermal chemistries and probes | NASBA, CPA, rolling circle, XNAzyme, drug-resistance tests | fewer clinical data | E1e |
+| Integrated or one-pot devices | fewer user steps | closed RPA-strip device, microfluidic, paper devices | few devices tested at scale | E1b-E1e |
+
+### Table E3. Reporting checklist for papers read in full (descriptive, not scored)
+
+Items: (a) real samples; (b) n stated; (c) reference method; (d) LOD definition; (e) cross-reactivity tested by the authors; (f) replicates or reproducibility; (g) comparator run in the same study; (h) stability tested. Y = yes, N = no, P = partly, NR = not reported. All other papers in Tables E1a-e have not been assessed (abstract only).
+
+| Rec | DOI | (a) | (b) | (c) | (d) | (e) | (f) | (g) | (h) |
+|---|---|---|---|---|---|---|---|---|---|
+| R08160 | 10.1186/s12916-025-04412-4 | Y (patient body-fluid samples) | Y (81 + 40; 37 for LFA-RPA assay) | Y (RT-qPCR, ddPCR) | P (lowest positive dilution) | Y (5 bacteria and 4 viruses with similar symptoms) | Y (three repeats of each sample) | Y (RT-qPCR, ddPCR) | P (freeze-dried reagents stated; shelf life not tested in text) |
+
+## Items still to verify before this section is final
+1. Classification into groups is by keywords in the title, tags and chart fields; the 77 records classed as unspecified were not all read individually and may belong to PCR, LAMP, RPA or CRISPR groups.
+2. R08160 (DOI: 10.1186/s12916-025-04412-4): the abstract claims 100% consistency with RT-qPCR; the results give 95.47% positive agreement. The text calls the strip gold-nanoparticle based but describes red latex streptavidin labels at the test line.
+3. Only one paper of this section has been read in full; the key papers R07712, R07530, R08709, R06676, R08607, R07843, R07512 are abstract-only (some are open access and can be read).
+4. Record IDs in the tables will be replaced by numbered citations when the reference list is built.
+
+---
+
+# Part F (working text v1): smartphone, reader and AI-assisted reading
+
+Working text, 2026-11-05. Each study is described by its design, what is new and its main result; numerical detail is in the tables. † = read in full; all other rows abstract only (NR = not reported in the abstract). Every DOI cited in the text appears in a table and in the evidence table.
+
+# 3.6 Smartphone, reader and AI-assisted reading
+
+## 3.6.0 Why the reading step needs engineering, and how this section is organised
+
+A conventional strip is read by eye, which is quick but subjective. Weak lines are the main source of disagreement: in the HIV field study discussed below, visual agreement between five readers ranged from 61% to 100% depending on test type and training (DOI: 10.1038/s41591-021-01384-9). Reading technology tries to remove that subjectivity and, for serology and antigen strips, to turn a line into a number. The studies in this section leave the strip itself largely unchanged and add an instrument, a smartphone or an algorithm to the reading step.
+
+The section moves from the simplest to the most complex intervention. Dedicated readers and spectrometers come first (3.6.1), then readers that read something other than the visible colour of the line (3.6.2). Smartphone-based quantification follows (3.6.3), then machine-learning interpretation of strip images (3.6.4), and finally studies that use the timing of line appearance as a signal (3.6.5). Section 3.6.6 states what the evidence supports. Numerical details are in Tables F1a-F1d. Papers read in full are marked † in the tables; all other statements rest on abstracts. The section covers 55 included records, all from 2015-2026. Many studies apply readers or algorithms to commercial strips; they are retained when the reading technology itself is the contribution.
+
+## 3.6.1 Dedicated readers and spectrometers
+
+Studies in HIV testing evaluated handheld and portable readers on commercial rapid tests. The Fio Deki reader gave a sensitivity of 99.5% and specificity of 99.4% for one HIV test version and 100% sensitivity for another in laboratory and field settings in South Africa (DOI: 10.1186/s12879-020-4932-0). A smartphone e-reader read dual HIV and syphilis rapid tests in men who have sex with men and transgender women, with HIV sensitivity of 98% (DOI: 10.1136/sextrans-2017-053511). Two HIV antibody tests were compared visually and with the ALTA reader (DOI: 10.1016/j.ijmmb.2022.05.011), and a microfluidic cassette with a handheld optical reader targeted HIV in urine (DOI: 10.1007/s10544-020-00494-4).
+
+The SARS-CoV-2 pandemic generated a cluster of reader studies for antibody and neutralising-antibody strips. A point-of-care system reading nucleocapsid and spike IgG/IgM agreed with a chemiluminescence immunoassay with a kappa of 0.804 on 108 suspicious samples (DOI: 10.1016/j.snb.2020.129415). A spectrochip-coupled quantitative strip gave a limit of 186 pg/mL for spiked recombinant IgG, and a newly designed spectrometer was built for SARS-CoV-2 immunoglobulin strips (DOI: 10.3390/mi12030321; DOI: 10.1371/journal.pone.0254486). A commercial strip with a spectrum-based reader classified neutralising-antibody status in 30 patients and 16 vaccinees with an AUC of 0.989 (DOI: 10.3390/vaccines10020271), and similar kits with spectrometers, the TestNOW system with the RapiRead reader, the ichroma semiquantitative strip and a spectrophotometric reader were tested on 69 to 274 sera against neutralisation assays or ELISA (DOI: 10.12659/msm.935812; DOI: 10.1007/s00705-022-05422-w; DOI: 10.1016/j.jcv.2022.105268; DOI: 10.3390/life14070791; DOI: 10.1038/s41598-025-90730-9; DOI: 10.3390/bios12100891; DOI: 10.20411/pai.v11i1.910). A POCT with a traceable RBD-IgG calibrator linked strip results to international units in 37 vaccinated people (DOI: 10.1007/s00604-023-06004-6). For animal viruses, an ASFV antigen strip with an iaX reader reached 100% sensitivity and 91% specificity on serum (DOI: 10.1016/j.jviromet.2026.115424), and a centrifugal chip combined a nanozyme ELISA-like assay with strip reading, giving a 2.5-fold lower LOD than visual reading (DOI: 10.1039/d5an00237k).
+
+## 3.6.2 Readers that look at more than the colour
+
+Another group of studies reads the same gold-labelled strip with a different physical principle. Thermal-contrast amplification heats the gold particles with a laser and measures the temperature rise; it improved sensitivity on a commercial influenza strip against PCR and detected HIV p24 at 8 pg/mL in spiked serum (DOI: 10.3390/diagnostics11030462; DOI: 10.1038/s41378-020-0168-9). A thermometric strip with coloured latex beads detected 1 x 10^5 particles/mm2, which the abstract states is ten times better than the reference method (DOI: 10.1038/s41598-022-07963-1), and two handheld thermo-photonic readers measured antibody titers in ICU patients or in RBD IgG standards (DOI: 10.1109/jsen.2021.3089016; DOI: 10.3390/biomedicines10061424). A photon-counting readout increased the sensitivity of a SARS-CoV-2 antibody strip (DOI: 10.1063/5.0021842). A portable SERS reader read commercial colorimetric strips and classified 54 clinical samples (49 positive, 5 negative) (DOI: 10.1021/acssensors.2c01808), and two studies used desktop scanning electron microscopy to read gold/platinum particle strips for influenza A and SARS-CoV-2, with sensitivities of 94% and 86.7% against visual results (DOI: 10.1016/j.jpba.2021.113924; DOI: 10.3390/biomedicines10020447). These approaches raise sensitivity but give up the colorimetric, equipment-free reading, so they are retained here as boundary cases and their readouts are flagged in the tables.
+
+## 3.6.3 Smartphone-based quantification
+
+A smartphone replaces a dedicated reader with a camera and software. A smartphone reader and app quantified Ebola virus IgG and distinguished 15 survivors from controls with a glycoprotein assay of sensitivity 100% and specificity 98% against ELISA (DOI: 10.1021/acsnano.7b07021). A smartphone add-on and app measured nucleic-acid lateral flow assays with predicted-versus-true concentration of R2 = 0.96 (DOI: 10.1002/elps.201800449), and a smartphone quantification method for antibody strips was applied to 800 serum samples (DOI: 10.1016/j.diagmicrobio.2023.116166). A paper analytical device with a smartphone app read dengue NS1 from clinical samples (DOI: 10.3791/66130). Low-cost hardware appears in a Raspberry Pi reader for nucleic-acid lateral flow assays with spiked-sample recoveries of 84-108% (DOI: 10.3390/s26020598) and an open-source fluid handler for automating strips for dengue and ASFV (DOI: 10.1371/journal.pgph.0002625).
+
+## 3.6.4 Machine-learning interpretation of strip images
+
+The most active area uses algorithms to decide whether a strip is positive, often from an image taken by the user.
+
+A field-scale example read in full is the deep-learning classifier for HIV rapid tests in rural South Africa (DOI: 10.1038/s41591-021-01384-9). Sixty fieldworkers took 11,374 photographs of two HIV test types with a tablet, a MobileNetV2 network was trained to classify them as positive or negative, and in a pilot with five readers (two nurses, three community health workers) on 190 tests the algorithm gave a sensitivity of 97.8% and a specificity of 100%, against 95.6% and 89% for visual reading, with 0 false positives against 11 by eye (DOI: 10.1038/s41591-021-01384-9). The authors note the limits: five participants, no invalid-result class, and processing on a server (DOI: 10.1038/s41591-021-01384-9). It shows what the approach offers, namely objective, repeatable reading and a record of the result, and what it still lacks (Table F3).
+
+Most other studies target SARS-CoV-2 tests. AI interpretation was developed for serological rapid tests, for home antibody tests (the ALFA machine-learning system reached kappa 0.90-0.97 against experts) and for antigen tests (the LFAIR system reported sensitivity 86.2% and specificity 94.3% against same-day RT-PCR, and a machine-learning system for lateral flow devices reported a sensitivity of 92.08% to 97.6% in asymptomatic people, with a much lower figure for self-reading) (DOI: 10.1073/pnas.2019893118; DOI: 10.1038/s43856-022-00146-z; DOI: 10.1016/j.diagmicrobio.2022.115763; DOI: 10.1016/j.xcrm.2022.100784). A smartphone AI reader of antibody rapid tests reported IgG-band sensitivity of 100% and specificity of 94.4% (DOI: 10.2196/38533). Algorithmic work includes a lightweight YOLOv5 detector, a deep-learning smartphone LFA, automated interpretation across point-of-care diagnostics, the SCAISY smartphone AI quantification of IgG and CNN and StyleGAN2 classification of images (DOI: 10.1016/j.displa.2023.102403; DOI: 10.1038/s41467-023-38104-5; DOI: 10.1038/s43856-023-00312-x; DOI: 10.3390/bios13060623; DOI: 10.3389/frai.2023.1235204). A comparison of AI-assisted and visual reading of at-home tests reported AI accuracy of 96.97% (DOI: 10.1016/j.diagmicrobio.2026.117414), and a computer-vision method decoded BinaxNOW images to estimate viral load within an RMSE of 1.44 Ct (DOI: 10.1186/s44247-026-00287-4).
+
+Algorithms were also joined to assay design. A computer-vision-assisted LFA for influenza A and SARS-CoV-2 gave a 3-fold gain in analytical sensitivity (DOI: 10.1039/d3an01189e), an AI-assisted colorimetric strip with polydopamine nanoparticles read neutralising antibodies on 50 clinical sera and agreed with a commercial ELISA (DOI: 10.1016/j.bios.2022.114449), a nanotrap enrichment was combined with an AI smartphone reader on commercial HIV antibody strips (about 20-fold enrichment and detection 8 days earlier) (DOI: 10.1021/acsnano.6c01808), and machine learning read a CRISPR-Cas12a strip for HPV DNA on 60 validation plasma samples with 96.7% sensitivity and 100% specificity (DOI: 10.1016/j.bios.2026.118765). For animal viruses, a smartphone AI reads ASFV strips (DOI: 10.2460/ajvr.24.10.0305), and one study builds an image recogniser for several analytes at once (DOI: 10.1021/acs.analchem.5c01487).
+
+## 3.6.5 Using the time of appearance as a signal
+
+Three studies read how fast the line appears and not only whether it is present. For SARS-CoV-2 antigen strips, the time to visible positivity predicted viral load: Roche, COVID-VIRO ALL IN and a routine-sample study related positivisation time to Ct or to infectivity thresholds (AUC 0.82 for one test; 0.84 sensitivity and 0.73 specificity for Ct below 20 in another) (DOI: 10.1515/cclm-2022-0873; DOI: 10.5937/jomb0-35482; PMID: 36605302 (no DOI recorded)).
+
+## 3.6.6 What the evidence supports
+
+Reader and algorithm studies show that the reading step can be made objective and, where calibrators exist, quantitative. The best-supported results are the field study of HIV strips and the SARS-CoV-2 reader studies that benchmark against ELISA, neutralisation tests or CLIA. Three cautions apply. First, many studies apply readers to commercial strips, so their gains describe the reader and not the strip. Second, instrument-based readouts (thermal, photon-counting, SERS, electron microscopy) depart from the colorimetric, equipment-free principle of this review and are reported as boundary cases. Third, AI studies often train and test on images from the same source, and few report accuracy on images taken by naive users with other phones (Table F2).
+
+
+### Table F1a. Dedicated readers and spectrometers
+
+| Rec | Year | Target | Strip / reading technology | Matrix | LOD or analytical result (as stated) | Within-paper comparison | Diagnostic data (as stated) | Readout | Evidence | DOI |
+|---|---|---|---|---|---|---|---|---|---|---|
+| R02989 | 2020 | HIV | Fio Deki Reader for HIV RDTs | lab and field, South Africa | NR | NR | V100 sens 99.5%, spec 99.4%; V200 sens 100%, spec 93.1%; field sens 99.8%, spec 97.7% | portable reader | Abstract | 10.1186/s12879-020-4932-0 |
+| R02452 | 2018 | HIV, syphilis | dual RDTs with smartphone e-reader | MSM and transgender women, Lima | NR | NR | HIV sens 98% (93-100) | smartphone e-reader | Abstract | 10.1136/sextrans-2017-053511 |
+| R05199 | 2022 | HIV | TRUSTline HIV-1/2 Ab, OnSite HIV 1/2 Ab Plus Combo, ALTA reader | NR | NR | NR | TRUSTline sens 100%, spec 99.6%; OnSite 100%/100% | visual and reader | Abstract | 10.1016/j.ijmmb.2022.05.011 |
+| R03015 | 2020 | HIV (urine) | microfluidic cassette with handheld reader | NR | NR | NR | NR | handheld optical reader | Abstract | 10.1007/s10544-020-00494-4 |
+| R03592 | 2021 | SARS-CoV-2 IgG/IgM | POC system N and S proteins | 108 suspicious samples | not reported | NR | kappa 0.804 vs CLIA | reader | Abstract | 10.1016/j.snb.2020.129415 |
+| R03791 | 2021 | SARS-CoV-2 IgG | spectrochip-coupled quantitative LFIA | spiked recombinant IgG | 186 pg/mL | NR | NR | spectrochip reader | Abstract | 10.3390/mi12030321 |
+| R04162 | 2021 | SARS-CoV-2 immunoglobulins | LFIA with newly designed spectrometer | NR | NR | NR | NR | spectrometer | Abstract | 10.1371/journal.pone.0254486 |
+| R04829 | 2022 | SARS-CoV-2 neutralizing antibodies | commercial LFIA + spectrum-based reader | 30 patients; 16 vaccinees | NR | NR | AUC 0.989; sens 100%, PPV 95.7%, spec 87.5%, NPV 100% | spectrum-based reader | Abstract | 10.3390/vaccines10020271 |
+| R04938 | 2022 | SARS-CoV-2 neutralizing antibodies | LFIA kit + spectrometer readout, quantitative | 69 sera incl. AZ vaccinees | NR | NR | NR | spectrometer | Abstract | 10.12659/msm.935812 |
+| R04958 | 2022 | SARS-CoV-2 neutralising Ab | TestNOW quantitative LFIA with RapiRead reader | 94 samples | not reported | NR | ROC-based sens and spec (values not in abstract) | reader | Abstract | 10.1007/s00705-022-05422-w |
+| R05445 | 2022 | SARS-CoV-2 NAbs | ichroma semiquantitative LFA | post-infection and vaccinated | not reported | NR | inhibition rate vs IgG rho 0.83; anti-Alpha NAbs rho 0.78 | reader | Abstract | 10.1016/j.jcv.2022.105268 |
+| R07198 | 2024 | SARS-CoV-2 NAbs | ichroma COVID-19 nAb surrogate LFA | various cohorts | not reported | NR | high specificity | reader | Abstract | 10.3390/life14070791 |
+| R07596 | 2025 | SARS-CoV-2 neutralizing Ab | LFIA + spectrophotometric measurement | 274 plasma | similar to ELISA | NR | PPV 99.0% | reader | Abstract | 10.1038/s41598-025-90730-9 |
+| R05658 | 2022 | SARS-CoV-2 neutralizing antibodies | LFI with spectrum reader | maternal and cord blood, 20 mothers | NR | NR | sRBD IgG thresholds 60.15-230.20 ng/mL | spectrum reader | Abstract | 10.3390/bios12100891 |
+| R08360 | 2026 | SARS-CoV-2 neutralizing Ab | sqLFA flow-based platform | not reported | not reported | NR | spec 80%, sens 90% at MN cutoff 1:40 | reader | Abstract | 10.20411/pai.v11i1.910 |
+| R06526 | 2023 | SARS-CoV-2 RBD-IgG | POCT with traceable RBD-IgG calibrator | 37 post-vaccination fingertip blood samples | 0.39 ug/mL | NR | levels 0.45-2.46 ug/mL in 33/37 | reader (sigmoidal curve) | Abstract | 10.1007/s00604-023-06004-6 |
+| R08556 | 2026 | ASFV | ASFV Ag LFA + iaX reader | serum, whole blood | not reported | NR | serum sens 100% (0.92-1.00), spec 91%; whole blood sens 79%, spec 95% vs qPCR | reader | Abstract | 10.1016/j.jviromet.2026.115424 |
+| R07826 | 2025 | influenza | centrifugal chip nanozyme ELISA-LFIA | not reported | 2.5x lower LOD vs eye observation | NR | not reported | reader | Abstract | 10.1039/d5an00237k |
+
+### Table F1b. Readers using a non-colour principle (thermal, photon, SERS, electron microscopy)
+
+| Rec | Year | Target | Strip / reading technology | Matrix | LOD or analytical result (as stated) | Within-paper comparison | Diagnostic data (as stated) | Readout | Evidence | DOI |
+|---|---|---|---|---|---|---|---|---|---|---|
+| R03788 | 2021 | influenza A/B | QuickVue + thermal contrast amplification | clinical samples | improved sensitivity (value NR) | NR | vs PCR | thermal reader | Abstract | 10.3390/diagnostics11030462 |
+| R04362 | 2020 | HIV p24 | thermal contrast amplification LFA | spiked serum | 8 pg/mL | NR | NR | thermal reader | Abstract | 10.1038/s41378-020-0168-9 |
+| R04887 | 2022 | SARS-CoV-2 | thermometric LFIA with coloured latex beads | NR | 1 x 10^5 particles/mm2 (10x better than colour reading) | NR | NR | thermometer/laser | Abstract | 10.1038/s41598-022-07963-1 |
+| R05112 | 2021 | SARS-CoV-2 antibodies | handheld thermo-photonic reader for commercial LFA | RBD IgG standards | clinically relevant range (value NR) | NR | NR | thermo-photonic reader | Abstract | 10.1109/jsen.2021.3089016 |
+| R05244 | 2022 | SARS-CoV-2 Ab | handheld thermo-photonic device for antibody titers | ICU patients | not reported | NR | not reported | reader | Abstract | 10.3390/biomedicines10061424 |
+| R03295 | 2020 | SARS-CoV-2 antibodies | photon-counting readout of LFA | NR | enhanced sensitivity (value NR) | NR | NR | laser photon counting | Abstract | 10.1063/5.0021842 |
+| R05731 | 2022 | SARS-CoV-2 | portable SERS-LFA reader on commercial colorimetric strips | 54 clinical samples | NR | NR | 49 positive, 5 negative | SERS reader | Abstract | 10.1021/acssensors.2c01808 |
+| R03638 | 2021 | influenza A | Au/Pt particle LFA read by desktop SEM | clinical samples | NR | NR | SEM sens 94% (29/31), spec 100% vs visual 14.3% | scanning electron microscopy | Abstract | 10.1016/j.jpba.2021.113924 |
+| R04816 | 2022 | SARS-CoV-2 | Au/Pt particle LFA read by desktop SEM (LFA-NanoSuit) | clinical samples | NR | NR | LNSM sens 86.7% (26/30), spec 93.3% (14/15) vs qRT-PCR | electron microscopy | Abstract | 10.3390/biomedicines10020447 |
+
+### Table F1c. Smartphone quantification and low-cost readers
+
+| Rec | Year | Target | Strip / reading technology | Matrix | LOD or analytical result (as stated) | Within-paper comparison | Diagnostic data (as stated) | Readout | Evidence | DOI |
+|---|---|---|---|---|---|---|---|---|---|---|
+| R02299 | 2018 | Ebola virus IgG | immunochromatographic strip + smartphone reader | 15 survivors, 5 controls, Uganda | NR | NR | GP monoplex sens 100%, spec 98% vs ELISA | smartphone reader (semiquantitative) | Abstract | 10.1021/acsnano.7b07021 |
+| R02532 | 2019 | nucleic acids (lateral flow) | smartphone add-on and app for LF nucleic acid assays | NR | NR | NR | predicted vs true concentration R2 0.96 | smartphone with colour calibration | Abstract | 10.1002/elps.201800449 |
+| R06721 | 2024 | SARS-CoV-2 Ab | smartphone quantification of antibody LFAs | 800 serum samples, 100 HCPs | not reported | NR | not reported in abstract | smartphone | Abstract | 10.1016/j.diagmicrobio.2023.116166 |
+| R06817 | 2024 | dengue NS1 | DEN-NS1-PAD paper analytical device with smartphone app | clinical samples | NR | NR | NR | smartphone colorimetric | Abstract | 10.3791/66130 |
+| R08297 | 2026 | SARS-CoV-2 | Raspberry Pi NALFA reader | spiked | recoveries 84-108% | NR | not reported | smartphone/Raspberry Pi image | Abstract | 10.3390/s26020598 |
+| R07432 | 2024 | dengue, ASFV | open-source fluid handler for LFA | not reported | not reported | NR | not reported | reader/visual | Abstract | 10.1371/journal.pgph.0002625 |
+
+### Table F1d. Machine-learning interpretation and time-to-signal
+
+| Rec | Year | Target | Strip / reading technology | Matrix | LOD or analytical result (as stated) | Within-paper comparison | Diagnostic data (as stated) | Readout | Evidence | DOI |
+|---|---|---|---|---|---|---|---|---|---|---|
+| R04048 | 2021 | HIV antibodies (rapid tests, two types) | MobileNetV2 deep-learning classifier of tablet photographs; Android app | 11,374 field photographs (training); pilot: discarded anonymised blood samples (10 positive, 10 negative per ELISA) on two HIV test types | not applicable (reading step) | algorithm vs visual reading by five users: sens 97.8% vs 95.6%; spec 100% vs 89%; false positives 0 vs 11; accuracy 98.9% vs 92.1% | 10-fold cross-validation: type A sens 95.9% +/- 5.1, spec 99.0% +/- 0.6; type B sens 98.7% +/- 1.7, spec 99.8% +/- 0.2; pilot 190 tests, five readers | tablet camera + server-side classifier | Full text † | 10.1038/s41591-021-01384-9 |
+| R03705 | 2021 | SARS-CoV-2 serology | AI interpretation of RDT results | NR | NR | NR | NR | smartphone AI | Abstract | 10.1073/pnas.2019893118 |
+| R05282 | 2022 | SARS-CoV-2 antibodies | ALFA machine learning for home LFIA interpretation | home self-tests | NR | NR | kappa 0.90-0.97 vs experts; spec 98.7-99.4%, sens 90.1-97.1% | smartphone image ML | Abstract | 10.1038/s43856-022-00146-z |
+| R05492 | 2022 | SARS-CoV-2 antigen | at-home LFA with AI read (LFAIR) | same-day RT-PCR | not reported | NR | sens 86.2% (73.6-98.8), spec 94.3%; 97.8% day 1 | smartphone AI | Abstract | 10.1016/j.diagmicrobio.2022.115763 |
+| R05611 | 2022 | SARS-CoV-2 antigen | ML for determining LFD results | asymptomatic populations | not reported | NR | ATS sens 92.08% to 97.6%; self-read 16.00% to 100% | smartphone ML | Abstract | 10.1016/j.xcrm.2022.100784 |
+| R05633 | 2022 | SARS-CoV-2 Ab | smartphone AI reader for RDTs | field studies | not reported | NR | IgG band sens 100%, spec 94.4%; IgM 100%, 95.8% vs visual | smartphone AI | Abstract | 10.2196/38533 |
+| R06053 | 2023 | SARS-CoV-2 RDT images | LightR-YOLOv5 detector for RDT result classification | RDT images | NR | NR | NR | image AI | Abstract | 10.1016/j.displa.2023.102403 |
+| R06147 | 2023 | SARS-CoV-2 | deep learning smartphone LFA (SMART-AI-LFA) | clinical samples | NR | NR | NR | smartphone AI | Abstract | 10.1038/s41467-023-38104-5 |
+| R06292 | 2023 | SARS-CoV-2 RDTs | automated interpretation of POC diagnostics | NR | NR | NR | NR | AI image | Abstract | 10.1038/s43856-023-00312-x |
+| R06303 | 2023 | SARS-CoV-2 IgG | SCAISY smartphone AI quantification of IgG LFA | NR | NR | NR | NR | smartphone AI | Abstract | 10.3390/bios13060623 |
+| R06820 | 2023 | SARS-CoV-2 LFT images | deep CNN and StyleGAN2 image classification | LFT images | not reported | NR | not reported | AI | Abstract | 10.3389/frai.2023.1235204 |
+| R08464 | 2026 | SARS-CoV-2 antigen | AI-assisted vs visual reading of at-home test | home testing | not reported | NR | AI accuracy 96.97%, sens 80%, spec 100%; visual 68.82%, 78.57%, 67.09% | smartphone AI | Abstract | 10.1016/j.diagmicrobio.2026.117414 |
+| R08695 | 2026 | SARS-CoV-2 antigen | computer vision decoding BinaxNOW | user images | viral load estimate within RMSE 1.44 Ct | NR | not reported | AI | Abstract | 10.1186/s44247-026-00287-4 |
+| R06579 | 2023 | influenza A, SARS-CoV-2 | computer-vision-assisted LFA | patient samples | 3-fold gain in analytical sensitivity | NR | NR | smartphone CV/ML | Abstract | 10.1039/d3an01189e |
+| R05213 | 2022 | SARS-CoV-2 neutralizing antibodies | AI-assisted colorimetric LFIA with polydopamine nanoparticles | 50 clinical sera | 160 ng/mL (range 625-10,000 ng/mL) | NR | consistent with commercial ELISA | smartphone/AI | Abstract | 10.1016/j.bios.2022.114449 |
+| R08461 | 2026 | HIV antibodies | nanotrap + AI smartphone reader on commercial LFAs | oral-fluid equivalent | ~20x enrichment; 8 days earlier detection | NR | not reported | smartphone AI | Abstract | 10.1021/acsnano.6c01808 |
+| R08500 | 2026 | HPV DNA | ML smartphone CRISPR-Cas12a LFA | 60 validation plasma | not reported | NR | sens 96.7%, spec 100% | smartphone ML | Abstract | 10.1016/j.bios.2026.118765 |
+| R07608 | 2025 | ASFV | smartphone AI to read LFAs | not reported | not reported | NR | accuracy metrics (values not in abstract) | smartphone AI | Abstract | 10.2460/ajvr.24.10.0305 |
+| R07836 | 2025 | infectious diseases (multi-analyte) | smartphone image recognition for multianalyte LFAs | real samples | not reported | NR | not reported | smartphone | Abstract | 10.1021/acs.analchem.5c01487 |
+| R05678 | 2023 | SARS-CoV-2 antigen | RDT positivization time predicts viral load | routine samples | not reported | NR | 0.84 sens, 0.73 spec for Ct<20 | visual | Abstract | 10.1515/cclm-2022-0873 |
+| R05738 | 2022 | SARS-CoV-2 antigen | positivization time of Roche RAT | NP specimens | not reported | NR | AUC 0.82; 32 s cut-off sens 94.9%, spec 58.2% | visual | Abstract | 10.5937/jomb0-35482 |
+| R05854 | 2022 | SARS-CoV-2 antigen | COVID-VIRO ALL IN positivization time | paired samples | >1500 TCID50/mL (Liaison) | NR | accuracy 93.7% | visual | Abstract | PMID 36605302 (no DOI) |
+
+### Table F2. Strategy overview for reading technologies
+
+| Approach | What it adds | Examples | Costs and limits seen | Table |
+|---|---|---|---|---|
+| Dedicated readers and spectrometers | objective, quantitative reading of existing strips | HIV rapid tests, SARS-CoV-2 antibody and neutralisation strips | device cost; gains describe the reader, not the strip | F1a |
+| Non-colour readers | higher sensitivity by thermal, photon, SERS or SEM readout | influenza, SARS-CoV-2, HIV p24 | not equipment-free; boundary to colorimetric reading | F1b |
+| Smartphone quantification | camera and app replace a reader | Ebola IgG, dengue NS1, nucleic-acid strips | phone and lighting variability | F1c |
+| Machine-learning interpretation | objective positive/negative call from an image | HIV and SARS-CoV-2 rapid tests, ASFV, CRISPR strips | training-data source; few tests with naive users | F1d |
+| Time-to-signal | line appearance time as a viral-load proxy | SARS-CoV-2 antigen tests | moderate accuracy | F1d |
+
+### Table F3. Reporting checklist for papers read in full (descriptive, not scored)
+
+Items: (a) real samples; (b) n stated; (c) reference method; (d) LOD definition; (e) cross-reactivity tested by the authors; (f) replicates or reproducibility; (g) comparator run in the same study; (h) stability tested. Y = yes, N = no, P = partly, NR = not reported, NA = not applicable (reading step). All other papers have not been assessed (abstract only).
+
+| Rec | DOI | (a) | (b) | (c) | (d) | (e) | (f) | (g) | (h) |
+|---|---|---|---|---|---|---|---|---|---|
+| R04048 | 10.1038/s41591-021-01384-9 | P (field photographs; pilot on discarded anonymised blood samples) | Y (11,374 images; 190 pilot tests) | Y (ELISA for samples; expert reading of images) | NA | NA | Y (10-fold cross-validation) | Y (visual reading by five users) | NA |
+
+## Items still to verify before this section is final
+1. Most rows are abstract-level; matrix and reference method stay NR where the abstract is silent.
+2. Boundary cases: R03638 and R04816 (electron microscopy readout), R03788, R04362 and R04887 (thermal), R05731 (SERS reader), R05112 and R05244 (thermo-photonic): the readout is not colorimetric; kept for the reading-technology theme. R05244 is flagged scope-check (device).
+3. R06820 (abstract incomplete) and R07836 (viruses not named in the abstract) are flagged.
+4. Record IDs in the tables will be replaced by numbered citations when the reference list is built.
+
+---
+
+# Part G (working text v1): multiplex and dual-mode strips
+
+Working text, 2026-11-05. Each study is described by its design, what is new and its main result; numerical detail is in the tables. All rows are abstract level (no paper of this section read in full); NR = not reported in the abstract. Only the colorimetric channel is counted; fluorescence, SERS, photothermal and chemiluminescence figures are non-colorimetric and flagged. Every DOI cited in the text appears in a table and in the evidence table.
+
+# 3.7 Multiplex and dual-mode strips
+
+## 3.7.0 What multiplexing and dual-mode mean, and how this section is organised
+
+Two different ideas are grouped here. A multiplex strip reports more than one target, either on separate lines, with different colours or in different channels, so that one sample answers several questions: which dengue serotype, which respiratory virus, which animal pathogen. A dual-mode strip reports one target in two ways, usually the colour of the line plus a second signal from fluorescence, Raman scattering, photothermal heating or chemiluminescence; the second signal is meant to improve sensitivity or confirm the result. For this review only the colorimetric channel counts: limits of detection from fluorescence, SERS and photothermal channels are reported in the tables as separate non-colorimetric values.
+
+The section follows from the simplest to the most complex design: multiplexing by separate lines (3.7.1), multiplexing by colour or particle encoding (3.7.2), multiplexing at the nucleic-acid level (3.7.3), and dual-mode strips with a fluorescence, SERS or photothermal second channel (3.7.4). Section 3.7.5 states what the evidence supports. Numerical details are in Tables G1a-G1d. Papers are marked as abstract-level throughout; no paper in this section has yet been read in full. The section covers 103 included records, all from 2015-2026. Fifteen evaluations of marketed multiplex rapid antigen tests were excluded under the commercial-kit rule (E10) and are listed in the supplement.
+
+## 3.7.1 Multiplexing with separate test lines
+
+**Animal viruses.** Veterinary virology uses multiplex strips more than any other field, because several viruses cause similar disease. For foot-and-mouth disease virus (FMDV), a multiplex lateral flow immunoassay with monoclonal antibodies serotyped isolates of serotypes O, A and Asia 1 from field samples (DOI: 10.1016/j.jviromet.2015.05.001); a serotyping strip covered all seven serotypes on 118 clinical samples with sensitivity equal to a commercial strip (DOI: 10.1371/journal.pone.0134931); a later design used pan-reactive and serotype-specific antibodies and found that aligning the antibodies mitigated the hook effect (DOI: 10.1016/j.talanta.2021.123155); and an experimental-design approach optimised a strip for the SAT1 and SAT2 serotypes (DOI: 10.1007/s00604-023-06090-6). Duplex strips detect antibodies against African swine fever and classical swine fever viruses, African horse sickness and equine infectious anaemia viruses, and mouse hepatitis, Sendai and hantavirus (DOI: 10.1177/1040638716654942; DOI: 10.1016/j.jviromet.2016.09.009; DOI: 10.30802/aalas-jaalas-19-000008; DOI: 10.1538/expanim.20-0099). A triple strip with a cysteine-protein A/G gold conjugate screened sera for bovine leukaemia and brucellosis (DOI: 10.3390/bios9040115), and a duplex strip separated rabbit haemorrhagic disease virus GI.1 and GI.2 in liver samples, with sensitivity 94.4% and specificity 100% (DOI: 10.3390/biology11030401). A dual strip for classical swine fever virus E2 and Erns antibodies serves as a DIVA test, agreeing 93.0% and 96.5% with two ELISAs (DOI: 10.3389/fmicb.2024.1383976), a combination strip for ASFV detects antigen and antibody together and finds more positives than either alone (DOI: 10.3390/vaccines12030307), and a lateral flow microarray detects antibodies against West Nile, Usutu and other flaviviruses in wildlife sera with a sensitivity of 96% and specificity of 86% for West Nile NS1 (DOI: 10.1016/j.onehlt.2023.100668). Strips for PEDV with TGEV or rotavirus, and a multiplex colloidal gold assay for three feline viruses with smartphone reading on 164 sera (concordance above 97% with ELISA), complete this group (DOI: 10.3389/fmicb.2024.1418959; DOI: 10.1016/j.saa.2024.124670; DOI: 10.1007/s00604-025-07373-w).
+
+**Plant viruses.** Plant pathologists need to detect mixed infections. A multiarray on a test strip (MATS) detected potato viruses X, Y and M in a single format at 1 ng/mL for PVX and PVY with a result comparable to ELISA (DOI: 10.1007/s00216-016-9463-6); an "alarm" strip with a multi-specific conjugate detected potato viruses X, M, S and Y and potato leafroll virus in leaf extracts at 10-30 ng/mL (DOI: 10.1016/j.talanta.2018.12.004); a duplex strip with nanogold signal enhancement detected sugarcane mosaic viruses (DOI: 10.1038/s41598-022-07950-6); and a triplex immunostrip identified TMV, TVBMV and PVY, including mixed infections, in field tobacco and tomato samples (DOI: 10.1094/pdis-08-21-1756-re).
+
+**Human viruses.** Dengue serotyping is the main human application. Strips with serotype-specific NS1 capture lines were developed for DENV1-4, in one case reaching serotype specificity close to 100% and in another sensitivities between 82.61% and 90.0% for serotypes 1 to 4 on 187 patient samples (DOI: 10.3390/s21237809; DOI: 10.3389/fimmu.2022.852452), a set of rapid antigen tests combined serotype-specific, pan-DENV and Zika lines (sensitivity and specificity 0.76-1.00 for dengue) (DOI: 10.1126/scitranslmed.aan1589), and two-colour strips combined dengue and chikungunya or Zika (DOI: 10.1021/acs.analchem.6b01828; DOI: 10.1021/acs.analchem.9b00704), with a commentary on immunochromatographic assays for Zika and dengue serotypes (DOI: 10.1373/clinchem.2017.282699). Other human multiplex strips include ferritin-based proteinticle probes for HIV, HCV and HAV antibodies (100% sensitivity and specificity on 20 sera per disease) (DOI: 10.1016/j.bios.2015.02.033), an HIV strip with three antigens that raised sensitivity from 63% to 90% against a gp41-only strip (DOI: 10.1039/c7an01748k), a multiplex strip combined with an electrochemical immunosensor for three hepatitis B markers (DOI: 10.1016/j.aca.2019.10.016), a SARS-CoV-2 total antibody strip with two lines (sensitivity 94.6%, specificity 100% in 85 controls) (DOI: 10.1016/j.talanta.2020.121737), a dual-position kit for SARS-CoV-2 and influenza (SARS-CoV-2 sensitivity 97.4%, specificity 100%) (DOI: 10.1016/j.jviromet.2022.114477), a multivalent IgM strip with a multi-epitope tandem antigen for adenoviruses 3, 7 and 11 (DOI: 10.1016/j.diagmicrobio.2022.115675), a dual-recognition strip that localised more than 90% of influenza virions of several strains at the test line (DOI: 10.1021/acs.analchem.7b01149), an Ebola/Lassa duplex stable for eight weeks (DOI: 10.1021/acs.analchem.6c00820), a mpox/chickenpox dual-index strip that agreed with PCR on 56 clinical samples (DOI: 10.1016/j.jim.2025.113881), a rapid test that distinguishes viral haemorrhagic fever viruses (DOI: 10.4269/ajtmh.25-0168), and a duplex competitive strip for neutralising antibodies against the Delta and Omicron variants (IC50 45.1 and 53.6 ng/mL) (DOI: 10.1021/acs.analchem.3c05144).
+
+## 3.7.2 Multiplexing by colour and particle encoding
+
+Instead of adding lines, colour can code the target. Multicolour silver nanoplates read dengue, yellow fever and Ebola on one multiplexed strip (DOI: 10.1039/c5lc00055f), multicolour gold nanoparticles with cross-reactive monoclonal pairs read several viruses including Zika and Ebola (DOI: 10.1016/j.nantod.2022.101669), and colour-mixing strips decoded dengue and chikungunya IgM/IgG (DOI: 10.1021/acs.analchem.9b00704). Barcode and anti-barcode designs link a multiplex RPA to a universal strip for potato viruses (DOI: 10.1021/acs.analchem.1c03030). Particle engineering supports multi-channel reading: Fe3O4-Au heterodimer nanoparticles detected three influenza subtypes without cross-reaction (DOI: 10.1039/d4ay01010h), a paint-programmed multiplex strip with chemical amplification detected SARS-CoV-2 and influenza A/B in saliva about 25 times more sensitively than commercial strips (DOI: 10.1002/smll.202208035), an aptamer-AuNP strip with signal amplification detected three respiratory viruses at 2.89 pg/mL (DOI: 10.1021/acs.analchem.3c04870), and a self-enhancing triplex strip detected influenza A, influenza B and SARS-CoV-2 at 1.0, 1.0 and 0.2 ng/mL, 5 to 25 times lower than a conventional strip (DOI: 10.1016/j.talanta.2025.129228). An oligo-dT based strip detects five respiratory pathogens, with an incomplete abstract in the record (DOI: 10.1021/acs.analchem.4c05299), and a multimodal colorimetric strip is described for several pathogens (DOI: 10.3390/s20226609).
+
+## 3.7.3 Multiplexing at the nucleic-acid level
+
+Nucleic-acid strips multiplex by using different tags on different amplicons. Dual CRISPR-Cas12/Cas13 strips detect HBV with HCV, HPV16 with HPV18, HDV with HBV, swine influenza virus with PRRSV (5 and 2 copies/uL), influenza A and B (with magnetic SERS tags), and ASFV in a duplex RPA-Cas12a format (DOI: 10.1155/2024/8819834; DOI: 10.1021/acs.bioconjchem.4c00375; DOI: 10.1002/jmv.70976; DOI: 10.1186/s12985-026-03085-6; DOI: 10.1007/s00604-026-08059-7; DOI: 10.1007/s00705-026-06738-7). A Cas12a cis-cleavage strip separates HPV and respiratory pathogens with sensitivity above 90% (DOI: 10.1038/s41467-025-60917-9); an RPA-Cas12a assay detects Marek's disease virus and reticuloendotheliosis virus (DOI: 10.1016/j.ab.2026.116240); another multiplexes norovirus GI and GII with hepatitis A virus (DOI: 10.1007/s12560-026-09705-2); and a RT-RAA/CRISPR-Cas13 assay with MoS2 quantum-dot reporters reads SARS-CoV-2 at 400 copies/mL in the colorimetric channel (DOI: 10.1007/s00604-025-07544-9). LAMP and RPA multiplexes include dual LAMP for H1N1 with RSV, two-step RT-LAMP for SARS-CoV-2 and influenza A, an RNase HII-dependent RT-LAMP for RSV A and B, a dual RPA strip for two tomato begomoviruses, a RT-MIRA multiplex with nested serotyping for chikungunya and dengue 1-4 in 236 patients, and octaplex PCR with quadruplex and duplex RPA strips for human herpesviruses (DOI: 10.3389/fmicb.2025.1678396; DOI: 10.1039/d6an00643d; DOI: 10.3389/fchem.2026.1942908; DOI: 10.3389/fmicb.2026.1940758; DOI: 10.1186/s40249-026-01450-9; DOI: 10.3389/fcell.2026.1751135). Integrated devices carry multiplexing into the device: a valved microfluidic RPA-CRISPR strip for HPV16/18 (20 copies per reaction, concordance with qPCR), an integrated microfluidic device for HPV16/18 on 50 cervical swabs (sensitivity 96.8%, specificity 100%) and a finger-actuated microfluidic RPA strip for rotavirus A, norovirus and adenovirus on 90 clinical samples (DOI: 10.1039/d5lc01096a; DOI: 10.1039/d5an01244a; DOI: 10.1016/j.bios.2026.118828). Two studies pair a virus with a non-viral co-target (fungus or Treponema pallidum) and are flagged for scope (DOI: 10.1016/j.exer.2026.110897; DOI: 10.1039/d5ay02168e).
+
+## 3.7.4 Dual-mode strips: colour plus a second signal
+
+Dual-mode strips combine a colour label with a second readout in the same particle or on the same strip. The second channel is not colorimetric and is reported separately.
+
+**Colour plus fluorescence.** A SiO2@Au@quantum-dot nanobead detected SARS-CoV-2 IgM/IgG with 100% sensitivity and specificity in 57 samples (DOI: 10.1021/acs.analchem.0c03484); a dual-functional label gave 1 ng/mL colorimetrically and 0.033 ng/mL by fluorescence for SARS-CoV-2 S1 (DOI: 10.1016/j.snb.2021.130897); a coenhanced strip with AuNP/QD nanotags read S and N proteins at 50 pg/mL colorimetrically, 5-fold better than AuNPs (DOI: 10.1021/acsami.2c21042); a dual-labelled nanoparticle gave a 1000-fold improvement through metal-enhanced fluorescence with 95% sensitivity and 100% specificity on 73 samples, the fold figure belonging to the fluorescent mode (DOI: 10.1039/d3ra04373h); an AuNP strip read SARS-CoV-2 genes in saliva colorimetrically and by fluorescence (DOI: 10.3390/jfb15030058); and magnetic quantum dots gave visual and fluorescence limits for adenovirus (DOI: 10.1021/acs.analchem.3c04696). Others were built for mpox (SiO2-Au/QD, colorimetric 0.5 ng/mL, same as the traditional strip) (DOI: 10.1186/s12951-023-02215-4), respiratory viruses and bacteria on graphene oxide (DOI: 10.1016/j.jhazmat.2023.132192), a broad-spectrum Fe3O4/Au/QD probe (DOI: 10.1002/smll.202406053), a dual-OR logic-gated strip for HPV16/18 with colorimetric sensitivity above 90% (DOI: 10.1021/acs.analchem.4c05778), a dual optical/chemiluminescence assay for SARS-CoV-2 IgA (DOI: 10.1016/j.bios.2020.112765), an Ebola nanosphere with quantum dots and gold (2 ng/mL by eye, 0.18 ng/mL quantitatively) (DOI: 10.1021/acs.analchem.7b02222), and a rhodamine B/AuNP MOF probe for potato virus S that read 31.2 pg/mL colorimetrically against 462.4 pg/mL for a plain AuNP strip (DOI: 10.3389/fmicb.2026.1876426).
+
+**Colour plus SERS.** SERS adds a Raman signal from a tag on the nanoparticle. Ag-based tags and Au@Ag particles were used for SARS-CoV-2 IgG (107 sera) and N antibodies, with SERS limits of 0.22 pg/mL and 0.08 pg/mL and a colorimetric limit stated separately (DOI: 10.1021/acs.analchem.2c01286; DOI: 10.1007/s00216-022-04437-1); a gold nanocrown read S1 in saliva at 91.24 pg/mL colorimetrically against 39.65 fg/mL by SERS (DOI: 10.1021/acs.analchem.3c04361); a Au@Ag SERS strip read N protein at 300 pg/mL colorimetrically and 2.16 pg/mL by SERS with 85% positive agreement on clinical samples (DOI: 10.1016/j.aca.2025.344149); and an MoS2@Au strip for mpox claimed more than 500-fold improvement over a plain AuNP strip (DOI: 10.1016/j.jhazmat.2023.132136). Further SERS-LFIA designs detect influenza antibodies, PEDV with rotavirus, SARS-CoV-2 and influenza A, and respiratory viruses (the latter with fold figures that combine channels) (DOI: 10.1016/j.talanta.2024.127351; DOI: 10.1016/j.talanta.2024.127428; DOI: 10.1016/j.saa.2025.125863; DOI: 10.1186/s40580-022-00330-w; DOI: 10.1007/s00604-025-07587-y).
+
+**Colour plus photothermal.** Photothermal readout measures the heat produced by light-absorbing particles. Examples are Au-Ag hollow nanoshells for neutralising antibodies in 98 vaccinees, magnetically enriched Au nanoshells for SARS-CoV-2 nucleocapsid protein (two orders of magnitude gain with enrichment), Au@Pt nanostars (colorimetric 1 ng/mL, two orders below a commercial strip), Ag@Au nanoplates (photothermal 40 pg/mL), gold nanorods agreeing 87.5% with nucleic-acid testing on swabs, Janus Au-Fe3O4 particles for H3N2 and SARS-CoV-2 (50 ng/mL by eye), an Au/Ti3C2Tx strip for HIV DNA, gold nanocages for H1N1 (1.8 ng/mL colorimetric, 7-fold over gold nanoparticles), Fe3O4-Au heterodimers for mpox (5 ng/mL naked eye), MoS2 nanoflowers, PDA@Au with SERS for H1N1 on 90 swabs, a perovskite-gold trimodal strip and a Au@PdPt strip for HPV (DOI: 10.1016/j.aca.2023.341102; DOI: 10.1016/j.bios.2023.115688; DOI: 10.1016/j.aca.2024.342241; DOI: 10.1021/acs.analchem.3c05787; DOI: 10.1039/d4ay00347k; DOI: 10.1016/j.bios.2024.117030; DOI: 10.1016/j.aca.2024.343588; DOI: 10.1021/acs.analchem.4c05384; DOI: 10.1016/j.talanta.2025.128670; DOI: 10.3390/bios15100661; DOI: 10.1007/s00604-025-07611-1; DOI: 10.1039/d5cc07358h; DOI: 10.1039/d3ay02307a).
+
+## 3.7.5 What the evidence supports
+
+Multiplex strips are well established in veterinary and plant virology, where several well-matched serotype or species strips have been tested on field samples, and in dengue serotyping. Dual-mode strips report much lower limits of detection than colorimetric strips alone, but those gains belong to the second channel, which needs a Raman, fluorescence or heat reader. In studies that report both, the colorimetric limit is often similar to a conventional strip (for example 0.5 ng/mL for the mpox SiO2-Au/QD strip) (Table G2). Two cautions apply. First, abstracts of dual-mode studies often combine channels in a single fold figure, which is why the tables record channels separately. Second, multiplex strips inherit the clinical-accuracy problems of each target, and sensitivity can differ by target within one strip (82.61-90.0% for dengue serotypes, for example).
+
+
+### Table G1a. Multiplex strips with separate test lines
+
+| Rec | Year | Targets | Strip / label | Matrix | LOD or analytical result (as stated; channel noted where known) | Diagnostic data (as stated) | Readout | Evidence | DOI |
+|---|---|---|---|---|---|---|---|---|---|
+| R01680 | 2015 | foot-and-mouth disease virus (O, A, Asia 1) | multiplex LFI with mAbs; colloidal gold (with fluorescein/rhodamine/biotin capture tags) | field isolates, tissue suspensions, swabs | NR | serotyped O (n=46), A (n=45), Asia 1 (n=17); sens comparable to DAS-ELISA for O and A | visual | Abstract | 10.1016/j.jviromet.2015.05.001 |
+| R01730 | 2015 | FMDV (7 serotypes) | serotyping LF strip with mAbs; NR | 118 clinical samples | 10^3-10^4 TCID50 (equal to Svanodip) | accurate serotyping vs reference (values NR) | visual | Abstract | 10.1371/journal.pone.0134931 |
+| R04617 | 2022 | FMDV | multiplex LFIA with pan-reactive and serotype-specific mAbs; NR | reference strains, epithelium homogenates | NR | hook effect mitigated by mAb alignment | visual | Abstract | 10.1016/j.talanta.2021.123155 |
+| R06667 | 2023 | FMDV SAT1 and SAT2 | multiplex LFIA with experimental design; NR | NR | 10^3.7 (SAT1), 10^4.0 (SAT2) TCID/mL; 2x improvement | NR | visual | Abstract | 10.1007/s00604-023-06090-6 |
+| R01944 | 2016 | ASFV, CSFV (antibodies) | duplex LFA (VP72, E2); NR | experimental, reference and field sera | NR | good sens/spec (values NR in abstract) | visual | Abstract | 10.1177/1040638716654942 |
+| R01971 | 2016 | AHSV, EIAV | duplex LFA; NR | experimental and field sera | NR | good agreement with OIE tests | visual | Abstract | 10.1016/j.jviromet.2016.09.009 |
+| R02779 | 2019 | mouse hepatitis virus, Sendai virus (and C. piliforme) | multiplex ICA; NR | mouse sera, 10 uninfected | NR | high specificity (no bands in 10 negatives) | visual | Abstract | 10.30802/aalas-jaalas-19-000008 |
+| R03380 | 2021 | Sendai virus, hantavirus, SDAV (rats) | multiplex ICA; NR | 10 uninfected sera | NR | no bands in uninfected sera | visual | Abstract | 10.1538/expanim.20-0099 |
+| R02791 | 2019 | bovine leukemia, brucellosis, tuberculosis | triple ICA with Cysteine-A/G gold conjugate; gold nanoparticles | 98 sera | NR | sens 96% (leukemia), 92% (brucellosis), 92% (TB) | visual | Abstract | 10.3390/bios9040115 |
+| R04933 | 2022 | RHDV GI.1 and GI.2 | duplex LFA; NR | 136 rabbit liver samples/exudates | NR | sens 94.4%, spec 100% | visual | Abstract | 10.3390/biology11030401 |
+| R06996 | 2024 | CSFV E2 and Erns antibodies | dual ICS (DIVA); NR | sera of different titres | NR | agreement 93.0% and 96.5% with 2 ELISAs for E2 | visual | Abstract | 10.3389/fmicb.2024.1383976 |
+| R06927 | 2024 | ASFV (antigen and antibody) | combo LFA; NR | field samples | NR | detects more positives, including when PCR negative | visual | Abstract | 10.3390/vaccines12030307 |
+| R06778 | 2024 | West Nile virus, Usutu virus antibodies | species-independent lateral flow microarray immunoassay; NR | FRNT90-confirmed sera | NR | WNV NS1 LMIA sens 96%, spec 86% | visual | Abstract | 10.1016/j.onehlt.2023.100668 |
+| R07152 | 2024 | PEDV, TGEV | colloidal gold ICS; colloidal gold | 121 clinical samples | 10^4 TCID50/mL for both | NR | visual | Abstract | 10.3389/fmicb.2024.1418959 |
+| R07118 | 2024 | PEDV, rotavirus | Tris-stabilised AuNP LFIA; Tris-stabilised gold nanoparticles | clinical samples | 1.25 x 10^3 TCID50/mL (PEDV); 3.13 x 10^2 pg/mL (rotavirus) | 95% (PEDV) and 100% (rotavirus) concordance with RT-PCR | visual | Abstract | 10.1016/j.saa.2024.124670 |
+| R07904 | 2025 | FCV, FPV, FHV antibodies | multiplex colloidal gold IC with smartphone; AuNP | 164 sera | vLOD 1:1e5 (FCV), 1:1e4 (FPV, FHV) | concordance 98.17%, 98.78%, 97.56% vs ELISA | smartphone | Abstract | 10.1007/s00604-025-07373-w |
+| R01872 | 2016 | potato pathogens (PVX, PVY, PVM...) | multiarray on a test strip (MATS); NR | NR | 1 ng/mL PVX and PVY(O); 10 ng/mL PVM | comparable with ELISA | coloured spots, visual/instrument | Abstract | 10.1007/s00216-016-9463-6 |
+| R02561 | 2019 | potato viruses X, M, S, Y, leafroll | alarm LFIA with multi-specific conjugate; gold nanoparticles (mixed antibodies) | potato leaf extracts | 10-30 ng/mL | NR | visual | Abstract | 10.1016/j.talanta.2018.12.004 |
+| R04879 | 2022 | sugarcane mosaic viruses | duplex LFIA with nanogold signal enhancement; nanogold | NR | higher than conventional immunoassays (value NR) | NR | visual | Abstract | 10.1038/s41598-022-07950-6 |
+| R05138 | 2022 | TMV, TVBMV, PVY | triplex immunostrip; NR | field tobacco, tomato, potato | TMV 200 ppb, PVY 1 ppm, TVBMV 2 ppm | identified single and mixed infections | visual | Abstract | 10.1094/pdis-08-21-1756-re |
+| R04577 | 2021 | dengue serotypes 1-4 | serotype-specific NS1 capture ICA; NR | DENV isolates and patient sera | 10^4 copies/mL | serotype specificity ~100% | visual | Abstract | 10.3390/s21237809 |
+| R04914 | 2022 | dengue NS1 serotypes | dengue serotype NS1 multiplex LFIA; NR | 187 patient samples; mosquitoes | NR | sens D1-D4: 90.0%, 88.24%, 82.61%, 83.33%; spec 96.13-99.39% | visual | Abstract | 10.3389/fimmu.2022.852452 |
+| R02227 | 2017 | dengue serotypes 1-4, Zika | rapid antigen tests (serotype-specific, pan-DENV, ZIKV); NR | 30-150 uL serum | NR | sens/spec 0.76-1.00 (DENV); ZIKV 0.81/0.86 | visual | Abstract | 10.1126/scitranslmed.aan1589 |
+| R01958 | 2016 | dengue, chikungunya | two-colour multiplex LFA; two-colour particles | NR | NR | NR | visual | Abstract | 10.1021/acs.analchem.6b01828 |
+| R02358 | 2018 | Zika, dengue serotypes | ICAs (comment, no abstract); NR | serum | NR | NR | visual | Abstract | 10.1373/clinchem.2017.282699 |
+| R02652 | 2019 | dengue, chikungunya IgM/IgG | colour-mixing multiplex strip; multi-colour particles | clinical samples | NR | accurate multiplexed detection within 30 min | visual colour mixing | Abstract | 10.1021/acs.analchem.9b00704 |
+| R01632 | 2015 | HIV, HCV, HAV | multiplex LFA with ferritin-based proteinticle probes; NR | 20 patient sera per disease | NR | 100% sens and spec (proteinticle); peptide probes 65-90% sens | visual | Abstract | 10.1016/j.bios.2015.02.033 |
+| R02311 | 2018 | HIV (gp41, p24, gp120) | LFA with ferritin 3D probes vs label-free one-step immunoassay; NR | NR | NR | LFA sens 63% (gp41 only), 90% (3 antigens); one-step assay 100%/100% | visual | Abstract | 10.1039/c7an01748k |
+| R02860 | 2020 | HBsAg, anti-HBs, anti-HBc | multiplex strip + electrochemical immunosensor; NR | NR | 0.5, 0.3, 0.1 ug/mL (strip) | NR | visual | Abstract | 10.1016/j.aca.2019.10.016 |
+| R03453 | 2021 | SARS-CoV-2 total antibodies | multi-target LFIA, two test lines; gold nanoparticles-N protein | 85 controls | NR | spec 100% (95.75-100), sens 94.6% (84.9-98.9) | visual | Abstract | 10.1016/j.talanta.2020.121737 |
+| R04720 | 2022 | SARS-CoV-2, influenza A/B | dual-position ICA kit; NR | NR | NR | SARS-CoV-2 sens 97.4%, spec 100%; influenza 100% each | visual | Abstract | 10.1016/j.jviromet.2022.114477 |
+| R04961 | 2022 | human adenoviruses 3, 7, 11, 14, 55 (IgM) | multivalent IgM ICS with multi-epitope tandem antigen; NR | NR | NR | spec 97.8% | visual | Abstract | 10.1016/j.diagmicrobio.2022.115675 |
+| R02144 | 2017 | influenza virus strains | dual recognition element LFA; NR | NR | NR | >90% localisation to test line (qRT-PCR) | visual | Abstract | 10.1021/acs.analchem.7b01149 |
+| R08825 | 2026 | Ebola, Lassa viruses | duplex colorimetric LFIA; not reported | not reported | 44 ng/mL (EBOV); 69 ng/mL (LASV) | not reported | visual/reader | Abstract | 10.1021/acs.analchem.6c00820 |
+| R07773 | 2025 | mpox, chickenpox | dual-index ICA; not reported | 56 clinical samples | 0.125 ng/mL (AR); 0.25 ng/mL (gE) | no significant difference vs PCR | visual | Abstract | 10.1016/j.jim.2025.113881 |
+| R08032 | 2025 | VHF viruses | RDT to distinguish haemorrhagic fever viruses; not reported | not reported | not reported | not reported | visual | Abstract | 10.4269/ajtmh.25-0168 |
+| R06891 | 2024 | SARS-CoV-2 neutralizing antibodies (Delta, Omicron) | overlaid duplex competitive LFIA; NR | animal and human serum | IC50 45.1 ng/mL (Delta), 53.6 ng/mL (Omicron) | good agreement with standard method | visual | Abstract | 10.1021/acs.analchem.3c05144 |
+
+### Table G1b. Multiplexing by colour and particle encoding
+
+| Rec | Year | Targets | Strip / label | Matrix | LOD or analytical result (as stated; channel noted where known) | Diagnostic data (as stated) | Readout | Evidence | DOI |
+|---|---|---|---|---|---|---|---|---|---|
+| R01617 | 2015 | dengue, yellow fever, Ebola | multiplexed LFA; multicolored silver nanoplates | NR | NR | NR | visual | Abstract | 10.1039/c5lc00055f |
+| R05711 | 2022 | multiple viruses (Zika, Ebola, SARS-CoV-2) | multicolor gold NP multiplex with cross-reactive mAb pairs; multicolored gold nanoparticles | NR | NR | NR | visual | Abstract | 10.1016/j.nantod.2022.101669 |
+| R04380 | 2021 | viruses (potato) | multiplex RPA + barcode anti-barcode LFA; NR | healthy and infected potato | NR | concordant with RT-PCR | visual | Abstract | 10.1021/acs.analchem.1c03030 |
+| R07227 | 2024 | influenza virus subtypes | Fe3O4-Au heterodimer nanoparticle multi-channel LFA; Fe3O4-Au heterodimer nanoparticles | NR | comparable to singleplex | no cross-reaction among 3 subtypes | visual | Abstract | 10.1039/d4ay01010h |
+| R06105 | 2023 | SARS-CoV-2, influenza A/B | paint-programmed multiplex LFA with chemical amplification; not reported | saliva | ~25x vs commercial LFAs | detects positive saliva missed by commercial LFAs | visual | Abstract | 10.1002/smll.202208035 |
+| R06762 | 2024 | 3 respiratory viruses | aptamer-AuNP multiplex LFIA with signal amplification; gold nanoparticles (aptamer-conjugated) | diluted NP samples | 2.89 pg/mL (with amplification) | NR | visual | Abstract | 10.1021/acs.analchem.3c04870 |
+| R08222 | 2026 | influenza A, influenza B, SARS-CoV-2 | self-enhancing triplex LFIA; not reported | spiked samples | 1.0, 1.0, 0.2 ng/mL (5-25x vs conventional LFIA) | not reported | visual | Abstract | 10.1016/j.talanta.2025.129228 |
+| R07497 | 2025 | five respiratory pathogens | multiplex LFIA with oligo-dT; not reported | not reported | not reported | not reported | visual | Abstract | 10.1021/acs.analchem.4c05299 |
+| R03403 | 2020 | NR (multiplex pathogens) | multimodal colorimetric LFIA; NR | NR | NR | NR | visual (colorimetric) | Abstract | 10.3390/s20226609 |
+
+### Table G1c. Nucleic-acid multiplex strips and integrated devices
+
+| Rec | Year | Targets | Strip / label | Matrix | LOD or analytical result (as stated; channel noted where known) | Diagnostic data (as stated) | Readout | Evidence | DOI |
+|---|---|---|---|---|---|---|---|---|---|
+| R07350 | 2024 | HBV, HCV | CRISPR-Cas12/Cas13 + LFA; not reported | not reported | not reported | not reported | visual | Abstract | 10.1155/2024/8819834 |
+| R07354 | 2024 | HPV16, HPV18 | RPA + CRISPR-Cas12a/Cas13a dual LFA; not reported | not reported | 10 copies/uL | not reported | visual | Abstract | 10.1021/acs.bioconjchem.4c00375 |
+| R08562 | 2026 | HDV, HBV | RT-RAA-CRISPR Cas13a/Cas12a dual detection; not reported | 70 co-infected plasma | 10 copies/uL | positive concordance 85.7% (DF), 82.9% (DL) | visual | Abstract | 10.1002/jmv.70976 |
+| R08291 | 2026 | swine influenza virus, PRRSV | RT-LAMP-CRISPR Cas12a/13a dual LFD; not reported | respiratory samples | 5 copies/uL SIV; 2 copies/uL PRRSV | high concordance | visual | Abstract | 10.1186/s12985-026-03085-6 |
+| R08474 | 2026 | influenza A, B | CRISPR dual-mode magnetic SERS LFA; magnetic SERS tags | 74 clinical samples | 7-9 copies/uL | sens 100%, spec 100% vs qRT-PCR | visual + SERS | Abstract | 10.1007/s00604-026-08059-7 |
+| R08775 | 2026 | ASFV | duplex RPA-Cas12a; not reported | clinical | 102 copies/reaction (duplex LFS); 1.02 (fluorescence) | not reported | visual | Abstract | 10.1007/s00705-026-06738-7 |
+| R07871 | 2025 | HPV, respiratory pathogens | Cas12a cis-cleavage LFA multiplex; not reported | clinical samples | not reported | >90% sens, 100% spec | visual | Abstract | 10.1038/s41467-025-60917-9 |
+| R08738 | 2027 | MDV, REV | RPA-Cas12a fluorescence and LFA; not reported | not reported | 1 copy/uL (MDV); 10 copies/uL (REV) | not reported | visual | Abstract | 10.1016/j.ab.2026.116240 |
+| R08620 | 2026 | norovirus GI, GII, HAV | multiplex RT-RPA + Cas12a LFS; not reported | not reported | HAV 10 copies/uL; GI 1e3; GII 1e2 | not reported | visual | Abstract | 10.1007/s12560-026-09705-2 |
+| R08141 | 2025 | SARS-CoV-2 | RT-RAA/CRISPR-Cas13 + MoS2@TQD dual-mode LFA; MoS2@ternary quantum dot | bio-samples | 400 copies/mL colorimetric; 250 copies/mL fluorescence (not colorimetric) | not reported | visual + fluorescence | Abstract | 10.1007/s00604-025-07544-9 |
+| R08179 | 2025 | H1N1, RSV | dual LAMP-LFD; not reported | not reported | 7.78e3 copies/mL (H1N1); 1.29e2 copies/mL (RSV) | not reported | visual | Abstract | 10.3389/fmicb.2025.1678396 |
+| R08748 | 2026 | SARS-CoV-2, influenza A | two-step RT-LAMP colorimetric + LFA; not reported | clinical | 150 copies/uL | agreement rates reported (truncated) | visual | Abstract | 10.1039/d6an00643d |
+| R08778 | 2026 | RSV A, B | RNase HII-dependent RT-LAMP NALF; not reported | clinical | 40 copies/uL | approaches RT-PCR sensitivity | visual | Abstract | 10.3389/fchem.2026.1942908 |
+| R08804 | 2026 | TYLCV, ToLCNDV | duplex RPA-LFD; not reported | field samples | 100 and 10 copies/uL | consistent with PCR | visual | Abstract | 10.3389/fmicb.2026.1940758 |
+| R08504 | 2026 | CHIKV, DENV 1-4 | RT-MIRA multiplex LFD + nested serotyping; not reported | 236 patients | LOD95 by probit (values not in abstract) | vs RT-qPCR, serology (not in abstract) | visual | Abstract | 10.1186/s40249-026-01450-9 |
+| R08573 | 2026 | human herpesviruses | octaplex PCR, quadruplex RPA, duplex RPA-LFA; not reported | not reported | 1e3 copies/50 uL (duplex RPA-LFA) | not reported | visual | Abstract | 10.3389/fcell.2026.1751135 |
+| R08236 | 2026 | HPV16/18 | valved microfluidic RPA-CRISPR-LF; not reported | plasmids, cell lysates | 20 copies/reaction | complete concordance with qPCR | visual | Abstract | 10.1039/d5lc01096a |
+| R08293 | 2026 | HPV16/18 | integrated microfluidic LF device; not reported | 50 cervical swabs | 10 copies/uL | sens 96.8%, spec 100%, PPV 100%, NPV 94.7% vs qPCR | visual | Abstract | 10.1039/d5an01244a |
+| R08525 | 2026 | rotavirus A, norovirus, adenovirus | finger-actuated microfluidic RPA-LFA; not reported | 90 clinical samples | 1, 1, 5 copies/uL | high concordance with qPCR | visual | Abstract | 10.1016/j.bios.2026.118828 |
+| R08320 | 2026 | HSV-1 + Fusarium | dual-target RPA-LFS; not reported | ocular surface samples | 203.69 copies/reaction (HSV-1); 84.91 (fungus) | not reported | visual | Abstract | 10.1016/j.exer.2026.110897 |
+| R08353 | 2026 | HIV + Treponema pallidum | duplex CRISPR LFA (DIAL); not reported | 46 samples | 100 copies/uL | HIV sens 100%, spec 97.5%; TP 90%/100% vs qPCR | visual | Abstract | 10.1039/d5ay02168e |
+
+### Table G1d. Dual-mode strips (colour plus fluorescence, SERS or photothermal; non-colorimetric channels flagged)
+
+| Rec | Year | Targets | Strip / label | Matrix | LOD or analytical result (as stated; channel noted where known) | Diagnostic data (as stated) | Readout | Evidence | DOI |
+|---|---|---|---|---|---|---|---|---|---|
+| R03396 | 2020 | SARS-CoV-2 IgM/IgG | dual-mode (colorimetric-fluorescent) LFIA, SiO2@Au@QD nanobeads; SiO2@Au@QD (colorimetric + fluorescent) | 16 positive, 41 negative sera | NR | 100% sens, 100% spec | visual and fluorescence | Abstract | 10.1021/acs.analchem.0c03484 |
+| R04428 | 2022 | SARS-CoV-2 S1 | colorimetric-fluorescent dual-functional LFIA; dual-functional label (colorimetric and fluorescent) | real samples | 1 ng/mL (colorimetric); 0.033 ng/mL (fluorescence) | NR | visual and fluorescence | Abstract | 10.1016/j.snb.2021.130897 |
+| R05960 | 2023 | SARS-CoV-2 S and N proteins | colorimetric-fluorescent coenhanced ICA with SADQD nanotags; AuNP/QD composite (colorimetric + fluorescent) | NR | colorimetric 50 pg/mL (5x better than AuNP-ICA); fluorescence 2.2 pg/mL | NR | visual and fluorescence | Abstract | 10.1021/acsami.2c21042 |
+| R06476 | 2023 | SARS-CoV-2 antibodies | dual-labelled nanoparticle colorimetric/fluorescent serological LFIA with MEF; dual-labelled nanoparticles (colorimetric + metal-enhanced fluorescence) | 73 clinical samples | 1000x improvement via MEF (fluorescent mode) over colorimetric | sens 95%, spec 100%, accuracy 97% | visual and fluorescence | Abstract | 10.1039/d3ra04373h |
+| R06923 | 2024 | SARS-CoV-2 | AuNP colorimetric/fluorescent dual-mode LFIA; AuNP (colorimetric + fluorescent) | saliva; lentiviral particles | 0.76, 1.83, 2.58 x 10^4 TU/mL (ORF1ab, E, N) | specific vs other respiratory viruses | visual and fluorescence | Abstract | 10.3390/jfb15030058 |
+| R06773 | 2024 | adenovirus | magnetic-optical triple-mode LFIA with magnetic quantum dots; magnetic quantum dots (magnetic, fluorescent, visual) | spiked samples | visual 1.95 x 10^4; fluorescent 1.2 x 10^3; magnetic 5.6 x 10^3 copies/mL | recovery 95-106.8% | visual, fluorescence, magnetic | Abstract | 10.1021/acs.analchem.3c04696 |
+| R06634 | 2023 | monkeypox virus A29L | SiO2-Au/DQD dual-signal LFIA; SiO2-Au/DQD (colorimetric + fluorescent) | NR | colorimetric 0.5 ng/mL (same as traditional AuNP-LFIA); fluorescence 0.0021 ng/mL | NR | visual and fluorescence | Abstract | 10.1186/s12951-023-02215-4 |
+| R06399 | 2023 | respiratory virus and bacteria | graphene oxide colorimetric/fluorescence dual-mode ICA; AuNPs 16 nm + QD layers on graphene oxide (colorimetric + fluorescent) | complex samples | NR | NR | visual and fluorescence | Abstract | 10.1016/j.jhazmat.2023.132192 |
+| R07366 | 2025 | SARS-CoV-2, MPXV and others | WGA-modified MAuDQD three-in-one probe LFA; Fe3O4/Au/QD | 33 clinical samples | 0.1-0.5 ng/mL visual; fluorescence pg/mL (not colorimetric) | not reported | visual + fluorescence | Abstract | 10.1002/smll.202406053 |
+| R07558 | 2025 | HPV16/18 | dual-OR logic-gated LFS, colorimetric + fluorescence; not reported | clinical samples | 10 aM | colorimetric sens >90%; fluorescence >95% | visual + fluorescence | Abstract | 10.1021/acs.analchem.4c05778 |
+| R03344 | 2021 | SARS-CoV-2 IgA | dual optical/chemiluminescence LFIA; colorimetric (and chemiluminescent) channel | 25 sera, 9 saliva | semi-quantification in strong responders | NR | visual/reader | Abstract | 10.1016/j.bios.2020.112765 |
+| R02263 | 2017 | Ebola virus GP | LFA with RNs@Au (quantum dots + Au NPs) nanospheres; dual-signal nanosphere (Au colorimetric + QD fluorescent) | spiked urine, plasma, tap water | 2 ng/mL (naked eye); 0.18 ng/mL (quantitative) | NR | naked eye + fluorescence reader | Abstract | 10.1021/acs.analchem.7b02222 |
+| R08616 | 2026 | potato virus S | Rhodamine B/AuNP UiO-66 dual-mode LFIA; Rh B/AuNP@UiO-66 | field samples | 31.2 pg/mL colorimetric (AuNP LFIA 462.4 pg/mL); fluorescence 7.6 pg/mL (not colorimetric) | not reported | visual + fluorescence | Abstract | 10.3389/fmicb.2026.1876426 |
+| R05183 | 2022 | SARS-CoV-2 IgG | Ag@Au (MBA) LFIA, colorimetric and SERS dual mode; Ag nanoparticles with ultrathin Au shell (colorimetric) + SERS tag | 107 clinical sera | 0.22 pg/mL (SERS channel); colorimetric visual only | CV 7.7% (intra), 10.3% (inter) | visual (colorimetric); SERS reader | Abstract | 10.1021/acs.analchem.2c01286 |
+| R05756 | 2023 | SARS-CoV-2 N antibodies | Ag(MBA)@Au on Fe3O4 colorimetric and SERS dual-mode LFIA; Ag@Au assembled on Fe3O4 (colorimetric + SERS) | 107 clinical sera | visual 10^-8 mg/mL; SERS 0.08 pg/mL (not colorimetric) | discriminated positive, negative and weak positive | visual and SERS | Abstract | 10.1007/s00216-022-04437-1 |
+| R06886 | 2024 | SARS-CoV-2 S1 | colorimetric/SERS dual-mode LFIA with gold nanocrown; gold nanocrown (colorimetric + SERS) | spiked saliva | colorimetric 91.24 pg/mL; SERS 39.65 fg/mL | NR | visual and SERS | Abstract | 10.1021/acs.analchem.3c04361 |
+| R07770 | 2025 | SARS-CoV-2 N protein | Au@Ag SERS-LFIA; Au@Ag | 20 patients, 20 controls | 300 pg/mL colorimetric; 2.16 pg/mL SERS (150x, not colorimetric) | neg 100%, pos 85% | visual + SERS | Abstract | 10.1016/j.aca.2025.344149 |
+| R06367 | 2023 | monkeypox virus | MoS2@Au-Au colorimetric-SERS ICA; multilayer AuNPs on MoS2 (colorimetric + SERS) | complex samples | >500x better than traditional AuNP ICA | RSD <9.89% | visual and SERS | Abstract | 10.1016/j.jhazmat.2023.132136 |
+| R07462 | 2025 | influenza A antibody | Ag-coated Au nanostar LFIA, colorimetric + SERS; Au nanostar@Ag | not reported | 0.1 ng/mL colorimetric; 8.0 pg/mL SERS | not reported | visual + SERS | Abstract | 10.1016/j.talanta.2024.127351 |
+| R07482 | 2025 | PEDV, PoRV | gold-magnetic SERS immunochromatography; Au-magnetic NP | not reported | SERS 46.3 TCID50/mL, 330 copies/uL (not colorimetric) | not reported | visual + SERS | Abstract | 10.1016/j.talanta.2024.127428 |
+| R07583 | 2025 | PEDV, PoRVA | core-shell Au@Ag SERS-LFIA; Au@Ag | faeces | visual 6.25e2 TCID50/mL, 7.42e2 copies/uL; Raman 8.01e1, 3.19e2 (not colorimetric) | 93.3% compliance with RT-PCR | visual + SERS | Abstract | 10.1016/j.saa.2025.125863 |
+| R05486 | 2022 | SARS-CoV-2, influenza A | dual-mode SERS LFA; Au/SERS tags | 39 patient samples | not reported | reduced false-negative rate | visual + SERS | Abstract | 10.1186/s40580-022-00330-w |
+| R08134 | 2025 | respiratory viruses | PDA-integrated Au@Ag colorimetric/SERS LFIA; Au@Ag on PDA | 36 clinical samples | 2 to >750x vs Au@Ag-LFIA and commercial Au-LFIA/ELISA (combined colorimetric and SERS) | 100% accuracy (36 samples) | visual + SERS | Abstract | 10.1007/s00604-025-07587-y |
+| R06118 | 2023 | SARS-CoV-2 neutralizing antibody | Au-Ag hollow nanoshell tri-mode LFIA (colorimetric, photothermal, SERS); Au-Ag hollow nanoshells | 98 vaccinated volunteers (79 positive) | quantitative 20 ng/mL (mode NR) | NR | visual + photothermal + SERS | Abstract | 10.1016/j.aca.2023.341102 |
+| R06484 | 2023 | SARS-CoV-2 nucleocapsid | MagAu(shell) enrichment + photothermal/colorimetric LFIA; Au nanoshells on Fe3O4 nanoclusters | complex samples | 2 orders of magnitude gain with enrichment | NR | visual and photothermal | Abstract | 10.1016/j.bios.2023.115688 |
+| R06797 | 2024 | SARS-CoV-2 N antibodies | Au@Pt nanostar colorimetric/photothermal dual-mode LFIA; Au@Pt nanostars | NR | colorimetric 1 ng/mL (2 orders below commercial colloidal gold strips); photothermal 24.91 pg/mL | NR | visual and photothermal | Abstract | 10.1016/j.aca.2024.342241 |
+| R06802 | 2024 | SARS-CoV-2 | Ag@Au nanoplates colorimetric/photothermal dual-mode LFIA; Ag@Au nanoplates | 35 clinical samples | photothermal 40 pg/mL, 25-fold lower than colorimetric (colorimetric LOD NR) | NR | visual and photothermal | Abstract | 10.1021/acs.analchem.3c05787 |
+| R06972 | 2024 | SARS-CoV-2 N protein | gold nanorod colorimetric/photothermal dual-mode LFIA; gold nanorods | 40 nasal swab samples; spiked saliva | colorimetric 2 ng/mL; photothermal 0.096 ng/mL | agreement 87.5% with nucleic acid test | visual and photothermal | Abstract | 10.1039/d4ay00347k |
+| R07456 | 2025 | H3N2, SARS-CoV-2 | dual-mode multiplex LFIA, Janus Au-Fe3O4; Au-Fe3O4 | complex samples | 50 ng/mL naked eye; photothermal 2-7 pg/mL (not colorimetric) | not reported | visual + photothermal | Abstract | 10.1016/j.bios.2024.117030 |
+| R07529 | 2025 | HIV DNA | Au/Ti3C2Tx dual-mode LFB; Au/Ti3C2Tx | human serum | photothermal 0.01 nM (not colorimetric) | not reported | visual + photothermal | Abstract | 10.1016/j.aca.2024.343588 |
+| R07634 | 2025 | influenza A H1N1 | gold nanocage dual-modal LFIA; gold nanocages | spiked saliva | 1.8 ng/mL colorimetric; 7x vs GNP; photothermal 1.51 pg/mL (not colorimetric) | not reported | visual + photothermal | Abstract | 10.1021/acs.analchem.4c05384 |
+| R07942 | 2026 | mpox | Fe3O4-Au heterodimers dual-signal LFIA; Fe3O4-Au | serum, saliva | 5 ng/mL naked eye; photothermal 0.04 ng/mL (125x, not colorimetric) | recovery 93.3-98.5% | visual + photothermal | Abstract | 10.1016/j.talanta.2025.128670 |
+| R08111 | 2025 | SARS-CoV-2 | MoS2 nanoflower dual-mode LFIA; MoS2 | simulated swabs | 1 ng/mL visual; photothermal 0.1 ng/mL visual, 48 pg/mL quantitative (10-208x, not colorimetric) | not reported | visual + photothermal | Abstract | 10.3390/bios15100661 |
+| R08145 | 2025 | influenza A H1N1 | PDA@Au SERS + photothermal dual-mode ICA; PDA@Au | 90 throat swabs | SERS 1.34 pg/mL, photothermal 1.03 pg/mL (746x, 971x vs commercial Au LFA; not colorimetric) | strong agreement with RT-PCR | visual + SERS + photothermal | Abstract | 10.1007/s00604-025-07611-1 |
+| R08350 | 2026 | SARS-CoV-2 IgG | CsPbBr3@SiO2-Au shell trimodal LFIA; perovskite-Au shell | not reported | photothermal 0.4 ng/mL (not colorimetric) | not reported | visual + fluorescence + photothermal | Abstract | 10.1039/d5cc07358h |
+| R06882 | 2024 | HPV16, HPV18 | Au@PdPt dual-mode immunoassay (strip); Au@PdPt nanoparticles (dual-mode) | NR | NR | NR | visual/other | Abstract | 10.1039/d3ay02307a |
+
+### Table G2. Strategy overview for multiplex and dual-mode strips
+
+| Approach | What it adds | Examples | Costs and limits seen | Table |
+|---|---|---|---|---|
+| Separate test lines | one sample, several targets | FMDV serotypes, dengue serotypes, mixed plant infections, swine and feline viruses | cross-reactivity and hook effect; per-target sensitivity varies | G1a |
+| Colour or particle encoding | targets read by colour or channel | multicolour silver and gold, barcodes, Fe3O4-Au | needs hue discrimination | G1b |
+| Nucleic-acid multiplex | targets by tag or by Cas enzyme | HPV16/18, HBV/HCV, influenza, norovirus, swine viruses | amplicon contamination; few clinical data | G1c |
+| Dual-mode | second signal for sensitivity | SERS, fluorescence, photothermal | second channel needs a reader; colorimetric limit often similar to a standard strip | G1d |
+
+## Items still to verify before this section is final
+1. All rows are abstract level; no paper of this section has been read in full yet.
+2. Dual-mode fold figures often combine channels (R06476, R08134, R06367): only the colorimetric channel counts here.
+3. R06882 (Au@PdPt dual-mode, scope-check), R08320 (HSV-1 with a fungus), R08353 (HIV with Treponema pallidum), R02358 (commentary, no abstract) and R07497 (abstract incomplete) are flagged.
+4. Fifteen marketed multiplex rapid antigen test evaluations were excluded (E10) by default; reversible.
+5. Record IDs in the tables will be replaced by numbered citations when the reference list is built.
+
+---
+
+# Part H (working text v1): newly developed strips evaluated on clinical or experimental samples
+
+Working text, 2026-11-05. Each study is described by its design, what is new and its main result; numerical detail is in the tables. All 60 records are abstract-level only (no full text read); NR = not reported in the abstract. Every DOI cited in the text appears in a table and in the evidence table.
+
+# 3.8 Newly developed diagnostic strips with clinical or experimental evaluation
+
+## 3.8.0 What this section covers and how it is organised
+
+The studies here describe a strip that its authors built or re-engineered around a particular virus and then tested on patient or animal material. The technological interest lies less in the label, which is almost always colloidal gold and often not even named in the abstract, than in the choice of target, the antibody pair or recombinant antigen, and the sample type. Studies of commercial finished kits were removed under criterion E10; a few records describe a manufacturer's own development work and are kept but flagged (see the list at the end). The section is arranged by what is detected: antigen strips for haemorrhagic and arthropod-borne viruses (3.8.1), SARS-CoV-2 antigen strips (3.8.2), SARS-CoV-2 antibody strips (3.8.3), and strips for other human and veterinary viruses (3.8.4). Section 3.8.5 states what the evidence supports. Numbers are in Tables H1a-H1d. All 60 records are from 2015-2026 and rest on abstracts.
+
+## 3.8.1 Strips for haemorrhagic and arthropod-borne viruses
+
+**Chikungunya.** A sandwich immunochromatographic test built from mouse monoclonal antibodies was evaluated on 112 sera from suspected cases in four countries and agreed with RT-PCR in 91.1% of cases, with sensitivity 89.4% and specificity 94.4% (DOI: 10.1128/jcm.02033-14). A later strip based on a new monoclonal antibody against the E1 protein was designed to cover Asian-genotype strains and showed improved sensitivity for that genotype on isolates and on field samples from Aruba and Bangladesh, but the abstract gives no figures (DOI: 10.1186/s12985-020-01364-4). A third group combined an E1/E2 antigen lateral flow test with an ELISA and tested 100 PCR-characterised samples in Honduras; the abstract reports figures only for the ELISA (sensitivity 51%, specificity 96.67%), so the strip's own performance cannot be stated (DOI: 10.3390/v12090971). A study of broad-spectrum monoclonal antibodies against chikungunya structural proteins belongs to antibody development rather than to a tested strip and is flagged as a scope check (DOI: 10.1371/journal.pone.0208851).
+
+**Dengue.** A strip using in-house monoclonal antibodies against NS1 was tested on NS1-positive samples from endemic countries and reached a sensitivity of 92.9% against 83.3% for the commercial SD Bioline NS1 strip run in the same study, with specificity of 100% (DOI: 10.1016/j.diagmicrobio.2015.03.009). An IgG/IgM strip pairing an anti-envelope domain I monoclonal antibody with cultured dengue antigen was reported to have enhanced performance, but the abstract gives no values or samples (DOI: 10.1038/srep18077).
+
+**Zika and yellow fever.** A gold-labelled IgG/IgM test with envelope and NS1 monoclonal antibodies was evaluated on samples from Brazil and Korea, with IgG sensitivity 99.0% and specificity 99.3%, and IgM sensitivity 96.7% and specificity 98.7% (DOI: 10.3347/kjp.2018.56.1.61). A different approach engineered NS1 itself, comparing an ELISA and a rapid test on characterised patient plasma, with sensitivities of 71-88% depending on the test (DOI: 10.3201/eid2705.190121). The yellow-fever NS1 strip is a negative result worth keeping: on monkey samples from Brazil the NS1 sensitivity was 0.0% with specificity 100% in human negatives (DOI: 10.3347/kjp.2019.57.3.283).
+
+**Ebola and Marburg.** This group shows how antigen choice shapes a strip. Prototype lateral flow immunoassays using recombinant-antigen monoclonal antibodies against VP40 and glycoprotein were developed for Ebola and Marburg and tested on blood samples and non-human primates, with no figures in the abstract (DOI: 10.1093/infdis/jiv353). QuickNavi-Ebola, an immunochromatography assay, detected Ebola viruses in culture supernatants at 10^3-10^4 FFU/mL and was also tried on experimental sera (DOI: 10.1093/infdis/jiw252). A strip targeting the secreted glycoprotein (sGP) was validated on monkey plasma and patient plasma from Macenta, with a detection limit of 2.2 x 10^4 genome copies/mL, sensitivity of 85.7% and specificity of 100% (DOI: 10.1371/journal.pntd.0007965). Glycoprotein-specific prototypes were compared with an emergency-use-authorised rapid test on live Zaire ebolavirus and non-human primate samples and showed improved sensitivity, but the value is not given (DOI: 10.1371/journal.pntd.0008817). The OraQuick Ebola rapid antigen test, evaluated on archived blood from patients, monkey fingerstick blood and cadaver buccal swabs, gave clinical sensitivity of 84.0% in whole blood, 90.9% in monkey fingerstick and 97.1% in cadaver swabs (DOI: 10.3390/v15020336). For Marburg and Ravn viruses, an immunochromatography assay with monoclonal antibodies detected 10^2-10^4 TCID50 per test in culture supernatants and was tested on non-human primate sera (DOI: 10.3390/v15122349).
+
+**Other haemorrhagic and zoonotic viruses.** A MERS-CoV diagnostic test using a cell-free synthesised nucleoprotein antigen and monoclonal antibodies is listed as antibody development with a scope check, because the abstract does not describe strip performance (DOI: 10.3389/fmicb.2016.00509). For Crimean-Congo haemorrhagic fever virus, an antigen-targeting test was used prospectively in Turkey (n = 73 and 52) and retrospectively in Iraq, with sensitivity 90.4% and specificity 96.2% against RT-qPCR (DOI: 10.1016/j.ebiom.2024.105460). Three hantavirus prototypes (IgM, IgG and combined) were assessed on 163 samples including 10 patients, 103 patients with related diseases and 50 healthy people, with sensitivity 100% and specificity 97.5-99.3% (DOI: 10.1016/j.diagmicrobio.2024.116521). An antibody-detecting approach for severe fever with thrombocytopenia syndrome virus used a double-antigen ELISA and an immunochromatographic assay; on time-sequential samples from four patients, antibody was detectable on days 4-7 (DOI: 10.1016/j.jviromet.2020.113942).
+
+## 3.8.2 SARS-CoV-2 antigen strips
+
+Antigen strips for SARS-CoV-2 appeared in volume from 2020. The earliest in this set, the COVID-19 Ag Respi-Strip, had a sensitivity of 57.6% and specificity of 99.5% on 328 nasopharyngeal samples, the lowest figure in this group (DOI: 10.3389/fmed.2020.00225). QuickNavi-COVID19 Ag, tested on nasopharyngeal swabs in Japan, reached sensitivity 86.7%, specificity 100% and concordance 98.8%, with sensitivity 91.7% in symptomatic patients (DOI: 10.1016/j.jiac.2021.02.029). GenBody COVAG025 was evaluated on 130 retrospective and 200 prospective swabs, with sensitivity of 90.00% in the retrospective subset and higher results at Ct of 30 or below (DOI: 10.3390/v13050796). A simple antigen test used in North India on 467 nasal swabs is reported only as 26 concordant results and 2 false positives against TrueNat (DOI: 10.3855/jidc.13925).
+
+Three studies set out explicitly to build a test for difficult settings or variants. One antigen strip for resource-limited settings detected 2.0 x 10^2 TCID50/mL and had sensitivity 87.5% and specificity 100% on 40 positive and 40 negative samples (DOI: 10.1038/s41598-021-02128-y). The Kestrel COVID-19 Ag test was developed against the nucleocapsid protein with a detection limit of 0.156 ng/mL, and two independent laboratories found sensitivity of 96.49% and 98.33% with 100% specificity (DOI: 10.3390/diagnostics12020381). A group in a lower-income setting produced horse polyclonal antibodies locally and built an open-access test, which showed sensitivity of 83.3% against RT-qPCR and 90.9% against commercial antigen tests, on nasopharyngeal swabs and spiked inactivated virus (DOI: 10.3390/bios14090416). The IgM-based antigen test was evaluated on 1,030 nasopharyngeal swabs from the USA, Poland and Sweden, with detection of 0.1 ng/mL nucleocapsid antigen and 100 TCID50/mL; the diagnostic figures are not in the abstract (DOI: 10.46234/ccdcw2024.199).
+
+Other manufacturer-linked evaluations show how the strips behaved across variants and sites. The ND COVID-19 lateral flow test gave sensitivity of 85% and specificity of 100% on 400 swabs, 100% sensitivity at Ct below 25 and 50% at Ct of 30 or above (DOI: 10.3390/biomedicines10071558). The Hotgen colloidal-gold test was evaluated on 446 nasal swabs in Brazil and 246 nasopharyngeal swabs in the UK, with sensitivity of 88.2%, specificity of 100%, and variant-specific detection limits from 2.5 x 10^2 PFU/mL (Delta) to 2.5 x 10^3 PFU/mL (Gamma) (DOI: 10.1128/spectrum.02012-22). The InteliSwab test, tested on 165 symptomatic subjects, had sensitivity of 85.2% and specificity of 98.1%, with variant detection limits not given in the abstract (DOI: 10.3390/v16010061). The AMAZING antigen sealing-tube test strip with colloidal gold was assessed in 584 participants; the abstract is truncated and only notes that 72.5% of 120 positives were Omicron (DOI: 10.3390/diagnostics12051279).
+
+## 3.8.3 SARS-CoV-2 antibody strips
+
+The antibody strips are mostly evaluated on sera from confirmed patients, and the labels and antigens are largely not named in the abstracts. The main variable is the stage of illness. A combined IgM-IgG test had sensitivity of 88.66% and specificity of 90.63% on 397 PCR-positive and 128 negative samples across eight sites (DOI: 10.1002/jmv.25727). A colloidal-gold test showed how strongly sensitivity depends on timing: 11.1% in days 1-7, 92.9% in days 8-14 and 96.8% after day 14, with plasma and whole blood agreeing (kappa 0.93) (DOI: 10.1016/j.jinf.2020.03.051). A gold immunochromatographic assay with recombinant spike proteins had sensitivity of 92.09% and specificity of 99.44% on 455 positive and 710 negative samples (DOI: 10.1007/s10096-020-04102-4). A rapid antibody kit used in infected patients is listed without figures in the abstract (DOI: 10.1111/crj.13331). A nucleocapsid-based strip had analytical sensitivity of 88.56% and specificity of 97.42% (DOI: 10.1186/s12879-021-06568-9), and a further rapid kit on 375 samples reached 95.85% and 97.47% (DOI: 10.1039/d0ra04107f). The ALLtest IgM-IgG strip, used on more than 1,000 sera from Hubei and Zhejiang, gave sensitivity of 92.58-97.55% and specificity of 92.14-96.28% (DOI: 10.3389/fcimb.2022.915751).
+
+Two studies add a comparator or a different antigen. An Egyptian group compared a home-made ELISA with a lateral flow assay for nucleocapsid antibodies, finding LFA sensitivity of 96.5%, specificity 93.75%, positive predictive value 98.2% and negative predictive value 88.2%, against 86% and 92% for the ELISA (DOI: 10.1080/15321819.2023.2224865). A strip with a chimeric spike/nucleocapsid antigen, tested on 811 sera from 349 patients and 193 controls, had sensitivity rising from 85% in week 1 to 94% in week 4 (DOI: 10.1016/j.heliyon.2024.e29938). The COVIBLOCK strip was used to detect anti-spike antibodies in vaccinated adults, including immunosuppressed people, with visual scores correlating with ELISA levels (DOI: 10.1016/j.jcvp.2023.100135).
+
+## 3.8.4 Strips for other human and veterinary viruses
+
+**Enterovirus, adenovirus and HIV.** Colloidal-gold IgM immunochromatographic assays for enterovirus 71 and coxsackievirus A16 were tested on 1,465 sera, with sensitivity of 97.6% (330/338) for EV71 and 91.6% (296/323) for CA16 against PCR (DOI: 10.1016/j.jviromet.2016.01.015). A prototype adenovirus immunochromatographic test on nasopharyngeal lavage reached sensitivity of 100% and specificity of 85% against direct fluorescent antibody testing (DOI: 10.1016/j.bjid.2017.03.023). The Daina Screen HIV Combo, a fourth-generation strip detecting p24 antigen and antibody, was used to screen 17,373 pre-operative samples and found 24 p24-positive and 49 antibody-positive cases (DOI: 10.1016/j.jviromet.2019.113746).
+
+**Hepatitis viruses and HTLV.** The EuDx-HE triplex point-of-care test for hepatitis A IgM, HBsAg and anti-HCV was evaluated on 1,581 sera, with higher sensitivity than SD BIOLINE and slightly lower specificity for HAV and HBsAg (DOI: 10.1002/jmv.25405). A rapid hepatitis delta antibody test reached sensitivity of 94.6% (314/332) and specificity of 100% (142/142) against ELISA on 474 samples (DOI: 10.3390/v13122371). For hepatitis C, a nanoparticle-enhanced gold test for antibodies reached sensitivity of up to 97.5% and specificity of 98.2% (DOI: 10.1016/j.diagmicrobio.2026.117614), and the SMART-C test used a smart polymer to enrich HCV core antigen before a gold lateral flow readout, with sensitivity of 94.6% (474/501) against Cobas RNA PCR on 1,353 paired samples (DOI: 10.1093/infdis/jiag450). A rapid screening test for HTLV-I/II using recombinant antigens had sensitivity of 99.42% and specificity of 100% on serum, plasma and whole blood (DOI: 10.1186/s12879-024-09791-2).
+
+**Human papillomavirus.** HPV strips split into oncoprotein (E6) and serological formats. An E6 immunochromatographic test on 448 women had lower sensitivity than HPV DNA testing for CIN2+ but higher specificity (DOI: 10.1371/journal.pone.0164892), and a similar E6 strip applied to cervical, self-collected vaginal and urine samples detected invasive cancer in 70%, 55% and 52% of cases, respectively (DOI: 10.1371/journal.pone.0232105). An L1 antibody method correlated with an ELISA (DOI: 10.1371/journal.pone.0171314), the CER818 serological test targeted high-risk L1 antibodies in 138 patients, 21 vaccinees and 246 controls without figures in the abstract (DOI: 10.1155/2024/6651272), and a multiplex strip for HPV16 E2, E6 and E7 antibodies reached panel sensitivity of 76.5% and specificity of 92.6% (119 cases, 81 controls) (DOI: 10.1177/18758592241311183).
+
+**Herpesviruses and polyomavirus.** A fingerstick-blood strip for varicella-zoster IgG was more sensitive than ELISA on WHO standard dilutions (DOI: 10.1016/j.jim.2023.113429). A urinary antigen test for BK polyomavirus VP1 reported detection of about 1 ug/mL VP1 pentamers in urine (DOI: 10.1016/j.jviromet.2025.115113). A recombinant-antigen ELISA and gold immunochromatographic assay for HCMV IgG was evaluated on 573 sera, but the abstract gives no figures (DOI: 10.1186/s12879-026-13424-1).
+
+**Mpox and a veterinary virus.** An mpox antigen strip using monoclonal antibodies against A5L detected 0.5 ng/mL and 4.4 x 10^2 to 2.1 x 10^3 pfu/mL, with sensitivity of 87% at Ct of 25 or below and specificity of 100% (DOI: 10.1016/j.jviromet.2025.115164). A second mpox study, built around an A29L monoclonal antibody, is a useful cautionary result: the ELISA detected 31.25 pg/mL and had sensitivity of 95% and specificity of 100% in plasma, but the lateral flow version reached only 58.3% (7/12) in plasma and 40.0% (4/10) in vesicular fluid (DOI: 10.1128/spectrum.00167-26). The one veterinary strip in this section compared a novel feline leukaemia virus test with five commercial tests on blood, plasma and serum; the Vet Expert and SNAP tests gave 100% sensitivity, specificity and accuracy (DOI: 10.1186/s12985-025-03015-y).
+
+## 3.8.5 What the evidence supports
+
+Four points follow from the abstracts, with the caveat that none of these papers was read in full. First, antigen strips for haemorrhagic fever viruses rest on the choice of target protein (VP40, glycoprotein, sGP, NS1), and the studies that report a number show detection limits in the range of 10^2-10^4 infectious units, so these strips suit symptomatic, high-viral-load patients. Second, SARS-CoV-2 antigen strips report sensitivities between 57.6% and 98.3% against RT-PCR, and where the abstract stratifies by Ct, performance falls as Ct rises (DOI: 10.3390/biomedicines10071558; DOI: 10.3390/v13050796). Third, antibody strips depend on the days since onset (DOI: 10.1016/j.jinf.2020.03.051). Fourth, a lateral flow version of a good ELISA can lose a great deal of sensitivity, as the mpox A29L result shows (DOI: 10.1128/spectrum.00167-26). Because sample sets, reference methods and Ct definitions differ, the figures should be compared only within each table.
+
+### Table H1a. Development strips: haemorrhagic and arthropod-borne viruses
+
+| Rec | Year | Target | Format / label | Matrix | LOD (as stated) | Within-paper comparison and diagnostic data | Readout | Evidence | DOI |
+|---|---|---|---|---|---|---|---|---|---|
+| R01563 | 2015 | chikungunya virus | sandwich ICT with mouse mAbs | serum, 112 suspected cases (Thailand, Laos, Indonesia, Senegal) | NR | sens 89.4%, spec 94.4%, RT-PCR agreement 91.1% | visual | Abstract | 10.1128/jcm.02033-14 |
+| R03104 | 2020 | chikungunya virus E1 | IC RDT with new mAbs | isolates; Aruba 2015, Bangladesh 2017 samples | NR | improved sensitivity for Asian genotype (values NR) | visual | Abstract | 10.1186/s12985-020-01364-4 |
+| R03224 | 2020 | chikungunya virus E1/E2 | lateral flow test and ELISA | 100 PCR-tested samples, Honduras (ELISA) | NR | ELISA sens 51%, spec 96.67% (95.45%/92.03% at Ct<=22) | visual | Abstract | 10.3390/v12090971 |
+| R02545 | 2018 | chikungunya virus | broad-spectrum mAbs for IC test development | NR | NR | NR | NR | Abstract | 10.1371/journal.pone.0208851 |
+| R01646 | 2015 | dengue NS1 | NS1 RDT with in-house mAbs | clinical NS1+ samples from endemic countries | NR | sens 92.9% vs 83.3% for SD Bioline NS1; spec 100% | visual | Abstract | 10.1016/j.diagmicrobio.2015.03.009 |
+| R01807 | 2015 | dengue IgG/IgM | RDT with anti-EDI mAb and cultured DENV antigen | NR | NR | enhanced performance (values NR) | visual | Abstract | 10.1038/srep18077 |
+| R02344 | 2018 | Zika virus IgG/IgM | RDT with E and NS1 mAbs, gold (colloidal gold) | Brazil and Korea samples | NR | IgG sens 99.0%, spec 99.3%; IgM sens 96.7%, spec 98.7% | visual | Abstract | 10.3347/kjp.2018.56.1.61 |
+| R03861 | 2021 | Zika virus | ELISA and rapid ICT using engineered NS1 | characterised patient plasma | NR | sens 71-88% depending on test | visual | Abstract | 10.3201/eid2705.190121 |
+| R02736 | 2019 | yellow fever NS1 | colloidal gold RDT (colloidal gold) | monkey samples (Brazil), human negatives | NR | sensitivity 0.0% (NS1); specificity 100% | visual | Abstract | 10.3347/kjp.2019.57.3.283 |
+| R01723 | 2015 | Ebola/Marburg (VP40, GP) | prototype LFI with recombinant-antigen mAbs | blood samples; NHP | NR | NR | visual | Abstract | 10.1093/infdis/jiv353 |
+| R01950 | 2016 | Ebolaviruses | QuickNavi-Ebola IC | culture supernatants, experimental sera | 10^3-10^4 FFU/mL | NR | visual | Abstract | 10.1093/infdis/jiw252 |
+| R02879 | 2020 | Ebola virus (sGP) | sGP-targeted RDT | monkey plasma; patient plasma, Macenta | 2.2 x 10^4 genome copies/mL | sens 85.7%, spec 100% | visual | Abstract | 10.1371/journal.pntd.0007965 |
+| R03358 | 2020 | Zaire ebolavirus | glycoprotein-specific LFI prototypes | live EBOV; NHP clinical samples | improved sensitivity vs EUA-approved RDT (value NR) | NR | visual | Abstract | 10.1371/journal.pntd.0008817 |
+| R05997 | 2023 | Ebola virus | OraQuick Ebola Rapid Antigen Test | archived EVD blood, monkey fingerstick, cadaver buccal swabs | NR | clinical sens 84.0% (WB), 90.9% (monkey), 97.1% (cadaver swabs) | visual | Abstract | 10.3390/v15020336 |
+| R06710 | 2023 | Marburg virus, Ravn virus | immunochromatography with mAbs | culture supernatants; NHP sera | 10^2-4 TCID50/test | NR | visual | Abstract | 10.3390/v15122349 |
+| R01904 | 2016 | MERS-CoV | diagnostic test using cell-free synthesised NP antigen mAbs | NR | NR | NR | NR | Abstract | 10.3389/fmicb.2016.00509 |
+| R07421 | 2024 | CCHFV | antigen-targeting RDT | prospective Turkey (n=73/52), Iraq retrospective | not reported | sens 90.4%, spec 96.2% vs RT-qPCR | visual | Abstract | 10.1016/j.ebiom.2024.105460 |
+| R07283 | 2024 | hantavirus (IgM/IgG) | three LFIA prototypes (IgM, IgG, IgM/IgG) | 163 samples (10 patients, 103 related diseases, 50 healthy) | not reported | sens 100%, spec 97.5-99.3% | visual | Abstract | 10.1016/j.diagmicrobio.2024.116521 |
+| R03178 | 2020 | SFTSV nucleoprotein antibo | double-antigen ELISA and ICA | time-sequential samples, 4 patients | NR | antibody detectable days 4-7 | visual | Abstract | 10.1016/j.jviromet.2020.113942 |
+
+### Table H1b. Development strips: SARS-CoV-2 antigen strips
+
+| Rec | Year | Target | Format / label | Matrix | LOD (as stated) | Within-paper comparison and diagnostic data | Readout | Evidence | DOI |
+|---|---|---|---|---|---|---|---|---|---|
+| R03084 | 2020 | SARS-CoV-2 antigen | COVID-19 Ag Respi-Strip | 328 NP samples | not reported | sens 57.6%, spec 99.5% | visual | Abstract | 10.3389/fmed.2020.00225 |
+| R03731 | 2021 | SARS-CoV-2 antigen | QuickNavi-COVID19 Ag | NP swabs, Japan | not reported | sens 86.7%, spec 100%, concordance 98.8%; symptomatic 91.7% | visual | Abstract | 10.1016/j.jiac.2021.02.029 |
+| R03894 | 2021 | SARS-CoV-2 | GenBody COVAG025 | 130 retrospective + 200 prospective NP swabs | NR | sens 90.00% (27/30 subset) retrospective; higher at Ct<=30 | visual | Abstract | 10.3390/v13050796 |
+| R04201 | 2021 | SARS-CoV-2 antigen | simple antigen test, North India | 467 nasal swabs | not reported | 26 concordant, 2 false positive vs TrueNat | visual | Abstract | 10.3855/jidc.13925 |
+| R04550 | 2021 | SARS-CoV-2 | antigen RDT for resource-limited settings | 40 positive, 40 negative | 2.0 x 10^2 TCID50/mL | sens 87.5%, spec 100% | visual | Abstract | 10.1038/s41598-021-02128-y |
+| R04818 | 2022 | SARS-CoV-2 variants | Kestrel COVID-19 Ag RDT | 2 independent laboratories | 0.156 ng/mL N protein | sens 96.49% and 98.33%, spec 100%, accuracy 99.01% and 99.44% | visual | Abstract | 10.3390/diagnostics12020381 |
+| R07311 | 2024 | SARS-CoV-2 | open-access LFT with locally produced horse pAb | NP swabs, spiked inactivated virus | not reported | sens 83.3% vs RT-qPCR; 90.9% vs commercial antigen tests | visual | Abstract | 10.3390/bios14090416 |
+| R07323 | 2024 | SARS-CoV-2 | IgM-based Ag-RDT (NPS) | 1,030 NPS (USA, Poland, Sweden) | 0.1 ng/mL N antigen; 100 TCID50/mL | not reported in abstract vs RT-PCR | visual | Abstract | 10.46234/ccdcw2024.199 |
+| R05346 | 2022 | SARS-CoV-2 | ND COVID-19 LFT | 400 NP swabs | NR | sens 85% (76.7-90.7), spec 100% (98.7-100); sens 100% (Ct<25), 50% (Ct>=30) | visual | Abstract | 10.3390/biomedicines10071558 |
+| R05773 | 2022 | SARS-CoV-2 | Hotgen Novel Coronavirus Antigen Test (Colloidal Gold) (colloidal gold) | 446 nasal swabs (Brazil), 246 NP (UK) | 1.0 x 10^3 PFU/mL (Alpha), 2.5 x 10^2 (Delta), 2.5 x 10^3 (Gamma), 1.0 x 10^3 (Omicron) | sens 88.2% (81.3-93.3), spec 100% (99.1-100) | visual | Abstract | 10.1128/spectrum.02012-22 |
+| R06771 | 2023 | SARS-CoV-2 variants | InteliSwab COVID-19 Rapid Test | 165 symptomatic subjects; recombinant NPs | LOD for VOCs (values NR) | sens 85.2% (74.3-92.0), spec 98.1% (93.3-99.7) | visual | Abstract | 10.3390/v16010061 |
+| R05154 | 2022 | SARS-CoV-2 | AMAZING Antigen Sealing Tube Test Strip (colloidal gold) (colloidal gold) | 584 participants | NR | NR (abstract truncated); Omicron 72.5% of 120 positives | visual | Abstract | 10.3390/diagnostics12051279 |
+
+### Table H1c. Development strips: SARS-CoV-2 antibody strips
+
+| Rec | Year | Target | Format / label | Matrix | LOD (as stated) | Within-paper comparison and diagnostic data | Readout | Evidence | DOI |
+|---|---|---|---|---|---|---|---|---|---|
+| R02907 | 2020 | SARS-CoV-2 IgM/IgG | rapid IgM-IgG combined test | 397 PCR+ and 128 negative, 8 sites | NR | sens 88.66%, spec 90.63% | visual | Abstract | 10.1002/jmv.25727 |
+| R02954 | 2020 | SARS-CoV-2 IgM/IgG | colloidal gold ICG assay (colloidal gold) | COVID-19 patients | NR | sens 11.1% (days 1-7), 92.9% (8-14), 96.8% (>14); plasma/whole blood kappa 0.93 | visual | Abstract | 10.1016/j.jinf.2020.03.051 |
+| R03384 | 2021 | SARS-CoV-2 Ab | GICA with recombinant spike proteins (AuNP) | 455 positive, 710 negative | not reported | sens 92.09%, spec 99.44% | visual | Abstract | 10.1007/s10096-020-04102-4 |
+| R03569 | 2021 | SARS-CoV-2 antibodies | rapid antibody detection kit | infected patients | NR | NR | visual | Abstract | 10.1111/crj.13331 |
+| R04270 | 2021 | SARS-CoV-2 antibodies | rapid antibody LFA with recombinant N protein | COVID-19 patients | NR | analytical sens 88.56%, spec 97.42% | visual | Abstract | 10.1186/s12879-021-06568-9 |
+| R05077 | 2020 | SARS-CoV-2 IgM/IgG | rapid detection kit | 375 samples | NR | sens 95.85%, spec 97.47% | visual | Abstract | 10.1039/d0ra04107f |
+| R05231 | 2022 | SARS-CoV-2 IgM/IgG | ALLtest rapid IgM-IgG | >1000 sera, Hubei and Zhejiang | NR | sens 92.58-97.55%, spec 92.14-96.28% | visual | Abstract | 10.3389/fcimb.2022.915751 |
+| R06267 | 2023 | SARS-CoV-2 N antibodies | in-house ELISA and LFA | Egyptian patients | NR | LFA sens 96.5%, spec 93.75%, PPV 98.2%, NPV 88.2% (ELISA 86%/92%) | visual | Abstract | 10.1080/15321819.2023.2224865 |
+| R07018 | 2024 | SARS-CoV-2 IgG | LFIA with chimeric S/N antigen | 811 sera from 349 patients, 193 controls | NR | sens 85% (week 1) to 94% (week 4) | visual | Abstract | 10.1016/j.heliyon.2024.e29938 |
+| R05874 | 2023 | SARS-CoV-2 anti-spike anti | COVIBLOCK LFA vs ELISA | vaccinated adults incl. immunosuppressed | NR | scores correlate with ELISA levels | semiquantitative visual | Abstract | 10.1016/j.jcvp.2023.100135 |
+
+### Table H1d. Development strips: other human and veterinary viruses
+
+| Rec | Year | Target | Format / label | Matrix | LOD (as stated) | Within-paper comparison and diagnostic data | Readout | Evidence | DOI |
+|---|---|---|---|---|---|---|---|---|---|
+| R01857 | 2016 | enterovirus 71, coxsackiev | colloidal gold IgM ICAs (colloidal gold) | 1465 sera | NR | sens EV71 97.6% (330/338), CA16 91.6% (296/323) vs PCR | visual | Abstract | 10.1016/j.jviromet.2016.01.015 |
+| R02153 | 2017 | adenovirus | prototype ICT | nasopharyngeal lavage | NR | sens 100%, spec 85% vs DFA | visual | Abstract | 10.1016/j.bjid.2017.03.023 |
+| R02790 | 2019 | HIV-1 p24 and antibody | Daina Screen HIV Combo 4th-generation LFIA | 17,373 preoperative samples | NR | 24 p24-positive, 49 antibody-positive | visual | Abstract | 10.1016/j.jviromet.2019.113746 |
+| R02579 | 2019 | HAV IgM, HBsAg, anti-HCV | EuDx-HE (A,B,C) triplex POC | 1581 sera | NR | higher sens than SD BIOLINE; spec slightly lower (HAV, HBsAg) | visual | Abstract | 10.1002/jmv.25405 |
+| R04630 | 2021 | hepatitis delta virus | rapid HDV antibody POC test | 474 patient samples | NR | sens 94.6% (314/332), spec 100% (142/142) vs ELISA | visual | Abstract | 10.3390/v13122371 |
+| R08711 | 2026 | HCV antibodies | AuNP ICT (AuNP) | clinical sera | ELISA S/Co ~1.14 | sens up to 97.5%, spec 98.2%, accuracy 97.6% | visual | Abstract | 10.1016/j.diagmicrobio.2026.117614 |
+| R08763 | 2026 | HCV antigen | SMART-C smart polymer + AuNP LFA (AuNP) | 1,353 paired samples | not reported | sens 94.6% (474/501) vs Cobas RNA PCR | visual | Abstract | 10.1093/infdis/jiag450 |
+| R07252 | 2024 | HTLV-I/II | commercial-type rapid test (ASSURE HTLV-I/II), recombinant a | serum, plasma, whole blood | not reported | sens 99.42% (95% CI 98.32-99.88), spec 100% (99.58-100) | visual | Abstract | 10.1186/s12879-024-09791-2 |
+| R01999 | 2016 | HPV16/18 E6 | E6 immunochromatographic test | 448 women | NR | lower sens than HPV-DNA test for CIN2+, higher specificity | visual | Abstract | 10.1371/journal.pone.0164892 |
+| R02970 | 2020 | HPV16/18 E6 | E6 ICA on urine, vaginal, cervical samples | cervical, self-collected vaginal, urine | NR | invasive cancer sens 70% (cervical), 55% (vaginal), 52% (urine) | visual | Abstract | 10.1371/journal.pone.0232105 |
+| R02063 | 2017 | HPV16/18 L1 antibodies | IC method | serum | NR | correlated with MB-ELISA | NR | Abstract | 10.1371/journal.pone.0171314 |
+| R07217 | 2024 | HPV L1 high-risk antibodie | CER818 serological lateral flow test | 138 patients, 21 vaccinees, 246 controls | NR | NR | visual | Abstract | 10.1155/2024/6651272 |
+| R07672 | 2025 | HPV16 E2/E6/E7 antibodies | multiplex LFA | 119 cases, 81 controls | not reported | panel sens 76.5%, spec 92.6% | visual | Abstract | 10.1177/18758592241311183 |
+| R05901 | 2023 | varicella-zoster virus IgG | LFA in fingerstick blood | fingerstick blood | more sensitive than ELISA on WHO standard dilutions | NR | visual | Abstract | 10.1016/j.jim.2023.113429 |
+| R07573 | 2025 | BK polyomavirus VP1 | urinary antigen test | urine | ~1 ug/mL VP1 pentamers | not reported | visual | Abstract | 10.1016/j.jviromet.2025.115113 |
+| R08520 | 2026 | HCMV IgG | recombinant antigen ELISA and GICA (AuNP) | 573 sera | not reported | not reported in abstract | visual | Abstract | 10.1186/s12879-026-13424-1 |
+| R07745 | 2025 | MPXV | MPXV antigen RDT | clinical samples | 0.5 ng/mL A5L; 4.4e2-2.1e3 pfu/mL | sens 87% (Ct<=25), spec 100% | visual | Abstract | 10.1016/j.jviromet.2025.115164 |
+| R08580 | 2026 | MPXV A29L | A29L mAb ELISA and LFIA | plasma, vesicular fluid | ELISA 31.25 pg/mL | LFIA sens 58.3% (7/12) plasma, 40.0% (4/10) vesicular fluid; ELISA sens 95%, spec 100% plasma | visual | Abstract | 10.1128/spectrum.00167-26 |
+| R08175 | 2025 | FeLV | novel assay vs five commercial FeLV tests | blood, plasma, serum | not reported | Vet Expert and SNAP sens/spec/accuracy 100% | visual | Abstract | 10.1186/s12985-025-03015-y |
+
+### Table H2. Strategy overview
+
+| Group | What defines the studies | Examples | Costs and limits seen | Table |
+|---|---|---|---|---|
+| Haemorrhagic and arthropod-borne antigen strips | in-house monoclonals or recombinant antigens against NS1, E1, VP40, sGP | dengue, chikungunya, Ebola, Marburg, CCHFV | most abstracts lack figures; limits 10^2-10^4 units | H1a |
+| SARS-CoV-2 antigen strips | nucleocapsid antibody pairs, sometimes locally made antibodies | Kestrel, Hotgen, InteliSwab, open-access horse pAb | sensitivity falls at high Ct | H1b |
+| SARS-CoV-2 antibody strips | recombinant S or N antigen, gold anti-human IgG/IgM | ALLtest, chimeric S/N | sensitivity depends on days since onset | H1c |
+| Other human and veterinary viruses | disease-specific antigen or antibody formats | hepatitis, HPV, HTLV, mpox, FeLV | single studies, heterogeneous designs | H1d |
+
+### Table H3. Reporting checklist for papers read in full
+
+No paper in this section was read in full; the checklist is therefore not applicable and will be completed if full texts are supplied.
+
+## Items still to verify before this section is final
+1. All 60 rows are abstract-level; matrix, reference method and sample size stay NR where the abstract is silent.
+2. Boundary cases flagged for the author: R01904 and R02545 (antibody development, no strip performance in the abstract); R03224 (figures given only for the ELISA); R05154 (abstract truncated).
+3. Manufacturer-linked or named-kit studies retained because they report development or analytical work: R02790, R03731, R03894, R04201, R05346, R05773, R05874, R05997, R06771, R07252, R08175. Whether to apply E10 to these should be decided by the author.
+4. Record IDs in the tables will be replaced by numbered citations when the reference list is built.
+
+---
+
+# Part I (working text v1): veterinary, aquaculture, plant and other non-human-clinical viruses
+
+Working text, 2026-11-06. Each study is described by its design, what is new and its main result; numerical detail is in the tables. All 230 records are abstract-level only (no full text read); NR = not reported in the abstract. Every DOI cited in the text appears in a table and in the evidence table. Each record is discussed once, in this section, under the host where its main contribution lies; records in sections E and G are not repeated here.
+
+# 3.9 Strips for veterinary, aquaculture, plant and other non-human-clinical viruses
+
+## 3.9.0 What this section covers and how it is organised
+
+The strips in this section address animal, aquatic and plant viruses, with a few zoonotic and vector-surveillance records. Two design families recur. The first is the classical immunochromatographic strip: a colloidal-gold (or occasionally latex) label with monoclonal or polyclonal antibodies against a viral antigen, or a recombinant viral antigen to capture host antibodies. The second is a nucleic-acid strip: isothermal amplification (recombinase polymerase amplification, RPA; recombinase-aided amplification, RAA; multienzyme isothermal rapid amplification, MIRA; loop-mediated amplification, LAMP; enzymatic recombinase amplification, ERA) or CRISPR-Cas12/13 detection, ending in a lateral flow readout. Veterinary papers rarely report diagnostic accuracy against a gold standard in the way human studies do; many give only a detection limit and a cross-reactivity check, and sample numbers are often small. Sections follow the host: aquaculture and aquatic animals (3.9.1), plant viruses (3.9.2), companion animals (3.9.3), pigs (3.9.4), poultry and waterfowl (3.9.5), ruminants, horses and other livestock (3.9.6), and zoonotic, vector and wildlife records (3.9.7). Section 3.9.8 states what the evidence supports. Tables are I1a-I1g. All records are from 2015-2026, and 106 of 230 are from 2025-2026, so the section is weighted towards recent amplification-plus-strip work.
+
+## 3.9.1 Aquaculture and aquatic animals
+
+**Antigen strips.** The oldest aquatic strips use gold-labelled antibodies. Competitive immunochromatographic strips with IgY-gold probes were built for swimming crab reovirus (detecting all artificially infected samples and compared with ELISA, 90 crabs) and for the soft-shelled turtle systemic septicaemia spherical virus (50.0 ug/mL by eye, with good agreement with ELISA), both from 2015 (DOI: 10.3354/dao02921; DOI: 10.1016/j.jviromet.2015.04.016). A letter on an immunochromatographic strip for *Scylla serrata* reovirus gives no data in its abstract (DOI: 10.1007/s12250-017-4008-5). A kit using monoclonal antibodies against the major capsid protein of frog virus 3 detected 10^1 TCID50/mL and was specific against related ranaviruses (DOI: 10.1016/j.jviromet.2015.07.009). Later strips targeted channel catfish virus (10^4 TCID50/mL in virus suspensions) (DOI: 10.1093/jaoacint/qsaa152), cyprinid herpesvirus 2 in gibel carp using monoclonal antibodies to ORF25, with 1 ug/mL detection and stability for six months at 4-37 C (DOI: 10.3354/dao03561), and nervous necrosis virus in golden grey mullet, where 70 naturally infected brains gave specificity 100% but sensitivity 74% against real-time RT-PCR (DOI: 10.1111/jfd.13302). A white spot syndrome virus (WSSV) strip tested on 75 field shrimp samples in India gave sensitivity 100% and specificity 96.77% (DOI: 10.1371/journal.pone.0169012); a second WSSV approach used a phage-displayed peptide as the probe, with no performance figures in the abstract (DOI: 10.1007/s00253-017-8232-6). An infectious myonecrosis virus strip using a recombinant antibody detected 10^3 viral particles and showed sensitivity 100%, specificity 86% and kappa 0.86 against qRT-PCR on 60 shrimp (DOI: 10.1007/s10126-022-10172-6). Cyprinid herpesvirus 3 in koi spleen and kidney was detected at 1.5 x 10^4 copies/uL with specificity 100% (DOI: 10.1111/jfd.13825). The most recent antigen strips are for CyHV-2 in goldfish and carp (two monoclonal antibodies, 2.08 x 10^2 TCID50/mL, specificity 100%) (DOI: 10.3354/dao03833) and infectious haematopoietic necrosis virus in trout (81 infected and 102 uninfected fish: sensitivity 97.5%, specificity 100%) (DOI: 10.1111/jfd.70014). A rapid test for two IHNV genogroups in free-ranging Pacific salmon reported diagnostic sensitivity above 94% and specificity above 97% against cell culture, but the abstract does not describe the format and the record carries a scope check (DOI: 10.3390/ani12141761).
+
+**Nucleic-acid strips.** The aquatic amplification-plus-strip studies are concentrated in 2025-2026. RPA-lateral flow and related methods were developed for red sea bream iridovirus (CPA-LFA, 385.76 copies/uL, with six false positives against qPCR in 210 fish) (DOI: 10.1111/jfd.14073), tilapia lake virus (RT-RPA-LFD at 3.19 copies/uL against 319 for RT-PCR-LFD) (DOI: 10.3390/vetsci12090845), largemouth bass ranavirus (RPA-LFD at 1 copy/uL that detected nine more positives than PCR, and an RPA-Cas12a lateral flow device that detected 100% of 24 clinical samples against 81.26% for PCR) (DOI: 10.1111/jfd.70016; DOI: 10.3390/vetsci13080825), decapod iridescent virus 1 (11.2 copies/uL, results identical to qPCR on 110 field samples) (DOI: 10.1111/jfd.70052), and FV3-like ranaviruses (RAA-LFD at 35.4 copies/uL against 354 for the fluorescence version, consistent with real-time PCR in 53 samples) (DOI: 10.1016/j.fsi.2025.110154). A duplex RT-RPA for infectious pancreatic necrosis virus and viral haemorrhagic septicaemia virus is described without figures in the abstract (DOI: 10.1111/jfd.70029), and two MIRA methods for MSRV reached 9 copies/uL (DOI: 10.1111/jfd.70191). Aptamer recognition of largemouth bass virus-infected cells (8 x 10^1 per mL) is the one non-antibody, non-amplification approach (DOI: 10.3389/fmicb.2025.1643764). CRISPR readouts appear for koi herpesvirus (RAA plus Cas13a SHERLOCK at 100 ag/uL, ten times better than PCR) (DOI: 10.1111/jfd.70079), WSSV (Cas12a dual-target, 20 and 200 copies, specificity 100%) (DOI: 10.1177/10406387251399147), and infectious hypodermal and haematopoietic necrosis virus (RAA-Cas12a, 1 copy per reaction by strip against 10 by fluorescence) (DOI: 10.1111/jfd.70196). One LAMP-lateral flow assay co-detected WSSV and *Salmonella* in shrimp at 28 copies/uL (DOI: 10.1016/j.aca.2025.344144).
+
+## 3.9.2 Plant viruses
+
+Plant-virus strips follow two lines. The antigen-strip line is dominated by Chinese and Indian groups using monoclonal antibodies against coat protein. Early double-antibody sandwich strips for lily symptomless virus and lily mottle virus matched a quadruplex RT-PCR, with sensitivity 100% and specificity 98.6-98.7% (DOI: 10.1016/j.jviromet.2015.03.021; DOI: 10.1016/j.jviromet.2015.04.010). Gold strips for soybean mosaic virus (800-fold dilution of leaf extract, 2016; and a later strip with the same sensitivity as RT-PCR, 2022), tomato zonate spot virus (800-fold) and citrus yellow vein clearing virus (30 nm gold, monoclonal 1E1) followed (DOI: 10.1016/j.jviromet.2016.05.011; DOI: 10.3390/ijms23169457; DOI: 10.1186/s12985-018-0919-5; DOI: 10.1007/s00705-017-3558-z). A strip for grapevine leafroll-associated virus 3 agreed with ELISA (sensitivity 100%, specificity 92%) and PCR (93%, 92%) (DOI: 10.3390/bios8040111). Rice stripe virus could be detected at 1:20,480 (w/v) in rice and 1:2,560 per planthopper homogenate (DOI: 10.1631/jzus.b1800563). A banana bract mosaic virus strip tested on 114 leaves gave sensitivity 99.04%, specificity 100% and kappa 0.861 against ELISA (DOI: 10.1016/j.jviromet.2020.113929), and a Satsuma dwarf virus kit applied to 1,705 orchard samples gave 11 positives that were ELISA-negative but RT-PCR-confirmed (DOI: 10.5423/ppj.nt.06.2020.0096). Later studies include Lychnis mottle virus (strip detecting up to 10,000-fold dilution, with an RT-LAMP companion at 1.42 fg/uL) (DOI: 10.1094/pdis-08-22-1970-re), plum pox virus in apricot leaves (1:6400, as sensitive as RT-PCR) (DOI: 10.3390/v15010169), cucumber green mottle mosaic virus (1:5000, no cross-reaction with TMV or CMV) (DOI: 10.3390/bios13020199), maize chlorotic mottle virus (20 blinded maize samples, consistent with RT-PCR) (DOI: 10.3390/v15071607), tomato brown rugose fruit virus (1:10,000, consistent with RT-PCR) (DOI: 10.1016/j.jviromet.2023.114841), Areca palm velarivirus 1 (100-fold dilution) (DOI: 10.3389/fmicb.2025.1533170), cucumber mosaic virus (no figures) (DOI: 10.1016/j.jviromet.2025.115190), piper yellow mottle virus with cucumber mosaic virus (polyclonal antiserum, no figures) (DOI: 10.1016/j.jviromet.2025.115238), chilli veinal mottle virus (120 tobacco samples: sensitivity 95.7%, specificity 98.0%, stable for 12 months) (DOI: 10.3389/fmicb.2025.1721102), cowpea chlorotic mottle virus (dipstick with a sample-preparation focus) (DOI: 10.3390/bios16020100), pepper mild mottle virus (1 ng/mL) (DOI: 10.3390/bios16030135), and tomato leaf curl begomoviruses with peptide-based polyclonal antibodies (DOI: 10.1016/j.jviromet.2026.115446).
+
+The nucleic-acid line is newer and mostly 2024-2026. RT-LAMP plus lateral flow for soybean mosaic virus SC7 reached 2.4 copies and was ten times more sensitive than colorimetric LAMP (DOI: 10.3389/fmicb.2024.1478218). Dual targets were detected in single tubes: pepper mild mottle virus with *Colletotrichum* by RT-RAA (0.32 copies/uL) (DOI: 10.1016/j.talanta.2024.126908) and maize dwarf mosaic virus with *Pantoea* by RPA-CRISPR/Cas13a (DOI: 10.1002/ps.8597). Other RPA, RAA or CRISPR strips target cardamom mosaic virus in field samples (two studies; the second reports 1 fg and is ten times less sensitive than qPCR) (DOI: 10.1007/s13205-024-04191-4; DOI: 10.1016/j.jviromet.2026.115468), chilli leaf curl virus (RPA-DETECTR, 7 fg plasmid DNA) (DOI: 10.3389/fmicb.2025.1644322), cucurbit leaf crumple virus in plants and whiteflies (10 viral copies) (DOI: 10.3390/ijms262110611), ToLCNDV in cucurbits (LAMP-LFD) (DOI: 10.1094/pdis-07-25-1386-re), three rice viruses (RSV, RBSDV, SRBSDV) in plants and planthoppers, where one viruliferous planthopper in 10,000 could be detected (DOI: 10.1094/pdis-02-25-0329-sr), broad bean wilt virus 2 (7.5 copies/uL, 100% accuracy on 20 field samples) (DOI: 10.1002/ps.70635), and ten tobamoviruses with a single RT-RAA-LFD (about 100 times lower than RT-PCR) (DOI: 10.1002/ps.71126). A study of Cas12a, Cas13a and miniature Cas variants across plant pathogens (1-100 copies/uL, comparable to PCR) is generic and carries a scope check because the strip is only part of it (DOI: 10.1016/j.plantsci.2026.113028).
+
+## 3.9.3 Companion animals
+
+Dog and cat strips are the most mature part of the veterinary literature, because rapid tests for parvovirus, distemper and coronavirus are used in clinics. Antigen strips for canine parvovirus used IgY antibodies (34 faecal samples, with 32.35% positive by strip against 26.47% by PCR) (DOI: 10.1089/vim.2015.0030), while a recombinant VP2 strip measured canine parvovirus 2 antibodies in vaccinated puppies (375 ng/mL, with a cut-off aligned to HAI titre 1:40) (DOI: 10.1039/d3ay01870a). A canine adenovirus strip detected about 2.0 x 10^2 TCID50/mL and reacted only with CAdV-1 and CAdV-2 (DOI: 10.3389/fmicb.2019.02882). For canine distemper virus, an optimised strip also served as a sample substitute: fresh samples were detected, stored samples inconsistently (10^6.5 TCID50/mL) (DOI: 10.1016/j.jim.2023.113438); two later monoclonal-antibody gold strips report 10^2.39 TCID50/0.1 mL, stability for two months, or no figures (DOI: 10.3390/bios15070432; DOI: 10.1016/j.ijbiomac.2025.144800), and one AuNP strip was used for quality control of 100 vaccine batches (sensitivity 98.84%, specificity 85.71% against real-time PCR) (DOI: 10.1016/j.vetimm.2026.111155). In a serological survey, a colloidal gold strip for Japanese encephalitis virus antibodies found 179 of 586 dog sera positive in Shanghai (DOI: 10.3390/v16020258).
+
+For cats, feline coronavirus antigen strips with monoclonal antibodies reported 98.3% agreement with RT-PCR on 60 samples, 70% on 10 ascites samples, and sensitivity 94.2% with specificity 100% (DOI: 10.1016/j.ijbiomac.2025.142683; DOI: 10.1128/spectrum.01830-24; DOI: 10.1177/08828245251359114). Feline parvovirus and panleukopenia virus were approached by nucleic-acid strips: RPA-LFD detected 39 of 44 positives against 26 by a colloidal gold method (DOI: 10.1155/2024/3680778), an RAA-Cas12a strip detected 2.1 copies per reaction against 2.1 x 10^3 for conventional PCR (DOI: 10.3389/fmicb.2025.1501635), a one-tube RAA-CRISPR/Cas12a strip reached 42.77 copies/uL with 97.22-100% consistency with qPCR (DOI: 10.3389/fvets.2025.1707332), and an RPA with T7 exonuclease LFA gave a 10^4-fold gain over conventional LFIA while also covering other pet pathogens (DOI: 10.1021/acs.analchem.5c06890). Other cat viruses were detected by RAA-Cas13a-LFD for feline calicivirus (1 copy/uL, 96.39% coincidence) (DOI: 10.3390/ani14243663), MIRA-LFD for feline chaphamaparvovirus in 417 cats (DOI: 10.3389/fcimb.2025.1490948), and LAMP-LFD for feline herpesvirus 1 (DOI: 10.3389/fvets.2026.1863672). CRISPR strips for dogs include Cas13a SHERLOCK for canine adenovirus 2 (95% concordance, 20 clinical samples) and RAA-Cas13a with HUDSON sample preparation for canine distemper virus (DOI: 10.1016/j.mimet.2025.107314; DOI: 10.1016/j.jviromet.2026.115355).
+
+## 3.9.4 Pigs
+
+Pig viruses form the largest single host group (54 records) and show the full range of strip designs.
+
+**Antigen strips.** For porcine epidemic diarrhoea virus (PEDV), the 2015 immunochromatographic assay detected 10^3 copies (10^2 for RT-PCR) with sensitivity 96.0% (218/227) and specificity 98.5% (262/266) on 493 samples (DOI: 10.1016/j.jviromet.2015.08.024). A later strip on faecal swabs gave sensitivity 95.0% and specificity 98.6% against real-time RT-PCR (DOI: 10.1136/vr.103959), a monoclonal strip on stool had a linear range of 0.625-10 ug/mL and no cross-reaction with other porcine viruses (DOI: 10.1186/s12917-019-1773-4), and 2026 strips with anti-S monoclonal antibodies reached 1.2 TCID50/uL (DOI: 10.1128/spectrum.03387-25). Related enteric coronaviruses were also covered: porcine deltacoronavirus on 325 faecal samples (10^3 TCID50/mL, no cross-reactivity) (DOI: 10.3389/fmicb.2022.1074513) and with an anti-S monoclonal antibody on 77 clinical samples (92.2% coincidence with RT-qPCR) (DOI: 10.1016/j.virol.2025.110739). Porcine circovirus 2 was detected with polyclonal antibodies at 5 ng/mL, with 9 positives against 11 by ELISA in 36 sera (DOI: 10.1186/s12917-022-03471-6). Senecavirus A was detected by a monoclonal-antibody strip at 0.5 ng/mL with 90% concordance with RT-PCR (DOI: 10.1016/j.bbrep.2025.102240).
+
+African swine fever virus (ASFV) is the main driver of recent work. Early antigen strips used VP72 antibodies and performed similarly to antigen ELISA (27% versus 38% PCR positives in experimental infection) (DOI: 10.1186/s12917-016-0831-4). Later strips targeted P30 with two monoclonal antibodies (153 field samples, 95.42% concordance with real-time PCR) (DOI: 10.1007/s00705-020-04915-w), the commercial-style VDRG ASFV Ag kit (sensitivity 84.52%, rising to 93.8% at Ct below 30; specificity 99.88%) (DOI: 10.1016/j.jviromet.2023.114823), a p30 and a p72 pair (sensitivity 84.21% and 100% against real-time PCR on experimental sera) (DOI: 10.3389/fmicb.2024.1429808), a blue latex microsphere strip (10 ng/mL P30) (DOI: 10.1186/s13568-025-01857-x), and a colloidal gold p72 strip (10^2.50 TCID50 per reaction) (DOI: 10.1155/tbed/3198773). One study combined an antigen LFIA with RPA (LFIA sensitivity 93%, RPA 87% for high viral load) (DOI: 10.1016/j.talanta.2023.124443). Classical swine fever virus E2 antigen was detected by a peptide-based LFA at 20 ng/mL and by an E2-based strip with sensitivity 100% and specificity 96.42% against ELISA (DOI: 10.1016/j.jim.2025.113908; DOI: 10.1007/s12088-025-01471-2); an earlier CSFV strip reached 36.8 TCID50/mL with sensitivity 80.36% and specificity 87.10% (DOI: 10.1007/s00705-017-3464-4).
+
+**Antibody strips.** Serological strips with a recombinant antigen on the test line are common in this host. For ASFV, strips used a multi-epitope P72 antigen (1:64, no cross-reaction with CSFV, PCV2, PRV or PRRSV) (DOI: 10.4149/av_2021_304), a dual strip reaching 1:256, equal to ELISA (DOI: 10.1007/s00253-021-11706-z), a p72 trimer more sensitive than a commercial ELISA (DOI: 10.1007/s00253-022-11851-z), a high-concentration gold strip (1:512; sensitivity 90.9%, specificity 96.2%) (DOI: 10.1016/j.heliyon.2024.e25214), a p54-Fc strip with a portable reader (98% coincidence with commercial ELISA) (DOI: 10.3390/bios15010025), a dual p30/CD2v strip with DIVA purpose (accuracy 99.823%) (DOI: 10.1016/j.tvjl.2025.106470), and in-house p72, p30 and p54 strips on 143 sera from Thailand, where the p72 strip reached sensitivity and specificity of 100% (DOI: 10.3390/vetsci13010004). For CSFV, an E2 strip with a dilution endpoint of 1:102,400 agreed 93.73-97.17% with three ELISAs on 813 sera (DOI: 10.1111/tbed.14367) and a plant-derived E2 strip reached 1:128,000 (DOI: 10.1128/spectrum.01050-22). For pseudorabies and Aujeszky's disease, gE and gB strips reached sensitivity 90.7% and specificity 81.6% against an IDEXX gE test (DOI: 10.1016/j.jviromet.2015.06.016), specificity 98.1% and sensitivity 96.0% (DOI: 10.1177/1040638715611442), and, in a direct double-antibody format on 236 field sera, specificity 98.0% with sensitivity 98.6% by reader against 93.5% by eye (DOI: 10.1016/j.jviromet.2017.09.012); a competitive format with three layouts and a reader gave 94.9% sensitivity and 97.6% specificity against gB-ELISA (DOI: 10.1016/j.jviromet.2016.11.011). Porcine reproductive and respiratory syndrome virus strips used a Nsp7 probe (DOI: 10.4142/jvs.2017.18.3.307) and dual-type N proteins (991 field sera: sensitivity 91.1%, specificity 97.5%) (DOI: 10.4142/jvs.2018.19.4.519). Japanese encephalitis virus antibodies were detected with a domain III strip (sensitivity 84.8%, specificity 97.7% against IFA; 11.8% positive among 1,926 slaughtered pigs) (DOI: 10.1371/journal.pone.0127313), three formats on 500 field sera (format II 100% for both) (DOI: 10.1080/10495398.2019.1602539) and IgM strips (format II sensitivity 87.50% but specificity only 62.93% on 318 sera) (DOI: 10.1016/j.jim.2024.113695). Other antibody targets include PEDV in serum (sensitivity 96.0%, specificity 90.8%) (DOI: 10.24425/119032), PEDV secretory IgA in colostrum (DOI: 10.1016/j.jviromet.2020.113855), PEDV IgA and IgG on milk and colostrum (colostrum IgA sensitivity 98.73%, specificity 66.67%) (DOI: 10.1080/01652176.2024.2429472), Getah virus with p62-E1 antigen (DOI: 10.1007/s00253-024-13168-5), and Senecavirus A with 3AB protein (198 sera, sensitivity 97.97%, specificity 90%, kappa 0.892) (DOI: 10.1016/j.vetmic.2025.110614).
+
+**Nucleic-acid strips.** Isothermal methods with strips are used for PEDV, PDCoV and TGEV in a triplex RT-RAA (DOI: 10.1016/j.micpath.2024.106885), for PEDV by LAMP with a PfAgo argonaute step (24 copies/uL) (DOI: 10.1021/acssynbio.4c00446), for PEDV by a paper microfluidic LAMP (sensitivity 95.3%, specificity 100%) (DOI: 10.3390/vetsci12050427), for an in-field PEDV nucleic acid assay whose abstract is incomplete and carries a scope check (DOI: 10.3389/fvets.2025.1535605), for PEDV and porcine rotavirus A by MIRA-LFD (98% and 96% concordance on 50 swabs) (DOI: 10.1016/j.mimet.2025.107289), and for porcine rotavirus by RPA-Cas12a (DOI: 10.3390/v17070872). Senecavirus A was targeted by RAA-LFD (DOI: 10.3389/fcimb.2024.1474676), PRRSV-1 by RPA-Cas13d (sensitivity and specificity 100% against RT-qPCR) (DOI: 10.1021/acs.jafc.5c07919), porcine teschovirus by RT-RAA-LFD (98.44% coincidence on 128 samples) (DOI: 10.1186/s12917-024-04442-9), pseudorabies by an RPA-LFD that distinguishes wild-type from gE-deleted vaccine virus (DOI: 10.24425/pjvs.2024.152952), porcine parvovirus 7 by RPA (13.77% of 167 field samples positive) (DOI: 10.30466/vrf.2026.2059235.4742), and ASFV by MCDA with a nanoparticle biosensor (200 copies/reaction) (DOI: 10.3389/fmicb.2024.1403577), by CRISPR/AapCas12b (6 copies/uL, complete concordance with real-time PCR on 34 specimens) (DOI: 10.3390/ani15223274), and by real-time RPA with RPA-LFD to follow MGF-505R deletion mutants in 453 samples (DOI: 10.3390/vetsci12030193).
+
+## 3.9.5 Poultry and waterfowl
+
+**Antigen strips for poultry viruses.** Avian influenza accounts for the most studies. An H5 monoclonal kit for clade 2.3.4.4 outperformed the comparator Linjudge Flu A/H5 (DOI: 10.1371/journal.pone.0182228); H7N9 strips with monoclonal antibodies reported 2.5 log10 EID50/0.1 mL, and 2 HAU or 10^2.55 TCID50 (DOI: 10.3389/fmicb.2018.02069; DOI: 10.1007/s11262-020-01742-8); an H7 strip on chicken swabs reached 2.4 log10 EID50/0.1 mL (DOI: 10.1186/s12985-021-01537-9); and an H5 antigen ELISA with a strip gave sensitivity 88.9% and specificity 98.3% on 200 poultry samples (DOI: 10.1177/10406387211027538). An H9N2 antigen ELISA with strip had an HA titre limit of 4 per 100 uL (DOI: 10.1186/s12985-021-01671-4); an H6 ELISA and strip were stable for 60 days (DOI: 10.1007/s00705-020-04602-w); and a neuraminidase-targeting N9 strip reached 10^3.3 TCID50/0.1 mL (DOI: 10.3390/v18080879). Avian leukosis virus p27 strips reached 600 pg p27 with 70 TCID50 (agreement with ELISA 93.91%, 93.42% and 100% by sample type on 1,100 samples) and 6.25 ng/mL (DOI: 10.1016/j.jviromet.2015.04.033; DOI: 10.1007/s00253-018-9461-z). Strips are also reported for Newcastle disease virus (sensitivity 83.3% and specificity 100% against RT-PCR) (DOI: 10.1177/1040638719837320), infectious bronchitis virus (10^4.4 EID50, and a later monoclonal N2D5 strip) (DOI: 10.3390/ijms20092216; DOI: 10.1016/j.psj.2024.103648), infectious laryngotracheitis virus (60 ELD50/mL) (DOI: 10.1016/j.psj.2019.11.066), infectious bursal disease virus (1.5 x 10^3 TCID50, IgY-based) (DOI: 10.1016/j.jviromet.2021.114065), fowl adenovirus 4 (Fiber-2 monoclonal antibodies, and penton monoclonal antibodies at 7.81 x 10^4 TCID50/0.1 mL) (DOI: 10.1016/j.jviromet.2021.114231; DOI: 10.3389/fvets.2026.1758143), chicken anaemia virus (VP1 antigen, kappa 0.66 against qPCR) (DOI: 10.1016/j.psj.2024.103432), and Gyrovirus homsa 1 (10^3 copies/uL) (DOI: 10.1016/j.jviromet.2025.115320).
+
+**Antibody strips for poultry.** Avian influenza antibody strips used H6N1 antigen (326 chicken sera: sensitivity 95.2%, specificity 94.3%, kappa 0.896 against HI) (PMID: 26753244 (no DOI recorded)) and quantitative H9 double-line sandwich strips (504 sera, coincidence 80.56% with HI and correlation 0.9656) (DOI: 10.1016/j.jchromb.2018.07.024). For Newcastle disease virus, a quantitative gold assay with an immunosensor on 506 sera (DOI: 10.1111/jam.14688) and a blocking strip on 510 clinical samples were reported (DOI: 10.3390/vetsci10020152); an infectious bronchitis antibody strip used an epitope peptide and agreed well with ELISA (DOI: 10.3390/microorganisms14091887).
+
+**Waterfowl.** Duck Tembusu virus was approached by antibody and antigen strips (a double-antigen sandwich on 217 sera, 16-fold more sensitive than agar gel diffusion; and an antigen strip with 93.9% coincidence with RT-PCR on 50 samples) (DOI: 10.1016/j.jviromet.2017.08.022; DOI: 10.3389/fmicb.2018.01001). Duck plague antibodies were detected with a gI protein strip at 1:256 (DOI: 10.1016/j.jviromet.2019.113803), duck enteritis virus antigen at 2.52 x 10^3 TCID50/mL (80% concordance with PCR on cloacal swabs, 100% in tissues) (DOI: 10.3390/pathogens10030365), goose parvovirus on 92 samples (DOI: 10.3389/fmicb.2018.00953), and novel goose astrovirus with 92.5% coincidence on 40 positives (DOI: 10.1016/j.jviromet.2021.114263); a later nanobody strip for the same astrovirus gave coincidences of 100% and 95.24% (DOI: 10.1155/tbed/6439771).
+
+**Nucleic-acid strips.** Poultry and waterfowl show the heaviest use of CRISPR strips. For avian influenza, RT-RAA with Cas13a covers pan-AIV, H5, H7 and H9 (10 copies/uL by strip) (DOI: 10.1016/j.psj.2024.104745), RPA-Cas13a H9N2 (1 x 10^2 copies/uL) (DOI: 10.1016/j.ijbiomac.2025.140474), RPA-Cas12a H5Nx with anti-NP antibody purification (sensitivity 80%, specificity 100%) (DOI: 10.3389/fvets.2025.1520349). Avian leukosis virus was detected by RAA-Cas13a (DOI: 10.3389/fvets.2024.1424238) and, for ALV-J, in 429 clinical samples at 5.4 copies/uL with positivity 15.2% against PCR 14.7% (DOI: 10.3390/ijms251910780). Other targets include avian metapneumovirus (MIRA-Cas13a, 200 suspected samples, kappa above 0.93) (DOI: 10.1016/j.ijbiomac.2025.144966), genotype VII Newcastle disease virus (154 samples, 6 copies/uL) (DOI: 10.3389/fvets.2026.1870607), chicken infectious anaemia virus (ERA-Cas12a at 1 x 10^3 copies/uL by strip against 1 by fluorescence; and an RPA-LFD kit with 100% concordance on 50 field samples) (DOI: 10.1016/j.rvsc.2025.106046; DOI: 10.1016/j.jviromet.2026.115363), pigeon paramyxovirus 1 (DOI: 10.3390/vetsci11100473), pigeon rotavirus A (positivity 23.5% against 17.6% by PCR) (DOI: 10.3390/microorganisms14040732), duck circovirus (97 samples, 100% agreement) (DOI: 10.1186/s12985-024-02577-7), duck hepatitis A virus 3 (30 field samples) (DOI: 10.1016/j.ijbiomac.2025.144400), duck adenovirus 3 (three studies: CRISPR/Cas12a on 95 samples, RPA-LFD on 65 samples with 100% coincidence, and RAA-Cas12a at 2.87 x 10^2 copies/uL) (DOI: 10.3389/fmicb.2025.1607974; DOI: 10.3389/fmicb.2025.1638182; DOI: 10.3389/fmicb.2026.1815110), Muscovy duck parvovirus (98 tissue samples) (DOI: 10.3389/fvets.2025.1621697), duck enteritis virus by MIRA (DOI: 10.3390/pathogens14100980), goose astrovirus II (1 copy/uL, same as RT-qPCR) (DOI: 10.3389/fcimb.2024.1424212), goose parvovirus (RPA-Cas12a at 78 copies/uL, 100 times better than PCR; and an RPA-Cas13a dual-mode assay) (DOI: 10.1016/j.ijbiomac.2026.150496; DOI: 10.1016/j.ijbiomac.2026.154658), and SBDSV in waterfowl (RPA-Cas12a on 36 field samples) (DOI: 10.1016/j.psj.2025.105191).
+
+## 3.9.6 Ruminants, horses and other livestock
+
+**Cattle, sheep and camels.** Bluetongue serology has several strips: a commercial lateral flow test device in an inter-laboratory study (sensitivity 100%, specificity 95.2%, repeatability 100%) (DOI: 10.1016/j.jviromet.2015.12.001), a gold strip against VP7 antibodies on 481 sera from sheep, goats, cattle and a camel (sensitivity 95.2%, specificity 99.6%, kappa 0.949 against competitive ELISA) (DOI: 10.1016/j.jim.2021.113166), and a gold nanoprobe device on sheep sera (sensitivity 96%, specificity 99.23%, kappa 0.9) (DOI: 10.1080/10495398.2023.2214604). A MERS-CoV strip with monoclonal antibodies detected virus in camel nasal swabs with sensitivity 93.90% and specificity 100% against RT-PCR (DOI: 10.1128/jcm.03096-14). Bovine leukaemia virus has antibody strips (gp51, sensitivity 98%, specificity 94.7% against ELISA; and a latex microsphere strip for typing, sensitivity 87.09%, specificity 99.06% on 138 sera) (DOI: 10.4142/jvs.2016.17.4.479; DOI: 10.1007/s00705-026-06710-5) and a CRISPR-Cas13a strip with 100% agreement with qPCR on 100 blood samples (DOI: 10.3390/ani14223262). Other cattle antigen strips include BVDV (IgY ELISA and strip, antibody generation emphasis) (DOI: 10.1080/09168451.2016.1217144) and bovine rotavirus (220 samples) (DOI: 10.1089/vim.2019.0071). Bovine nucleic-acid strips are multiplexed: triplex LAMP-LFD for BVDV, BRV and BPV (156 anal swabs, above 99% agreement with qPCR) (DOI: 10.1039/d4ay01303d), multiplex RT-RPA for BVDV, BEFV and BRSV (sensitivity 98.11%, specificity 100%, kappa 0.988) (DOI: 10.1016/j.talanta.2024.126775), and triplex RAA-LFD for BCoV, IBRV and BVDV (sensitivity 98.41%, 80.00% and 85.71%) (DOI: 10.1128/spectrum.01628-25). Single-virus strips cover bovine coronavirus (242 samples) (DOI: 10.1155/2024/7108960), BoHV-1 and BoHV-5 (DOI: 10.1128/spectrum.00895-24), and BRSV with BVDV (46 archived samples) (DOI: 10.3389/fvets.2026.1754704). Schmallenberg virus (DOI: 10.1016/j.tvjl.2026.106567), peste des petits ruminants virus (MIRA-LFD, and a double-antigen antibody strip with 97.9% agreement with cELISA) (DOI: 10.3390/vetsci13010110; DOI: 10.3390/ani16162545) and capripoxviruses (RPA-Cas12a on 90 specimens, with complete species discrimination) (DOI: 10.1016/j.jviromet.2026.115465) complete the ruminant set. Orf virus was detected with monoclonal antibodies 5A5/6F2 (sensitivity 92.1%, specificity 100% against LAMP) (DOI: 10.1016/j.jviromet.2016.06.009). Bluetongue was also approached with RT-ERA-Cas13a using three readouts on 263 field samples, where the lateral flow strip had clinical sensitivity 96% (DOI: 10.3389/fcimb.2025.1621012).
+
+**Foot-and-mouth disease virus.** Strips here address serotype coverage: SAT2 monoclonal antibodies (DOI: 10.1111/tbed.13076), SAT1 and SAT3 strips (SAT3 similar to DAS-ELISA, SAT1 lower) (DOI: 10.1016/j.jviromet.2020.113967), a pan-serotype strip with a universal capture ligand (DOI: 10.3390/v14040785), an AuNP strip for FMDV and lumpy skin disease virus on milk, serum and tissue (DOI: 10.18502/ijm.v14i4.10245), two multiplex serotyping LFDs (sensitivity 87.5% and 70%, specificity 100%) (DOI: 10.1016/j.rvsc.2025.105558), an RAA strip (100% detection on 17 positives and 21 negatives) (DOI: 10.3389/fvets.2025.1526005), and a closed-tube RT-LAMP strip on direct clinical material (DOI: 10.3389/fmicb.2024.1429288). A DIVA strip for FMDV antibodies using a mu3ABC antigen gave sensitivity 98.05% and specificity 93.16% against ELISA on 366 sera (DOI: 10.3390/vetsci13080797).
+
+**Horses, mink and other.** Equine strips include one for equine infectious anaemia antibodies that was 8-16 times better than two ELISAs and 128-256 times better than AGID but 8-16 times worse than Western blot (DOI: 10.1007/s00253-023-12980-9), another using a p26-gp90 fusion protein (DOI: 10.1186/s12985-025-02815-6), and a Getah virus E2 strip with 94.0% concordance with virus neutralisation on 182 sera (DOI: 10.3390/ani14162309); a Getah virus RT-RAA strip and an RT-RPA-Cas12a strip with 100% concordance with qPCR were also reported (DOI: 10.3389/fcimb.2025.1631048; DOI: 10.7717/peerj.20119). A competitive strip for mink enteritis virus on 289 samples agreed 94.1% with a commercial CPV kit (DOI: 10.3389/fmicb.2022.839320).
+
+## 3.9.7 Zoonotic, vector and wildlife records
+
+Six records do not fit a single animal host. A single-tube RAA-Cas12a strip for monkeypox virus on simulated clinical samples (5 copies/uL by strip) belongs to a human target and was placed in this section by the screening, not by the host (DOI: 10.1039/d6ay00065g). A West Nile virus strip with an anti-domain III monoclonal antibody differentiated WNV from other flaviviruses (DOI: 10.1016/j.jviromet.2018.06.016). A pen-side Rift Valley fever strip was tested on reference isolates and negative sera (DOI: 10.1371/journal.pntd.0007700). An immunochromatographic wicking assay for chikungunya virus in mosquito pools was specific against alpha-, bunya- and flaviviruses (DOI: 10.1093/jme/tjv047). A strip for elephant endotheliotropic herpesvirus reached 1.25 x 10^5 genome copies/mL in blood (DOI: 10.1016/j.jviromet.2022.114627). Finally, a multiplex strip for six rodent pathogens was studied for storage stability, and the abstract gives no performance figures (DOI: 10.1292/jvms.26-0161).
+
+## 3.9.8 What the evidence supports
+
+Three points follow from the abstracts, given that no paper here was read in full. First, antigen strips for animal viruses typically report detection limits in TCID50 or EID50 units and a few antibody dilution endpoints, so values are not comparable across viruses or with the copy-number limits of amplification strips. Second, antibody strips with recombinant antigen show high agreement with ELISA and neutralisation (kappa 0.73-1.0 where reported), but specificity can be modest in some formats (for example 62.93% for a Japanese encephalitis IgM strip) (DOI: 10.1016/j.jim.2024.113695). Third, the 2024-2026 growth is mainly in RPA, RAA or MIRA with Cas12a or Cas13a strips; they commonly report detection limits ten to a thousand times lower than conventional PCR where a comparison is given, and concordance mostly of 95-100% with qPCR on tens to a few hundred samples, but sample numbers are small and the reference method is nearly always qPCR from the same laboratory. Gaps: few papers test cross-reactivity against a panel and report it, and prospective field use is rare.
+
+### Table I1a. Aquaculture and aquatic animals
+
+| Rec | Year | Host | Target | Analyte | Format / label | Matrix | LOD (as stated) | Within-paper comparison and diagnostic data | Evidence | DOI |
+|---|---|---|---|---|---|---|---|---|---|---|
+| R01667 | 2015 | aquatic (turtle) | soft-shelled turtle systemic septicemia spherical virus | Ag | competitive ICS with IgY probe (colloidal gold) | turtle and faecal samples | 50.0 ug/mL (visual) | good agreement with ELISA (values NR) | Abstract | 10.1016/j.jviromet.2015.04.016 |
+| R01717 | 2015 | aquatic/amphibian | ranavirus | Ag | ICA kit with mAbs to FV-3 major capsid protein | NR | 10^1 TCID50/mL | analytical specificity against family members shown | Abstract | 10.1016/j.jviromet.2015.07.009 |
+| R01793 | 2015 | aquatic (crab) | swimming crab reovirus | Ag | competitive ICA with IgY-gold (colloidal gold) | 90 crabs | 50 ug/mL | detected all artificially infected samples; compared with ELISA | Abstract | 10.3354/dao02921 |
+| R02046 | 2017 | aquatic (shrimp) | WSSV | Ag | LFIA | 75 field samples, India | 10^3 copies WSSV (by real-time PCR) | sens 100%, spec 96.77% | Abstract | 10.1371/journal.pone.0169012 |
+| R02097 | 2017 | aquatic (shrimp) | WSSV | Ag | LFA with phage-displayed peptide probe | infected shrimp | NR | NR | Abstract | 10.1007/s00253-017-8232-6 |
+| R02156 | 2017 | aquatic (crab) | Scylla serrata reovirus | Ag | IC strip (letter) | NR | NR | NR | Abstract | 10.1007/s12250-017-4008-5 |
+| R03598 | 2021 | aquatic (golden grey mullet) | nervous necrosis virus | Ag | colloidal gold ICS (colloidal gold) | 70 naturally infected brains | 10^3 TCID50/mL | spec 100%, sens 74% vs real-time RT-PCR | Abstract | 10.1111/jfd.13302 |
+| R03680 | 2021 | aquatic (gibel carp) | cyprinid herpesvirus 2 | Ag | ICS with mAbs to ORF25 | purified virus | 1 ug/mL | stable 6 months at 4-37 C | Abstract | 10.3354/dao03561 |
+| R03771 | 2021 | aquatic (catfish) | channel catfish virus | Ag | colloidal gold ICS (colloidal gold) | virus suspensions | 10^4 TCID50/mL | analytical specificity shown | Abstract | 10.1093/jaoacint/qsaa152 |
+| R05341 | 2022 | aquatic (salmonids) | IHNV genogroups U and M | NR | rapid diagnostic test (U/M assay) | free-ranging Pacific salmon | NR | DSe >94%, DSp >97% vs cell culture | Abstract | 10.3390/ani12141761 |
+| R05616 | 2022 | aquatic (shrimp) | infectious myonecrosis virus | Ag | LFA with r-IMNV31 antibody | 60 shrimp tissue samples | 10^3 viral particles | sens 100%, spec 86%, kappa 0.86 vs qRT-PCR | Abstract | 10.1007/s10126-022-10172-6 |
+| R06330 | 2023 | aquatic (koi) | cyprinid herpesvirus 3 | Ag | LFIA with 2 mAbs | koi spleen and kidney | 1.5 x 10^4 copies/uL | spec 100% | Abstract | 10.1111/jfd.13825 |
+| R07478 | 2025 | aquaculture | red sea bream iridovirus | DNA | CPA + LFA | 210 fish | 385.76 copies/uL (LOD95) | 6 false positives vs qPCR | Abstract | 10.1111/jfd.14073 |
+| R07508 | 2025 | aquaculture (goldfish, carp) | CyHV-2 | Ag | colloidal gold strip, two mAbs (AuNP) | spleen, kidney tissue | 2.08e2 TCID50/mL | spec 100% on challenged/healthy fish tissue | Abstract | 10.3354/dao03833 |
+| R07549 | 2025 | aquaculture/amphibian | FV3-like ranaviruses | DNA | RAA + LFD and RF-RAA | 53 clinical samples | 35.4 copies/uL (LFD); 354 (fluorescence) | consistent with real-time PCR | Abstract | 10.1016/j.fsi.2025.110154 |
+| R07771 | 2025 | aquaculture (shrimp) | WSSV + Salmonella | DNA | uLAMP-LFA | shrimp samples | 28 copies/uL WSSV | not reported | Abstract | 10.1016/j.aca.2025.344144 |
+| R08049 | 2025 | aquaculture | tilapia lake virus | RNA | RT-RPA-LFD | not reported | 3.19 copies/uL vs RT-PCR-LFD 319 | not reported | Abstract | 10.3390/vetsci12090845 |
+| R08091 | 2025 | aquaculture | largemouth bass virus | virus | aptamer LFB | cells | 8e1/mL infected cells | not reported | Abstract | 10.3389/fmicb.2025.1643764 |
+| R07859 | 2026 | aquaculture | largemouth bass ranavirus | DNA | basic RPA and RPA-LFD | clinical samples | 1 copy/uL | detected nine more than PCR | Abstract | 10.1111/jfd.70016 |
+| R07861 | 2026 | aquaculture (trout) | IHNV | Ag | mAb colloidal gold LFIA (AuNP) | 81 infected, 102 uninfected trout | 10^5.05-10^5.8 TCID50/100 uL | sens 97.5%, spec 100%, effectiveness 98.9% | Abstract | 10.1111/jfd.70014 |
+| R07917 | 2026 | aquaculture | IPNV, VHSV | RNA | duplex RT-RPA + lateral flow vs PCR | not reported | not reported in abstract | not reported | Abstract | 10.1111/jfd.70029 |
+| R07990 | 2026 | aquaculture | decapod iridescent virus 1 | DNA | RPA + LFS | 110 field samples | 11.2 copies/uL | identical to qPCR | Abstract | 10.1111/jfd.70052 |
+| R08129 | 2026 | aquaculture | CyHV-3 (KHV) | DNA | RAA + Cas13a SHERLOCK + LFD | clinical samples | 100 ag/uL; 10x vs PCR (1 fg/uL) | not reported | Abstract | 10.1111/jfd.70079 |
+| R08263 | 2026 | aquaculture (shrimp) | WSSV | DNA | Cas12a dual-target LFA | not reported | 20 and 200 copies (RPA+Cas12a) | spec 100% | Abstract | 10.1177/10406387251399147 |
+| R08477 | 2026 | aquaculture | MSRV | RNA | two MIRA methods | disease farm samples | 9 copies/uL | not reported | Abstract | 10.1111/jfd.70191 |
+| R08491 | 2026 | aquaculture (shrimp) | IHHNV | DNA | RAA-Cas12a, fluorescence and LFD | not reported | 1 copy/reaction (LFD); 10 (fluorescence) | not reported | Abstract | 10.1111/jfd.70196 |
+| R08733 | 2026 | aquaculture | largemouth bass ranavirus | DNA | RPA-Cas12a LFD | 24 clinical samples | 1 copy/uL | 100% detection vs PCR 81.26% | Abstract | 10.3390/vetsci13080825 |
+
+### Table I1b. Plant viruses
+
+| Rec | Year | Host | Target | Analyte | Format / label | Matrix | LOD (as stated) | Within-paper comparison and diagnostic data | Evidence | DOI |
+|---|---|---|---|---|---|---|---|---|---|---|
+| R01652 | 2015 | plant | lily symptomless virus | Ag | DAS ICS (colloidal gold) | field leaf samples | 6.0 x 10^-8 mg/mL (same as quadruplex RT-PCR) | sens 100%, spec 98.6%; kappa 0.983 vs quadruplex RT-PCR | Abstract | 10.1016/j.jviromet.2015.03.021 |
+| R01662 | 2015 | plant | lily mottle virus | Ag | DAS ICS (colloidal gold) | NR | 8.0 x 10^-9 mg/mL (agrees with quadruplex RT-PCR) | sens 100%, spec 98.7%; kappa 0.982 | Abstract | 10.1016/j.jviromet.2015.04.010 |
+| R01920 | 2016 | plant | soybean mosaic virus | Ag | DAS LFA strip with anti-CP mAbs | infected leaf samples | 800-fold dilution of leaf extract | specific vs other viruses | Abstract | 10.1016/j.jviromet.2016.05.011 |
+| R02247 | 2018 | plant | citrus yellow vein clearing virus | Ag | ICS, 30 nm gold, mAb 1E1 (colloidal gold (30 nm)) | field samples | NR | specificity and sensitivity evaluated (values NR) | Abstract | 10.1007/s00705-017-3558-z |
+| R02305 | 2018 | plant | tomato zonate spot virus | Ag | colloidal gold ICS, mAb (colloidal gold) | infected leaf samples | 800-fold dilution of leaf sample | NR | Abstract | 10.1186/s12985-018-0919-5 |
+| R02518 | 2018 | plant | grapevine leafroll-associated virus 3 | Ag | ICA | grape samples | NR | vs ELISA: sens 100%, spec 92%; vs PCR: sens 93%, spec 92% | Abstract | 10.3390/bios8040111 |
+| R02658 | 2019 | plant | rice stripe virus | Ag | colloidal gold ICS, mAbs 16E6/11C1 (colloidal gold) | rice plants, planthoppers | 1:20,480 (w/v) plant extract; 1:2,560 per planthopper homogenate | validated with field samples | Abstract | 10.1631/jzus.b1800563 |
+| R03130 | 2020 | plant | banana bract mosaic virus | Ag | LFIA | 114 banana leaves | 10 ng rBBrMV CP; 1:20 crude extract | sens 99.04%, spec 100%; kappa 0.861 vs ELISA | Abstract | 10.1016/j.jviromet.2020.113929 |
+| R03317 | 2020 | plant | Satsuma dwarf virus | Ag | ICA kit vs DAS-ELISA | 1705 orchard samples | NR | 11/1705 ICA-positive and ELISA-negative; all confirmed by RT-PCR | Abstract | 10.5423/ppj.nt.06.2020.0096 |
+| R05459 | 2022 | plant | soybean mosaic virus | Ag | colloidal gold ICS (SMV-GICS) and DAS-qELISA (colloidal gold) | NR | same sensitivity as RT-PCR | NR | Abstract | 10.3390/ijms23169457 |
+| R05739 | 2023 | plant | Lychnis mottle virus | Ag/NA | colloidal gold ICA and RT-LAMP (colloidal gold) | NR | GICA up to 10,000-fold; RT-LAMP 1.42 fg/uL (291 copies/uL) | NR | Abstract | 10.1094/pdis-08-22-1970-re |
+| R05890 | 2023 | plant | plum pox virus | Ag | dot-ELISA and colloidal gold ICS (colloidal gold) | apricot leaves | CGICS up to 1:6400 (w/v) (as sensitive as RT-PCR) | NR | Abstract | 10.3390/v15010169 |
+| R05980 | 2023 | plant | cucumber green mottle mosaic virus | Ag | mAb immunochromatographic strip | infected plant samples | 1:5000 (w/v) | no cross-reaction with TMV or CMV | Abstract | 10.3390/bios13020199 |
+| R06380 | 2023 | plant | maize chlorotic mottle virus | Ag | AuNP ICTS and dot-ELISA (gold nanoparticles) | 20 blinded maize samples | NR | consistent with RT-PCR | Abstract | 10.3390/v15071607 |
+| R06606 | 2024 | plant | tomato brown rugose fruit virus | Ag | dot-ELISA and colloidal gold ICS (colloidal gold) | field tomato foliar and fruit samples | 1:6400 (dot-ELISA), 1:10,000 (CGICS) w/v | consistent with RT-PCR | Abstract | 10.1016/j.jviromet.2023.114841 |
+| R07528 | 2024 | plant | soybean mosaic virus SC7 | RNA | RT-LAMP + LFD | plant | 1e-5 ng (2.4 copies); 10x vs colorimetric LAMP | not reported | Abstract | 10.3389/fmicb.2024.1478218 |
+| R07297 | 2025 | plant | pepper mild mottle virus + Colletotrichum | RNA/DNA | one-tube dual RT-RAA + LFS | crude plant samples | 0.32 copies/uL | not reported | Abstract | 10.1016/j.talanta.2024.126908 |
+| R07464 | 2025 | plant | maize dwarf mosaic virus + Pantoea | RNA | RPA-CRISPR/Cas13a with LFA | plant | 3.69e-5 ng/uL (strip) | not reported | Abstract | 10.1002/ps.8597 |
+| R07494 | 2025 | plant | cardamom mosaic virus | RNA | RT-RPA + LFA | crude plant extracts, field samples | not reported | not reported | Abstract | 10.1007/s13205-024-04191-4 |
+| R07625 | 2025 | plant | Areca palm velarivirus 1 | Ag | colloidal gold ICS (AuNP) | leaf samples | 100-fold dilution of infected leaf | not reported | Abstract | 10.3389/fmicb.2025.1533170 |
+| R07785 | 2025 | plant | cucumber mosaic virus | Ag | colloidal gold ICA (AuNP) | not reported | not reported | not reported | Abstract | 10.1016/j.jviromet.2025.115190 |
+| R07943 | 2025 | plant | piper yellow mottle virus, CMV | Ag | LFIA with polyclonal antiserum | field samples | not reported | not reported | Abstract | 10.1016/j.jviromet.2025.115238 |
+| R08125 | 2025 | plant | chili leaf curl virus | DNA | RPA-DETECTR fluorescence and LFA | field samples | 7 fg plasmid DNA | not reported | Abstract | 10.3389/fmicb.2025.1644322 |
+| R08150 | 2025 | plant | cucurbit leaf crumple virus | DNA | RPA-LFA with alternative endonuclease | plants, whiteflies | 10 viral copies | not reported | Abstract | 10.3390/ijms262110611 |
+| R08255 | 2025 | plant | chilli veinal mottle virus | Ag | immunogold strips, mAbs against CP (AuNP) | 120 tobacco samples | 1:1000 dilution of leaf extract | sens 95.7%, spec 98.0%; stable 12 months | Abstract | 10.3389/fmicb.2025.1721102 |
+| R08033 | 2026 | plant | ToLCNDV | DNA | HLUDG LAMP + LFD | cucurbits | not reported | not reported | Abstract | 10.1094/pdis-07-25-1386-re |
+| R08077 | 2026 | plant | RSV, RBSDV, SRBSDV | RNA | RT-RPA-LF | rice, planthoppers | 10^9, 10^8-fold dilutions | one viruliferous planthopper in 10,000 | Abstract | 10.1094/pdis-02-25-0329-sr |
+| R08322 | 2026 | plant | plant pathogens | DNA/RNA | Cas12a, Cas13a, miniature Cas variants | plant | 1-100 copies/uL | comparable to PCR | Abstract | 10.1016/j.plantsci.2026.113028 |
+| R08336 | 2026 | plant | broad bean wilt virus 2 | RNA | RT-RPA + Cas12a LFD | 20 field samples | 7.5 copies/uL (1e5x vs RT-PCR) | 100% accuracy | Abstract | 10.1002/ps.70635 |
+| R08365 | 2026 | plant | cowpea chlorotic mottle virus | Ag | dipstick LFA, mAb | plant | not reported | not reported | Abstract | 10.3390/bios16020100 |
+| R08428 | 2026 | plant | pepper mild mottle virus | Ag | immunochromatographic strip | field samples | 1 ng/mL | not reported | Abstract | 10.3390/bios16030135 |
+| R08646 | 2026 | plant | ten tobamoviruses | RNA | RT-RAA-LFD | not reported | ~100x lower than RT-PCR | not reported | Abstract | 10.1002/ps.71126 |
+| R08672 | 2026 | plant | tomato leaf curl begomoviruses | Ag | peptide-based polyclonal LFIA | crude extracts | not reported | not reported | Abstract | 10.1016/j.jviromet.2026.115446 |
+| R08761 | 2026 | plant | cardamom mosaic virus | RNA | CRISPR-Cas12a RT-RPA-LFA | field samples | 1 fg (2.4e2 copies) | 10x less sensitive than qPCR | Abstract | 10.1016/j.jviromet.2026.115468 |
+
+### Table I1c. Companion animals
+
+| Rec | Year | Host | Target | Analyte | Format / label | Matrix | LOD (as stated) | Within-paper comparison and diagnostic data | Evidence | DOI |
+|---|---|---|---|---|---|---|---|---|---|---|
+| R01775 | 2015 | companion animal | canine parvovirus | Ag | IgY-based ICA and ELISA | 34 faecal samples | NR | ICA 32.35% positive vs PCR 26.47% positive (higher sens/spec stated, values NR) | Abstract | 10.1089/vim.2015.0030 |
+| R02872 | 2019 | companion animal | canine adenovirus | Ag | colloidal gold ICS (colloidal gold) | NR | ~2.0 x 10^2 TCID50/mL | positive only for CAdV-1 and CAdV-2 | Abstract | 10.3389/fmicb.2019.02882 |
+| R05938 | 2023 | companion animal | canine distemper virus | Ag | optimised LFA; strip also used as sample substitute | fresh and stored clinical samples | 10^6.5 TCID50/mL | fresh samples detected; stored samples inconsistent | Abstract | 10.1016/j.jim.2023.113438 |
+| R06739 | 2024 | companion animal | canine parvovirus 2 antibodies | Ab | LFA with recombinant VP2 | vaccinated puppy serum | 375 ng/mL antibody | cut-off 1:40 HAI titre | Abstract | 10.1039/d3ay01870a |
+| R06851 | 2024 | companion animal (dog) | Japanese encephalitis virus antibodies | Ab | colloidal gold ICS (colloidal gold) | 586 dog sera, Shanghai | 1:640 serum dilution | 179 (29.98%) positive | Abstract | 10.3390/v16020258 |
+| R07502 | 2024 | veterinary (cat) | feline calicivirus | RNA | RAA + Cas13a + LFD | clinical samples | 1 copy/uL | coincidence 96.39% vs PCR | Abstract | 10.3390/ani14243663 |
+| R07726 | 2024 | veterinary (cat) | feline panleukopenia virus | DNA | RPA-LFD vs colloidal gold method | clinical samples | 10 copies/reaction | 39/44 positives vs colloidal gold 26/44 (qPCR reference) | Abstract | 10.1155/2024/3680778 |
+| R07577 | 2025 | veterinary (cat) | feline chaphamaparvovirus | DNA | MIRA + LFD | 417 cats | 32.3 copies/uL; 10x vs nested PCR | 29 positives, slightly higher than nested PCR | Abstract | 10.3389/fcimb.2025.1490948 |
+| R07643 | 2025 | veterinary (cat) | feline parvovirus | DNA | RAA + Cas12a + LFS | 43 faecal samples | 2.1 copies/rxn vs 2.1e3 conventional PCR | parallel with PCR | Abstract | 10.3389/fmicb.2025.1501635 |
+| R07663 | 2025 | veterinary (cat) | feline coronavirus | Ag | mAb colloidal gold ICS (AuNP) | 60 samples | 1:512 dilution | 98.3% agreement with RT-PCR | Abstract | 10.1016/j.ijbiomac.2025.142683 |
+| R07797 | 2025 | veterinary (dog) | canine distemper virus | Ag | mAb 5-8H colloidal gold strip (AuNP) | not reported | not reported | not reported | Abstract | 10.1016/j.ijbiomac.2025.144800 |
+| R07800 | 2025 | veterinary (cat) | feline coronavirus | Ag | mAb colloidal gold strip (AuNP) | 10 ascites samples | 209.8 ng/mL recombinant N | 70% agreement vs PCR (n=10) | Abstract | 10.1128/spectrum.01830-24 |
+| R07887 | 2025 | veterinary (cat) | feline coronavirus | Ag | mAb E5 colloidal gold strip (AuNP) | not reported | not reported | sens 94.2%, spec 100% vs RT-PCR | Abstract | 10.1177/08828245251359114 |
+| R07907 | 2025 | veterinary (dog) | canine distemper virus | Ag | colloidal gold strip, two mAbs vs nucleoprotein (AuNP) | not reported | 10^2.39 TCID50/0.1 mL | not reported | Abstract | 10.3390/bios15070432 |
+| R08138 | 2025 | veterinary (dog) | canine adenovirus 2 | DNA | Cas13a SHERLOCK + LFA | 20 clinical samples | 1e2 copies/uL (~750 copies/reaction) | 95% concordance with PCR | Abstract | 10.1016/j.mimet.2025.107314 |
+| R08244 | 2025 | veterinary (cat) | feline parvovirus | DNA | RAA-CRISPR/Cas12a one-tube-LFS | 36 clinical samples | 42.77 copies/uL (LFS); 4.277 (one-/two-tube fluorescence) | consistency 97.22-100% with qPCR | Abstract | 10.3389/fvets.2025.1707332 |
+| R08257 | 2026 | veterinary (cat) | feline panleukopenia virus + pet pathogens | DNA | RPA + T7 exo LFA | cat faeces swabs | 10^4x vs conventional LFIA (FPV) | agreement with PCR | Abstract | 10.1021/acs.analchem.5c06890 |
+| R08306 | 2026 | veterinary (dog) | canine distemper virus | RNA | RAA-Cas13a LFD with HUDSON | clinical samples | 1e2 copies/uL | comparable to RT-PCR | Abstract | 10.1016/j.jviromet.2026.115355 |
+| R08591 | 2026 | veterinary (dog, vaccine) | canine distemper virus | Ag | AuNP LFA on vaccine batches (AuNP) | 100 vaccine batches | 1e3 TCID50/0.1 mL | sens 98.84%, spec 85.71%, accuracy 97.0% vs real-time PCR | Abstract | 10.1016/j.vetimm.2026.111155 |
+| R08666 | 2026 | veterinary (cat) | feline herpesvirus 1 | DNA | LAMP-LFD | not reported | 1e2 copies/uL; 10^1.5 TCID50/mL | not reported | Abstract | 10.3389/fvets.2026.1863672 |
+
+### Table I1d. Pigs
+
+| Rec | Year | Host | Target | Analyte | Format / label | Matrix | LOD (as stated) | Within-paper comparison and diagnostic data | Evidence | DOI |
+|---|---|---|---|---|---|---|---|---|---|---|
+| R01689 | 2015 | livestock (pig) | Japanese encephalitis virus | Ab | ICT with domain III antigen | pig serum; 1926 slaughtered pigs | NR | sens 84.8%, spec 97.7% vs IFA; 11.8% positive in survey | Abstract | 10.1371/journal.pone.0127313 |
+| R01707 | 2015 | livestock (pig) | pseudorabies virus gE | Ab | ICS, SPA-gold, PRV-gE antigen (colloidal gold) | swine serum | NR | sens 90.7%, spec 81.6% vs IDEXX gE; kappa 0.7289 | Abstract | 10.1016/j.jviromet.2015.06.016 |
+| R01747 | 2015 | livestock (pig) | PEDV | Ag | IC assay | 493 samples | 10^3 copies (RT-PCR 10^2) | sens 96.0% (218/227), spec 98.5% (262/266) vs RT-PCR | Abstract | 10.1016/j.jviromet.2015.08.024 |
+| R01776 | 2015 | livestock (pig) | pseudorabies virus | Ab | ICS, gB-gold (colloidal gold) | 296 swine sera | NR | spec 98.1%, sens 96.0% (reference serum); agreement 93.6% | Abstract | 10.1177/1040638715611442 |
+| R01976 | 2016 | livestock (pig) | African swine fever virus | Ag | LFA with VP72 antibodies | blood, experimental and field | similar to antigen-ELISA (value NR) | LFA 27% vs PCR 38% positive (experimental); field LFA > Ag-ELISA | Abstract | 10.1186/s12917-016-0831-4 |
+| R02025 | 2017 | livestock (pig) | Aujeszky's disease virus gB | Ab | competitive DAS LFA (3 formats) with reader | swine sera | NR | pCDAS-gB-LFA spec 97.6%, sens 94.9% vs gB-ELISA | Abstract | 10.1016/j.jviromet.2016.11.011 |
+| R02049 | 2017 | livestock (pig) | PRRSV (antibody) | Ab | ICS with Nsp7-gold probe, protein A (colloidal gold) | swine sera | NR | "high" sens/spec (values NR) | Abstract | 10.4142/jvs.2017.18.3.307 |
+| R02164 | 2017 | livestock (pig) | classical swine fever virus | Ag | LFA | NR | 36.8 TCID50/mL | sens 80.36%, spec 87.10% vs PCR | Abstract | 10.1007/s00705-017-3464-4 |
+| R02222 | 2017 | livestock (pig) | Aujeszky's disease virus gB | Ab | direct double antibody LFA (colloidal gold) | 236 field swine sera | NR | reader: spec 98.0%, sens 98.6%; visual: spec 98.0%, sens 93.5% | Abstract | 10.1016/j.jviromet.2017.09.012 |
+| R02234 | 2017 | livestock (pig) | PEDV | Ag | ICA strip | faecal swabs | 10^4.0 TCID50/mL | sens 95.0%, spec 98.6% vs real-time RT-PCR | Abstract | 10.1136/vr.103959 |
+| R02342 | 2018 | livestock (pig) | PRRSV | Ab | ICST with dual-type N proteins on gold (colloidal gold) | 991 field, 66 experimental sera | NR | spec 97.5%, sens 91.1% | Abstract | 10.4142/jvs.2018.19.4.519 |
+| R02356 | 2018 | livestock (pig) | PEDV antibodies | Ab | ICS with N protein-gold (colloidal gold) | porcine serum | NR | sens 96.0%, spec 90.8% vs commercial ELISA | Abstract | 10.24425/119032 |
+| R02574 | 2019 | livestock (pig) | PEDV | Ag | mAb-based ICA | swine stool | 0.47 ug/mL (5.9 x 10^3 TCID50/mL); linear range 0.625-10 ug/mL | no cross-reaction with other porcine viruses | Abstract | 10.1186/s12917-019-1773-4 |
+| R02669 | 2020 | livestock (pig) | Japanese encephalitis virus antibodies | Ab | LFA (3 formats) | 500 field swine sera | NR | format II sens 100%, spec 100% (monsoon/post-monsoon); seropositivity 15.6% | Abstract | 10.1080/10495398.2019.1602539 |
+| R02925 | 2020 | livestock (pig) | PEDV (SIgA in colostrum) | Ab | ICS | colostrum | NR | kappa vs ELISA (value NR) | Abstract | 10.1016/j.jviromet.2020.113855 |
+| R03576 | 2021 | livestock (pig) | ASFV P30 | Ag | colloidal gold strip, 2 mAbs (colloidal gold) | 153 field samples | 2.16 ng P30 | 95.42% concordance with real-time PCR | Abstract | 10.1007/s00705-020-04915-w |
+| R04359 | 2021 | livestock (pig) | ASFV antibodies | Ab | colloidal gold assay with multi-epitope P72 antigen (colloidal gold) | 139 serum samples | 1:64 serum dilution | no cross-reaction with CSFV, PCV2, PRV, PRRSV | Abstract | 10.4149/av_2021_304 |
+| R04477 | 2022 | livestock (pig) | classical swine fever virus E2 antibodies | Ab | ICS with E2 antigen | 813 swine sera | 1:102,400 (4x better than previous strip) | agreement 97.17%, 95.94%, 93.73% with 3 ELISAs | Abstract | 10.1111/tbed.14367 |
+| R04612 | 2022 | livestock (pig) | ASFV antibodies | Ab | colloidal gold dual ICS (colloidal gold) | NR | 1:256 (equal to ELISA) | NR | Abstract | 10.1007/s00253-021-11706-z |
+| R04902 | 2022 | livestock (pig) | ASFV antibodies | Ab | p72 trimer-based colloidal gold strip (colloidal gold) | positive standard and clinical sera | more sensitive than commercial ELISA (value NR) | NR | Abstract | 10.1007/s00253-022-11851-z |
+| R05318 | 2022 | livestock (pig) | classical swine fever virus antibodies | Ab | ICTS with plant-derived E2 | piglet sera | 1:128,000 | no cross-reactivity | Abstract | 10.1128/spectrum.01050-22 |
+| R05625 | 2022 | livestock (pig) | porcine circovirus 2 | Ag | GICA strip with polyclonal antibodies (colloidal gold) | 36 porcine sera | 5 ng/mL (visual) | 9 vs 11 positives by ELISA | Abstract | 10.1186/s12917-022-03471-6 |
+| R05898 | 2022 | livestock (pig) | porcine deltacoronavirus | Ag | colloidal gold ICA, mAbs (colloidal gold) | 325 faecal samples | 10^3 TCID50/mL; 0.125 ug/mL rPDCoV-N | no cross-reactivity | Abstract | 10.3389/fmicb.2022.1074513 |
+| R06049 | 2023 | livestock (pig) | ASFV | Ag/NA | LFIA (antigen) and RPA | different tissues | 5 copies/uL (RPA plasmid) | spec 100%; sens 93% (LFIA), 87% (RPA) for high viral load | Abstract | 10.1016/j.talanta.2023.124443 |
+| R06508 | 2023 | livestock (pig) | ASFV p30 | Ag | VDRG ASFV Ag rapid kit (LFA) | clinical samples | 11.5 ng antigen; 0.16 HAD50 | spec 99.88%, sens 84.52% (93.8% at Ct<30) | Abstract | 10.1016/j.jviromet.2023.114823 |
+| R06803 | 2024 | livestock (pig) | ASFV p30 antibodies | Ab | high-concentration gold-labelled strip (colloidal gold) | NR | 1:512 dilution of positive serum | sens 90.9%, spec 96.2% vs ELISA | Abstract | 10.1016/j.heliyon.2024.e25214 |
+| R07072 | 2024 | livestock (pig) | Japanese encephalitis virus IgM | Ab | ICS (two formats) | 318 field swine sera | NR | format I sens 81.25%, spec 93.0%; format II sens 87.50%, spec 62.93% | Abstract | 10.1016/j.jim.2024.113695 |
+| R07248 | 2024 | veterinary (pig) | PEDV, PDCoV, TGEV | RNA | triplex RT-RAA + LFA | spiked faeces; 114 rectal swabs | 1e0, 1e4, 1e2 TCID50 per reaction; 95% LOD 22, 478, 205 copies/reaction | vs commercial RT-qPCR kits, 114 swabs (values not in abstract) | Abstract | 10.1016/j.micpath.2024.106885 |
+| R07288 | 2024 | veterinary (pig) | ASFV | Ag | two LFAs (p30, p72) | serum (experimental, field, feral pigs) | 10 ng/test (p30), 20 ng/test (p72) | sens 84.21% (p30), 100% (p72) vs real-time PCR, experimental sera | Abstract | 10.3389/fmicb.2024.1429808 |
+| R07396 | 2024 | veterinary (pig) | Senecavirus A | RNA | RAA + LFD | not reported | not reported | not reported | Abstract | 10.3389/fcimb.2024.1474676 |
+| R07418 | 2024 | veterinary (pig) | PEDV IgA/IgG | Ab | LFICS on milk | colostrum n=82, milk n=106 | not reported | colostrum IgA Se 98.73%, Sp 66.67% | Abstract | 10.1080/01652176.2024.2429472 |
+| R07455 | 2024 | veterinary (pig) | ASFV | DNA | MCDA + nanoparticle LFB | simulated blood | 200 copies/reaction | not reported | Abstract | 10.3389/fmicb.2024.1403577 |
+| R07486 | 2024 | veterinary (pig) | pseudorabies virus (wild vs gE-deleted vaccine) | DNA | RPA + LFD, DIVA | 80 clinical samples | 10 genome copies/reaction | not reported in abstract | Abstract | 10.24425/pjvs.2024.152952 |
+| R07487 | 2024 | veterinary (pig) | porcine teschovirus | RNA | RT-RAA + LFD | 128 clinical samples | 10 copies/uL | coincidence 98.44% (126/128), kappa 0.96 vs RT-PCR | Abstract | 10.1186/s12917-024-04442-9 |
+| R07543 | 2025 | veterinary (pig) | ASFV antibodies | Ab | p54-Fc AuNP strip + portable reader (AuNP) | field sera | 1:320 | 98% coincidence vs commercial ELISA | Abstract | 10.3390/bios15010025 |
+| R07587 | 2025 | veterinary (pig) | PEDV | RNA | LAMP + PfAgo with lateral flow strip | clinical samples | 24 copies/uL (strip); 2.4 (fluorescence) | consistent with RT-qPCR | Abstract | 10.1021/acssynbio.4c00446 |
+| R07628 | 2025 | veterinary (pig) | ASFV p30 | Ag | blue latex microsphere ICS (blue latex) | not reported | 10 ng/mL p30 | not reported | Abstract | 10.1186/s13568-025-01857-x |
+| R07708 | 2025 | veterinary (pig) | ASFV MGF-505R deletion mutants | DNA | real-time RPA and RPA-LFD | 453 samples (faeces, ham, pork) | 10 copies/reaction | not reported in abstract | Abstract | 10.3390/vetsci12030193 |
+| R07782 | 2025 | veterinary (pig) | PEDV | RNA | paper microfluidic LAMP + lateral flow | clinical | 4.82e2 copies/uL | sens 95.3%, spec 100%, concordance 98.5% | Abstract | 10.3390/vetsci12050427 |
+| R07808 | 2025 | veterinary (pig) | PEDV | RNA | in-field nucleic acid LFA | not reported | not reported | not reported | Abstract | 10.3389/fvets.2025.1535605 |
+| R07869 | 2025 | veterinary (pig) | Senecavirus A antibodies | Ab | AuNP LFI strip, 3AB protein (AuNP) | 198 sera | not reported | sens 97.97%, spec 90% vs VNA; kappa 0.892 | Abstract | 10.1016/j.vetmic.2025.110614 |
+| R07898 | 2025 | veterinary (pig) | CSFV E2 | Ag | peptide-based LFA | not reported | 20 ng/mL | no cross-reactivity | Abstract | 10.1016/j.jim.2025.113908 |
+| R07920 | 2025 | veterinary (pig) | porcine rotavirus | RNA | RPA + Cas12a dual readout | not reported | 1e2 copies/uL | not reported | Abstract | 10.3390/v17070872 |
+| R08052 | 2025 | veterinary (pig) | Senecavirus A | Ag | colloidal gold LFA, mAb 4B10/1E3 (AuNP) | clinical | 0.5 ng/mL | 90% concordance with RT-PCR | Abstract | 10.1016/j.bbrep.2025.102240 |
+| R08082 | 2025 | veterinary (pig) | PRRSV-1 | RNA | RPA + Cas13d with lateral flow | clinical | not reported | sens 100%, spec 100% vs RT-qPCR | Abstract | 10.1021/acs.jafc.5c07919 |
+| R08084 | 2025 | veterinary (pig) | PEDV, PoRVA | RNA | MIRA-LFD | 50 anal swabs | 20 and 4.5 copies/uL | 98% and 96% concordance; kappa 0.92, 0.96 | Abstract | 10.1016/j.mimet.2025.107289 |
+| R08108 | 2025 | veterinary (pig) | ASFV antibodies | Ab | colloidal gold dual ICS (p30, CD2v) (AuNP) | not reported | not reported | accuracy 99.823% | Abstract | 10.1016/j.tvjl.2025.106470 |
+| R08186 | 2025 | veterinary (pig) | ASFV | DNA | CRISPR/AapCas12b LFS | 34 clinical specimens | 6 copies/uL | complete concordance with real-time PCR | Abstract | 10.3390/ani15223274 |
+| R08298 | 2025 | veterinary (pig) | ASFV antibodies | Ab | in-house p72, p30, p54 LFAs | 143 sera, Thailand | not reported | p72 LFA sens 100%, spec 100%, kappa 1.0 vs ELISA | Abstract | 10.3390/vetsci13010004 |
+| R08151 | 2026 | veterinary (pig) | PDCoV | Ag | mAb anti-S colloidal gold strip (AuNP) | 77 clinical samples | 1e5 TCID50/mL | 92.2% coincidence with RT-qPCR | Abstract | 10.1016/j.virol.2025.110739 |
+| R08352 | 2026 | veterinary (pig) | CSFV E2 | Ag | E2-based LFA | clinical | not reported | sens 100%, spec 96.42% vs ELISA | Abstract | 10.1007/s12088-025-01471-2 |
+| R08478 | 2026 | veterinary (pig) | PEDV | Ag | colloidal gold strip, anti-S mAbs (AuNP) | not reported | 1.2 TCID50/uL | not reported | Abstract | 10.1128/spectrum.03387-25 |
+| R08564 | 2026 | veterinary (pig) | ASFV p72 | Ag | colloidal gold strip (AuNP) | not reported | 10^2.50 TCID50/reaction | not reported | Abstract | 10.1155/tbed/3198773 |
+| R08714 | 2026 | veterinary (pig) | porcine parvovirus 7 | DNA | RPA + lateral flow | 167 field samples | 2,050 copies | 23 positive (13.77%) | Abstract | 10.30466/vrf.2026.2059235.4742 |
+
+### Table I1e. Poultry and waterfowl
+
+| Rec | Year | Host | Target | Analyte | Format / label | Matrix | LOD (as stated) | Within-paper comparison and diagnostic data | Evidence | DOI |
+|---|---|---|---|---|---|---|---|---|---|---|
+| R01681 | 2015 | livestock (poultry) | avian leukosis virus p27 | Ag | ICS with two mAbs | 1100 samples (cloacal swabs, meconium, isolates) | 600 pg p27; 70 TCID50 virus | agreement with ELISA 93.91%, 93.42%, 100% by sample type | Abstract | 10.1016/j.jviromet.2015.04.033 |
+| R01825 | 2015 | livestock (poultry) | avian influenza | Ab | ICS with H6N1 antigen (colloidal gold (anti-chicken IgG)) | 326 chicken sera | NR | sens 95.2% (159/167), spec 94.3% (150/159); kappa 0.896 vs HI | Abstract | PMID 26753244 (no DOI) |
+| R02193 | 2017 | livestock (poultry) | avian influenza H5 | Ag | IC kit with new mAb (clade 2.3.4.4) | NR | NR | higher sens/spec than Linjudge Flu A/H5 | Abstract | 10.1371/journal.pone.0182228 |
+| R02208 | 2017 | livestock (duck) | duck Tembusu virus | Ab | double-antigen sandwich ICS (colloidal gold) | 217 duck sera | 16-fold more sensitive than agar gel double diffusion | vs iELISA (values NR) | Abstract | 10.1016/j.jviromet.2017.08.022 |
+| R02401 | 2018 | livestock (goose) | goose parvovirus | Ag | colloidal gold ICA (colloidal gold) | 92 samples (allantoic fluid, tissue) | NR | no cross-reaction; compared with agar diffusion and PCR (values NR) | Abstract | 10.3389/fmicb.2018.00953 |
+| R02402 | 2018 | livestock (duck) | duck Tembusu virus | Ag | colloidal gold ICS (colloidal gold) | 50 clinical samples | allantoic fluid LD50 10^4.33/0.2 mL diluted up to 200-fold | 93.9% coincidence with RT-PCR | Abstract | 10.3389/fmicb.2018.01001 |
+| R02437 | 2018 | livestock (poultry) | H9 avian influenza antibodies | Ab | quantitative ICTS, double-line sandwich (colloidal gold) | 504 chicken sera | NR | coincidence 80.56% with HI; correlation 0.9656 | Abstract | 10.1016/j.jchromb.2018.07.024 |
+| R02483 | 2018 | livestock (poultry) | H7N9 influenza A | Ag | colloidal gold ICS, mAbs (colloidal gold) | swab and tissue samples | 2.5 log10 EID50/0.1 mL | NR | Abstract | 10.3389/fmicb.2018.02069 |
+| R02504 | 2019 | livestock (poultry) | avian leukosis virus p27 | Ag | colloidal gold strip (colloidal gold) | NR | 6.25 ng/mL p27; 80 TCID50/mL | no cross-reaction with other avian pathogens | Abstract | 10.1007/s00253-018-9461-z |
+| R02665 | 2019 | livestock (poultry) | Newcastle disease virus | Ag | ICS with anti-HN mAb-gold (colloidal gold) | NR | NR | sens 83.3%, spec 100% vs RT-PCR | Abstract | 10.1177/1040638719837320 |
+| R02692 | 2019 | livestock (poultry) | avian infectious bronchitis virus | Ag | ICS | NR | 10^4.4 EID50 | several genotypes detected, no cross-reaction | Abstract | 10.3390/ijms20092216 |
+| R02859 | 2020 | livestock (duck) | duck plague virus antibodies | Ab | colloidal gold strip, gI protein (colloidal gold) | 123 sera | 1:256 dilution | good agreement with ELISA | Abstract | 10.1016/j.jviromet.2019.113803 |
+| R02893 | 2020 | livestock (poultry) | H7N9 avian influenza | Ag | colloidal gold ICS, 2 mAbs (colloidal gold) | NR | 2 HAU or 10^2.55 TCID50 | NR | Abstract | 10.1007/s11262-020-01742-8 |
+| R02940 | 2020 | livestock (poultry) | H6 avian influenza | Ag | AC-ELISA and ICS with mAbs | NR | ELISA 3.9 ng/mL H6 HA, 0.5 HAU/100 uL; strip stable 60 days | NR | Abstract | 10.1007/s00705-020-04602-w |
+| R02986 | 2020 | livestock (poultry) | infectious laryngotracheitis virus | Ag | colloidal gold strip, gJ mAbs (colloidal gold) | clinical samples | 60 ELD50/mL | no cross-reaction with other avian pathogens | Abstract | 10.1016/j.psj.2019.11.066 |
+| R02987 | 2020 | livestock (poultry) | NDV antibodies | Ab | quantitative gold ICA with immunosensor (colloidal gold) | 506 chicken sera | 2^2 titres | NR | Abstract | 10.1111/jam.14688 |
+| R03634 | 2021 | livestock (poultry) | infectious bursal disease virus | Ag | LFA with anti-IBDV IgY | NR | 1.5 x 10^3 TCID50 | no reaction with AIV, NDV | Abstract | 10.1016/j.jviromet.2021.114065 |
+| R03790 | 2021 | livestock (duck) | duck enteritis virus | Ag | colloidal gold ICA, mAbs (colloidal gold) | infected cell cultures, experimentally infected ducks | 2.52 x 10^3 TCID50/mL | 80% concordance with PCR (cloacal swabs); 100% in tissues | Abstract | 10.3390/pathogens10030365 |
+| R03808 | 2021 | livestock (poultry) | H7 avian influenza | Ag | ICS | chicken swab samples | 2.4 log10 EID50/0.1 mL | NR | Abstract | 10.1186/s12985-021-01537-9 |
+| R04063 | 2021 | livestock (poultry) | avian influenza A(H5) | Ag | ag-ELISA and colloidal gold strip (colloidal gold) | 200 poultry samples | ELISA 0.5 HAU/100 uL and 7.5 ng/mL H5 HA | strip sens 88.9%, spec 98.3% | Abstract | 10.1177/10406387211027538 |
+| R04131 | 2021 | livestock (poultry) | fowl adenovirus 4 | Ag | colloidal gold strip, Fiber-2 mAbs (colloidal gold) | diseased chicken tissues | 0.1 ug/0.1 mL GST-Fiber-2; 1 x 10^5 TCID50/0.1 mL | good compatibility with PCR | Abstract | 10.1016/j.jviromet.2021.114231 |
+| R04244 | 2021 | livestock (goose) | novel goose astrovirus | Ag | ICS | 40 clinical positives | NR | 92.5% coincidence with PCR; stable 4-6 months | Abstract | 10.1016/j.jviromet.2021.114263 |
+| R04387 | 2021 | livestock (poultry) | H9N2 avian influenza | Ag | AC-ELISA and colloidal gold ICT strip (colloidal gold) | 200 poultry samples | HA titer 4 per 100 uL (strip); ELISA 31.5 ng/mL HA | ELISA sens 93.2%, spec 98.1% | Abstract | 10.1186/s12985-021-01671-4 |
+| R05995 | 2023 | livestock (poultry) | Newcastle disease virus antibodies | Ab | blocking LFA strip | 510 clinical samples | NR | NR | Abstract | 10.3390/vetsci10020152 |
+| R06759 | 2024 | livestock (poultry) | chicken anemia virus | Ag | LFA with Delta60 VP1 | 305 chicken serum samples | 625 ng/mL antigen | kappa 0.66 vs qPCR | Abstract | 10.1016/j.psj.2024.103432 |
+| R06946 | 2024 | livestock (poultry) | infectious bronchitis virus | Ag | colloidal gold ICS with mAb N2D5 (colloidal gold) | experimentally infected chickens | 10^-1.4522 EID50/mL | no cross-reaction | Abstract | 10.1016/j.psj.2024.103648 |
+| R07242 | 2024 | veterinary (goose) | goose astrovirus II | RNA | MIRA + lateral flow dipstick | clinical samples | 1 copy/uL (same as RT-qPCR) | correlates with RT-qPCR (values not in abstract) | Abstract | 10.3389/fcimb.2024.1424212 |
+| R07276 | 2024 | veterinary (poultry) | avian leukosis virus | RNA | RAA + CRISPR/Cas13a + LFD | clinical samples | not reported | compared with PCR and qPCR | Abstract | 10.3389/fvets.2024.1424238 |
+| R07357 | 2024 | veterinary (poultry) | ALV-J | RNA | RAA + CRISPR-Cas13a, fluorescence and LFA | 429 clinical samples | 5.4 copies/uL | positivity 15.2% vs PCR 14.7%, ELISA 14.2% | Abstract | 10.3390/ijms251910780 |
+| R07370 | 2024 | veterinary (pigeon) | pigeon paramyxovirus 1 | RNA | RAA + CRISPR/Cas12a + LFD | clinical samples | 1e3 copies/uL (LFD) vs 1e0 (fluorescence) | not reported | Abstract | 10.3390/vetsci11100473 |
+| R07475 | 2024 | veterinary (duck) | duck circovirus | DNA | RPA-CRISPR/Cas12a LFS | 97 samples | 2.6 copies | 100% agreement with qPCR | Abstract | 10.1186/s12985-024-02577-7 |
+| R07492 | 2025 | veterinary (poultry) | avian influenza (pan-AIV, H5/H7/H9) | RNA | RT-RAA + CRISPR/Cas13a + LFA (and qPCR-read version) | not reported | 10 copies/uL (LFA); 1 copy/uL (fluorescence) | comparable to qRT-PCR (no values in abstract) | Abstract | 10.1016/j.psj.2024.104745 |
+| R07559 | 2025 | veterinary (poultry) | H9N2 | RNA | RPA + Cas13a, fluorescence and strip | clinical samples | 1e2 copies/uL (strip); 1e1 (fluorescence) | comparable to RT-qPCR | Abstract | 10.1016/j.ijbiomac.2025.140474 |
+| R07564 | 2025 | veterinary (poultry) | H5Nx AIV | RNA | RPA + Cas12a with anti-NP antibody purification | clinical samples | 1e2 EID50 (strip); 1e1 (fluorescence) | sens 80%, spec 100% | Abstract | 10.3389/fvets.2025.1520349 |
+| R07714 | 2025 | veterinary (waterfowl) | SBDSV | DNA | RPA + CRISPR/Cas12a dual-mode | 36 field samples | 10 copies/uL | 100% concordance with qPCR and IFA | Abstract | 10.1016/j.psj.2025.105191 |
+| R07763 | 2025 | veterinary (duck) | DHAV-3 | RNA | RPA + Cas13a fluorescence/LF | 30 field samples | 1 copy/uL | complete concordance with RT-qPCR | Abstract | 10.1016/j.ijbiomac.2025.144400 |
+| R07813 | 2025 | veterinary (poultry) | avian metapneumovirus | RNA | MIRA + Cas13a fluorescence/LF | 200 suspected samples | 5 copies/reaction (LF); 2 (fluorescence); qPCR 20 | kappa >0.93 | Abstract | 10.1016/j.ijbiomac.2025.144966 |
+| R07885 | 2025 | veterinary (goose) | novel goose astrovirus | Ag | nanobody colloidal gold strip (AuNP) | 51 tissue, 60 swabs | >640-fold dilution (~10^1.57 TCID50) | coincidence 100% and 95.24% vs RT-PCR | Abstract | 10.1155/tbed/6439771 |
+| R07964 | 2025 | veterinary (duck) | duck adenovirus 3 | DNA | RPA + CRISPR/Cas12a LFS | 95 samples | 3.0 gene copies | 98.95% consistency with qPCR | Abstract | 10.3389/fmicb.2025.1607974 |
+| R07986 | 2025 | veterinary (duck) | duck adenovirus 3 | DNA | RPA-LFD | 65 clinical samples | 10 copies/uL | coincidence 100% vs qPCR | Abstract | 10.3389/fmicb.2025.1638182 |
+| R08013 | 2025 | veterinary (duck) | muscovy duck parvovirus | DNA | RPA + Cas12a LFS | 98 tissue samples | 1.3 gene copies | 98.98% concordance with qPCR | Abstract | 10.3389/fvets.2025.1621697 |
+| R08116 | 2025 | veterinary (duck) | duck enteritis virus | DNA | MIRA, MIRA-qPCR, MIRA-LFD | not reported | 10 copies/uL | not reported | Abstract | 10.3390/pathogens14100980 |
+| R08210 | 2026 | veterinary (chicken) | Gyrovirus homsa 1 | Ag | colloidal gold ICA (AuNP) | not reported | 1e3 copies/uL | not reported | Abstract | 10.1016/j.jviromet.2025.115320 |
+| R08262 | 2026 | veterinary (chicken) | chicken infectious anemia virus | DNA | ERA + Cas12a, LFA | not reported | 1e3 copies/uL (LFA); 1 copy/uL (fluorescence) | not reported | Abstract | 10.1016/j.rvsc.2025.106046 |
+| R08290 | 2026 | veterinary (goose) | goose parvovirus | DNA | RPA + Cas12a, LFA | not reported | 78 copies/uL (LFA; 100x vs PCR); 7.8 (fluorescence; 1000x) | not reported | Abstract | 10.1016/j.ijbiomac.2026.150496 |
+| R08323 | 2026 | veterinary (chicken) | chicken infectious anemia virus | DNA | RPA-LFD kit | 50 field samples | 10 copies | 100% concordance with qPCR | Abstract | 10.1016/j.jviromet.2026.115363 |
+| R08415 | 2026 | veterinary (chicken) | FAdV-4 | Ag | colloidal gold ICS, penton mAbs (AuNP) | not reported | 7.81e4 TCID50/0.1 mL | not reported | Abstract | 10.3389/fvets.2026.1758143 |
+| R08495 | 2026 | veterinary (pigeon) | pigeon rotavirus A | RNA | RT-RAA-Cas12a | 56 tissue samples | 16.8 copies/uL | positivity 23.5% vs PCR 17.6% (racing pigeons) | Abstract | 10.3390/microorganisms14040732 |
+| R08524 | 2026 | veterinary (duck) | duck adenovirus 3 | DNA | RAA-Cas12a LFD | not reported | 2.87e2 copies/uL | not reported | Abstract | 10.3389/fmicb.2026.1815110 |
+| R08731 | 2026 | veterinary (poultry) | N9 avian influenza | Ag | NA-targeting LFIA | not reported | 10^3.3 TCID50/0.1 mL; 98 ng/mL NA protein | not reported | Abstract | 10.3390/v18080879 |
+| R08766 | 2026 | veterinary (poultry) | genotype VII NDV | RNA | RT-RPA-CRISPR/Cas13a LFD | 154 samples | 6 copies/uL | 100% concordance | Abstract | 10.3389/fvets.2026.1870607 |
+| R08781 | 2026 | veterinary (poultry) | infectious bronchitis virus antibodies | Ab | colloidal gold strip, epitope peptide (AuNP) | chicken sera | 1:180 | high agreement with ELISA | Abstract | 10.3390/microorganisms14091887 |
+| R08786 | 2026 | veterinary (goose) | goose parvovirus, novel GPV | DNA | RPA + Cas13a dual-mode, fluorescence and LF | clinical samples | 10 copies/uL (strip); 1 copy/uL (fluorescence) | high concordance with qPCR | Abstract | 10.1016/j.ijbiomac.2026.154658 |
+
+### Table I1f. Ruminants, horses and other livestock
+
+| Rec | Year | Host | Target | Analyte | Format / label | Matrix | LOD (as stated) | Within-paper comparison and diagnostic data | Evidence | DOI |
+|---|---|---|---|---|---|---|---|---|---|---|
+| R01608 | 2015 | livestock (camel) | MERS-CoV | Ag | ICA with mAbs | nasal swabs, camels | NR | sens 93.90%, spec 100% vs RT-PCR | Abstract | 10.1128/jcm.03096-14 |
+| R01814 | 2016 | livestock | bluetongue virus | Ab | commercial LFT device | ruminant sera, inter-laboratory | NR | DSn 100% (90.5-100); DSp 95.2%; repeatability 100% | Abstract | 10.1016/j.jviromet.2015.12.001 |
+| R01878 | 2016 | livestock (cattle) | bovine leukemia virus | Ab | ICA with gp51 mAb | NR | NR | sens 98%, spec 94.7% vs ELISA | Abstract | 10.4142/jvs.2016.17.4.479 |
+| R01943 | 2016 | livestock | Orf virus | Ag | LFIA with mAbs 5A5/6F2 (colloidal gold) | NR | 2.03 x 10^3.0 TCID50/mL | sens 92.1%, spec 100% vs LAMP | Abstract | 10.1016/j.jviromet.2016.06.009 |
+| R01955 | 2016 | livestock (cattle) | BVDV | Ag | IgY-based ELISA and ICA | NR | NR | NR | Abstract | 10.1080/09168451.2016.1217144 |
+| R02523 | 2019 | livestock | FMDV SAT2 | Ag | LFI strip with new mAbs | NR | NR | sens and spec greater than DAS-ELISA (values NR) | Abstract | 10.1111/tbed.13076 |
+| R02799 | 2019 | livestock (cattle) | bovine rotavirus | Ag | colloidal gold ICS, mAbs (colloidal gold) | 220 clinical samples | 1 x 10^3 TCID50/0.1 mL | compared with RT-PCR (values NR) | Abstract | 10.1089/vim.2019.0071 |
+| R03232 | 2021 | livestock | FMDV SAT1, SAT3 | Ag | 2 lateral flow test strips | NR | NR | SAT3 strip similar to DAS-ELISA, SAT1 lower | Abstract | 10.1016/j.jviromet.2020.113967 |
+| R04424 | 2021 | livestock | bluetongue virus VP7 antibodies | Ab | colloidal gold LFIA (colloidal gold) | 481 sera (sheep, goats, cattle, camel) | NR | DSn 95.2% (91.6-97.6), DSp 99.6% (97.8-100); kappa 0.949 vs c-ELISA | Abstract | 10.1016/j.jim.2021.113166 |
+| R04948 | 2022 | livestock (mink) | mink enteritis virus | Ag | competitive ICS, colloidal gold (colloidal gold) | 289 samples | 512 HAU/100 uL | agreement 94.1%, sens 93.2%, spec 97.1% vs Anigen CPV kit | Abstract | 10.3389/fmicb.2022.839320 |
+| R05030 | 2022 | livestock | FMDV (all 7 serotypes) | Ag | pan-serotype LFST with universal capture ligand | NR | NR | sens comparable to AgELISA; spec 100% | Abstract | 10.3390/v14040785 |
+| R05922 | 2022 | livestock | FMDV, lumpy skin disease virus | Ag | AuNP lateral flow test (gold nanoparticles) | 469 milk, 1165 serum, 117 blood/biopsy samples | NR | vs Ag-ELISA, WB, PCR (values NR) | Abstract | 10.18502/ijm.v14i4.10245 |
+| R06217 | 2023 | livestock (sheep) | bluetongue virus | Ab | gold nanoprobe LFD (gold nanoparticles (secondary antibody)) | sheep sera | 1.875 ug/mL BT IgG | sens 96%, spec 99.23%, kappa 0.9 vs indirect ELISA | Abstract | 10.1080/10495398.2023.2214604 |
+| R06742 | 2024 | livestock (horse) | equine infectious anemia virus antibodies | Ab | test strip | NR | 8-16x better than 2 ELISAs, 128-256x better than AGID, 8-16x lower than WB | NR | Abstract | 10.1007/s00253-023-12980-9 |
+| R07082 | 2024 | livestock (pig, horse) | Getah virus antibodies | Ab | colloidal gold ICTS with p62-E1 antigen (colloidal gold) | NR | high sensitivity (value NR) | no cross-reactivity | Abstract | 10.1007/s00253-024-13168-5 |
+| R07255 | 2024 | veterinary (cloven-hoofed) | FMDV | RNA | closed-tube RT-LAMP + lateral flow test | direct clinical material | <80 copies/reaction | "high diagnostic sensitivity" (no values in abstract) | Abstract | 10.3389/fmicb.2024.1429288 |
+| R07265 | 2024 | veterinary (horse) | Getah virus (Ab) | Ab | ICS with recombinant E2 protein | horse serum | 1:320 dilution of positive serum | concordance 94.0% vs virus neutralization (n=182) | Abstract | 10.3390/ani14162309 |
+| R07305 | 2024 | veterinary (cattle) | BVDV, BRV, BPV | DNA/RNA | triplex LAMP + LFD | 156 anal swabs | 26.2, 24.3, 25.0 copies/uL | >99% agreement with qPCR | Abstract | 10.1039/d4ay01303d |
+| R07440 | 2024 | veterinary (cattle) | bovine leukemia virus | DNA | CRISPR-Cas13a LFA | 100 blood samples | not reported | 100% agreement with qPCR | Abstract | 10.3390/ani14223262 |
+| R07724 | 2024 | veterinary (cattle) | bovine coronavirus | RNA | RT-RAA, fluorescence and lateral flow | 242 clinical samples | 14.6 and 146 copies/uL | compared with RT-PCR, RT-qPCR | Abstract | 10.1155/2024/7108960 |
+| R07279 | 2025 | veterinary (cattle) | BVDV, BEFV, BRSV | RNA | multiplex RT-RPA + lateral flow biosensor | clinical samples | 26.2, 24.2, 25.6 copies/uL | sens 98.11%, spec 100%, kappa 0.988 vs RT-qPCR | Abstract | 10.1016/j.talanta.2024.126775 |
+| R07553 | 2025 | veterinary (cattle) | BoHV-1, BoHV-5 | DNA | RPA + LFD | clinical samples | 1 TCID50 | comparable to qPCR, slightly lower sensitivity | Abstract | 10.1128/spectrum.00895-24 |
+| R07567 | 2025 | veterinary (cattle) | FMDV, serotyping | Ag | two multiplex LFDs | 224 RT-PCR positives; 178 typed; 60 negatives | not reported | sens 87.5% (LFD1), 70% (LFD2); spec 100% | Abstract | 10.1016/j.rvsc.2025.105558 |
+| R07847 | 2025 | veterinary (horse) | EIAV antibodies | Ab | colloidal gold strip, p26-gp90 fusion protein (AuNP) | clinical sera | not reported | not reported in abstract | Abstract | 10.1186/s12985-025-02815-6 |
+| R07883 | 2025 | veterinary | FMDV | RNA | RAA test strip | 17 positive, 21 negative samples | 10 copies/uL; 1 TCID50/mL | 100% detection | Abstract | 10.3389/fvets.2025.1526005 |
+| R07985 | 2025 | veterinary (horse, pig) | Getah virus | RNA | RT-RAA + LFD | 21 blood samples | 5.53e2 copies/uL (RT-PCR 5.53e3; qRT-PCR 5.53e1) | fully consistent with RT-PCR, qRT-PCR | Abstract | 10.3389/fcimb.2025.1631048 |
+| R08028 | 2025 | veterinary (ruminants) | bluetongue virus | RNA | RT-ERA + Cas13a, three readouts | 263 field samples | 20 copies/reaction | clinical sens 100%, 100%, 96% (fluorescence value, signal, LF strip) | Abstract | 10.3389/fcimb.2025.1621012 |
+| R08075 | 2025 | veterinary | Getah virus | RNA | RT-RPA + Cas12a LFD and fluorescence | simulated clinical samples | 10 copies/uL | 100% concordance with qPCR | Abstract | 10.7717/peerj.20119 |
+| R08180 | 2026 | veterinary (cattle) | BCoV, IBRV, BVDV | DNA/RNA | triplex RAA-LFD | 73 rectal and nasal samples | 3.20e3, 2.21e3, 4.13e3 copies/uL | sens 98.41%, 80.00%, 85.71%; PPV 100%; kappa 0.94, 0.88, 0.91 | Abstract | 10.1128/spectrum.01628-25 |
+| R08279 | 2026 | veterinary (ruminants) | Schmallenberg virus | RNA | RT-RAA-LFD | spiked sheep tissue | 5 copies/uL | not reported | Abstract | 10.1016/j.tvjl.2026.106567 |
+| R08299 | 2026 | veterinary (small ruminants) | PPRV | RNA | MIRA-LFD | clinical samples | 10 copies/uL | 100% positive detection | Abstract | 10.3390/vetsci13010110 |
+| R08399 | 2026 | veterinary (cattle) | BRSV, BVDV | RNA | RT-ERA-LFD | 46 archived respiratory samples | 10 copies | matched real-time PCR | Abstract | 10.3389/fvets.2026.1754704 |
+| R08687 | 2026 | veterinary (cattle) | bovine leukemia virus | Ab | latex microsphere LFIA typing (latex) | 138 sera | not reported | sens 87.09%, spec 99.06%, concordance 96.37%, kappa 0.89 | Abstract | 10.1007/s00705-026-06710-5 |
+| R08728 | 2026 | veterinary (small ruminants) | PPRV antibodies | Ab | colloidal gold double-antigen strip (AuNP) | sheep sera | not reported | overall agreement 97.9% vs cELISA | Abstract | 10.3390/ani16162545 |
+| R08732 | 2026 | veterinary | FMDV antibodies | Ab | mu3ABC LFIA, DIVA | 366 field sera | not reported | DSn 98.05%, DSp 93.16% vs ELISA | Abstract | 10.3390/vetsci13080797 |
+| R08744 | 2026 | veterinary | capripoxviruses | DNA | RPA-Cas12a LFA | 90 clinical specimens | not reported | complete species discrimination | Abstract | 10.1016/j.jviromet.2026.115465 |
+
+### Table I1g. Zoonotic, vector and wildlife
+
+| Rec | Year | Host | Target | Analyte | Format / label | Matrix | LOD (as stated) | Within-paper comparison and diagnostic data | Evidence | DOI |
+|---|---|---|---|---|---|---|---|---|---|---|
+| R01745 | 2015 | other (mosquito) | chikungunya virus | Ag | immunochromatographic wicking assay | mosquito pools | NR | specific vs other alpha, bunya and flaviviruses | Abstract | 10.1093/jme/tjv047 |
+| R02418 | 2018 | human/animal | West Nile virus | Ag | LFA with anti-DIII E mAb | NR | NR | differentiates WNV from other flaviviruses | Abstract | 10.1016/j.jviromet.2018.06.016 |
+| R02777 | 2019 | livestock/human | Rift Valley fever virus | Ag | LFT pen-side test | reference isolates, negative sera | NR | NR | Abstract | 10.1371/journal.pntd.0007700 |
+| R05580 | 2023 | wildlife (elephants) | elephant endotheliotropic herpesvirus | Ag | immunochromatographic strip | blood samples | 1.25 x 10^5 viral genome copies/mL | NR | Abstract | 10.1016/j.jviromet.2022.114627 |
+| R08445 | 2026 | human | monkeypox virus | DNA | single-tube RAA-Cas12a, LFA | simulated clinical samples | 5 copies/uL (LFA); 0.5 (fluorescence) | 100% accuracy | Abstract | 10.1039/d6ay00065g |
+| R08640 | 2026 | veterinary (lab rodents) | six rodent pathogens | Ab | multiplex ICA storage stability | not reported | NR | NR | Abstract | 10.1292/jvms.26-0161 |
+
+### Table I2. Strategy overview
+
+| Host group | Dominant designs | Examples | Costs and limits seen | Table |
+|---|---|---|---|---|
+| Aquaculture and aquatic | gold antigen strips; RPA, RAA, MIRA, Cas12a/13a strips | WSSV, CyHV, ranaviruses, IHNV | small samples; sensitivity 74% in one strip | I1a |
+| Plant viruses | monoclonal gold strips; RT-RPA, RT-LAMP, Cas strips | SMV, tobamoviruses, begomoviruses | dilution endpoints instead of copy numbers | I1b |
+| Companion animals | monoclonal gold strips; Cas and RPA strips | CDV, CPV, FCoV, FPV | one vaccine QC study | I1c |
+| Pigs | antigen, antibody and nucleic-acid strips | ASFV, PEDV, CSFV, PRRSV | modest specificity in IgM formats | I1d |
+| Poultry and waterfowl | antigen strips; Cas12/13 strips | AIV, NDV, ALV, DAdV-3 | many without sample numbers | I1e |
+| Ruminants and other livestock | serology strips; multiplex isothermal strips | BTV, FMDV, BVDV, PPRV | serotype coverage incomplete | I1f |
+| Zoonotic, vector and wildlife | single studies | WNV, RVFV, EEHV | heterogeneous, little data | I1g |
+
+### Table I3. Reporting checklist for papers read in full
+
+No paper in this section was read in full; the checklist is not applicable and will be completed if full texts are supplied.
+
+## Items still to verify before this section is final
+1. All 230 rows are abstract-level; matrix, reference method and sample size stay NR where the abstract is silent.
+2. Scope-check records: R05341 (assay format not described), R07808 (abstract incomplete), R08322 (generic plant pathogens), R02156 (letter without data), R08445 (human target, placed here by the screening section), R08640 (no performance data).
+3. Named commercial products retained because they describe development or evaluation within a study: R01814 (commercial bluetongue device) and R06508 (VDRG ASFV Ag kit). The author should decide whether the E10 rule applies.
+4. Record IDs in the tables will be replaced by numbered citations when the reference list is built.
+
+---
+
+# Main-text summary tables and cross-section synthesis (working text v1)
+
+Working text, 2026-11-06. Counts in Tables 1-5 are computed from the `included` sheet of `04_evidence_table.xlsx` (1,102 records, published 2015-2026 by search date; see note on 2027 below). Statements in Section 4 that carry a DOI are taken from the section texts 3.1-3.9, where the DOI was checked against the evidence table; statements without a DOI summarise a section as a whole and point to it. Nothing in Section 4 adds a new finding. Because 97.2% of records were assessed from abstracts only, all conclusions below are conclusions about what the abstracts report.
+
+# Part 1. Main-text summary tables
+
+### Table 1. Included records by technology section and publication period
+
+| Section | 2015-17 | 2018-20 | 2021-23 | 2024-27* | Total |
+|---|---|---|---|---|---|
+| 3.1 Gold-nanoparticle engineering | 8 | 18 | 44 | 23 | 93 |
+| 3.2 Other coloured labels | 2 | 6 | 14 | 11 | 33 |
+| 3.3 Catalytic and enzymatic amplification | 3 | 6 | 12 | 26 | 47 |
+| 3.4 Assay and flow engineering | 6 | 10 | 50 | 33 | 99 |
+| 3.5 Nucleic-acid amplification with strip | 25 | 64 | 186 | 107 | 382 |
+| 3.6 Smartphone, reader and AI reading | 0 | 7 | 33 | 15 | 55 |
+| 3.7 Multiplex and dual-mode | 11 | 9 | 26 | 57 | 103 |
+| 3.8 Newly developed clinical strips | 10 | 15 | 20 | 15 | 60 |
+| 3.9 Veterinary, aquaculture, plant and other | 30 | 28 | 37 | 135 | 230 |
+| **Total** | **95** | **163** | **422** | **422** | **1102** |
+
+*Three records (R08738, R08742, R08764) carry a publication year of 2027 in the database metadata (DOIs 10.1016/j.ab.2026.116240, 10.1016/j.talanta.2026.130562, 10.1016/j.ab.2026.116259). They were retained because their DOIs carry 2026, so the metadata year probably reflects the issue date; the author should confirm this, because the analysis window is 2015-2026. The last period is therefore 2024-2026 plus these three records.
+
+### Table 2. Included records by host group
+
+Host group is taken from the `host` field of the evidence table (records whose host field begins with "human" are counted as human, including "human/animal"; "livestock/human" counts as animal). 
+
+| Section | Human | Animal | Aquatic | Plant | Not stated / other | Total |
+|---|---|---|---|---|---|---|
+| 3.1 Gold-nanoparticle engineering | 76 | 14 | 2 | 1 | 0 | 93 |
+| 3.2 Other coloured labels | 25 | 8 | 0 | 0 | 0 | 33 |
+| 3.3 Catalytic and enzymatic amplification | 37 | 6 | 1 | 3 | 0 | 47 |
+| 3.4 Assay and flow engineering | 90 | 4 | 0 | 3 | 2 | 99 |
+| 3.5 Nucleic-acid amplification with strip | 239 | 93 | 23 | 23 | 4 | 382 |
+| 3.6 Smartphone, reader and AI reading | 52 | 2 | 0 | 0 | 1 | 55 |
+| 3.7 Multiplex and dual-mode | 75 | 21 | 0 | 7 | 0 | 103 |
+| 3.8 Newly developed clinical strips | 59 | 1 | 0 | 0 | 0 | 60 |
+| 3.9 Veterinary, aquaculture, plant and other | 2 | 166 | 27 | 34 | 1 | 230 |
+| **Total** | **655** | **315** | **53** | **71** | **8** | **1102** |
+
+### Table 3. Included records by analyte type
+
+Section 3.5 is classed as nucleic acid by design (the analyte field is empty for 314 of its 382 records because the method defines the target). "Mixed / other / NR" includes dual antigen-antibody, whole-pathogen and unrecorded entries.
+
+| Section | Antigen | Antibody | Nucleic acid | Mixed / other / NR | Total |
+|---|---|---|---|---|---|
+| 3.1 Gold-nanoparticle engineering | 66 | 20 | 1 | 6 | 93 |
+| 3.2 Other coloured labels | 21 | 10 | 1 | 1 | 33 |
+| 3.3 Catalytic and enzymatic amplification | 39 | 0 | 2 | 6 | 47 |
+| 3.4 Assay and flow engineering | 73 | 19 | 1 | 6 | 99 |
+| 3.5 Nucleic-acid amplification with strip | 0 | 0 | 382 | 0 | 382 |
+| 3.6 Smartphone, reader and AI reading | 22 | 28 | 2 | 3 | 55 |
+| 3.7 Multiplex and dual-mode | 49 | 24 | 23 | 7 | 103 |
+| 3.8 Newly developed clinical strips | 34 | 23 | 0 | 3 | 60 |
+| 3.9 Veterinary, aquaculture, plant and other | 98 | 43 | 85 | 4 | 230 |
+| **Total** | **402** | **167** | **497** | **36** | **1102** |
+
+### Table 4. Evidence level by section
+
+| Section | Full text | Abstract only | Total |
+|---|---|---|---|
+| 3.1 Gold-nanoparticle engineering | 13 | 80 | 93 |
+| 3.2 Other coloured labels | 7 | 26 | 33 |
+| 3.3 Catalytic and enzymatic amplification | 6 | 41 | 47 |
+| 3.4 Assay and flow engineering | 3 | 96 | 99 |
+| 3.5 Nucleic-acid amplification with strip | 1 | 381 | 382 |
+| 3.6 Smartphone, reader and AI reading | 1 | 54 | 55 |
+| 3.7 Multiplex and dual-mode | 0 | 103 | 103 |
+| 3.8 Newly developed clinical strips | 0 | 60 | 60 |
+| 3.9 Veterinary, aquaculture, plant and other | 0 | 230 | 230 |
+| **Total** | **31** | **1071** | **1102** |
+
+### Table 5. Included records by publication year
+
+| Year | 2015 | 2016 | 2017 | 2018 | 2019 | 2020 | 2021 | 2022 | 2023 | 2024 | 2025 | 2026 | 2027 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Records | 35 | 24 | 36 | 41 | 49 | 73 | 130 | 154 | 138 | 146 | 144 | 129 | 3 |
+
+### Table 6. What each technology contributes, what it costs, and how strong the evidence is
+
+This table summarises the "What the evidence supports" paragraph of each section. It contains no cross-study ranking, because comparators, matrices and units differ between papers.
+
+| Section | What it adds to a colorimetric strip | Cost or limit recorded in the section | Strength of the evidence base |
+|---|---|---|---|
+| 3.1 Gold-nanoparticle engineering | more visible captured gold (size, shape, clusters, enlargement) or a different binder on the particle | many limits come from scanners or readers, not the eye; comparators are the authors' own strips | 93 records; 13 read in full; clinical testing is the exception |
+| 3.2 Other coloured labels | a wider palette; colour as a code for several analytes | alternative labels rest on single studies; in one case the alternative was less sensitive than gold | 33 records; 7 read in full; latex best documented, mainly veterinary |
+| 3.3 Catalytic and enzymatic amplification | the largest within-paper gains in the review | extra steps (substrate, peroxide, washing, sometimes a reader); thin clinical data | 47 records; 6 read in full |
+| 3.4 Assay and flow engineering | front-end enrichment, flow control, designed binders and antigens | enrichment needs hardware; many studies report fold-improvement only | 99 records; 3 read in full |
+| 3.5 Nucleic-acid amplification with strip | the lowest detection limits in the review | heating step, sample preparation, contamination risk, extra step for CRISPR; units not interchangeable | 382 records; 1 read in full |
+| 3.6 Smartphone, reader and AI reading | objective, sometimes quantitative reading | gains often describe the reader, not the strip; training and test images often from one source | 55 records; 1 read in full |
+| 3.7 Multiplex and dual-mode | several targets per strip; a second signal channel | gains in dual-mode papers belong to the second channel; sensitivity varies by target | 103 records; none read in full |
+| 3.8 Newly developed clinical strips | new targets with patient or animal samples | heterogeneous designs; mostly abstract-level | 60 records; none read in full |
+| 3.9 Veterinary, aquaculture, plant and other | strips for non-human hosts, now mostly isothermal or CRISPR | detection limits in mixed units; small samples; reference method nearly always qPCR | 230 records; none read in full |
+
+# Part 2. Cross-section synthesis (Section 4 of the review)
+
+## 4.1 Size and shape of the literature
+
+The review includes 1,102 records. Nucleic-acid amplification with a strip readout is the largest group (382 records, 34.7%), followed by veterinary, aquaculture, plant and other non-human strips (230, 20.9%) and the two engineering groups of assay design (99) and gold-nanoparticle engineering (93) (Table 1). Output rose from 95 records in 2015-2017 to 422 in 2021-2023 and stayed at that level in 2024-2026 (Table 1), with a peak of 154 records in 2022 (Table 5). Section 3.6 (readers, smartphones, AI) peaks in 2021-2023 (33 of its 55 records), whereas the 2024-2026 increase sits in multiplex and dual-mode strips (57 of 103 records) and, above all, in non-human viruses: 135 of the 230 records in section 3.9 are from the last period (Table 1).
+
+Human viruses account for 655 records (59.4%), animal viruses for 315 (28.6%), aquatic viruses for 53 (4.8%) and plant viruses for 71 (6.4%) (Table 2). The non-human share is concentrated in nucleic-acid strips (139 of the 382 section-3.5 records concern animal, aquatic or plant hosts) and in section 3.9. Antigen detection is the dominant target of label and assay engineering (sections 3.1-3.4), whereas in the reader section antibody records outnumber antigen records (28 against 22) and make up 23 of the 60 clinical-strip records (Table 3).
+
+The evidence base is thin in depth: only 31 records (2.8%) were read in full (Table 4): 13 in section 3.1, 7 in 3.2, 6 in 3.3, 3 in 3.4, one in 3.5 and one in 3.6. The multiplex, clinical-strip and veterinary sections rest wholly on abstracts, and the nucleic-acid section (382 records) on abstracts apart from one paper.
+
+## 4.2 Four routes to a lower detection limit
+
+Reading the sections together, the literature pursues sensitivity along four largely separate routes, each at a different point of the assay.
+
+*Making the label more visible.* Gold-nanoparticle engineering and alternative labels act on the particle: its size and surface, clustering or shell structures, enlargement after capture, or a different binder on the particle (3.1, 3.2). The best-supported comparisons are against the authors' own conventional strip, and fold-improvements cannot be ranked against one another because comparators differ (3.1.7).
+
+*Adding signal after capture.* Metal deposition, enzyme and nanozyme catalysis give the largest within-paper gains in the review, often one to three orders of magnitude, at the price of additional reagents or reading devices (3.3.7). The same section notes that "nanozyme strip" is ambiguous in the literature, because a nanozyme can serve either as a catalyst for amplification or as a plain label.
+
+*Changing what reaches the strip.* Enrichment, flow control, sample treatment and purpose-designed binders or antigens leave the label and often the commercial strip unchanged. Enrichment shows the largest gains in this group but requires hardware (3.4.7).
+
+*Amplifying the target itself.* PCR, LAMP, RPA/RAA, CRISPR-Cas detection and enzyme-free schemes reach the lowest limits in the review, sometimes single-digit copies per reaction (3.5.7). Because "copies per reaction", "per microlitre" and "per millilitre" are not interchangeable, and antigen limits are given in TCID50, EID50, ng/mL or dilution endpoints, limits from the antigen and nucleic-acid families cannot be placed on one scale. The comparison that can be made is within a paper: for example, in the veterinary set several amplification-plus-strip assays are reported as ten to a thousand times more sensitive than conventional PCR run in the same paper (3.9.8).
+
+These routes are not exclusive. Dual-mode strips combine a colorimetric channel with fluorescence, SERS or photothermal readout, but the lower limits in those papers belong to the second channel. In the mpox SiO2-Au/quantum-dot strip, the colorimetric limit was 0.5 ng/mL, the same as a conventional gold strip, while fluorescence reached 0.0021 ng/mL (DOI: 10.1186/s12951-023-02215-4). A strip that is called colorimetric because its first channel is colour may therefore reach its headline sensitivity only with an instrument.
+
+## 4.3 The equipment question
+
+A recurring theme is that gains in a "colorimetric" strip often depend on an instrument. Section 3.1 notes that many reported limits come from scanners, imagers or readers, not the naked eye (3.1.7). Section 3.3 gives a smartphone nanoenzyme sensor as the clearest case, where the result depends on an optical reader (3.3.7). Section 3.4 notes that enrichment cannot be called equipment-free (3.4.7). Nucleic-acid strips need heating and sample preparation (3.5.7), and dual-mode strips need a second reader (3.7.5). Section 3.6 addresses the reading step directly and shows that it can be made objective and sometimes quantitative. The best-supported example is the HIV field study, in which agreement between five human readers of the same tests ranged from 61% to 100% depending on test type and training (DOI: 10.1038/s41591-021-01384-9). The same section cautions that many reader studies apply the device to commercial strips, so gains describe the reader, and that AI studies often train and test on images from one source (3.6.6). Taken together, the sections suggest a distinction the field does not always make: strips that are read by eye, strips read by a simple device, and strips whose headline limit needs a laboratory instrument.
+
+## 4.4 From engineering to clinical performance
+
+Across sections 3.1-3.4, clinical evaluation is the exception: many studies test spiked buffer, saliva or recombinant protein, and reference methods differ (3.1.7, 3.2.8, 3.3.7, 3.4.7). Where patient or animal samples were tested, three patterns recur in the abstract-level evidence of sections 3.8 and 3.9.
+
+First, sensitivity depends on the analyte's biology and on timing, not only on the strip. A SARS-CoV-2 IgM/IgG strip had sensitivity of 11.1% in days 1-7, 92.9% in days 8-14 and 96.8% after day 14 (DOI: 10.1016/j.jinf.2020.03.051). Antigen strips fall off at higher cycle threshold: one strip reached 100% sensitivity at Ct below 25 and 50% at Ct of 30 or above (DOI: 10.3390/biomedicines10071558), and another was higher at Ct of 30 or below (DOI: 10.3390/v13050796).
+
+Second, a good laboratory assay does not guarantee a good strip. For mpox, an A29L monoclonal-antibody ELISA had sensitivity of 95% in plasma, whereas the lateral flow version reached 58.3% (7/12) in plasma and 40.0% (4/10) in vesicular fluid (DOI: 10.1128/spectrum.00167-26).
+
+Third, specificity can be the weak point in veterinary serology. A Japanese encephalitis IgM strip reached sensitivity of 87.50% in its second format but specificity of only 62.93% on 318 field sera (DOI: 10.1016/j.jim.2024.113695).
+
+Sample numbers are often small and the reference method is frequently the same laboratory's qPCR (3.9.8), and in the nucleic-acid papers positive agreement is sometimes counted over repeated tests of the same samples (3.5.7). Diagnostic sensitivity and specificity from different studies should therefore not be pooled or ranked on the basis of this review.
+
+## 4.5 Non-human viruses
+
+Veterinary, aquaculture and plant work forms a distinct body of the literature. The earlier part is dominated by gold-labelled monoclonal strips and recombinant-antigen serology (including DIVA formats), and the 2024-2026 part by isothermal amplification with Cas12a or Cas13a and a lateral flow readout (3.9, Table 1). Multiplexing is established here, with several serotype- or species-matched strips tested on field samples (3.7.5). Coloured latex is the best documented alternative to gold, again mainly in veterinary virology (3.2.8). Plant work divides into monoclonal antigen strips reported as dilution endpoints of leaf extract and newer RT-RPA, RT-LAMP and CRISPR strips (3.9.2). The same gaps appear as in human work: small samples, few cross-reactivity panels and little prospective field use (3.9.8).
+
+## 4.6 Reporting gaps
+
+Across the section tables, the same items are often missing from abstracts: the sample matrix, the number of samples, the reference method and the definition of the limit of detection (3.4.7, 3.5.7). Papers read in full show that abstract values can differ from the results text (for example R06317, R08160 and R05311 in Items still to verify of sections 3.1 and 3.5), which is a further reason to treat abstract-level figures cautiously. Missing values are recorded as "not reported" throughout.
+
+## 4.7 Evidence gaps that follow from the tables
+
+These are gaps in the included literature, not recommendations.
+
+1. In the engineering sections the comparator is usually the authors' own conventional strip, so independent head-to-head comparison of different technologies on the same samples is not available from these papers (3.1.7).
+2. In several sections (3.1, 3.3, 3.6) reported limits come from readers or instruments, and the abstracts do not always separate equipment-free from reader-assisted performance.
+3. Clinical accuracy data exist mainly for human SARS-CoV-2 and for a handful of other viruses; for many animal and plant targets the evidence is a detection limit and a cross-reactivity check.
+4. Full-text appraisal covers 31 of 1,102 records, so nothing here can be said about design quality for 97% of the evidence.
+5. Standard units for detection limits (and reporting of how they were derived) are not used.
+
+## 4.8 Limitations of this review
+
+The review searched PubMed only, so literature indexed elsewhere (in particular veterinary and plant virology in databases such as CAB Abstracts) is under-represented. Screening was done by one reviewer with AI assistance, without a second screener, and several exclusions were applied by scope rules set during the work (commercial-kit evaluations, E10; records before 2015, E11). Only 31 of 1,102 records were read in full, and no formal risk-of-bias tool was applied. The review follows scoping-review methods (PRISMA-ScR, JBI) and is not a systematic review; no pooled estimate is offered.
+
+## Items still to verify before this part is final
+1. Confirm the treatment of the three 2027-dated records (R08738, R08742, R08764).
+2. Host groups in Table 2 come from a free-text field; the 8 "not stated / other" records should be checked.
+3. Full-text counts in 4.1 and Table 4 (13, 7, 6, 3, 1 and 1 records) were corrected on 2026-11-10: nine records read in full had been left as abstract-only in the evidence table.
+4. Percentages in 4.1 use 1,102 as the denominator.
+5. The numbers in 4.2-4.4 are taken from section texts; re-check against the final reference list when numbered citations replace record IDs.

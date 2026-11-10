@@ -1,6 +1,6 @@
 # Main-text summary tables and cross-section synthesis (working text v1)
 
-Working text, 2026-11-06. Counts in Tables 1-5 are computed from the `included` sheet of `04_evidence_table.xlsx` (1,102 records, published 2015-2026 by search date; see note on 2027 below). Statements in Section 4 that carry a DOI are taken from the section texts 3.1-3.9, where the DOI was checked against the evidence table; statements without a DOI summarise a section as a whole and point to it. Nothing in Section 4 adds a new finding. Because 98.0% of records were assessed from abstracts only, all conclusions below are conclusions about what the abstracts report.
+Working text, 2026-11-06. Counts in Tables 1-5 are computed from the `included` sheet of `04_evidence_table.xlsx` (1,102 records, published 2015-2026 by search date; see note on 2027 below). Statements in Section 4 that carry a DOI are taken from the section texts 3.1-3.9, where the DOI was checked against the evidence table; statements without a DOI summarise a section as a whole and point to it. Nothing in Section 4 adds a new finding. Because 97.2% of records were assessed from abstracts only, all conclusions below are conclusions about what the abstracts report.
 
 # Part 1. Main-text summary tables
 
@@ -59,16 +59,16 @@ Section 3.5 is classed as nucleic acid by design (the analyte field is empty for
 
 | Section | Full text | Abstract only | Total |
 |---|---|---|---|
-| 3.1 Gold-nanoparticle engineering | 5 | 88 | 93 |
+| 3.1 Gold-nanoparticle engineering | 13 | 80 | 93 |
 | 3.2 Other coloured labels | 7 | 26 | 33 |
 | 3.3 Catalytic and enzymatic amplification | 6 | 41 | 47 |
 | 3.4 Assay and flow engineering | 3 | 96 | 99 |
-| 3.5 Nucleic-acid amplification with strip | 0 | 382 | 382 |
+| 3.5 Nucleic-acid amplification with strip | 1 | 381 | 382 |
 | 3.6 Smartphone, reader and AI reading | 1 | 54 | 55 |
 | 3.7 Multiplex and dual-mode | 0 | 103 | 103 |
 | 3.8 Newly developed clinical strips | 0 | 60 | 60 |
 | 3.9 Veterinary, aquaculture, plant and other | 0 | 230 | 230 |
-| **Total** | **22** | **1080** | **1102** |
+| **Total** | **31** | **1071** | **1102** |
 
 ### Table 5. Included records by publication year
 
@@ -82,11 +82,11 @@ This table summarises the "What the evidence supports" paragraph of each section
 
 | Section | What it adds to a colorimetric strip | Cost or limit recorded in the section | Strength of the evidence base |
 |---|---|---|---|
-| 3.1 Gold-nanoparticle engineering | more visible captured gold (size, shape, clusters, enlargement) or a different binder on the particle | many limits come from scanners or readers, not the eye; comparators are the authors' own strips | 93 records; 5 read in full; clinical testing is the exception |
+| 3.1 Gold-nanoparticle engineering | more visible captured gold (size, shape, clusters, enlargement) or a different binder on the particle | many limits come from scanners or readers, not the eye; comparators are the authors' own strips | 93 records; 13 read in full; clinical testing is the exception |
 | 3.2 Other coloured labels | a wider palette; colour as a code for several analytes | alternative labels rest on single studies; in one case the alternative was less sensitive than gold | 33 records; 7 read in full; latex best documented, mainly veterinary |
 | 3.3 Catalytic and enzymatic amplification | the largest within-paper gains in the review | extra steps (substrate, peroxide, washing, sometimes a reader); thin clinical data | 47 records; 6 read in full |
 | 3.4 Assay and flow engineering | front-end enrichment, flow control, designed binders and antigens | enrichment needs hardware; many studies report fold-improvement only | 99 records; 3 read in full |
-| 3.5 Nucleic-acid amplification with strip | the lowest detection limits in the review | heating step, sample preparation, contamination risk, extra step for CRISPR; units not interchangeable | 382 records; none read in full |
+| 3.5 Nucleic-acid amplification with strip | the lowest detection limits in the review | heating step, sample preparation, contamination risk, extra step for CRISPR; units not interchangeable | 382 records; 1 read in full |
 | 3.6 Smartphone, reader and AI reading | objective, sometimes quantitative reading | gains often describe the reader, not the strip; training and test images often from one source | 55 records; 1 read in full |
 | 3.7 Multiplex and dual-mode | several targets per strip; a second signal channel | gains in dual-mode papers belong to the second channel; sensitivity varies by target | 103 records; none read in full |
 | 3.8 Newly developed clinical strips | new targets with patient or animal samples | heterogeneous designs; mostly abstract-level | 60 records; none read in full |
@@ -100,7 +100,7 @@ The review includes 1,102 records. Nucleic-acid amplification with a strip reado
 
 Human viruses account for 655 records (59.4%), animal viruses for 315 (28.6%), aquatic viruses for 53 (4.8%) and plant viruses for 71 (6.4%) (Table 2). The non-human share is concentrated in nucleic-acid strips (139 of the 382 section-3.5 records concern animal, aquatic or plant hosts) and in section 3.9. Antigen detection is the dominant target of label and assay engineering (sections 3.1-3.4), whereas in the reader section antibody records outnumber antigen records (28 against 22) and make up 23 of the 60 clinical-strip records (Table 3).
 
-The evidence base is thin in depth: only 22 records (2.0%) were read in full (Table 4), and all of them belong to sections 3.1-3.4 and one in 3.6. The nucleic-acid, multiplex, clinical-strip and veterinary sections rest wholly on abstracts.
+The evidence base is thin in depth: only 31 records (2.8%) were read in full (Table 4): 13 in section 3.1, 7 in 3.2, 6 in 3.3, 3 in 3.4, one in 3.5 and one in 3.6. The multiplex, clinical-strip and veterinary sections rest wholly on abstracts, and the nucleic-acid section (382 records) on abstracts apart from one paper.
 
 ## 4.2 Four routes to a lower detection limit
 
@@ -147,16 +147,16 @@ These are gaps in the included literature, not recommendations.
 1. In the engineering sections the comparator is usually the authors' own conventional strip, so independent head-to-head comparison of different technologies on the same samples is not available from these papers (3.1.7).
 2. In several sections (3.1, 3.3, 3.6) reported limits come from readers or instruments, and the abstracts do not always separate equipment-free from reader-assisted performance.
 3. Clinical accuracy data exist mainly for human SARS-CoV-2 and for a handful of other viruses; for many animal and plant targets the evidence is a detection limit and a cross-reactivity check.
-4. Full-text appraisal covers 22 of 1,102 records, so nothing here can be said about design quality for 98% of the evidence.
+4. Full-text appraisal covers 31 of 1,102 records, so nothing here can be said about design quality for 97% of the evidence.
 5. Standard units for detection limits (and reporting of how they were derived) are not used.
 
 ## 4.8 Limitations of this review
 
-The review searched PubMed only, so literature indexed elsewhere (in particular veterinary and plant virology in databases such as CAB Abstracts) is under-represented. Screening was done by one reviewer with AI assistance, without a second screener, and several exclusions were applied by scope rules set during the work (commercial-kit evaluations, E10; records before 2015, E11). Only 22 of 1,102 records were read in full, and no formal risk-of-bias tool was applied. The review follows scoping-review methods (PRISMA-ScR, JBI) and is not a systematic review; no pooled estimate is offered.
+The review searched PubMed only, so literature indexed elsewhere (in particular veterinary and plant virology in databases such as CAB Abstracts) is under-represented. Screening was done by one reviewer with AI assistance, without a second screener, and several exclusions were applied by scope rules set during the work (commercial-kit evaluations, E10; records before 2015, E11). Only 31 of 1,102 records were read in full, and no formal risk-of-bias tool was applied. The review follows scoping-review methods (PRISMA-ScR, JBI) and is not a systematic review; no pooled estimate is offered.
 
 ## Items still to verify before this part is final
 1. Confirm the treatment of the three 2027-dated records (R08738, R08742, R08764).
 2. Host groups in Table 2 come from a free-text field; the 8 "not stated / other" records should be checked.
-3. The statement in 4.1 that all full-text records lie in sections 3.1-3.4 and 3.6 is checked against Table 4 (5, 7, 6, 3 and 1 records).
+3. Full-text counts in 4.1 and Table 4 (13, 7, 6, 3, 1 and 1 records) were corrected on 2026-11-10: nine records read in full had been left as abstract-only in the evidence table.
 4. Percentages in 4.1 use 1,102 as the denominator.
 5. The numbers in 4.2-4.4 are taken from section texts; re-check against the final reference list when numbered citations replace record IDs.
