@@ -270,3 +270,6 @@ Scope amendment (author, 2026-11-05): records published before 2015 are excluded
 
 ## Amendment 2026-11-10: article framing (author decision)
 The article describes methodologies, substances and technologies and how each changes the colorimetric signal. Only colorimetric detection is in scope. Sections are rewritten one at a time around four questions (what limits the signal; which technology addresses it; what the paper reports against its own baseline; what it costs), starting with section 3.1 (A). Sections 3.5-3.9 (E-I) will be shortened and their records re-sorted by mechanism; record counts will be updated when that is done. Text-assessment field corrected: 31 records read in full (a 13, b 7, c 6, d 3, e 1, f 1).
+
+## Amendment 2026-11-10 (b): nucleic-acid strips (section E)
+Author rule: keep nucleic-acid papers only where the final reading is also colorimetric, and state how the signal is read in each paper. Check of the 382 section-E records against their PubMed abstracts: all are built around a lateral flow strip readout, so none was excluded; 64 also report a second readout (marked in the tables, figures from the second readout are not counted as colorimetric). Reading mode as stated in the abstract: eye 191, device 10, not stated 180, no abstract 1.
