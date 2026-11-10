@@ -1,0 +1,3 @@
+
+## REMINDER for the author (added 2026-11-10): full texts for records whose reading mode is not stated
+The abstracts of 158 records in sections A-D and 180 records in section E (338 in total) describe a strip but do not say how it is read (by eye, or with a device). The author said this is very important and asked to be reminded later. Action when the author is ready: list these records (title, DOI) in batches so the author can supply full texts or run the summarising prompt (08_summary_prompt.md), then update the "How the signal is read" column and the section text. Remind the author at the end of each section rewrite and before the final assembly.
