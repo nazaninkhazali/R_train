@@ -273,3 +273,6 @@ The article describes methodologies, substances and technologies and how each ch
 
 ## Amendment 2026-11-10 (b): nucleic-acid strips (section E)
 Author rule: keep nucleic-acid papers only where the final reading is also colorimetric, and state how the signal is read in each paper. Check of the 382 section-E records against their PubMed abstracts: all are built around a lateral flow strip readout, so none was excluded; 64 also report a second readout (marked in the tables, figures from the second readout are not counted as colorimetric). Reading mode as stated in the abstract: eye 191, device 10, not stated 180, no abstract 1.
+
+## Amendment 2026-11-10 (c): colorimetric-reading check for sections A-D
+The same check as for section E was applied to the 272 records of sections A-D against their PubMed abstracts. None was excluded: all describe a strip with a coloured result. Reading mode as stated: eye 93, device 3, eye or device 17, not stated 158, no abstract 1; 16 records with a second readout or a non-colour comparator are marked in the tables, and their non-colour figures are not counted. Corrections made: R02149 (colorimetric LOD 1 ng/mL; 0.1 ng/mL is fluorescent), R04627 (visual figures counted, thermal-contrast reading not counted).
