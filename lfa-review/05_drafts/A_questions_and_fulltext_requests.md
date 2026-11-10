@@ -11,7 +11,7 @@
 8. Comparators. Where the abstract says "commercial strips", I do not name the product. Do you want the product names when the full text gives them?
 
 ## Full texts requested, in order of priority
-A. To give a colour-only figure. RECEIVED on 2026-11-10 and read: R06367, R08134, R03396, R05183, R05756. STILL NEEDED: R06118.
+A. To give a colour-only figure. RECEIVED on 2026-11-10 and read: R06367, R08134, R03396, R05183, R05756. R06118 also received and read.
 (earlier list, for reference):
  - R06118, 10.1016/j.aca.2023.341102 (Au-Ag hollow nanoshells, SARS-CoV-2 neutralising antibodies)
  - R06367, 10.1016/j.jhazmat.2023.132136 (MoS2@Au-Au, mpox virus; the ">500 times" claim)
