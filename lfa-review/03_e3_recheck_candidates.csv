@@ -1,0 +1,55 @@
+rec_id,pmid,year,title
+R01811,26669705,2016,A SERS-based lateral flow assay biosensor for highly sensitive detection of HIV-1 DNA.
+R02071,28194991,2017,Simultaneous Detection of Dual Nucleic Acids Using a SERS-Based Lateral Flow Assay Biosensor.
+R02240,29048155,2017,Wavelengths and Lifetimes of Paper Autofluorescence: A Simple Substrate Screening Process to Enhance the Sensitivity of Fluorescence-Based Assays in Paper.
+R02597,30712559,2019,Ultrasensitive detection of avian influenza A (H7N9) virus using surface-enhanced Raman scattering-based lateral flow immunoassay strips.
+R02639,30830133,2019,Integration of a 3D-printed read-out platform with a quantum dot-based immunoassay for detection of the avian influenza A (H7N9) virus.
+R02786,31553793,2019,Rapid detection of avian leukosis virus using a fluorescent microsphere immunochromatographic test strip assay.
+R02861,31867538,2019,Ultrasensitive Detection of Severe Fever with Thrombocytopenia Syndrome Virus Based on Immunofluorescent Carbon Dots/SiO(2) Nanosphere-Based Lateral Flow Assay.
+R03229,32887174,2020,Rapid and visual detection of African swine fever virus antibody by using fluorescent immunochromatography test strip.
+R03335,33116489,2020,The Use of Near-Infrared Light-Emitting Fluorescent Nanodiamond Particles to Detect Ebola Virus Glycoprotein: Technology Development and Proof of Principle.
+R03401,33216074,2021,Luminous silica colloids with carbon dot incorporation for sensitive immunochromatographic assay of Zika virus.
+R03412,33230700,2021,Upconverting nanoparticle reporter-based highly sensitive rapid lateral flow immunoassay for hepatitis B virus surface antigen.
+R03509,33389215,2021,Rapid and sensitive detection of rotavirus by surface-enhanced Raman scattering immunochromatography.
+R03524,33418986,2021,Double-Antigen Lateral Flow Immunoassay for the Detection of Anti-HIV-1 and -2 Antibodies Using Upconverting Nanoparticle Reporters.
+R03979,34046739,2021,Automatic and sensitive detection of West Nile virus non-structural protein 1 with a portable SERS-LFIA detector.
+R04296,34468139,2021,Rapid and Sensitive SERS-Based Lateral Flow Test for SARS-CoV2-Specific IgM/IgG Antibodies.
+R04615,34940267,2021,Lateral Flow Immunoassay of SARS-CoV-2 Antigen with SERS-Based Registration: Development and Comparison with Traditional Immunoassays.
+R04768,35149424,2022,Dipstick-based rapid nucleic acids purification and CRISPR/Cas12a-mediated isothermal amplification for visual detection of African swine fever virus.
+R04882,35266944,2022,Tetra-primer ARMS-PCR combined with dual-color fluorescent lateral flow assay for the discrimination of SARS-CoV-2 and its mutations with a handheld wireless reader.
+R05149,35623251,2022,Engineering light-initiated afterglow lateral flow immunoassay for infectious disease diagnostics.
+R05349,35887315,2022,Cysteamine-Gold Coated Carboxylated Fluorescent Nanoparticle Mediated Point-of-Care Dual-Modality Detection of the H5N1 Pathogenic Virus.
+R05597,36216143,2022,An integrated fluorescent lateral flow assay for multiplex point-of-care detection of four respiratory viruses.
+R05726,36365002,2022,Recombinase Polymerase Amplification Combined with Fluorescence Immunochromatography Assay for On-Site and Ultrasensitive Detection of SARS-CoV-2.
+R05780,36464448,2023,Portable high-throughput multimodal immunoassay platform for rapid on-site COVID-19 diagnostics.
+R05893,36683609,2023,Accuracy of an antigen-detecting SARS-CoV-2 assay with self- and provider-collected specimens interpreted visually and with BD Veritor™ Plus analyzer.
+R05950,36780303,2023,Smartphone-Based Photothermal Lateral Flow Immunoassay Using Rhenium Diselenide Nanosheet.
+R06129,37052634,2023,CRISPR-based quantum dot nanobead lateral flow assay for facile detection of varicella-zoster virus.
+R06205,37203352,2023,A dual-labeled fluorescence quenching lateral flow assay based on one-pot enzyme-free isothermal cascade amplification for the rapid and sensitive detection of pathogens.
+R06248,37291255,2023,A universal reagent for detection of emerging diseases using bioengineered multifunctional yeast nanofragments.
+R06269,37325455,2023,Enhancing the sensitivity of rapid antigen detection test (RADT) of different SARS-CoV-2 variants and lineages using fluorescence-labeled antibodies and a fluorescent meter.
+R06311,37375501,2023,Improving African Swine Fever Surveillance Using Fluorescent Rapid Tests.
+R06353,37467383,2023,Development of a Fluorescent Immunochromatographic Assay Based on Quantum Dot-Functionalized Two-Dimensional Monolayer Ti(3)C(2) MXene Nanoprobes for the Simultaneous Detection of Influenza A Virus and SARS-CoV-2.
+R06657,38036581,2023,Extraction-free LAMP assays for generic detection of Old World Orthopoxviruses and specific detection of Mpox virus.
+R06830,38359669,2024,NFC-enabled potentiostat and nitrocellulose-based metal electrodes for electrochemical lateral flow assay.
+R06871,38443316,2024,Organic Fluorophores with Large Stokes Shift for the Visualization of Rapid Protein and Nucleic Acid Assays.
+R06872,38443394,2024,Topological barrier to Cas12a activation by circular DNA nanostructures facilitates autocatalysis and transforms DNA/RNA sensing.
+R06995,38665662,2024,Engineering Gene-Specific DNAzymes for Accessible and Multiplexed Nucleic Acid Testing.
+R07531,39834249,2025,Plasmon-Enhanced Fluorescence Paper Lateral Flow Strip for Point-of-Care Testing of SARS-CoV-2 Antigens.
+R07555,39869957,2025,Ultrasensitive point-of-care multiplex diagnosis for influenza virus based robust quantum dot microsphere-lateral flow immunoassay.
+R07562,39892116,2025,DMSO enhanced one-pot HDA-CRISPR/Cas12a biosensor for ultrasensitive detection of Monkeypox virus.
+R07690,40213455,2024,Pushing the Limits of Lateral Flow Immunoassay by Digital SERS for the Ultralow Detection of SARS-CoV-2 Virus.
+R07743,40341421,2025,Rapid antigen test based on gold nanoparticles embedded with highly sensitive surface-enhanced Raman scattering probes for detecting antigen concentrations below the visual detection limit.
+R07766,40402429,2025,Systematically Investigating CRISPR/Cas12a Fluorescent Biosensor for Sensitive and Specific Single Nucleotide Variants Detection.
+R07795,40449106,2025,A RT-ERA-CRISPR/Cas12a assay for rapid point-of-care duck hepatitis A virus detection.
+R07841,40540970,2025,Strong plasmon coupled gold nanoantennas with closed hot-spots enabled ultrasensitive lateral flow immunoassay of porcine epidemic diarrhea virus.
+R07928,40749819,2026,A rapid CRISPR/Cas12a-based assay for the detection of HIV-1 Clade C in infants.
+R07970,40846168,2025,Universal and highly sensitive detection of influenza A virus and streptococcus pneumoniae using WGA-modified magnetic SERS nanotags-based lateral flow assay.
+R08261,41499839,2026,Gold nanostars-based SERS-LFIA for the rapid and sensitive detection of group A rotavirus.
+R08328,41663226,2026,Amplification-free one-pot RNA detection by pairing CRISPR-Cas13a with cascade amplification circuit-driven DNAzyme (RAPID).
+R08466,42001168,2026,A crRNA/Cas12a complex-driven rapid and visual detection method for four porcine diarrhea viruses.
+R08470,42008958,2026,Electrophoresis-assisted SERS-LFA strip for simultaneous HIV and HBV detection.
+R08480,42030773,2026,Rapid and simultaneous on-site detection of influenza A(H1N1) virus and Mycoplasma pneumoniae nucleic acids using magnetic RPA ratiometric fluorescent lateral flow assay.
+R08501,42097265,2026,Rapid and sensitive detection of H3 AIV HA1 protein using a quantum dot-labeled immunochromatographic strip.
+R08673,42542241,2026,Development of a fluorescence immunochromatographic assay based on quantum dot labeling for detection of pseudorabies virus gB protein.
+R08827,42916099,2026,Ultrabright Quasi-Compact Quantum Dot Assembly for Sensitive and Color-Fixed Immunoassays.
