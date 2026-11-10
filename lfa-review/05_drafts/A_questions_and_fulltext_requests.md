@@ -24,3 +24,6 @@ B. To verify large claims or to decide on re-inclusion:
  - R06797, 10.1016/j.aca.2024.342241 (Au@Pt nanostars; which commercial strips were compared)
 C. Open discrepancies carried over: R06317 (10.1038/s41598-023-37347-y, already read: comparator sensitivity), R05311 (already read: nanoshells vs nanoparticles), and the animal-virus strips 10.1039/d4an00180j and 10.1039/d2an02043b (abstract only).
 D. Engineering studies of 3.1.1 to 3.1.3 whose reading mode is not stated in the abstract: R08340 (10.3390/diagnostics16030395), R03985 (10.1016/j.aca.2021.338623), R03607 (10.2147/ijn.s281594), R02055 (10.1021/acs.bioconjchem.6b00523), R05768 (10.3390/pharmaceutics14112439), R03110 (10.1021/acsami.0c08628), R02505 (10.1002/jcla.22701), R07303 (10.1039/d4ra05277c), R01743 (10.3892/ijmm.2015.2333), R04920 (10.1016/j.bios.2022.114133). Send these after the first three groups.
+
+## Update 2026-11-10 (second group)
+Received and read: R06886, R07634, R02731, R08256. R02731 and R08256 re-included (default, reversible). Still needed: R07841 (10.1016/j.bios.2025.117699) and R06797 (10.1016/j.aca.2024.342241).
