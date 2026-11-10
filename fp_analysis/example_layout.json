@@ -1,0 +1,94 @@
+{
+  "_comment": "Edit well map to match the real plate. conc in ug/mL. 'blank' names the group whose per-channel mean is subtracted. 'exclude' lists contaminated wells. Wells whose total intensity deviates >25% from their group median are flagged and (drop_flagged true, default) left out of means and fits; set false to keep them.",
+  "g": null,
+  "drop_flagged": true,
+  "groups": [
+    {
+      "name": "buffer_blank",
+      "role": "blank",
+      "wells": "G7-G9"
+    },
+    {
+      "name": "V1",
+      "role": "sample",
+      "series": "bufA",
+      "conc": 0.0055,
+      "wells": "A1-A3",
+      "blank": "buffer_blank"
+    },
+    {
+      "name": "V2",
+      "role": "sample",
+      "series": "bufA",
+      "conc": 0.022,
+      "wells": "B1-B3",
+      "blank": "buffer_blank"
+    },
+    {
+      "name": "V3",
+      "role": "sample",
+      "series": "bufA",
+      "conc": 0.088,
+      "wells": "C1-C3",
+      "blank": "buffer_blank"
+    },
+    {
+      "name": "V4",
+      "role": "sample",
+      "series": "bufA",
+      "conc": 0.352,
+      "wells": "D1-D3",
+      "blank": "buffer_blank"
+    },
+    {
+      "name": "V5",
+      "role": "sample",
+      "series": "bufA",
+      "conc": 1.408,
+      "wells": "E1-E3",
+      "blank": "buffer_blank"
+    },
+    {
+      "name": "V6",
+      "role": "sample",
+      "series": "bufA",
+      "conc": 5.632,
+      "wells": "F1-F3",
+      "blank": "buffer_blank"
+    },
+    {
+      "name": "V7",
+      "role": "sample",
+      "series": "bufA",
+      "conc": 22.528,
+      "wells": "G1-G3",
+      "blank": "buffer_blank"
+    },
+    {
+      "name": "V8",
+      "role": "sample",
+      "series": "bufA",
+      "conc": 90.112,
+      "wells": "H1-H3",
+      "blank": "buffer_blank"
+    },
+    {
+      "name": "aptamer_alone",
+      "role": "free",
+      "series": "bufA",
+      "wells": "A5-A7",
+      "blank": "buffer_blank"
+    },
+    {
+      "name": "fluorescein",
+      "role": "reference",
+      "wells": "H5-H7",
+      "blank": "fl_diluent"
+    },
+    {
+      "name": "fl_diluent",
+      "role": "blank",
+      "wells": "H9-H11"
+    }
+  ]
+}
