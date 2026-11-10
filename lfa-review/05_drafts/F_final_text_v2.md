@@ -46,7 +46,7 @@ Cost: training data from one source, few tests with naive users on other phones,
 
 ## 3.6.5 Using the time of appearance as a signal
 
-Limit addressed: a positive/negative call hides information on viral load. Strategy: record how fast the line becomes visible. For SARS-CoV-2 antigen strips, the time to visible positivity predicted viral load: for the Roche antigen test a cut-off of 32 seconds gave sensitivity 94.9% and specificity 58.2% (AUC 0.82) (DOI: 10.5937/jomb0-35482); for COVID-VIRO ALL IN the positivisation time reached accuracy 93.7% for samples above 1500 TCID50/mL (DOI: PMID: 36605302 (no DOI recorded)); and in routine samples the positivisation time gave 0.84 sensitivity and 0.73 specificity for Ct below 20 (PMID: 36605302 (no DOI recorded)). The reading remains visual; the new information is the time.
+Limit addressed: a positive/negative call hides information on viral load. Strategy: record how fast the line becomes visible. For SARS-CoV-2 antigen strips, the time to visible positivity predicted viral load: for the Roche antigen test a cut-off of 32 seconds gave sensitivity 94.9% and specificity 58.2% (AUC 0.82) (DOI: 10.5937/jomb0-35482); for COVID-VIRO ALL IN the positivisation time reached accuracy 93.7% for samples above 1500 TCID50/mL (PMID: 36605302; no DOI recorded); and in routine samples the positivisation time gave 0.84 sensitivity and 0.73 specificity for Ct below 20 (DOI: 10.1515/cclm-2022-0873). The reading remains visual; the new information is the time.
 
 ## 3.6.6 What the evidence supports
 
