@@ -27,3 +27,6 @@ D. Engineering studies of 3.1.1 to 3.1.3 whose reading mode is not stated in the
 
 ## Update 2026-11-10 (second group)
 Received and read: R06886, R07634, R02731, R08256. R02731 and R08256 re-included (default, reversible). Still needed: R07841 (10.1016/j.bios.2025.117699) and R06797 (10.1016/j.aca.2024.342241).
+
+## Update 2026-11-11 (third group)
+Received and read: R07841, R06797, R06317, R05311, R08340. R07841 re-included. Remaining optional requests: R05924 (10.1039/d2an02043b), R06939 (10.1039/d4an00180j) and the supporting information of R05183, R06118, R06317.
