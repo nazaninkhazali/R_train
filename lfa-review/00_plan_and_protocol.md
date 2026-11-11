@@ -291,3 +291,5 @@ Full texts read: R07841, R06797, R06317 (re-read with tables), R05311 (re-read),
 
 ## Amendment 2026-11-11 (b): fourth group of full texts (engineering papers with unstated reading mode)
 Full texts read: R03985 (hydrazide oriented coupling, HBsAg), R03607 (EDTA-K2 plasma, SARS-CoV-2 IgM/IgG), R02055 (Zika NS1 protein corona, gold nanostars), R05768 (dengue NS1 preformed coronas), R03110 (probe aggregation, model pairs). Reading modes now stated for these records. Full-text records: 49 (a 30, b 7, c 7, d 3, e 1, f 1).
+
+Fifth group (2026-11-11): R07303 (hollow gold nanoparticles, HIV p24) read in full: about 2-fold higher sensitivity than the commercial Alere HIV-1/2 Ag/Ab Combo (LOD 0.02 ng/mL), read by eye and optical density. Full-text records: 50 (a 31). R02505, R01743, R04920, R05924 and R06939 could not be obtained by the author.
