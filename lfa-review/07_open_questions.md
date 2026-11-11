@@ -1,3 +1,6 @@
 
 ## REMINDER for the author (added 2026-11-10): full texts for records whose reading mode is not stated
 The abstracts of 144 abstract-only records in sections A-D (10 in B, 16 in C, 62 in D and 56 in A, counting the 26 gold-based records added to A) and 180 in section E (324 in total; full-text records are excluded from this count) describe a strip but do not say how it is read (by eye, or with a device). The author said this is very important and asked to be reminded later. Action when the author is ready: list these records (title, DOI) in batches so the author can supply full texts or run the summarising prompt (08_summary_prompt.md), then update the "How the signal is read" column and the section text. Remind the author at the end of each section rewrite and before the final assembly.
+
+## Update 2026-11-11: reading-mode reminder recount
+After the full texts received so far, abstract-only records with an unstated reading mode number 318 (A 50, B 10, C 16, D 62, E 180). Still to be sent when the author is ready.

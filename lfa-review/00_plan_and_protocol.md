@@ -288,3 +288,6 @@ Full texts read: R06886 (gold nanocrowns), R07634 (gold nanocages), R02731 (RPA7
 
 ## Amendment 2026-11-11: third group of full texts
 Full texts read: R07841, R06797, R06317 (re-read with tables), R05311 (re-read), R08340. R07841 re-included to section a (naked-eye LOD 1.0 x 10^2 TCID50/mL for PEDV, about 59-fold below a quoted traditional gold LFIA). R06317 discrepancy resolved (mAb sensitivity 90.04% at Ct <= 30 in Table 3, 83.33% across all positives in Table 2; LOD 0.4 vs 1.6 x 10^4 copies/mL). R05311 discrepancy remains (nanoshells in the legend, nanoparticles in the text). R06797 colour LOD 1 ng/mL about 100-fold below colloidal gold strips in the same study. R08340 kept as a development study (not E10). Counts: a 121, c 49, g 76. Full-text records: 44 (a 25, b 7, c 7, d 3, e 1, f 1).
+
+## Amendment 2026-11-11 (b): fourth group of full texts (engineering papers with unstated reading mode)
+Full texts read: R03985 (hydrazide oriented coupling, HBsAg), R03607 (EDTA-K2 plasma, SARS-CoV-2 IgM/IgG), R02055 (Zika NS1 protein corona, gold nanostars), R05768 (dengue NS1 preformed coronas), R03110 (probe aggregation, model pairs). Reading modes now stated for these records. Full-text records: 49 (a 30, b 7, c 7, d 3, e 1, f 1).
