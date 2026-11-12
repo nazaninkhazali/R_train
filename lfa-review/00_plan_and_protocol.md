@@ -299,3 +299,5 @@ Full texts read: R08261, R07970, R07743, R04615, R03509 (all Raman-tagged gold s
 
 ## Amendment 2026-11-12: seventh group of full texts (E3 re-check, first ten, part 2)
 Full texts read: R05349, R02597, R04296, R01811, R03979. Re-included to section a (colour channel only): R05349 (cysteamine gold-europium, H5N1; naked eye 10 vs 20 HAU/mL for commercial AuNP, 2-fold), R04296 (SARS-CoV-2 IgM/IgG; line visible at serum 1:100), R01811 (HIV-1 DNA hybridisation; naked eye 80 pg/mL), R03979 (West Nile virus NS1; visual 10 ng/mL). R02597 (H7N9 SERS strip) stays excluded: no naked-eye limit reported, only brown lines shown (reversible). Counts: a 130, c 49, g 76. Full-text records: 59 (a 40). Of the first ten, all received. Remaining gold-related records of the 54 (about seven) to be requested.
+
+Eighth group (2026-11-12): R02071 (KSHV DNA, SERS-LFA) and R07690 (digital SERS, SARS-CoV-2) read in full and re-included to section a; R08470 (E-SERS-LFA, HIV/HBV) read and kept excluded (own strip SERS only; visual limits belong to commercial control kits). Counts: a 132, c 49, g 76. Full-text records: 61 (a 42).
