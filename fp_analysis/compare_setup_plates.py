@@ -19,7 +19,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import fp_analysis as fp
 
 KEYS = ["lid lifter", "plate area", "gain manual", "gain optimal", "z-position [μm]", "z-position mode",
-        "g factor manual", "g factor calibrated", "temperature [°c]", "start time"]
+        "g factor manual", "g factor calibrated", "temperature [°c]", "start time",
+        "excitation wavelength [nm]", "excitation bandwidth [nm]", "emission wavelength [nm]", "emission bandwidth [nm]"]
 
 
 def wellmap(first):
