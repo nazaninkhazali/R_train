@@ -369,7 +369,7 @@ To characterise the aptamer candidates available for the four target viruses (No
 
 **Task 2.9 — Degradation versus matrix competition.** The binding signal of an intact aptamer is compared with that of an aptamer pre-incubated in stool, then purified, before the assay. This also tests H2.2. If degradation is the main cause, chemical modification (2'-fluoro, 2'-O-methyl) is evaluated.
 
-**Task 2.10 — ELASA in spiked stool, interference mapping and optimisation.** ELASA with spiked VLPs in stool for the four viruses. The effect of bile salts, bilirubin and proteins is mapped. Blocking agents and pre-treatments (BSA, casein, EDTA, Tween-20) are optimised. Inter-donor variability is assessed in at least three donors.
+**Task 2.10 — Binding in spiked stool, interference mapping and optimisation.** Aptamer binding to VLPs spiked into stool is measured for the four viruses, with the binding assay chosen for WP2 **[confirm]**. The effect of bile salts, bilirubin and proteins is mapped. Blocking agents and pre-treatments (BSA, casein, EDTA, Tween-20) are optimised. Inter-donor variability is assessed in at least three donors.
 
 **Task 2.11 — Validation on naturally positive samples.** Dot-blot and ELASA on the positive stool archived from WP1 (at least 5 to 10 positives per virus where available). This is the first contact of the aptamers with native virus in real stool.
 
