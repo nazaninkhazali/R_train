@@ -224,5 +224,5 @@ ggsave(file.path(out_dir, "kd_fit_buf2_full_series.png"), p, width = 8, height =
 ggsave(file.path(out_dir, "kd_fit_buf2_full_series.pdf"), p, width = 8, height = 5)
 write.csv(wells_df, file.path(out_dir, "kd_wells_mP.csv"), row.names = FALSE)
 write.csv(res, file.path(out_dir, "kd_fit_results.csv"), row.names = FALSE)
-print(p)
+if (interactive()) print(p)   # show in RStudio; under Rscript this would create a stray Rplots.pdf
 cat("\nSaved in", normalizePath(out_dir), ": kd_fit_buf2_full_series.png / .pdf, kd_wells_mP.csv, kd_fit_results.csv\n")
