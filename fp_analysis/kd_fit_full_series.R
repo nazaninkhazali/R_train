@@ -2,7 +2,7 @@
 # K_d from the Tecan Spark FP plate "Method_buf-2_full_series" (16 Nov 2026)
 #
 # Usage (from a terminal or RStudio's Terminal):
-#   Rscript kd_fit_full_series.R  <result.xlsx>  [output_folder]  [wells_to_exclude, e.g. B7,C2]
+#   Rscript kd_fit_full_series.R  <result.xlsx>  [output_folder]  [wells_to_exclude, e.g. B7,C2]  [aptamer_name]  [aptamer_nM]
 # or open it in RStudio, edit the SETTINGS block below, and press Source.
 #
 # Needs: readxl, ggplot2   (install.packages(c("readxl", "ggplot2")))
@@ -31,6 +31,9 @@ UG_TO_NM_VP1  <- 17.14   # 1 ug/mL VLP = 17.14 nM VP1 (VP1 = 58 kDa)
 exclude_wells <- if (length(args) >= 3 && nzchar(args[3])) strsplit(args[3], ",")[[1]] else character(0)  # wells to drop by hand (3rd argument)
 flag_tol      <- 0.25    # automatic flag: total intensity > 25 % from the replicate median
 n_boot        <- 2000    # bootstrap resamples
+apt_name      <- if (length(args) >= 4 && nzchar(args[4])) args[4] else "Buf-2"   # used in titles and file names
+apt_nM        <- if (length(args) >= 5 && nzchar(args[5])) as.numeric(args[5]) else 5
+assumed_window_mP <- 200  # used ONLY for a lower limit on K_d when no binding is seen (Buf-2 window was about 200 mP)
 
 # Plate map: VLP concentration (ug/mL), aptamer + VLP wells, and the matching VLP-only (blank) wells.
 # 2.3 is the planned concentration (the "2.1" in your description looked like a typo).
@@ -134,6 +137,18 @@ print(transform(stats, nM_VP1 = round(conc * UG_TO_NM_VP1), mP = round(mP, 1), s
                 net_total = round(net_total)), row.names = FALSE)
 free_mP <- stats$mP[stats$conc == 0]
 
+## ------------------------------ IS THERE BINDING? ----------------------------
+# Compare the top two VLP concentrations with aptamer alone, and look for a trend with log10(VLP).
+pos        <- use[use$conc > 0, ]
+trend      <- summary(lm(mP ~ log10(conc), data = pos))$coefficients["log10(conc)", ]
+top_mP     <- use$mP[use$conc %in% stats$conc[1:2]]
+free_all   <- use$mP[use$conc == 0]
+rise       <- mean(top_mP) - mean(free_all)
+rise_se    <- sqrt(var(top_mP) / length(top_mP) + var(free_all) / length(free_all))
+binding_detected <- rise > 20 && rise > 3 * rise_se
+cat(sprintf("\nBinding check: top two concentrations minus aptamer alone = %+.1f +/- %.1f mP (SE); slope = %+.1f mP per decade of VLP (p = %.2g)\n",
+            rise, rise_se, trend["Estimate"], trend["Pr(>|t|)"]))
+
 ## ------------------------------ FITS -----------------------------------------
 fit_model <- function(d, hill = FALSE) {
   start <- list(f = max(min(d$mP), 1), b = min(max(d$mP) * 1.1, 700), K = median(d$conc[d$conc > 0]))
@@ -156,73 +171,96 @@ summarise_fit <- function(fit, label) {
              hill_n = if ("n" %in% rownames(co)) co["n", "Estimate"] else NA_real_,
              residual_SD_mP = s$sigma)
 }
-fit1 <- fit_model(use)                  # 1:1 hyperbola
-fit2 <- tryCatch(fit_model(use, TRUE), error = function(e) NULL)
-res  <- summarise_fit(fit1, "1:1 hyperbola")
-if (!is.null(fit2)) res <- rbind(res, summarise_fit(fit2, "Hill"))
-
-# bootstrap: resample wells within each concentration, refit the 1:1 model
-set.seed(1)
-boot_K <- replicate(n_boot, {
-  dd <- do.call(rbind, lapply(split(use, use$conc), function(g) g[sample(nrow(g), replace = TRUE), ]))
-  f <- tryCatch(suppressWarnings(fit_model(dd)), error = function(e) NULL)
-  if (is.null(f)) NA_real_ else unname(coef(f)["K"])
-})
-bq <- quantile(boot_K, c(0.025, 0.5, 0.975), na.rm = TRUE)
+top <- stats$conc[1]; second <- stats$conc[2]
+res <- NULL; fit1 <- NULL
+if (binding_detected) {
+  fit1 <- fit_model(use)                  # 1:1 hyperbola
+  fit2 <- tryCatch(fit_model(use, TRUE), error = function(e) NULL)
+  res  <- summarise_fit(fit1, "1:1 hyperbola")
+  if (!is.null(fit2)) res <- rbind(res, summarise_fit(fit2, "Hill"))
+  # bootstrap: resample wells within each concentration, refit the 1:1 model
+  set.seed(1)
+  boot_K <- replicate(n_boot, {
+    dd <- do.call(rbind, lapply(split(use, use$conc), function(g) g[sample(nrow(g), replace = TRUE), ]))
+    f <- tryCatch(suppressWarnings(fit_model(dd)), error = function(e) NULL)
+    if (is.null(f)) NA_real_ else unname(coef(f)["K"])
+  })
+  bq <- quantile(boot_K, c(0.025, 0.5, 0.975), na.rm = TRUE)
+} else {
+  # 95 % upper bound on the polarization rise at the top concentration -> smallest K_d the data still allow
+  f_max   <- max(rise + 1.96 * rise_se, 1e-3) / assumed_window_mP
+  kd_min  <- top * (1 - f_max) / f_max
+  res <- data.frame(model = "no binding detected", Kd_ug_mL = NA, CI_low = kd_min, CI_high = NA,
+                    Kd_nM_VP1 = NA, free_mP = mean(free_all), bound_mP = NA, hill_n = NA, residual_SD_mP = NA)
+}
 
 ## ------------------------------ QUALITY CHECKS -------------------------------
-top <- stats$conc[1]; second <- stats$conc[2]
-dbl <- (stats$mP[1] - stats$mP[2]) / stats$mP[1] * 100
 f_p <- val(par_raw, well_names(fluor_wells)) - mean(val(par_raw, well_names(fluor_buffer_wells)))
 f_s <- val(perp_raw, well_names(fluor_wells)) - mean(val(perp_raw, well_names(fluor_buffer_wells)))
 cat("\n================ RESULT ================\n")
-res_print <- res; num <- sapply(res_print, is.numeric)
-res_print[num] <- lapply(res_print[num], round, 2)
-print(res_print, row.names = FALSE)
-cat(sprintf("\nBootstrap over wells (%d resamples): K_d median %.2f ug/mL, 95%% range %.2f - %.2f ug/mL (%.0f - %.0f nM VP1)\n",
-            n_boot, bq[2], bq[1], bq[3], bq[1] * UG_TO_NM_VP1, bq[3] * UG_TO_NM_VP1))
-cat(sprintf("\n>>> K_d (1:1 fit) = %.2f ug/mL = %.0f nM VP1   (95%% CI %.2f - %.2f ug/mL)\n",
-            res$Kd_ug_mL[1], res$Kd_nM_VP1[1], res$CI_low[1], res$CI_high[1]))
-cat("\nChecks:\n")
-cat(sprintf(" - plateau: going from %g to %g ug/mL changes mP by %.1f %% (want < 5 %%)\n", second, top, dbl))
-cat(sprintf(" - saturation at the top concentration: %.0f %% of the fitted curve\n", 100 * top / (res$Kd_ug_mL[1] + top)))
+if (binding_detected) {
+  dbl <- (stats$mP[1] - stats$mP[2]) / stats$mP[1] * 100
+  res_print <- res; num <- sapply(res_print, is.numeric)
+  res_print[num] <- lapply(res_print[num], round, 2)
+  print(res_print, row.names = FALSE)
+  cat(sprintf("\nBootstrap over wells (%d resamples): K_d median %.2f ug/mL, 95%% range %.2f - %.2f ug/mL (%.0f - %.0f nM VP1)\n",
+              n_boot, bq[2], bq[1], bq[3], bq[1] * UG_TO_NM_VP1, bq[3] * UG_TO_NM_VP1))
+  cat(sprintf("\n>>> K_d (1:1 fit) = %.2f ug/mL = %.0f nM VP1   (95%% CI %.2f - %.2f ug/mL)\n",
+              res$Kd_ug_mL[1], res$Kd_nM_VP1[1], res$CI_low[1], res$CI_high[1]))
+  cat("\nChecks:\n")
+  cat(sprintf(" - plateau: going from %g to %g ug/mL changes mP by %.1f %% (want < 5 %%)\n", second, top, dbl))
+  cat(sprintf(" - saturation at the top concentration: %.0f %% of the fitted curve\n", 100 * top / (res$Kd_ug_mL[1] + top)))
+  cat(sprintf(" - net total drops from %.0f (aptamer alone) to %.0f (top VLP): bound/free brightness ratio Q = %.2f;\n",
+              stats$net_total[stats$conc == 0], stats$net_total[1], stats$net_total[1] / stats$net_total[stats$conc == 0]))
+  cat("   if Q is well below 1 the plain fit overestimates K_d\n")
+} else {
+  cat(sprintf(">>> NO BINDING DETECTED: mP stays at the aptamer-alone level (%.0f mP) up to %g ug/mL VLP (%.0f nM VP1).\n",
+              mean(free_all), top, top * UG_TO_NM_VP1))
+  cat(sprintf(">>> A K_d cannot be calculated. Assuming a full window of %g mP, the data exclude a K_d below about %.0f ug/mL (%.0f nM VP1) at 95%% confidence.\n",
+              assumed_window_mP, res$CI_low[1], res$CI_low[1] * UG_TO_NM_VP1))
+  cat("    Check first: VLP genotype, binding buffer, aptamer folding/concentration; then test higher VLP.\n")
+  cat("\nChecks:\n")
+}
 cat(sprintf(" - signal over blank: mean net total / blank total = %.1f (low = noisy, expect larger without the lid)\n",
             mean(use$net_total[use$conc > 0]) / blank_total))
 cat(sprintf(" - fluorescein reference: %s mP at G = %.3f (expect ~20); G that would give 20 mP: %.3f\n",
             paste(round(mp_fun(f_p, f_s), 1), collapse = "/"), G_FACTOR, mean(1.0408 * f_s / f_p)))
-cat(sprintf(" - net total drops from %.0f (aptamer alone) to %.0f (top VLP): bound/free brightness ratio Q = %.2f;\n",
-            stats$net_total[stats$conc == 0], stats$net_total[1], stats$net_total[1] / stats$net_total[stats$conc == 0]))
-cat("   if Q is well below 1 the plain fit overestimates K_d (a Q-corrected fit gave ~35-55 nM VP1 in the Python analysis)\n")
 
 ## ------------------------------ LINE CHART -----------------------------------
-curve <- data.frame(conc = 10^seq(log10(min(use$conc[use$conc > 0]) * 0.7), log10(top * 1.3), length.out = 300))
-curve$mP <- predict(fit1, newdata = curve)
-kd <- res$Kd_ug_mL[1]
 p <- ggplot() +
   geom_hline(yintercept = free_mP, linetype = "dotted", colour = "grey30") +
-  annotate("text", x = max(curve$conc), y = free_mP, label = "aptamer alone (no VLP)", vjust = -0.6, hjust = 1, size = 3, colour = "grey30") +
-  geom_vline(xintercept = kd, linetype = "dashed", colour = "#B22222", linewidth = 0.4) +
+  annotate("text", x = top, y = free_mP, label = "aptamer alone (no VLP)", vjust = if (binding_detected) -0.6 else 2.2, hjust = 1, size = 3, colour = "grey30") +
   geom_point(data = subset(wells_df, !flagged & conc > 0), aes(conc, mP), colour = "grey55", size = 1.8, alpha = 0.7) +
   geom_point(data = subset(wells_df, flagged & conc > 0), aes(conc, mP), colour = "#B22222", shape = 4, size = 2.5) +
   geom_errorbar(data = subset(stats, conc > 0 & !is.na(sd)), aes(conc, ymin = mP - sd, ymax = mP + sd),
                 width = 0.06, colour = "#1F4E79") +
   geom_line(data = subset(stats, conc > 0), aes(conc, mP), colour = "#1F4E79", linewidth = 0.9) +
   geom_point(data = subset(stats, conc > 0), aes(conc, mP), colour = "#1F4E79", size = 2.6) +
-  geom_line(data = curve, aes(conc, mP), colour = "#B22222", linetype = "longdash", linewidth = 0.8) +
-  annotate("label", x = kd, y = max(stats$mP) * 0.35,
-           label = sprintf("K[d] == %.1f~mu*g/mL~(%.0f~nM~VP1)", kd, res$Kd_nM_VP1[1]), parse = TRUE,
-           size = 3.6, fill = "white", label.size = 0, hjust = -0.05) +
   scale_x_log10(breaks = c(0.2, 0.5, 1, 2, 5, 10, 20),
                 sec.axis = sec_axis(~ . * UG_TO_NM_VP1, name = "VLP (nM VP1)", breaks = c(5, 10, 20, 50, 100, 200, 500))) +
   labs(x = expression(paste("VLP (", mu, "g/mL)")), y = sprintf("Polarization (mP), G = %.2f", G_FACTOR),
-       title = "Buf-2 aptamer (5 nM) binding norovirus VLPs",
-       subtitle = "grey = single wells, blue line = mean +/- SD, red dashed = 1:1 fit, x = flagged well") +
+       title = sprintf("%s aptamer (%g nM) with norovirus VLPs", apt_name, apt_nM),
+       subtitle = if (binding_detected) "grey = single wells, blue line = mean +/- SD, red dashed = 1:1 fit, x = flagged well"
+                  else "grey = single wells, blue line = mean +/- SD, x = flagged well; no binding detected") +
   theme_bw(base_size = 12) + theme(panel.grid.minor = element_blank())
+if (binding_detected) {
+  curve <- data.frame(conc = 10^seq(log10(min(use$conc[use$conc > 0]) * 0.7), log10(top * 1.3), length.out = 300))
+  curve$mP <- predict(fit1, newdata = curve)
+  kd <- res$Kd_ug_mL[1]
+  p <- p + geom_vline(xintercept = kd, linetype = "dashed", colour = "#B22222", linewidth = 0.4) +
+    geom_line(data = curve, aes(conc, mP), colour = "#B22222", linetype = "longdash", linewidth = 0.8) +
+    annotate("label", x = kd, y = max(stats$mP) * 0.35,
+             label = sprintf("K[d] == %.1f~mu*g/mL~(%.0f~nM~VP1)", kd, res$Kd_nM_VP1[1]), parse = TRUE,
+             size = 3.6, fill = "white", label.size = 0, hjust = -0.05)
+} else {
+  p <- p + coord_cartesian(ylim = c(0, 300))   # same mP scale as a binding plate, so the flat line is easy to judge
+}
 
 dir.create(out_dir, showWarnings = FALSE, recursive = TRUE)
-ggsave(file.path(out_dir, "kd_fit_buf2_full_series.png"), p, width = 8, height = 5, dpi = 300)
-ggsave(file.path(out_dir, "kd_fit_buf2_full_series.pdf"), p, width = 8, height = 5)
+tag <- paste0("kd_fit_", gsub("[^A-Za-z0-9]+", "", tolower(apt_name)))
+ggsave(file.path(out_dir, paste0(tag, ".png")), p, width = 8, height = 5, dpi = 300)
+ggsave(file.path(out_dir, paste0(tag, ".pdf")), p, width = 8, height = 5)
 write.csv(wells_df, file.path(out_dir, "kd_wells_mP.csv"), row.names = FALSE)
 write.csv(res, file.path(out_dir, "kd_fit_results.csv"), row.names = FALSE)
 if (interactive()) print(p)   # show in RStudio; under Rscript this would create a stray Rplots.pdf
-cat("\nSaved in", normalizePath(out_dir), ": kd_fit_buf2_full_series.png / .pdf, kd_wells_mP.csv, kd_fit_results.csv\n")
+cat("\nSaved in", normalizePath(out_dir), ":", paste0(tag, ".png / .pdf"), ", kd_wells_mP.csv, kd_fit_results.csv\n")
