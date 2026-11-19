@@ -2,7 +2,7 @@
 # K_d from the Tecan Spark FP plate "Method_buf-2_full_series" (16 Nov 2026)
 #
 # Usage (from a terminal or RStudio's Terminal):
-#   Rscript kd_fit_full_series.R  <result.xlsx>  [output_folder]
+#   Rscript kd_fit_full_series.R  <result.xlsx>  [output_folder]  [wells_to_exclude, e.g. B7,C2]
 # or open it in RStudio, edit the SETTINGS block below, and press Source.
 #
 # Needs: readxl, ggplot2   (install.packages(c("readxl", "ggplot2")))
@@ -28,7 +28,7 @@ out_dir   <- if (length(args) >= 2) args[2] else "."
 G_FACTOR      <- 1.05    # G multiplies the PARALLEL channel (Spark convention). Your calibrations
                          # ranged 1.03-1.09; K_d does not depend on it, only the absolute mP does.
 UG_TO_NM_VP1  <- 17.14   # 1 ug/mL VLP = 17.14 nM VP1 (VP1 = 58 kDa)
-exclude_wells <- c("B7") # wells to drop by hand (B7 read ~2x brighter than its replicates)
+exclude_wells <- if (length(args) >= 3 && nzchar(args[3])) strsplit(args[3], ",")[[1]] else character(0)  # wells to drop by hand (3rd argument)
 flag_tol      <- 0.25    # automatic flag: total intensity > 25 % from the replicate median
 n_boot        <- 2000    # bootstrap resamples
 
