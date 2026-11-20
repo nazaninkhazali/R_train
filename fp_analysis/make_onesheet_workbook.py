@@ -414,7 +414,7 @@ def main():
 
     # ---------------- CHART ----------------
     r = wn + 3
-    band(r, "CHART - polarization against VLP concentration (grey = single wells, blue = mean +/- SD, red dashed = fitted curve)")
+    band(r, "CHART - polarization against VLP concentration: left in ug/mL, right in nM VP1 (grey = single wells, blue = mean +/- SD, red dashed = fitted curve, dotted red = K_d)")
     chart_row = r + 2
     # ---------------- WORKED EXAMPLE ----------------
     we = chart_row + 22
@@ -451,7 +451,7 @@ def main():
     sc = nend + 2
     band(sc, "STEP 4b - THE LEAST-SQUARES SCAN (241 trial K_d values; supports Step 4B)")
     box(sc + 1, "For each trial K_d (column B): f = c/(K_d + c) for every well; Sf, Sff, Sfy are weighted sums over the wells; amplitude and baseline follow from straight-line algebra; SSE is the leftover squared error. "
-                "The smallest SSE (column H) is the best K_d. Column I keeps the K_d values whose SSE is below the 95 % threshold; the smallest and largest of those are the interval. Columns L-O hold the chart data.", f_how, 46)
+                "The smallest SSE (column H) is the best K_d. Column I keeps the K_d values whose SSE is below the 95 % threshold; the smallest and largest of those are the interval. Columns L-S hold the chart data.", f_how, 46)
     ws.write(f"J{sc + 3}", "Smallest SSE", f_lab); put(f"K{sc + 3}", f"=MIN(H{sc + 6}:H{sc + 246})", n1)
     ws.write(f"J{sc + 4}", "SSE threshold (95%)", f_lab); put(f"K{sc + 4}", f"=K{sc + 3}*(1+FINV(0.05,1,FIT_N-3)/(FIT_N-3))", n1)
     THR = f"$K${sc + 4}"
@@ -474,30 +474,37 @@ def main():
     put(R["THR"], f"={THR}", n0); put(R["LO"], f"=MIN({SCI})", n2); put(R["HI"], f"=MAX({SCI})", n2)
     put(R["CHK"], f'=IF(AND({R["LO"]}>MIN({SCB})*1.05,{R["HI"]}<MAX({SCB})/1.05),"OK: interval inside the scan","Widen the scan")', f_bold)
     # chart data (L:O) next to the scan
-    ws.write_row(sc + 4, 11, ["Curve grid VLP", "Fitted mP", "K_d line x", "K_d line y"], f_h)
-    xs = np.geomspace(0.14, 40, 61)
+    ws.write_row(sc + 4, 11, ["Curve grid VLP (ug/mL)", "Fitted mP", "K_d line x (ug/mL)", "K_d line y", "", "Baseline x (ug/mL)", "Baseline y", "Curve grid VLP (nM VP1)"], f_h)
+    xs = np.geomspace(0.1, 100, 61)
     for i, x in enumerate(xs):
-        e = s0 + i; ws.write_number(f"L{e}", float(x), n3); put(f"M{e}", f"=A_BASE+B_AMP*L{e}/(K_BEST+L{e})", n1)
+        e = s0 + i; ws.write_number(f"L{e}", float(x), n3); put(f"M{e}", f"=A_BASE+B_AMP*L{e}/(K_BEST+L{e})", n1); put(f"S{e}", f"=L{e}*NM_PER_UG", n1)
     put(f"N{s0}", "=K_BEST", n2); ws.write_number(f"O{s0}", 0, n0); put(f"N{s0 + 1}", "=K_BEST", n2); ws.write_number(f"O{s0 + 1}", 320, n0)
-    ws.write_row(sc + 4, 16, ["Baseline x", "Baseline y"], f_h)
-    ws.write_number(f"Q{s0}", 0.14, n2); put(f"R{s0}", f"=E{g0r}", n1); ws.write_number(f"Q{s0 + 1}", 40, n2); put(f"R{s0 + 1}", f"=E{g0r}", n1)
+    ws.write_number(f"Q{s0}", 0.1, n2); put(f"R{s0}", f"=E{g0r}", n1); ws.write_number(f"Q{s0 + 1}", 100, n2); put(f"R{s0 + 1}", f"=E{g0r}", n1)
+    # same two reference lines in nM VP1
+    ws.write_row(sc + 4, 13 + 0, [], None)
+    put(f"N{s0 + 3}", f"=K_BEST*NM_PER_UG", n1); ws.write_number(f"O{s0 + 3}", 0, n0); put(f"N{s0 + 4}", f"=K_BEST*NM_PER_UG", n1); ws.write_number(f"O{s0 + 4}", 320, n0)
+    ws.write(f"N{s0 + 62}", "Rows 3-4 of columns N, O, Q, R above hold the same K_d and baseline reference lines in nM VP1 (for the right-hand chart).", f_note)
+    put(f"Q{s0 + 3}", "=1", n1); put(f"R{s0 + 3}", f"=E{g0r}", n1); put(f"Q{s0 + 4}", "=1000", n1); put(f"R{s0 + 4}", f"=E{g0r}", n1)
 
-    def make_chart(log):
+    def make_chart(unit):
+        nm = unit == "nM"
+        xc_w = "D" if nm else "C"; xc_g = "C" if nm else "B"; xc_c = "S" if nm else "L"
+        kd_r = (s0 + 3, s0 + 4) if nm else (s0, s0 + 1)
         ch = wb.add_chart({"type": "scatter", "subtype": "straight_with_markers"})
-        ch.add_series({"name": "single wells", "categories": f"={SH}!$C${w0 + 3}:$C${w1}", "values": f"={SH}!$L${w0 + 3}:$L${w1}", "line": {"none": True},
+        ch.add_series({"name": "single wells", "categories": f"={SH}!${xc_w}${w0 + 3}:${xc_w}${w1}", "values": f"={SH}!$L${w0 + 3}:$L${w1}", "line": {"none": True},
                        "marker": {"type": "circle", "size": 5, "fill": {"color": "#BFBFBF"}, "border": {"color": "#7F7F7F"}}})
-        ch.add_series({"name": "mean +/- SD", "categories": f"={SH}!$B${g0r + 1}:$B${g1r}", "values": f"={SH}!$E${g0r + 1}:$E${g1r}", "line": {"color": DARK, "width": 2.0},
+        ch.add_series({"name": "mean +/- SD", "categories": f"={SH}!${xc_g}${g0r + 1}:${xc_g}${g1r}", "values": f"={SH}!$E${g0r + 1}:$E${g1r}", "line": {"color": DARK, "width": 2.0},
                        "marker": {"type": "circle", "size": 7, "fill": {"color": DARK}, "border": {"color": DARK}},
                        "y_error_bars": {"type": "custom", "plus_values": f"={SH}!$F${g0r + 1}:$F${g1r}", "minus_values": f"={SH}!$F${g0r + 1}:$F${g1r}", "line": {"color": DARK}}})
-        ch.add_series({"name": "fitted curve", "categories": f"={SH}!$L${s0}:$L${s0 + 60}", "values": f"={SH}!$M${s0}:$M${s0 + 60}", "line": {"color": "#C00000", "width": 2.0, "dash_type": "dash"}, "marker": {"type": "none"}})
-        ch.add_series({"name": "K_d", "categories": f"={SH}!$N${s0}:$N${s0 + 1}", "values": f"={SH}!$O${s0}:$O${s0 + 1}", "line": {"color": "#C00000", "width": 1.0, "dash_type": "round_dot"}, "marker": {"type": "none"}})
-        ch.add_series({"name": "aptamer alone", "categories": f"={SH}!$Q${s0}:$Q${s0 + 1}", "values": f"={SH}!$R${s0}:$R${s0 + 1}", "line": {"color": "#595959", "width": 1.0, "dash_type": "square_dot"}, "marker": {"type": "none"}})
-        xa = {"name": "VLP concentration (ug/mL)", "min": 0.14 if log else 0, "max": 40 if log else 30, "major_gridlines": {"visible": True, "line": {"color": "#E7E6E6"}}}
-        if log: xa["log_base"] = 10
+        ch.add_series({"name": "fitted curve", "categories": f"={SH}!${xc_c}${s0}:${xc_c}${s0 + 60}", "values": f"={SH}!$M${s0}:$M${s0 + 60}", "line": {"color": "#C00000", "width": 2.0, "dash_type": "dash"}, "marker": {"type": "none"}})
+        ch.add_series({"name": "K_d", "categories": f"={SH}!$N${kd_r[0]}:$N${kd_r[1]}", "values": f"={SH}!$O${kd_r[0]}:$O${kd_r[1]}", "line": {"color": "#C00000", "width": 1.0, "dash_type": "round_dot"}, "marker": {"type": "none"}})
+        ch.add_series({"name": "aptamer alone", "categories": f"={SH}!$Q${kd_r[0]}:$Q${kd_r[1]}", "values": f"={SH}!$R${kd_r[0]}:$R${kd_r[1]}", "line": {"color": "#595959", "width": 1.0, "dash_type": "square_dot"}, "marker": {"type": "none"}})
+        xa = {"name": "VLP concentration (nM VP1)" if nm else "VLP concentration (ug/mL VLP protein)", "min": 1 if nm else 0.1, "max": 1000 if nm else 100, "log_base": 10,
+              "num_format": "0.#", "name_font": {"size": 11, "bold": True}, "major_gridlines": {"visible": True, "line": {"color": "#E7E6E6"}}, "minor_gridlines": {"visible": True, "line": {"color": "#F5F5F5"}}}
         ch.set_x_axis(xa); ch.set_y_axis({"name": "Polarization (mP)", "min": 0, "max": 320, "major_gridlines": {"visible": True, "line": {"color": "#E7E6E6"}}})
-        ch.set_title({"name": f"{a.label} + VLP ({'log' if log else 'linear'} x axis)", "name_font": {"size": 11}}); ch.set_legend({"position": "bottom"}); ch.set_size({"width": 640, "height": 400})
+        ch.set_title({"name": f"{a.label}: polarization vs VLP concentration ({'nM VP1' if nm else 'ug/mL'}, log scale)", "name_font": {"size": 11}}); ch.set_legend({"position": "bottom"}); ch.set_size({"width": 640, "height": 400})
         return ch
-    ws.insert_chart(f"A{chart_row}", make_chart(True), {"x_offset": 5, "y_offset": 5}); ws.insert_chart(f"H{chart_row}", make_chart(False), {"x_offset": 40, "y_offset": 5})
+    ws.insert_chart(f"A{chart_row}", make_chart("ug"), {"x_offset": 5, "y_offset": 5}); ws.insert_chart(f"H{chart_row}", make_chart("nM"), {"x_offset": 40, "y_offset": 5})
 
     # ---------------- HEADLINE (top) ----------------
     kv(HEAD + 1, "K_d (ug/mL VLP protein)", f"={KD_UG}", key2, None)
