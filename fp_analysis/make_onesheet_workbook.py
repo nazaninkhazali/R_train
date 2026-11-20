@@ -56,9 +56,12 @@ def main():
         gp = G0 * (PAR[w] - bp0); s = PERP[w] - bs0
         return 1000 * (gp - s) / (gp + s)
     cc, yy = [], []
-    for g in groups:
-        for w in wells(g["wells"]): cc.append(g["conc"]); yy.append(mp_of(w))
-    for w in free_w: cc.append(0.0); yy.append(mp_of(w))
+    def add_group(c_, ws_):   # same outlier rule as the sheet: gross total vs replicate median, 25 %
+        gt = [G0 * PAR[w] + 2 * PERP[w] for w in ws_]; med = float(np.median(gt))
+        for w, t_ in zip(ws_, gt):
+            if abs(t_ - med) <= 0.25 * med: cc.append(c_); yy.append(mp_of(w))
+    for g in groups: add_group(g["conc"], wells(g["wells"]))
+    add_group(0.0, free_w)
     cc, yy = np.array(cc), np.array(yy)
     hyp = lambda c, a_, b_, k: a_ + (b_ - a_) * c / (k + c)
     hill = lambda c, a_, b_, k, n: a_ + (b_ - a_) * c ** n / (k ** n + c ** n)
@@ -242,8 +245,8 @@ def main():
         for j, w in enumerate(free_w):
             put(f"{cn(4 + j)}{e}", f"=1000*(G_FACTOR*({cell_par(w)}-$C{e})-({cell_perp(w)}-$D{e}))/(G_FACTOR*({cell_par(w)}-$C{e})+({cell_perp(w)}-$D{e}))", n1)
         put(f"H{e}", f"=AVERAGE(E{e}:G{e})", n1)
-    ws.merge_range(f"I{cb + 2}:S{cb + 4}", "Reading it: the aptamer-alone wells contain the same buffer fractions as all other wells, so their correct blank is the VLP-only background. A buffer-only blank under-removes the background and "
-                   "raises the free baseline by ~12 mP, which makes the lowest VLP points look as if they fall BELOW the free baseline. That is an artefact of the blank choice, not of the data.", f_note)
+    ws.merge_range(f"I{cb + 2}:S{cb + 4}", "", f_note)
+    put(f"I{cb + 2}", f'="Reading it: the aptamer-alone wells contain the same buffer fractions as all other wells, so their correct blank is the VLP-only background. A buffer-only blank (row 2) under-removes the background and changes the free baseline by "&TEXT(H{cb + 3}-H{cb + 2},"+0.0;-0.0")&" mP, which can make the lowest VLP points look as if they fall below the free baseline. That would be an artefact of the blank choice, not of the data."', f_note)
 
     # ---------------- STEP 2: PER-WELL ----------------
     r = cb + 7
@@ -301,7 +304,7 @@ def main():
     r = g1r + 3
     band(r, "STEP 4 - FIND THE K_d: the VLP concentration at which half of the aptamer is bound")
     box(r + 1, "WHAT: the binding curve is mP = baseline + amplitude x c / (K_d + c). The K_d is the VLP concentration c at which the signal is halfway between the free baseline and the plateau. "
-               "Two ways: (A) BY HAND, find where the curve of the group means crosses the halfway line and interpolate on a log scale; (B) LEAST SQUARES, find the K_d whose curve is closest (smallest sum of squared residuals, SSE) to ALL 39 wells. "
+               "Two ways: (A) BY HAND, find where the curve of the group means crosses the halfway line and interpolate on a log scale; (B) LEAST SQUARES, find the K_d whose curve is closest (smallest sum of squared residuals, SSE) to ALL wells in use. "
                "WHY two: if they agree, the number does not depend on the method. For (B), for each trial K_d the best baseline and amplitude have a closed form (a straight-line fit of mP against c/(K_d + c)), so no Solver is needed: "
                "the table at the bottom of this sheet tries 241 K_d values and the smallest SSE wins. The 95 % interval is every K_d whose SSE is below SSE_min x (1 + F/df).", f_why, 98)
     box(r + 2, "FORMULAS: halfway = (baseline + plateau)/2  |  log10 K_d = log10 c1 + (halfway - mP1)/(mP2 - mP1) x (log10 c2 - log10 c1)  |  for each trial K_d: f = c/(K_d+c); amplitude = (Sfy - Sf Sy/n)/(Sff - Sf^2/n); "
@@ -376,7 +379,7 @@ def main():
     checks = [("Plateau test: change from 2nd-highest to highest VLP (%)", f"=(E{top1}-E{top2})/E{top1}*100", "0.0", 'IF(E{r}<5,"Pass",IF(E{r}<10,"Caution","Fail"))', "< 5 % = curve flat at the top"),
               ("Saturation at the highest VLP (% of the fitted curve)", f"=B{top1}/({R['K']}+B{top1})*100", "0", 'IF(E{r}>=90,"Pass",IF(E{r}>=80,"Caution","Fail"))', ">= 90 %"),
               ("Points on the rising part (fraction bound 0.2-0.8)", f'=COUNTIFS(L{g0r + 1}:L{g1r},">=0.2",L{g0r + 1}:L{g1r},"<=0.8")', "0", 'IF(E{r}>=4,"Pass",IF(E{r}>=3,"Caution","Fail"))', ">= 4 concentrations"),
-              ("Signal over blank (mean net total / blank total)", f"={sig}", "0.0", 'IF(E{r}>=3,"Pass",IF(E{r}>=2,"Caution","Fail"))', ">= 3; low values scatter more (lid on)"),
+              ("Signal over blank (mean net total / blank total)", f"={sig}", "0.0", 'IF(E{r}>=3,"Pass",IF(E{r}>=2,"Caution","Fail"))', ">= 3; low values scatter more"),
               ("SD of the aptamer-alone wells (mP)", f"=F{g0r}", "0.0", 'IF(E{r}<=8,"Pass",IF(E{r}<=12,"Caution","Fail"))', "<= 8 mP"),
               ("Typical SD of replicates (median of group SDs, mP)", f"=MEDIAN(F{g0r + 1}:F{g1r})", "0.0", 'IF(E{r}<=10,"Pass",IF(E{r}<=15,"Caution","Fail"))', "<= 10 mP"),
               ("Brightness ratio, highest VLP / aptamer alone (Q)", f"=J{top1}", "0.00", 'IF(E{r}>=0.8,"Pass",IF(E{r}>=0.6,"Caution","Fail"))', ">= 0.8; lower = plain K_d may be high"),
@@ -405,9 +408,8 @@ def main():
     FLG = e
     # what it shows
     wn = e + 2
-    ws.merge_range(f"A{wn}:S{wn + 1}", "WHAT THIS SHOWS / DOES NOT SHOW: a smooth, one-to-one-type binding curve (Hill n near 1) with a ~200 mP window and an apparent K_d near 2 ug/mL. It does NOT yet show that the binding is specific "
-                   "(no scrambled-aptamer, 50x unlabeled-competitor or off-target-VLP wells on this plate), that equilibrium was reached (no second read time), or that a second plate agrees. "
-                   "Bound aptamer is dimmer than free (Q well below 1), so the plain K_d may be slightly high; with the lid on, the signal is only ~1.6x the blank, so single wells scatter by 5-25 mP.", f_note)
+    ws.merge_range(f"A{wn}:S{wn + 1}", "", f_note)
+    put(f"A{wn}", f'="WHAT THIS SHOWS / DOES NOT SHOW: a binding curve with a window of about "&TEXT({R["PLAT"]}-{R["BASE"]},"0")&" mP and an apparent K_d of "&TEXT({R["K"]},"0.0")&" ug/mL (Hill n = "&TEXT(E{st0 + 2},"0.0")&"; near 1 = one-to-one-type). It does NOT yet show that the binding is specific (no scrambled-aptamer, 50x unlabeled-competitor or off-target-VLP wells on this plate), that equilibrium was reached (no second read time), or that a second plate agrees. Brightness ratio Q = "&TEXT(E{CHK0 + 6},"0.00")&" (well below 1 = bound aptamer dimmer than free, so the plain K_d may be slightly high); signal over blank = "&TEXT(E{CHK0 + 3},"0.0")&" (low values scatter single wells); typical replicate SD = "&TEXT(E{CHK0 + 5},"0")&" mP."', f_note)
     ws.set_row(wn - 1, 30); ws.set_row(wn, 30)
 
     # ---------------- CHART ----------------
@@ -440,7 +442,7 @@ def main():
     notes = ["Blank: the median of all 24 VLP-only wells is used for every well, including aptamer-alone wells (Step 1 shows no trend with VLP; the median ignores a contaminated well).",
              "G: the calibrated G from the file header; the export's 'Intensity (parallel)' table is already multiplied by G, but here G is applied once to the RAW counts.",
              "Replicates: B10-B12 (2.3 ug/mL) are used with their planned concentration; the plate description lists 2.1. G4-G6 are unspecified and unused. F7-F9 and G1-G3 are used only for the blank comparison.",
-             "The K_d is APPARENT (avidity: one VLP has many binding sites; VLP concentration is by protein mass, VP1 ~58 kDa). Hill and bootstrap results are static values from Python.",
+             "The K_d is APPARENT (avidity: one VLP has many binding sites; VLP concentration is by protein mass, VP1 ~58 kDa). Hill and bootstrap results are static values from Python; the Python reference excludes the same flagged wells.",
              "Missing controls: scrambled aptamer, 50x unlabeled competitor, off-target VLP, a second read time (30 vs 60 min) and a second plate."]
     for i, t in enumerate(notes): ws.merge_range(f"A{nt + 1 + i}:S{nt + 1 + i}", f"{i + 1}. {t}", f_labw)
     nend = nt + 1 + len(notes)
@@ -504,7 +506,7 @@ def main():
     ws.merge_range(f"F{HEAD + 2}:S{HEAD + 2}", "", f_note); put(f"F{HEAD + 2}", f'="interval "&TEXT(F{k0 + 1},"0")&" to "&TEXT(G{k0 + 1},"0")&" nM VP1;  "&TEXT(E{k0 + 3},"0.00")&" nM whole particles;  free baseline "&TEXT(E{g0r},"0")&" mP, plateau "&TEXT({R["PLAT"]},"0")&" mP"', f_note)
     ws.merge_range(f"A{HEAD + 3}:D{HEAD + 3}", "Checks passed / caution / failed", f_labw)
     put(f"E{HEAD + 3}", f'=COUNTIF(F{CHK0}:F{CHK0 + len(checks) - 1},"Pass")&" / "&COUNTIF(F{CHK0}:F{CHK0 + len(checks) - 1},"Caution")&" / "&COUNTIF(F{CHK0}:F{CHK0 + len(checks) - 1},"Fail")', f_bold)
-    ws.merge_range(f"F{HEAD + 3}:S{HEAD + 3}", "see Step 5; the weak points are low signal over blank (lid on) and a dimmer bound aptamer; no specificity controls yet", f_note)
+    ws.merge_range(f"F{HEAD + 3}:S{HEAD + 3}", "see Step 5 for which checks are Caution or Fail; no specificity controls on this plate", f_note)
     ws.freeze_panes(2, 0)
     wb.close()
     print("written", a.out)
