@@ -335,3 +335,5 @@ Section D full texts, second group (2026-11-21): R05533 (delayed LFIA, hydrophob
 Section D full texts, third group (2026-11-21): R02057 (magnetic barcode strip, potato virus X), R05235 (osmotic processor, SARS-CoV-2 N and hCG in urine), R05785 (non-powered preconcentrator, SARS-CoV-2) read in full; section d: 16 of 99 read in full. Findings: magnetic concentration lowers cut-offs 3.3- to 6-fold; osmotic processor concentrates about 100-fold from 10 mL, no numeric LOD in text read; non-powered preconcentrator more than 10-fold, tested on one diluted patient sample.
 
 Section D narrative (2026-11-21): 05_drafts/D_narrative_text_v1.md written as publication draft; tables updated for the 13 full-text papers read since the last draft (16 of 99 in full). Combined manuscript 3.1-3.4.
+
+Article body (2026-11-21): Sections 3.1-3.4 assembled as Sections 1-4 of one article body (no introduction, abstract or conclusion), cross-references renumbered, openers unified, closing bridges added; Tables A1a-D4 as supplementary tables. Files: 05_drafts/article_body_sections1-4_2026-11-21.md/.docx and article_sections1-4_with_supplementary_tables_2026-11-21.md/.docx.
